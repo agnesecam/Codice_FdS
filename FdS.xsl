@@ -20,7 +20,7 @@
 
     <xsl:template name="main" match="/">
         <xsl:result-document href="#body" method="ixsl:replace-content">
-                <p>Congratulations, your stylesheet ran!!!</p>
+                <p>Bene</p>
         </xsl:result-document>
     </xsl:template>
 </xsl:stylesheet>
