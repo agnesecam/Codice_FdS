@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+body {
+    font-family: 'Rubik', sans-serif;
+    padding: 30px 20px;
+    background-color: #f5ede3;
+    border: dotted white;
+}
+
+header {
+    background-color: #E5E0D5;
+    text-align: center;
+    padding: 3pt;
+    max-width: 70%;
+    margin: auto;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.select_idno {
+    text-align: center;
+    font-weight: bold;
+    padding: 0.5%;
+    background-color: white;
+    border-color: transparent;
+    border-bottom: 5px solid rgb(223, 218, 218);
+    border-radius: 5px;
+    
+}
