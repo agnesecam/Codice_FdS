@@ -44,28 +44,16 @@
                         </option>
                     </xsl:for-each>
                 </select>
-                <br/>
-                <button id="bottone">cliccami</button>
             </header>
         </xsl:result-document>
     </xsl:template>
 
 
     <!--Pop-up select-->
-    <xsl:template match="select" mode="ixsl:onchange">
+    <xsl:template match="h:select" mode="ixsl:onchange">
         <xsl:message>Arrivo fin qui!</xsl:message>
         <xsl:variable name="idno_selezionato" select="ixsl:get(ixsl:event(), 'target.value')"/>
         <xsl:sequence select="ixsl:call(ixsl:window(),
                     'alert', [concat('Visualizzazione di ', $idno_selezionato)])"/>
     </xsl:template>
-
-    <!--Message button premuto-->
-    <xsl:template mode="ixsl:onclick" match="button[@id='bottone']">
-        <xsl:message>Button clicked</xsl:message>
-    </xsl:template>
-
-
-
-
-
 </xsl:stylesheet>
