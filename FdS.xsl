@@ -12,6 +12,7 @@
     xmlns="http://www.w3.org/1999/xhtml" exclude-result-prefixes="h ixsl js saxon xs" version="3.0">
 
     <xsl:output method="html" html-version="5" encoding="utf-8" indent="no"/>
+    <xsl:mode on-no-match="shallow-copy"/>
 
     <!--INITIAL TEMPLATE-->
     <xsl:template name="xsl:initial-template">
@@ -33,7 +34,7 @@
                 <!--SELECT che permete di scegliere l'IDNO del manoscritto da visualizzare-->
                 <xsl:variable name="default" select="6"/>
                 <xsl:variable name="idnos" select="1, 2, 4, 6, 8"/>
-                <select id="select_idnos">                    <!--x-base mi serve per fare le proporzioni delle nuove quantità nel template r. 49-->
+                <select id="select_idnos">                   <!--x-base mi serve per fare le proporzioni delle nuove quantità nel template r. 49-->
                     <xsl:for-each select="$idnos">
                         <option value="{.}">
                             <xsl:if test=". = $default">
@@ -43,24 +44,28 @@
                         </option>
                     </xsl:for-each>
                 </select>
-
                 <br/>
-                <button>cliccami</button>
+                <button id="bottone">cliccami</button>
             </header>
         </xsl:result-document>
     </xsl:template>
 
+
     <!--Pop-up select-->
     <xsl:template match="select" mode="ixsl:onchange">
-        <xsl:message>OK</xsl:message>
+        <xsl:message>Arrivo fin qui!</xsl:message>
         <xsl:variable name="idno_selezionato" select="ixsl:get(ixsl:event(), 'target.value')"/>
         <xsl:sequence select="ixsl:call(ixsl:window(),
                     'alert', [concat('Visualizzazione di ', $idno_selezionato)])"/>
     </xsl:template>
 
-    <xsl:template match="button" mode="ixsl:onclick">
-        <xsl:message>OK</xsl:message>
-    
+    <!--Message button premuto-->
+    <xsl:template mode="ixsl:onclick" match="button[@id='bottone']">
+        <xsl:message>Button clicked</xsl:message>
     </xsl:template>
+
+
+
+
 
 </xsl:stylesheet>

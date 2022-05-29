@@ -13,6 +13,7 @@ header {
     padding: 3pt;
     max-width: 70%;
     margin: auto;
+    border: solid black;
     border-radius: 10px 10px 10px 10px;
 }
 
