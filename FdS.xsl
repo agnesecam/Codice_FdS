@@ -33,8 +33,8 @@
                 </h2>
                 <!--SELECT che permete di scegliere l'IDNO del manoscritto da visualizzare-->
                 <xsl:variable name="default" select="6"/>
-                <xsl:variable name="idnos" select="1, 2, 4, 6, 8"/>
-                <select id="select_idnos">                   <!--x-base mi serve per fare le proporzioni delle nuove quantità nel template r. 49-->
+                <xsl:variable name="idnos" select="1, 2, 4, 6, 8"/> <!--Da sostituire con IDNO dei manoscritti disponibili-->
+                <select id="select_idnos">
                     <xsl:for-each select="$idnos">
                         <option value="{.}">
                             <xsl:if test=". = $default">
@@ -49,11 +49,11 @@
     </xsl:template>
 
 
-    <!--Pop-up select-->
+    <!--Pop-up select + caricamento del documento XML in questione-->
     <xsl:template match="h:select" mode="ixsl:onchange">
-        <xsl:message>Arrivo fin qui!</xsl:message>
         <xsl:variable name="idno_selezionato" select="ixsl:get(ixsl:event(), 'target.value')"/>
         <xsl:sequence select="ixsl:call(ixsl:window(),
-                    'alert', [concat('Visualizzazione di ', $idno_selezionato)])"/>
+                    'alert', [concat('Hai scelto di visualizzare il manoscritto  ', $idno_selezionato)])"/>
+        
     </xsl:template>
 </xsl:stylesheet>
