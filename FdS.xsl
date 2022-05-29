@@ -21,30 +21,46 @@
     <!--MAIN TEMPLATE-->
     <xsl:template name="main" match="/">
         <xsl:result-document href="#body" method="ixsl:replace-content">
-                <header>
-                    <div>
-                        <h1 class="fr">
-                            <xsl:value-of select="//tei:titleStmt/tei:title[@type='main']" />
-                        </h1>
-                    </div>
-                    <h2>
-                        <xsl:value-of select="//tei:titleStmt/tei:author" />
-                    </h2>
-                    <h2>
-                    <!--Select per selezionare quale documento mostrare-->
-                        <!--Soluzione1:
-                            gli idno sono in una tabella o in una lista, collegati al proprio file in qualche modo
-                            selezionando un certo idno dalla select carico il file XML relativo
-                        -->
-                    <select name="select_idno" id="select_idno" class="select_idno">
-                        <option value="$IDNO[$i]">$IDNO[i]</option>
-                        <option value="$IDNO[$i]">$IDNO[i]</option>
-                        <option value="$IDNO[$i]">$IDNO[i]</option>
-                        <option value="$IDNO[$i]">$IDNO[i]</option>                    
-                    </select>
-                    
-                    </h2>
-                </header>
+            <header>
+                <div>
+                    <h1 class="fr">
+                        <xsl:value-of select="//tei:titleStmt/tei:title[@type='main']" />
+                    </h1>
+                </div>
+                <h2>
+                    <xsl:value-of select="//tei:titleStmt/tei:author" />
+                </h2>
+                <!--SELECT che permete di scegliere l'IDNO del manoscritto da visualizzare-->
+                <xsl:variable name="default" select="6"/>
+                <xsl:variable name="idnos" select="1, 2, 4, 6, 8"/>
+                <select id="select_idnos">                    <!--x-base mi serve per fare le proporzioni delle nuove quantità nel template r. 49-->
+                    <xsl:for-each select="$idnos">
+                        <option value="{.}">
+                            <xsl:if test=". = $default">
+                                <xsl:attribute name="selected" select="'selected'"/>
+                            </xsl:if>
+                            <xsl:sequence select="."/>
+                        </option>
+                    </xsl:for-each>
+                </select>
+
+                <br/>
+                <button>cliccami</button>
+            </header>
         </xsl:result-document>
     </xsl:template>
+
+    <!--Pop-up select-->
+    <xsl:template match="select" mode="ixsl:onchange">
+        <xsl:message>OK</xsl:message>
+        <xsl:variable name="idno_selezionato" select="ixsl:get(ixsl:event(), 'target.value')"/>
+        <xsl:sequence select="ixsl:call(ixsl:window(),
+                    'alert', [concat('Visualizzazione di ', $idno_selezionato)])"/>
+    </xsl:template>
+
+    <xsl:template match="button" mode="ixsl:onclick">
+        <xsl:message>OK</xsl:message>
+    
+    </xsl:template>
+
 </xsl:stylesheet>
