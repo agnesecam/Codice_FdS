@@ -31,29 +31,31 @@
                 <h2>
                     <xsl:value-of select="//tei:titleStmt/tei:author" />
                 </h2>
-                <!--SELECT che permete di scegliere l'IDNO del manoscritto da visualizzare-->
-                <xsl:variable name="default" select="6"/>
-                <xsl:variable name="idnos" select="1, 2, 4, 6, 8"/> <!--Da sostituire con IDNO dei manoscritti disponibili-->
-                <select id="select_idnos">
-                    <xsl:for-each select="$idnos">
-                        <option value="{.}">
-                            <xsl:if test=". = $default">
-                                <xsl:attribute name="selected" select="'selected'"/>
-                            </xsl:if>
-                            <xsl:sequence select="."/>
-                        </option>
-                    </xsl:for-each>
-                </select>
+                <!--SELECT che permette di scegliere l'IDNO del manoscritto da visualizzare-->
+                <div id="div_select_idnos">
+                    <xsl:text>Selezionare le pagine del manoscritto Ms. fr. 3951/1 da visualizzare:</xsl:text>
+                    <xsl:variable name="default" select="3"/><!--Da sostituire con IDNO dei manoscritti disponibili-->
+                    <xsl:variable name="idnos" select="1, 2, 3"/>
+                    <select id="select_idnos">
+                        <xsl:for-each select="$idnos">
+                            <option value="{.}">
+                                <xsl:if test=". = $default">
+                                    <xsl:attribute name="selected" select="'selected'"/>
+                                </xsl:if>
+                                <xsl:sequence select="."/>
+                            </option>
+                        </xsl:for-each>
+                    </select>
+                </div>
             </header>
-        </xsl:result-document>
-    </xsl:template>
+            </xsl:result-document>
+        </xsl:template>
 
 
-    <!--Pop-up select + caricamento del documento XML in questione-->
-    <xsl:template match="h:select" mode="ixsl:onchange">
-        <xsl:variable name="idno_selezionato" select="ixsl:get(ixsl:event(), 'target.value')"/>
-        <xsl:sequence select="ixsl:call(ixsl:window(),
+        <!--Pop-up select + caricamento del documento XML in questione-->
+        <xsl:template match="h:select" mode="ixsl:onchange">
+            <xsl:variable name="idno_selezionato" select="ixsl:get(ixsl:event(), 'target.value')"/>
+            <xsl:sequence select="ixsl:call(ixsl:window(),
                     'alert', [concat('Hai scelto di visualizzare il manoscritto  ', $idno_selezionato)])"/>
-        
-    </xsl:template>
-</xsl:stylesheet>
+        </xsl:template>
+    </xsl:stylesheet>
