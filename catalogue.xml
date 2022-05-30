@@ -1,0 +1,6 @@
+<collection stable="true">
+ <doc href="XML/MP1.xml"/>
+ <doc href="XML/MP2.xml"/>
+ <doc href="XML/MP3.xml"/>
+ <doc href="XML/MP4.xml"/>
+</collection>

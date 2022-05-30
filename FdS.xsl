@@ -33,9 +33,9 @@
                 </h2>
                 <!--SELECT che permette di scegliere l'IDNO del manoscritto da visualizzare-->
                 <div id="div_select_idnos">
-                    <xsl:text>Selezionare le pagine del manoscritto Ms. fr. 3951/1 da visualizzare:</xsl:text>
-                    <xsl:variable name="default" select="3"/><!--Da sostituire con IDNO dei manoscritti disponibili-->
-                    <xsl:variable name="idnos" select="1, 2, 3"/>
+                    <xsl:text>Selezionare le pagine del manoscritto Ms. fr. 3951/1 da visualizzare: </xsl:text>
+                    <xsl:variable name="default" select="1"/><!--Da sostituire con IDNO dei manoscritti disponibili-->
+                    <xsl:variable name="idnos" select="1 to 30"/>
                     <select id="select_idnos">
                         <xsl:for-each select="$idnos">
                             <option value="{.}">
@@ -46,6 +46,10 @@
                             </option>
                         </xsl:for-each>
                     </select>
+                    <!--TENTATIVO DI UTILIZZO DI COLLECTION PER TROVARE UNA GESTIONE DEL CARICAMENTO DEI DOCUMENTI XML-->
+                    <xsl:variable name="documents" select="collection('XML')"/>
+                    <xsl:message>Ho passato la collection: ecco i file al suo interno.</xsl:message>
+                    <xsl:message><xsl:copy-of select="$documents"/></xsl:message>
                 </div>
             </header>
             </xsl:result-document>
