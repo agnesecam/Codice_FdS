@@ -11,7 +11,6 @@ header {
     background-color: #FFFFFF;
     text-align: center;
     padding: 3pt;
-    max-width: 70%;
     margin: auto;
     border: solid black;
     border-radius: 10px 10px 10px 10px;
@@ -27,22 +26,10 @@ header {
     border-radius: 5px;   
 }
 
-nav li {
-    display: inline-block;
-    margin: 2%;
-    padding: 4px;
-    background: #E5E0D5;
-    border-radius: 5px;
-    font-weight: bold;
+footer {
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: auto;
+    border: solid black;
+    border-radius: 10px 10px 10px 10px;
 }
-
-nav li a {
-    color: #33261D;
-    text-decoration: none;
-}
-
-nav li:hover, nav li a:hover{
-    background-color:#33261D;
-    color: #E5E0D5;
-}
-

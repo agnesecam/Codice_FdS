@@ -24,7 +24,7 @@
         <xsl:result-document href="#body" method="ixsl:replace-content">
             <header>
                 <div>
-                    <h1 class="fr">
+                    <h1>
                         <xsl:value-of select="//tei:titleStmt/tei:title[@type='main']" />
                     </h1>
                 </div>
@@ -53,6 +53,19 @@
                     <!--<xsl:message><xsl:copy-of select="$documents"/></xsl:message>-->
                 </div>
             </header>
+
+            <footer>
+                <div id="footer_respStmt">
+                    <p>
+                        <b><xsl:copy-of select="//tei:titleStmt/tei:respStmt/tei:resp"/></b>
+                        <br/>
+                        <xsl:for-each select="//tei:titleStmt/tei:respStmt/tei:name">
+                            <xsl:copy-of select="."/>
+                            <xsl:text>, </xsl:text>
+                        </xsl:for-each>
+                    </p>
+                </div>
+            </footer>
             </xsl:result-document>
         </xsl:template>
 
