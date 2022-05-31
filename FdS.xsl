@@ -31,13 +31,13 @@
                 <h2>
                     <xsl:value-of select="//tei:titleStmt/tei:author" />
                 </h2>
-                <!--SELECT che permette di scegliere l'IDNO del manoscritto da visualizzare-->
-                <div id="div_select_idnos">
+                <!--SELECT che permette di scegliere la pagina del manoscritto da visualizzare-->
+                <div id="div_select_pages">
                     <xsl:text>Selezionare le pagine del manoscritto Ms. fr. 3951/1 da visualizzare: </xsl:text>
-                    <xsl:variable name="default" select="1"/><!--Da sostituire con IDNO dei manoscritti disponibili-->
-                    <xsl:variable name="idnos" select="1 to 30"/>
-                    <select id="select_idnos">
-                        <xsl:for-each select="$idnos">
+                    <xsl:variable name="default" select="1"/><!--Da sostituire con pagine dei manoscritti disponibili-->
+                    <xsl:variable name="pages" select="doc('http://127.0.0.1:5500/XML')"/>
+                    <select id="select_pages">
+                        <xsl:for-each select="$pages">
                             <option value="{.}">
                                 <xsl:if test=". = $default">
                                     <xsl:attribute name="selected" select="'selected'"/>
@@ -61,7 +61,7 @@
                         <br/>
                         <xsl:for-each select="//tei:titleStmt/tei:respStmt/tei:name">
                             <xsl:copy-of select="."/>
-                            <xsl:text>, </xsl:text>
+                            <xsl:text>, </xsl:text><!--//CORREGGI virgola con punto-->
                         </xsl:for-each>
                     </p>
                 </div>
@@ -72,8 +72,8 @@
 
         <!--Pop-up select + caricamento del documento XML in questione-->
         <xsl:template match="h:select" mode="ixsl:onchange">
-            <xsl:variable name="idno_selezionato" select="ixsl:get(ixsl:event(), 'target.value')"/>
+            <xsl:variable name="page_selezionato" select="ixsl:get(ixsl:event(), 'target.value')"/>
             <xsl:sequence select="ixsl:call(ixsl:window(),
-                    'alert', [concat('Hai scelto di visualizzare il manoscritto  ', $idno_selezionato)])"/>
+                    'alert', [concat('Hai scelto di visualizzare il manoscritto  ', $page_selezionato)])"/>
         </xsl:template>
     </xsl:stylesheet>
