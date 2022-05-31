@@ -48,7 +48,7 @@
                     </select>
                     <!--TENTATIVO DI UTILIZZO DI COLLECTION PER TROVARE UNA GESTIONE DEL CARICAMENTO DEI DOCUMENTI XML-->
                     <xsl:variable name="documents" select="collection('catalogue.xml')"/>
-                    <!--Unknown collection (no collectionFinder supplied)'-->
+                    <!--ERRORE: Unknown collection (no collectionFinder supplied)'-->
                     <xsl:message>Ho passato la collection: ecco i file al suo interno.</xsl:message>
                     <xsl:message><xsl:copy-of select="$documents"/></xsl:message>
                 </div>
