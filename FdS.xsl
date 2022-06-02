@@ -34,8 +34,10 @@
                 <!--SELECT che permette di scegliere la pagina del manoscritto da visualizzare-->
                 <div id="div_select_pages">
                     <xsl:text>Selezionare le pagine del manoscritto Ms. fr. 3951/1 da visualizzare: </xsl:text>
-                    <xsl:variable name="default" select="1"/><!--Da sostituire con pagine dei manoscritti disponibili-->
-                    <xsl:variable name="pages" select="doc('http://127.0.0.1:5500/XML')"/>
+                    <xsl:variable name="default" select="1"/>
+                    <!--Da sostituire con pagine dei manoscritti disponibili-->
+                    <xsl:variable name="N" select="16"/>
+                    <xsl:variable name="pages" select="1 to $N"/>
                     <select id="select_pages">
                         <xsl:for-each select="$pages">
                             <option value="{.}">
@@ -46,6 +48,8 @@
                             </option>
                         </xsl:for-each>
                     </select>
+
+
                     <!--TENTATIVO DI UTILIZZO DI COLLECTION PER TROVARE UNA GESTIONE DEL CARICAMENTO DEI DOCUMENTI XML-->
                     <!--<xsl:variable name="documents" select="collection('catalogue.xml')"/>-->
                     <!--ERRORE: Unknown collection (no collectionFinder supplied)'-->
@@ -57,23 +61,51 @@
             <footer>
                 <div id="footer_respStmt">
                     <p>
-                        <b><xsl:copy-of select="//tei:titleStmt/tei:respStmt/tei:resp"/></b>
+                        <b>
+                            <xsl:copy-of select="//tei:titleStmt/tei:respStmt/tei:resp"/>
+                        </b>
                         <br/>
                         <xsl:for-each select="//tei:titleStmt/tei:respStmt/tei:name">
                             <xsl:copy-of select="."/>
-                            <xsl:text>, </xsl:text><!--//CORREGGI virgola con punto-->
+                            <xsl:text>, </xsl:text>                            <!--//CORREGGI virgola con punto-->
                         </xsl:for-each>
                     </p>
                 </div>
             </footer>
-            </xsl:result-document>
-        </xsl:template>
+        </xsl:result-document>
+    </xsl:template>
 
 
-        <!--Pop-up select + caricamento del documento XML in questione-->
-        <xsl:template match="h:select" mode="ixsl:onchange">
-            <xsl:variable name="page_selezionato" select="ixsl:get(ixsl:event(), 'target.value')"/>
-            <xsl:sequence select="ixsl:call(ixsl:window(),
+    <!--Pop-up select + caricamento del documento XML in questione-->
+    <xsl:template match="h:select" mode="ixsl:onchange">
+        <xsl:variable name="page_selezionato" select="ixsl:get(ixsl:event(), 'target.value')"/>
+        <xsl:sequence select="ixsl:call(ixsl:window(),
                     'alert', [concat('Hai scelto di visualizzare il manoscritto  ', $page_selezionato)])"/>
-        </xsl:template>
-    </xsl:stylesheet>
+        <xsl:choose>
+            <xsl:when test="$page_selezionato = 1 or $page_selezionato = 2">
+                    ...
+            </xsl:when>
+            <xsl:when test="$page_selezionato = 3 or $page_selezionato = 4">
+                    ...
+            </xsl:when>
+            <xsl:when test="$page_selezionato = 5 or $page_selezionato = 6">
+                    ...
+            </xsl:when>
+            <xsl:when test="$page_selezionato = 7 or $page_selezionato = 8">
+                    ...
+            </xsl:when>
+            <xsl:when test="$page_selezionato = 9 or $page_selezionato = 10">
+                    ...
+            </xsl:when>
+            <xsl:when test="$page_selezionato = 11 or $page_selezionato = 12">
+                    ...
+            </xsl:when>
+            <xsl:when test="$page_selezionato = 13 or $page_selezionato = 14">
+                    ...
+            </xsl:when>            
+            <xsl:when test="$page_selezionato = 15 or $page_selezionato = 16">
+                    ...
+            </xsl:when>            
+        </xsl:choose>
+    </xsl:template>
+</xsl:stylesheet>
