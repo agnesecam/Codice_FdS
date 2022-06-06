@@ -35,10 +35,9 @@
                 <div id="div_select_pages">
                     <xsl:text>Selezionare le pagine del manoscritto Ms. fr. 3951/1 da visualizzare: </xsl:text>
                     <xsl:variable name="default" select="1"/>
-                    <!--Da sostituire con pagine dei manoscritti disponibili-->
-                    <xsl:variable name="N" select="16"/>
+                    <xsl:variable name="N" select="30"/>
                     <xsl:variable name="pages" select="1 to $N"/>
-                    <select id="select_pages">
+                    <select id="select_pages" onchange="select_pages()">
                         <xsl:for-each select="$pages">
                             <option value="{.}">
                                 <xsl:if test=". = $default">
@@ -78,34 +77,34 @@
 
     <!--Pop-up select + caricamento del documento XML in questione-->
     <xsl:template match="h:select" mode="ixsl:onchange">
-        <xsl:variable name="page_selezionato" select="ixsl:get(ixsl:event(), 'target.value')"/>
-        <xsl:sequence select="ixsl:call(ixsl:window(),
-                    'alert', [concat('Hai scelto di visualizzare il manoscritto  ', $page_selezionato)])"/>
+        <xsl:variable name="p_selezionata" select="ixsl:get(ixsl:event(), 'target.value')"/>
+       <!-- <xsl:sequence select="ixsl:call(ixsl:window(),
+                    'alert', [concat('Hai scelto di visualizzare il manoscritto  ', $p_selezionata)])"/>-->
         <xsl:choose>
-            <xsl:when test="$page_selezionato = 1 or $page_selezionato = 2">
+            <xsl:when test="$p_selezionata = 1 or $p_selezionata = 2">
+                
+            </xsl:when>
+            <xsl:when test="$p_selezionata = 3 or $p_selezionata = 4">
                     ...
             </xsl:when>
-            <xsl:when test="$page_selezionato = 3 or $page_selezionato = 4">
+            <xsl:when test="$p_selezionata = 5 or $p_selezionata = 6">
                     ...
             </xsl:when>
-            <xsl:when test="$page_selezionato = 5 or $page_selezionato = 6">
+            <xsl:when test="$p_selezionata = 7 or $p_selezionata = 8">
                     ...
             </xsl:when>
-            <xsl:when test="$page_selezionato = 7 or $page_selezionato = 8">
+            <xsl:when test="$p_selezionata = 9 or $p_selezionata = 10">
                     ...
             </xsl:when>
-            <xsl:when test="$page_selezionato = 9 or $page_selezionato = 10">
+            <xsl:when test="$p_selezionata = 11 or $p_selezionata = 12">
                     ...
             </xsl:when>
-            <xsl:when test="$page_selezionato = 11 or $page_selezionato = 12">
+            <xsl:when test="$p_selezionata = 13 or $p_selezionata = 14">
                     ...
             </xsl:when>
-            <xsl:when test="$page_selezionato = 13 or $page_selezionato = 14">
+            <xsl:when test="$p_selezionata = 15 or $p_selezionata = 16">
                     ...
-            </xsl:when>            
-            <xsl:when test="$page_selezionato = 15 or $page_selezionato = 16">
-                    ...
-            </xsl:when>            
+            </xsl:when>
         </xsl:choose>
     </xsl:template>
 </xsl:stylesheet>
