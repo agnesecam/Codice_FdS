@@ -33,12 +33,15 @@
                 </h2>
                 <!--SELECT che permette di scegliere la pagina del manoscritto da visualizzare-->
                 <div id="div_select_pages">
-                    <xsl:text>Selezionare le pagine del manoscritto Ms. fr. 3951/1 da visualizzare: </xsl:text>
+                    <xsl:text>Prolusioni 1 - Ms. fr. 3951/1</xsl:text><br/>
+                    <xsl:variable name="default" select="6"/>
                     <xsl:variable name="N" select="30"/>
                     <xsl:variable name="pages" select="1 to $N"/>
                     <select id="select_pages" onchange="select_pages()">
+                        <option value="">Seleziona una pagina da visualizzare</option>
                         <xsl:for-each select="$pages">
                             <option value="{.}">
+
                                 <xsl:sequence select="."/>
                             </option>
                         </xsl:for-each>

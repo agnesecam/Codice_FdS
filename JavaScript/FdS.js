@@ -1,11 +1,12 @@
 window.onload = function testOne(){
     SaxonJS.transform({
         stylesheetLocation: "../FdS.sef.json",
-        //sourceLocation: "../XML/MP1.xml"
         sourceLocation: "../MP.xml"
-    }, "async")}
+    }, "async")
+}
 
-function select_pages(){
+    /*SELECT PAGE*/
+    function select_pages(){
     var p_selezionata = document.getElementById("select_pages").value;
     var add_p;
     switch (p_selezionata) {
@@ -72,10 +73,11 @@ function select_pages(){
         default:
             add_p = "1-2";
     }
-
     file_input_XML = "Prolusioni1_" + add_p + ".xml";
     console.log("Hai selezionato la pagina " + p_selezionata + ". Il file corrispondente è " + file_input_XML);
     SaxonJS.transform({
         stylesheetLocation: "../FdS.sef.json",
         sourceLocation: "../XML/" + file_input_XML
-    }, "async")}
+    }, "async")
+}
+    
