@@ -33,7 +33,8 @@
                 </h2>
                 <!--SELECT che permette di scegliere la pagina del manoscritto da visualizzare-->
                 <div id="div_select_pages">
-                    <xsl:text>Prolusioni 1 - Ms. fr. 3951/1</xsl:text><br/>
+                    <xsl:text>Prolusioni 1 - Ms. fr. 3951/1</xsl:text>
+                    <br/>
                     <xsl:variable name="default" select="6"/>
                     <xsl:variable name="N" select="30"/>
                     <xsl:variable name="pages" select="1 to $N"/>
@@ -56,8 +57,16 @@
                         </b>
                         <br/>
                         <xsl:for-each select="//tei:titleStmt/tei:respStmt/tei:name">
-                            <xsl:copy-of select="."/>
-                            <xsl:text>, </xsl:text>                            <!--//CORREGGI virgola con punto-->
+                            <xsl:choose>
+                                <xsl:when test="position() = 1 or position() = 2">
+                                    <xsl:copy-of select="."/>
+                                    <xsl:text>, </xsl:text>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:copy-of select="."/>
+                                    <xsl:text>. </xsl:text>
+                                </xsl:otherwise>
+                            </xsl:choose>
                         </xsl:for-each>
                     </p>
                 </div>
