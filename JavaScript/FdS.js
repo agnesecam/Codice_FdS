@@ -72,8 +72,10 @@ function select_pages(){
         default:
             add_p = "1-2";
     }
-    console.log("Hai selezionato la pagina " + p_selezionata + ". Il file corrispondente è MP" + add_p + ".xml");
+
+    file_input_XML = "Prolusioni1_" + add_p + ".xml";
+    console.log("Hai selezionato la pagina " + p_selezionata + ". Il file corrispondente è " + file_input_XML);
     SaxonJS.transform({
         stylesheetLocation: "../FdS.sef.json",
-        sourceLocation: "../XML/MP1.xml"
+        sourceLocation: "../XML/" + file_input_XML
     }, "async")}
