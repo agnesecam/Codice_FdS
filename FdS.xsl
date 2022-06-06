@@ -73,38 +73,4 @@
             </footer>
         </xsl:result-document>
     </xsl:template>
-
-
-    <!--Pop-up select + caricamento del documento XML in questione-->
-    <xsl:template match="h:select" mode="ixsl:onchange">
-        <xsl:variable name="p_selezionata" select="ixsl:get(ixsl:event(), 'target.value')"/>
-       <!-- <xsl:sequence select="ixsl:call(ixsl:window(),
-                    'alert', [concat('Hai scelto di visualizzare il manoscritto  ', $p_selezionata)])"/>-->
-        <xsl:choose>
-            <xsl:when test="$p_selezionata = 1 or $p_selezionata = 2">
-                
-            </xsl:when>
-            <xsl:when test="$p_selezionata = 3 or $p_selezionata = 4">
-                    ...
-            </xsl:when>
-            <xsl:when test="$p_selezionata = 5 or $p_selezionata = 6">
-                    ...
-            </xsl:when>
-            <xsl:when test="$p_selezionata = 7 or $p_selezionata = 8">
-                    ...
-            </xsl:when>
-            <xsl:when test="$p_selezionata = 9 or $p_selezionata = 10">
-                    ...
-            </xsl:when>
-            <xsl:when test="$p_selezionata = 11 or $p_selezionata = 12">
-                    ...
-            </xsl:when>
-            <xsl:when test="$p_selezionata = 13 or $p_selezionata = 14">
-                    ...
-            </xsl:when>
-            <xsl:when test="$p_selezionata = 15 or $p_selezionata = 16">
-                    ...
-            </xsl:when>
-        </xsl:choose>
-    </xsl:template>
 </xsl:stylesheet>
