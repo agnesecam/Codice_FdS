@@ -38,10 +38,9 @@
                     <xsl:variable name="N" select="30"/>
                     <xsl:variable name="pages" select="1 to $N"/>
                     <select id="select_pages" onchange="select_pages()">
-                        <option value="">Seleziona una pagina da visualizzare</option>
+                        <option value="">Seleziona una pagina</option>
                         <xsl:for-each select="$pages">
                             <option value="{.}">
-
                                 <xsl:sequence select="."/>
                             </option>
                         </xsl:for-each>
