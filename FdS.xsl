@@ -33,13 +33,13 @@
                 </h2>
                 <!--SELECT che permette di scegliere la pagina del manoscritto da visualizzare-->
                 <div id="div_select_pages">
-                    <xsl:text>Prolusioni 1 - Ms. fr. 3951/1</xsl:text>
+                    <xsl:copy-of select="//tei:msIdentifier/tei:idno"/>
                     <br/>
                     <xsl:variable name="default" select="6"/>
                     <xsl:variable name="N" select="30"/>
                     <xsl:variable name="pages" select="1 to $N"/>
                     <select id="select_pages" onchange="select_pages()">
-                        <option value="">Seleziona una pagina</option>
+                        <option value="">Page to show:</option>
                         <xsl:for-each select="$pages">
                             <option value="{.}">
                                 <xsl:sequence select="."/>
@@ -53,18 +53,36 @@
                 <div id="footer_respStmt">
                     <p>
                         <b>
-                            <xsl:copy-of select="//tei:titleStmt/tei:respStmt/tei:resp"/>
+                            <xsl:copy-of select="//tei:editionStmt/tei:respStmt[1]/tei:resp"/>
                         </b>
                         <br/>
-                        <xsl:for-each select="//tei:titleStmt/tei:respStmt/tei:name">
+                        <xsl:for-each select="//tei:editionStmt/tei:respStmt[1]/tei:name">
                             <xsl:choose>
-                                <xsl:when test="position() = 1 or position() = 2">
+                                <xsl:when test="position() = last()">
                                     <xsl:copy-of select="."/>
-                                    <xsl:text>, </xsl:text>
+                                    <xsl:text>. </xsl:text>
                                 </xsl:when>
                                 <xsl:otherwise>
                                     <xsl:copy-of select="."/>
+                                    <xsl:text>, </xsl:text>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:for-each>
+                    </p>
+                    <p>
+                        <b>
+                            <xsl:copy-of select="//tei:editionStmt/tei:respStmt[2]/tei:resp"/>
+                        </b>
+                        <br/>
+                        <xsl:for-each select="//tei:editionStmt/tei:respStmt[2]/tei:name">
+                            <xsl:choose>
+                                <xsl:when test="position() = last()">
+                                    <xsl:copy-of select="."/>
                                     <xsl:text>. </xsl:text>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:copy-of select="."/>
+                                    <xsl:text>, </xsl:text>
                                 </xsl:otherwise>
                             </xsl:choose>
                         </xsl:for-each>

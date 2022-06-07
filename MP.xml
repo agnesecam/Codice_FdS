@@ -20,7 +20,7 @@
 
             <editionStmt>
                 <edition n="DigitalEdition">Digital edition
-                    <date when="2021-05"> February 2022 </date>
+                    <date when="2021-06"> June 2022 </date>
                 </edition>
                 <respStmt>
                     <resp>Digital edition project coordinated by</resp>
@@ -64,12 +64,12 @@
                         <settlement>Genève</settlement>
                         <institution>Bibliothèque de Genève</institution>
                         <repository role="library" ref="http://institutions.ville-geneve.ch/fr/bge/">Bibliothèque de Genève</repository>                        <!--*5*-->
-                        <!--<collection>Archives Ferdinand de Saussure</collection>-->
-                        <collection>
+                        <collection>Archives Ferdinand de Saussure</collection>
+                        <!--<collection>
                             <doc href="XML/MP1.xml"/>
                             <doc href="XML/MP2.xml"/>
                             <doc href="XML/MP3.xml"/>
-                        </collection>
+                        </collection>-->
                         <idno type="inventory">Ms. fr. 3951/1</idno>                        <!--*4*-->
                         <altIdentifier type="inventory">
                             <idno>17786/vtae78f994bf3242bef</idno>
