@@ -52,10 +52,9 @@
             <footer>
                 <div id="footer_respStmt">
                     <p>
-                        <b>
+                        <h3>
                             <xsl:copy-of select="//tei:editionStmt/tei:respStmt[1]/tei:resp"/>
-                        </b>
-                        <br/>
+                        </h3>
                         <xsl:for-each select="//tei:editionStmt/tei:respStmt[1]/tei:name">
                             <xsl:choose>
                                 <xsl:when test="position() = last()">
@@ -70,10 +69,9 @@
                         </xsl:for-each>
                     </p>
                     <p>
-                        <b>
+                        <h3>
                             <xsl:copy-of select="//tei:editionStmt/tei:respStmt[2]/tei:resp"/>
-                        </b>
-                        <br/>
+                        </h3>
                         <xsl:for-each select="//tei:editionStmt/tei:respStmt[2]/tei:name">
                             <xsl:choose>
                                 <xsl:when test="position() = last()">
