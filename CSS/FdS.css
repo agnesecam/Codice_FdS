@@ -28,8 +28,13 @@ header {
 
 footer {
     background-color: #FFFFFF;
-    text-align: center;
     margin: auto;
     border: solid black;
     border-radius: 10px 10px 10px 10px;
+}
+
+footer div {
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
 }
