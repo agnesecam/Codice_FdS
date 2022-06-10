@@ -49,11 +49,18 @@
                 </div>
             </header>
 
+            <div id="corpo">
+                <div id="immagine">
+                    
+                </div>
+            </div>
+
+
             <footer>
                 <div id="footer_respStmt">
                     <p>
                         <b>
-                            <xsl:copy-of select="//tei:editionStmt/tei:respStmt[1]/tei:resp"/>:
+                            <xsl:copy-of select="//tei:editionStmt/tei:respStmt[1]/tei:resp"/>:<br/>
                         </b>
                         <xsl:for-each select="//tei:editionStmt/tei:respStmt[1]/tei:name">
                             <xsl:choose>
@@ -66,11 +73,15 @@
                                     <xsl:text>, </xsl:text>
                                 </xsl:otherwise>
                             </xsl:choose>
+                            <!--Per avere un elenco di nomi-->
+                            <!--<ul>
+                                <li> <xsl:copy-of select="."/></li>
+                            </ul>-->
                         </xsl:for-each>
                     </p>
                     <p>
                         <b>
-                            <xsl:copy-of select="//tei:editionStmt/tei:respStmt[2]/tei:resp"/>:
+                            <xsl:copy-of select="//tei:editionStmt/tei:respStmt[2]/tei:resp"/>:<br/>
                         </b>
                         <xsl:for-each select="//tei:editionStmt/tei:respStmt[2]/tei:name">
                             <xsl:choose>
