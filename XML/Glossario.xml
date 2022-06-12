@@ -51,15 +51,32 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
+
     <text>
-        <front>
-            <docTitle>
-                <titlePart>Autumn Haze</titlePart>
-            </docTitle>
-        </front>
         <body>
-            <l>Is it a dragonfly or a maple leaf</l>
-            <l>That settles softly down upon the water?</l>
+            <entry>
+                <form>
+                    <orth>Accidentel</orth>
+                    <pron>...</pron>
+                </form>
+                <gramGrp>
+                    <pos>adj</pos>
+                </gramGrp>
+                <sense n="1">
+                    <def>
+                        che si produce per circostanze occasionali e contingenti (v. contingent),
+                        in particolare concerne la realtà dei fatti linguistici
+                    </def>
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            plus on étudie la langue, plus on arrive à se pénétrer de ce fait que tout dans
+                            la langue est histoire, c’est-à-dire qu’elle est un objet d’analyse historique, et non d’analyse abstraite,
+                            qu’elle se compose de faits, et non de lois, que tout ce qui semble organique dans le langage est en réalité
+                            contingent et complètement accidentel.
+                        </quote>
+                    </cit>
+                </sense>
+            </entry>
         </body>
     </text>
 </TEI>
