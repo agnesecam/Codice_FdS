@@ -64,7 +64,7 @@
                 </gramGrp>
                 <sense n="1">
                     <def>
-                        che si produce per circostanze occasionali e contingenti (<ref>v. contingent<ptr target="#contingent"/></ref>), in particolare concerne la realtà dei fatti linguistici;
+                        che si produce per circostanze occasionali e contingenti (<ref type="see">v. contingent<ptr target="#contingent"/></ref>), in particolare concerne la realtà dei fatti linguistici;
                     </def>
                     <cit type="example">
                         <quote xml:lang="fr">
@@ -82,8 +82,8 @@
                             <biblScope unit="page">p. 149</biblScope>
                         </bibl>
                     </cit>
-                    <xr>Sin. contingent<ptr target="#contingent"/></xr>
-                    <xr>Cfr. langue<ptr target="#langue"/></xr>
+                    <xr type="synonim">Sin. contingent<ptr target="#contingent"/></xr>
+                    <xr type="compare">Cfr. langue<ptr target="#langue"/></xr>
                 </sense>
             </entry>
         </body>
