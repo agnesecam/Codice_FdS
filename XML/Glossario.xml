@@ -54,11 +54,11 @@
 
     <text>
         <body>
+        
             <entry xml:id="accidentel">
                 <form>
                     <orth>Accidentel</orth>
                 </form>
-                
                 <gramGrp>
                     <pos>adj</pos>
                 </gramGrp>
@@ -86,6 +86,7 @@
                     <xr type="compare">Cfr. langue<ptr target="#langue"/></xr>
                 </sense>
             </entry>
+
         </body>
     </text>
 </TEI>
