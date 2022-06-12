@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei-all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Una raccolta terminologica saussuriana</title>
+                <title type="sub">1891 Prolusioni ginevrine</title>
+                <author ref="#GC" role="author">Giuseppe Cosenza</author>
+            </titleStmt>
+
+            <editionStmt>
+                <edition n="DigitalEdition">Digital edition
+                    <date when="2022-06"> June 2022 </date>
+                </edition>
+                <respStmt>
+                    <resp>Edizione digitale a cura di:</resp>
+                    <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                    <name ref="#AC">Agnese Camici</name>
+                    <name ref="#SP">Silvia Piccini</name>
+                    <name ref="#GC">Giuseppe Cosenza</name>
+                </respStmt>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher> xxx </publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/xxx/"> xxx </licence>
+                </availability>
+                <date when="2022">2022</date>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>xxx</settlement>
+                        <institution>xxx</institution>
+                        <idno type="ISBN">978-88-6274-728-8</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author xml:lang="it" ref="#GC">Giuseppe Cosenza</author>
+                            <title xml:lang="it" type="main">Una raccolta terminologica saussuriana</title>
+                            <title type="sub">1891 Prolusioni ginevrine</title>
+                            <textLang mainLang="it">Italiano</textLang>
+                        </msItem>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <docTitle>
+                <titlePart>Autumn Haze</titlePart>
+            </docTitle>
+        </front>
+        <body>
+            <l>Is it a dragonfly or a maple leaf</l>
+            <l>That settles softly down upon the water?</l>
+        </body>
+    </text>
+</TEI>
