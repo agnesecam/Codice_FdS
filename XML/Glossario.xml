@@ -54,16 +54,17 @@
 
     <text>
         <body>
-            <entry>
+            <entry xml:id="accidentel">
                 <form>
                     <orth>Accidentel</orth>
                 </form>
+                
                 <gramGrp>
                     <pos>adj</pos>
                 </gramGrp>
                 <sense n="1">
                     <def>
-                        che si produce per circostanze occasionali e contingenti (v. contingent), in particolare concerne la realtà dei fatti linguistici
+                        che si produce per circostanze occasionali e contingenti (<ref>v. contingent<ptr target="#contingent"/></ref>), in particolare concerne la realtà dei fatti linguistici;
                     </def>
                     <cit type="example">
                         <quote xml:lang="fr">
@@ -75,9 +76,14 @@
                             <title>Écrits de linguistique générale</title>
                             <author>Simon Bouquet</author>
                             <author>Rudolf Engler</author>
-                            INSERISCI EDIZIONI E COSE SIMILI
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
                             <biblScope unit="page">p. 149</biblScope>
+                        </bibl>
                     </cit>
+                    <xr> Sin. contingent<ptr target="#contingent"/></xr>
+                    <xr> Cfr. langue<ptr target="#langue"/></xr>
                 </sense>
             </entry>
         </body>
