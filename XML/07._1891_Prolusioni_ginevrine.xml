@@ -62,16 +62,22 @@
                 <gramGrp>
                     <pos>adj</pos>
                 </gramGrp>
-                <sense n="1">
-                    <def>
+                <!--  APPUNTI:
+                        Quando incontrerò un'entrata terminologica avente più accezioni deciderò la gerarchia intorno a <sense> 
+                -->
+                <sense n="1"> 
+                <!--  DOMANDA:
+                        Gli accorgimenti grafici adottati li mantengo a stampa oppure li ometto?
+                -->
+                    [<def>
                         che si produce per circostanze occasionali e contingenti (<ref type="see" target="#contingent">v. contingent</ref><!-- <xr> non può essere figlio di <def> -->), in particolare concerne la realtà dei fatti linguistici;
-                    </def>
+                    </def>]
                     <cit type="example">
                         <quote xml:lang="fr">
                             plus on étudie la langue, plus on arrive à se pénétrer de ce fait que tout dans la langue est histoire, c’est-à-dire qu’elle est 
                             un objet d’analyse historique, et non d’analyse abstraite, qu’elle se compose de faits, et non de lois, que tout ce qui semble 
                             organique dans le langage est en réalité contingent et complètement accidentel.
-                        </quote>
+                        </quote> 
                         <bibl>
                             <title>Écrits de linguistique générale</title>
                             <author>Simon Bouquet</author>
@@ -81,30 +87,61 @@
                             <date>2002</date>
                             <biblScope unit="page">p. 149</biblScope>
                         </bibl>
-                        <!-- DOMANDA 
-                            Una soluzione di questo tipo, (<ref>) per i riferimenti a sezioni di altre aree terminologiche è sensata?
-                            Assumo di avere un glossario per ogni sezione terminologica (10._1894_Notes_Whitney.xml), e faccio una <ref> al vocabolo attuale presente nell'altra sezione. Forse è meglio limitarsi ad un riferimento generico alla sezione dell'area terminologica, senza specificare l'entrata specifica?
-                            Mi limito a fare il collegamento al dizionario, inserendo come testo semplice il titolo della sezione e l'acronimo, ometto informazioni bibliografiche come il titolo della fonte della sezione.
-                                                                                    -->
-                        {<ref type="other_dictionary" target="09._1893-1894_Status_et_motus.xml#accident">Status et motus; </ref> 
-                        <ref type="other_dictionary" target="xx._xxxx-xxxx_x.xml#x">ED; </ref>
-                        <ref type="other_dictionary" target="10._1894_Notes_Whitney.xml#accident">Notes Whitney; </ref>
-                        <ref type="other_dictionary" target="11._1895-1897_Théorie_des_Sonantes.xml#accidentel-accident">ThS; </ref>
-                        <ref type="other_dictionary" target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml#accidentel">II corso</ref>}
                     </cit>
                     <xr type="synonim">Sin. contingent<ptr target="#contingent"/></xr>
                     <xr type="compare">Cfr. langue<ptr target="#langue"/></xr>
+                    <!--  DOMANDA:
+                            Una soluzione di questo tipo, (<ref>) per i riferimenti a sezioni di altre aree terminologiche è sensata?
+                            Assumo di avere un glossario per ogni sezione terminologica (10._1894_Notes_Whitney.xml), e faccio una <ref> al vocabolo attuale presente nell'altra sezione. Forse è meglio limitarsi ad un riferimento generico alla sezione dell'area terminologica, senza specificare l'entrata specifica?
+                            Mi limito a fare il collegamento al dizionario, inserendo come testo semplice il titolo della sezione e l'acronimo, ometto informazioni bibliografiche come il titolo della fonte della sezione.
+                    -->
+                    {<ref type="other_dictionary" target="09._1893-1894_Status_et_motus.xml#accident">Status et motus; </ref> 
+                    <ref type="other_dictionary" target="xx._xxxx-xxxx_x.xml#x">ED; </ref>
+                    <ref type="other_dictionary" target="10._1894_Notes_Whitney.xml#accident">Notes Whitney; </ref>
+                    <ref type="other_dictionary" target="11._1895-1897_Théorie_des_Sonantes.xml#accidentel-accident">ThS; </ref>
+                    <ref type="other_dictionary" target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml#accidentel">II corso</ref>}
                 </sense>
             </entry>
 
+            <entry xml:id="acte_humain">
+                <form>
+                    <orth>Acte humain</orth>
+                </form>
+                <!--  APPUNTI:
+                        In caso di entrate composte da più termini non codifico <gramGrp>, né <pos> chiaramente
+                -->
+                <sense n="1">
+                    [<def>
+                        Oggetto principale delle scienze storiche consistente in azioni, gesti, avvenimenti realizzatisi effettivamente per mezzo 
+                        dell’agire umano secondo un certo grado di volontà, coscienza e intelligenza; tali atti determinano i fatti storici in quanto realmente accaduti;
+                    </def>]
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            C’est que l’objet qui fait la matière de l’histoire - par exemple l’art, la religion, le costume, etc. - représente, dans un sens quelconque, des actes humains, 
+                            régis par la volonté et l’intelligence humaines, - et qui d’ailleurs doivent être tels qu’ils n’intéressent pas seulement l’individu mais la collectivité.
+                        </quote> 
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            <biblScope unit="page">p. 150</biblScope>
+                        </bibl>
+                    </cit>
+                    <xr type="compare">Cfr. accidentel<ptr target="#accidentel"/></xr>
+                    <xr type="compare">Cfr. contingent<ptr target="#contingent"/></xr>
+                </sense>
+            </entry>
         </body>
     </text>
 
-    <!-- FAI 
-    Inserisci i metadati della fonte
-    Descrizione: appunti manoscritti in preparazione delle tre conferenze inaugurali pronunciate all’Università di Ginevra.
-    Catalogazione: Ms Fr 3951/1.1, Ms Fr 3951/1.2 e Ms Fr 3951/1.3; BGE Ginevra
-    Edizione adottata: ELG pp. 143-173;
-    Datazione: conferenze tenute nel Novembre 1891
+    <!--  FAI 
+            Inserisci i metadati della fonte
+            Descrizione: appunti manoscritti in preparazione delle tre conferenze inaugurali pronunciate all’Università di Ginevra.
+            Catalogazione: Ms Fr 3951/1.1, Ms Fr 3951/1.2 e Ms Fr 3951/1.3; BGE Ginevra
+            Edizione adottata: ELG pp. 143-173;
+            Datazione: conferenze tenute nel Novembre 1891
     -->
 </TEI>
