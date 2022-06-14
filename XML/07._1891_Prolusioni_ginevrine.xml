@@ -64,7 +64,7 @@
                 </gramGrp>
                 <sense n="1">
                     <def>
-                        che si produce per circostanze occasionali e contingenti (<ref type="see">v. contingent<ptr target="#contingent"/></ref>), in particolare concerne la realtà dei fatti linguistici;
+                        che si produce per circostanze occasionali e contingenti (<ref type="see" target="#contingent">v. contingent</ref><!-- <xr> non può essere figlio di <def> -->), in particolare concerne la realtà dei fatti linguistici;
                     </def>
                     <cit type="example">
                         <quote xml:lang="fr">
@@ -81,8 +81,11 @@
                             <date>2002</date>
                             <biblScope unit="page">p. 149</biblScope>
                         </bibl>
-                        <!-- Tra parentesi graffe sono segnalati i rimandi ad altre sezioni dell'area terminologica C, per far evidenziare legami tra i diversi momenti di riflessione saussuriana -->
-                        <!--  CORREGGI Devi creare un collegamento ad un glossario del file delle raccolte terminologiche (e.g. "09._1893-1894_Status_et_motus.xml".), includere il collegamento in questo XML e procedere con i riferimenti-->                     
+                        <!-- //DOMANDA 
+                            Una soluzione di questo tipo, per i riferimenti a sezioni di altre aree terminologiche è sensata?
+                            Assumo di avere un glossario per ogni sezione terminologica (10._1894_Notes_Whitney.xml), e faccio una <ref> al vocabolo attuale presente nell'altra sezione terminologica.
+                            -->
+                        {<ref type="other_dictionary" target="09._1893-1894_Status_et_motus.xml#accident">Status et motus; ED;</ref><ref type="other_dictionary" target="10._1894_Notes_Whitney.xml#accident">Notes Whitney; ThS; II corso</ref>}
                     </cit>
                     <xr type="synonim">Sin. contingent<ptr target="#contingent"/></xr>
                     <xr type="compare">Cfr. langue<ptr target="#langue"/></xr>
