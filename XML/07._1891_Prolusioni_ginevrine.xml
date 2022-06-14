@@ -82,7 +82,7 @@
                             <biblScope unit="page">p. 149</biblScope>
                         </bibl>
                         <!-- Tra parentesi graffe sono segnalati i rimandi ad altre sezioni dell'area terminologica C, per far evidenziare legami tra i diversi momenti di riflessione saussuriana -->
-                        <!--  CORREGGI Devi creare un collegamento ad un glossario del file delle raccolte terminologiche (e.g. 1894 Notes Whitney), includere il collegamento in questo XML e procedere con i riferimenti-->
+                        <!--  CORREGGI Devi creare un collegamento ad un glossario del file delle raccolte terminologiche (e.g. "09._1893-1894_Status_et_motus.xml".), includere il collegamento in questo XML e procedere con i riferimenti-->
                         <bibl>
                             <title>Théorie des sonants</title>
                             <title type="sub">Il manoscritto di Ginevra BPU Ms. fr. 3955/1</title>
@@ -100,4 +100,11 @@
 
         </body>
     </text>
+
+    <!-- FAI Inserisci i metadati della fonte
+    Descrizione: appunti manoscritti in preparazione delle tre conferenze inaugurali pronunciate all’Università di Ginevra.
+    Catalogazione: Ms Fr 3951/1.1, Ms Fr 3951/1.2 e Ms Fr 3951/1.3; BGE Ginevra
+    Edizione adottata: ELG pp. 143-173;
+    Datazione: conferenze tenute nel Novembre 1891
+    -->
 </TEI>
