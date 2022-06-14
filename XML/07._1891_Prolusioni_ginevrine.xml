@@ -92,14 +92,14 @@
                     <xr type="compare">Cfr. langue<ptr target="#langue"/></xr>
                     <!--  DOMANDA:
                             Una soluzione di questo tipo, (<ref>) per i riferimenti a sezioni di altre aree terminologiche è sensata?
-                            Assumo di avere un glossario per ogni sezione terminologica (10._1894_Notes_Whitney.xml), e faccio una <ref> al vocabolo attuale presente nell'altra sezione. Forse è meglio limitarsi ad un riferimento generico alla sezione dell'area terminologica, senza specificare l'entrata specifica?
+                            Assumo di avere un glossario per ogni sezione terminologica (10._1894_Notes_Whitney.xml), e faccio una <ref> generica (non al termine) alla sezione dell'area terminologica, senza specificare l'entrata specifica, poiché in alcuni casi non mi è certa.
                             Mi limito a fare il collegamento al dizionario, inserendo come testo semplice il titolo della sezione e l'acronimo, ometto informazioni bibliografiche come il titolo della fonte della sezione.
                     -->
-                    {<ref type="other_dictionary" target="09._1893-1894_Status_et_motus.xml#accident">Status et motus; </ref> 
-                    <ref type="other_dictionary" target="xx._xxxx-xxxx_x.xml#x">ED; </ref>
-                    <ref type="other_dictionary" target="10._1894_Notes_Whitney.xml#accident">Notes Whitney; </ref>
-                    <ref type="other_dictionary" target="11._1895-1897_Théorie_des_Sonantes.xml#accidentel-accident">ThS; </ref>
-                    <ref type="other_dictionary" target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml#accidentel">II corso</ref>}
+                    {<ref type="other_dictionary" target="09._1893-1894_Status_et_motus.xml">Status et motus; </ref> 
+                    <ref type="other_dictionary" target="xx._xxxx-xxxx_x.xml">ED; </ref>
+                    <ref type="other_dictionary" target="10._1894_Notes_Whitney.xml">Notes Whitney; </ref>
+                    <ref type="other_dictionary" target="11._1895-1897_Théorie_des_Sonantes.xml">ThS; </ref>
+                    <ref type="other_dictionary" target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml">II corso</ref>}
                 </sense>
             </entry>
 
@@ -134,6 +134,39 @@
                     <xr type="compare">Cfr. contingent<ptr target="#contingent"/></xr>
                 </sense>
             </entry>
+
+            <entry xml:id="acte_linguistique">
+                <form>
+                    <orth>Acte linguistique</orth>
+                </form>
+                <sense n="1">
+                    <def>
+                    </def>
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            de tous les actes qu’on pourrait mettre en parallèle, l’acte linguistique, si je puis le nommer ainsi, a ce caractère [d’être] le moins réfléchi, 
+                            le moins prémédité, en même temps que le plus impersonnel de tous. Il y a là une différence de degré, qui va si loin qu’elle a longtemps 
+                            donné l’illusion d’une différence essentielle, mais qui n’est en réalité qu’une différence de degrés. 
+                        </quote> 
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            <biblScope unit="page">p. 150</biblScope>
+                        </bibl>
+                    </cit>
+                    <xr type="compare">Cfr. accidentel<ptr target="#accidentel"/></xr>
+                    <xr type="compare">Cfr. acte humain<ptr target="#acte_humain"/></xr>
+                    <xr type="compare">Cfr. contingent<ptr target="#contingent"/></xr>
+                    {<ref type="other_dictionary" target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml">Ph; </ref>
+                    <ref type="other_dictionary" target="14._1907_Primo_corso_di_linguistica_generale.xml">I corso</ref>
+                    <ref type="other_dictionary" target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml">II corso</ref>}
+                </sense>
+            </entry>
+
         </body>
     </text>
 
