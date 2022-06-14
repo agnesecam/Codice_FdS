@@ -81,6 +81,17 @@
                             <date>2002</date>
                             <biblScope unit="page">p. 149</biblScope>
                         </bibl>
+                        <!-- Tra parentesi graffe sono segnalati i rimandi ad altre sezioni dell'area terminologica C, per far evidenziare legami tra i diversi momenti di riflessione saussuriana -->
+                        <!--  CORREGGI Devi creare un collegamento ad un glossario del file delle raccolte terminologiche (e.g. 1894 Notes Whitney), includere il collegamento in questo XML e procedere con i riferimenti-->
+                        <bibl>
+                            <title>Théorie des sonants</title>
+                            <title type="sub">Il manoscritto di Ginevra BPU Ms. fr. 3955/1</title>
+                            <author>Maria Pia Marchese</author>
+                            <pubPlace>Padova</pubPlace>
+                            <publisher>Unipress</publisher>
+                            <date>2002</date>
+                            <biblScope unit="page">p. 149</biblScope>
+                        </bibl>                        
                     </cit>
                     <xr type="synonim">Sin. contingent<ptr target="#contingent"/></xr>
                     <xr type="compare">Cfr. langue<ptr target="#langue"/></xr>
