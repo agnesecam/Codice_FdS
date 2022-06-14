@@ -81,7 +81,7 @@
                             <date>2002</date>
                             <biblScope unit="page">p. 149</biblScope>
                         </bibl>
-                        <!-- //DOMANDA 
+                        <!-- DOMANDA 
                             Una soluzione di questo tipo, (<ref>) per i riferimenti a sezioni di altre aree terminologiche è sensata?
                             Assumo di avere un glossario per ogni sezione terminologica (10._1894_Notes_Whitney.xml), e faccio una <ref> al vocabolo attuale presente nell'altra sezione. Forse è meglio limitarsi ad un riferimento generico alla sezione dell'area terminologica, senza specificare l'entrata specifica?
                             Mi limito a fare il collegamento al dizionario, inserendo come testo semplice il titolo della sezione e l'acronimo, ometto informazioni bibliografiche come il titolo della fonte della sezione.
@@ -100,7 +100,8 @@
         </body>
     </text>
 
-    <!-- FAI Inserisci i metadati della fonte
+    <!-- FAI 
+    Inserisci i metadati della fonte
     Descrizione: appunti manoscritti in preparazione delle tre conferenze inaugurali pronunciate all’Università di Ginevra.
     Catalogazione: Ms Fr 3951/1.1, Ms Fr 3951/1.2 e Ms Fr 3951/1.3; BGE Ginevra
     Edizione adottata: ELG pp. 143-173;
