@@ -59,12 +59,6 @@
                 <form>
                     <orth>Accidentel</orth>
                 </form>
-                <gramGrp>
-                    <pos>adj</pos>
-                </gramGrp>
-                <!--  APPUNTI:
-                        Quando incontrerò un'entrata terminologica avente più accezioni deciderò la gerarchia intorno a <sense> 
-                -->
                 <sense n="1"> 
                 <!--  DOMANDA:
                         Gli accorgimenti grafici adottati li mantengo a stampa oppure li ometto?
@@ -85,7 +79,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            <biblScope unit="page">p. 149</biblScope>;
+                            (<biblScope unit="page">p. 149</biblScope>)
                         </bibl>
                     </cit>
                     <xr type="synonim">Sin. contingent<ptr target="#contingent"/></xr>
@@ -94,6 +88,7 @@
                             Una soluzione di questo tipo, (<ref>) per i riferimenti a sezioni di altre aree terminologiche è sensata?
                             Assumo di avere un glossario per ogni sezione terminologica (10._1894_Notes_Whitney.xml), e faccio una <ref> generica (non al termine) alla sezione dell'area terminologica, senza specificare l'entrata specifica, poiché in alcuni casi non mi è certa.
                             Mi limito a fare il collegamento al dizionario, inserendo come testo semplice il titolo della sezione e l'acronimo, ometto informazioni bibliografiche come il titolo della fonte della sezione.
+                            Soluzione 2: uso una listRelation alla fine del documento, in cui scrivo queste relazioni tra termini, e quindi non nell'entrata specifica
                     -->
                     {<ref type="other_dictionary" target="09._1893-1894_Status_et_motus.xml">Status et motus; </ref> 
                     <ref type="other_dictionary" target="xx._xxxx-xxxx_x.xml">ED; </ref>
@@ -107,9 +102,6 @@
                 <form>
                     <orth>Acte humain</orth>
                 </form>
-                <!--  APPUNTI:
-                        In caso di entrate composte da più termini non codifico <gramGrp>, né <pos> chiaramente
-                -->
                 <sense n="1">
                     [<def>
                         Oggetto principale delle scienze storiche consistente in azioni, gesti, avvenimenti realizzatisi effettivamente per mezzo 
@@ -127,7 +119,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            <biblScope unit="page">p. 150</biblScope>;
+                            (<biblScope unit="page">p. 150</biblScope>)
                         </bibl>
                     </cit>
                     <xr type="compare">Cfr. accidentel<ptr target="#accidentel"/></xr>
@@ -155,7 +147,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            <biblScope unit="page">p. 150</biblScope>;
+                            (<biblScope unit="page">p. 150</biblScope>)
                         </bibl>
                     </cit>
                     <xr type="compare">Cfr. accidentel<ptr target="#accidentel"/></xr>
@@ -187,7 +179,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            <biblScope unit="page">p. 171</biblScope>;
+                            (<biblScope unit="page">p. 171</biblScope>)
                         </bibl>
                     </cit>
                     <xr type="compare">Cfr. caractère dilectal<ptr target="#caractère_dialectal"/></xr>
@@ -197,7 +189,49 @@
                     <xr type="compare">Cfr. espace<ptr target="#espace"/></xr>
                     {<ref type="other_dictionary" target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml">III corso</ref>}
                 </sense>
-            </entry>            
+            </entry>        
+
+            <entry xml:id="analogie">
+                <form>
+                    <orth>Analogie</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        v. area B; uno dei due procedimenti regolari di trasformazione delle lingue volto alla creazione di nuove segni 
+                        linguistici sulla base di elementi già esistenti; si tratta di un fenomeno di trasformazione linguistica di ordine
+                        mentale che richiede un certo grado di azione intelligente. Usato anche per indicare il risultato di questo procedimento;
+                    </def>]
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Notons aussi tout de suite la raison qui a fait dénommer opération
+                            d’analogie, faits d’analogie toutes ces opérations psychologiques. Le terme a été emprunté à la
+                            grammaire antique des Grecs, qui y mettait une autre idée, et se plaçait à un point de vue très différent du
+                            nôtre; mais il s’est trouvé applicable en ce sens que le résultat de ces opérations tend à rétablir une
+                            analogie ou une symétrie entre les formes; ainsi viendrai n’est pas symétrique à punirai. C’est sur une
+                            analogie que s’effectue le raisonnement qui est à la base du phénomène. Plus généralement, ce
+                            phénomène représente une association de formes dans l’esprit, qui est dictée par l’association des idées
+                            représentées.
+                        </quote> 
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 161</biblScope>)
+                        </bibl>
+                    </cit>
+                    <xr type="antonym">Opp. changement phonétique;<ptr target="#changement_phonétique"/></xr>
+                    <xr type="compare">Cfr. analogique<ptr target="#analogique"/></xr>
+                    <xr type="compare">Cfr. création<ptr target="#création"/></xr>
+                    <xr type="compare">Cfr. transformation<ptr target="#transformation"/></xr>
+                    {<ref type="other_dictionary" target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml">Tesi </ref>
+                    <ref type="other_dictionary" target="09._1893-1894_Status_et_motus.xml">Status et motus</ref>
+                    <ref type="other_dictionary" target="14._1907_Primo_corso_di_linguistica_generale.xml">I corso</ref>
+                    <ref type="other_dictionary" target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml">II corso</ref>}
+                </sense>
+            </entry>
 
         </body>
     </text>
