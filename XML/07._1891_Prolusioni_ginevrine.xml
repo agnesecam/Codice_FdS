@@ -85,7 +85,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            <biblScope unit="page">p. 149</biblScope>
+                            <biblScope unit="page">p. 149</biblScope>;
                         </bibl>
                     </cit>
                     <xr type="synonim">Sin. contingent<ptr target="#contingent"/></xr>
@@ -127,7 +127,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            <biblScope unit="page">p. 150</biblScope>
+                            <biblScope unit="page">p. 150</biblScope>;
                         </bibl>
                     </cit>
                     <xr type="compare">Cfr. accidentel<ptr target="#accidentel"/></xr>
@@ -155,7 +155,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            <biblScope unit="page">p. 150</biblScope>
+                            <biblScope unit="page">p. 150</biblScope>;
                         </bibl>
                     </cit>
                     <xr type="compare">Cfr. accidentel<ptr target="#accidentel"/></xr>
@@ -166,6 +166,38 @@
                     <ref type="other_dictionary" target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml">II corso</ref>}
                 </sense>
             </entry>
+
+            <entry xml:id="aire_des_faits_linguistique">
+                <form>
+                    <orth>Aire des faits linguistique</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        insieme di caratteri dialettali presenti su una certa area geografica;
+                    </def>]
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Les recherches dialectales sont actuellement uniquement dirigées vers ce but, de délimiter l’aire des faits linguistiques, 
+                            mais non de tracer des unités imaginaires de dialectes.
+                        </quote> 
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            <biblScope unit="page">p. 171</biblScope>;
+                        </bibl>
+                    </cit>
+                    <xr type="compare">Cfr. caractère dilectal<ptr target="#caractère_dialectal"/></xr>
+                    <xr type="compare">Cfr. continuité2<ptr target="#continuité2"/></xr>
+                    <xr type="compare">Cfr. dialecte<ptr target="#dialecte"/></xr>
+                    <xr type="compare">Cfr. frontière<ptr target="#frontière"/></xr>
+                    <xr type="compare">Cfr. espace<ptr target="#espace"/></xr>
+                    {<ref type="other_dictionary" target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml">III corso</ref>}
+                </sense>
+            </entry>            
 
         </body>
     </text>
