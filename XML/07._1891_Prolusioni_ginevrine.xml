@@ -197,7 +197,7 @@
                 </form>
                 <sense n="1">
                     [<def>
-                        v. area B; uno dei due procedimenti regolari di trasformazione delle lingue volto alla creazione di nuove segni 
+                        <xr type="see"> v. area B<ptr target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml"></xr>; uno dei due procedimenti regolari di trasformazione delle lingue volto alla creazione di nuove segni 
                         linguistici sulla base di elementi già esistenti; si tratta di un fenomeno di trasformazione linguistica di ordine
                         mentale che richiede un certo grado di azione intelligente. Usato anche per indicare il risultato di questo procedimento;
                     </def>]
@@ -231,7 +231,7 @@
                     <xr type="antonym">Opp. changement phonétique;<ptr target="#changement_phonétique"/></xr>
                     <xr type="compare">Cfr. analogique<ptr target="#analogique"/></xr>
                     <xr type="compare">Cfr. création<ptr target="#création"/></xr>
-                    <xr type="compare">Cfr. transformation<ptr target="#transformation"/></              xr>
+                    <xr type="compare">Cfr. transformation<ptr target="#transformation"/></xr>
                     {<ref type="other_dictionary" target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml">Tesi </ref>
                     <ref type="other_dictionary" target="09._1893-1894_Status_et_motus.xml">Status et motus</ref>
                     <ref type="other_dictionary" target="14._1907_Primo_corso_di_linguistica_generale.xml">I corso</ref>
