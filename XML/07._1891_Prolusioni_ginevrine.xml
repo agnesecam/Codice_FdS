@@ -222,10 +222,16 @@
                             (<biblScope unit="page">p. 161</biblScope>)
                         </bibl>
                     </cit>
+                    <!-- DOMANDA:
+                            Come è più opportuno interpretare e rendere:
+                            [usato in espressioni complesse:]
+                            a. in riferimento al procedimento: changement par a., opération d’a., phénomène d’a., procédé d’a.
+                            b. in riferimento al risultato del processo: fait d’a., formation d’a., perturbation d’a
+                            -->
                     <xr type="antonym">Opp. changement phonétique;<ptr target="#changement_phonétique"/></xr>
                     <xr type="compare">Cfr. analogique<ptr target="#analogique"/></xr>
                     <xr type="compare">Cfr. création<ptr target="#création"/></xr>
-                    <xr type="compare">Cfr. transformation<ptr target="#transformation"/></xr>
+                    <xr type="compare">Cfr. transformation<ptr target="#transformation"/></              xr>
                     {<ref type="other_dictionary" target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml">Tesi </ref>
                     <ref type="other_dictionary" target="09._1893-1894_Status_et_motus.xml">Status et motus</ref>
                     <ref type="other_dictionary" target="14._1907_Primo_corso_di_linguistica_generale.xml">I corso</ref>
