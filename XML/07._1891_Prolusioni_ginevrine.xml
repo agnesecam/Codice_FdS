@@ -231,12 +231,6 @@
                         (<biblScope unit="page">p. 161</biblScope>)
                     </bibl>
                 </cit>
-                <!-- DOMANDA:
-                    Come è più opportuno interpretare e rendere:
-                    [usato in espressioni complesse:]
-                    a. in riferimento al procedimento: changement par a., opération d’a., phénomène d’a., procédé d’a.
-                    b. in riferimento al risultato del processo: fait d’a., formation d’a., perturbation d’a
-                -->
                 <xr type="antonym">Opp. changement phonétique;<ref target="#changement_phonétique"/></xr>
                 <xr type="compare">Cfr. analogique<ref target="#analogique"/></xr>
                 <xr type="compare">Cfr. création<ref target="#création"/></xr>
@@ -245,10 +239,17 @@
                 <ref type="other_dictionary" target="09._1893-1894_Status_et_motus.xml">Status et motus</ref>
                 <ref type="other_dictionary" target="14._1907_Primo_corso_di_linguistica_generale.xml">I corso</ref>
                 <ref type="other_dictionary" target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml">II corso</ref>}
+                <!-- DOMANDA:
+                    Come è più opportuno interpretare e rendere:
+                    [usato in espressioni complesse:]
+                    a. in riferimento al procedimento: changement par a., opération d’a., phénomène d’a., procédé d’a.
+                    b. in riferimento al risultato del processo: fait d’a., formation d’a., perturbation d’a
+                -->
+                [usato in espressioni complesse:]
+                a. in riferimento al procedimento: changement par a., opération d’a., phénomène d’a., procédé d’a.
+                b. in riferimento al risultato del processo: fait d’a., formation d’a., perturbation d’a.
             </sense>
             </entry>
-
-
 
         </body>
     </text>
