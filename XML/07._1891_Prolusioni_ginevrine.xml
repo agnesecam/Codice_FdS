@@ -64,7 +64,7 @@
                 -->                
                 <sense n="1"> 
                     [<def>
-                        che si produce per circostanze occasionali e contingenti (<ref type="see" target="#contingent">v. contingent</ref><!-- <xr> non può essere figlio di <def> -->), in particolare concerne la realtà dei fatti linguistici;
+                        che si produce per circostanze occasionali e contingenti (<ref type="see" target="#contingent">v. contingent</ref><!-- <re> non può essere figlio di <def> -->), in particolare concerne la realtà dei fatti linguistici;
                     </def>]
                     <cit type="example">
                         <quote xml:lang="fr">
@@ -82,8 +82,8 @@
                             (<biblScope unit="page">p. 149</biblScope>)
                         </bibl>
                     </cit>
-                    <xr type="synonim">Sin. contingent<ref target="#contingent"/></xr>
-                    <xr type="compare">Cfr. langue<ref target="#langue"/></xr>
+                    <re type="synonim">Sin. contingent<ref target="#contingent"/></re>
+                    <re type="compare">Cfr. langue<ref target="#langue"/></re>
                     <!--  DOMANDA:
                             Una soluzione di questo tipo, (<ref>) per i riferimenti a sezioni di altre aree terminologiche è sensata?
                             Assumo di avere un glossario per ogni sezione terminologica (10._1894_Notes_Whitney.xml), e faccio una <ref> generica (non al termine) alla sezione dell'area terminologica, senza specificare l'entrata specifica, poiché in alcuni casi non mi è certa.
@@ -122,8 +122,8 @@
                             (<biblScope unit="page">p. 150</biblScope>)
                         </bibl>
                     </cit>
-                    <xr type="compare">Cfr. accidentel<ref target="#accidentel"/></xr>
-                    <xr type="compare">Cfr. contingent<ref target="#contingent"/></xr>
+                    <re type="compare">Cfr. accidentel<ref target="#accidentel"/></re>
+                    <re type="compare">Cfr. contingent<ref target="#contingent"/></re>
                 </sense>
             </entry>
 
@@ -150,9 +150,9 @@
                             (<biblScope unit="page">p. 150</biblScope>)
                         </bibl>
                     </cit>
-                    <xr type="compare">Cfr. accidentel<ref target="#accidentel"/></xr>
-                    <xr type="compare">Cfr. acte humain<ref target="#acte_humain"/></xr>
-                    <xr type="compare">Cfr. contingent<ref target="#contingent"/></xr>
+                    <re type="compare">Cfr. accidentel<ref target="#accidentel"/></re>
+                    <re type="compare">Cfr. acte humain<ref target="#acte_humain"/></re>
+                    <re type="compare">Cfr. contingent<ref target="#contingent"/></re>
                     {<ref type="other_dictionary" target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml">Ph; </ref>
                     <ref type="other_dictionary" target="14._1907_Primo_corso_di_linguistica_generale.xml">I corso</ref>
                     <ref type="other_dictionary" target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml">II corso</ref>}
@@ -182,11 +182,11 @@
                             (<biblScope unit="page">p. 171</biblScope>)
                         </bibl>
                     </cit>
-                    <xr type="compare">Cfr. caractère dilectal<ref target="#caractère_dialectal"/></xr>
-                    <xr type="compare">Cfr. continuité2<ref target="#continuité2"/></xr>
-                    <xr type="compare">Cfr. dialecte<ref target="#dialecte"/></xr>
-                    <xr type="compare">Cfr. frontière<ref target="#frontière"/></xr>
-                    <xr type="compare">Cfr. espace<ref target="#espace"/></xr>
+                    <re type="compare">Cfr. caractère dilectal<ref target="#caractère_dialectal"/></re>
+                    <re type="compare">Cfr. continuité2<ref target="#continuité2"/></re>
+                    <re type="compare">Cfr. dialecte<ref target="#dialecte"/></re>
+                    <re type="compare">Cfr. frontière<ref target="#frontière"/></re>
+                    <re type="compare">Cfr. espace<ref target="#espace"/></re>
                     {<ref type="other_dictionary" target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml">III corso</ref>}
                 </sense>
             </entry>        
@@ -196,7 +196,7 @@
                     <orth>Analogie</orth>
                 </form>
                 <sense n="1">
-                    <xr type="see">v. area B<ref target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml"/></xr>;
+                    <re type="see">v. area B<ref target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml"/></re>;
                     <!--<sense> non può essere figlio di def, quindi uso due <sens> distinti-->
                     <sense n="a">
                         <def>
@@ -231,19 +231,16 @@
                         (<biblScope unit="page">p. 161</biblScope>)
                     </bibl>
                 </cit>
-                <xr type="antonym">Opp. changement phonétique;<ref target="#changement_phonétique"/></xr>
-                <xr type="compare">Cfr. analogique<ref target="#analogique"/></xr>
-                <xr type="compare">Cfr. création<ref target="#création"/></xr>
-                <xr type="compare">Cfr. transformation<ref target="#transformation"/></xr>
+                <re type="antonym">Opp. changement phonétique;<ref target="#changement_phonétique"/></re>
+                <re type="compare">Cfr. analogique<ref target="#analogique"/></re>
+                <re type="compare">Cfr. création<ref target="#création"/></re>
+                <re type="compare">Cfr. transformation<ref target="#transformation"/></re>
                 {<ref type="other_dictionary" target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml">Tesi</ref>
                 <ref type="other_dictionary" target="09._1893-1894_Status_et_motus.xml">Status et motus</ref>
                 <ref type="other_dictionary" target="14._1907_Primo_corso_di_linguistica_generale.xml">I corso</ref>
                 <ref type="other_dictionary" target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml">II corso</ref>}
                 <!-- DOMANDA:
-                    Come è più opportuno interpretare e rendere:
-                    [usato in espressioni complesse:]
-                    a. in riferimento al procedimento: changement par a., opération d’a., phénomène d’a., procédé d’a.
-                    b. in riferimento al risultato del processo: fait d’a., formation d’a., perturbation d’a
+                    - Perché è tra parentesi quadre? 
                 -->
                 [usato in espressioni complesse:]
                 a. in riferimento al procedimento: changement par a., opération d’a., phénomène d’a., procédé d’a.
