@@ -64,7 +64,7 @@
                 -->                
                 <sense n="1"> 
                     [<def>
-                        che si produce per circostanze occasionali e contingenti (<re type="see"><ref target="#contingent">v. contingent</re>), in particolare concerne la realtà dei fatti linguistici;
+                        che si produce per circostanze occasionali e contingenti (<ref type="see" target="#contingent">v. contingent</ref><!--Non posso usare <re> come figlio di <def>-->), in particolare concerne la realtà dei fatti linguistici;
                     </def>]
                     <cit type="example">
                         <quote xml:lang="fr">
@@ -203,48 +203,49 @@
                             uno dei due procedimenti regolari di trasformazione delle lingue volto alla creazione di nuove segni 
                             linguistici sulla base di elementi già esistenti; si tratta di un fenomeno di trasformazione linguistica di ordine
                             mentale che richiede un certo grado di azione intelligente.
-                            <cit type="example">
+                            
                                 a. in riferimento al procedimento: changement par a., opération d’a., phénomène d’a., procédé d’a.
-                            </cit>
+                            
                         </def>
                     </sense>
                     <sense n="b">
                         <def>
                             Usato anche per indicare il risultato di questo procedimento;
-                            <cit type="example">
+                            
                                 b. in riferimento al risultato del processo: fait d’a., formation d’a., perturbation d’a.
-                            </cit>
+                            
                         </def>]
                     </sense>
-                <cit type="example">
-                    <quote xml:lang="fr">
-                        Notons aussi tout de suite la raison qui a fait dénommer opération
-                        d’analogie, faits d’analogie toutes ces opérations psychologiques. Le terme a été emprunté à la
-                        grammaire antique des Grecs, qui y mettait une autre idée, et se plaçait à un point de vue très différent du
-                        nôtre; mais il s’est trouvé applicable en ce sens que le résultat de ces opérations tend à rétablir une
-                        analogie ou une symétrie entre les formes; ainsi viendrai n’est pas symétrique à punirai. C’est sur une
-                        analogie que s’effectue le raisonnement qui est à la base du phénomène. Plus généralement, ce
-                        phénomène représente une association de formes dans l’esprit, qui est dictée par l’association des idées
-                        représentées.
-                    </quote>
-                    <bibl>
-                        <title>Écrits de linguistique générale</title>
-                        <author>Simon Bouquet</author>
-                        <author>Rudolf Engler</author>
-                        <pubPlace>Paris</pubPlace>
-                        <publisher>Gallimard</publisher>
-                        <date>2002</date>
-                        (<biblScope unit="page">p. 161</biblScope>)
-                    </bibl>
-                </cit>
-                <re type="antonym">Opp. changement phonétique;<ref target="#changement_phonétique"/></re>
-                <re type="compare">Cfr. analogique<ref target="#analogique"/></re>
-                <re type="compare">Cfr. création<ref target="#création"/></re>
-                <re type="compare">Cfr. transformation<ref target="#transformation"/></re>
-                {<xr type="other_dictionary"> <ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Tesi</xr>
-                <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>
-                <xr type="other_dictionary"> <ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>
-                <xr type="other_dictionary"> <ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>}
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Notons aussi tout de suite la raison qui a fait dénommer opération
+                            d’analogie, faits d’analogie toutes ces opérations psychologiques. Le terme a été emprunté à la
+                            grammaire antique des Grecs, qui y mettait une autre idée, et se plaçait à un point de vue très différent du
+                            nôtre; mais il s’est trouvé applicable en ce sens que le résultat de ces opérations tend à rétablir une
+                            analogie ou une symétrie entre les formes; ainsi viendrai n’est pas symétrique à punirai. C’est sur une
+                            analogie que s’effectue le raisonnement qui est à la base du phénomène. Plus généralement, ce
+                            phénomène représente une association de formes dans l’esprit, qui est dictée par l’association des idées
+                            représentées.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 161</biblScope>)
+                        </bibl>
+                    </cit>
+                    <re type="antonym">Opp. changement phonétique;<ref target="#changement_phonétique"/></re>
+                    <re type="compare">Cfr. analogique<ref target="#analogique"/></re>
+                    <re type="compare">Cfr. création<ref target="#création"/></re>
+                    <re type="compare">Cfr. transformation<ref target="#transformation"/></re>
+                    {<xr type="other_dictionary"> <ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Tesi</xr>
+                    <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>
+                    <xr type="other_dictionary"> <ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>
+                    <xr type="other_dictionary"> <ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>}
+                </sense>
             </entry>
         </body>
     </text>
