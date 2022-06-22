@@ -64,7 +64,7 @@
                 -->                
                 <sense n="1"> 
                     [<def>
-                        che si produce per circostanze occasionali e contingenti (<ref type="see" target="#contingent">v. contingent</ref><!-- <re> non può essere figlio di <def> -->), in particolare concerne la realtà dei fatti linguistici;
+                        che si produce per circostanze occasionali e contingenti (<ref type="see" target="#contingent">v. contingent</ref>), in particolare concerne la realtà dei fatti linguistici;
                     </def>]
                     <cit type="example">
                         <quote xml:lang="fr">
@@ -85,16 +85,16 @@
                     <re type="synonim">Sin. contingent<ref target="#contingent"/></re>
                     <re type="compare">Cfr. langue<ref target="#langue"/></re>
                     <!--  DOMANDA:
-                            Una soluzione di questo tipo, (<ref>) per i riferimenti a sezioni di altre aree terminologiche è sensata?
+                            Una soluzione di questo tipo, (<xr> "cross reference") per i riferimenti a sezioni di altre aree terminologiche è sensata?
                             Assumo di avere un glossario per ogni sezione terminologica (10._1894_Notes_Whitney.xml), e faccio una <ref> generica (non al termine) alla sezione dell'area terminologica, senza specificare l'entrata specifica, poiché in alcuni casi non mi è certa.
                             Mi limito a fare il collegamento al dizionario, inserendo come testo semplice il titolo della sezione e l'acronimo, ometto informazioni bibliografiche come il titolo della fonte della sezione.
                             Soluzione 2: uso una listRelation alla fine del documento, in cui scrivo queste relazioni tra termini, e quindi non nell'entrata specifica
                     -->
-                    {<ref type="other_dictionary" target="09._1893-1894_Status_et_motus.xml">Status et motus; </ref> 
-                    <ref type="other_dictionary" target="xx._xxxx-xxxx_x.xml">ED; </ref>
-                    <ref type="other_dictionary" target="10._1894_Notes_Whitney.xml">Notes Whitney; </ref>
-                    <ref type="other_dictionary" target="11._1895-1897_Théorie_des_Sonantes.xml">ThS; </ref>
-                    <ref type="other_dictionary" target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml">II corso</ref>}
+                    {<xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus; </xr> 
+                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED; </xr>
+                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney; </xr>
+                    <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS; </xr>
+                    <xr type="other_dictionary"> <ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>}
                 </sense>
             </entry>
 
@@ -153,9 +153,9 @@
                     <re type="compare">Cfr. accidentel<ref target="#accidentel"/></re>
                     <re type="compare">Cfr. acte humain<ref target="#acte_humain"/></re>
                     <re type="compare">Cfr. contingent<ref target="#contingent"/></re>
-                    {<ref type="other_dictionary" target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml">Ph; </ref>
-                    <ref type="other_dictionary" target="14._1907_Primo_corso_di_linguistica_generale.xml">I corso</ref>
-                    <ref type="other_dictionary" target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml">II corso</ref>}
+                    {<xr type="other_dictionary"> <ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph; </xr>
+                    <xr type="other_dictionary"> <ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>
+                    <xr type="other_dictionary"> <ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>}
                 </sense>
             </entry>
 
@@ -187,7 +187,7 @@
                     <re type="compare">Cfr. dialecte<ref target="#dialecte"/></re>
                     <re type="compare">Cfr. frontière<ref target="#frontière"/></re>
                     <re type="compare">Cfr. espace<ref target="#espace"/></re>
-                    {<ref type="other_dictionary" target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml">III corso</ref>}
+                    {<xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
                 </sense>
             </entry>        
 
@@ -235,10 +235,10 @@
                 <re type="compare">Cfr. analogique<ref target="#analogique"/></re>
                 <re type="compare">Cfr. création<ref target="#création"/></re>
                 <re type="compare">Cfr. transformation<ref target="#transformation"/></re>
-                {<ref type="other_dictionary" target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml">Tesi</ref>
-                <ref type="other_dictionary" target="09._1893-1894_Status_et_motus.xml">Status et motus</ref>
-                <ref type="other_dictionary" target="14._1907_Primo_corso_di_linguistica_generale.xml">I corso</ref>
-                <ref type="other_dictionary" target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml">II corso</ref>}
+                {<xr type="other_dictionary"> <ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Tesi</xr>
+                <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>
+                <xr type="other_dictionary"> <ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>
+                <xr type="other_dictionary"> <ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>}
                 <!-- DOMANDA:
                     - Perché è tra parentesi quadre? 
                 -->
