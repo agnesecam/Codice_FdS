@@ -324,6 +324,9 @@
                         <quote xml:lang="fr">
                             «Antérieur à l’apparition des témoignages écrits et à l’emploi des métaux.» (TLFi)];
                         </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                        </bibl>
                         <quote xml:lang="fr">
                             Autant vaudrait dire en effet que le français que nous parlons vient du
                             français de Montesquieu ou de celui de Corneille ou vient de celui de Montaigne ou de celui de Froissait,
@@ -332,9 +335,6 @@
                             qu’il est le latin d’Auguste, et le latin de Plaute, et la manière de parler antéhistorique qui a précédé la
                             manière latine de parler.
                         </quote>
-                        <bibl>
-                            <title>Écrits de linguistique générale</title>
-                        </bibl>
                         <bibl>
                             <title></title>
                             <author>Simon Bouquet</author>
@@ -369,9 +369,7 @@
                         </quote>
                         <bibl>
                             <title>Écrits de linguistique générale</title>
-                        </bibl>
-                        <bibl>
-                            <title></title>
+                            <author>Simon Bouquet</author>
                             <author>Simon Bouquet</author>
                             <author>Rudolf Engler</author>
                             <pubPlace>Paris</pubPlace>
@@ -411,9 +409,7 @@
                         </quote>
                         <bibl>
                             <title>Écrits de linguistique générale</title>
-                        </bibl>
-                        <bibl>
-                            <title></title>
+                            <author>Simon Bouquet</author>
                             <author>Simon Bouquet</author>
                             <author>Rudolf Engler</author>
                             <pubPlace>Paris</pubPlace>
@@ -444,9 +440,7 @@
                         </quote>
                         <bibl>
                             <title>Écrits de linguistique générale</title>
-                        </bibl>
-                        <bibl>
-                            <title></title>
+                            <author>Simon Bouquet</author>
                             <author>Simon Bouquet</author>
                             <author>Rudolf Engler</author>
                             <pubPlace>Paris</pubPlace>
@@ -482,9 +476,7 @@
                         </quote>
                         <bibl>
                             <title>Écrits de linguistique générale</title>
-                        </bibl>
-                        <bibl>
-                            <title></title>
+                            <author>Simon Bouquet</author>
                             <author>Simon Bouquet</author>
                             <author>Rudolf Engler</author>
                             <pubPlace>Paris</pubPlace>
@@ -499,6 +491,86 @@
                     <re type="compare">Cfr. frontière<ref target="#frontière"/></re>.
                     {<xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
                     <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>
+            </entry>
+
+            <entry xml:id="changements">
+                <form>
+                    <orth>Changements</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        alterazione, trasformazione a cui è inevitabilmente sottostà una lingua nel corso del tempo,
+                        esse sono di due tipi distinti changement phonétique e changement analogique];
+                    </def>
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Mais il reste à
+                            constater que, si une même langue est répandue à un moment donné sur une certaine étendue de territoire,
+                            le résultat de ce changement inévitable au bout de cent ou deux cents ans n’est pas le même sur les
+                            différents points de ce territoire, soit qu’il ait un diamètre de cinq ou six cents lieues, soit de cinq ou six
+                            lieues.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 167</biblScope>)
+                        </bibl>
+                    </cit>
+                    <entry xml:id="changements_phonétique">
+                        <form>
+                            <orth>Changements phonétique</orth>
+                        </form>
+                        <sense n="1">
+                            [<def>
+                                una delle due cause del cambiamento linguistico che concerne il lato
+                                fisiologico e fisico delle forme linguistiche, si realizza per mezzo di operazioni meccaniche e
+                                incoscienti
+                            </def>];
+                            <cit type="example">
+                                <quote xml:lang="fr">
+                                    Il y a d’une part le changement phonétique et d’autre part le changement appelé de divers
+                                    noms, dont aucun n’est excellent, mais dont le plus usité est le changement analogique. Nous verrons
+                                    immédiatement pourquoi. On peut opposer sous beaucoup de points de vue différents ces deux grands
+                                    facteurs de renouvellement linguistique, en disant par exemple que le premier représente le côté
+                                    physiologique et physique de la parole tandis que le second répond au côté psychologique et mental du
+                                    même acte <surplus>[…]</surplus> on oppose aussi souvent ces deux ordres de faits en disant que l’un concerne les sons
+                                    et l’autre les formes grammaticales, ce qui ne représente pas une idée claire parce que les formes de la
+                                    langue ne sont autre chose que les sons, mais on peut dire que l’un attaque la forme par le côté du son
+                                    et que l’autre l’attaque par le côté de l’idée; on peut dire en outre que l’un représente des opérations
+                                    purement mécaniques, c’est-à-dire où on ne peut découvrir ni but ni intention, et l’autre des opérations
+                                    intelligentes, où il et possible de découvrir un but et un sens.
+                                </quote>
+                                <bibl>
+                                    <title>Écrits de linguistique générale</title>
+                                    <author>Simon Bouquet</author>
+                                    <author>Rudolf Engler</author>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Gallimard</publisher>
+                                    <date>2002</date>
+                                    (<biblScope unit="page" from="159" to="160">pp. 159-160</biblScope>)
+                                </bibl>
+                            </cit>
+                            <re type="duale">duale changement analogique<ref target="#changement_analogique"/></re>,
+                            <re type="duale">analogie<ref target="#analogie"/></re>;
+                            <re type="compare">cfr. phonétique<ref target="#phonétique"/></re>,
+                            <re type="compare">physiologique<ref target="#physiologique"/></re>,
+                            <re type="compare">physique<ref target="#physique"/></re>,
+                            <re type="compare">forme<ref target="#forme"/></re>,
+                            <re type="compare">mécanique<ref target="#mécanique"/></re>,
+                            <re type="compare">inconscient<ref target="#inconscient"/></re>,
+                        </entry>
+                        <entry xml:id="changements_analogique">
+
+                    </entry>
+                    
+
+
+
                 </sense>
             </entry>
 
