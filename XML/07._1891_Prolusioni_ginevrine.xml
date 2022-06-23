@@ -431,8 +431,8 @@
                     <orth>Association</orth>
                 </form>
                 <sense n="1">
-                    <def>
-                        [usato in espressioni complesse: <eg>a. de formes</eg> e <eg>a. des idées</eg></ref>; capacità mentale implicata nel
+                    [<def>
+                        usato in espressioni complesse: <eg>a. de formes</eg> e <eg>a. des idées</eg></ref>; capacità mentale implicata nel
                         procedimento analogico. In particolare concerne la capacità di associare forme in base alle idee che
                         rappresentano;]
                     </def>
@@ -456,10 +456,48 @@
                         </bibl>
                     </cit>
                     <re type="compare">Cfr. analogie<ref target="#analogie"/></re>;
-                    {<xr type="other_dictionary"> <ref target="xxx.xml"/>ED</xr>
-                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>
-                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>
-                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>
+                    {<xr type="other_dictionary"> <ref target="xxx.xml"/>ED</xr>;
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>
+            </entry>
+
+            <entry xml:id="caractère_dialectal">
+                <form>
+                    <orth>Caractère dialectal</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        tratti differenziali linguistici riscontrabili in una certa area geografica;]
+                    </def>
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Une des
+                            conquêtes les plus appréciables, et les plus récentes, de la linguistique, due principalement à M. Paul
+                            Meyer de l’École des Chartes, c’est que les dialectes ne sont pas en réalité des unités définies, qu’il
+                            n’existe pas géographiquement de dialectes; mais qu’il existe en revanche géographiquement des
+                            caractères dialectaux.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                        </bibl>
+                        <bibl>
+                            <title></title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 170</biblScope>)
+                        </bibl>
+                    </cit>
+                    <re type="compare">Cfr. aire des faits linguistique<ref target="#aire_des_faits_linguistique"/></re>,
+                    <re type="compare">Cfr. continuité2<ref target="#continuité2"/></re>,
+                    <re type="compare">Cfr. dialecte<ref target="#dialecte"/></re>,
+                    <re type="compare">Cfr. frontière<ref target="#frontière"/></re>.
+                    {<xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
                     <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
                 </sense>
             </entry>
