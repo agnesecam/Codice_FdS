@@ -571,7 +571,7 @@
                         </form>
                         <sense n="1">
                             [<def>
-                                v. <re type="see">analogie<ref target="#analogie"/></re>
+                                v. <ref type="see" target="#analogie">analogie</ref>
                             </def>];
                             <cit type="example">
                                 <quote xml:lang="fr">
