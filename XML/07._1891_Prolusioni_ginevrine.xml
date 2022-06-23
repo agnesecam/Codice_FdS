@@ -247,6 +247,223 @@
                     <xr type="other_dictionary"> <ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>}
                 </sense>
             </entry>
+
+            <entry xml:id="analogique">
+                <form>
+                    <orth>Analogique</orth>
+                </form>
+                <gramGrp>
+                    <pos>adj</pos>
+                </gramGrp>
+                <sense n="1">
+                    [<def>
+                    aggettivo; che si riferisce all’analogia o al risultato di questo procedimento; usato soprattutto in espressioni complesse: 
+                    </def>
+                    <cit type="example">
+                        <eg>changement a., formation a., rennouvellement a. (<ref type="see" target="#analogie">v. analogie </ref>)];</eg>
+                    </cit>
+                </sense>
+            </entry>
+
+            <entry xml:id="analyse">
+                <form>
+                    <orth>Analyse</orth>
+                </form>
+                <gramGrp>
+                    <pos>adj</pos>
+                </gramGrp>
+                <sense n="1">
+                    <def>
+                        [<ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml">v. area A </ref>;]
+                    </def>
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            plus on étudie la langue, plus on arrive à se pénétrer de ce fait que tout dans la langue est histoire, c’est-à-dire qu’elle est un objet d’analyse historique, et non d’analyse abstraite, 
+                            qu’elle se compose de faits, et non de lois, que tout ce qui semble organique dans le langage est en réalité contingent et complètement accidentel
+                        </quote> 
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 149</biblScope>)
+                        </bibl>
+                    </cit>
+                    {<xr type="other_dictionary"> <ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph; </xr>
+                    <xr type="other_dictionary"> <ref target="xxx.xml"/>ED</xr>
+                    <xr type="other_dictionary"> <ref target="13._1903-1910_Leggende_germaniche.xml"/>LG</xr><!--Non trovo il testo corrispondente-->
+                    <xr type="other_dictionary"> <ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>
+                    <xr type="other_dictionary"> <ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>}
+                </sense>
+            </entry>
+
+            <entry xml:id="ancien">
+                <form>
+                    <orth>Ancien</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        <ref type="see" target="#vieux">v. vieux;</ref> S. critica la sua utilità in linguistica e in riferimento alle lingue
+                    </def>];
+                    <re type="synonim">sin. vieux<ref target="#vieux"/></re>.
+                    {<xr type="other_dictionary"> <ref target="04._1878_Mémoire.xml"/>Mem</xr>}
+                </sense>
+            </entry>
+
+            <entry xml:id="antéhistorique">
+                <form>
+                    <orth>Antéhistorique</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        usato nel senso di préhistorique:
+                    </def>
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            «Antérieur à l’apparition des témoignages écrits et à l’emploi des métaux.» (TLFi)];
+                        </quote>
+                        <quote xml:lang="fr">
+                            Autant vaudrait dire en effet que le français que nous parlons vient du
+                            français de Montesquieu ou de celui de Corneille ou vient de celui de Montaigne ou de celui de Froissait,
+                            ou de celui de la Chanson de Roland; cela est une <surplus>[ ]</surplus>, mais comme tout le monde dit qu’il est le français
+                            de Montesquieu, ou celui de la Chanson de Roland, il n’y a aucune raison de ne pas dire alors de même
+                            qu’il est le latin d’Auguste, et le latin de Plaute, et la manière de parler antéhistorique qui a précédé la
+                            manière latine de parler.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                        </bibl>
+                        <bibl>
+                            <title></title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 153</biblScope>)
+                        </bibl>
+                    </cit>
+                    {<xr type="other_dictionary"> <ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>}
+                </sense>
+            </entry>
+        
+            <entry xml:id="arbitraire">
+                <form>
+                    <orth>Arbitraire</orth>
+                </form>
+                <sense n="1">
+                    <def>
+                        [<ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml">v. area A </ref>;]
+                    </def>
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            On dira que nier dans ce sens qu’aucune langue soit née, c’est jouer sur les mots, et
+                            qu’il suffit de définir ce qu’on entend par la naissance pour ne pouvoir nier la naissance ou le
+                            développement progressif d’une langue comme l’allemand, le français. Je réponds que dans ce cas l’on
+                            joue sur un autre mot qui est le mot langue; en réalité la langue n’est pas un être défini et délimité dans le
+                            temps ; on distingue la langue française et la langue latine, l’allemand moderne et le germain d’Arminius
+                            comme on distingue <surplus>[ ]</surplus>, et alors on admet que l’un commence et que l’autre finit quelque part, ce qui est
+                            arbitraire.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                        </bibl>
+                        <bibl>
+                            <title></title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 155</biblScope>)
+                        </bibl>
+                    </cit>
+                    <re type="compare">Cfr. conventionnel<ref target="#conventionnel"/></re>;
+                    usato anche come avverbio <re type="compare">arbitrairement<ref target="#arbitrairement"/></re>
+                    {<xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>
+                    <xr type="other_dictionary"><ref target="13._1903-1910_Leggende_germaniche.xml"/>LG</xr><!--Non trovo il testo corrispondente-->
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>
+            </entry>
+
+            <entry xml:id="articulé">
+                <form>
+                    <orth>Articulé</orth>
+                </form>
+                <sense n="1">
+                    <def>
+                        [discusso; <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml"> v. area B; usato in espressioni complesse <eg>parole a.</eg>, <eg>langage a.</eg></ref>;]
+                    </def>
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Je vous dirai, Messieurs,
+                            qu’on a tout refusé à notre pauvre espèce humaine comme caractère distinctif vis-à-vis des autres espèces
+                            animales, tout, et absolument tout, y compris l’instinct d’industrie, y compris la religiosité, la moralité, le
+                            jugement et la raison, tout, excepté le langage, ou comme on dit la parole articulée, ce terme d’articulé
+                            étant un terme au fond obscur et très vague sur lequel je fais toutes réserves. Je n’ignore pas qu’à l’heure
+                            qu’il est plusieurs espèces de singes, comme l’ont annoncé les journaux, sont en train de nous disputer ce
+                            dernier fleuron de notre couronne, le langage articulé, et je ne discute pas quels sont les titres de ces
+                            singes qui peuvent être, je l’admets, dignes de considération.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                        </bibl>
+                        <bibl>
+                            <title></title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 145</biblScope>)
+                        </bibl>
+                    </cit>
+                    {<xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>}
+                </sense>
+            </entry>
+
+            <entry xml:id="association">
+                <form>
+                    <orth>Association</orth>
+                </form>
+                <sense n="1">
+                    <def>
+                        [usato in espressioni complesse: <eg>a. de formes</eg> e <eg>a. des idées</eg></ref>; capacità mentale implicata nel
+                        procedimento analogico. In particolare concerne la capacità di associare forme in base alle idee che
+                        rappresentano;]
+                    </def>
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            C’est sur une analogie que s’effectue le raisonnement qui est à la base du phénomène.
+                            Plus généralement, ce phénomène représente une association de formes dans l’esprit, qui est dictée par
+                            l’association des idées représentées.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                        </bibl>
+                        <bibl>
+                            <title></title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 161</biblScope>)
+                        </bibl>
+                    </cit>
+                    <re type="compare">Cfr. analogie<ref target="#analogie"/></re>;
+                    {<xr type="other_dictionary"> <ref target="xxx.xml"/>ED</xr>
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>
+            </entry>
+
         </body>
     </text>
 
