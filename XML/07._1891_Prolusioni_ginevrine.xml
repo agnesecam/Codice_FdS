@@ -90,10 +90,10 @@
                             Mi limito a fare il collegamento al dizionario, inserendo come testo semplice il titolo della sezione e l'acronimo, ometto informazioni bibliografiche come il titolo della fonte della sezione.
                             Soluzione 2: uso una listRelation alla fine del documento, in cui scrivo queste relazioni tra termini, e quindi non nell'entrata specifica
                     -->
-                    {<xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus; </xr> 
-                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED; </xr> <!--Non trovo il testo corrispondente-->
-                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney; </xr>
-                    <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS; </xr>
+                    {<xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;
+                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente-->
+                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>;
+                    <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS </xr>;
                     <xr type="other_dictionary"> <ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>}
                 </sense>
             </entry>
@@ -428,7 +428,7 @@
                 </form>
                 <sense n="1">
                     [<def>
-                        usato in espressioni complesse: <eg>a. de formes</eg> e <eg>a. des idées</eg></ref>; capacità mentale implicata nel
+                        usato in espressioni complesse: <eg>a. de formes</eg> e <eg>a. des idées</eg>; capacità mentale implicata nel
                         procedimento analogico. In particolare concerne la capacità di associare forme in base alle idee che
                         rappresentano;]
                     </def>
@@ -563,14 +563,50 @@
                             <re type="compare">forme<ref target="#forme"/></re>,
                             <re type="compare">mécanique<ref target="#mécanique"/></re>,
                             <re type="compare">inconscient<ref target="#inconscient"/></re>,
-                        </entry>
-                        <entry xml:id="changements_analogique">
-
+                        </sense>
                     </entry>
-                    
-
-
-
+                    <entry xml:id="changement_analogique">
+                        <form>
+                            <orth>Changement analogique</orth>
+                        </form>
+                        <sense n="1">
+                            [<def>
+                                v. <re type="see">analogie<ref target="#analogie"/></re>
+                            </def>];
+                            <cit type="example">
+                                <quote xml:lang="fr">
+                                    Avec ce premier principe venait se combiner le second, de la
+                                    continuelle transformation de la langue dans le temps, dépendant elle-même, je le rappelle, de deux
+                                    agents distincts, l’un psychologique se concentrant sur l’«opération d’analogie», l’autre mécanique,
+                                    physiologique, ayant son expression dans les changements phonétiques. L’un agissant de plus d’une
+                                    manière parfaitement indépendante de l’autre, si ce n’est dans quelques cas très spéciaux, très
+                                    remarqués, mais véritablement exceptionnels
+                                </quote>
+                                <bibl>
+                                    <title>Écrits de linguistique générale</title>
+                                    <author>Simon Bouquet</author>
+                                    <author>Rudolf Engler</author>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Gallimard</publisher>
+                                    <date>2002</date>
+                                    (<biblScope unit="page">p. 166</biblScope>)
+                                </bibl>
+                            </cit>
+                            sin. <re type="synonim">analogie;<ref target="#analogie"/></re>;
+                            duale <re type="duale">changement phonétique<ref target="#changement_analogique"/></re>;
+                            cfr. <re type="compare">création<ref target="#création"/></re>,
+                            cfr. <re type="compare">transformation<ref target="#transformation"/></re>.
+                        </sense>
+                    </entry>
+                    {<xr type="other_dictionary"> <ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>
+                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente-->
+                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>;
+                    <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS</xr>;
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
+                    <xr type="other_dictionary"><ref target="13._1903-1910_Leggende_germaniche.xml"/>LG</xr>;<!--Non trovo il testo corrispondente-->
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
                 </sense>
             </entry>
 
