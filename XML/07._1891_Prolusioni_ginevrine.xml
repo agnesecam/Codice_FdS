@@ -203,17 +203,13 @@
                             uno dei due procedimenti regolari di trasformazione delle lingue volto alla creazione di nuove segni 
                             linguistici sulla base di elementi già esistenti; si tratta di un fenomeno di trasformazione linguistica di ordine
                             mentale che richiede un certo grado di azione intelligente.
-                            
-                                a. in riferimento al procedimento: changement par a., opération d’a., phénomène d’a., procédé d’a.
-                            
+                                a. in riferimento al procedimento: changement par a., opération d’a., phénomène d’a., procédé d’a. 
                         </def>
                     </sense>
                     <sense n="b">
                         <def>
                             Usato anche per indicare il risultato di questo procedimento;
-                            
                                 b. in riferimento al risultato del processo: fait d’a., formation d’a., perturbation d’a.
-                            
                         </def>]
                     </sense>
                     <cit type="example">
@@ -604,6 +600,45 @@
                     <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS</xr>;
                     <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
                     <xr type="other_dictionary"><ref target="13._1903-1910_Leggende_germaniche.xml"/>LG</xr>;<!--Non trovo il testo corrispondente-->
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>
+            </entry>
+
+            <entry xml:id="conscience">
+                <form>
+                    <orth>Conscience</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        grado di consapevolezza e volontarietà nella realizzazione di un’azione, soprattutto legata all’atto linguistico
+                    </def>;]
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            toujours en se rappelant que la notion de conscience est éminemment relative, de
+                            sorte qu’il ne s’agit que de deux degrés de conscience dont le plus élevé est encore de l’inconscience pure
+                            comparé au degré de réflexion qui accompagne la plupart de nos actes.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 159</biblScope>)
+                        </bibl>
+                    </cit>
+                    Ant. <re type="antonym">inconscience<ref target="#inconscience"/></re>;
+                    Cfr. <re type="compare">intelligence<ref target="#intelligence"/></re>;
+                    <re type="compare">volonté<ref target="#volonté"/></re>,
+                    Usato anche come aggettivo conscient
+                    {<xr type="other_dictionary"> <ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>
+                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente-->
+                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>;
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
                     <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
                     <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
                     <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
