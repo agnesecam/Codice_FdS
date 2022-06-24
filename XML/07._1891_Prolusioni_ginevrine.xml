@@ -994,7 +994,7 @@
                             </bibl>
                         </cit>
                         Ant. <re type="antonym">divergence<ref target="#divergence"/></re>;
-                        S. <re type="see">différencier<ref target="#différencier"/></re>.
+                        S. <re type="S.">différencier<ref target="#différencier"/></re>.
                         {<xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;
                         <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente-->                    
                         <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
@@ -1004,6 +1004,44 @@
                         <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
                     </sense>    
                 </sense>     
+            </entry>
+
+            <entry xml:id="différenciation">
+                <form>
+                    <orth>Différenciation</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        processo mediante il quale una lingua si differenzia (v. <re type="see">différence1<ref target="#différence1"/></re>) nel del corso del
+                        tempo (v. <re type="see">différence2<ref target="#différence2"/></re>) e dello spazio (v. <re type="see">divergence<ref target="#divergence"/></re>)
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Si nous essayons maintenant de combiner, de
+                            composer le fait de la différenciation dans le temps avec celui de la différenciation dans l’espace, à quelle
+                            perspective des phénomènes arriverons-nous assez naturellement? Soit une certaine surface de mille
+                            lieues carrées où se parle à un moment donné un idiome: 500 ans après il y a toute une série de dialectes
+                            différents sur la même surface, B' B" B'". Mais si nous partageons en deux la distance dans le temps, il en
+                            résulte inévitablement aussi un tout autre aspect des différences dialectales; c’est-à-dire qu’au bout de 250
+                            ans, non seulement les différents dialectes B' B" ne sont pas encore ce qu’ils seront, mais qu’ils n’existent
+                            pas encore comme dialectes individuels;
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 169</biblScope>)
+                        </bibl>
+                    </cit>
+                    Cfr. <re type="compare">différence<ref target="#différence"/></re>,
+                    <re type="compare">différencier<ref target="#différencier"/></re>.
+                    {<xr type="other_dictionary"> <ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                    <xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>
             </entry>
 
         </body>
