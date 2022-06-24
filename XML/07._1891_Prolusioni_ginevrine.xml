@@ -762,6 +762,33 @@
                 </sense>                
             </entry>
 
+            <entry xml:id="contradictoire">
+                <form>
+                    <orth>Contradictoire</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        v. <ref target="01._Area_terminologica_A_altri_saperi_specialistici.xml">area A</ref>
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Ces deux principes de la continuité et de la mutabilité de la langue, loin d’être
+                            contradictoires, se trouvent dans une corrélation si étroite et si évidente que, aussitôt que nous sommes
+                            tentés de méconnaître l’un, nous faisons injure à l’autre, du même coup, et inévitablement, sans y penser.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 157</biblScope>)
+                        </bibl>
+                    </cit>
+                </sense>
+            </entry>
         </body>
     </text>
 
