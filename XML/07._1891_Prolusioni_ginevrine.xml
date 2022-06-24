@@ -789,6 +789,116 @@
                     </cit>
                 </sense>
             </entry>
+
+            <entry xml:id="conventionnel">
+                <form>
+                    <orth>Conventionnel</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        v. <ref target="01._Area_terminologica_A_altri_saperi_specialistici.xml">area A</ref>
+                    </def>;]
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            L’essentiel est de comprendre que nous pouvons ne donner qu’un seul nom à
+                            toute la période de vingt et un siècles en l’appelant latin - ou bien deux noms en l’appelant latin et
+                            français, - ou bien trois noms en l’appelant latin, roman, français, - ou bien vingt et un noms en
+                            l’appelant latin du IIe siècle avant l’ère, du Ier siècle avant l’ère, du Ier siècle après l’ère, du IIe, IIIe, IVe,
+                            VIIe, XIIe, XVe, XIXe après l’ère. Et qu’il n’existe littéralement aucune autre façon d’introduire une
+                            division, si ce n’est cette façon tout arbitraire et conventionnelle.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 165</biblScope>)
+                        </bibl>
+                    </cit>
+                    Cfr. <re type="compare">arbitraire<ref target="#arbitraire"/></re>;
+                    <re type="compare">volonté<ref target="#volonté"/></re>,
+                    Usato anche come aggettivo conscient
+                    {<xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;
+                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>;
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>}
+                </sense>
+            </entry>
+
+            <entry xml:id="corrélation">
+                <form>
+                    <orth>Corrélation</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        relazione esistente tra due principi, due nozioni di cui l’una implica l’altra
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Ces deux
+                            principes de la continuité et de la mutabilité de la langue, loin d’être contradictoires, se trouvent dans une
+                            corrélation si étroite et si évidente que, aussitôt que nous sommes tentés de méconnaître l’un, nous faisons
+                            injure à l’autre, du même coup, et inévitablement, sans y penser.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 157</biblScope>)
+                        </bibl>
+                    </cit>
+                    {<xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente-->}
+                </sense>
+            </entry>
+
+            <entry xml:id="création">
+                <form>
+                    <orth>Création</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        in riferimento alle formazioni analogiche e alle innovazioni linguistiche in generale: azione di
+                        creare una forma linguistica che non esisteva in una data lingua per mezzo del procedimento analogico,
+                        utilizzando le forme linguistiche associate alle idee entrambe presenti nella memoria. Nella lingua non si
+                        hanno creazioni dal nulla (v. <re type="see">analogie<ref target="#analogie"/></re>)
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Remarquons tout de suite un des caractères de ce phénomène:
+                            dans un sens, ce n’est pas une transformation, c’est une création; mais en dernière analyse ce n’est qu’une
+                            transformation, parce que tous les éléments de venirai sont contenus et donnés dans des formes existantes
+                            fournies par la mémoire; punirai, punir, ou bien si l’on veut le suffixe -ir, le suffixe -irai, et leur rapport
+                            de signification. Sans la présence de ces éléments, venirai est simplement impossible. Il n’y aura donc
+                            jamais de création ex nihilo, mais chaque innovation ne sera qu’une application nouvelle d’éléments
+                            fournis par l’état antérieur du langage.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 160</biblScope>)
+                        </bibl>
+                    </cit>
+                    Syn. <re type="synonym">innovation<ref target="#innovation"/></re>;
+                    quasi-sin. <re type="almost-synonym">transformation</re>;
+                    Cfr. <re type="compare">analogie<ref target="#analogie"/></re>,
+                    <re type="compare">changement analogique<ref target="#changement analogique"/></re>
+                    {<xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
+                    <xr type="other_dictionary"> <ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                    <xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>
+            </entry>
+
         </body>
     </text>
 
