@@ -680,86 +680,88 @@
                 <form>
                     <orth>Continuité</orth>
                 </form>
-                <sense n="1" xml:id="continuité1">1. 
-                    [<def>
-                        principe de continuité dans le temps de la langue: nel processo di trasformazione storico
-                        della lingua non vi è alcuna frattura che possa far riconoscere un prima e un dopo, nessun momento
-                        preciso e netto in cui si passa da una certa denominazione di una lingua ad un altra
-                    </def>];
-                    <cit type="example">
-                        <quote xml:lang="fr">
-                            Lorsque nous
-                            considérons un certain état de langue comme le français du XIXe siècle, et un certain état de langue
-                            antérieur, comme par exemple le latin du siècle d’Auguste, nous sommes frappés au premier moment par
-                            la grande distance qui les sépare, et nous sommes, je m’empresse de l’ajouter, beaucoup plus frappés
-                            encore par la dénomination différente qu’on est convenu de leur donner en appelant ceci latin et cela
-                            français. Nous nous figurons alors assez volontiers qu’il y a deux choses, dont l’une a pris la succession
-                            de l’autre. Or qu’il y ait succession, c’est là ce qui est indubitable et évident, mais qu’il y ait deux choses
-                            dans cette succession, c’est ce qui est faux, radicalement faux, et dangereusement faux, du point de vue de
-                            toutes les conceptions qui s’ensuivent. Il suffit d’y réfléchir un instant, puisque tout est contenu dans cette
-                            simple observation: chaque individu emploie le lendemain le même idiome qu’il parlait la veille et cela
-                            s’est toujours vu. Il n’y a donc eu aucun jour où on ait pu dresser l’acte de décès de la langue latine, et il
-                            n’y a eu également aucun jour où on ait pu enregistrer la naissance de la langue française. Il n’est jamais
-                            arrivé que les gens de France se soient réveillés, en se disant bonjour en français, après s’être endormis la
-                            veille en se disant bonne nuit en latin. .
-                        </quote>
-                        <bibl>
-                            <title>Écrits de linguistique générale</title>
-                            <author>Simon Bouquet</author>
-                            <author>Simon Bouquet</author>
-                            <author>Rudolf Engler</author>
-                            <pubPlace>Paris</pubPlace>
-                            <publisher>Gallimard</publisher>
-                            <date>2002</date>
-                            (<biblScope unit="page">p. 152</biblScope>)
-                        </bibl>
-                    </cit>
-                    Opp. <re type="opposite">fixité<ref target="#fixité"/></re>;
-                    sin. <re type="synonym">ininterruption forcée<ref target="#ininterruption_forcée"/></re>;
-                    quasi-sin. <re type="almost-synonym">tradition de la langue<ref target="#tradition_de_la_langue"/></re>;
-                    duale <re type="duale">mutabilité<ref target="#tradition_de_la_langue"/></re>,
-                    <re type="duale">transformation<ref target="#transformation"/></re>;
-                    Cfr. <re type="compare">état de langue<ref target="#état_de_langue"/></re>,
-                    <re type="compare">succession<ref target="#succession"/></re>,
-                    <re type="compare">transition<ref target="#transition"/></re>,
-                    <re type="compare">via de langue<ref target="#via_de_langue"/></re>.
-                </sense>
-                <sense n="2" xml:id="continuité2">2. 
-                    [<def>
-                        principe de la continuité dans l’espace: le differenze linguistiche che si possono constatare
-                        nell’attraversare uno spazio geografico continuo non presentano, nella maggior parte dei casi, una frattura
-                        netta tra due aree contigue
-                    </def>];
-                    <cit type="example">
-                        <quote xml:lang="fr">
-                            L’effet de ces phénomènes successifs, observant tous la loi de la continuité
-                            géographique, est que le dialecte ne peut jamais différer qu’insensiblement si l’on part d’une localité
-                            quelconque dans une direction quelconque.
-                        </quote>
-                        <bibl>
-                            <title>Écrits de linguistique générale</title>
-                            <author>Simon Bouquet</author>
-                            <author>Simon Bouquet</author>
-                            <author>Rudolf Engler</author>
-                            <pubPlace>Paris</pubPlace>
-                            <publisher>Gallimard</publisher>
-                            <date>2002</date>
-                            (<biblScope unit="page">p. 171</biblScope>)
-                        </bibl>
-                    </cit>
-                    Ant. <re type="antonym">divergence<ref target="#divergence"/></re>;
-                    Cfr. <re type="compare">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/></re>;
-                    <re type="compare">caractère dialectal<ref target="#caractère_dialectal"/></re>;
-                    <re type="compare">dialecte<ref target="#dialecte"/></re>;
-                    <re type="compare">frontière<ref target="#frontière"/></re>.
-                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente-->
+                <sense n="1">
+                    <sense n="a" xml:id="continuité1">1. 
+                        [<def>
+                            principe de continuité dans le temps de la langue: nel processo di trasformazione storico
+                            della lingua non vi è alcuna frattura che possa far riconoscere un prima e un dopo, nessun momento
+                            preciso e netto in cui si passa da una certa denominazione di una lingua ad un altra
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                Lorsque nous
+                                considérons un certain état de langue comme le français du XIXe siècle, et un certain état de langue
+                                antérieur, comme par exemple le latin du siècle d’Auguste, nous sommes frappés au premier moment par
+                                la grande distance qui les sépare, et nous sommes, je m’empresse de l’ajouter, beaucoup plus frappés
+                                encore par la dénomination différente qu’on est convenu de leur donner en appelant ceci latin et cela
+                                français. Nous nous figurons alors assez volontiers qu’il y a deux choses, dont l’une a pris la succession
+                                de l’autre. Or qu’il y ait succession, c’est là ce qui est indubitable et évident, mais qu’il y ait deux choses
+                                dans cette succession, c’est ce qui est faux, radicalement faux, et dangereusement faux, du point de vue de
+                                toutes les conceptions qui s’ensuivent. Il suffit d’y réfléchir un instant, puisque tout est contenu dans cette
+                                simple observation: chaque individu emploie le lendemain le même idiome qu’il parlait la veille et cela
+                                s’est toujours vu. Il n’y a donc eu aucun jour où on ait pu dresser l’acte de décès de la langue latine, et il
+                                n’y a eu également aucun jour où on ait pu enregistrer la naissance de la langue française. Il n’est jamais
+                                arrivé que les gens de France se soient réveillés, en se disant bonjour en français, après s’être endormis la
+                                veille en se disant bonne nuit en latin. .
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page">p. 152</biblScope>)
+                            </bibl>
+                        </cit>
+                        Opp. <re type="opposite">fixité<ref target="#fixité"/></re>;
+                        sin. <re type="synonym">ininterruption forcée<ref target="#ininterruption_forcée"/></re>;
+                        quasi-sin. <re type="almost-synonym">tradition de la langue<ref target="#tradition_de_la_langue"/></re>;
+                        duale <re type="duale">mutabilité<ref target="#tradition_de_la_langue"/></re>,
+                        <re type="duale">transformation<ref target="#transformation"/></re>;
+                        Cfr. <re type="compare">état de langue<ref target="#état_de_langue"/></re>,
+                        <re type="compare">succession<ref target="#succession"/></re>,
+                        <re type="compare">transition<ref target="#transition"/></re>,
+                        <re type="compare">via de langue<ref target="#via_de_langue"/></re>.
+                    </sense>
+                    <sense n="b" xml:id="continuité2">2. 
+                        [<def>
+                            principe de la continuité dans l’espace: le differenze linguistiche che si possono constatare
+                            nell’attraversare uno spazio geografico continuo non presentano, nella maggior parte dei casi, una frattura
+                            netta tra due aree contigue
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                L’effet de ces phénomènes successifs, observant tous la loi de la continuité
+                                géographique, est que le dialecte ne peut jamais différer qu’insensiblement si l’on part d’une localité
+                                quelconque dans une direction quelconque.
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page">p. 171</biblScope>)
+                            </bibl>
+                        </cit>
+                        Ant. <re type="antonym">divergence<ref target="#divergence"/></re>;
+                        Cfr. <re type="compare">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/></re>;
+                        <re type="compare">caractère dialectal<ref target="#caractère_dialectal"/></re>;
+                        <re type="compare">dialecte<ref target="#dialecte"/></re>;
+                        <re type="compare">frontière<ref target="#frontière"/></re>.
+                        <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente-->
+                    </sense>
                     {<xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;                    
                     <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
                     <xr type="other_dictionary"><ref target="13._1903-1910_Leggende_germaniche.xml"/>LG</xr>;<!--Non trovo il testo corrispondente-->
                     <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
                     <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
-                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
-                </sense>                
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}                
+                </sense>
             </entry>
 
             <entry xml:id="contradictoire">
@@ -939,6 +941,69 @@
                     <xr type="other_dictionary"> <ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
                     <xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
                 </sense>
+            </entry>
+
+            <entry xml:id="différence">
+                <form>
+                    <orth>Différence</orth>
+                </form>
+                <sense n="1">
+                    <sense n="a" xml:id="différence1">1. 
+                        [<def>
+                            résultat d’une différenciation
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                La différence A : B représente idéalement la différence dans
+                                le temps, mais en fait il n’existe que la différence A : B' B" B'" - qui seule réelle représente la différence à
+                                la fois dans le temps et dans l’espace. Ainsi se fait que nous ne surprenons, on peut le dire, nulle part une
+                                langue qui nous apparaisse comme géographiquement une et identique; tout idiome que l’on peut citer
+                                n’est généralement qu’une des multiples formes géographiques sous lesquelles se présente le même parler
+                                dans une région un peu étendue.
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page">p. 167</biblScope>)
+                            </bibl>
+                        </cit>
+                    </sense>
+                    <sense n="b" xml:id="différence2">2. 
+                        [<def>
+                            résultat d’une différenciation dans le temps
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                La différence A : B représente idéalement la différence
+                                dans le temps.
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page">p. 167</biblScope>)
+                            </bibl>
+                        </cit>
+                        Ant. <re type="antonym">divergence<ref target="#divergence"/></re>;
+                        S. <re type="see">différencier<ref target="#différencier"/></re>.
+                        {<xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;
+                        <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente-->                    
+                        <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
+                        <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>;
+                        <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                        <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                    </sense>    
+                </sense>     
             </entry>
 
         </body>
