@@ -680,7 +680,7 @@
                 <form>
                     <orth>Continuité</orth>
                 </form>
-                <sense n="1">1. 
+                <sense n="1" xml:id="continuité1">1. 
                     [<def>
                         principe de continuité dans le temps de la langue: nel processo di trasformazione storico
                         della lingua non vi è alcuna frattura che possa far riconoscere un prima e un dopo, nessun momento
@@ -724,7 +724,7 @@
                     <re type="compare">transition<ref target="#transition"/></re>,
                     <re type="compare">via de langue<ref target="#via_de_langue"/></re>.
                 </sense>
-                <sense n="2">2. 
+                <sense n="2" xml:id="continuité2">2. 
                     [<def>
                         principe de la continuité dans l’espace: le differenze linguistiche che si possono constatare
                         nell’attraversare uno spazio geografico continuo non presentano, nella maggior parte dei casi, una frattura
@@ -894,6 +894,48 @@
                     Cfr. <re type="compare">analogie<ref target="#analogie"/></re>,
                     <re type="compare">changement analogique<ref target="#changement analogique"/></re>
                     {<xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
+                    <xr type="other_dictionary"> <ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                    <xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>
+            </entry>
+
+            <entry xml:id="dialecte">
+                <form>
+                    <orth>Dialecte</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        v. <re type="see">area B<ref target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml"/></re>;
+                        Criticato da S. in quanto opposto a una langue, esistono solo dei caractères dialectaux
+                        e si può parlare di dialetti solo delimitando una certa area geografica e dunque si parla di aire des faits
+                        linguistique
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Chaque région se trouve placée sur le parcours d’un certain nombre de phénomènes
+                            linguistiques, lesquels ont chacun leurs parcours déterminés; la somme des caractères qui résulte pour
+                            chaque région de la superposition accidentelle de tel et tel phénomène est ce qui constitue, si l’on veut, le
+                            dialecte de cette région. Mais il est impossible de trouver un caractère qui permette de délimiter ce
+                            dialecte par rapport à tout autre - à moins de prendre un seul village. Les recherches dialectales sont
+                            actuellement uniquement dirigées vers ce but, de délimiter l’aire des faits linguistiques, mais non de tracer
+                            des unités imaginaires de dialectes.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 171</biblScope>)
+                        </bibl>
+                    </cit>
+                    Cfr. <re type="compare">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/></re>,
+                    <re type="compare">caractère dialectal<ref target="#caractère_dialectal"/></re>,
+                    <re type="compare">continuité2<ref target="#continuité2"/></re>,
+                    <re type="compare">frontière<ref target="#frontière"/></re>.
+                    {<xr type="other_dictionary"> <ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
                     <xr type="other_dictionary"> <ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
                     <xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
                 </sense>
