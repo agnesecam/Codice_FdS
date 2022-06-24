@@ -868,7 +868,7 @@
                         in riferimento alle formazioni analogiche e alle innovazioni linguistiche in generale: azione di
                         creare una forma linguistica che non esisteva in una data lingua per mezzo del procedimento analogico,
                         utilizzando le forme linguistiche associate alle idee entrambe presenti nella memoria. Nella lingua non si
-                        hanno creazioni dal nulla (v. <re type="see">analogie<ref target="#analogie"/></re>)
+                        hanno creazioni dal nulla (v. <ref type="see" target="#analogie">analogie</ref>)
                     </def>];
                     <cit type="example">
                         <quote xml:lang="fr">
@@ -907,7 +907,7 @@
                 </form>
                 <sense n="1">
                     [<def>
-                        v. <re type="see">area B<ref target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml"/></re>;
+                        v. <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml">area B</ref>;
                         Criticato da S. in quanto opposto a una langue, esistono solo dei caractères dialectaux
                         e si può parlare di dialetti solo delimitando una certa area geografica e dunque si parla di aire des faits
                         linguistique
@@ -1012,8 +1012,8 @@
                 </form>
                 <sense n="1">
                     [<def>
-                        processo mediante il quale una lingua si differenzia (v. <re type="see">différence1<ref target="#différence1"/></re>) nel del corso del
-                        tempo (v. <re type="see">différence2<ref target="#différence2"/></re>) e dello spazio (v. <re type="see">divergence<ref target="#divergence"/></re>)
+                        processo mediante il quale una lingua si differenzia (v. <ref type="see" target="#différence1">différence1</ref>) nel del corso del
+                        tempo (v. <ref type="see" target="#différence2">différence2</ref>) e dello spazio (v. <ref type="see" target="#divergence">divergence</ref>)
                     </def>];
                     <cit type="example">
                         <quote xml:lang="fr">
