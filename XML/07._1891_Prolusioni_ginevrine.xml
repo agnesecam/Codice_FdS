@@ -1708,6 +1708,18 @@
                 </sense>
             </entry>
 
+            <entry xml:id="formation_analogique">
+                <form>
+                    <orth>Formation analogique</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        v. <ref type="see" target="#analogie"></ref>
+                    </def>];
+                    {<xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>}
+                </sense>
+            </entry>
+
         </body>
     </text>
 
