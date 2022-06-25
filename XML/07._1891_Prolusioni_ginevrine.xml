@@ -197,7 +197,7 @@
                 </form>
                 <!--<sense> non può essere figlio di def, quindi uso due <sens> distinti, l'attributo n="a"/"b" li identifica-->
                 <sense n="1">
-                    v. <re type="see">area B<ref target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml"/></re>;
+                    v. <ref target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml"/>area B</re>;
                     <sense n="a">
                         <def>
                             uno dei due procedimenti regolari di trasformazione delle lingue volto alla creazione di nuove segni 
@@ -1518,6 +1518,40 @@
                     <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
                     <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
                     <xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>
+            </entry>
+
+            <entry xml:id="fait">
+                <form>
+                    <orth>Fait</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        laccadimento, fenomeno o avvenimento che non dipendono esclusivamente da leggi universali di
+                        natura ma determinati – in parte o in toto – da atti umani (v. <ref type="see" target="#acte_humain">acte_humain</ref>)
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            plus on étudie la langue,
+                            plus on arrive à se pénétrer de ce fait que tout dans la langue est histoire, c’est-à-dire qu’elle est un objet
+                            d’analyse historique, et non d’analyse abstraite, qu’elle se compose de faits, et non de lois, que tout ce qui
+                            semble organique dans le langage est en réalité contingent et complètement accidentel.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 149</biblScope>);
+                        </bibl>
+                    </cit>
+                    Opp. <re type="opposite"> loi1<ref target="# loi1"/></re>;
+                    Cfr. <re type="compare">accidentel<ref target="#accidentel"/></re>,
+                    <re type="compare">acte humaine<ref target="#acte_humaine"/></re>, 
+                    <re type="compare">contingent<ref target="#contingent"/></re>.
                 </sense>
             </entry>
 
