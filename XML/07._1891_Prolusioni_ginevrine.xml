@@ -197,7 +197,7 @@
                 </form>
                 <!--<sense> non può essere figlio di def, quindi uso due <sens> distinti, l'attributo n="a"/"b" li identifica-->
                 <sense n="1">
-                    v. <ref target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml"/>area B</re>;
+                    v. <ref target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml">area B</ref>;
                     <sense n="a">
                         <def>
                             uno dei due procedimenti regolari di trasformazione delle lingue volto alla creazione di nuove segni 
@@ -1184,7 +1184,7 @@
                 </form>
                 <sense n="1">
                     [<def>
-                        differenze linguistiche che risultano da una differenziazione (v. différentiation1) nello spazio
+                        differenze linguistiche che risultano da una differenziazione (v. <ref type="see" target="#differentation1">differentation1</ref>) nello spazio
                     </def>];
                     <cit type="example">
                         <quote xml:lang="fr">
@@ -1521,6 +1521,44 @@
                 </sense>
             </entry>
 
+            <entry xml:id="faculté">
+                <form>
+                    <orth>Faculté</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        potenzialità psico-fisiche di un essere vivente, in particolare quelle umane; usato anche in
+                        espressioni complesse: f. natives, f. de l’homme
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Ce qui est clair, comme on l’a répété mille fois, c’est
+                            que l’homme sans le langage serait peut-être l’homme, mais qu’il ne serait pas un être se rapprochant
+                            même approximativement de l’homme que nous connaissons et que nous sommes, parce que le langage a
+                            été le plus formidable engin d’action collective d’une part, et d’éducation individuelle de l’autre,
+                            l’instrument sans lequel en fait l’individu ou l’espèce n’auraient jamais pu même aspirer à développer
+                            dans aucun sens ses facultés natives. Ici se présente cette objection plus ou moins fondée selon nous: vous
+                            transformez l’étude des langues en l’étude du langage, du langage considéré comme faculté de l’homme,
+                            comme un des signes distinctifs de son espèce, comme caractère anthropologique ou pour ainsi dire
+                            zoologique.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page" from="145" to="146">p. 145-146</biblScope>);
+                        </bibl>
+                    </cit>
+                    {<xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                    <xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>
+            </entry>
+
             <entry xml:id="fait">
                 <form>
                     <orth>Fait</orth>
@@ -1548,10 +1586,48 @@
                             (<biblScope unit="page">p. 149</biblScope>);
                         </bibl>
                     </cit>
-                    Opp. <re type="opposite"> loi1<ref target="# loi1"/></re>;
+                    Opp. <re type="opposite"> loi1<ref target="#loi1"/></re>;
                     Cfr. <re type="compare">accidentel<ref target="#accidentel"/></re>,
                     <re type="compare">acte humaine<ref target="#acte_humaine"/></re>, 
                     <re type="compare">contingent<ref target="#contingent"/></re>.
+                </sense>
+            </entry>
+
+            <entry xml:id="fait_de_langage">
+                <form>
+                    <orth>Fait de langage</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        fatto che risulta da atti linguistici (v. <ref type="see" target="#acte_linguistique">acte linguistique</ref>)
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            À mesure qu’on a mieux compris
+                            la véritable nature des faits de langage, qui sont si près de nous, mais d’autant plus difficiles à saisir dans
+                            leur essence, il est devenu plus évident que la science du langage est une science historique et rien d’autre
+                            qu’une science historique.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 148</biblScope>);
+                        </bibl>
+                    </cit>
+                    Cfr. <re type="compare">fait<ref target="#fait"/></re>,
+                    <re type="compare">linguistique<ref target="#linguistique"/></re>
+                    Occorre anche come fait linguistique
+                    {<xr type="other_dictionary"><ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente-->
+                    <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
                 </sense>
             </entry>
 
