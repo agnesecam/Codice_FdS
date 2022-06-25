@@ -1438,38 +1438,88 @@
             </entry>
 
             <entry xml:id="espace">
-                    <form>
-                        <orth>Espace</orth>
-                    </form>
-                    <sense n="1">
-                        [<def>
-                            superfice, estensione di territorio compreso tra due punti o due luoghi che costituisce, insieme al
-                            tempo, uno dei fattori che concorrono ai cambiamenti linguistici
-                        </def>];
-                        <cit type="example">
-                            <quote xml:lang="fr">
-                                Presque immédiatement se présentera
-                                la nécessité de classer nos idées sous deux chefs. La langue se différencie dans le temps, et en même
-                                temps elle se différencie ou se diversifie dans l’espace. Une langue prise à deux dates différentes n’est pas
-                                identique à elle-même. Prise sur deux points plus ou moins distants de son territoire, elle n’est pas non
-                                plus identique à elle-même. Les deux choses, lorsqu’on veut avoir une vue exacte des événements,
-                                doivent toujours être considérées à la fois et de front.
-                            </quote>
-                            <bibl>
-                                <title>Écrits de linguistique générale</title>
-                                <author>Simon Bouquet</author>
-                                <author>Simon Bouquet</author>
-                                <author>Rudolf Engler</author>
-                                <pubPlace>Paris</pubPlace>
-                                <publisher>Gallimard</publisher>
-                                <date>2002</date>
-                                (<biblScope unit="page">p. 151</biblScope>)
-                            </bibl>
-                        </cit>
-                        Quasi-sin. <re type="almost-synonym">distance géographique<ref target="#distance_géographique"/></re>.
-                        <xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
-                    </sense>
-                </entry>
+                <form>
+                    <orth>Espace</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        superfice, estensione di territorio compreso tra due punti o due luoghi che costituisce, insieme al
+                        tempo, uno dei fattori che concorrono ai cambiamenti linguistici
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Presque immédiatement se présentera
+                            la nécessité de classer nos idées sous deux chefs. La langue se différencie dans le temps, et en même
+                            temps elle se différencie ou se diversifie dans l’espace. Une langue prise à deux dates différentes n’est pas
+                            identique à elle-même. Prise sur deux points plus ou moins distants de son territoire, elle n’est pas non
+                            plus identique à elle-même. Les deux choses, lorsqu’on veut avoir une vue exacte des événements,
+                            doivent toujours être considérées à la fois et de front.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 151</biblScope>)
+                        </bibl>
+                    </cit>
+                    Quasi-sin. <re type="almost-synonym">distance géographique<ref target="#distance_géographique"/></re>.
+                    <xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>
+            </entry>
+
+            <entry xml:id="etat_de_langue">
+                <form>
+                    <orth>Etat de langue</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        lingua delimitata temporalmente e geograficamente. Usato in maniera quasi matematica ad
+                        indicare un punto nella continuità della lingua e dei suoi combiamenti
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Et qu’il n’existe littéralement
+                            aucune autre façon d’introduire une division, si ce n’est cette façon tout arbitraire et conventionnelle.
+                            Ainsi nous nions - non seulement qu’une langue puisse naître sans être précédée d’une autre, - non
+                            seulement en second lieu qu’une langue puisse subitement naître d’une autre, mais troisièmement même
+                            nous nions qu’une langue déterminée naisse graduellement d’une autre, car il n’y a aucun instant où la
+                            langue soit moins déterminée ni plus déterminée qu’à un autre; il n’y a jamais de caractères permanents,
+                            mais seulement transitoires et de plus délimités dans le temps; il n’y a que des états de langue qui sont
+                            perpétuellement la transition entre l’état de la veille et celui du lendemain; vouloir réunir un certain
+                            nombre de ces états sous un nom comme celui de latin ou de français représente la même opération, offre
+                            exactement la même valeur que si nous opposons le <num type="ordinal" value="19">XIX</num> siècle au <num type="ordinal" value="17">XVII</num> ou au <num type="ordinal" value="12">XII</num>.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 165</biblScope>);
+                        </bibl>
+                    </cit>
+                    Cfr. <re type="compare">continuité<ref target="#continuité"/></re>,
+                    <re type="compare">succession<ref target="#succession"/></re>,
+                    <re type="compare">transition<ref target="#transition"/></re>, 
+                    <re type="compare">vie de la langue<ref target="#vie de la langu"/></re>.
+                    {<xr type="other_dictionary"> <ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>
+                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente-->
+                    <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;
+                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>;
+                    <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS </xr>;
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
+                    <xr type="other_dictionary"><ref target="13._1903-1910_Leggende_germaniche.xml"/>LG</xr>;<!--Non trovo il testo corrispondente-->
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                    <xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>
+            </entry>
 
         </body>
     </text>
