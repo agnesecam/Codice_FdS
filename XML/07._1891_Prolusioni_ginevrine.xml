@@ -1409,23 +1409,17 @@
                 <sense n="1">
                     [<def>
                         (<eg xml:lang="fr">état d’é.</eg> criticato in riferimento alla lingua e ai suoi cambiamenti storici; per il termine
-                        équilibre v. area A
+                        équilibre v. <ref target="01._Area_terminologica_A_altri_saperi_specialistici.xml">area A</ref>
                     </def>];
                     <cit type="example">
                         <quote xml:lang="fr">
-                            Dès à présent, un linguiste qui viendrait en France dans le but de noter
-                            méthodiquement par l’écriture le français parlé, le français réel et authentique, comme on recueille
-                            méthodiquement la langue de quelque peuple malais ou africain, ou comme on recueille les patois
-                            français - ce linguiste écrirait sans hésiter qu’en l’an 1891 on a k-a-t, kat, comme la forme exacte ou la
-                            forme principale pour le quatrième nom de nombre, l-e-t, let pour le mot signifiant missive ou signe de
-                            l’alphabet. Car à Genève comme à Bordeaux ou à Paris et à Lille, dans la rue comme dans les salons,
-                            personne ne dit autrement que kat places, kat jours, ou la let que j’ai reçue, etc. (Dans certaines
-                            conditions, il y a une seconde forme letr, savoir devant les voyelles: letr ouverte; mais même devant
-                            voyelle on commence à dire let ouverte, mettre cette let à la poste, et très probablement letr sera ainsi une
-                            forme totalement inconnue dans cinquante ou soixante-quinze ans.) Voilà un exemple entre beaucoup qui
-                            prouve que des phénomènes de transformation semblables à ceux que nous retrouvons dans tous les
-                            idiomes laissés à eux-mêmes n’ont pas cessé en réalité de se produire, même dans une langue où toutes
-                            les conditions sont anormales par la toute-puissance apparente de l’écriture
+                            De même s’il commence par supprimer l’idée de continuité, en imaginant qu’un jour
+                            le français sortit comme Minerve du cerveau de Jupiter armé de toutes pièces des flancs de la langue
+                            latine, il tombe régulièrement dans le sophisme de l’immobilité; il suppose naturellement qu’entre deux de
+                            ses sauts imaginaires la langue est dans un état d’équilibre et de repos, ou au moins d’équilibre opposable
+                            à ces sauts, tandis qu’il n’y a jamais en réalité un équilibre, un point permanent, stable dans aucun
+                            langage. Nous posons donc le principe de la transformation incessante des langues comme absolu. Le cas
+                            d’un idiome qui se trouverait en état d’immobilité et de repos ne se présente pas
                         </quote>
                         <bibl>
                             <title>Écrits de linguistique générale</title>
@@ -1435,18 +1429,47 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 158</biblScope>)
+                            (<biblScope unit="page" from="157" to="158">pp. 157-158</biblScope>)
                         </bibl>
                     </cit>
-                    {<xr type="other_dictionary"> <ref target="04._1878_Mémoire.xml"/>Mem</xr>;
-                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente-->                    
-                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
-                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>;
-                    <xr type="other_dictionary"> <ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
-                    <xr type="other_dictionary"> <ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                    {<xr type="other_dictionary"> <ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
                     <xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
                 </sense>
             </entry>
+
+            <entry xml:id="espace">
+                    <form>
+                        <orth>Espace</orth>
+                    </form>
+                    <sense n="1">
+                        [<def>
+                            superfice, estensione di territorio compreso tra due punti o due luoghi che costituisce, insieme al
+                            tempo, uno dei fattori che concorrono ai cambiamenti linguistici
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                Presque immédiatement se présentera
+                                la nécessité de classer nos idées sous deux chefs. La langue se différencie dans le temps, et en même
+                                temps elle se différencie ou se diversifie dans l’espace. Une langue prise à deux dates différentes n’est pas
+                                identique à elle-même. Prise sur deux points plus ou moins distants de son territoire, elle n’est pas non
+                                plus identique à elle-même. Les deux choses, lorsqu’on veut avoir une vue exacte des événements,
+                                doivent toujours être considérées à la fois et de front.
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page">p. 151</biblScope>)
+                            </bibl>
+                        </cit>
+                        Quasi-sin. <re type="almost-synonym">distance géographique<ref target="#distance_géographique"/></re>.
+                        <xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                    </sense>
+                </entry>
 
         </body>
     </text>
