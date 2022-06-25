@@ -315,14 +315,16 @@
                 <sense n="1">
                     [<def>
                         usato nel senso di préhistorique:
-                    </def>
-                    <cit type="example">
-                        <quote xml:lang="fr">
-                            «Antérieur à l’apparition des témoignages écrits et à l’emploi des métaux.» (TLFi)];
-                        </quote>
-                        <bibl>
-                            <title>Écrits de linguistique générale</title>
-                        </bibl>
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                «Antérieur à l’apparition des témoignages écrits et à l’emploi des métaux.» (TLFi)
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                            </bibl>
+                        </cit>
+                    </def>];
+                    <cit>
                         <quote xml:lang="fr">
                             Autant vaudrait dire en effet que le français que nous parlons vient du
                             français de Montesquieu ou de celui de Corneille ou vient de celui de Montaigne ou de celui de Froissait,
@@ -1329,6 +1331,47 @@
                 <sense n="1">
                     [<def>
                         parte di un’unità linguistica sentita dal parlante per mezzo dell’associazione e utilizzata nelle
+                        innovazioni linguistiche
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Remarquons tout de suite un des caractères de ce phénomène: dans un sens, ce
+                            n’est pas une transformation, c’est une création; mais en dernière analyse ce n’est qu’une transformation,
+                            parce que tous les éléments de venirai sont contenus et donnés dans des formes existantes fournies par la
+                            mémoire ; punirai, punir, ou bien si l’on veut le suffixe -ir, le suffixe -irai, et leur rapport de signification.
+                            Sans la présence de ces éléments, venirai est simplement impossible. Il n’y aura donc jamais de création
+                            ex nihilo, mais chaque innovation ne sera qu’une application nouvelle d’éléments fournis par l’état
+                            antérieur du langage. C’est ainsi que le renouvellement analogique qui dans un sens est très destructif ne
+                            fait cependant jamais que continuer sans jamais pouvoir la briser la chaîne des éléments transmis depuis
+                            l’origine des langues.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 160</biblScope>)
+                        </bibl>
+                    </cit>
+                    Quasi-sin. <re type="almost-synonym">terme2<ref target="#terme2"/></re>.
+                    {<xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente-->  
+                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>;
+                    <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS</xr>;
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
+                    <xr type="other_dictionary"> <ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                    <xr type="other_dictionary"> <ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;}                </sense>
+            </entry>
+
+            <entry xml:id="epoque">
+                <form>
+                    <orth>Epoque</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        Période historique marquée par certains faits, certains caractères propres.» (TLFi)ca sentita dal parlante per mezzo dell’associazione e utilizzata nelle
                         innovazioni linguistiche
                     </def>];
                     <cit type="example">
