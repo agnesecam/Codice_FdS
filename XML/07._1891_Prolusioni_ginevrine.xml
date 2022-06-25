@@ -1621,13 +1621,90 @@
                     </cit>
                     Cfr. <re type="compare">fait<ref target="#fait"/></re>,
                     <re type="compare">linguistique<ref target="#linguistique"/></re>
-                    Occorre anche come fait linguistique
+                    Occorre anche come fait linguistique <!--Come lo rendo?-->
                     {<xr type="other_dictionary"><ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente-->
                     <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;
                     <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
                     <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
                     <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
                     <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>
+            </entry>
+
+            <entry xml:id="fixité">
+                <form>
+                    <orth>Fixité</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        criticato in riferimento alle lingue; 
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                «État de ce qui est et demeure fixe, c’est-à-dire stationnaire ou immobile.» (TLFi)
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                            </bibl>
+                        </cit>
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Le premier aspect en effet sous lequel doit être envisagée l’idée d’Histoire quand il
+                            s’agit de la langue ou la première chose qui fait que la langue a une histoire, c’est le fait fondamental de
+                            sa continuité dans le temps; - je ne dis pas, veuillez le remarquer, de sa fixité, dont nous parlerons tout à
+                            l’heure, mais de sa continuité.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 151</biblScope>);
+                        </bibl>
+                    </cit>
+                    Sin. <re type="synonym">immobilité<ref target="#immobilité"/></re>,
+                    Opp. <re type="opposite">continuité<ref target="#continuité"/></re>,
+                    <re type="opposite">mutabilité<ref target="#mutabilité"/></re>,
+                    <re type="opposite">transformation<ref target="#transformation"/></re>,
+                    <re type="opposite">changement<ref target="#changement"/></re>.
+                    {<xr type="other_dictionary"><ref target="13._1903-1910_Leggende_germaniche.xml"/>LG</xr>}<!--Non trovo il testo corrispondente-->
+                </sense>
+            </entry>
+
+            <entry xml:id="fonction_naturel">
+                <form>
+                    <orth>Fonction naturel</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        v. <ref type="see" target="#fonction"></ref>area A; S. critica la posizione che il linguaggio sia riducibile ad una funzione
+                        naturale
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Sans cesse par conséquent l’étude générale du langage s’alimente des observations de toute
+                            sorte qui auront été faites dans le champ particulier de telle ou telle langue. À supposer même que
+                            l’exercice de la parole constituât chez l’homme une fonction naturelle, ce qui est le point de vue
+                            éminemment faux où se placent certaines écoles d’anthropologistes et de linguistes, il faudrait encore
+                            absolument soutenir que l’exercice de cette fonction n’est abordable pour la science que par le côté de la
+                            langue ou par le côté des langues existantes.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 146</biblScope>);
+                        </bibl>
+                    </cit>
+                    {<xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>}
                 </sense>
             </entry>
 
