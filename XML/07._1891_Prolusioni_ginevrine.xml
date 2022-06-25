@@ -1277,6 +1277,92 @@
                 </sense>
             </entry>
 
+            <entry xml:id="écriture">
+                <form>
+                    <orth>Écriture</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        criticato; v. <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml">area B</ref>
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Dès à présent, un linguiste qui viendrait en France dans le but de noter
+                            méthodiquement par l’écriture le français parlé, le français réel et authentique, comme on recueille
+                            méthodiquement la langue de quelque peuple malais ou africain, ou comme on recueille les patois
+                            français - ce linguiste écrirait sans hésiter qu’en l’an 1891 on a k-a-t, kat, comme la forme exacte ou la
+                            forme principale pour le quatrième nom de nombre, l-e-t, let pour le mot signifiant missive ou signe de
+                            l’alphabet. Car à Genève comme à Bordeaux ou à Paris et à Lille, dans la rue comme dans les salons,
+                            personne ne dit autrement que kat places, kat jours, ou la let que j’ai reçue, etc. (Dans certaines
+                            conditions, il y a une seconde forme letr, savoir devant les voyelles: letr ouverte; mais même devant
+                            voyelle on commence à dire let ouverte, mettre cette let à la poste, et très probablement letr sera ainsi une
+                            forme totalement inconnue dans cinquante ou soixante-quinze ans.) Voilà un exemple entre beaucoup qui
+                            prouve que des phénomènes de transformation semblables à ceux que nous retrouvons dans tous les
+                            idiomes laissés à eux-mêmes n’ont pas cessé en réalité de se produire, même dans une langue où toutes
+                            les conditions sont anormales par la toute-puissance apparente de l’écriture
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 158</biblScope>)
+                        </bibl>
+                    </cit>
+                    {<xr type="other_dictionary"> <ref target="04._1878_Mémoire.xml"/>Mem</xr>;
+                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente-->                    
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
+                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>;
+                    <xr type="other_dictionary"> <ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                    <xr type="other_dictionary"> <ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                    <xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>
+            </entry>
+
+            <entry xml:id="elément">
+                <form>
+                    <orth>Elément</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        parte di un’unità linguistica sentita dal parlante per mezzo dell’associazione e utilizzata nelle
+                        innovazioni linguistiche
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Remarquons tout de suite un des caractères de ce phénomène: dans un sens, ce
+                            n’est pas une transformation, c’est une création; mais en dernière analyse ce n’est qu’une transformation,
+                            parce que tous les éléments de venirai sont contenus et donnés dans des formes existantes fournies par la
+                            mémoire ; punirai, punir, ou bien si l’on veut le suffixe -ir, le suffixe -irai, et leur rapport de signification.
+                            Sans la présence de ces éléments, venirai est simplement impossible. Il n’y aura donc jamais de création
+                            ex nihilo, mais chaque innovation ne sera qu’une application nouvelle d’éléments fournis par l’état
+                            antérieur du langage. C’est ainsi que le renouvellement analogique qui dans un sens est très destructif ne
+                            fait cependant jamais que continuer sans jamais pouvoir la briser la chaîne des éléments transmis depuis
+                            l’origine des langues.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 160</biblScope>)
+                        </bibl>
+                    </cit>
+                    Quasi-sin. <re type="almost-synonym">terme2<ref target="#terme2"/></re>.
+                    {<xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente-->  
+                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>;
+                    <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS</xr>;
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
+                    <xr type="other_dictionary"> <ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                    <xr type="other_dictionary"> <ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;}                </sense>
+            </entry>
+
         </body>
     </text>
 
