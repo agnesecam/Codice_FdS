@@ -1044,6 +1044,239 @@
                 </sense>
             </entry>
 
+            <entry xml:id="différencier">
+                <form>
+                    <orth>Différencier</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        che si rende differente
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Presque immédiatement se présentera la nécessité de classer nos
+                            idées sous deux chefs. La langue se différencie dans le temps, et en même temps elle se différencie ou se
+                            diversifie dans l’espace. Une langue prise à deux dates différentes n’est pas identique à elle-même. Prise
+                            sur deux points plus ou moins distants de son territoire, elle n’est pas non plus identique à elle-même. Les
+                            deux choses, lorsqu’on veut avoir une vue exacte des événements, doivent toujours être considérées à la
+                            fois et de front. Mais nous sommes bien obligés de les séparer en théorie pour procéder avec ordre.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 151</biblScope>)
+                        </bibl>
+                    </cit>
+                    Duale <re type="duale">diversifier<ref target="#diversifier"/></re>.
+                </sense>
+            </entry>
+
+            <entry xml:id="discontinuité">
+                <form>
+                    <orth>Discontinuité</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        d. géographique absolu: separazione netta tra due area geografiche; in riferimento alle
+                        differenze linguistiche costituisce solo un caso particolare e non la causa principale o il caso regolare
+                        delle divergenze linguistiche
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Le cas de la séparation géographique, j’entends de la discontinuité
+                            géographique absolue, ce cas, bien loin de représenter la condition régulière pour qu’il y ait divergence,
+                            constitue un cas particulier demandant à être examiné à part et que j’exclus complètement de notre étude
+                            présente;
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 169</biblScope>)
+                        </bibl>
+                    </cit>
+                    Quasi-sin. <re type="almost-synonym">isolation linguistique<ref target="#isolation_linguistique"/></re>,
+                    {<xr type="other_dictionary"> <ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                    <xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>
+            </entry>
+
+            <entry xml:id="distance_chronologique">
+                <form>
+                    <orth>Distance chronologique</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        uno dei due fattori che influenzano le differenze linguistiche; intervallo di tempo
+                        compreso tra due punti temporali qualsiasi in relazione alla continuità di una lingua (v. <ref type="see" target="#continuité1">continuité1</ref>), in
+                        esso è possibile riscontrare cambiamenti e differenze linguistiche
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Les objets considérés dans nos deux
+                            premières conférences nous donnent, dès à présent, si nous les groupons dans notre esprit, un aperçu
+                            suffisant sur ce qu’est la condition de la langue dans le Temps, devant le facteur Temps; ils nous donnent
+                            une idée des conditions universelles où se trouve placé un idiome quelconque en présence du fait «qu’un
+                            certain intervalle de temps s’écoule» - et nous nous sommes appliqué à ne faire intervenir, jusqu’à présent,
+                            aucun autre facteur fondamental que ce facteur de la durée, de la distance chronologique.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 163</biblScope>)
+                        </bibl>
+                    </cit>
+                    Sin. <re type="synonym">durée<ref target="#durée"/></re>.
+                </sense>
+            </entry>
+
+            <entry xml:id="distance_géographique">
+                <form>
+                    <orth>Distance géographique</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        uno dei due fattori che influenzano le differenze linguistiche; intervallo di spazio
+                        qualsiasi compreso tra due punti di un territorio tra i quali è possibile rilevare divergenze linguistiche
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Le
+                            facteur que nous avons jusqu’à présent systématiquement omis est celui de l’espace, de la distance
+                            géographique, venant se combiner avec la distance chronologique.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 166</biblScope>)
+                        </bibl>
+                    </cit>
+                    Cfr. <re type="compare">divergence<ref target="#divergence"/></re>,
+                    <re type="compare">diversifier<ref target="#diversifier"/></re>,
+                    <re type="compare">espace<ref target="#espace"/></re>.
+                </sense>
+            </entry>
+
+            <entry xml:id="divergence">
+                <form>
+                    <orth>Divergence</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        differenze linguistiche che risultano da una differenziazione (v. différentiation1) nello spazio
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Même il ne me sera possible d’aborder dans cette séance que le premier point principal à poser; c’est le
+                            principe de la continuité dans le temps; dans notre séance de mardi nous aurons à examiner le principe qui
+                            en est la contrepartie, celui de la transformation dans le temps. Puis, de même, nous considérerons ce
+                            qu’on peut dire du principe de la continuité dans l’espace et de celui de la divergence dans l’espace.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 151</biblScope>)
+                        </bibl>
+                    </cit>
+                    Cfr. <re type="compare">distance géographique<ref target="#distance_géographique"/></re>,
+                    <re type="compare">diversifier<ref target="#diversifier"/></re>,
+                    <re type="compare">espace<ref target="#espace"/></re>.
+                </sense>
+            </entry>
+
+            <entry xml:id="diversifier">
+                <form>
+                    <orth>Diversifier</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        che cambia, che presenta differenze in diversi punti o luoghi dello spazio
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Presque
+                            immédiatement se présentera la nécessité de classer nos idées sous deux chefs. La langue se différencie
+                            dans le temps, et en même temps elle se différencie ou se diversifie dans l’espace. Une langue prise à
+                            deux dates différentes n’est pas identique à elle-même. Prise sur deux points plus ou moins distants de
+                            son territoire, elle n’est pas non plus identique à elle-même. Les deux choses, lorsqu’on veut avoir une
+                            vue exacte des événements, doivent toujours être considérées à la fois et de front. Mais nous sommes bien
+                            obligés de les séparer en théorie pour procéder avec ordre.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 151</biblScope>)
+                        </bibl>
+                    </cit>
+                    Cfr. <re type="compare">distance géographique<ref target="#distance_géographique"/></re>,
+                    <re type="compare">divergence<ref target="#divergence"/></re>,
+                    <re type="compare">espace<ref target="#espace"/></re>.
+                    {<xr type="other_dictionary"> <ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                    <xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>
+            </entry>
+
+            <entry xml:id="durée">
+                <form>
+                    <orth>Durée</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        intervallo di tempo che intercorre tra due stati di lingua
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Les objets considérés dans nos deux
+                            premières conférences nous donnent, dès à présent, si nous les groupons dans notre esprit, un aperçu
+                            suffisant sur ce qu’est la condition de la langue dans le Temps, devant le facteur Temps; ils nous donnent
+                            une idée des conditions universelles où se trouve placé un idiome quelconque en présence du fait « qu’un
+                            certain intervalle de temps s’écoule » - et nous nous sommes appliqué à ne faire intervenir, jusqu’à
+                            présent, aucun autre facteur fondamental que ce facteur de la durée, de la distance chronologique.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 163</biblScope>)
+                        </bibl>
+                    </cit>
+                    Cfr. <re type="compare">distance chronologique<ref target="#distance_chronologique"/></re>
+                </sense>
+            </entry>
+
         </body>
     </text>
 
