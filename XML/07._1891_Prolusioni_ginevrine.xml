@@ -82,8 +82,8 @@
                             (<biblScope unit="page">p. 149</biblScope>)
                         </bibl>
                     </cit>
-                    Sin. <re type="synonim">contingent<ref target="#contingent"/></re>
-                    Cfr. <re type="compare">langue<ref target="#langue"/></re>
+                    <lbl type="syn">Sin.</lbl> <re type="synonim">contingent<ref target="#contingent"/></re>
+                    <lbl type="som">Cfr.</lbl><re type="compare">langue<ref target="#langue"/></re>
                     <!--  DOMANDA:
                             Una soluzione di questo tipo, (<xr> "cross reference") per i riferimenti a sezioni di altre aree terminologiche è sensata?
                             Assumo di avere un glossario per ogni sezione terminologica (10._1894_Notes_Whitney.xml), e faccio una <ref> generica (non al termine) alla sezione dell'area terminologica, senza specificare l'entrata specifica, poiché in alcuni casi non mi è certa.
@@ -122,7 +122,7 @@
                             (<biblScope unit="page">p. 150</biblScope>)
                         </bibl>
                     </cit>
-                    Cfr.  <re type="compare">accidentel<ref target="#accidentel"/></re>,
+                    <lbl type="som">Cfr.</lbl>  <re type="compare">accidentel<ref target="#accidentel"/></re>,
                     <re type="compare"> contingent<ref target="#contingent"/></re>
                 </sense>
             </entry>
@@ -150,7 +150,7 @@
                             (<biblScope unit="page">p. 150</biblScope>)
                         </bibl>
                     </cit>
-                    Cfr. <re type="compare">accidentel<ref target="#accidentel"/></re>,
+                    <lbl type="som">Cfr.</lbl> <re type="compare">accidentel<ref target="#accidentel"/></re>,
                     <re type="compare">acte humain<ref target="#acte_humain"/></re>,
                     <re type="compare"> contingent<ref target="#contingent"/></re>
                     {<xr type="other_dictionary"> <ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph; </xr>
@@ -182,7 +182,7 @@
                             (<biblScope unit="page">p. 171</biblScope>)
                         </bibl>
                     </cit>
-                    Cfr. <re type="compare">caractère dilectal<ref target="#caractère_dialectal"/></re>,
+                    <lbl type="som">Cfr.</lbl> <re type="compare">caractère dilectal<ref target="#caractère_dialectal"/></re>,
                     <re type="compare">continuité2<ref target="#continuité2"/></re>,
                     <re type="compare"> dialecte<ref target="#dialecte"/></re>,
                     <re type="compare">frontière<ref target="#frontière"/></re>
@@ -197,7 +197,7 @@
                 </form>
                 <!--<sense> non può essere figlio di def, quindi uso due <sens> distinti, l'attributo n="a"/"b" li identifica-->
                 <sense n="1">
-                    v. <ref target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml">area B</ref>;
+                    <lbl type="v.">v.</lbl> <ref target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml">area B</ref>;
                     <sense n="a">
                         <def>
                             uno dei due procedimenti regolari di trasformazione delle lingue volto alla creazione di nuove segni 
@@ -233,8 +233,8 @@
                             (<biblScope unit="page">p. 161</biblScope>)
                         </bibl>
                     </cit>
-                    Opp. <re type="opposite">changement phonétique;<ref target="#changement_phonétique"/></re>
-                    Cfr. <re type="compare">analogique<ref target="#analogique"/></re>,
+                    <lbl type="opp">Opp.</lbl> <re type="opposite">changement phonétique;<ref target="#changement_phonétique"/></re>
+                    <lbl type="som">Cfr.</lbl> <re type="compare">analogique<ref target="#analogique"/></re>,
                     <re type="compare">création<ref target="#création"/></re>,
                     <re type="compare">transformation<ref target="#transformation"/></re>
                     {<xr type="other_dictionary"> <ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Tesi</xr>
@@ -303,7 +303,7 @@
                     [<def>
                         <ref type="see" target="#vieux">v. vieux;</ref> S. critica la sua utilità in linguistica e in riferimento alle lingue
                     </def>];
-                    sin. <re type="synonim">vieux<ref target="#vieux"/></re>.
+                    <lbl type="syn">Sin.</lbl> <re type="synonim">vieux<ref target="#vieux"/></re>.
                     {<xr type="other_dictionary"> <ref target="04._1878_Mémoire.xml"/>Mem</xr>}
                 </sense>
             </entry>
@@ -376,7 +376,7 @@
                             (<biblScope unit="page">p. 155</biblScope>)
                         </bibl>
                     </cit>
-                    Cfr. <re type="compare">conventionnel<ref target="#conventionnel"/></re>;
+                    <lbl type="som">Cfr.</lbl> <re type="compare">conventionnel<ref target="#conventionnel"/></re>;
                     usato anche come avverbio <re type="compare">arbitrairement<ref target="#arbitrairement"/></re>
                     {<xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
                     <xr type="other_dictionary"><ref target="13._1903-1910_Leggende_germaniche.xml"/>LG</xr>;<!--Non trovo il testo corrispondente-->
@@ -447,7 +447,7 @@
                             (<biblScope unit="page">p. 161</biblScope>)
                         </bibl>
                     </cit>
-                    Cfr. <re type="compare">analogie<ref target="#analogie"/></re>;
+                    <lbl type="som">Cfr.</lbl> <re type="compare">analogie<ref target="#analogie"/></re>;
                     {<xr type="other_dictionary"> <ref target="xxx.xml"/>ED</xr>;
                     <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
                     <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
@@ -483,7 +483,7 @@
                             (<biblScope unit="page">p. 170</biblScope>)
                         </bibl>
                     </cit>
-                    Cfr.  <re type="compare">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/></re>,
+                    <lbl type="som">Cfr.</lbl>  <re type="compare">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/></re>,
                     <re type="compare">continuité2<ref target="#continuité2"/></re>,
                     <re type="compare">dialecte<ref target="#dialecte"/></re>,
                     <re type="compare">frontière<ref target="#frontière"/></re>.
@@ -555,7 +555,7 @@
                             </cit>
                             <re type="duale">duale changement analogique<ref target="#changement_analogique"/></re>,
                             <re type="duale">analogie<ref target="#analogie"/></re>;
-                            cfr. <re type="compare">phonétique<ref target="#phonétique"/></re>,
+                            <lbl type="som">Cfr.</lbl> <re type="compare">phonétique<ref target="#phonétique"/></re>,
                             <re type="compare">physiologique<ref target="#physiologique"/></re>,
                             <re type="compare">physique<ref target="#physique"/></re>,
                             <re type="compare">forme<ref target="#forme"/></re>,
@@ -590,10 +590,10 @@
                                     (<biblScope unit="page">p. 166</biblScope>)
                                 </bibl>
                             </cit>
-                            sin. <re type="synonim">analogie;<ref target="#analogie"/></re>;
+                            <lbl type="syn">Sin.</lbl> <re type="synonim">analogie;<ref target="#analogie"/></re>;
                             duale <re type="duale">changement phonétique<ref target="#changement_analogique"/></re>;
-                            cfr. <re type="compare">création<ref target="#création"/></re>,
-                            cfr. <re type="compare">transformation<ref target="#transformation"/></re>.
+                            <lbl type="som">Cfr.</lbl> <re type="compare">création<ref target="#création"/></re>,
+                            <lbl type="som">Cfr.</lbl> <re type="compare">transformation<ref target="#transformation"/></re>.
                         </sense>
                     </entry>
                     {<xr type="other_dictionary"> <ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>
@@ -634,7 +634,7 @@
                         </bibl>
                     </cit>
                     Ant. <re type="antonym">inconscience<ref target="#inconscience"/></re>;
-                    Cfr. <re type="compare">intelligence<ref target="#intelligence"/></re>;
+                    <lbl type="som">Cfr.</lbl> <re type="compare">intelligence<ref target="#intelligence"/></re>;
                     <re type="compare">volonté<ref target="#volonté"/></re>,
                     Usato anche come aggettivo conscient
                     {<xr type="other_dictionary"> <ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>
@@ -674,7 +674,7 @@
                         </bibl>
                     </cit>
                     Ant. <re type="antonym">accidentel<ref target="#accidentel"/></re>;
-                    Cfr. <re type="compare">langue<ref target="#langue"/></re>;
+                    <lbl type="som">Cfr.</lbl> <re type="compare">langue<ref target="#langue"/></re>;
                 </sense>
             </entry>
 
@@ -717,12 +717,12 @@
                                 (<biblScope unit="page">p. 152</biblScope>)
                             </bibl>
                         </cit>
-                        Opp. <re type="opposite">fixité<ref target="#fixité"/></re>;
-                        sin. <re type="synonym">ininterruption forcée<ref target="#ininterruption_forcée"/></re>;
-                        quasi-sin. <re type="almost-synonym">tradition de la langue<ref target="#tradition_de_la_langue"/></re>;
+                        <lbl type="opp">Opp.</lbl> <re type="opposite">fixité<ref target="#fixité"/></re>;
+                        <lbl type="syn">Sin.</lbl> <re type="synonym">ininterruption forcée<ref target="#ininterruption_forcée"/></re>;
+                        <lbl type="alm-syn">quasi-sin.</lbl> <re type="almost-synonym">tradition de la langue<ref target="#tradition_de_la_langue"/></re>;
                         duale <re type="duale">mutabilité<ref target="#tradition_de_la_langue"/></re>,
                         <re type="duale">transformation<ref target="#transformation"/></re>;
-                        Cfr. <re type="compare">état de langue<ref target="#état_de_langue"/></re>,
+                        <lbl type="som">Cfr.</lbl> <re type="compare">état de langue<ref target="#état_de_langue"/></re>,
                         <re type="compare">succession<ref target="#succession"/></re>,
                         <re type="compare">transition<ref target="#transition"/></re>,
                         <re type="compare">via de langue<ref target="#via_de_langue"/></re>.
@@ -751,7 +751,7 @@
                             </bibl>
                         </cit>
                         Ant. <re type="antonym">divergence<ref target="#divergence"/></re>;
-                        Cfr. <re type="compare">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/></re>;
+                        <lbl type="som">Cfr.</lbl> <re type="compare">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/></re>;
                         <re type="compare">caractère dialectal<ref target="#caractère_dialectal"/></re>;
                         <re type="compare">dialecte<ref target="#dialecte"/></re>;
                         <re type="compare">frontière<ref target="#frontière"/></re>.
@@ -822,7 +822,7 @@
                             (<biblScope unit="page">p. 165</biblScope>)
                         </bibl>
                     </cit>
-                    Cfr. <re type="compare">arbitraire<ref target="#arbitraire"/></re>;
+                    <lbl type="som">Cfr.</lbl> <re type="compare">arbitraire<ref target="#arbitraire"/></re>;
                     <re type="compare">volonté<ref target="#volonté"/></re>,
                     Usato anche come aggettivo conscient
                     {<xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;
@@ -894,8 +894,8 @@
                         </bibl>
                     </cit>
                     Syn. <re type="synonym">innovation<ref target="#innovation"/></re>;
-                    quasi-sin. <re type="almost-synonym">transformation</re>;
-                    Cfr. <re type="compare">analogie<ref target="#analogie"/></re>,
+                    quasi- sin. <re type="almost-synonym">transformation</re>;
+                    <lbl type="som">Cfr.</lbl> <re type="compare">analogie<ref target="#analogie"/></re>,
                     <re type="compare">changement analogique<ref target="#changement analogique"/></re>
                     {<xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
                     <xr type="other_dictionary"> <ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
@@ -935,7 +935,7 @@
                             (<biblScope unit="page">p. 171</biblScope>)
                         </bibl>
                     </cit>
-                    Cfr. <re type="compare">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/></re>,
+                    <lbl type="som">Cfr.</lbl> <re type="compare">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/></re>,
                     <re type="compare">caractère dialectal<ref target="#caractère_dialectal"/></re>,
                     <re type="compare">continuité2<ref target="#continuité2"/></re>,
                     <re type="compare">frontière<ref target="#frontière"/></re>.
@@ -1039,7 +1039,7 @@
                             (<biblScope unit="page">p. 169</biblScope>)
                         </bibl>
                     </cit>
-                    Cfr. <re type="compare">différence<ref target="#différence"/></re>,
+                    <lbl type="som">Cfr.</lbl> <re type="compare">différence<ref target="#différence"/></re>,
                     <re type="compare">différencier<ref target="#différencier"/></re>.
                     {<xr type="other_dictionary"> <ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
                     <xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
@@ -1106,7 +1106,7 @@
                             (<biblScope unit="page">p. 169</biblScope>)
                         </bibl>
                     </cit>
-                    Quasi-sin. <re type="almost-synonym">isolation linguistique<ref target="#isolation_linguistique"/></re>,
+                    <lbl type="alm-syn">Quasi-sin.</lbl> <re type="almost-synonym">isolation linguistique<ref target="#isolation_linguistique"/></re>,
                     {<xr type="other_dictionary"> <ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
                     <xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
                 </sense>
@@ -1142,7 +1142,7 @@
                             (<biblScope unit="page">p. 163</biblScope>)
                         </bibl>
                     </cit>
-                    Sin. <re type="synonym">durée<ref target="#durée"/></re>.
+                    <lbl type="syn">Sin.</lbl> <re type="synonym">durée<ref target="#durée"/></re>.
                 </sense>
             </entry>
 
@@ -1172,7 +1172,7 @@
                             (<biblScope unit="page">p. 166</biblScope>)
                         </bibl>
                     </cit>
-                    Cfr. <re type="compare">divergence<ref target="#divergence"/></re>,
+                    <lbl type="som">Cfr.</lbl> <re type="compare">divergence<ref target="#divergence"/></re>,
                     <re type="compare">diversifier<ref target="#diversifier"/></re>,
                     <re type="compare">espace<ref target="#espace"/></re>.
                 </sense>
@@ -1204,7 +1204,7 @@
                             (<biblScope unit="page">p. 151</biblScope>)
                         </bibl>
                     </cit>
-                    Cfr. <re type="compare">distance géographique<ref target="#distance_géographique"/></re>,
+                    <lbl type="som">Cfr.</lbl> <re type="compare">distance géographique<ref target="#distance_géographique"/></re>,
                     <re type="compare">diversifier<ref target="#diversifier"/></re>,
                     <re type="compare">espace<ref target="#espace"/></re>.
                 </sense>
@@ -1239,7 +1239,7 @@
                             (<biblScope unit="page">p. 151</biblScope>)
                         </bibl>
                     </cit>
-                    Cfr. <re type="compare">distance géographique<ref target="#distance_géographique"/></re>,
+                    <lbl type="som">Cfr.</lbl> <re type="compare">distance géographique<ref target="#distance_géographique"/></re>,
                     <re type="compare">divergence<ref target="#divergence"/></re>,
                     <re type="compare">espace<ref target="#espace"/></re>.
                     {<xr type="other_dictionary"> <ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
@@ -1275,7 +1275,7 @@
                             (<biblScope unit="page">p. 163</biblScope>)
                         </bibl>
                     </cit>
-                    Cfr. <re type="compare">distance chronologique<ref target="#distance_chronologique"/></re>
+                    <lbl type="som">Cfr.</lbl> <re type="compare">distance chronologique<ref target="#distance_chronologique"/></re>
                 </sense>
             </entry>
 
@@ -1356,7 +1356,7 @@
                             (<biblScope unit="page">p. 160</biblScope>)
                         </bibl>
                     </cit>
-                    Quasi-sin. <re type="almost-synonym">terme2<ref target="#terme2"/></re>.
+                    <lbl type="alm-syn">Quasi-sin.</lbl> <re type="almost-synonym">terme2<ref target="#terme2"/></re>.
                     {<xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente-->  
                     <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>;
                     <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS</xr>;
@@ -1466,7 +1466,7 @@
                             (<biblScope unit="page">p. 151</biblScope>)
                         </bibl>
                     </cit>
-                    Quasi-sin. <re type="almost-synonym">distance géographique<ref target="#distance_géographique"/></re>.
+                    <lbl type="alm-syn">Quasi-sin.</lbl> <re type="almost-synonym">distance géographique<ref target="#distance_géographique"/></re>.
                     <xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
                 </sense>
             </entry>
@@ -1504,7 +1504,7 @@
                             (<biblScope unit="page">p. 165</biblScope>);
                         </bibl>
                     </cit>
-                    Cfr. <re type="compare">continuité<ref target="#continuité"/></re>,
+                    <lbl type="som">Cfr.</lbl> <re type="compare">continuité<ref target="#continuité"/></re>,
                     <re type="compare">succession<ref target="#succession"/></re>,
                     <re type="compare">transition<ref target="#transition"/></re>, 
                     <re type="compare">vie de la langue<ref target="#vie de la langu"/></re>.
@@ -1586,8 +1586,8 @@
                             (<biblScope unit="page">p. 149</biblScope>);
                         </bibl>
                     </cit>
-                    Opp. <re type="opposite"> loi1<ref target="#loi1"/></re>;
-                    Cfr. <re type="compare">accidentel<ref target="#accidentel"/></re>,
+                    <lbl type="opp">Opp.</lbl> <re type="opposite"> loi1<ref target="#loi1"/></re>;
+                    <lbl type="som">Cfr.</lbl> <re type="compare">accidentel<ref target="#accidentel"/></re>,
                     <re type="compare">acte humaine<ref target="#acte_humaine"/></re>, 
                     <re type="compare">contingent<ref target="#contingent"/></re>.
                 </sense>
@@ -1619,7 +1619,7 @@
                             (<biblScope unit="page">p. 148</biblScope>);
                         </bibl>
                     </cit>
-                    Cfr. <re type="compare">fait<ref target="#fait"/></re>,
+                    <lbl type="som">Cfr.</lbl> <re type="compare">fait<ref target="#fait"/></re>,
                     <re type="compare">linguistique<ref target="#linguistique"/></re>
                     Occorre anche come fait linguistique <!--Come lo rendo?-->
                     {<xr type="other_dictionary"><ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente-->
@@ -1665,8 +1665,8 @@
                             (<biblScope unit="page">p. 151</biblScope>);
                         </bibl>
                     </cit>
-                    Sin. <re type="synonym">immobilité<ref target="#immobilité"/></re>,
-                    Opp. <re type="opposite">continuité<ref target="#continuité"/></re>,
+                    <lbl type="syn">Sin.</lbl> <re type="synonym">immobilité<ref target="#immobilité"/></re>,
+                    <lbl type="opp">Opp.</lbl> <re type="opposite">continuité<ref target="#continuité"/></re>,
                     <re type="opposite">mutabilité<ref target="#mutabilité"/></re>,
                     <re type="opposite">transformation<ref target="#transformation"/></re>,
                     <re type="opposite">changement<ref target="#changement"/></re>.
