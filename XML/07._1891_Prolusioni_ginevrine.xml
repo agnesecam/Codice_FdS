@@ -1791,10 +1791,54 @@
                         </bibl>
                     </cit>
                     <lbl type="syn">Cfr.</lbl> <re type="compare">continuité2<ref target="#continuité2"/></re>,
-                    <lbl type="syn">Cfr.</lbl> <re type="compare">divergence<ref target="#divergence"/></re>,
-                    <lbl type="syn">Cfr.</lbl> <re type="compare">diversifier<ref target="#diversifier"/></re>.
+                    <re type="compare">divergence<ref target="#divergence"/></re>,
+                    <re type="compare">diversifier<ref target="#diversifier"/></re>.
                     <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>                </sense>
             </entry>
+
+            <entry xml:id="frontière">
+                <form>
+                    <orth>Frontière</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        criticato in riferimento alle lingue e ai dialetti;
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                «Limite, point de séparation entre deux choses différentes ou opposées» (TLFi)
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                            </bibl>
+                        </cit>
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            La conséquence de cette observation, c’est qu’il n’existe pas,
+                            régulièrement, de frontière entre ce qu’on appelle deux langues par opposition à deux dialectes, quand ces
+                            langues sont de même origine et parlées par des populations contiguës sédentaires. Par exemple, il
+                            n’existe pas de frontière entre l’italien et le français, entre les dialectes qu’on voudra appeler français et
+                            ceux [ ]. De même qu’il n’y a pas de dialectes délimités, de même il n’y a pas de langues délimitées dans
+                            les conditions normales.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 172</biblScope>);
+                        </bibl>
+                    </cit>
+                    <lbl type="syn">Cfr.</lbl> <re type="compare"> aire des faits linguistique<ref target="#continuité2"/></re>,
+                    <re type="compare">caractère_dialectal<ref target="#caractère_dialectal"/></re>,
+                    <re type="compare">continuité2<ref target="#continuité2"/></re>,
+                    <re type="compare">dialecte<ref target="#dialecte"/></re>,
+                    <re type="compare">espace<ref target="#espace"/></re>.
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>                </sense>
+            </entry>            
 
         </body>
     </text>
