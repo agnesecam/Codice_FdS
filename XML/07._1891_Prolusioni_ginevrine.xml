@@ -1596,6 +1596,7 @@
             <entry xml:id="fait_de_langage">
                 <form>
                     <orth>Fait de langage</orth>
+                    <orth>Fait linguistique</orth>
                 </form>
                 <sense n="1">
                     [<def>
@@ -1621,7 +1622,7 @@
                     </cit>
                     <lbl type="som">Cfr.</lbl> <re type="compare">fait<ref target="#fait"/></re>,
                     <re type="compare">linguistique<ref target="#linguistique"/></re>
-                    Occorre anche come fait linguistique <!--Come lo rendo?-->
+                    Occorre anche come <term xml:id="fait_linguistique">fait linguistique</term><!--Come lo rendo?-->
                     {<xr type="other_dictionary"><ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente-->
                     <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;
                     <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
