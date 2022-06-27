@@ -352,9 +352,9 @@
                     <orth>Arbitraire</orth>
                 </form>
                 <sense n="1">
-                    <def>
-                        [<ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml">v. area A </ref>;]
-                    </def>
+                    [<def>
+                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml">v. area A </ref>
+                    </def>;]
                     <cit type="example">
                         <quote xml:lang="fr">
                             On dira que nier dans ce sens qu’aucune langue soit née, c’est jouer sur les mots, et
@@ -1843,10 +1843,11 @@
             <entry xml:id="général">
                 <form>
                     <orth>Général</orth>
+                    <gramGrp>adj</gramGrp>
                 </form>
                 <sense n="1">
                     [<def>
-                        aggettivo; in riferimento ad un operazione di généralisation (v. area A), usato in riferimento alle
+                        aggettivo; in riferimento ad un operazione di <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#généralisation"> généralisation</ref> (<ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml">v. area A</ref>), usato in riferimento alle
                         lingue;
                     </def>];
                     <cit type="example">
@@ -1871,8 +1872,46 @@
                     <lbl type="duale">Duale</lbl> <re type="duale"> universel2<ref target="#universel2"/></re>,
                     <lbl type="duale">Cfr.</lbl><re type="compare">généralisation<ref target="#généralisation"/></re>,
                     <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>.
-                </entry>   
+                </sense>
+            </entry>   
         
+            <entry xml:id="généralisation">
+                <form>
+                    <orth>Généralisation</orth>
+                    <gramGrp>adj</gramGrp>
+                </form>
+                <sense n="1">
+                    [<def>
+                        <lbl type="see">v. </lbl><re type="see">area A<ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml"/></re>;
+                        usato in riferimento alle lingue
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Et, phénomène remarquable, les observations
+                            théoriques qu’apportent ceux qui ont concentré leur étude sur telle ou telle branche spéciale comme le
+                            germanique, le roman, sont beaucoup plus appréciées et considérées encore que les observations des
+                            linguistes embrassant une plus grande série de langues. On se rend compte que c’est le détail ultime des
+                            phénomènes qui est aussi leur raison ultime, et qu’ainsi l’extrême spécialisation peut seule servir
+                            efficacement l’extrême généralisatione.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 147</biblScope>);
+                        </bibl>
+                    </cit>
+                    <lbl type="compare">Cfr. </lbl> <re type="compare">général<ref target="#général"/></re>,
+                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>, <!--Non trovo il testo corrispondente-->
+                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>.
+            </entry>   
+
+
+
         </body>
     </text>
 
