@@ -1840,6 +1840,39 @@
                     <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>                </sense>
             </entry>            
 
+            <entry xml:id="général">
+                <form>
+                    <orth>Général</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        aggettivo; in riferimento ad un operazione di généralisation (v. area A), usato in riferimento alle
+                        lingue;
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Mais, réciproquement, l’étude de ces langues existantes se condamnerait à rester presque stérile,
+                            à rester en tout cas dépourvue à la fois de méthode et de tout principe directeur, si elle ne tendait
+                            constamment à venir illustrer le problème général du langage, si elle ne cherchait à dégager de chaque fait
+                            particulier qu’elle observe le sens et le profit net qui en résultent pour notre connaissance des opérations
+                            possibles de l’instinct humain appliqué à la langue.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 146</biblScope>);
+                        </bibl>
+                    </cit>
+                    <lbl type="duale">Duale</lbl> <re type="duale"> universel2<ref target="#universel2"/></re>,
+                    <lbl type="duale">Cfr.</lbl><re type="compare">généralisation<ref target="#généralisation"/></re>,
+                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>.
+                </entry>   
+        
         </body>
     </text>
 
