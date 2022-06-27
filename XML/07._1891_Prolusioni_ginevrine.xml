@@ -2092,7 +2092,6 @@
                         <bibl>
                             <title>Écrits de linguistique générale</title>
                             <author>Simon Bouquet</author>
-                            <author>Simon Bouquet</author>
                             <author>Rudolf Engler</author>
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
@@ -2135,6 +2134,41 @@
                     <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
                     <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
                     <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>
+            </entry>
+
+            <entry xml:id="immobilité">
+                <form>
+                    <orth>Immobilité</orth>
+                </form>
+                <sense n="1"> 
+                    [<def>
+                        criticato; non è una caratteristica che appartiene alle lingue; ciò che non subisce cambiamento
+                        che resta fisso uguale a se stesso
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Nous posons donc le principe de la transformation incessante des
+                            langues comme absolu. Le cas d’un idiome qui se trouverait en état d’immobilité et de repos ne se
+                            présente pas.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 158</biblScope>);
+                        </bibl>
+                    </cit>
+                    <lbl type="syn">Sin. di</lbl><re type="synonym">fixité<ref target="#fixité"/></re>;
+                    <lbl type="opp">opp</lbl><re type="opp">continuité<ref target="#continuité"/></re>;
+                    <re type="opp">mutabilité<ref target="#mutabilité"/></re>
+                    <re type="opp">transformation<ref target="#transformation"/></re>
+                    <re type="opp">changement<ref target="#changement"/></re>
+                    {<xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
                     <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
                 </sense>
             </entry>
