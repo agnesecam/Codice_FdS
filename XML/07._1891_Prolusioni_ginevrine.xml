@@ -320,7 +320,7 @@
                                 «Antérieur à l’apparition des témoignages écrits et à l’emploi des métaux.» (TLFi)
                             </quote>
                             <bibl>
-                                <title>Écrits de linguistique générale</title>
+                                <title>Trésor de la Langue Française Informatisé</title> <!--Va bene?-->
                             </bibl>
                         </cit>
                     </def>];
@@ -1376,7 +1376,7 @@
                                 «Période historique marquée par certains faits, certains caractères propres.» (TLFi)
                             </quote>
                             <bibl>
-                                <title>Écrits de linguistique générale</title>
+                                <title>Trésor de la Langue Française Informatisé</title>
                             </bibl>
                         </cit>
                     </def>];
@@ -1644,7 +1644,7 @@
                                 «État de ce qui est et demeure fixe, c’est-à-dire stationnaire ou immobile.» (TLFi)
                             </quote>
                             <bibl>
-                                <title>Écrits de linguistique générale</title>
+                                <title>Trésor de la Langue Française Informatisé</title>
                             </bibl>
                         </cit>
                     </def>];
@@ -1808,7 +1808,7 @@
                                 «Limite, point de séparation entre deux choses différentes ou opposées» (TLFi)
                             </quote>
                             <bibl>
-                                <title>Écrits de linguistique générale</title>
+                                <title>Trésor de la Langue Française Informatisé</title>
                             </bibl>
                         </cit>
                     </def>];
@@ -1977,6 +1977,165 @@
                     </cit>
                     <lbl type="synonym">Sin. </lbl><re type="synonym">famille des langues<ref target="#famille_des_langues"/></re>,
                     {<xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;}
+                </sense>
+            </entry>
+
+            <entry xml:id="histoire">
+                <form>
+                    <orth>Histoire</orth>
+                </form>
+                <sense n="1"> 
+                    [<def>
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                «Recherche, connaissance, reconstruction du passé de l’humanité sous son aspect général ou sous
+                                des aspects particuliers, selon le lieu, l’époque, le point de vue choisi; ensemble des faits, déroulement de
+                                ce passé.» (TLFi)           
+                            </quote>
+                            <bibl>
+                                <title>Trésor de la Langue Française Informatisé</title>
+                            </bibl>
+                        </cit>
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Plus on aura dans un même centre académique de
+                            spécialités linguistiques vouées à l’étude d’un certain groupe de langues, plus aussi l’ensemble de ces
+                            études prendront de consistance par leur appui mutuel, et plus on apercevra les traits généraux de la
+                            discipline, qui sont comme brisés et morcelés là où cessent tout à coup l’information, l’intérêt, et la vie
+                            par l’absence de disciples ou de maîtres. 
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 148</biblScope>);
+                        </bibl>
+                    </cit>
+                </sense>
+            </entry>
+
+            <entry xml:id="histoire_de_la_langue">
+                <form>
+                    <orth>Histoire de la langue</orth>
+                </form>
+                <sense n="1"> 
+                    [<def>
+                        l’insieme dei fatti linguistici che si svolgono nel tempo e nello spazio e che
+                        rigurdano il meccanismo delle lingue e non i fatti storici
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            C’est à un autre point de vue par conséquent
+                            que la science du langage revendique le titre de science historique. C’est que toute langue en elle-même a
+                            une histoire qui se déroule perpétuellement, qui est faite d’une succession d’événements linguistiques,
+                            lesquels n’ont point eu de retentissement au dehors et n’ont jamais été inscrits par le célèbre burin de
+                            l’histoire; de même qu’à leur tour ils sont complètement indépendants en général de ce qui se passe audehors. Toute langue présente, un peu comme ces grandes moraines qu’on voit au bas de nos glaciers, le
+                            tableau d’un prodigieux amas de choses charriées à travers les siècles, mais de choses qui ont une date, et
+                            des dates très différentes, de même que l’on peut reconnaître dans les dépôts glaciaires que je comparais
+                            que tel morceau de granit vient d’une distance de plusieurs lieues des plus hauts sommets de la chaîne,
+                            pendant que tel bloc de quartz remonte à peine aux premiers contreforts de la montagne... Donc la langue
+                            a une histoire, c’est un caractère constant.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 148</biblScope>);
+                        </bibl>
+                    </cit>
+                    <lbl type="duale">duale. </lbl><re type="duale">langue dans l'histoire<ref target="#langue_dans_l'histoire"/></re>,
+                    {<xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente-->
+                    <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;                    
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
+                    <xr type="other_dictionary"><ref target="13._1903-1910_Leggende_germaniche.xml"/>LG</xr>;<!--Non trovo il testo corrispondente-->
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>
+            </entry>
+
+            <entry xml:id="historein">
+                <form>
+                    <orth>Historien</orth>
+                </form>
+                <sense n="1"> 
+                    [<def>
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                «Celui, celle qui se consacre à l’histoire, qui raconte, analyse des faits, des aspects du passé,
+                                rédige des ouvrages d’histoire, enseigne cette discipline» (TLFi)
+                            </quote>
+                            <bibl>
+                                <title>Trésor de la Langue Française Informatisé</title>
+                            </bibl>
+                        </cit>
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Il y a très peu de personnes en France
+                            qui songent par exemple à se demander quelle langue on parlait à la cour de Charlemagne - était-ce du
+                            roman ou de l’allemand - et, si c’était l’allemand, était-ce un dialecte disparu ou l’un des dialectes qui se
+                            perpétuent aujourd’hui? Il y a très peu d’historiens qui remarquent que les noms des chefs Huns, comme
+                            Attila, ne sont pas des noms Huns, mais des noms germaniques, - ce qui est la preuve de tout un état de
+                            choses fort intéressant; et en second lieu que ces noms germaniques ne sont pas du premier dialecte venu,
+                            ne sont pas saxons ou Scandinaves, mais sont clairement gothiques. 
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 149</biblScope>);
+                        </bibl>
+                    </cit>
+                </sense>
+            </entry>
+
+            <entry xml:id="idée">
+                <form>
+                    <orth>Idée</orth>
+                </form>
+                <sense n="1"> 
+                    [<def>
+                        <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml">v. area B</ref>;
+                        assumo un ruolo nel processo analogico (<ref type="see" target="#analogie">v. analogie</ref>)
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Plus g<lbl type="synonym">Sin. </lbl><re type="synonym">famille des langues<ref target="#famille_des_langues"/></re>,énéralement, ce phénomène
+                            représente une association de formes dans l’esprit, qui est dictée par l’association des idées représentées.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 161</biblScope>);
+                        </bibl>
+                    </cit>
+                    {<xr type="other_dictionary"><ref target="03._1874_Saggio_giovanile.xml"/>Essai</xr>;
+                    <xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
+                    <xr type="other_dictionary"><ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente-->
+                    <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
                 </sense>
             </entry>
 
