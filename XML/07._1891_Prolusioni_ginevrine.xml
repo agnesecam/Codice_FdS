@@ -1910,7 +1910,74 @@
                     <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>.
             </entry>   
 
+            <entry xml:id="géographique">
+                <form>
+                    <orth>Géographique</orth>
+                    <orth>Géographiquement</orth>
+                </form>
+                <sense n="1"> 
+                    [<def>
+                        <lbl type="see">v. </lbl><re type="see">area A<ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml"/></re>;
+                        per il ruolo specifico in relazione alle differneze linguistiche
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Si l’on combine
+                            cette donnée géographique avec la donnée chronologique, on voit que nous ne [nous] trouvons presque
+                            jamais, en linguistique, devant un premier terme A reflété quelques siècles après par un terme B; mais
+                            devant un premier terme A se répercutant quelques siècles après par B' B" B'" B""... Par exemple, si à un
+                            moment donné on parle l’idiome A à Genève, le même idiome A à Lyon, le même idiome A à Bourges ou
+                            à Paris, au bout de deux ou trois cents ans nous ne trouvons nulle part un idiome qu’on puisse appeler B
+                            par rapport à A, mais on aura B' à Genève, B" à Lyon, B'" à Bourges, B"" à Paris, par opposition à l’A
+                            identique du point de départ. 
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 167</biblScope>);
+                        </bibl>
+                    </cit>
+                    Attestato anche nella forma avverbiale <term xml:id="fait_linguistique">fait linguistique</term><!--Come lo rendo?-->
+                    {<xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;}
+                </sense>
+            </entry>
 
+            <entry xml:id="groupe_de_langues">
+                <form>
+                    <orth>Group de langues</orth>
+                </form>
+                <sense n="1"> 
+                    [<def>
+                        <lbl type="see">v. </lbl><re type="see">area B<ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml#famille_des_lamgues"/>famille des langues</re>;
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Plus on aura dans un même centre académique de
+                            spécialités linguistiques vouées à l’étude d’un certain groupe de langues, plus aussi l’ensemble de ces
+                            études prendront de consistance par leur appui mutuel, et plus on apercevra les traits généraux de la
+                            discipline, qui sont comme brisés et morcelés là où cessent tout à coup l’information, l’intérêt, et la vie
+                            par l’absence de disciples ou de maîtres. 
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 148</biblScope>);
+                        </bibl>
+                    </cit>
+                    <lbl type="synonym">SIn. </lbl> <re type="synonym">famille des langues<ref target="#famille_des_langues"/></re>,
+                    {<xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;}
+                </sense>
+            </entry>
 
         </body>
     </text>
