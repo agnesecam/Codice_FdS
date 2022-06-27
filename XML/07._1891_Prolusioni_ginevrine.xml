@@ -1882,7 +1882,7 @@
                 </form>
                 <sense n="1">
                     [<def>
-                        <lbl type="see">v. </lbl><re type="see">area A<ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml"/></re>;
+                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml">v. area A</ref>;
                         usato in riferimento alle lingue
                     </def>];
                     <cit type="example">
@@ -1908,6 +1908,7 @@
                     <lbl type="compare">Cfr. </lbl> <re type="compare">général<ref target="#général"/></re>,
                     <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>, <!--Non trovo il testo corrispondente-->
                     <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>.
+                </sense>
             </entry>   
 
             <entry xml:id="géographique">
@@ -1917,7 +1918,7 @@
                 </form>
                 <sense n="1"> 
                     [<def>
-                        <lbl type="see">v. </lbl><re type="see">area A<ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml"/></re>;
+                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml">v. area A</ref>;
                         per il ruolo specifico in relazione alle differneze linguistiche
                     </def>];
                     <cit type="example">
@@ -1942,7 +1943,7 @@
                             (<biblScope unit="page">p. 167</biblScope>);
                         </bibl>
                     </cit>
-                    Attestato anche nella forma avverbiale <term xml:id="fait_linguistique">fait linguistique</term><!--Come lo rendo?-->
+                    Attestato anche nella forma avverbiale <term xml:id="géographiquement">géographiquement</term><!--Come lo rendo?-->
                     {<xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;}
                 </sense>
             </entry>
@@ -1953,7 +1954,7 @@
                 </form>
                 <sense n="1"> 
                     [<def>
-                        <lbl type="see">v. </lbl><re type="see">area B<ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml#famille_des_lamgues"/>famille des langues</re>;
+                        <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml">v. area B</ref> <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml#famille_des_lamgues">famille des langues</ref>;
                     </def>];
                     <cit type="example">
                         <quote xml:lang="fr">
@@ -1974,7 +1975,7 @@
                             (<biblScope unit="page">p. 148</biblScope>);
                         </bibl>
                     </cit>
-                    <lbl type="synonym">SIn. </lbl> <re type="synonym">famille des langues<ref target="#famille_des_langues"/></re>,
+                    <lbl type="synonym">Sin. </lbl><re type="synonym">famille des langues<ref target="#famille_des_langues"/></re>,
                     {<xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;}
                 </sense>
             </entry>
