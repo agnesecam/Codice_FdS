@@ -1409,7 +1409,7 @@
                 <sense n="1">
                     [<def>
                         (<eg xml:lang="fr">état d’é.</eg> criticato in riferimento alla lingua e ai suoi cambiamenti storici; per il termine
-                        équilibre v. <ref target="01._Area_terminologica_A_altri_saperi_specialistici.xml">area A</ref>
+                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#équilibre">équilibre</ref> v. <ref target="01._Area_terminologica_A_altri_saperi_specialistici.xml">area A</ref>
                     </def>];
                     <cit type="example">
                         <quote xml:lang="fr">
