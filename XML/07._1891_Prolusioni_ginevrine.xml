@@ -203,13 +203,13 @@
                             uno dei due procedimenti regolari di trasformazione delle lingue volto alla creazione di nuove segni 
                             linguistici sulla base di elementi già esistenti; si tratta di un fenomeno di trasformazione linguistica di ordine
                             mentale che richiede un certo grado di azione intelligente.
-                                a. in riferimento al procedimento: changement par a., opération d’a., phénomène d’a., procédé d’a. 
+                                a. in riferimento al procedimento: changement par <oRef>a.</oRef>, opération d’<oRef>a.</oRef>, phénomène d’<oRef>a.</oRef>, procédé d’<oRef>a.</oRef>.
                         </def>
                     </sense>
                     <sense n="b">
                         <def>
                             Usato anche per indicare il risultato di questo procedimento;
-                                b. in riferimento al risultato del processo: fait d’a., formation d’a., perturbation d’a.
+                                b. in riferimento al risultato del processo: fait d’<oRef>a.</oRef>, formation d’<oRef>a.</oRef>, perturbation d’<oRef>a.</oRef>
                         </def>]
                     </sense>
                     <cit type="example">
@@ -256,7 +256,7 @@
                     aggettivo; che si riferisce all’analogia o al risultato di questo procedimento; usato soprattutto in espressioni complesse: 
                     </def>
                     <cit type="example">
-                        <eg xml:lang="fr">changement a., formation a., rennouvellement a. (<ref type="see" target="#analogie">v. analogie </ref>)];</eg>
+                        <eg xml:lang="fr">changement <oRef>a.</oRef>, formation <oRef>a.</oRef>, rennouvellement <oRef>a.</oRef> (<ref type="see" target="#analogie">v. analogie </ref>)];</eg>
                     </cit>
                 </sense>
             </entry>
@@ -408,7 +408,6 @@
                         <bibl>
                             <title>Écrits de linguistique générale</title>
                             <author>Simon Bouquet</author>
-                            <author>Simon Bouquet</author>
                             <author>Rudolf Engler</author>
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
@@ -426,7 +425,7 @@
                 </form>
                 <sense n="1">
                     [<def>
-                        usato in espressioni complesse: <eg xml:lang="fr">a. de formes</eg> e <eg xml:lang="fr">a. des idées</eg>; capacità mentale implicata nel
+                        usato in espressioni complesse: <eg xml:lang="fr"><oRef>a.</oRef> de formes</eg> e <eg xml:lang="fr"><oRef>a.</oRef> des idées</eg>; capacità mentale implicata nel
                         procedimento analogico. In particolare concerne la capacità di associare forme in base alle idee che
                         rappresentano;]
                     </def>
@@ -1408,7 +1407,7 @@
                 </form>
                 <sense n="1">
                     [<def>
-                        (<eg xml:lang="fr">état d’é.</eg> criticato in riferimento alla lingua e ai suoi cambiamenti storici; per il termine
+                        (<eg xml:lang="fr">état d’<oRef>é.</oRef></eg> criticato in riferimento alla lingua e ai suoi cambiamenti storici; per il termine
                         <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#équilibre">équilibre</ref> v. <ref target="01._Area_terminologica_A_altri_saperi_specialistici.xml">area A</ref>
                     </def>];
                     <cit type="example">
@@ -1528,7 +1527,7 @@
                 <sense n="1">
                     [<def>
                         potenzialità psico-fisiche di un essere vivente, in particolare quelle umane; usato anche in
-                        espressioni complesse: f. natives, f. de l’homme
+                        espressioni complesse: <oRef>f.</oRef> natives, <oRef>f.</oRef> de l’homme
                     </def>];
                     <cit type="example">
                         <quote xml:lang="fr">
@@ -1818,7 +1817,7 @@
                             régulièrement, de frontière entre ce qu’on appelle deux langues par opposition à deux dialectes, quand ces
                             langues sont de même origine et parlées par des populations contiguës sédentaires. Par exemple, il
                             n’existe pas de frontière entre l’italien et le français, entre les dialectes qu’on voudra appeler français et
-                            ceux [ ]. De même qu’il n’y a pas de dialectes délimités, de même il n’y a pas de langues délimitées dans
+                            ceux <surplus>[ ]</surplus>. De même qu’il n’y a pas de dialectes délimités, de même il n’y a pas de langues délimitées dans
                             les conditions normales.
                         </quote>
                         <bibl>
@@ -2114,7 +2113,7 @@
                     <cit type="example">
                         <quote xml:lang="fr">
                             Plus généralement, ce phénomène
-                            représente une association de formes dans l’esprit, qui est dictée par l’association des idées représentées.
+                            représente une association de formes dans l’esprit, qui est dictée par l’association des <oRef>idées</oRef> représentées.
                         </quote>
                         <bibl>
                             <title>Écrits de linguistique générale</title>
@@ -2255,7 +2254,7 @@
                             Il vaut la peine de nous arrêter un instant devant ce principe, élémentaire et
                             essentiel de la continuité ou de l’ininterruption forcée qui est le premier caractère ou la première loi de la
                             transmission du parler humain, et cela quelles que soient, autour de la langue, les révolutions et les
-                            secousses de tout genre qui peuvent changer toutes les conditions [ ].
+                            secousses de tout genre qui peuvent changer toutes les conditions <surplus>[ ]</surplus>.
                         </quote>
                         <bibl>
                             <title></title>
@@ -2500,22 +2499,22 @@
                         </def>];
                     </sense>    
                     <cit type="example">
-                        <quote><eg xml:lang="fr">histoire de la langue</eg></quote>
+                        <quote><eg xml:lang="fr">histoire de la <oRef>langue</oRef></eg></quote>
                     </cit>,
                     <cit type="example">
-                        <quote><eg xml:lang="fr">langue de trafic ou d’intercourse</eg></quote>
+                        <quote><eg xml:lang="fr"><oRef>langue</oRef> de trafic ou d’intercourse</eg></quote>
                     </cit>,
                     <cit type="example">
-                        <quote><eg xml:lang="fr">langue écrite</eg></quote>
+                        <quote><eg xml:lang="fr"><oRef>langue</oRef> écrite</eg></quote>
                     </cit>,
                     <cit type="example">
-                        <quote><eg xml:lang="fr">langue dans l’histoire</eg></quote>
+                        <quote><eg xml:lang="fr"><oRef>langue</oRef> dans l’histoire</eg></quote>
                     </cit>,
                     <cit type="example">
-                        <quote><eg xml:lang="fr">langue littéraire</eg></quote> 
+                        <quote><eg xml:lang="fr"><oRef>langue</oRef> littéraire</eg></quote> 
                     </cit>,
                     <cit type="example">
-                        <quote><eg xml:lang="fr">langue officielle administrative</eg></quote>
+                        <quote><eg xml:lang="fr"><oRef>langue</oRef> officielle administrative</eg></quote>
                     </cit>.
                     <xr type="other_dictionary"><ref target="03._1874_Saggio_giovanile.xml"/>Essai</xr>;
                     <xr type="other_dictionary"> <ref target="04._1878_Mémoire.xml"/>Mem</xr>;
