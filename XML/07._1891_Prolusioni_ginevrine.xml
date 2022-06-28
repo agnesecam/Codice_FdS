@@ -83,7 +83,7 @@
                         </bibl>
                     </cit>
                     <lbl type="syn">Sin.</lbl> <re type="synonim">contingent<ref target="#contingent"/></re>
-                    <lbl type="som">Cfr.</lbl><re type="compare">langue<ref target="#langue"/></re>
+                    <lbl type="com">Cfr.</lbl><re type="compare">langue<ref target="#langue"/></re>
                     <!--  DOMANDA:
                             Una soluzione di questo tipo, (<xr> "cross reference") per i riferimenti a sezioni di altre aree terminologiche è sensata?
                             Assumo di avere un glossario per ogni sezione terminologica (10._1894_Notes_Whitney.xml), e faccio una <ref> generica (non al termine) alla sezione dell'area terminologica, senza specificare l'entrata specifica, poiché in alcuni casi non mi è certa.
@@ -122,7 +122,7 @@
                             (<biblScope unit="page">p. 150</biblScope>)
                         </bibl>
                     </cit>
-                    <lbl type="som">Cfr.</lbl>  <re type="compare">accidentel<ref target="#accidentel"/></re>,
+                    <lbl type="com">Cfr.</lbl>  <re type="compare">accidentel<ref target="#accidentel"/></re>,
                     <re type="compare"> contingent<ref target="#contingent"/></re>
                 </sense>
             </entry>
@@ -150,7 +150,7 @@
                             (<biblScope unit="page">p. 150</biblScope>)
                         </bibl>
                     </cit>
-                    <lbl type="som">Cfr.</lbl> <re type="compare">accidentel<ref target="#accidentel"/></re>,
+                    <lbl type="com">Cfr.</lbl> <re type="compare">accidentel<ref target="#accidentel"/></re>,
                     <re type="compare">acte humain<ref target="#acte_humain"/></re>,
                     <re type="compare"> contingent<ref target="#contingent"/></re>
                     {<xr type="other_dictionary"> <ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph; </xr>
@@ -182,7 +182,7 @@
                             (<biblScope unit="page">p. 171</biblScope>)
                         </bibl>
                     </cit>
-                    <lbl type="som">Cfr.</lbl> <re type="compare">caractère dilectal<ref target="#caractère_dialectal"/></re>,
+                    <lbl type="com">Cfr.</lbl> <re type="compare">caractère dilectal<ref target="#caractère_dialectal"/></re>,
                     <re type="compare">continuité2<ref target="#continuité2"/></re>,
                     <re type="compare"> dialecte<ref target="#dialecte"/></re>,
                     <re type="compare">frontière<ref target="#frontière"/></re>
@@ -234,7 +234,7 @@
                         </bibl>
                     </cit>
                     <lbl type="opp">Opp.</lbl> <re type="opposite">changement phonétique;<ref target="#changement_phonétique"/></re>
-                    <lbl type="som">Cfr.</lbl> <re type="compare">analogique<ref target="#analogique"/></re>,
+                    <lbl type="com">Cfr.</lbl> <re type="compare">analogique<ref target="#analogique"/></re>,
                     <re type="compare">création<ref target="#création"/></re>,
                     <re type="compare">transformation<ref target="#transformation"/></re>
                     {<xr type="other_dictionary"> <ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Tesi</xr>
@@ -376,7 +376,7 @@
                             (<biblScope unit="page">p. 155</biblScope>)
                         </bibl>
                     </cit>
-                    <lbl type="som">Cfr.</lbl> <re type="compare">conventionnel<ref target="#conventionnel"/></re>;
+                    <lbl type="com">Cfr.</lbl> <re type="compare">conventionnel<ref target="#conventionnel"/></re>;
                     usato anche come avverbio <re type="compare">arbitrairement<ref target="#arbitrairement"/></re>
                     {<xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
                     <xr type="other_dictionary"><ref target="13._1903-1910_Leggende_germaniche.xml"/>LG</xr>;<!--Non trovo il testo corrispondente-->
@@ -447,7 +447,7 @@
                             (<biblScope unit="page">p. 161</biblScope>)
                         </bibl>
                     </cit>
-                    <lbl type="som">Cfr.</lbl> <re type="compare">analogie<ref target="#analogie"/></re>;
+                    <lbl type="com">Cfr.</lbl> <re type="compare">analogie<ref target="#analogie"/></re>;
                     {<xr type="other_dictionary"> <ref target="xxx.xml"/>ED</xr>;
                     <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
                     <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
@@ -483,7 +483,7 @@
                             (<biblScope unit="page">p. 170</biblScope>)
                         </bibl>
                     </cit>
-                    <lbl type="som">Cfr.</lbl>  <re type="compare">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/></re>,
+                    <lbl type="com">Cfr.</lbl>  <re type="compare">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/></re>,
                     <re type="compare">continuité2<ref target="#continuité2"/></re>,
                     <re type="compare">dialecte<ref target="#dialecte"/></re>,
                     <re type="compare">frontière<ref target="#frontière"/></re>.
@@ -555,7 +555,7 @@
                             </cit>
                             <re type="duale">duale changement analogique<ref target="#changement_analogique"/></re>,
                             <re type="duale">analogie<ref target="#analogie"/></re>;
-                            <lbl type="som">Cfr.</lbl> <re type="compare">phonétique<ref target="#phonétique"/></re>,
+                            <lbl type="com">Cfr.</lbl> <re type="compare">phonétique<ref target="#phonétique"/></re>,
                             <re type="compare">physiologique<ref target="#physiologique"/></re>,
                             <re type="compare">physique<ref target="#physique"/></re>,
                             <re type="compare">forme<ref target="#forme"/></re>,
@@ -592,8 +592,8 @@
                             </cit>
                             <lbl type="syn">Sin.</lbl> <re type="synonim">analogie;<ref target="#analogie"/></re>;
                             duale <re type="duale">changement phonétique<ref target="#changement_analogique"/></re>;
-                            <lbl type="som">Cfr.</lbl> <re type="compare">création<ref target="#création"/></re>,
-                            <lbl type="som">Cfr.</lbl> <re type="compare">transformation<ref target="#transformation"/></re>.
+                            <lbl type="com">Cfr.</lbl> <re type="compare">création<ref target="#création"/></re>,
+                            <lbl type="com">Cfr.</lbl> <re type="compare">transformation<ref target="#transformation"/></re>.
                         </sense>
                     </entry>
                     {<xr type="other_dictionary"> <ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>
@@ -634,7 +634,7 @@
                         </bibl>
                     </cit>
                     Ant. <re type="antonym">inconscience<ref target="#inconscience"/></re>;
-                    <lbl type="som">Cfr.</lbl> <re type="compare">intelligence<ref target="#intelligence"/></re>;
+                    <lbl type="com">Cfr.</lbl> <re type="compare">intelligence<ref target="#intelligence"/></re>;
                     <re type="compare">volonté<ref target="#volonté"/></re>,
                     Usato anche come aggettivo conscient
                     {<xr type="other_dictionary"> <ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>
@@ -674,7 +674,7 @@
                         </bibl>
                     </cit>
                     Ant. <re type="antonym">accidentel<ref target="#accidentel"/></re>;
-                    <lbl type="som">Cfr.</lbl> <re type="compare">langue<ref target="#langue"/></re>;
+                    <lbl type="com">Cfr.</lbl> <re type="compare">langue<ref target="#langue"/></re>;
                 </sense>
             </entry>
 
@@ -722,7 +722,7 @@
                         <lbl type="alm-syn">quasi-sin.</lbl> <re type="almost-synonym">tradition de la langue<ref target="#tradition_de_la_langue"/></re>;
                         duale <re type="duale">mutabilité<ref target="#tradition_de_la_langue"/></re>,
                         <re type="duale">transformation<ref target="#transformation"/></re>;
-                        <lbl type="som">Cfr.</lbl> <re type="compare">état de langue<ref target="#état_de_langue"/></re>,
+                        <lbl type="com">Cfr.</lbl> <re type="compare">état de langue<ref target="#état_de_langue"/></re>,
                         <re type="compare">succession<ref target="#succession"/></re>,
                         <re type="compare">transition<ref target="#transition"/></re>,
                         <re type="compare">via de langue<ref target="#via_de_langue"/></re>.
@@ -751,7 +751,7 @@
                             </bibl>
                         </cit>
                         Ant. <re type="antonym">divergence<ref target="#divergence"/></re>;
-                        <lbl type="som">Cfr.</lbl> <re type="compare">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/></re>;
+                        <lbl type="com">Cfr.</lbl> <re type="compare">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/></re>;
                         <re type="compare">caractère dialectal<ref target="#caractère_dialectal"/></re>;
                         <re type="compare">dialecte<ref target="#dialecte"/></re>;
                         <re type="compare">frontière<ref target="#frontière"/></re>.
@@ -822,7 +822,7 @@
                             (<biblScope unit="page">p. 165</biblScope>)
                         </bibl>
                     </cit>
-                    <lbl type="som">Cfr.</lbl> <re type="compare">arbitraire<ref target="#arbitraire"/></re>;
+                    <lbl type="com">Cfr.</lbl> <re type="compare">arbitraire<ref target="#arbitraire"/></re>;
                     <re type="compare">volonté<ref target="#volonté"/></re>,
                     Usato anche come aggettivo conscient
                     {<xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;
@@ -895,7 +895,7 @@
                     </cit>
                     Syn. <re type="synonym">innovation<ref target="#innovation"/></re>;
                     quasi- sin. <re type="almost-synonym">transformation</re>;
-                    <lbl type="som">Cfr.</lbl> <re type="compare">analogie<ref target="#analogie"/></re>,
+                    <lbl type="com">Cfr.</lbl> <re type="compare">analogie<ref target="#analogie"/></re>,
                     <re type="compare">changement analogique<ref target="#changement analogique"/></re>
                     {<xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
                     <xr type="other_dictionary"> <ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
@@ -935,7 +935,7 @@
                             (<biblScope unit="page">p. 171</biblScope>)
                         </bibl>
                     </cit>
-                    <lbl type="som">Cfr.</lbl> <re type="compare">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/></re>,
+                    <lbl type="com">Cfr.</lbl> <re type="compare">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/></re>,
                     <re type="compare">caractère dialectal<ref target="#caractère_dialectal"/></re>,
                     <re type="compare">continuité2<ref target="#continuité2"/></re>,
                     <re type="compare">frontière<ref target="#frontière"/></re>.
@@ -1039,7 +1039,7 @@
                             (<biblScope unit="page">p. 169</biblScope>)
                         </bibl>
                     </cit>
-                    <lbl type="som">Cfr.</lbl> <re type="compare">différence<ref target="#différence"/></re>,
+                    <lbl type="com">Cfr.</lbl> <re type="compare">différence<ref target="#différence"/></re>,
                     <re type="compare">différencier<ref target="#différencier"/></re>.
                     {<xr type="other_dictionary"> <ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
                     <xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
@@ -1172,7 +1172,7 @@
                             (<biblScope unit="page">p. 166</biblScope>)
                         </bibl>
                     </cit>
-                    <lbl type="som">Cfr.</lbl> <re type="compare">divergence<ref target="#divergence"/></re>,
+                    <lbl type="com">Cfr.</lbl> <re type="compare">divergence<ref target="#divergence"/></re>,
                     <re type="compare">diversifier<ref target="#diversifier"/></re>,
                     <re type="compare">espace<ref target="#espace"/></re>.
                 </sense>
@@ -1204,7 +1204,7 @@
                             (<biblScope unit="page">p. 151</biblScope>)
                         </bibl>
                     </cit>
-                    <lbl type="som">Cfr.</lbl> <re type="compare">distance géographique<ref target="#distance_géographique"/></re>,
+                    <lbl type="com">Cfr.</lbl> <re type="compare">distance géographique<ref target="#distance_géographique"/></re>,
                     <re type="compare">diversifier<ref target="#diversifier"/></re>,
                     <re type="compare">espace<ref target="#espace"/></re>.
                 </sense>
@@ -1239,7 +1239,7 @@
                             (<biblScope unit="page">p. 151</biblScope>)
                         </bibl>
                     </cit>
-                    <lbl type="som">Cfr.</lbl> <re type="compare">distance géographique<ref target="#distance_géographique"/></re>,
+                    <lbl type="com">Cfr.</lbl> <re type="compare">distance géographique<ref target="#distance_géographique"/></re>,
                     <re type="compare">divergence<ref target="#divergence"/></re>,
                     <re type="compare">espace<ref target="#espace"/></re>.
                     {<xr type="other_dictionary"> <ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
@@ -1275,7 +1275,7 @@
                             (<biblScope unit="page">p. 163</biblScope>)
                         </bibl>
                     </cit>
-                    <lbl type="som">Cfr.</lbl> <re type="compare">distance chronologique<ref target="#distance_chronologique"/></re>
+                    <lbl type="com">Cfr.</lbl> <re type="compare">distance chronologique<ref target="#distance_chronologique"/></re>
                 </sense>
             </entry>
 
@@ -1504,7 +1504,7 @@
                             (<biblScope unit="page">p. 165</biblScope>);
                         </bibl>
                     </cit>
-                    <lbl type="som">Cfr.</lbl> <re type="compare">continuité<ref target="#continuité"/></re>,
+                    <lbl type="com">Cfr.</lbl> <re type="compare">continuité<ref target="#continuité"/></re>,
                     <re type="compare">succession<ref target="#succession"/></re>,
                     <re type="compare">transition<ref target="#transition"/></re>, 
                     <re type="compare">vie de la langue<ref target="#vie de la langu"/></re>.
@@ -1587,7 +1587,7 @@
                         </bibl>
                     </cit>
                     <lbl type="opp">Opp.</lbl> <re type="opposite"> loi1<ref target="#loi1"/></re>;
-                    <lbl type="som">Cfr.</lbl> <re type="compare">accidentel<ref target="#accidentel"/></re>,
+                    <lbl type="com">Cfr.</lbl> <re type="compare">accidentel<ref target="#accidentel"/></re>,
                     <re type="compare">acte humaine<ref target="#acte_humaine"/></re>, 
                     <re type="compare">contingent<ref target="#contingent"/></re>.
                 </sense>
@@ -1620,7 +1620,7 @@
                             (<biblScope unit="page">p. 148</biblScope>);
                         </bibl>
                     </cit>
-                    <lbl type="som">Cfr.</lbl> <re type="compare">fait<ref target="#fait"/></re>,
+                    <lbl type="com">Cfr.</lbl> <re type="compare">fait<ref target="#fait"/></re>,
                     <re type="compare">linguistique<ref target="#linguistique"/></re>
                     Occorre anche come <term xml:id="fait_linguistique">fait linguistique</term><!--Come lo rendo?-->
                     {<xr type="other_dictionary"><ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente-->
@@ -1905,7 +1905,7 @@
                             (<biblScope unit="page">p. 147</biblScope>);
                         </bibl>
                     </cit>
-                    <lbl type="compare">Cfr. </lbl> <re type="compare">général<ref target="#général"/></re>,
+                    <lbl type="com">Cfr. </lbl> <re type="compare">général<ref target="#général"/></re>,
                     <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>, <!--Non trovo il testo corrispondente-->
                     <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>.
                 </sense>
@@ -2113,7 +2113,7 @@
                     </def>];
                     <cit type="example">
                         <quote xml:lang="fr">
-                            Plus g<lbl type="synonym">Sin. </lbl><re type="synonym">famille des langues<ref target="#famille_des_langues"/></re>,énéralement, ce phénomène
+                            Plus généralement, ce phénomène
                             représente une association de formes dans l’esprit, qui est dictée par l’association des idées représentées.
                         </quote>
                         <bibl>
@@ -2171,6 +2171,280 @@
                     {<xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
                     <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
                 </sense>
+            </entry>
+
+            <entry xml:id="impérissable">
+                <form>
+                    <orth>Impérissable</orth>
+                </form>
+                <sense n="1"> 
+                    [<def>
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                «Qui ne peut périr, disparaître» (TLFi)
+                            </quote>
+                            <bibl>
+                                <title>Trésor de la Langue Française Informatisé</title>
+                            </bibl>
+                        </cit>
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            in riferimento alle lingue; la continua trasmissione
+                            della lingua non si interrompe mai per cause interne, linguistiche]; Mais ce ne sont pas là des causes
+                            linguistiques. Il n’arrive jamais qu’une langue meure d’épuisement intérieur, après avoir achevé sa
+                            carrière qui lui était donnée. En elle-même elle est impérissable, c’est-à-dire qu’il n’y a aucune raison
+                            pour que sa transmission s’arrête pour une cause tenant à l’organisation de cette langue.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 154</biblScope>);
+                        </bibl>
+                    </cit>
+                    <lbl type="com">Cfr. </lbl><re type="compare">continuité<ref target="#continuité"/></re>;
+                </sense>
+            </entry>
+
+            <entry xml:id="inconscience">
+                <form>
+                    <orth>Inconscience</orth>
+                </form>
+                <sense n="1"> 
+                    [<def>
+                        grado di consapevolezza nel compimento di un’azione che non presenta alcuna riflessione
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            toujours en se rappelant que la notion de conscience est éminemment relative, de sorte qu’il ne s’agit que
+                            de deux degrés de conscience dont le plus élevé est encore de l’inconscience pure comparé au degré de
+                            réflexion qui accompagne la plupart de nos actes.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 159</biblScope>);
+                        </bibl>
+                    </cit>
+                    <lbl type="ant">Ant. </lbl><re type="antonym">Con science<ref target="#con_science"/></re>;
+                    <lbl type="com">Cfr</lbl><re type="compare">intelligence<ref target="#intelligence"/></re>;
+                    <re type="compare">volonté<ref target="#volonté"/></re>;
+                    usato anche come aggettivo <term xml:id="incoscient"/>;
+                    {<xr type="other_dictionary"> <ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>}
+                </sense>
+            </entry>
+
+            <entry xml:id="ininterruption">
+                <form>
+                    <orth>Ininterruption</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        <ref type="see" target="#continuité1"> v. continuité1</ref>
+                    </def>];
+                    <cit>
+                        <quote xml:lang="fr">
+                            Il vaut la peine de nous arrêter un instant devant ce principe, élémentaire et
+                            essentiel de la continuité ou de l’ininterruption forcée qui est le premier caractère ou la première loi de la
+                            transmission du parler humain, et cela quelles que soient, autour de la langue, les révolutions et les
+                            secousses de tout genre qui peuvent changer toutes les conditions [ ].
+                        </quote>
+                        <bibl>
+                            <title></title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 151</biblScope>)
+                        </bibl>
+                    </cit>
+                    <lbl type="syn">Sin. </lbl><re type="synonym">continuité1<ref target="#continuité1"/></re>
+                </sense>
+            </entry>
+
+            <entry xml:id="innovation">
+                <form>
+                    <orth>Innovation</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        <ref type="see" target="#création"> v. création</ref>
+                    </def>];
+                    <cit>
+                        <quote xml:lang="fr">
+                            Sans la présence de ces éléments, venirai est simplement impossible. Il n’y aura
+                            donc jamais de création ex nihilo, mais chaque innovation ne sera qu’une application nouvelle d’éléments
+                            fournis par l’état antérieur du langage. C’est ainsi que le renouvellement analogique qui dans un sens est
+                            très destructif ne fait cependant jamais que continuer sans jamais pouvoir la briser la chaîne des éléments
+                            transmis depuis l’origine des langues.
+                        </quote>
+                        <bibl>
+                            <title></title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 160</biblScope>)
+                        </bibl>
+                    </cit>
+                    <lbl type="syn">Sin. </lbl><re type="synonym">création<ref target="#création"/></re>;
+                    <lbl type="com">Cfr. </lbl><re type="compare">analogie<ref target="#analogie"/></re>
+                </sense>
+            </entry>
+            
+            <entry xml:id="intelligence">
+                <form>
+                    <orth>Intelligence</orth>
+                </form>
+                <sense n="1"> 
+                    [<def>
+                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml">v. area A</ref>;
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Quelle est donc la seconde condition impliquée par le mot de science historique?
+                            C’est que l’objet qui fait la matière de l’histoire - par exemple l’art, la religion, le costume, etc. -
+                            représente, dans un sens quelconque, des actes humains, régis par la volonté et l’intelligence humaines, -
+                            et qui d’ailleurs doivent être tels qu’ils n’intéressent pas seulement l’individu mais la collectivité. 
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 150</biblScope>);
+                        </bibl>
+                    </cit>
+                    <lbl type="com">Cfr. </lbl><re type="compare">conscience<ref target="#conscience"/></re>;
+                    <lbl type="syn">Sin. </lbl><re type="synonym">volonté<ref target="#volonté"/></re>;                    
+                    {<xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>
+            </entry>
+
+            <entry xml:id="isolement_linguistique">
+                <form>
+                    <orth>Isolement linguistique</orth>
+                </form>
+                <sense n="1"> 
+                    [<def>
+                        separazione, soprattuto geografica, di una lingua in relazione alle lingue
+                        geograficamente confinanti
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            L’effet de l’isolement linguistique d’une certaine communauté est
+                            probablement double: d’une part les différences se produisent plus rapidement, et de l’autre ces
+                            différences se produisent dans une autre direction que si la communauté était restée en contact avec la
+                            masse. Mais, je le répète, c’est là un cas sinon exceptionnel, du moins réclamant une étude spéciale et qui
+                            ne peut être abordé qu’à condition d’être d’abord au clair précisément sur la différenciation qui
+                            s’accomplit dans un corps linguistique continu.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 169</biblScope>);
+                        </bibl>
+                    </cit>
+                    <lbl type"alm-syn">Quasi-sin. </lbl><re type="almost-synonim">discontinuité<ref target="#discontinuité"/></re>;
+                </sense>
+            </entry>
+
+            <entry xml:id="langage">
+                <form>
+                    <orth>Langage</orth>
+                </form>
+                <sense n="1">
+                    <sense n="a" xml:id="langage1">1. 
+                        [<def>
+                            la totalità dei fatti lingustici
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                Maintenant, estime-t-on que le langage soit dans cet ensemble un
+                                facteur digne d’être aperçu ou un facteur nul, une quantité appréciable ou une quantité négligeable. C’est
+                                de là (mais seulement de là) que peut dépendre un jugement équitable et éclairé sur la valeur de l’étude du
+                                langage dans la connaissance générale; les rayons de lumière, si intenses qu’ils aient été, qui ont pu
+                                soudain tomber de la langue sur d’autres disciplines et sur d’autres objets de recherche, ne sauraient avoir
+                                qu’une importance absolument épisodique et incidente pour l’étude de la langue elle-même, pour le
+                                développement intérieur de cette étude et pour le but vers lequel elle marche. Le phénomène du langage,
+                                en lui-même, vaut-il ou ne vaut-il pas la peine qu’on l’étudié, soit en ses manifestations diverses soit dans
+                                ses lois générales qui ne pourront jamais être déduites que de ses formes particulières? - tel est, s’il faut
+                                l’indiquer d’une façon tout à fait claire et catégorique, le terrain sur lequel se place actuellement la
+                                science du langage. Le langage ou la langue peut-il donc passer pour un objet qui appelle, par lui-même,
+                                l’étude?
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page" from="144" to="145">p. 144-145</biblScope>)
+                            </bibl>
+                        </cit>
+                    </sense>
+                    <sense n="b" xml:id="langage2">2. 
+                        [<def>
+                            insieme dei tratti e delle caratteristiche comuni alle lingue
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                Messieurs, c’est ici un point sur lequel il
+                                me faudrait disposer d’un temps considérable pour exposer, développer et justifier mon point de vue, qui
+                                n’est pas autre que celui de tous les linguistes actuels: c’est qu’en effet l’étude du langage comme fait
+                                humain est tout entier ou presque tout entier contenu dans l’étude des langues, Le physiologiste, le
+                                psychologue et le logicien pourront longtemps disserter, le philosophe pourra reprendre ensuite les
+                                résultats combinés de la logique, de la psychologie et de la physiologie, jamais, je me permets de le dire,
+                                les plus élémentaires phénomènes du langage ne seront soupçonnés, ou clairement aperçus, classés et
+                                compris, si l’on ne recourt en première et dernière instance à l’étude des langues. Langue et langage ne
+                                sont qu’une même chose; l’un est la généralisation de l’autre. Vouloir étudier le langage sans se donner la
+                                peine d’en étudier les diverses manifestations qu’évidemment sont les langues est une entreprise
+                                absolument vaine, et chimérique; d’un autre côté vouloir étudier les langues en oubliant que ces langues
+                                sont primordialement régies par certains principes qui sont résumés dans l’idée de langage est un travail
+                                encore plus dénué de toute signification sérieuse, de toute base scientifique véritable.
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page">p. 146</biblScope>)
+                            </bibl>
+                        </cit>
+                        <xr type="other_dictionary"><ref target="03._1874_Saggio_giovanile.xml"/>Essai</xr>;
+                        <xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
+                        <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente--> 
+                        <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;
+                        <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>;
+                        <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
+                        <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                        <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                    </sense>    
+                </sense>     
             </entry>
 
         </body>
