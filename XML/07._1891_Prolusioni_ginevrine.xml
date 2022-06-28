@@ -2484,6 +2484,107 @@
                 </sense>     
             </entry>
 
+            <entry xml:id="langue_artificielle">
+                <form>
+                    <orth>Langue artificielle</orth>
+                </form>
+                <sense n="1"> 
+                    [<def>
+                        discusso, <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml">v. area B</ref>;
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Jamais on n’a signalé en effet sur le globe la naissance d’une
+                            langue nouvelle. On a vu des astres nouveaux apparaître subitement au milieu des constellations connues
+                            du ciel, et on a vu des terres nouvelles surgir un jour à la surface de quelques mers, mais on n’a pas
+                            connaissance d’une langue qui ne fût pas parlée la veille ou qui ne fût pas parlée sous la même forme la
+                            veille. On citera le volapük. J’allais en parler. Car précisément le volapük et les autres <oRef>langues
+                            [artificielles]</oRef> sont un exemple excellent pour se rendre compte de ce qui empêche qu’il ne naisse une
+                            langue ou de ce qui assure la transmission de celles qui existent: il y a deux facteurs, le premier est
+                            l’absence de toute initiative, car chaque population est fort contente de son idiome maternel; le second est
+                            que, même si une initiative se produisait, ce qui suppose un ensemble de circonstances tout à fait
+                            exceptionnel et notamment l’emploi de l’écriture, cette initiative se heurterait à la résistance invincible de
+                            la masse qui ne renoncera pas à son idiome accoutumé. Le volapük, qui ne prétendait détrôner aucune
+                            langue existante, n’a pu, malgré les conditions favorables où il se présentait, faire fortune dans ce monde. 
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page" from="154" to="155">pp. 154-155</biblScope>);
+                        </bibl>
+                    </cit>
+                    {<xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>
+            </entry>
+
+            <entry xml:id="langue_écrite">
+                <form>
+                    <orth>Langue écrite</orth>
+                </form>
+                <sense n="1"> 
+                    [<def>
+                        rappresentazione di una lingua per mezzo della scrittura (<ref type="see" target="#écriture">v. écriture</ref>)
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Les impulsions qui
+                            créent ce mouvement apparaissent même comme tellement incompressibles et incoercibles que les
+                            langues comme la nôtre, dont la vie est devenue presque tout à fait artificielle, sont obligées d’y céder
+                            elles-mêmes; la tyrannie de la langue écrite, cette espèce de corset de force qui est le français officiel, a
+                            certainement pour effet d’enrayer leur marche, mais elle est impuissante à l’arrêter complètement, et
+                            souvent nous ne nous doutons pas de la distance où est déjà parvenue la langue vraie (j’entends même la
+                            langue de la conversation cultivée) par le travail souterrain qui ne cesse de s’accomplir dans la langue
+                            vivante par-dessous la surface pour ainsi dire figée du français classique. 
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page" from="158">pp. 158</biblScope>);
+                        </bibl>
+                    </cit>
+                </sense>
+            </entry>            
+            
+            <entry xml:id="langue_dans_l'histoire">
+                <form>
+                    <orth>Langue dans l'histoire</orth>
+                </form>
+                <sense n="1"> 
+                    [<def>
+                        la lingua come fatto storico tra gli altri, come carattere delle vicende umane
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Il y a
+                            une première manière un peu superficielle d’entendre que la linguistique est une science historique, c’est
+                            celle qui consiste à observer qu’on ne connaît pas complètement un peuple sans connaître sa langue ou en
+                            avoir une idée; que la langue est une partie importante du bagage des nations et contribue à caractériser
+                            une époque, une société. La présence d’idiomes celtiques en Gaule, et leur disparition lente sous
+                            l’influence de la domination romaine constituent par exemple de grands faits historiques. C’est là le point
+                            de vue de la <oRef>Langue dans l’Histoire</oRef>.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 149</biblScope>);
+                        </bibl>
+                    </cit>
+                    <lbl type="duale">Duale </lbl><re type="duale">histoire de la langue<ref target="#histoire_de_la_langue"/></re>;
+                </sense>
+            </entry>
+
         </body>
     </text>
 
