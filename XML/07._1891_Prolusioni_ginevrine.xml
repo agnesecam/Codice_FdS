@@ -2656,12 +2656,15 @@
                 </sense>
             </entry>
 
-            <entry xml:id="linguistique">
+            <entry xml:id="linguistique-N">
                 <form>
                     <orth>linguistique</orth>
                 </form>
+                <gramGrp>
+                    <pos>n</pos>
+                </gramGrp>
                 <sense n="1">
-                    <sense n="a" xml:id="linguistique1">1. 
+                    <sense n="a" xml:id="linguistique">1. 
                         [<def>
                             scienza storica che ha per oggetto lo studio delle lingue e del linguaggio
                         </def>];
@@ -2701,7 +2704,62 @@
                 </sense>     
             </entry>
 
-            <!--STESSO TERMINE DUE SIGNIFICATI VEDI COME FARE-->
+            <entry xml:id="linguistique-A">
+                <form>
+                    <orth>linguistique</orth>
+                </form>
+                <gramGrp>
+                    <pos>adj</pos>
+                </gramGrp>
+                <sense n="1">
+                    <sense n="a" xml:id="linguistique-A1">1. 
+                        [<def>
+                            relativo alle lingue e al linguaggio
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                Les faits linguistiques peuvent-ils passer
+                                pour être le résultat d’actes de notre volonté? Telle est donc la question. La science du langage, actuelle, y
+                                répond affirmativement. Seulement il faut ajouter aussitôt qu’il y a beaucoup de degrés connus, comme
+                                nous savons, dans la volonté consciente ou inconsciente; or, de tous les actes qu’on pourrait mettre en
+                                parallèle, l’acte linguistique, si je puis le nommer ainsi, a ce caractère [d’être] le moins réfléchi, le moins
+                                prémédité, en même temps que le plus impersonnel de tous. Il y a là une différence de degré, qui va si
+                                loin qu’elle a longtemps donné l’illusion d’une différence essentielle, mais qui n’est en réalité qu’une
+                                différence de degrés. 
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page">p. 150</biblScope>)
+                            </bibl>
+                        </cit>
+                    </sense>
+                    <sense n="b" xml:id="linguistique-A2">2. 
+                        [<def>
+                            relativo alla linguistica
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                C’est de cette qualité de science historique que se réclamera toute espèce
+                                d’études linguistiques pour figurer dans une Faculté des Lettres
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page">p. 149</biblScope>)
+                            </bibl>
+                        </cit>
+                    </sense>                
+                </sense>     
+            </entry>
 
         </body>
     </text>
