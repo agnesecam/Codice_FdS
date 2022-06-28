@@ -2617,7 +2617,91 @@
                 </sense>
             </entry>
 
+            <entry xml:id="langue_mère">
+                <form>
+                    <orth>Langue fille</orth>
+                </form>
+                <sense n="1"> 
+                    [<def>
+                        criticato; <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml">v. area B</ref>
+                    </def>];
+                    v. <ref type="see" target="#langue_fille">langue_fille</ref>
+                </sense>
+            </entry>
 
+            <entry xml:id="linguiste">
+                <form>
+                    <orth>Linguiste</orth>
+                </form>
+                <sense n="1"> 
+                    [<def>
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            L’observation et l’analyse de ces deux ordres de phénomènes constituent l’occupation presque
+                            unique du linguiste, sur quelque langue que porte son attention, et cette tâche est sans fin même en se
+                            bornant à des périodes limitées.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 160</biblScope>);
+                        </bibl>
+                    </cit>
+                    <lbl type="duale">Duale </lbl><re type="duale">histoire de la langue<ref target="#histoire_de_la_langue"/></re>;
+                </sense>
+            </entry>
+
+            <entry xml:id="linguistique">
+                <form>
+                    <orth>linguistique</orth>
+                </form>
+                <sense n="1">
+                    <sense n="a" xml:id="langue1">1. 
+                        [<def>
+                            scienza storica che ha per oggetto lo studio delle lingue e del linguaggio
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                Plus on aura dans
+                                un même centre académique de spécialités linguistiques vouées à l’étude d’un certain groupe de langues,
+                                plus aussi l’ensemble de ces études prendront de consistance par leur appui mutuel, et plus on apercevra
+                                les traits généraux de la discipline, qui sont comme brisés et morcelés là où cessent tout à coup
+                                l’information, l’intérêt, et la vie par l’absence de disciples ou de maîtres. Comme linguiste, on sera
+                                certainement porté à souhaiter le développement indéfini des chaires de linguistique (j’avoue toutefois
+                                que ce développement indéfini pourrait avoir des inconvénients inquiétants à la longue pour tout le
+                                monde. 
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page">p. 148</biblScope>)
+                            </bibl>
+                        </cit>
+                    </sense>
+                    <lbl>Sin. </lbl><re type="synonym">science du langage<ref target="science_du_langage"/></re>
+                    <xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
+                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente--> 
+                    <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS </xr>;
+                    <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;
+                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>;
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
+                    <xr type="other_dictionary"><ref target="13._1903-1910_Leggende_germaniche.xml"/>LG</xr>;<!--Non trovo il testo corrispondente-->
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>     
+            </entry>
+
+            STESSO TERMINE DUE SIGNIFICATI VEDI COME FARE
 
         </body>
     </text>
