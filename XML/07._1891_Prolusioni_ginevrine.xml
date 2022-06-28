@@ -2585,6 +2585,40 @@
                 </sense>
             </entry>
 
+            <entry xml:id="langue_fille">
+                <form>
+                    <orth>Langue fille</orth>
+                </form>
+                <sense n="1"> 
+                    [<def>
+                        criticato; <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml">v. area B</ref>
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Et l’autre locution figurée que nous allons exécuter avec M. Gaston Paris
+                            c’est celle du français, langue fille du latin, - ou du latin, langue mère des langues romanes. Il n’y a pas
+                            de langues filles ni de langues mères, il n’y en a nulle part, il n’y en a jamais eu. Il y a dans chaque région
+                            du globe un état de langue qui se transforme lentement, de semaine en semaine, de mois en mois, d’année
+                            en année et de siècle en siècle, comme nous le verrons tout à l’heure, mais il n’y a jamais eu nulle part
+                            parturition ou procréation d’un idiome nouveau par un idiome antérieur, cela est en dehors de tout ce que
+                            nous voyons, comme de tout ce que nous pouvons nous représenter en idée, étant simplement données les
+                            conditions où nous parlons chacun notre langue maternelle</oRef>.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 153</biblScope>);
+                        </bibl>
+                    </cit>
+                </sense>
+            </entry>
+
+
+
         </body>
     </text>
 
