@@ -2363,7 +2363,7 @@
                             (<biblScope unit="page">p. 169</biblScope>);
                         </bibl>
                     </cit>
-                    <lbl type"alm-syn">Quasi-sin. </lbl><re type="almost-synonim">discontinuité<ref target="#discontinuité"/></re>;
+                    <lbl type="alm-syn">Quasi-sin. </lbl><re type="almost-synonim">discontinuité<ref target="#discontinuité"/></re>;
                 </sense>
             </entry>
 
@@ -2444,6 +2444,91 @@
                         <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
                         <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
                     </sense>    
+                </sense>     
+            </entry>
+
+            <entry xml:id="langue">
+                <form>
+                    <orth>Langue(s)</orth>
+                </form>
+                <sense n="1">
+                    <sense n="a" xml:id="langue1">1. 
+                        [<def>
+                            <cit type="example">
+                                <quote xml:lang="fr">
+                                    «idiome, langue déterminée quelconque» (LTS)
+                                </quote>
+                                <bibl>
+                                    <title>Lexique de la terminologie saussurienne</title>
+                                    <author>Rudolf Engler</author>
+                                    <pubPlace>Utrecht-Anvers</pubPlace>
+                                    <publisher>Spectrum</publisher>
+                                    <date>1968</date>
+                                </bibl>
+                            </cit>               
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                Messieurs, c’est ici un point sur lequel il me
+                                faudrait disposer d’un temps considérable pour exposer, développer et justifier mon point de vue, qui
+                                n’est pas autre que celui de tous les linguistes actuels: c’est qu’en effet l’étude du langage comme fait
+                                humain est tout entier ou presque tout entier contenu dans l’étude des langues, Le physiologiste, le
+                                psychologue et le logicien pourront longtemps disserter, le philosophe pourra reprendre ensuite les
+                                résultats combinés de la logique, de la psychologie et de la physiologie, jamais, je me permets de le dire,
+                                les plus élémentaires phénomènes du langage ne seront soupçonnés, ou clairement aperçus, classés et
+                                compris, si l’on ne recourt en première et dernière instance à l’étude des langues. Langue et langage ne
+                                sont qu’une même chose; l’un est la généralisation de l’autre. Vouloir étudier le langage sans se donner la
+                                peine d’en étudier les diverses manifestations qu’évidemment sont les langues est une entreprise
+                                absolument vaine, et chimérique; d’un autre côté vouloir étudier les langues en oubliant que ces langues
+                                sont primordialement régies par certains principes qui sont résumés dans l’idée de langage est un travail
+                                encore plus dénué de toute signification sérieuse, de toute base scientifique véritable. 
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page">p. 146</biblScope>)
+                            </bibl>
+                        </cit>
+                    </sense>
+                    <sense n="b" xml:id="langue2">2. 
+                        [<def>
+                            usato in espressioni complesse per indicare usi settoriali                        
+                        </def>];
+                    </sense>    
+                    <cit type="example">
+                        <quote><eg xml:lang="fr">histoire de la langue</eg></quote>
+                    </cit>,
+                    <cit type="example">
+                        <quote><eg xml:lang="fr">langue de trafic ou d’intercourse</eg></quote>
+                    </cit>,
+                    <cit type="example">
+                        <quote><eg xml:lang="fr">langue écrite</eg></quote>
+                    </cit>,
+                    <cit type="example">
+                        <quote><eg xml:lang="fr">langue dans l’histoire</eg></quote>
+                    </cit>,
+                    <cit type="example">
+                        <quote><eg xml:lang="fr">langue littéraire</eg></quote> 
+                    </cit>,
+                    <cit type="example">
+                        <quote><eg xml:lang="fr">langue officielle administrative</eg></quote>
+                    </cit>.
+                    <xr type="other_dictionary"><ref target="03._1874_Saggio_giovanile.xml"/>Essai</xr>;
+                    <xr type="other_dictionary"> <ref target="04._1878_Mémoire.xml"/>Mem</xr>;
+                    <xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
+                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente--> 
+                    <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;
+                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>;
+                    <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS </xr>;
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
+                    <xr type="other_dictionary"><ref target="13._1903-1910_Leggende_germaniche.xml"/>LG</xr>;<!--Non trovo il testo corrispondente-->
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
                 </sense>     
             </entry>
 
