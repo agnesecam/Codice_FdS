@@ -2553,7 +2553,7 @@
                 </sense>
             </entry>            
             
-            <entry xml:id="langue_dans_l'histoire">
+            <entry xml:id="langue_dans_l_histoire">
                 <form>
                     <orth>Langue dans l'histoire</orth>
                 </form>
@@ -2602,7 +2602,7 @@
                             en année et de siècle en siècle, comme nous le verrons tout à l’heure, mais il n’y a jamais eu nulle part
                             parturition ou procréation d’un idiome nouveau par un idiome antérieur, cela est en dehors de tout ce que
                             nous voyons, comme de tout ce que nous pouvons nous représenter en idée, étant simplement données les
-                            conditions où nous parlons chacun notre langue maternelle</oRef>.
+                            conditions où nous parlons chacun notre langue maternelle.
                         </quote>
                         <bibl>
                             <title>Écrits de linguistique générale</title>
@@ -2661,7 +2661,7 @@
                     <orth>linguistique</orth>
                 </form>
                 <sense n="1">
-                    <sense n="a" xml:id="langue1">1. 
+                    <sense n="a" xml:id="linguistique1">1. 
                         [<def>
                             scienza storica che ha per oggetto lo studio delle lingue e del linguaggio
                         </def>];
@@ -2701,7 +2701,7 @@
                 </sense>     
             </entry>
 
-            STESSO TERMINE DUE SIGNIFICATI VEDI COME FARE
+            <!--STESSO TERMINE DUE SIGNIFICATI VEDI COME FARE-->
 
         </body>
     </text>
