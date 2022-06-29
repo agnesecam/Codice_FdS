@@ -2967,6 +2967,34 @@
                     </cit>
                 </sense>     
             </entry>
+
+            <entry xml:id="minéraux">
+                <form>
+                    <orth>Minéraux</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml">v. area A</ref>
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Demander à un linguiste de citer des formations analogiques, c’est donc comme si
+                            l’on demandait à un minéralogiste de citer des minéraux, ou à un astronome de citer quelques étoiles
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 161</biblScope>)
+                        </bibl>
+                    </cit>
+                </sense>     
+            </entry>
+
+
         </body>
     </text>
 
