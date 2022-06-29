@@ -3066,6 +3066,48 @@
                 </sense>     
             </entry>
 
+            <entry xml:id="mouvement">
+                <form>
+                    <orth>Mouvement</orth>
+                </form>
+                <gramGrp>
+                    <pos>n</pos>
+                </gramGrp>
+                <sense n="1">
+                    [<def>
+                        in riferimento alle lingue, termine adoperato per rimarcare la continua trasformazione a cui è
+                        sottoposta qualsiasi lingua, <lbl type="see">v. </lbl> <ref type="compare" target="#transformation">transformation</ref>
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Nous arrivons ainsi au second principe, de valeur
+                            universelle comme le premier, dont la possession peut faire connaître ce qu’est l’histoire des langues:
+                            c’est le point de vue du <oFef>mouvement</oRef> de la langue dans le temps, mais d’un <oFef>mouvement</oRef> qui à aucun
+                            moment, car tout est là, n’arrive à être en conflit avec le premier principe de l’unité de la langue dans le
+                            temps. Il y a transformation, et toujours et encore transformation, mais il n’y a nulle part reproduction ou
+                            production d’un être linguistique nouveau, ayant une existence distincte de ce qui l’a précédé et de ce qui
+                            suivra. Pas de langues mères, pas de langues filles, mais une langue une fois donnée qui roulera et se
+                            déroulera indéfiniment dans le temps, sans aucun terme préfixé à son existence, sans qu’il y ait même de
+                            possibilité intérieure pour qu’elle finisse, s’il n’y a pas accident, et violence, s’il n’y a pas force majeure,
+                            supérieure et extérieure qui vienne l’abolir.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 157</biblScope>)
+                        </bibl>
+                    </cit>
+                    <lbl type="com">Cfr. </lbl><re type="compare">continuité<ref target="continuité"/></re>,
+                    <re type="compare">mutabilité<ref target="mutabilité"/></re>,
+                    <re type="compare">transformation<ref target="transformation"/></re>.
+                    {<xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>}
+                </sense>     
+            </entry>
+
         </body>
     </text>
 
