@@ -3253,6 +3253,84 @@
                 </sense>     
             </entry>
 
+            <entry xml:id="object">
+                <form>
+                    <orth>Mot</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        finalità, scopo di un ambito del sapere
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            C’est lui refuser tout objet propre. On peut seulement
+                            demander à chaque science aspirant à se faire reconnaître d’avoir un objet digne d’une attention sérieuse,
+                            c’est-à-dire un objet qui joue un rôle incontestable dans les choses de l’Univers, où sont comprises avant
+                            tout les choses de l’humanité; et le rang qu’occupera cette science sera proportionné à l’importance de
+                            l’objet dans le grand ensemble des idées
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 144</biblScope>)
+                        </bibl>
+                    </cit>                    
+                    {<xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
+                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente--> 
+                    <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;
+                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>;
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>     
+            </entry>
+
+            <entry xml:id="operation_d_analogie">
+                <form>
+                    <orth>Operation d'analogie</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        <ref type="see" target="#analogie">v. analogie</ref>
+                    </def>];
+                    {<xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente-->}
+                </sense>     
+            </entry>
+
+            <entry xml:id="organique">
+                <form>
+                    <orth>Organique</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml">v. area A</ref>,
+                        criticato in riferimento alle lingue
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            C’est sur ce sujet que j’aurais voulu solliciter
+                            votre attention presque sans autre préambule, car il contient tout: plus on étudie la langue, plus on arrive à
+                            se pénétrer de ce fait que tout dans la langue est histoire, c’est-à-dire qu’elle est un objet d’analyse
+                            historique, et non d’analyse abstraite, qu’elle se compose de faits, et non de lois, que tout ce qui semble
+                            organique dans le langage est en réalité contingent et complètement accidentel.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 149</biblScope>)
+                        </bibl>
+                    </cit>
+                </sense>     
+            </entry>
+
         </body>
     </text>
 
