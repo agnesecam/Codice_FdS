@@ -2888,6 +2888,85 @@
                 </sense>     
             </entry>
 
+            <entry xml:id="mécanique">
+                <form>
+                    <orth>Mécanique</orth>
+                </form>
+                <gramGrp>
+                    adj
+                </gramGrp>
+                <sense n="1">
+                    [<def>
+                        usato nel senso di préhistorique:
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                «Qui se fait sans l’aide de la réflexion ou de la volonté et rappelle ainsi le
+                                fonctionnement d’une machine.» (TLFi)
+                            </quote>
+                            <bibl>
+                                <title>Trésor de la Langue Française Informatisé</title> <!--Va bene?-->
+                            </bibl>
+                        </cit>
+                        qualità peculiare delle operazioni che caratterizzano i
+                        cambiamenti fonetici (<ref type="see" target="#changement_phonetique">v. changement phonetique</ref>)
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Avec ce premier principe venait se combiner le
+                            second, de la continuelle transformation de la langue dans le temps, dépendant elle-même, je le rappelle,
+                            de deux agents distincts, l’un psychologique se concentrant sur l’«opération d’analogie», l’autre
+                            mécanique, physiologique, ayant son expression dans les changements phonétiques. L’un agissant de plus
+                            d’une manière parfaitement indépendante de l’autre, si ce n’est dans quelques cas très spéciaux, très
+                            remarqués, mais véritablement exceptionnels.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 166</biblScope>)
+                        </bibl>
+                    </cit>
+                    {<xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
+                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente--> 
+                    <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS </xr>;
+                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>;                    
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;}                 
+                </sense>     
+            </entry>
+
+            <entry xml:id="mémoire">
+                <form>
+                    <orth>Mémoire</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml">v. area A</ref>
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            L’opération d’analogie est plus vive et plus fertile chez l’enfant, parce que sa
+                            mémoire n’a pas eu le temps encore d’emmagasiner un signe tout à fait pour chaque idée, et qu’il se
+                            trouve bien obligé par conséquent de confectionner lui-même ce signe à chaque instant. Or il le fabriquera
+                            toujours d’après le procédé d’analogie. Il est possible que, si la puissance et la netteté de notre mémoire
+                            étaient infiniment supérieures à ce qu’elles sont, les formations nouvelles par analogie fussent réduites à
+                            presque rien dans la vie du langage
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 161</biblScope>)
+                        </bibl>
+                    </cit>
+                </sense>     
+            </entry>
         </body>
     </text>
 
