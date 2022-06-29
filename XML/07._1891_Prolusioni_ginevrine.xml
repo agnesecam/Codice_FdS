@@ -2690,7 +2690,7 @@
                             </bibl>
                         </cit>
                     </sense>
-                    <lbl>Sin. </lbl><re type="synonym">science du langage<ref target="science_du_langage"/></re>
+                    <lbl type="syn">Sin. </lbl><re type="synonym">science du langage<ref target="science_du_langage"/></re>
                     <xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
                     <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente--> 
                     <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS </xr>;
@@ -2991,6 +2991,44 @@
                             (<biblScope unit="page">p. 161</biblScope>)
                         </bibl>
                     </cit>
+                </sense>     
+            </entry>
+
+            <entry xml:id="mort">
+                <form>
+                    <orth>Mort</orth>
+                </form>
+                <gramGrp>
+                    <pos>n</pos>
+                </gramGrp>
+                <sense n="1">
+                    [<def>
+                        cessazione della vita; criticato, così come tutti i termini che descrivono le lingue in termini biologici;
+                        una lingua può estinguersi solo per cause esterne, l’estinzione dei parlanti
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Non, la langue n’est pas un
+                            organisme, elle n’est pas une végétation qui existe indépendamment de l’homme, elle n’a pas une vie à
+                            elle entraînant une naissance et une mort. Tout est faux dans la phrase que j’ai lue: la langue n’est pas un
+                            être organisé, elle ne meurt pas d’elle-même, elle ne dépérit pas, elle ne croît pas, en ce sens qu’elle n’a
+                            pas plus une enfance qu’un âge mûr ou une vieillesse, et enfin elle ne naît pas comme nous allons le voir.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 154</biblScope>)
+                        </bibl>
+                    </cit>
+                    <lbl type="com">Cfr. </lbl><re type="compare">ancien<ref target="ancien"/></re>,
+                    <re type="compare">naissance de la langue<ref target="naissance de la langue"/></re>,
+                    <re type="compare">organique<ref target="organique"/></re>,
+                    <re type="compare">vieux<ref target="vieux"/></re>,
+                    <re type="compare">vie de la langue<ref target="vie de la langue"/></re>.
                 </sense>     
             </entry>
 
