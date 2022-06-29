@@ -3032,6 +3032,39 @@
                 </sense>     
             </entry>
 
+            <entry xml:id="mot">
+                <form>
+                    <orth>Mot</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        discusso, <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml">v. area A</ref>
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Il y aura un jour un livre spécial et très intéressant à écrire sur le rôle du mot
+                            comme principal perturbateur de la science des mots
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 166</biblScope>)
+                        </bibl>
+                    </cit>                    
+                    <xr type="other_dictionary"> <ref target="04._1878_Mémoire.xml"/>Mem</xr>;
+                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente--> 
+                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>;
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
+                    <xr type="other_dictionary"><ref target="13._1903-1910_Leggende_germaniche.xml"/>LG</xr>;<!--Non trovo il testo corrispondente-->
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>     
+            </entry>
 
         </body>
     </text>
