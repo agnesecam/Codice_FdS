@@ -2761,6 +2761,133 @@
                 </sense>     
             </entry>
 
+            <entry xml:id="logique/logicien">
+                <form>
+                    <orth>Logique</orth>
+                    <orth>Logicien</orth>
+                </form>
+                <sense n="1"> 
+                    [<def>
+                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml">v. area A</ref>
+                        in quanto distinto dalla linguistica
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            c’est qu’en effet l’étude du langage
+                            comme fait humain est tout entier ou presque tout entier contenu dans l’étude des langues. Le
+                            physiologiste, le psychologue et le logicien pourront longtemps disserter, le philosophe pourra reprendre
+                            ensuite les résultats combinés de la logique, de la psychologie et de la physiologie, jamais, je me permets
+                            de le dire, les plus élémentaires phénomènes du langage ne seront soupçonnés, ou clairement aperçus,
+                            classés et compris, si l’on ne recourt en première et dernière instance à l’étude des langues.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 146</biblScope>);
+                        </bibl>
+                    </cit>
+                </sense>
+            </entry>
+
+            <entry xml:id="loi">
+                <form>
+                    <orth>Loi</orth>
+                </form>
+                <sense n="1">
+                    <sense n="a" xml:id="loi1">1. 
+                        [<def>
+                            <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml">v. area A</ref>
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                Si l’étude linguistique de plusieurs langues ou d’une seule reconnaît pour son but final et
+                                principal la vérification et la recherche des lois et des procédés universels du langage, on demande
+                                jusqu’à quel point ces études ont leur place dans une Faculté des Lettres, ou si elles n’auraient pas une
+                                place également convenable dans une Faculté des Sciences?
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page">p. 148</biblScope>)
+                            </bibl>
+                        </cit>
+                        <lbl type="opp">opp. </lbl><re type="opp">fait<ref target="#fait"/></re>
+                    </sense>
+                    <sense n="b" xml:id="loi2">2. 
+                        [<def>
+                            regolarità constatate nei fatti
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                Il vaut la peine de nous arrêter un instant devant ce principe,
+                                élémentaire et essentiel de la continuité ou de l’ininterruption forcée qui est le premier caractère ou la
+                                première loi de la transmission du parler humain, et cela quelles que soient, autour de la langue, les
+                                révolutions et les secousses de tout genre qui peuvent changer toutes les conditions <surplus>[ ]</surplus>.
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page">p. 151</biblScope>)
+                            </bibl>
+                        </cit>
+                        <lbl type="com">Cfr. </lbl><re type="compare">fait<ref target="#fait"/></re>
+                    </sense>
+                    <xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
+                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>;                    
+                    <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS </xr>;
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}                 
+                </sense>     
+            </entry>
+
+            <entry xml:id="matière">
+                <form>
+                    <orth>Matière</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        l’insieme dei fatti che ricadono sotto un ambito del sapere
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Quelle est donc la seconde condition
+                            impliquée par le mot de science historique? C’est que l’objet qui fait la matière de l’histoire - par exemple
+                            l’art, la religion, le costume, etc. - représente, dans un sens quelconque, des actes humains, régis par la
+                            volonté et l’intelligence humaines, - et qui d’ailleurs doivent être tels qu’ils n’intéressent pas seulement
+                            l’individu mais la collectivité.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 150</biblScope>)
+                        </bibl>
+                    </cit>
+                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>;                    
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}                 
+                </sense>     
+            </entry>
+
         </body>
     </text>
 
