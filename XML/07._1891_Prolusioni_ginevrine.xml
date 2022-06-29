@@ -3235,7 +3235,7 @@
                             comprendre que nous pouvons ne donner qu’un seul <oRef>nom</oRef> à toute la période de vingt et un siècles en
                             l’appelant latin - ou bien deux <oRef>noma</oRef> en l’appelant latin et français, - ou bien trois <oRef>noms</oRef> en l’appelant
                             latin, roman, français, - ou bien vingt et un <oRef>noms</oRef> en l’appelant latin du IIe siècle avant l’ère, du Ier siècle
-                            avant l’ère, du Ier siècle après l’ère, du IIe, IIIe, IVe, VIIe, XIIe, XVe, XIXe après l’ère.
+                            avant l’ère, du Ier siècle après l’ère, du <num type="ordinal" value="2">IIe, <num type="ordinal" value="3">IIIe,</num> <num type="ordinal" value="4">IVe</num>, <num type="ordinal" value="7">VIIe</num>, <num type="ordinal" value="12">XIIe</num>, <num type="ordinal" value="15">XVe</num>, <num type="ordinal" value="19">XIXe</num> après l’ère.
                         </quote>
                         <bibl>
                             <title>Écrits de linguistique générale</title>
@@ -3249,7 +3249,6 @@
                     </cit>          
                     {<xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;
                     <xr type="other_dictionary"><ref target="13._1903-1910_Leggende_germaniche.xml"/>LG</xr>}<!--Non trovo il testo corrispondente-->
-                
                 </sense>     
             </entry>
 
