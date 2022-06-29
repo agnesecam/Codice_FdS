@@ -3070,9 +3070,6 @@
                 <form>
                     <orth>Mouvement</orth>
                 </form>
-                <gramGrp>
-                    <pos>n</pos>
-                </gramGrp>
                 <sense n="1">
                     [<def>
                         in riferimento alle lingue, termine adoperato per rimarcare la continua trasformazione a cui è
@@ -3105,6 +3102,42 @@
                     <re type="compare">mutabilité<ref target="mutabilité"/></re>,
                     <re type="compare">transformation<ref target="transformation"/></re>.
                     {<xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>}
+                </sense>     
+            </entry>
+
+            <entry xml:id="mutabilité">
+                <form>
+                    <orth>Mutabilité</orth>
+                </form>
+                <gramGrp>
+                    <pos>n</pos>
+                </gramGrp>
+                <sense n="1">
+                    [<def>
+                        in riferimento alla lingua, il principio della continua trasformazione a cui è sottoposta qualsiasi
+                        lingua,  <lbl type="see">v. </lbl> <ref type="compare" target="#transformation">transformation</ref>
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Ces deux principes de la continuité et de la <oRef>mutabilité</oRef> de la langue, loin d’être
+                            contradictoires, se trouvent dans une corrélation si étroite et si évidente que, aussitôt que nous sommes
+                            tentés de méconnaître l’un, nous faisons injure à l’autre, du même coup, et inévitablement, sans y penser.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 157</biblScope>)
+                        </bibl>
+                    </cit>
+                    <lbl type="opp">Opp. </lbl><re type="opposite">immobilité<ref target="immobilité"/></re>;
+                    <lbl type="opp">Cfr. </lbl><re type="opposite">continuité<ref target="continuité"/></re>;
+                    <re type="opp">mouvement<ref target="mouvement"/></re>,
+                    <re type="opp">transformation<ref target="transformation"/></re>.
+                    {<xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
                 </sense>     
             </entry>
 
