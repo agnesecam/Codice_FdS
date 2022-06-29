@@ -3331,6 +3331,45 @@
                 </sense>     
             </entry>
 
+            <entry xml:id="organisme">
+                <form>
+                    <orth>Organisme</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml">v. area A</ref>,
+                        criticato in riferimento alle lingue];
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Non, la langue n’est pas un organisme, elle n’est
+                            pas une végétation qui existe indépendamment de l’homme, elle n’a pas une vie à elle entraînant une
+                            naissance et une mort. Tout est faux dans la phrase que j’ai lue: la langue n’est pas un être organisé, elle
+                            ne meurt pas d’elle-même, elle ne dépérit pas, elle ne croît pas, en ce sens qu’elle n’a pas plus une
+                            enfance qu’un âge mûr ou une vieillesse, et enfin elle ne naît pas comme nous allons le voir
+                            </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page" from="154">p. 154</biblScope>)
+                        </bibl>
+                    </cit>          
+                    <lbl type="com">Cfr. </lbl><re type="compare">ancien<ref target="#ancien"/></re>,
+                    <re type="compare">mort<ref target="#mort"/></re>,
+                    <re type="compare">naissance de langue<ref target="#naissance_de_langue"/></re>,
+                    <re type="compare">vieux<ref target="#vieux"/></re>,
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>     
+            </entry>
+
+
         </body>
     </text>
 
