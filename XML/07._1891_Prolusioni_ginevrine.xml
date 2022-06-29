@@ -2656,110 +2656,112 @@
                 </sense>
             </entry>
 
-            <entry xml:id="linguistique-N">
-                <form>
-                    <orth>linguistique</orth>
-                </form>
-                <gramGrp>
-                    <pos>n</pos>
-                </gramGrp>
-                <sense n="1">
-                    <sense n="a" xml:id="linguistique">1. 
-                        [<def>
-                            scienza storica che ha per oggetto lo studio delle lingue e del linguaggio
-                        </def>];
-                        <cit type="example">
-                            <quote xml:lang="fr">
-                                Plus on aura dans
-                                un même centre académique de spécialités linguistiques vouées à l’étude d’un certain groupe de langues,
-                                plus aussi l’ensemble de ces études prendront de consistance par leur appui mutuel, et plus on apercevra
-                                les traits généraux de la discipline, qui sont comme brisés et morcelés là où cessent tout à coup
-                                l’information, l’intérêt, et la vie par l’absence de disciples ou de maîtres. Comme linguiste, on sera
-                                certainement porté à souhaiter le développement indéfini des chaires de linguistique (j’avoue toutefois
-                                que ce développement indéfini pourrait avoir des inconvénients inquiétants à la longue pour tout le
-                                monde. 
-                            </quote>
-                            <bibl>
-                                <title>Écrits de linguistique générale</title>
-                                <author>Simon Bouquet</author>
-                                <author>Rudolf Engler</author>
-                                <pubPlace>Paris</pubPlace>
-                                <publisher>Gallimard</publisher>
-                                <date>2002</date>
-                                (<biblScope unit="page">p. 148</biblScope>)
-                            </bibl>
-                        </cit>
-                    </sense>
-                    <lbl type="syn">Sin. </lbl><re type="synonym">science du langage<ref target="science_du_langage"/></re>
-                    <xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
-                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente--> 
-                    <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS </xr>;
-                    <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;
-                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>;
-                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
-                    <xr type="other_dictionary"><ref target="13._1903-1910_Leggende_germaniche.xml"/>LG</xr>;<!--Non trovo il testo corrispondente-->
-                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
-                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
-                </sense>     
-            </entry>
+            <superEntry xml:id="linguistique"
+                <entry xml:id="linguistique-N">
+                    <form>
+                        <orth>linguistique</orth>
+                    </form>
+                    <gramGrp>
+                        <pos>n</pos>
+                    </gramGrp>
+                    <sense n="1">
+                        <sense n="a" xml:id="linguistique">1. 
+                            [<def>
+                                scienza storica che ha per oggetto lo studio delle lingue e del linguaggio
+                            </def>];
+                            <cit type="example">
+                                <quote xml:lang="fr">
+                                    Plus on aura dans
+                                    un même centre académique de spécialités linguistiques vouées à l’étude d’un certain groupe de langues,
+                                    plus aussi l’ensemble de ces études prendront de consistance par leur appui mutuel, et plus on apercevra
+                                    les traits généraux de la discipline, qui sont comme brisés et morcelés là où cessent tout à coup
+                                    l’information, l’intérêt, et la vie par l’absence de disciples ou de maîtres. Comme linguiste, on sera
+                                    certainement porté à souhaiter le développement indéfini des chaires de linguistique (j’avoue toutefois
+                                    que ce développement indéfini pourrait avoir des inconvénients inquiétants à la longue pour tout le
+                                    monde. 
+                                </quote>
+                                <bibl>
+                                    <title>Écrits de linguistique générale</title>
+                                    <author>Simon Bouquet</author>
+                                    <author>Rudolf Engler</author>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Gallimard</publisher>
+                                    <date>2002</date>
+                                    (<biblScope unit="page">p. 148</biblScope>)
+                                </bibl>
+                            </cit>
+                        </sense>
+                        <lbl type="syn">Sin. </lbl><re type="synonym">science du langage<ref target="science_du_langage"/></re>
+                        <xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
+                        <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente--> 
+                        <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS </xr>;
+                        <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;
+                        <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>;
+                        <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
+                        <xr type="other_dictionary"><ref target="13._1903-1910_Leggende_germaniche.xml"/>LG</xr>;<!--Non trovo il testo corrispondente-->
+                        <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                        <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                    </sense>     
+                </entry>
 
-            <entry xml:id="linguistique-A">
-                <form>
-                    <orth>linguistique</orth>
-                </form>
-                <gramGrp>
-                    <pos>adj</pos>
-                </gramGrp>
-                <sense n="1">
-                    <sense n="a" xml:id="linguistique-A1">1. 
-                        [<def>
-                            relativo alle lingue e al linguaggio
-                        </def>];
-                        <cit type="example">
-                            <quote xml:lang="fr">
-                                Les faits linguistiques peuvent-ils passer
-                                pour être le résultat d’actes de notre volonté? Telle est donc la question. La science du langage, actuelle, y
-                                répond affirmativement. Seulement il faut ajouter aussitôt qu’il y a beaucoup de degrés connus, comme
-                                nous savons, dans la volonté consciente ou inconsciente; or, de tous les actes qu’on pourrait mettre en
-                                parallèle, l’acte linguistique, si je puis le nommer ainsi, a ce caractère [d’être] le moins réfléchi, le moins
-                                prémédité, en même temps que le plus impersonnel de tous. Il y a là une différence de degré, qui va si
-                                loin qu’elle a longtemps donné l’illusion d’une différence essentielle, mais qui n’est en réalité qu’une
-                                différence de degrés. 
-                            </quote>
-                            <bibl>
-                                <title>Écrits de linguistique générale</title>
-                                <author>Simon Bouquet</author>
-                                <author>Rudolf Engler</author>
-                                <pubPlace>Paris</pubPlace>
-                                <publisher>Gallimard</publisher>
-                                <date>2002</date>
-                                (<biblScope unit="page">p. 150</biblScope>)
-                            </bibl>
-                        </cit>
-                    </sense>
-                    <sense n="b" xml:id="linguistique-A2">2. 
-                        [<def>
-                            relativo alla linguistica
-                        </def>];
-                        <cit type="example">
-                            <quote xml:lang="fr">
-                                C’est de cette qualité de science historique que se réclamera toute espèce
-                                d’études linguistiques pour figurer dans une Faculté des Lettres
-                            </quote>
-                            <bibl>
-                                <title>Écrits de linguistique générale</title>
-                                <author>Simon Bouquet</author>
-                                <author>Rudolf Engler</author>
-                                <pubPlace>Paris</pubPlace>
-                                <publisher>Gallimard</publisher>
-                                <date>2002</date>
-                                (<biblScope unit="page">p. 149</biblScope>)
-                            </bibl>
-                        </cit>
-                    </sense>                
-                </sense>     
-            </entry>
+                <entry xml:id="linguistique-A">
+                    <form>
+                        <orth>linguistique</orth>
+                    </form>
+                    <gramGrp>
+                        <pos>adj</pos>
+                    </gramGrp>
+                    <sense n="1">
+                        <sense n="a" xml:id="linguistique-A1">1. 
+                            [<def>
+                                relativo alle lingue e al linguaggio
+                            </def>];
+                            <cit type="example">
+                                <quote xml:lang="fr">
+                                    Les faits linguistiques peuvent-ils passer
+                                    pour être le résultat d’actes de notre volonté? Telle est donc la question. La science du langage, actuelle, y
+                                    répond affirmativement. Seulement il faut ajouter aussitôt qu’il y a beaucoup de degrés connus, comme
+                                    nous savons, dans la volonté consciente ou inconsciente; or, de tous les actes qu’on pourrait mettre en
+                                    parallèle, l’acte linguistique, si je puis le nommer ainsi, a ce caractère [d’être] le moins réfléchi, le moins
+                                    prémédité, en même temps que le plus impersonnel de tous. Il y a là une différence de degré, qui va si
+                                    loin qu’elle a longtemps donné l’illusion d’une différence essentielle, mais qui n’est en réalité qu’une
+                                    différence de degrés. 
+                                </quote>
+                                <bibl>
+                                    <title>Écrits de linguistique générale</title>
+                                    <author>Simon Bouquet</author>
+                                    <author>Rudolf Engler</author>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Gallimard</publisher>
+                                    <date>2002</date>
+                                    (<biblScope unit="page">p. 150</biblScope>)
+                                </bibl>
+                            </cit>
+                        </sense>
+                        <sense n="b" xml:id="linguistique-A2">2. 
+                            [<def>
+                                relativo alla linguistica
+                            </def>];
+                            <cit type="example">
+                                <quote xml:lang="fr">
+                                    C’est de cette qualité de science historique que se réclamera toute espèce
+                                    d’études linguistiques pour figurer dans une Faculté des Lettres
+                                </quote>
+                                <bibl>
+                                    <title>Écrits de linguistique générale</title>
+                                    <author>Simon Bouquet</author>
+                                    <author>Rudolf Engler</author>
+                                    <pubPlace>Paris</pubPlace>
+                                    <publisher>Gallimard</publisher>
+                                    <date>2002</date>
+                                    (<biblScope unit="page">p. 149</biblScope>)
+                                </bibl>
+                            </cit>
+                        </sense>                
+                    </sense>     
+                </entry>
+            </superEntry>
 
             <entry xml:id="logique/logicien">
                 <form>
