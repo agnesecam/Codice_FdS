@@ -3172,6 +3172,44 @@
                 </sense>     
             </entry>
 
+            <entry xml:id="naissance_de_la_langue">
+                <form>
+                    <orth>Naissance de la langue</orth>
+                </form>
+                <gramGrp>
+                    <pos>n</pos>
+                </gramGrp>
+                <sense n="1">
+                    [<def>
+                        criticato, così come tutti i termini che descrivono le lingue in termini biologici
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Il
+                            n’y a donc eu aucun jour où on ait pu dresser l’acte de décès de la langue latine, et il n’y a eu également
+                            aucun jour où on ait pu enregistrer la <oRef>naissance de la langue</oRef> française. Il n’est jamais arrivé que les gens
+                            de France se soient réveillés, en se disant bonjour en français, après s’être endormis la veille en se disant
+                            bonne nuit en latin.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 152</biblScope>)
+                        </bibl>
+                    </cit>
+                    <lbl type="com">Cfr. </lbl><re type="compare">ancien<ref target="ancien"/></re>;
+                    <re type="compare">mort<ref target="mort"/></re>,
+                    <re type="compare">organique<ref target="organique"/></re>,
+                    <re type="compare">continuité<ref target="continuité"/></re>,
+                    <re type="compare">vie de la langue<ref target="vie de la langue"/></re>.
+                    {<xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>     
+            </entry>
+
         </body>
     </text>
 
