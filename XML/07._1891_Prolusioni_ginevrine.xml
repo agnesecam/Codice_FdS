@@ -2656,41 +2656,39 @@
                 </sense>
             </entry>
 
-            <superEntry xml:id="linguistique"
+            <superEntry xml:id="linguistique">
                 <entry xml:id="linguistique-N">
                     <form>
                         <orth>linguistique</orth>
                     </form>
                     <gramGrp>
                         <pos>n</pos>
-                    </gramGrp>
+                    </gramGrp>                    
                     <sense n="1">
-                        <sense n="a" xml:id="linguistique">1. 
-                            [<def>
-                                scienza storica che ha per oggetto lo studio delle lingue e del linguaggio
-                            </def>];
-                            <cit type="example">
-                                <quote xml:lang="fr">
-                                    Plus on aura dans
-                                    un même centre académique de spécialités linguistiques vouées à l’étude d’un certain groupe de langues,
-                                    plus aussi l’ensemble de ces études prendront de consistance par leur appui mutuel, et plus on apercevra
-                                    les traits généraux de la discipline, qui sont comme brisés et morcelés là où cessent tout à coup
-                                    l’information, l’intérêt, et la vie par l’absence de disciples ou de maîtres. Comme linguiste, on sera
-                                    certainement porté à souhaiter le développement indéfini des chaires de linguistique (j’avoue toutefois
-                                    que ce développement indéfini pourrait avoir des inconvénients inquiétants à la longue pour tout le
-                                    monde. 
-                                </quote>
-                                <bibl>
-                                    <title>Écrits de linguistique générale</title>
-                                    <author>Simon Bouquet</author>
-                                    <author>Rudolf Engler</author>
-                                    <pubPlace>Paris</pubPlace>
-                                    <publisher>Gallimard</publisher>
-                                    <date>2002</date>
-                                    (<biblScope unit="page">p. 148</biblScope>)
-                                </bibl>
-                            </cit>
-                        </sense>
+                        [<def>
+                            scienza storica che ha per oggetto lo studio delle lingue e del linguaggio
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                Plus on aura dans
+                                un même centre académique de spécialités linguistiques vouées à l’étude d’un certain groupe de langues,
+                                plus aussi l’ensemble de ces études prendront de consistance par leur appui mutuel, et plus on apercevra
+                                les traits généraux de la discipline, qui sont comme brisés et morcelés là où cessent tout à coup
+                                l’information, l’intérêt, et la vie par l’absence de disciples ou de maîtres. Comme linguiste, on sera
+                                certainement porté à souhaiter le développement indéfini des chaires de linguistique (j’avoue toutefois
+                                que ce développement indéfini pourrait avoir des inconvénients inquiétants à la longue pour tout le
+                                monde. 
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page">p. 148</biblScope>)
+                            </bibl>
+                        </cit>
                         <lbl type="syn">Sin. </lbl><re type="synonym">science du langage<ref target="science_du_langage"/></re>
                         <xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
                         <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente--> 
@@ -2713,7 +2711,7 @@
                         <pos>adj</pos>
                     </gramGrp>
                     <sense n="1">
-                        <sense n="a" xml:id="linguistique-A1">1. 
+                        <sense n="a" xml:id="linguistique-A1">1
                             [<def>
                                 relativo alle lingue e al linguaggio
                             </def>];
@@ -2763,37 +2761,68 @@
                 </entry>
             </superEntry>
 
-            <entry xml:id="logique/logicien">
-                <form>
-                    <orth>Logique</orth>
-                    <orth>Logicien</orth>
-                </form>
-                <sense n="1"> 
-                    [<def>
-                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml">v. area A</ref>
-                        in quanto distinto dalla linguistica
-                    </def>];
-                    <cit type="example">
-                        <quote xml:lang="fr">
-                            c’est qu’en effet l’étude du langage
-                            comme fait humain est tout entier ou presque tout entier contenu dans l’étude des langues. Le
-                            physiologiste, le psychologue et le logicien pourront longtemps disserter, le philosophe pourra reprendre
-                            ensuite les résultats combinés de la logique, de la psychologie et de la physiologie, jamais, je me permets
-                            de le dire, les plus élémentaires phénomènes du langage ne seront soupçonnés, ou clairement aperçus,
-                            classés et compris, si l’on ne recourt en première et dernière instance à l’étude des langues.
-                        </quote>
-                        <bibl>
-                            <title>Écrits de linguistique générale</title>
-                            <author>Simon Bouquet</author>
-                            <author>Rudolf Engler</author>
-                            <pubPlace>Paris</pubPlace>
-                            <publisher>Gallimard</publisher>
-                            <date>2002</date>
-                            (<biblScope unit="page">p. 146</biblScope>);
-                        </bibl>
-                    </cit>
-                </sense>
-            </entry>
+            <superEntry xml:id="logique-logicien">
+                <entry xml:id="logique">
+                    <form>
+                        <orth>Logique</orth>
+                    </form>
+                    <sense n="1"> 
+                        [<def>
+                            <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml">v. area A</ref>
+                            in quanto distinto dalla linguistica
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                c’est qu’en effet l’étude du langage
+                                comme fait humain est tout entier ou presque tout entier contenu dans l’étude des langues. Le
+                                physiologiste, le psychologue et le logicien pourront longtemps disserter, le philosophe pourra reprendre
+                                ensuite les résultats combinés de la logique, de la psychologie et de la physiologie, jamais, je me permets
+                                de le dire, les plus élémentaires phénomènes du langage ne seront soupçonnés, ou clairement aperçus,
+                                classés et compris, si l’on ne recourt en première et dernière instance à l’étude des langues.
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page">p. 146</biblScope>);
+                            </bibl>
+                        </cit>
+                    </sense>
+                </entry>
+                <entry xml:id="logicien">
+                    <form>
+                        <orth>Logicien</orth>
+                    </form>
+                    <sense n="1"> 
+                        [<def>
+                            <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml">v. area A</ref>
+                            in quanto distinto dalla linguistica
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                c’est qu’en effet l’étude du langage
+                                comme fait humain est tout entier ou presque tout entier contenu dans l’étude des langues. Le
+                                physiologiste, le psychologue et le logicien pourront longtemps disserter, le philosophe pourra reprendre
+                                ensuite les résultats combinés de la logique, de la psychologie et de la physiologie, jamais, je me permets
+                                de le dire, les plus élémentaires phénomènes du langage ne seront soupçonnés, ou clairement aperçus,
+                                classés et compris, si l’on ne recourt en première et dernière instance à l’étude des langues.
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page">p. 146</biblScope>);
+                            </bibl>
+                        </cit>
+                    </sense>
+                </entry>
+            </superEntry>
 
             <entry xml:id="loi">
                 <form>
@@ -3075,13 +3104,13 @@
                 <sense n="1">
                     [<def>
                         in riferimento alle lingue, termine adoperato per rimarcare la continua trasformazione a cui è
-                        sottoposta qualsiasi lingua, <lbl type="see">v. </lbl> <ref type="compare" target="#transformation">transformation</ref>
+                        sottoposta qualsiasi lingua, <ref type="see" target="#transformation">v. transformation</ref>
                     </def>];
                     <cit type="example">
                         <quote xml:lang="fr">
                             Nous arrivons ainsi au second principe, de valeur
                             universelle comme le premier, dont la possession peut faire connaître ce qu’est l’histoire des langues:
-                            c’est le point de vue du <oFef>mouvement</oRef> de la langue dans le temps, mais d’un <oFef>mouvement</oRef> qui à aucun
+                            c’est le point de vue du <oRef>mouvement</oRef> de la langue dans le temps, mais d’un <oRef>mouvement</oRef> qui à aucun
                             moment, car tout est là, n’arrive à être en conflit avec le premier principe de l’unité de la langue dans le
                             temps. Il y a transformation, et toujours et encore transformation, mais il n’y a nulle part reproduction ou
                             production d’un être linguistique nouveau, ayant une existence distincte de ce qui l’a précédé et de ce qui
@@ -3117,7 +3146,7 @@
                 <sense n="1">
                     [<def>
                         in riferimento alla lingua, il principio della continua trasformazione a cui è sottoposta qualsiasi
-                        lingua,  <lbl type="see">v. </lbl> <ref type="compare" target="#transformation">transformation</ref>
+                        lingua, <ref type="see" target="#transformation">v. transformation</ref>
                     </def>];
                     <cit type="example">
                         <quote xml:lang="fr">
