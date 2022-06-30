@@ -3338,7 +3338,7 @@
                 <sense n="1">
                     [<def>
                         <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml">v. area A</ref>,
-                        criticato in riferimento alle lingue];
+                        criticato in riferimento alle lingue
                     </def>];
                     <cit type="example">
                         <quote xml:lang="fr">
@@ -3369,6 +3369,133 @@
                 </sense>     
             </entry>
 
+            <entry xml:id="origine_du_langage">
+                <form>
+                    <orth>Origine du langage</orth>
+                </form>
+                <sense n="1">
+                    <sense n="a" xml:id="origine_du_langage1">1. 
+                        [<def>
+                            criticato; questione concernente le circostanze e le condizioni che hanno
+                            determinanto la comparsa del linguaggio, la critica è operata sulla base della continuità delle lingue
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                L’étude du langage croit dès à présent pouvoir affirmer qu’en effet l’essence de ces phénomènes,
+                                premièrement, se retrouve partout la même, et, deuxièmement, qu’elle a toujours été la même, de sorte
+                                que c’est une idée très fausse que de croire que le problème de l’origine du langage soit un autre problème
+                                que celui de ses transformations. Ce serait un autre problème si l’on supposait que d’autres forces ont agi
+                                autrefois dans le langage, dont nous ne pouvons nous faire aucune idée d’après ce qui se passe
+                                aujourd’hui quand nous parlons, mais cette supposition est aussi arbitraire qu’invraisemblable; elle
+                                revient à attribuer à l’humanité primitive des facultés ou des sens essentiellement différents de ceux que
+                                nous possédons;
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page">p. 159</biblScope>)
+                            </bibl>
+                        </cit>
+                        <lbl type="com">cfr. </lbl><re type="compare">naissance du langue<ref target="#naissance_du_langue"/></re>,
+                        <re type="compare">vie de la langue<ref target="#vie_de_la_langue"/></re>
+                    </sense>
+                    <sense n="b" xml:id="origine_du_langage2">2. 
+                        [<def>
+                            prima comparsa del linguaggio umano dal punto di vista del tempo storico
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                Toutes les langues se
+                                parlant à la même époque sont de même âge; en ce sens qu’elles remontent à un passé égal. Il n’est pas
+                                nécessaire de déterminer la longueur de ce passé. Si l’on veut, c’est l’origine du langage, mais sans
+                                remonter aux périodes inaccessibles.
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page">p. 155</biblScope>)
+                            </bibl>
+                        </cit>
+                    </sense>
+                    {<xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;
+                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente-->
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}                 
+                </sense>     
+            </entry>
+
+            <entry xml:id="parler_humain">
+                <form>
+                    <orth>Parler humain</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        <ref type="see" target="#langage1">v. langage1</ref>
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            L’Université de Genève a tenu dès le premier jour, et à bon droit, à donner
+                            une place à la science du langage; elle l’a fait en créant le cours de Linguistique et a résumé ainsi sous un
+                            nom très juste l’ensemble des études relatives au parler humain;
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 147</biblScope>)
+                        </bibl>
+                    </cit>
+                    <lbl type="com">Cfr. </lbl><re type="compare">langage1<ref target="#langage1"/></re>
+                    {<xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;}
+                </sense>     
+            </entry>
+
+            <entry xml:id="parole">
+                <form>
+                    <orth>Parole</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        discusso, <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml">v. area A</ref>
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            À supposer même que l’exercice de la parole constituât chez l’homme une
+                            fonction naturelle, ce qui est le point de vue éminemment faux où se placent certaines écoles
+                            d’anthropologistes et de linguistes, il faudrait encore absolument soutenir que l’exercice de cette fonction
+                            n’est abordable pour la science que par le côté de la langue ou par le côté des langues existantes.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 146</biblScope>)
+                        </bibl>
+                    </cit>                    
+                    {<xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
+                    <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS </xr>;                                        
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>     
+            </entry>
 
         </body>
     </text>
