@@ -1718,7 +1718,7 @@
                             (<biblScope unit="page">p. 158</biblScope>);
                         </bibl>
                     </cit>
-                    <xr type="other_dictionary"> <ref target="03._1874_Saggio_giovanile.xml"/>Essai</xr>;
+                    {<xr type="other_dictionary"> <ref target="03._1874_Saggio_giovanile.xml"/>Essai</xr>;
                     <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente-->
                     <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;
                     <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
@@ -3494,6 +3494,54 @@
                     <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
                     <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
                     <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>     
+            </entry>
+
+            <entry xml:id="phénomène">
+                <form>
+                    <orth>Phénomène</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml">v. area A</ref>,
+                        in riferimento agli aspetti e alle caratteristiche delle lingue
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            On arrivera donc enfin
+                            à comprendre que l’aire géographique des phénomènes peut parfaitement, elle, être tracée sur la carte,
+                            mais qu’entreprendre de distinguer des unités dialectales est absolument chimérique et vain. Chaque
+                            région se trouve placée sur le parcours d’un certain nombre de phénomènes linguistiques, lesquels ont
+                            chacun leurs parcours déterminés; la somme des caractères qui résulte pour chaque région de la
+                            superposition accidentelle de tel et tel phénomène est ce qui constitue, si l’on veut, le dialecte de cette
+                            région.
+                            </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page" from="154">p. 171</biblScope>)
+                        </bibl>
+                    </cit>                          
+                    {<xr type="other_dictionary"> <ref target="03._1874_Saggio_giovanile.xml"/>Essai</xr>;
+                    <xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>     
+            </entry>
+
+            <entry xml:id="phénomène_d_analogie">
+                <form>
+                    <orth>Phénomène d'analogie</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        <ref type="see" target="#analogie">v. analogie</ref>,                
+                    </def>];
                 </sense>     
             </entry>
 
