@@ -3523,7 +3523,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page" from="154">p. 171</biblScope>)
+                            (<biblScope unit="page">p. 171</biblScope>)
                         </bibl>
                     </cit>                          
                     {<xr type="other_dictionary"> <ref target="03._1874_Saggio_giovanile.xml"/>Essai</xr>;
@@ -3542,6 +3542,39 @@
                     [<def>
                         <ref type="see" target="#analogie">v. analogie</ref>,                
                     </def>];
+                </sense>     
+            </entry>
+
+            <entry xml:id="philosophe">
+                <form>
+                    <orth>Philosophe</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml">v. area A</ref>,
+                        iin quanto distinto dalla linguistica
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Le physiologiste, le psychologue et le logicien
+                            pourront longtemps disserter, le philosophe pourra reprendre ensuite les résultats combinés de la logique,
+                            de la psychologie et de la physiologie, jamais, je me permets de le dire, les plus élémentaires phénomènes
+                            du langage ne seront soupçonnés, ou clairement aperçus, classés et compris, si l’on ne recourt en première
+                            et dernière instance à l’étude des langues. 
+                            </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 146</biblScope>)
+                        </bibl>
+                    </cit>                          
+                    {<xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;
+                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>;
+                    <xr type="other_dictionary"> <ref target="13._1903-1910_Leggende_germaniche.xml"/>LG</xr><!--Non trovo il testo corrispondente-->}
                 </sense>     
             </entry>
 
