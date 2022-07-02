@@ -3469,7 +3469,7 @@
                 </form>
                 <sense n="1">
                     [<def>
-                        discusso, <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml">v. area A</ref>
+                        discusso, <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml">v. area B</ref>
                     </def>];
                     <cit type="example">
                         <quote xml:lang="fr">
@@ -3552,7 +3552,7 @@
                 <sense n="1">
                     [<def>
                         <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml">v. area A</ref>,
-                        iin quanto distinto dalla linguistica
+                        in quanto distinto dalla linguistica
                     </def>];
                     <cit type="example">
                         <quote xml:lang="fr">
@@ -3575,6 +3575,62 @@
                     {<xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;
                     <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>;
                     <xr type="other_dictionary"> <ref target="13._1903-1910_Leggende_germaniche.xml"/>LG</xr><!--Non trovo il testo corrispondente-->}
+                </sense>     
+            </entry>
+
+            <entry xml:id="phonétique">
+                <form>
+                    <orth>Phonétique</orth>
+                </form>
+                <gramGrp>adj</gramGrp>
+                <sense n="1">
+                    [<def>
+                        agg. relativo ai suoni delle lingue, usato esclusivamente in relazione ai cambiamenti fonetici
+                        (<ref type="see" target="#changement_phonetique">v. changement phonétique</ref>)
+                    {<xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
+                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente--> 
+                    <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;
+                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>;
+                    <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS </xr>;                                        
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes item</xr>;
+                    <xr type="other_dictionary"> <ref target="13._1903-1910_Leggende_germaniche.xml"/>LG</xr><!--Non trovo il testo corrispondente-->}
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>     
+            </entry>
+
+            <entry xml:id="phonografier">
+                <form>
+                    <orth>Phonografier</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml">v. area A</ref>,
+                        la registrazione del parlato mediante fonografo può essere utilizzata al fine di
+                        mostrare la continuità e discontinuità nel tempo della lingua
+                        (<ref type="see" target="#changement_phonetique">v. changement phonétique</ref>)
+                    </def>]; 
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            si l’on avait pu non pas photographier mais
+                            phonographier au jour le jour dès l’origine tout ce qui a été exprimé en parole sur le globe ou sur une
+                            partie du globe, on aurait des images de langue toujours ressemblantes d’un jour à l’autre, mais
+                            considérablement différentes et parfois incalculablement différentes de 500 ans en 500 ans, ou même de
+                            100 ans à 100 ans. 
+                            </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 157</biblScope>)
+                        </bibl>
+                    </cit>            
+                    <lbl type="com">Cfr. </lbl><re type="compare"> photographe<ref target="#photographe"/></re>
+                    <re type="compare"> photographie<ref target="#photographie"/></re>
                 </sense>     
             </entry>
 
