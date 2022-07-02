@@ -3212,7 +3212,7 @@
 
             <entry xml:id="nom">
                 <form>
-                    <orth><oRef></o</oRef>rth>
+                    <orth><oRef></oRef></orth>
                 </form>
                 <sense n="1">
                     [<def>
@@ -3236,7 +3236,7 @@
                             comprendre que nous pouvons ne donner qu’un seul <oRef>nom</oRef> à toute la période de vingt et un siècles en
                             l’appelant latin - ou bien deux <oRef>noma</oRef> en l’appelant latin et français, - ou bien trois <oRef>noms</oRef> en l’appelant
                             latin, roman, français, - ou bien vingt et un <oRef>noms</oRef> en l’appelant latin du IIe siècle avant l’ère, du Ier siècle
-                            avant l’ère, du Ier siècle après l’ère, du <num type="ordinal" value="2">IIe, <num type="ordinal" value="3">IIIe,</num> <num type="ordinal" value="4">IVe</num>, <num type="ordinal" value="7">VIIe</num>, <num type="ordinal" value="12">XIIe</num>, <num type="ordinal" value="15">XVe</num>, <num type="ordinal" value="19">XIXe</num> après l’ère.
+                            avant l’ère, du Ier siècle après l’ère, du <num type="ordinal" value="2">IIe</num>, <num type="ordinal" value="3">IIIe,</num> <num type="ordinal" value="4">IVe</num>, <num type="ordinal" value="7">VIIe</num>, <num type="ordinal" value="12">XIIe</num>, <num type="ordinal" value="15">XVe</num>, <num type="ordinal" value="19">XIXe</num> après l’ère.
                         </quote>
                         <bibl>
                             <title>Écrits de linguistique générale</title>
@@ -3587,6 +3587,7 @@
                     [<def>
                         agg. relativo ai suoni delle lingue, usato esclusivamente in relazione ai cambiamenti fonetici
                         (<ref type="see" target="#changement_phonetique">v. changement phonétique</ref>)
+                    </def>];
                     {<xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
                     <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente--> 
                     <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;
@@ -3631,6 +3632,71 @@
                     </cit>            
                     <lbl type="com">Cfr. </lbl><re type="compare"> photographe<ref target="#photographe"/></re>
                     <re type="compare"> photographie<ref target="#photographie"/></re>
+                </sense>     
+            </entry>
+
+            <entry xml:id="photographe">
+                <form>
+                    <orth>Photographe</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml">v. area A</ref>,
+                        Depuis vingt ans avec une régularité admirable, le premier et le quinze de chaque
+                        mois, cet homme dévoué à la science se rendait chez son photographe, et il se trouvait maintenant en état
+                        de faire profiter le public du fruit accumulé de ses labeurs
+                        (<ref type="see" target="#changement_phonetique">v. changement phonétique</ref>)
+                    </def>]; 
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            si l’on avait pu non pas photographier mais
+                            phonographier au jour le jour dès l’origine tout ce qui a été exprimé en parole sur le globe ou sur une
+                            partie du globe, on aurait des images de langue toujours ressemblantes d’un jour à l’autre, mais
+                            considérablement différentes et parfois incalculablement différentes de 500 ans en 500 ans, ou même de
+                            100 ans à 100 ans. 
+                            </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 156</biblScope>)
+                        </bibl>
+                    </cit>                                
+                    <lbl type="com">Cfr. </lbl><re type="compare">photographier<ref target="#photographier"/></re>
+                    <re type="compare"> photographie<ref target="#photographie"/></re>
+                </sense>     
+            </entry>
+
+            <entry xml:id="photographie">
+                <form>
+                    <orth>Photographie</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml">v. area A</ref>, accezione 1
+                    </def>]; 
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Je n’ai pas besoin de vous dire que, si dans cette exposition on
+                            prenait sur la paroi deux photographies contiguës quelconques, on avait le même Boguslawski, mais que
+                            si l’on prenait le n°480 et le n°l on avait deux Boguslawski. 
+                            </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 156-157</biblScope>)
+                        </bibl>
+                    </cit>                                
+                    <lbl type="com">Cfr. </lbl><re type="compare">photographier<ref target="#photographier"/></re>,
+                    <re type="compare"> photographie<ref target="#photographie"/></re>;
+                    Attestato anche come <term xml:id="portrait_photografique">portrait photografique</term>;
                 </sense>     
             </entry>
 
