@@ -758,7 +758,7 @@
                 </sense>
             </entry>
 
-            <entry xml:id="#contradictoire">
+            <entry xml:id="contradictoire">
                 <form>
                     <orth>Contradictoire</orth>
                 </form>
@@ -821,7 +821,7 @@
                 </sense>
             </entry>
 
-            <entry xml:id="#corrélation">
+            <entry xml:id="corrélation">
                 <form>
                     <orth>Corrélation</orth>
                 </form>
@@ -2922,7 +2922,7 @@
                 </sense>     
             </entry>
 
-            <entry xml:id="#mécanique">
+            <entry xml:id="mécanique">
                 <form>
                     <orth>Mécanique</orth>
                 </form>
@@ -3702,6 +3702,75 @@
                     Attestato anche come <term xml:id="portrait_photografique">portrait photografique</term>;
                 </sense>     
             </entry>
+
+            <superEntry xml:id="physiologie-physiologiste">
+                <entry xml:id="physiologie">
+                    <form>
+                        <orth>Physiologie</orth>
+                    </form>
+                    <sense n="1"> 
+                        [<def>
+                            discusso in relazione alla linguistica e distinta da quest’ultima, <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#logique">v. area A</ref>
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                Le
+                                physiologiste, le psychologue et le logicien pourront longtemps disserter, le philosophe pourra reprendre
+                                ensuite les résultats combinés de la logique, de la psychologie et de la physiologie, jamais, je me permets
+                                de le dire, les plus élémentaires phénomènes du langage ne seront soupçonnés, ou clairement aperçus,
+                                classés et compris, si l’on ne recourt en première et dernière instance à l’étude des langues. 
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page">p. 146</biblScope>);
+                            </bibl>
+                        </cit>
+                        {<xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
+                        <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente--> 
+                        <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS </xr>;                                        
+                        <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;}
+                    </sense>
+                </entry>
+                <entry xml:id="physiologiste">
+                    <form>
+                        <orth>Physiologiste</orth>
+                    </form>
+                    <sense n="1"> 
+                        [<def>
+                            discusso in relazione alla linguistica e distinta da quest’ultima, <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#logique">v. area A</ref>
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                Le
+                                physiologiste, le psychologue et le logicien pourront longtemps disserter, le philosophe pourra reprendre
+                                ensuite les résultats combinés de la logique, de la psychologie et de la physiologie, jamais, je me permets
+                                de le dire, les plus élémentaires phénomènes du langage ne seront soupçonnés, ou clairement aperçus,
+                                classés et compris, si l’on ne recourt en première et dernière instance à l’étude des langues. 
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page">p. 146</biblScope>);
+                            </bibl>
+                        </cit>
+                        {<xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
+                        <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente--> 
+                        <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS </xr>;                                        
+                        <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;}
+                    </sense>
+                </entry>
+            </superEntry>
 
         </body>
     </text>
