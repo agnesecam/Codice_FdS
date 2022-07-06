@@ -3694,7 +3694,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 156-157</biblScope>)
+                            (<biblScope unit="page" from="156" to="157">p. 156-157</biblScope>)
                         </bibl>
                     </cit>                                
                     <lbl type="com">Cfr. </lbl><re type="compare">photographier<ref target="#photographier"/></re>,
@@ -3771,6 +3771,74 @@
                     </sense>
                 </entry>
             </superEntry>
+
+            <entry xml:id="physiologique">
+                <form>
+                    <orth>Physiologique</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#physiologique2">v. area A</ref>, accezione 2
+                    </def>]; 
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Avec ce premier principe venait se combiner le second, de la
+                            continuelle transformation de la langue dans le temps, dépendant elle-même, je le rappelle, de deux
+                            agents distincts, l’un psychologique se concentrant sur l’«opération d’analogie», l’autre mécanique,
+                            physiologique, ayant son expression dans les changements phonétiques. L’un agissant de plus d’une
+                            manière parfaitement indépendante de l’autre, si ce n’est dans quelques cas très spéciaux, très remarqués,
+                            mais véritablement exceptionnels. 
+                            </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 166</biblScope>)
+                        </bibl>
+                    </cit>                                
+                    {<xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
+                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente--> 
+                    <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS </xr>;                                        
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;}
+                </sense>     
+            </entry>
+
+        <superEntry>
+            <entry xml:id="physique">
+                <form>
+                    <orth>Physique</orth>
+                </form>
+                <gramGrp>n</gramGrp>
+                <sense n="1">
+                    [<def>
+                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#physiologique2">v. area A</ref>, accezione 1
+                    </def>];
+                    <ref target="#science_physique">v. science physique</ref>                              
+                </sense>     
+            </entry>
+            <entry xml:id="physique">
+                <form>
+                    <orth>Physique</orth>
+                </form>
+                <gramGrp>n</gramGrp>
+                <sense n="1">
+                    [<def>
+                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#physiologique2">v. area A</ref>, accezione 1
+                    </def>];
+                    <ref target="#science_physique">v. science physique</ref>                              
+                    {<xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
+                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente--> 
+                    <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS </xr>;                                        
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;}
+                </sense>     
+            </entry>
+        <superEntry>
+<!--FINISCI-->
 
         </body>
     </text>
