@@ -3906,12 +3906,74 @@
                 </form>
                 <sense n="1">
                     [<def>
-                        <ref target="#changement_phonetique">v. changement phonétique</ref>
-                    </def>];
-                
+                        <ref target="#analogie">v. analogie</ref>
+                    </def>];                
                     {<xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>}
                 </sense>     
             </entry>
+
+            <superEntry xml:id="psychologie-psychologue">
+                <entry xml:id="psychologie">
+                    <form>
+                        <orth>Psychologie</orth>
+                    </form>
+                    <sense n="1"> 
+                        [<def>
+                            discusso e distinto dalla linguistica, <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#psychologie">v. area A</ref>
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                je passerais ensuite, et ceci nous
+                                rapprocherait déjà davantage de l’objet vrai, à tout ce que la psychologie est probablement appelée à
+                                recueillir prochainement de l’étude du langage; mais après cela, ou avant cela, je vous poserais plutôt
+                                cette simple question  
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page">p. 144</biblScope>);
+                            </bibl>
+                        </cit>
+                        {<xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                        <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                    </sense>
+                </entry>
+                <entry xml:id="psychologue">
+                    <form>
+                        <orth>Psychologue</orth>
+                    </form>
+                    <sense n="1"> 
+                        [<def>
+                            discusso e distinto dalla linguistica, <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#psychologie">v. area A</ref>
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                je passerais ensuite, et ceci nous
+                                rapprocherait déjà davantage de l’objet vrai, à tout ce que la psychologie est probablement appelée à
+                                recueillir prochainement de l’étude du langage; mais après cela, ou avant cela, je vous poserais plutôt
+                                cette simple question  
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page">p. 144</biblScope>);
+                            </bibl>
+                        </cit>
+                        {<xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                        <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                    </sense>
+                </entry>
+            </superEntry>
 
         </body>
     </text>
