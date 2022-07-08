@@ -3900,6 +3900,19 @@
                 </sense>     
             </entry>
 
+            <entry xml:id="procédé-analogique">
+                <form>
+                    <orth>Procédé analogique</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        <ref target="#changement_phonetique">v. changement phonétique</ref>
+                    </def>];
+                
+                    {<xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>}
+                </sense>     
+            </entry>
+
         </body>
     </text>
 
