@@ -3807,38 +3807,98 @@
                 </sense>     
             </entry>
 
-        <superEntry>
-            <entry xml:id="physique">
+            <superEntry>
+                <entry xml:id="physique-n">
+                    <form>
+                        <orth>Physique</orth>
+                    </form>
+                    <gramGrp>n</gramGrp>
+                    <sense n="1">
+                        [<def>
+                            <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#physiologique2">v. area A</ref>, accezione 1
+                        </def>];
+                        <ref target="#science_physique">v. science physique</ref>                              
+                    </sense>     
+                </entry>
+                <entry xml:id="physique-a">
+                    <form>
+                        <orth>Physique</orth>
+                    </form>
+                    <gramGrp>adj</gramGrp>
+                    <sense n="1">
+                        [<def>
+                            <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#physique">v. area A</ref>, accezione 2
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                Il y a d’une part le changement phonétique et d’autre part le
+                                changement appelé de divers noms, dont aucun n’est excellent, mais dont le plus usité est le changement
+                                analogique. Nous verrons immédiatement pourquoi. On peut opposer sous beaucoup de points de vue
+                                différents ces deux grands facteurs de renouvellement linguistique, en disant par exemple que le premier
+                                représente le côté physiologique et physique de la parole tandis que le second répond au côté
+                                psychologique et mental du même acte 
+                                </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page">p. 159</biblScope>)
+                            </bibl>
+                        </cit>          
+                        <ref target="#science_physique">v. science physique</ref>                              
+                        {<xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
+                        <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes Item</xr>;}
+                    </sense>     
+                </entry>
+            </superEntry>
+
+            <entry xml:id="point-de-vue">
                 <form>
-                    <orth>Physique</orth>
+                    <orth>Point de vue</orth>
                 </form>
-                <gramGrp>n</gramGrp>
                 <sense n="1">
                     [<def>
-                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#physiologique2">v. area A</ref>, accezione 1
+                        usato nel senso di préhistorique:
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                «Manière d’envisager une question, de traiter un sujet; opinion personnelle résultant de la
+                                manière d’envisager les chosesx.» (TLFi)
+                            </quote>
+                            <bibl>
+                                <title>Trésor de la Langue Française Informatisé</title> <!--Va bene?-->
+                            </bibl>
+                        </cit>
                     </def>];
-                    <ref target="#science_physique">v. science physique</ref>                              
-                </sense>     
-            </entry>
-            <entry xml:id="physique">
-                <form>
-                    <orth>Physique</orth>
-                </form>
-                <gramGrp>n</gramGrp>
-                <sense n="1">
-                    [<def>
-                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#physiologique2">v. area A</ref>, accezione 1
-                    </def>];
-                    <ref target="#science_physique">v. science physique</ref>                              
-                    {<xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Le point de vue auquel nous sommes arrivés, Messieurs, et qui
+                            est simplement le point de vue dont s’inspire sans exception l’étude des langues, en toutes ses branches,
+                            fait voir très clairement qu’il n’y a pas de séparation entre l’étude du langage et l’étude des langues, ou
+                            l’étude de telle ou telle langue ou famille de langues; mais que d’un autre côté chaque division et
+                            subdivision de langue représente un document nouveau, et intéressant au même titre que tout autre, pour
+                            le fait universel du langage.
+                            </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 147</biblScope>)
+                        </bibl>
+                    </cit>                                
+                    {<xr type="other_dictionary"> <ref target="04._1878_Mémoire.xml#ancien"/>Mém</xr>;
+                    <xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
                     <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente--> 
                     <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS </xr>;                                        
                     <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
                     <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;}
                 </sense>     
             </entry>
-        <superEntry>
-<!--FINISCI-->
 
         </body>
     </text>
