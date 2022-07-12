@@ -304,7 +304,7 @@
                         <ref type="see" target="#vieux">v. vieux;</ref> S. critica la sua utilità in linguistica e in riferimento alle lingue
                     </def>];
                     <lbl type="syn">Sin.</lbl> <re type="synonim">vieux<ref target="#vieux"/></re>.
-                    {<xr type="other_dictionary"> <ref target="04._1878_Mémoire.xml#ancien"/>Mem</xr>}
+                    {<xr type="other_dictionary"> <ref target="04._1878_Mémoire.xml#ancien"/>Mém</xr>}
                 </sense>
             </entry>
 
@@ -4054,11 +4054,11 @@
                     </def>];
                     <cit type="example">
                         <quote xml:lang="fr">
-                            On peut seulement demander à chaque science aspirant à se faire reconnaître d’avoir un objet digne
+                            On peut seulement demander à chaque <oRef>science</oRef> aspirant à se faire reconnaître d’avoir un objet digne
                             d’une attention sérieuse, c’est-à-dire un objet qui joue un rôle incontestable dans les choses de l’Univers,
                             où sont comprises avant tout les choses de l’humanité; et le rang qu’occupera cette science sera
-                            proportionné à l’importance de l’objet dans le grand ensemble des idées 
-                            </quote>
+                            proportionné à l’importance de l’objet dans le grand ensemble des idées.
+                        </quote>
                         <bibl>
                             <title>Écrits de linguistique générale</title>
                             <author>Simon Bouquet</author>
@@ -4069,6 +4069,193 @@
                             (<biblScope unit="page">p. 144</biblScope>)
                         </bibl>
                     </cit>                                
+                </sense>     
+            </entry>
+
+            <entry xml:id="science_du_langage">
+                <form>
+                    <orth>Science du langage</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        <ref type="syn" target="#linguistique">sin. di linguistique</ref>
+                    </def>];                         
+                </sense>     
+            </entry>
+
+            <entry xml:id="science_historique">
+                <form>
+                    <orth>Science historique</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        tutte le scienze il cui oggetto di studio presenta una storia determinata da atti umani
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Donc la langue a une histoire, c’est un caractère constant. Est-il décisif à lui seul pour ranger la science
+                            du langage dans les sciences historiques? Assurément non. La Terre par exemple a une histoire, qui est
+                            racontée par la géologie, d’où il ne suit pas que la géologie soit une science historique, au moins au sens
+                            étroit et précis que nous donnons à ce terme. Quelle est donc la seconde condition impliquée par le mot de
+                            science historique? C’est que l’objet qui fait la matière de l’histoire - par exemple l’art, la religion, le
+                            costume, etc. - représente, dans un sens quelconque, des actes humains, régis par la volonté et
+                            l’intelligence humaines, - et qui d’ailleurs doivent être tels qu’ils n’intéressent pas seulement l’individu
+                            mais la collectivité.
+                            </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 150</biblScope>)
+                        </bibl>
+                    </cit>                                
+                </sense>     
+            </entry>
+
+            <superEntry xml:id="science_naturelle-science_physique">
+                <entry xml:id="science_naturelle">
+                    <form>
+                        <orth>Science naturelle</orth>
+                    </form>
+                    <sense n="1">
+                        [<def>
+                            <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#science_naturelle">v. area A</ref> <!--non ho trovato l'entrata corrispondente nell'Area A-->, S. critica l’appartenenza della linguistica a questa tipologia di
+                            scienze
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                il y a eu, Messieurs, vous le savez, un temps où la science du langage s’était persuadée à ellemême qu’elle était une science naturelle, presque une science physique; je ne songe pas à démontrer
+                                comme quoi c’était une profonde illusion de sa part, mais au contraire à constater que ce débat est clos et
+                                bien clos. À mesure qu’on a mieux compris la véritable nature des faits de langage, qui sont si près de
+                                nous, mais d’autant plus difficiles à saisir dans leur essence, il est devenu plus évident que la science du
+                                langage est une science historique et rien d’autre qu’une science historique.
+                                </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page">p. 148</biblScope>)
+                            </bibl>
+                        </cit>                                
+                    </sense>     
+                </entry>
+                <entry xml:id="science_physique">
+                    <form>
+                        <orth>Science physique</orth>
+                    </form>
+                    <sense n="1">
+                        [<def>
+                            <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml">v. area A</ref>, S. critica l’appartenenza della linguistica a questa tipologia di
+                            scienze
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                il y a eu, Messieurs, vous le savez, un temps où la science du langage s’était persuadée à ellemême qu’elle était une science naturelle, presque une science physique; je ne songe pas à démontrer
+                                comme quoi c’était une profonde illusion de sa part, mais au contraire à constater que ce débat est clos et
+                                bien clos. À mesure qu’on a mieux compris la véritable nature des faits de langage, qui sont si près de
+                                nous, mais d’autant plus difficiles à saisir dans leur essence, il est devenu plus évident que la science du
+                                langage est une science historique et rien d’autre qu’une science historique.
+                                </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page">p. 148</biblScope>)
+                            </bibl>
+                        </cit>                                
+                    </sense>     
+                </entry>    
+            </superEntry>        
+
+            <entry xml:id="signe">
+                <form>
+                    <orth>Signe</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml#signe">v. area B</ref>
+                        scienze
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            L’opération d’analogie est plus vive et plus fertile chez l’enfant, parce que sa mémoire
+                            n’a pas eu le temps encore d’emmagasiner un <oRef>signe</oRef> tout à fait pour chaque idée, et qu’il se trouve bien
+                            obligé par conséquent de confectionner lui-même ce <oRef>signe</oRef> à chaque instant.
+                            </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 161</biblScope>)
+                        </bibl>
+                    </cit> 
+                    {<xr type="other_dictionary"> <ref target="03._1874_Saggio_giovanile.xml"/>Essai</xr>;   
+                    <xr type="other_dictionary"> <ref target="04._1878_Mémoire.xml"/>Mém</xr>;
+                    <xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
+                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente--> 
+                    <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;
+                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>;
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes Item</xr>;
+                    <xr type="other_dictionary"> <ref target="13._1903-1910_Leggende_germaniche.xml"/>LG</xr><!--Non trovo il testo corrispondente-->}
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}                               
+                </sense>     
+            </entry>
+
+            <entry xml:id="succession">
+                <form>
+                    <orth>Succession</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        serie di avvenimenti linguistici che si susseguono senza interruzioni e che costituiscono la
+                        trasformazione continua delle lingue
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Lorsque nous considérons un certain état de langue comme le
+                            français du XIXe siècle, et un certain état de langue antérieur, comme par exemple le latin du siècle
+                            d’Auguste, nous sommes frappés au premier moment par la grande distance qui les sépare, et nous
+                            sommes, je m’empresse de l’ajouter, beaucoup plus frappés encore par la dénomination différente qu’on
+                            est convenu de leur donner en appelant ceci latin et cela français. Nous nous figurons alors assez
+                            volontiers qu’il y a deux choses, dont l’une a pris la <oRef>succession</oRef> de l’autre. Or qu’il y ait <oRef>succession</oRef>, c’est
+                            là ce qui est indubitable et évident, mais qu’il y ait deux choses dans cette <oRef>succession</oRef>, c’est ce qui est faux,
+                            radicalement faux, et dangereusement faux, du point de vue de toutes les conceptions qui s’ensuivent
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 152</biblScope>)
+                        </bibl>
+                    </cit> 
+                    <lbl type="alm-syn">Quasi-sin.</lbl> <re type="almost-synonym">transition<ref target="#transition"/></re>,
+                    <lbl type="opp">Opp.</lbl> <re type="opposite">saut<ref target="#saut"/></re>,
+                    <lbl type="opp">Cfr.</lbl> <re type="compare">continuité<ref target="#continuité"/></re>,
+                    <re type="compare">état de langue<ref target="#état_de_langue"/></re>,
+                    <re type="compare">vie de la langue<ref target="#vie_de_la_langue"/></re>.
+                    {<xr type="other_dictionary"> <ref target="04._1878_Mémoire.xml"/>Mém</xr>;
+                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente--> 
+                    <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;
+                    <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS </xr>;
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes Item</xr>;<!--Nel PDF è scritto solo "Item"-->
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}                               
                 </sense>     
             </entry>
 
