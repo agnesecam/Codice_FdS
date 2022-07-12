@@ -3807,7 +3807,7 @@
                 </sense>     
             </entry>
 
-            <superEntry>
+            <superEntry xml:id="physique">
                 <entry xml:id="physique-n">
                     <form>
                         <orth>Physique</orth>
@@ -3815,7 +3815,7 @@
                     <gramGrp>n</gramGrp>
                     <sense n="1">
                         [<def>
-                            <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#physiologique2">v. area A</ref>, accezione 1
+                            <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#physique">v. area A</ref>, accezione 1
                         </def>];
                         <ref target="#science_physique">v. science physique</ref>                              
                     </sense>     
@@ -3849,8 +3849,8 @@
                             </bibl>
                         </cit>          
                         <ref target="#science_physique">v. science physique</ref>                              
-                        {<xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
-                        <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes Item</xr>;}
+                        {<xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml#physique"/>Ph</xr>;
+                        <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml#physique"/>Notes Item</xr>;}
                     </sense>     
                 </entry>
             </superEntry>
@@ -3891,12 +3891,12 @@
                             (<biblScope unit="page">p. 147</biblScope>)
                         </bibl>
                     </cit>                                
-                    {<xr type="other_dictionary"> <ref target="04._1878_Mémoire.xml#ancien"/>Mém</xr>;
-                    <xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
-                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente--> 
-                    <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS </xr>;                                        
-                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;}
+                    {<xr type="other_dictionary"> <ref target="04._1878_Mémoire.xml#point-de-vue"/>Mém</xr>;
+                    <xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml#point-de-vue"/>Ph</xr>;
+                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml#point-de-vue"/>ED</xr>; <!--Non trovo il testo corrispondente--> 
+                    <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml#point-de-vue"/>ThS </xr>;                                        
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml#point-de-vue"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml#point-de-vue"/>II corso</xr>;}
                 </sense>     
             </entry>
 
@@ -3908,7 +3908,7 @@
                     [<def>
                         <ref target="#analogie">v. analogie</ref>
                     </def>];                
-                    {<xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>}
+                    {<xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml#procédé-analogique"/>I corso</xr>}
                 </sense>     
             </entry>
 
@@ -3938,9 +3938,9 @@
                                 (<biblScope unit="page">p. 144</biblScope>);
                             </bibl>
                         </cit>
-                        {<xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
-                        <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
-                        <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                        {<xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml#psychologie"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml#psychologie"/>II corso</xr>;
+                        <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml#psychologie"/>III corso</xr>}
                     </sense>
                 </entry>
                 <entry xml:id="psychologue">
@@ -3998,9 +3998,9 @@
                             (<biblScope unit="page">p. 161</biblScope>)
                         </bibl>
                     </cit>                                
-                    {<xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
-                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>;}
+                    {<xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml#psychologie"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml#psychologie"/>II corso</xr>;
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml#psychologie"/>III corso</xr>;}
                 </sense>     
             </entry>
 
@@ -4201,17 +4201,17 @@
                             (<biblScope unit="page">p. 161</biblScope>)
                         </bibl>
                     </cit> 
-                    {<xr type="other_dictionary"> <ref target="03._1874_Saggio_giovanile.xml"/>Essai</xr>;   
-                    <xr type="other_dictionary"> <ref target="04._1878_Mémoire.xml"/>Mém</xr>;
-                    <xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
-                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente--> 
-                    <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;
-                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>;
-                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes Item</xr>;
-                    <xr type="other_dictionary"> <ref target="13._1903-1910_Leggende_germaniche.xml"/>LG</xr><!--Non trovo il testo corrispondente-->}
-                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
-                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}                               
+                    {<xr type="other_dictionary"> <ref target="03._1874_Saggio_giovanile.xml#signe"/>Essai</xr>;   
+                    <xr type="other_dictionary"> <ref target="04._1878_Mémoire.xml#signe"/>Mém</xr>;
+                    <xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml#signe"/>Ph</xr>;
+                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml#signe"/>ED</xr>; <!--Non trovo il testo corrispondente--> 
+                    <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml#signe"/>Status et motus</xr>;
+                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml#signe"/>Notes Whitney</xr>;
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml#signe"/>Notes Item</xr>;
+                    <xr type="other_dictionary"> <ref target="13._1903-1910_Leggende_germaniche.xml#signe"/>LG</xr><!--Non trovo il testo corrispondente-->}
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml#signe"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml#signe"/>II corso</xr>;
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml#signe"/>III corso</xr>}                               
                 </sense>     
             </entry>
 
@@ -4250,12 +4250,12 @@
                     <lbl type="opp">Cfr.</lbl> <re type="compare">continuité<ref target="#continuité"/></re>,
                     <re type="compare">état de langue<ref target="#état_de_langue"/></re>,
                     <re type="compare">vie de la langue<ref target="#vie_de_la_langue"/></re>.
-                    {<xr type="other_dictionary"> <ref target="04._1878_Mémoire.xml"/>Mém</xr>;
-                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente--> 
-                    <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml"/>Status et motus</xr>;
-                    <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS </xr>;
-                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes Item</xr>;<!--Nel PDF è scritto solo "Item"-->
-                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}                               
+                    {<xr type="other_dictionary"> <ref target="04._1878_Mémoire.xml#succession"/>Mém</xr>;
+                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml#succession"/>ED</xr>; <!--Non trovo il testo corrispondente--> 
+                    <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml#succession"/>Status et motus</xr>;
+                    <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml#succession"/>ThS </xr>;
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml#succession"/>Notes Item</xr>;<!--Nel PDF è scritto solo "Item"-->
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml#succession"/>III corso</xr>}                               
                 </sense>     
             </entry>
 
