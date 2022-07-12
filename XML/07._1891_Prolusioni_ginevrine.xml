@@ -4259,6 +4259,239 @@
                 </sense>     
             </entry>
 
+            <entry xml:id="temps">
+                <form>
+                    <orth>Temps</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                «Milieu indéfini et homogène dans lequel se situent les êtres et les choses et qui est caractérisé par
+                                sa double nature, à la fois continuité et succession.» (TLFi)
+                            </quote>
+                            <bibl>
+                                <title>Trésor de la Langue Française Informatisé</title> <!--Va bene?-->
+                            </bibl>
+                        </cit>
+                        ha un ruolo determinant sia nella continuità
+                        delle lingue che nelle sue transformazioni
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Presque immédiatement se présentera la nécessité de classer
+                            nos idées sous deux chefs. La langue se différencie dans le <oRef>temps</oRef>, et en même <oRef>temps</oRef> elle se différencie ou
+                            se diversifie dans l’espace. Une langue prise à deux dates différentes n’est pas identique à elle-même.
+                            Prise sur deux points plus ou moins distants de son territoire, elle n’est pas non plus identique à ellemême. Les deux choses, lorsqu’on veut avoir une vue exacte des événements, doivent toujours être
+                            considérées à la fois et de front. Mais nous sommes bien obligés de les séparer en théorie pour procéder
+                            avec ordre. Je considérerai donc uniquement pour aujourd’hui la marche de la langue dans le <oRef>temps</oRef>, en
+                            supposant que nous n’ayons nullement à nous préoccuper du facteur de la distance géographique. Même
+                            il ne me sera possible d’aborder dans cette séance que le premier point principal à poser; c’est le principe
+                            de la continuité dans le <oRef>temps</oRef>; dans notre séance de mardi nous aurons à examiner le principe qui en est la
+                            contrepartie, celui de la transformation dans le <oRef>temps</oRef>. Puis, de même, nous considérerons ce qu’on peut
+                            dire du principe de la continuité dans l’espace et de celui de la divergence dans l’espace. Après cet exposé
+                            qui aura l’avantage de nous placer sur un terrain parfaitement net pour l’étude des faits particuliers, nous
+                            aborderons avec plus de sûreté le sujet spécial de la phonétique du grec et du latin où les occasions
+                            d’appliquer ces principes généraux se présentent sans cesse.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 151</biblScope>)
+                        </bibl>
+                    </cit> 
+                    {<xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml#temps"/>Ph</xr>;
+                    <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml#temps"/>Status et motus</xr>;
+                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml#temps"/>Notes Whitney</xr>;                    
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml#succession#temps"/>Notes Item</xr>;<!--Nel PDF è scritto solo "Item"-->
+                    <xr type="other_dictionary"> <ref target="13._1903-1910_Leggende_germaniche.xml#temps"/>LG</xr><!--Non trovo il testo corrispondente-->}
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml#temps"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml#temps"/>III corso</xr>}                               
+                </sense>     
+            </entry>
+
+            <entry xml:id="terme">
+                <form>
+                    <orth>Terme</orth>
+                </form>
+                <sense>
+                    <sense n="a" xml:id="terme1">
+                        [<def>
+                            <cit type="example">
+                                <quote xml:lang="fr">
+                                    «Mot ou ensemble de mots ayant, dans une langue donnée, une signification précise et exprimant
+                                    une idée définie» (TLFi)
+                                </quote>
+                                <bibl>
+                                    <title>Trésor de la Langue Française Informatisé</title> <!--Va bene?-->
+                                </bibl>
+                            </cit>
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                Je vous dirai, Messieurs, qu’on a tout refusé à notre pauvre espèce humaine
+                                comme caractère distinctif vis-à-vis des autres espèces animales, tout, et absolument tout, y compris
+                                l’instinct d’industrie, y compris la religiosité, la moralité, le jugement et la raison, tout, excepté le langage,
+                                ou comme on dit la parole articulée, ce <oRef>terme</oRef> d’articulé étant un <oRef>terme</oRef> au fond obscur et très vague sur
+                                lequel je fais toutes réserves.
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page">p. 145</biblScope>)
+                            </bibl>
+                        </cit>              
+                    </sense>
+                    <sense n="b" xml:id="terme2">
+                        [<def>
+                            elemento di una relazione
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                Si l’on combine cette donnée géographique avec la donnée chronologique,
+                                on voit que nous ne [nous] trouvons presque jamais, en linguistique, devant un premier <oRef>terme</oRef> A reflété
+                                quelques siècles après par un <oRef>terme</oRef> B; mais devant un premier <oRef>terme</oRef> A se répercutant quelques siècles
+                                après par B' B" B'" B""... 
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page">p. 167</biblScope>)
+                            </bibl>
+                        </cit> 
+                    </sense>
+                    <lbl type="alm-syn">Quasi sin. </lbl><re type="almost-synonym">élément<ref target="#élément"/></re>;
+                    {<xr type="other_dictionary"> <ref target="04._1878_Mémoire.xml#terme"/>Mém</xr>;
+                    <xr type="other_dictionary"> <ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml#terme"/>Tesi</xr>
+                    <xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml#terme"/>Ph</xr>;
+                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml#terme"/>ED</xr>; <!--Non trovo il testo corrispondente--> 
+                    <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml#terme"/>Status et motus</xr>;
+                    <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml#terme"/>ThS </xr>;                                        
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml#terme"/>Notes Item</xr>;<!--Nel PDF è scritto solo "Item"-->
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml#terme"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml#terme"/>II corso</xr>;
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml#terme"/>III corso</xr>}                               
+                </sense>    
+            </entry>            
+
+            <entry xml:id="théorique">
+                <form>
+                    <orth>Théorique</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#théorie">v. area A théorie</ref>, 
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            toute personne un peu versée dans nos études sait avec quelle joie et quel
+                            triomphe chaque chercheur signale un cas <oRef>théorique</oRef> nouveau, quand il le rencontre n’importe où, dans le
+                            dernier de nos patois, ou dans le plus infime idiome polynésien. C’est une pierre qu’il apporte à l’édifice
+                            et qui ne sera pas détruite. À tout instant, dans toute branche de la science des langues, tout le monde est
+                            par-dessus tout anxieux actuellement de mettre en lumière ce qui peut intéresser le langage, en général. Et,
+                            phénomène remarquable, les observations <oRef>théoriques</oRef> qu’apportent ceux qui ont concentré leur étude sur
+                            telle ou telle branche spéciale comme le germanique, le roman, sont beaucoup plus appréciées et
+                            considérées encore que les observations des linguistes embrassant une plus grande série de langues
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 147</biblScope>)
+                        </bibl>
+                    </cit>
+                    {<xr type="other_dictionary"> <ref target="03._1874_Saggio_giovanile.xml#forme"/>Essai</xr>;
+                    <xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml#temps"/>Ph</xr>;
+                    <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml#temps"/>Status et motus</xr>;
+                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml#temps"/>Notes Whitney</xr>; 
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>}
+                </sense>     
+            </entry>
+
+            <entry xml:id="tradition_de_la_langue">
+                <form>
+                    <orth>Tradition de la langue</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#continuité1">v. continuité1</ref>, 
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Si, comme nous venons de le poser en fait, aucune interruption,
+                            aucune scission, aucun hiatus n’est imaginable dans la tradition de la langue, s’il est vrai que la langue du
+                            lendemain a toujours existé la veille sous la même forme, on demande comment il se fait que nous ne
+                            parlions pas aujourd’hui le latin que parlait Jules César, comment il se fait que Jules César n'ait pas parlé
+                            l’indo-européen de ses premiers ancêtres. 
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 156</biblScope>)
+                        </bibl>
+                    </cit>
+                    <lbl type="alm-syn">Quasi-sin. </lbl><re type="almost-synonym">continuité1<ref target="#continuité1"/></re>.
+                </sense>     
+            </entry>
+
+            <entry xml:id="transformation">
+                <form>
+                    <orth>Transformation</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        in riferimento alle lingue, i cambiamenti che sopravvengono nel corso del tempo; usato in
+                        espressioni complesse: principe de la t. dans le temps; la continuelle t. de la langue dans le temps; le
+                        trasformazioni linguistiche sono due tipi changement phonétique e changement analogique
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                        Nous
+                        arrivons ainsi au second principe, de valeur universelle comme le premier, dont la possession peut faire
+                        connaître ce qu’est l’histoire des langues: c’est le point de vue du mouvement de la langue dans le temps,
+                        mais d’un mouvement qui à aucun moment, car tout est là, n’arrive à être en conflit avec le premier
+                        principe de l’unité de la langue dans le temps. Il y a <oRef>transformation</oRef>, et toujours et encore <oRef>transformation</oRef>,
+                        mais il n’y a nulle part reproduction ou production d’un être linguistique nouveau, ayant une existence
+                        distincte de ce qui l’a précédé et de ce qui suivra
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 157</biblScope>)
+                        </bibl>
+                    </cit>
+                    <lbl type="opp">Opp. </lbl><re type="opposite">immobilité<ref target="#immobilité" />;
+                    <lbl type="com">Cfr.</lbl><re type="compare">continuité<ref target="#continuité"/>,
+                    {<re type="compare">mouvement<ref target="#mouvement"/>,
+                    <re type="compare">mutabilité<ref target="#mutabilité"/>.     
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes Item</xr>;
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>}
+                </sense>     
+            </entry>
+
         </body>
     </text>
 
