@@ -4042,7 +4042,33 @@
                     </cit>                                
                     <lbl type="opp">Opp.</lbl> <re type="opp">continuité<ref target="#continuité"/></re>,
                     <re type="opp">succession<ref target="#succession"/></re>.
+                </sense>     
+            </entry>
 
+            <entry xml:id="science">
+                <form>
+                    <orth>Science</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            On peut seulement demander à chaque science aspirant à se faire reconnaître d’avoir un objet digne
+                            d’une attention sérieuse, c’est-à-dire un objet qui joue un rôle incontestable dans les choses de l’Univers,
+                            où sont comprises avant tout les choses de l’humanité; et le rang qu’occupera cette science sera
+                            proportionné à l’importance de l’objet dans le grand ensemble des idées 
+                            </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 144</biblScope>)
+                        </bibl>
+                    </cit>                                
                 </sense>     
             </entry>
 
