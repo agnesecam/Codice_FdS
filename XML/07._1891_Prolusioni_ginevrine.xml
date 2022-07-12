@@ -3975,6 +3975,35 @@
                 </entry>
             </superEntry>
 
+            <entry xml:id="psychologique">
+                <form>
+                    <orth>Psychologique</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#psychologique2">v. area A</ref>, accezione 2
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Notons aussi tout de suite la raison qui a fait dénommer opération
+                            d’analogie, faits d’analogie toutes ces opérations <oRef>psychologiques</oRef>.
+                            </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 161</biblScope>)
+                        </bibl>
+                    </cit>                                
+                    {<xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>;}
+                </sense>     
+            </entry>
+
         </body>
     </text>
 
