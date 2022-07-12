@@ -3924,7 +3924,7 @@
                         <cit type="example">
                             <quote xml:lang="fr">
                                 je passerais ensuite, et ceci nous
-                                rapprocherait déjà davantage de l’objet vrai, à tout ce que la psychologie est probablement appelée à
+                                rapprocherait déjà davantage de l’objet vrai, à tout ce que la <oRef>psychologie</oRef> est probablement appelée à
                                 recueillir prochainement de l’étude du langage; mais après cela, ou avant cela, je vous poserais plutôt
                                 cette simple question.
                             </quote>
@@ -4001,6 +4001,48 @@
                     {<xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
                     <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;
                     <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>;}
+                </sense>     
+            </entry>
+
+            <entry xml:id="saut">
+                <form>
+                    <orth>Saut</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        criticato; passaggio netto, usato in riferimento al passaggio da una lingua ad un’altra
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Ces deux
+                            principes de la continuité et de la mutabilité de la langue, loin d’être contradictoires, se trouvent dans une
+                            corrélation si étroite et si évidente que, aussitôt que nous sommes tentés de méconnaître l’un, nous faisons
+                            injure à l’autre, du même coup, et inévitablement, sans y penser. Quiconque cède assez à la première
+                            illusion pour se représenter le français comme quelque chose d’immobile, à l’heure qu’il est ou à un
+                            moment quelconque, arrive forcément à ne rien comprendre à ce qui s’est passé vers la période entre l’an
+                            500 et 900: alors il suppose un saut: ou un saut devant d’un alinéa, un coup de baguette magique, ou un
+                            enfantement inouï par lequel un idiome donne subitement la vie à un autre idiome. De même s’il
+                            commence par supprimer l’idée de continuité, en imaginant qu’un jour le français sortit comme Minerve
+                            du cerveau de Jupiter armé de toutes pièces des flancs de la langue latine, il tombe régulièrement dans le
+                            sophisme de l’immobilité; il suppose naturellement qu’entre deux de ses sauts imaginaires la langue est
+                            dans un état d’équilibre et de repos, ou au moins d’équilibre opposable à ces sauts, tandis qu’il n’y a
+                            jamais en réalité un équilibre, un point permanent, stable dans aucun langage. Nous posons donc le
+                            principe de la transformation incessante des langues comme absolu. Le cas d’un idiome qui se trouverait
+                            en état d’immobilité et de repos ne se présente pas. 
+                            </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page" from="157" to="158">p. 157-158</biblScope>)
+                        </bibl>
+                    </cit>                                
+                    <lbl type="opp">Opp.</lbl> <re type="opp">continuité<ref target="#continuité"/></re>,
+                    <re type="opp">succession<ref target="#succession"/></re>.
+
                 </sense>     
             </entry>
 
