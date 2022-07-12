@@ -4483,12 +4483,12 @@
                             (<biblScope unit="page">p. 157</biblScope>)
                         </bibl>
                     </cit>
-                    <lbl type="opp">Opp. </lbl><re type="opposite">immobilité<ref target="#immobilité" />;
-                    <lbl type="com">Cfr.</lbl><re type="compare">continuité<ref target="#continuité"/>,
-                    {<re type="compare">mouvement<ref target="#mouvement"/>,
-                    <re type="compare">mutabilité<ref target="#mutabilité"/>.     
-                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml"/>Notes Item</xr>;
-                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>}
+                    <lbl type="opp">Opp. </lbl><re type="opposite">immobilité<ref target="#immobilité" /></re>;
+                    <lbl type="com">Cfr.</lbl><re type="compare">continuité<ref target="#continuité"/></re>,
+                    {<re type="compare">mouvement<ref target="#mouvement"/></re>,
+                    <re type="compare">mutabilité<ref target="#mutabilité"/></re>.     
+                    <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml#transformation"/>Notes Item</xr>;
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml#transformation"/>I corso</xr>}
                 </sense>     
             </entry>
 
