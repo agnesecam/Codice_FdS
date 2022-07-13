@@ -4534,6 +4534,105 @@
                 </sense>     
             </entry>
 
+            <entry xml:id="transition">
+                <form>
+                    <orth>Transition</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        passaggio graduale e continuo da uno stato di lingua ad un altro
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            il n’y a que des états de
+                            langue qui sont perpétuellement la transition entre l’état de la veille et celui du lendemain; vouloir réunir
+                            un certain nombre de ces états sous un nom comme celui de latin ou de français représente la même
+                            opération, offre exactement la même valeur que si nous opposons le <num type="ordinal" value="19">XIXe</num> siècle au <num type="ordinal" value="17">XVIIe</num> ou au <num type="ordinal" value="12">XIIe</num>.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 165</biblScope>)
+                        </bibl>
+                    </cit>
+                    <lbl type="opp">Opp.</lbl><re type="opposite">saut<ref target="#saut"/></re>;
+                    <lbl type="alm-syn">quasi-sin. di </lbl><re type="almost-synonym">succession<ref target="#succession"/></re>;
+                    <lbl type="com">Cfr. </lbl><re type="compare">continuité<ref target="#continuité"/></re>,
+                    <re type="compare">état de langue<ref target="#état_de_langue"/></re>,
+                    <re type="compare">vie de la langue<ref target="#vie_de_la_langue"/></re>.
+                    {<xr type="other_dictionary"> <ref target="04._1878_Mémoire.xml"/>Mém</xr>;
+                    <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml"/>III corso</xr>}
+                </sense>     
+            </entry>
+
+            <entry xml:id="universel">
+                <form>
+                    <orth>Universel</orth>
+                </form>
+                <sense n="1">
+                    <sense n="a">1.
+                        [<def>
+                            <cit type="example">
+                                <quote xml:lang="fr">
+                                    «Antérieur à l’apparition des témoignages écrits et à l’emploi des métaux.» (TLFi)
+                                </quote>
+                                <bibl>
+                                    <title>Trésor de la Langue Française Informatisé</title> <!--Va bene?-->
+                                </bibl>
+                            </cit>
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                Le point de vue auquel nous sommes arrivés,
+                                Messieurs, et qui est simplement le point de vue dont s’inspire sans exception l’étude des langues, en
+                                toutes ses branches, fait voir très clairement qu’il n’y a pas de séparation entre l’étude du langage et
+                                l’étude des langues, ou l’étude de telle ou telle langue ou famille de langues; mais que d’un autre côté
+                                chaque division et subdivision de langue représente un document nouveau, et intéressant au même titre
+                                que tout autre, pour le fait universel du langage.
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page">p. 147</biblScope>)
+                            </bibl>
+                        </cit>
+                    </sense>     
+                    <sense n="b">2.
+                        [<def>
+                            che si estende a tutti casi particolari
+                        </def>];
+                        <cit type="example">
+                            <quote xml:lang="fr">
+                                Nous arrivons ainsi au second principe, de valeur universelle
+                                comme le premier, dont la possession peut faire connaître ce qu’est l’histoire des langues: c’est le point
+                                de vue du mouvement de la langue dans le temps, mais d’un mouvement qui à aucun moment, car tout est
+                                là, n’arrive à être en conflit avec le premier principe de l’unité de la langue dans le temps.
+                            </quote>
+                            <bibl>
+                                <title>Écrits de linguistique générale</title>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <pubPlace>Paris</pubPlace>
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                                (<biblScope unit="page">p. 157</biblScope>)
+                            </bibl>
+                        </cit>
+                    </sense>  
+                    <lbl type="duale">Duale</lbl><re type="duale">général<ref target="#général"/></re>
+                    {<xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml"/>Notes Whitney</xr>;
+                    <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS</xr>}
+                </sense>
+            </entry>
+
         </body>
     </text>
 
