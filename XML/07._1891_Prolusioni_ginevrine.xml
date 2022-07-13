@@ -4460,8 +4460,16 @@
                 <sense n="1">
                     [<def>
                         in riferimento alle lingue, i cambiamenti che sopravvengono nel corso del tempo; usato in
-                        espressioni complesse: principe de la t. dans le temps; la continuelle t. de la langue dans le temps; le
-                        trasformazioni linguistiche sono due tipi changement phonétique e changement analogique
+                        espressioni complesse: 
+                        <cit type="example">
+                            <quote>
+                                <eg xml:lang="fr">principe de la <oRef>t.</oRef> dans le temps</eg>;
+                            </quote>
+                            <quote>
+                                <eg xml:lang="fr">la continuelle <oRef>t.</oRef> de la langue dans le temps</eg>;
+                            </quote>
+                        </cit>
+                        le trasformazioni linguistiche sono due tipi changement phonétique e changement analogique
                     </def>];
                     <cit type="example">
                         <quote xml:lang="fr">
@@ -4489,6 +4497,40 @@
                     <re type="compare">mutabilité<ref target="#mutabilité"/></re>.     
                     <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml#transformation"/>Notes Item</xr>;
                     <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml#transformation"/>I corso</xr>}
+                </sense>     
+            </entry>
+
+            <entry xml:id="transformation_intelligente">
+                <form>
+                    <orth>Transformation intelligente</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        cambiamento che introduce un innovazione linguistica sulla base di elementi
+                        già presenti nella lingua
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Quelques exemples en prenant d’abord le phénomène d’analogie, le phénomène
+                            de transformation intelligente […] Remarquons tout de suite un des caractères de ce phénomène: dans un
+                            sens, ce n’est pas une transformation, c’est une création; mais en dernière analyse ce n’est qu’une
+                            transformation, parce que tous les éléments de venirai sont contenus et donnés dans des formes existantes
+                            fournies par la mémoire; punirai, punir, ou bien si l’on veut le suffixe -ir, le suffixe -irai, et leur rapport
+                            de signification.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 160</biblScope>)
+                        </bibl>
+                    </cit>
+                    <lbl type="alm-syn">Quasi-sin. di</lbl><re type="almost-synonym">création<ref target="#création"/></re>,
+                    <re type="almost-synonym">changement analogique<ref target="#changement_analogique"/></re>;
+                    <lbl type="com">Cfr. </lbl><re type="compare">analogie<ref target="#analogie"/></re>
                 </sense>     
             </entry>
 
