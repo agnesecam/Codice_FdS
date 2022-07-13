@@ -4737,50 +4737,23 @@
                                 <title>Trésor de la Langue Française Informatisé</title> <!--Va bene?-->
                             </bibl>
                         </cit>
-                            <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml">v. area B</ref> <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml#langue_artificielle">langue artificielle</ref>
+                        <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml">v. area B</ref> <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml#langue_artificielle">langue artificielle</ref>
                     </def>];
-                    <cit type="example">
-                        <quote xml:lang="fr">
-                            Il se fait de singulières confusions
-                            du mot vieux en parlant des langues. Il y a trois manières pour un homme d’être plus vieux ou plus ancien
-                            qu’un autre. La première, qui n’est pas toujours agréable, est d’être né avant lui. La seconde, qui l’est
-                            encore moins, est d’être mort avant lui: on parlera des vieux anciens camarades qui ne sont plus. La
-                            troisième, qui est la pire, est d’être comme nous disons familièrement moins bien conservé que lui. Eh
-                            bien, de ces trois manières, la première n’existe pas pour les langues. Toutes les langues se parlant à la
-                            même époque sont de même âge; en ce sens qu’elles remontent à un passé égal. Il n’est pas nécessaire de
-                            déterminer la longueur de ce passé. Si l’on veut, c’est l’origine du langage, mais sans remonter aux
-                            périodes inaccessibles. En s’arrêtant à la période accessible, il est clair que chaque langue indoeuropéenne actuellement parlée a exactement le même âge par rapport au temps où se parlait l’indoeuropéen primitif. Je ne m’arrête pas au second sens où une langue serait plus vieille qu’une autre, et qui
-                            n’a pas grande importance; il y a des langues mortes et par conséquent qu’on peut appeler anciennes, par
-                            exemple le gaulois, le phénicien, etc. qui ont été extirpés. Enfin il est à remarquer que dans le troisième
-                            sens on peut dire qu’une langue est plus vieille qu’une autre mais, chose assez bizarre, pour les langues
-                            c’est le contraire de ce qui se passe, c’est-à-dire que ce sont les langues les mieux conservées qu’on
-                            appelle vieilles. Dans ce sens, par exemple, le grec est une langue plus vieille que le latin pris à la même
-                            époque, elle s’est moins éloignée du type primitif indo-européen. Le sanscrit est plus vieux, mieux
-                            préservé, que certaines autres.
-                        </quote>
-                        <bibl>
-                            <title>Écrits de linguistique générale</title>
-                            <author>Simon Bouquet</author>
-                            <author>Rudolf Engler</author>
-                            <pubPlace>Paris</pubPlace>
-                            <publisher>Gallimard</publisher>
-                            <date>2002</date>
-                            (<biblScope unit="page" from="155" to="156">p. 155-156</biblScope>)
-                        </bibl>
-                    </cit>
-                    <lbl type="syn">Sin. </lbl><re type="synonym">ancien<ref target="#ancien"/></re>;
-                    <lbl type="com">Cfr. <re type="compare">continuité<ref target="#continuité"/></re>,
-                    <re type="compare">état de langue<ref target="#état_de_langue"/></re>,
-                    <re type="compare">naissance de la langue<ref target="#naissance_de_la_langue"/></re>,
-                    <re type="compare">mort<ref target="#mort"/></re>,
-                    <re type="compare">origine du langage<ref target="#origine_du_langage"/></re>,
-                    <re type="compare">succession<ref target="#succession"/></re>,
-                    <re type="compare">transition<ref target="#transition"/></re>,
-                    <re type="compare">vie de la langue<ref target="#vie-de_la_langue"/></re>.
-                    {<xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml#vieux"/>ED</xr>; <!--Non trovo il testo corrispondente--> 
-                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml#vieux"/>II corso</xr>;}
                 </sense>     
             </entry>
+
+            <entry xml:id="volonté">
+                <form>
+                    <orth>Volonté</orth>
+                </form>
+                <sense n="1">
+                    (<ref type="see" target="#conscience">v. conscience</ref>); <ref type="see" target="#intelligence">intelligence</ref>)
+                    <xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml#volonté"/>Ph</xr>;
+                    <xr type="other_dictionary"> <ref target="13._1903-1910_Leggende_germaniche.xml#volonté"/>LG</xr><!--Non trovo il testo corrispondente-->
+                    <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml#volonté"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml#volonté"/>II corso</xr>}
+                </sense>     
+            </entry>            
 
         </body>
     </text>
