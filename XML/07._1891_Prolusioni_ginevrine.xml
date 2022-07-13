@@ -4710,7 +4710,7 @@
                         </bibl>
                     </cit>
                     <lbl type="syn">Sin. </lbl><re type="synonym">ancien<ref target="#ancien"/></re>;
-                    <lbl type="com">Cfr. <re type="compare">continuité<ref target="#continuité"/></re>,
+                    <lbl type="com">Cfr. </lbl><re type="compare">continuité<ref target="#continuité"/></re>,
                     <re type="compare">état de langue<ref target="#état_de_langue"/></re>,
                     <re type="compare">naissance de la langue<ref target="#naissance_de_la_langue"/></re>,
                     <re type="compare">mort<ref target="#mort"/></re>,
@@ -4754,8 +4754,35 @@
                     <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml#volonté"/>II corso</xr>}
                 </sense>     
             </entry>            
-
         </body>
+
+        <back>
+            <head>Termini appartenenti all’<ref target="#01._Area_terminologica_A_altri_saperi_specialistici.xml">area A</ref> presenti nelle Prolusioni</head>
+            <list>
+                <item><ref target="#01._Area_terminologica_A_altri_saperi_specialistici.xml#a_priori">A priori</ref></item>
+                <item><ref target="#01._Area_terminologica_A_altri_saperi_specialistici.xml#anthropologie">Anthropologie</ref></item>                
+                <item><ref target="#01._Area_terminologica_A_altri_saperi_specialistici.xml#astronome">Astronome</ref></item>      
+                <item><ref target="#01._Area_terminologica_A_altri_saperi_specialistici.xml#espèce">Espèce</ref></item>  
+                <item><ref target="#01._Area_terminologica_A_altri_saperi_specialistici.xml#ethnographie">Ethnographie</ref></item>  
+                <item><ref target="#01._Area_terminologica_A_altri_saperi_specialistici.xml#ethnologie">Ethnologie</ref></item>  
+                <item><ref target="#01._Area_terminologica_A_altri_saperi_specialistici.xml#etoile">Etoile</ref></item>  
+                <item><ref target="#01._Area_terminologica_A_altri_saperi_specialistici.xml#géologie">Géologie</ref></item>  
+                <item><ref target="#01._Area_terminologica_A_altri_saperi_specialistici.xml#minéralogiste">Minéralogiste</ref></item>  
+                <item><ref target="#01._Area_terminologica_A_altri_saperi_specialistici.xml#principe">Principe</ref></item>  
+                <item><ref target="#01._Area_terminologica_A_altri_saperi_specialistici.xml#zoologiste">Zoologiste</ref></item>             
+            </list>
+
+            <head>Termini appartenenti all’<ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml">area B</ref> presenti nelle Prolusioni</head>
+            <list>
+                <item><ref target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml#ecole">Ecole</item>
+                <item><ref target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml#famille_des_langues">Famille des langues</item>
+                <item><item><ref target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml#idiome">Idiome</item></item>
+                <item><item><ref target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml#jargon">Jargon</item></item>
+                <item><item><ref target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml#patois">Patois</item></item>
+                <item><item><ref target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml#philologie">Philologie</item></item>
+                <item><item><ref target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml#prétérit">Prétérit</item></item>
+            </list>
+        </back>
     </text>
 
     <!--  FAI 
