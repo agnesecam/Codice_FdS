@@ -4633,6 +4633,46 @@
                 </sense>
             </entry>
 
+            <entry xml:id="vie_de_la_langue">
+                <form>
+                    <orth>Vie de la langue</orth>
+                    <orth>Vie du langage</orth>
+                </form>
+                <sense n="1">
+                    [<def>
+                        che ha come caratteristica principale il cambiamento e la trasformazione corso del tempo
+                    </def>];
+                    <cit type="example">
+                        <quote xml:lang="fr">
+                            Mais tous ces faits, grands ou petits, par où la langue se trouve mêlée à la vie des peuples, à la vie
+                            politique, sociale, littéraire, ne sont pas, je le répète, ou ne sont que de temps à autre ce qu’on peut appeler
+                            la vie de la langue elle-même.
+                        </quote>
+                        <bibl>
+                            <title>Écrits de linguistique générale</title>
+                            <author>Simon Bouquet</author>
+                            <author>Rudolf Engler</author>
+                            <pubPlace>Paris</pubPlace>
+                            <publisher>Gallimard</publisher>
+                            <date>2002</date>
+                            (<biblScope unit="page">p. 149</biblScope>)
+                        </bibl>
+                    </cit>
+                    <lbl type="com">Cfr. </lbl><re type="compare">ancien<ref target="#ancien"/></re>,
+                    <re type="compare">continuité<ref target="#continuité"/></re>,
+                    <re type="compare">état de langue<ref target="#état_de_langue"/></re>,
+                    <re type="compare">naissance de la langue<ref target="#naissance_de_la_langue"/></re>,
+                    <re type="compare">mort<ref target="#mort"/></re>,
+                    <re type="compare">origine du langage<ref target="#origine_du_langage"/></re>,
+                    <re type="compare">succession<ref target="#succession"/></re>,
+                    <re type="compare">transition<ref target="#transition"/></re>,
+                    <re type="compare">vieux<ref target="#vieux"/></re>;
+                    occorre anche come <term xml:id="vie_du_langage">vie du langage</term><!--Come lo rendo?-->
+                    {<xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xml"/>ED</xr>; <!--Non trovo il testo corrispondente--> 
+                    <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;}
+                </sense>     
+            </entry>
+
         </body>
     </text>
 
