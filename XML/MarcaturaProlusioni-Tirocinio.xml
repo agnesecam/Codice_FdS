@@ -658,13 +658,6 @@
                     </item>
                 </list> 
 
-                <!-- BIBLIOGRAPHY -->
-                <listBibl xml:id="prolusioni1_bibliography">
-                    <head>Bibliography</head>
-
-
-                </listBibl>
-                
                 <!-- PLACE -->
                 <listPlace>
                     <head>Places</head>                    
@@ -747,17 +740,7 @@
             
                 <!-- ORGANIZZAZIONI  -->
                 <listOrg>
-                    <org xml:id="UniGeneve">
-                        <orgName ref="https://en.wikipedia.org/wiki/University_of_Geneva>">University of Geneva</orgName>
-                            <placeName ref="#GE">Genève</placeName>
-                        <desc>
-                            The University of Geneva (French: Université de Genève) is a public research university located in Geneva, Switzerland.
-                        </desc>
-                    </org>
-                    <org xml:id="FacLettres">
-                        <orgName ref="https://www.unige.ch/lettres/fr/">Faculté des lettres de l'Université de Genève</orgName>
-                        <placeName ref="#GE">Genève</placeName>
-                    </org>
+                    
                 </listOrg>      
             </div>
         </back>
