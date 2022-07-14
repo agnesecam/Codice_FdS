@@ -722,13 +722,6 @@
                     </bibl>
                 </listBibl>
                 
-                <!-- PERSON -->
-                <listPerson>
-                    <head>People</head>
-                    
-                    
-                </listPerson>
-
                 <!-- PLACE -->
                 <listPlace>
                     <head>Places</head>
