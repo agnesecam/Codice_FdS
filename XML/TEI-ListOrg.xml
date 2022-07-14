@@ -26,13 +26,13 @@
                     <!--Faculté des lettres Genève-->
                     <org xml:id="FacLettres">
                         <orgName ref="https://www.unige.ch/lettres/fr/">Faculté des lettres de l'Université de Genève</orgName>
-                        <placeName ref="#GE">Genève</placeName>
+                        <placeName ref="TEI-ListPlace.xml#GE">Genève</placeName>
                     </org>
 
                     <!--University of Geneva-->
                     <org xml:id="UniGeneve">
                         <orgName ref="https://en.wikipedia.org/wiki/University_of_Geneva>">University of Geneva</orgName>
-                            <placeName ref="#GE">Genève</placeName>
+                            <placeName ref="TEI-ListPlace.xml#GE">Genève</placeName>
                         <desc>
                             The University of Geneva (French: Université de Genève) is a public research university located in Geneva, Switzerland.
                         </desc>
