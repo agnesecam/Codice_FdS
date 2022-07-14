@@ -2694,7 +2694,7 @@
                                 (<biblScope unit="page">p. 148</biblScope>)
                             </bibl>
                         </cit>
-                        <lbl type="syn">Sin. </lbl><re type="synonym">science du langage<ref target="science_du_langage"/></re>
+                        <lbl type="syn">Sin. </lbl><re type="synonym">science du langage<ref target="#science_du_langage"/></re>
                         <xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml#linguistique"/>Ph</xr>;
                         <xr type="other_dictionary"> <ref target="08._1891-1892_De_la_double_essence_du_langage.xml#linguistique"/>ED</xr>;  
                         <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml#linguistique"/>ThS </xr>;
@@ -4103,7 +4103,7 @@
                             costume, etc. - représente, dans un sens quelconque, des actes humains, régis par la volonté et
                             l’intelligence humaines, - et qui d’ailleurs doivent être tels qu’ils n’intéressent pas seulement l’individu
                             mais la collectivité.
-                            </quote>
+                        </quote>
                         <bibl>
                             <title>Écrits de linguistique générale</title>
                             <author>Simon Bouquet</author>

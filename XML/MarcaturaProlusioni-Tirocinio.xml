@@ -228,7 +228,7 @@
         <profileDesc>
             <textClass>
                 <keywords scheme="#schemaKeywords"> <!-- questa tassonomia schemaKeywords va dichiarata nell'encodingDesc dentro classDecl -->
-                    <term resp="TEI-ListPerson.xml#AC"> linguistics </term>
+                    <term resp="TEI-ListPerson.xml#AC" ref="07._1891_Prolusioni_ginevrine.xml#linguistique-N"> linguistics </term>
                     <term resp="TEI-ListPerson.xml#AC"> university </term>
                     <term resp="TEI-ListPerson.xml#AC"> teaching </term>
                 </keywords>
@@ -391,7 +391,7 @@
                                 <!--Margine sx--> 
                                 <add change="#CHG-4" place="left margin" facs="#facs_p1_leftblock1">
                                     <lb xml:id="lb7_p1" n="7" facs="#facs_p1_lb7"/>
-                                    que la <term subtype="linguistics-term" ref="#science-du-langage" facs="#facs_scdulang-p1r7"><choice><abbr>sc.</abbr> <expan>sc<ex>ience</ex></expan></choice> du 
+                                    que la <term subtype="linguistics-term" ref="07._1891_Prolusioni_ginevrine.xml#linguistique-N" facs="#facs_scdulang-p1r7"><choice><abbr>sc.</abbr> <expan>sc<ex>ience</ex></expan></choice> du 
                                     <lb xml:id="lb8_p1" n="8" facs="#facs_p1_lb8"/>
                                     <choice><abbr>l<am>.</am>age</abbr><expan>l<ex>ang</ex>age</expan></choice></term> est <choice facs="#facs_occ-p1r8"><abbr>occ.</abbr> <expan>occ<ex>upée</ex></expan></choice> 
                                     <lb xml:id="lb9_p1" n="9" facs="#facs_p1_lb9"/> 
@@ -451,7 +451,7 @@
                                     <lb xml:id="lb33_p1" n="33" facs="#facs_p1_lb33"/>
                                     outre mesure 
                                     <lb xml:id="lb34_p1" n="34" facs="#facs_p1_lb34"/>
-                                    les mérites de la <term subtype="linguistics-term" ref="#science-du-langage" facs="#facs_linguistique-p1r34">linguistique</term>,
+                                    les mérites de la <term subtype="linguistics-term" ref="07._1891_Prolusioni_ginevrine.xml#linguistique-N" facs="#facs_linguistique-p1r34">linguistique</term>,
                                     <lb xml:id="lb35_p1" n="35" facs="#facs_p1_lb35"/>
                                     quel est le </add> 
                                 <lb xml:id="lb36_p1" n="36" facs="#facs_p1_lb36"/>
@@ -459,12 +459,12 @@
                                 <lb xml:id="lb37_p1" n="37" facs="#facs_p1_lb37"/>
                                 étude l’érudition classique, la connaissance 
                                 <lb xml:id="lb38_p1" n="38" facs="#facs_p1_lb38"/>
-                                des <term subtype="linguistics-term" ref="#langues">langues</term> grecque, latine et française; 
+                                des <term subtype="linguistics-term" ref="07._1891_Prolusioni_ginevrine.xml#langue1">langues</term> grecque, latine et française; 
                                 <lb xml:id="lb41_p1" n="39" facs="#facs_p1_lb39"/>
                                 <add change="#CHG-3" place="left margin" facs="facs_eutelle-p1r39">eût-elle un but simplement</add> l’intérêt 
                                 <term subtype="linguistics-term" facs="#facs_litteraire-p1r39">littéraire</term>, que peut avoir ensuite la même <!--Manca glossa-->
                                 <lb xml:id="lb43_p1" n="40" facs="#facs_p1_lb40"/>
-                                étude pour <del rend="overstrike" facs="#facs_del1-p1r40">l'<gap reason="illegible" extent="3" unit="chars"/></del>l’<term subtype="?" ref="#histoire" facs="#facs_histoire-p1r40">histoire</term> ou pour 
+                                étude pour <del rend="overstrike" facs="#facs_del1-p1r40">l'<gap reason="illegible" extent="3" unit="chars"/></del>l’<term subtype="?" ref="07._1891_Prolusioni_ginevrine.xml#histoire" facs="#facs_histoire-p1r40">histoire</term> ou pour 
                                 <metamark function="sequence">    <!--THVP-->  <!--Manteniamo <metamark> e non usiamo <label> ma andrebbe chiarito con saussuriani. "sequence" non penso sia il più adatto--><!--Elimina nel caso THVP faccia parte del testo...-->
                                     <choice>
                                         <abbr>T.H.V.P.</abbr>
@@ -658,71 +658,7 @@
                     </item>
                 </list> 
 
-                <!-- GLOSSARIO  -->
-                <list type="terminology">      
-                    <!-- Science du langage = linguistics -->
-                    <label>
-                        <term subtype="linguistics-term" xml:lang="fr" xml:id="science-du-langage" key="">Science du langage</term>
-                    </label>
-                    <item>
-                        <gloss xml:lang="it" target="#science-du-langage" source="ontology_F_d_S.owl#linguistique"> <!--prefix declaration per accorciare l'URI!-->
-                            La science du langage ou des langues, étant sous-entendu que l&apos;objet véritable de l&apos;étude sera la langue (Engler 33). 
-                            (La linguistique) est une science sémiologique (Godel, 267)
-                        </gloss>
-                        <note>Periphrasis for linguistics</note>
-                    </item>
-
-                    <!-- Langues -->
-                    <label><!--langue1-->
-                        <term subtype="linguistics-term" xml:lang="fr" xml:id="langue1" key="">Langue</term> <!--Suggerimento per riconoscere l'accezione: se l'istanza del termine è al plurale, è un idioma-->
-                    </label>
-                    <item>
-                        <gloss n="1" xml:lang="fr" target="#langue1" source="ontology_F_d_S.owl#langue1">
-                            Idiome, langue déterminée quelconque.(Engler, 32) (Godel, 266) ; opposé à langue_1 (Engler, 32)
-                        </gloss>
-                    </item>
-                    <label><!--langue2-->
-                        <term subtype="linguistics-term" xml:lang="fr" xml:id="langue2" key="">Langue</term>
-                    </label>
-                    <item>
-                        <gloss n="2" xml:lang="fr" target="#langue2" source="ontology_F_d_S.owl#langue2">
-                            instrument sémiologique permettant au langage de se manifester dans la parole ; code social organisant 
-                            le langage et formant l’outil nécessaire à l’exercice de la faculté du langage, (Engler, 31) ; ensemble 
-                            des conventions nécessaires adoptées par le corps social pour permettre l&apos;usage de la faculté du 
-                            langage chez les individus. Institution unique en son genre, par les caractères qui font qu&apos;elle est 
-                            solidaire du passé. La langue est un système de signaux, de signes. Système de signes reposant sur des 
-                            images acoustiques, où les deux parties du signe sont psychiques. Sommes des signes évocables. 
-                            Système de valeurs. (Godel, 266)
-                        </gloss>    
-                    </item>
-                    <label><!--langue3-->
-                        <term subtype="linguistics-term" xml:lang="fr" xml:id="langue3" key="">Langue</term>
-                    </label>
-                    <item>
-                        <gloss n="3" xml:lang="fr" target="#langue3" source="ontology_F_d_S.owl#langue3">
-                            Organe charnu, allongé et mobile, placé dans la bouche
-                        </gloss>
-                    </item>
-
-                    <!-- Histoire -->
-                    <label>
-                        <term subtype="?" xml:lang="fr" xml:id="histoire" key="">Histoire</term>
-                    </label>
-                    <item>
-                        <gloss n="1" xml:lang="fr" target="#histoire" source="ontology_F_d_S.owl#histoire">
-                            En linguistique interne : diachronie, linguistique évolutive (Engler, 27)
-                        </gloss>
-                    </item>
-
-                    <!-- Litteraire --> <!-- Ho eliminato il riferimento nel testo perché non saprei che definizione inserire nella glossa -->
-                    <label>
-                        <term subtype="?" xml:lang="fr" xml:id="litteraire" key="">Litteraire</term>
-                    </label>
-                    <item>
-                        <gloss n="1" xml:lang="" target="#litteraire" source="">...</gloss>
-                    </item>
-                </list>
- 
+                <!--Il glossario è 07._1891_Prolusioni_ginevrine.xml-->
             </div>
         </back>
     </text>
