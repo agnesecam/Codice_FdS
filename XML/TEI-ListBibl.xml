@@ -34,25 +34,25 @@
                     <bibl xml:id="Bouquet-Engler2002"> 
                         <title>Écrits de linguistique générale</title>
                         <author>
-                            <persName ref="#FdS">
+                            <persName ref="TEI-ListPerson.xml#FdS">
                                 <forename>Ferdinand</forename> 
                                 <surname>de Saussure</surname>
                             </persName>
                         </author>
                         <author>
-                            <persName ref="#SB">
+                            <persName ref="TEI-ListPerson.xml#SB">
                                 <forename>Simon</forename>
                                 <surname>Bouquet</surname>
                             </persName>
                         </author>
                         <author>
-                            <persName ref="#RE">
+                            <persName ref="TEI-ListPerson.xml#RE">
                                 <forename>Rudolf</forename>
                                 <surname>Engler</surname>
                             </persName>
                         </author>
                         <author>
-                            <persName ref="#AW">
+                            <persName ref="TEI-ListPerson.xml#AW">
                                 <forename>Antoinette</forename>
                                 <surname>Weil</surname>
                             </persName>
