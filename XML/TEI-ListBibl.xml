@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <!-- Insert title for this digital text -->
+                </title>
+            </titleStmt>
+            <publicationStmt>
+                <p>
+                    <!-- Insert information about the publication of this digital text -->
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>
+                    <!-- Insert a bibliographic description of the source for this digital text -->
+                </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>This is a template for a minimal TEI header with the mandatory components:</p>
+        </body>
+        <back>
+            <div type="biblCompleta">
+                <listBibl>
+                
+                    <!--Bouquet-Engler2002-->
+                    <bibl xml:id="Bouquet-Engler2002"> 
+                        <title>Écrits de linguistique générale</title>
+                        <author>
+                            <persName ref="#FdS">
+                                <forename>Ferdinand</forename> 
+                                <surname>de Saussure</surname>
+                            </persName>
+                        </author>
+                        <author>
+                            <persName ref="#SB">
+                                <forename>Simon</forename>
+                                <surname>Bouquet</surname>
+                            </persName>
+                        </author>
+                        <author>
+                            <persName ref="#RE">
+                                <forename>Rudolf</forename>
+                                <surname>Engler</surname>
+                            </persName>
+                        </author>
+                        <author>
+                            <persName ref="#AW">
+                                <forename>Antoinette</forename>
+                                <surname>Weil</surname>
+                            </persName>
+                        </author>
+                        <date when="2002">2002</date>
+                        <publisher>Gallimard</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <idno type="ISSN">0302-5160</idno>
+                        <citedRange unit="page" from="143" to="172">143-172</citedRange>
+                        <note>
+                            French transcription of the manuscript
+                        </note>
+                    </bibl>
+
+                    <!--E.Fadda 2006-->
+                    <bibl xml:id="Fadda2006">
+                        <title type="main">Lingua e mente sociale</title>
+                        <title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
+                        <author>
+                            <persName ref="#EF">
+                                <forename>Emanuele</forename>
+                                <surname>Fadda</surname>
+                            </persName>
+                        </author>  
+                        <publisher>Bonanno Editore</publisher>
+                        <pubPlace>Alessandria</pubPlace>
+                        <citedRange unit="page" from="85" to="121">85-121</citedRange>
+                        <publisher>Bonanno Editore</publisher>
+                        <pubPlace>Acireale - Roma</pubPlace>
+                        <idno type="ISBN">887796276-3</idno>
+                        <citedRange unit="page" from="85" to="121">85-121</citedRange>
+                        <note>
+                            Italian transcription of the manuscript
+                        </note>
+                    </bibl>
+
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
