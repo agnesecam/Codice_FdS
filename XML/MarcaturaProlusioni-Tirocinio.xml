@@ -662,119 +662,12 @@
                 <listBibl xml:id="prolusioni1_bibliography">
                     <head>Bibliography</head>
 
-                    <!--Bouquet-Engler2002-->
-                    <bibl xml:id="Bouquet-Engler2002"> 
-                        <title>Écrits de linguistique générale</title>
-                        <author>
-                            <persName ref="#FdS">
-                                <forename>Ferdinand</forename> 
-                                <surname>de Saussure</surname>
-                            </persName>
-                        </author>
-                        <author>
-                            <persName ref="#SB">
-                                <forename>Simon</forename>
-                                <surname>Bouquet</surname>
-                            </persName>
-                        </author>
-                        <author>
-                            <persName ref="#RE">
-                                <forename>Rudolf</forename>
-                                <surname>Engler</surname>
-                            </persName>
-                        </author>
-                        <author>
-                            <persName ref="#AW">
-                                <forename>Antoinette</forename>
-                                <surname>Weil</surname>
-                            </persName>
-                        </author>
-                        <date when="2002">2002</date>
-                        <publisher>Gallimard</publisher>
-                        <pubPlace>Paris</pubPlace>
-                        <idno type="ISSN">0302-5160</idno>
-                        <citedRange unit="page" from="143" to="172">143-172</citedRange>
-                        <note>
-                            French transcription of the manuscript
-                        </note>
-                    </bibl>
 
-                    <!--E.Fadda 2006-->
-                    <bibl xml:id="Fadda2006">
-                        <title type="main">Lingua e mente sociale</title>
-                        <title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
-                        <author>
-                            <persName ref="#EF">
-                                <forename>Emanuele</forename>
-                                <surname>Fadda</surname>
-                            </persName>
-                        </author>  
-                        <publisher>Bonanno Editore</publisher>
-                        <pubPlace>Alessandria</pubPlace>
-                        <citedRange unit="page" from="85" to="121">85-121</citedRange>
-                        <publisher>Bonanno Editore</publisher>
-                        <pubPlace>Acireale - Roma</pubPlace>
-                        <idno type="ISBN">887796276-3</idno>
-                        <citedRange unit="page" from="85" to="121">85-121</citedRange>
-                        <note>
-                            Italian transcription of the manuscript
-                        </note>
-                    </bibl>
                 </listBibl>
                 
                 <!-- PLACE -->
                 <listPlace>
-                    <head>Places</head>
-                    
-                    <!--Genève-->
-                    <place xml:id="GE">
-                        <placeName ref="https://www.geonames.org/2660646/geneve.html https://www.treccani.it/enciclopedia/ginevra/">Genève</placeName>
-                        <country key="CH">Switzerland</country>
-                        <note>...</note>
-                    </place>
-
-                    <!--Benevento-->
-                    <place xml:id="BN">
-                        <placeName ref="https://www.geonames.org/3182179/benevento.html https://www.treccani.it/enciclopedia/benevento/">Benevento</placeName>
-                        <country key="IT">Italy</country>
-                        <note>...</note>
-                    </place>
-
-                    <!--Piombino-->
-                    <place xml:id="Piombino">
-                        <placeName ref="https://www.geonames.org/6541646/piombino.html https://www.treccani.it/enciclopedia/piombino/">Piombino</placeName>
-                        <country key="IT">Italy</country>
-                        <note>...</note>
-                    </place>
-
-                    <!--Torino-->
-                    <place xml:id="TO">
-                        <placeName ref="https://www.geonames.org/3165523/torino.html https://www.treccani.it/enciclopedia/torino/">Torino</placeName>
-                        <country key="IT">Italy</country>
-                        <note>...</note>
-                    </place>    
-
-                    <!--Cosenza-->
-                    <place xml:id="CS">
-                        <placeName ref="https://www.geonames.org/2524907/cosenza.html https://www.treccani.it/enciclopedia/cosenza/">Cosenza</placeName>
-                        <country key="IT">Italy</country>
-                        <note>...</note>
-                    </place>
-
-                    <!--Cagliari-->
-                    <place xml:id="CA">
-                        <placeName ref="https://www.geonames.org/2524907/cagliari.html https://www.treccani.it/enciclopedia/cagliari/">Cagliari</placeName>
-                        <country key="IT">Italy</country>
-                        <note>...</note>
-                    </place>
-
-                    <!--Osimo-->
-                    <place xml:id="Osimo">
-                        <placeName ref="https://www.geonames.org/3171848/osimo.html https://www.treccani.it/enciclopedia/osimo/">Osimo</placeName>
-                        <country key="IT">Italy</country>
-                        <note>...</note>
-                    </place> 
-
+                    <head>Places</head>                    
                     <listRelation>
                         <!--Luoghi vicini-->
                         <relation name="near" mutual="#Pl1 #Pl2"/>
@@ -789,7 +682,6 @@
 
                 <!-- GLOSSARIO  -->
                 <list type="terminology">      
-
                     <!-- Science du langage = linguistics -->
                     <label>
                         <term subtype="linguistics-term" xml:lang="fr" xml:id="science-du-langage" key="">Science du langage</term>
