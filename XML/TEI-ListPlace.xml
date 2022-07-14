@@ -43,7 +43,7 @@
                         <note>...</note>
                     </place>        
 
-                    <!--Genève-->
+                    <!--Genève, Svizzera-->
                     <place xml:id="GE">
                         <placeName ref="https://www.geonames.org/2660646/geneve.html https://www.treccani.it/enciclopedia/ginevra/">Genève</placeName>
                         <country key="CH">Switzerland</country>
@@ -69,11 +69,24 @@
                         <placeName ref="https://www.geonames.org/3165523/torino.html https://www.treccani.it/enciclopedia/torino/">Torino</placeName>
                         <country key="IT">Italy</country>
                         <note>...</note>
+                    </place>                        
+                    
+                    <!--Vufflens-le-Château, Svizzera-->
+                    <place xml:id="VlC">
+                        <placeName ref="https://www.geonames.org/6619308/vufflens-le-chateau.html">Vufflens-le-Château</placeName>
+                        <country key="CH">Switzerland</country>
+                        <note>...</note>
                     </place>    
 
                     <listRelation>
                         <!--Luoghi vicini-->
                         <relation name="near" mutual="#Pl1 #Pl2"/>
+                        <!--Luogo di nascita di una persona-->
+                        <relation name="birth_place-FdS" active="TEI-ListPerson.xml#FdS" passive="#GE"/>               <!--Ferdinand de Saussure-->
+                        <relation name="birth_place-AMDG" active="TEI-ListPerson.xml#AMDG" passive="#BE"/>      <!--Angelo Mario del Grosso-->
+                        <relation name="birth_place-SP" active="TEI-ListPerson.xml#OS" passive="#SP"/>                   <!--Silvia Piccini-->
+                        <!--Luogo di morte di una persona-->
+                        <relation name="death_place" active="TEI-ListPerson.xml#FdS" passive="#VlC"/>
                     </listRelation>
 
                 </listPlace>
