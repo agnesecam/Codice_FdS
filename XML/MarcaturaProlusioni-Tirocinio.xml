@@ -8,12 +8,12 @@
             <titleStmt>
                 <title type="main">Trois premières conférences à l'Université</title> <!--Titolo preso dalla BGE-->
                 <title type="sub">(cours d'ouverture, <date when="1891-11">novembre 1891</date>)</title>
-                <author ref="TEI-ListPerson.xml#FdS" role="author">Ferdinand de Saussure</author>
+                <author ref="lists/TEI-ListPerson.xml#FdS" role="author">Ferdinand de Saussure</author>
                 <respStmt>
 					<resp>Responsability of:</resp>
-					<name ref="TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
-					<name ref="TEI-ListPerson.xml#AC">Agnese Camici</name>
-					<name ref="TEI-ListPerson.xml#SP">Silvia Piccini</name>
+					<name ref="lists/TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
+					<name ref="lists/TEI-ListPerson.xml#AC">Agnese Camici</name>
+					<name ref="lists/TEI-ListPerson.xml#SP">Silvia Piccini</name>
 				</respStmt>
             </titleStmt>
             
@@ -23,28 +23,28 @@
                 </edition>
                 <respStmt>
                     <resp>Digital edition project coordinated by</resp> 
-                    <name ref="TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
-                    <name ref="TEI-ListPerson.xml#AC">Agnese Camici</name>
-                    <name ref="TEI-ListPerson.xml#SP">Silvia Piccini</name>
-                    <name ref="TEI-ListPerson.xml#EF">Emanuele Fadda</name>
-                    <name ref="TEI-ListPerson.xml#DG">Daniele Gambarara</name>
-                    <name ref="TEI-ListPerson.xml#GC">Giuseppe Cosenza</name>
-                    <name ref="TEI-ListPerson.xml#GD">Giuseppe D'Ottavi</name>
+                    <name ref="lists/TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
+                    <name ref="lists/TEI-ListPerson.xml#AC">Agnese Camici</name>
+                    <name ref="lists/TEI-ListPerson.xml#SP">Silvia Piccini</name>
+                    <name ref="lists/TEI-ListPerson.xml#EF">Emanuele Fadda</name>
+                    <name ref="lists/TEI-ListPerson.xml#DG">Daniele Gambarara</name>
+                    <name ref="lists/TEI-ListPerson.xml#GC">Giuseppe Cosenza</name>
+                    <name ref="lists/TEI-ListPerson.xml#GD">Giuseppe D'Ottavi</name>
                 </respStmt>
                 <respStmt>
                     <resp>Encoding by</resp>
-                    <name ref="TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
-                    <name ref="TEI-ListPerson.xml#AC">Agnese Camici</name>
-                    <name ref="TEI-ListPerson.xml#SP">Silvia Piccini</name>
+                    <name ref="lists/TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
+                    <name ref="lists/TEI-ListPerson.xml#AC">Agnese Camici</name>
+                    <name ref="lists/TEI-ListPerson.xml#SP">Silvia Piccini</name>
                 </respStmt>
                 <respStmt> <!--*1*-->
                     <resp>Transcription by</resp>
-                    <name ref="TEI-ListPerson.xml#SB">Simon Bouquet</name>
-                    <name ref="TEI-ListPerson.xml#RE">Rudolf Engler</name>
+                    <name ref="lists/TEI-ListPerson.xml#SB">Simon Bouquet</name>
+                    <name ref="lists/TEI-ListPerson.xml#RE">Rudolf Engler</name>
                 </respStmt>
                 <respStmt>
                     <resp>Translation by</resp>
-                    <name ref="TEI-ListPerson.xml#EF">Emanuele Fadda</name>
+                    <name ref="lists/TEI-ListPerson.xml#EF">Emanuele Fadda</name>
                 </respStmt>              
             </editionStmt>
 
@@ -69,7 +69,7 @@
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <author xml:lang="fr" ref="TEI-ListPerson.xml#FdS">Ferdinand de Saussure</author>
+                            <author xml:lang="fr" ref="lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
                             <title type="sub">Première conférence</title>
                             <!--<docDate when="1891-11-06">06/11/1891</docDate>--> <!--*6*-->
@@ -77,7 +77,7 @@
                             <textLang mainLang="fr">French</textLang>
                         </msItem>
                         <msItem>
-                            <author xml:lang="fr" ref="TEI-ListPerson.xml#FdS">Ferdinand de Saussure</author>
+                            <author xml:lang="fr" ref="lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
                             <title type="sub">Deuxième conférence</title>
                             <!--<docDate when="1891-11-10">10/11/1891</docDate>-->
@@ -85,7 +85,7 @@
                             <textLang mainLang="fr">French</textLang>                           
                         </msItem>
                         <msItem>
-                            <author xml:lang="fr" ref="TEI-ListPerson.xml#FdS">Ferdinand de Saussure</author>
+                            <author xml:lang="fr" ref="lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr">Trois premières conférences à l'Université</title>
                             <title type="sub">Troisième conférence</title>
                             <!--<docDate when="1891-11-13">13/11/1891</docDate> non lo usare perché non presente nella fonte!-->
@@ -95,7 +95,7 @@
                     </msContents>                    
                     <physDesc>
                         <objectDesc form="folio">
-                            <supportDesc resp="TEI-ListPerson.xml#AC" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef">
+                            <supportDesc resp="lists/TEI-ListPerson.xml#AC" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef">
                                 <support>
                                     <material>Thin checkered paper</material>
                                 </support>
@@ -112,14 +112,14 @@
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1"><!--*7*-->
-                            <handNote xml:id="h1">The main text is written by hand by <persName ref="TEI-ListPerson.xml#FdS">Ferdinand de Saussure</persName></handNote>
+                            <handNote xml:id="h1">The main text is written by hand by <persName ref="lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</persName></handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin ana="#pag1_note2">
                             <origDate when="1891-11-06" cert="high">06/11/1891</origDate> Première conférence
                             <origDate when="1891-11-10" cert="high">10/11/1891</origDate> Deuxième conférence
-                            <origDate when="1891-11-13" cert="low" source="TEI-ListBibl.xml#Bouquet-Engler2002">13/11/1891</origDate> Troisième conférence
+                            <origDate when="1891-11-13" cert="low" source="lists/TEI-ListBibl.xml#Bouquet-Engler2002">13/11/1891</origDate> Troisième conférence
                             <origPlace>Gèneve</origPlace>
                         </origin>
                     </history>
@@ -228,9 +228,9 @@
         <profileDesc>
             <textClass>
                 <keywords scheme="#schemaKeywords"> <!-- questa tassonomia schemaKeywords va dichiarata nell'encodingDesc dentro classDecl -->
-                    <term resp="TEI-ListPerson.xml#AC" ref="07._1891_Prolusioni_ginevrine.xml#linguistique-N"> linguistics </term>
-                    <term resp="TEI-ListPerson.xml#AC"> university </term>
-                    <term resp="TEI-ListPerson.xml#AC"> teaching </term>
+                    <term resp="lists/TEI-ListPerson.xml#AC" ref="07._1891_Prolusioni_ginevrine.xml#linguistique-N"> linguistics </term>
+                    <term resp="lists/TEI-ListPerson.xml#AC"> university </term>
+                    <term resp="lists/TEI-ListPerson.xml#AC"> teaching </term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -364,7 +364,7 @@
         <group> <!--Testo e traduzione delle 3 prolusioni-->
             <group xml:id="fr_Prolusioni"> <!--TESTO FRANCESE DELLE 3 PROLUSIONI-->
                 <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
-                    <body xml:lang="fr" source="TEI-ListBibl.xml#Bouquet-Engler2002">
+                    <body xml:lang="fr" source="lists/TEI-ListBibl.xml#Bouquet-Engler2002">
                         <!--Prima pagina = primo folio, recto-->
                         <pb n="f1r" xml:id="body_p1" facs="#scan_p1"/>
                         <!--Numeri impaginazione a stampa e a mano-->
@@ -382,7 +382,7 @@
                                 <lb xml:id="lb3_p1" n="3" facs="#facs_p1_lb3"/>
                                 d’études <del change="#CHG-3" rend="overstrike" facs="#facs_del1-p1r3"><gap atLeast="1" atMost="3" unit="words" reason="illegible"/></del> nouveau <del change="#CHG-3" rend="overstrike" facs="#facs_del2-p1r3"><gap atLeast="6" atMost="8" unit="words" reason="illegible"/></del>
                                 <lb xml:id="lb4_p1" n="4" facs="#facs_p1_lb4"/>
-                                <del change="#CHG-3" rend="overstrike" facs="#facs_del1-p1r4"> <gap atLeast="1" atMost="2" unit="words" reason="illegible"/></del>sdans <orgName ref="#UniGeneve">notre Université <supplied resp="TEI-ListPerson.xml#AC"> de Genève</supplied></orgName><ptr target="#p1_note1"/>, <add change="#CHG-3" place="above" facs="#facs_si-javais-p1r4">si j’avais</add><del change="#CHG-3" rend="overstrike"><gap atLeast="7" atMost="8" unit="words" reason="illegible"/></del>
+                                <del change="#CHG-3" rend="overstrike" facs="#facs_del1-p1r4"> <gap atLeast="1" atMost="2" unit="words" reason="illegible"/></del>sdans <orgName ref="#UniGeneve">notre Université <supplied resp="lists/TEI-ListPerson.xml#AC"> de Genève</supplied></orgName><ptr target="#p1_note1"/>, <add change="#CHG-3" place="above" facs="#facs_si-javais-p1r4">si j’avais</add><del change="#CHG-3" rend="overstrike"><gap atLeast="7" atMost="8" unit="words" reason="illegible"/></del>
                                 <lb xml:id="lb5_p1" n="5" facs="#facs_p1_lb5"/>
                                 <add change="#CHG-4" place="left margin" facs="#facs_aujourdhui-p1r5">aujourd’hui</add><add change="#CHG-3" place="above" facs="#facs_lamissionou-p1r5">la mission ou le</add> privilège <del change="#CHG-3" rend="overstrike" facs="#facs_del1-p1r5">de vous</del>
                                 <lb xml:id="lb6_p1" n="6" facs="#facs_p1_lb6"/>
@@ -436,7 +436,7 @@
                                     rendre dans une
                                 </add> 
                                 <lb xml:id="lb29_p1" n="29" facs="#facs_p1_lb29"/>
-                                <orgName ref="TEI-ListOrg.xml#FacLettres">Faculté des lettres</orgName>, <delSpan change="#CHG-2" spanTo="delSpan1" rend="overstrike" facs="#facs_del1-p1r29"/><gap reason="illegible" extent="3" unit="lines"/><anchor xml:id="delSpan1"/> <add place="above" facs="#facs_add1-p1r29">je craindrais de ne pas remplir très</add> 
+                                <orgName ref="lists/TEI-ListOrg.xml#FacLettres">Faculté des lettres</orgName>, <delSpan change="#CHG-2" spanTo="delSpan1" rend="overstrike" facs="#facs_del1-p1r29"/><gap reason="illegible" extent="3" unit="lines"/><anchor xml:id="delSpan1"/> <add place="above" facs="#facs_add1-p1r29">je craindrais de ne pas remplir très</add> 
                                 <lb xml:id="lb30_p1" n="30" facs="#facs_p1_lb30"/>
                                 <add change="#CHG-3" place="above" facs="#facs_del1-p1r30">dignement ma tâche, mais <choice facs="#facs_certain-p1r30"><abbr>certain.</abbr> <expan>certain<ex>ement</ex></expan></choice></add> 
                                 <lb xml:id="lb31_p1" n="31" facs="#facs_del1-p1r31"/>
@@ -511,7 +511,7 @@
             
             <group xml:id="it_Prolusioni" xml:lang="IT"> <!--TRADUZIONI ITALIANO DELLE 3 PROLUSIONI-->
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
-                    <body source="TEI-ListBibl.xml#Fadda2006" resp="TEI-ListPerson.xml#EF">
+                    <body source="lists/TEI-ListBibl.xml#Fadda2006" resp="lists/TEI-ListPerson.xml#EF">
                         <ab xml:id="it_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="IT">
                             Se la cattedra che ho in questa occasione l’onore di inaugurare rappresentasse 
                             un ordine di studi nuovo nella nostra Università, se avessi oggi 
@@ -541,7 +541,7 @@
                     </body>
                 </text>
                 <text xml:id="it_Prolusione-2"> <!--ITA 2 PROLUSIONE-->
-                    <body source="TEI-ListBibl.xml#Fadda2006" resp="TEI-ListPerson.xml#EF">
+                    <body source="lists/TEI-ListBibl.xml#Fadda2006" resp="lists/TEI-ListPerson.xml#EF">
                         <ab xml:id="it_91Baaa001" corresp="#pericope_91Baaa001" xml:lang="IT">
                             ...
                         </ab>   
@@ -557,7 +557,7 @@
                     </body>
                 </text>
                 <text xml:id="it_Prolusione-3"> <!--ITA 3 PROLUSIONE-->
-                    <body source="TEI-ListBibl.xml#Fadda2006" resp="TEI-ListPerson.xml#EF">
+                    <body source="lists/TEI-ListBibl.xml#Fadda2006" resp="lists/TEI-ListPerson.xml#EF">
                         <ab xml:id="it_91Caaa001" corresp="#pericope_91Caaa001" xml:lang="IT">
                             ...
                         </ab>   
@@ -576,7 +576,7 @@
 
             <group xml:id="en_Prolusioni" xml:lang="EN"> <!--TRADUZIONI INGLESE DELLE 3 PROLUSIONI-->
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
-                    <body resp="TEI-ListPerson.xml#AC">
+                    <body resp="lists/TEI-ListPerson.xml#AC">
                         <ab xml:id="en_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="EN">
                             If the chair I have the honor of inaugurating on this occasion represented 
                             a new order of study in our University, if I had today the mission or the 
@@ -603,7 +603,7 @@
                     </body>
                 </text>
                 <text xml:id="en_Prolusione-2"> <!--EN 2 PROLUSIONE-->
-                    <body source="TEI-ListBibl.xml#Fadda2006" resp="TEI-ListPerson.xml#EF">
+                    <body source="lists/TEI-ListBibl.xml#Fadda2006" resp="lists/TEI-ListPerson.xml#EF">
                         <ab xml:id="en_91Baaa001" corresp="#pericope_91Baaa001" xml:lang="IT">
                             ...
                         </ab>   
@@ -619,7 +619,7 @@
                     </body>
                 </text>
                 <text xml:id="en_Prolusione-3"> <!--EN 3 PROLUSIONE-->
-                    <body source="TEI-ListBibl.xml#Fadda2006" resp="TEI-ListPerson.xml#EF">
+                    <body source="lists/TEI-ListBibl.xml#Fadda2006" resp="lists/TEI-ListPerson.xml#EF">
                         <ab xml:id="en_91Caaa001" corresp="#pericope_91Caaa001" xml:lang="IT">
                             ...
                         </ab>   
@@ -645,13 +645,13 @@
                 <!-- NOTE -->
                 <list type="notes">
                     <!--1-->
-                    <item n="1" xml:id="pag1_note1" resp="TEI-ListPerson.xml#AC">
+                    <item n="1" xml:id="pag1_note1" resp="lists/TEI-ListPerson.xml#AC">
                         <p>
                             Scilicet “Université de Genève”, it. “Università di Ginevra”
                         </p>
                     </item>
                     <!--2-->
-                    <item n="2" xml:id="pag1_note2" resp="TEI-ListPerson.xml#AC">
+                    <item n="2" xml:id="pag1_note2" resp="lists/TEI-ListPerson.xml#AC">
                         <p>
                             Alessandro Chidichimo's provided each lessons date in his article appearing in Cahiers Ferdinand de Saussure. He provides the dates of the three FdS conferences at the University of Geneva: the certainty of the first two is high, comparing them with the information in the "Journal de Genève" and in "Le Genevois". Chidichimo puts forward two hypotheses for the third conference: Friday 13 November or Tuesday 17.
                         </p>
