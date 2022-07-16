@@ -322,7 +322,8 @@
                                 «Antérieur à l’apparition des témoignages écrits et à l’emploi des métaux.» (TLFi)
                             </quote>
                             <bibl>
-                                <title>Trésor de la Langue Française Informatisé</title> <!--Va bene?-->
+                                <title>Trésor de la Langue Française Informatisé</title>
+                                <ptr type="URL" target="https://www.cnrtl.fr/definition/Antérieur"/>
                             </bibl>
                         </cit>
                     </def>];
@@ -1355,6 +1356,7 @@
                             </quote>
                             <bibl>
                                 <title>Trésor de la Langue Française Informatisé</title>
+                                <ptr type="URL" target="https://www.cnrtl.fr/definition/epoque"/>
                             </bibl>
                         </cit>
                     </def>];
@@ -1616,6 +1618,7 @@
                             </quote>
                             <bibl>
                                 <title>Trésor de la Langue Française Informatisé</title>
+                                <ptr type="URL" target="https://www.cnrtl.fr/definition/fixité"/>
                             </bibl>
                         </cit>
                     </def>];
@@ -1777,6 +1780,7 @@
                             </quote>
                             <bibl>
                                 <title>Trésor de la Langue Française Informatisé</title>
+                                <ptr type="URL" target="https://www.cnrtl.fr/definition/frontière"/>                               
                             </bibl>
                         </cit>
                     </def>];
@@ -1958,6 +1962,7 @@
                             </quote>
                             <bibl>
                                 <title>Trésor de la Langue Française Informatisé</title>
+                                <ptr type="URL" target="https://www.cnrtl.fr/definition/histoire"/>
                             </bibl>
                         </cit>
                     </def>];
@@ -2038,6 +2043,7 @@
                             </quote>
                             <bibl>
                                 <title>Trésor de la Langue Française Informatisé</title>
+                                <ptr type="URL" target="https://www.cnrtl.fr/definition/historien"/>
                             </bibl>
                         </cit>
                     </def>];
@@ -2146,6 +2152,7 @@
                             </quote>
                             <bibl>
                                 <title>Trésor de la Langue Française Informatisé</title>
+                                <ptr type="URL" target="https://www.cnrtl.fr/definition/impérissable"/>
                             </bibl>
                         </cit>
                     </def>];
@@ -2940,7 +2947,8 @@
                                 fonctionnement d’une machine.» (TLFi)
                             </quote>
                             <bibl>
-                                <title>Trésor de la Langue Française Informatisé</title> <!--Va bene?-->
+                                <title>Trésor de la Langue Française Informatisé</title>
+                                <ptr type="URL" target="https://www.cnrtl.fr/definition/matière"/>
                             </bibl>
                         </cit>
                         qualità peculiare delle operazioni che caratterizzano i
@@ -3870,7 +3878,8 @@
                                 manière d’envisager les chosesx.» (TLFi)
                             </quote>
                             <bibl>
-                                <title>Trésor de la Langue Française Informatisé</title> <!--Va bene?-->
+                                <title>Trésor de la Langue Française Informatisé</title>
+                                <ptr type="URL" target="https://www.cnrtl.fr/definition/point%20de%20vue"/>
                             </bibl>
                         </cit>
                     </def>];
@@ -4273,6 +4282,7 @@
                             </quote>
                             <bibl>
                                 <title>Trésor de la Langue Française Informatisé</title> <!--Va bene?-->
+                                <ptr type="URL" target="https://www.cnrtl.fr/definition/temps"/>
                             </bibl>
                         </cit>
                         ha un ruolo determinant sia nella continuità
@@ -4328,7 +4338,8 @@
                                     une idée définie» (TLFi)
                                 </quote>
                                 <bibl>
-                                    <title>Trésor de la Langue Française Informatisé</title> <!--Va bene?-->
+                                    <title>Trésor de la Langue Française Informatisé</title>
+                                    <ptr type="URL" target="https://www.cnrtl.fr/definition/terme"/>
                                 </bibl>
                             </cit>
                         </def>];
@@ -4582,7 +4593,8 @@
                                     «Antérieur à l’apparition des témoignages écrits et à l’emploi des métaux.» (TLFi)
                                 </quote>
                                 <bibl>
-                                    <title>Trésor de la Langue Française Informatisé</title> <!--Va bene?-->
+                                    <title>Trésor de la Langue Française Informatisé</title>
+                                    <ptr type="URL" target="https://www.cnrtl.fr/definition/universel"/>
                                 </bibl>
                             </cit>
                         </def>];
@@ -4727,7 +4739,7 @@
 
             <entry xml:id="volapuk"> <!-- <entry xml:id="volapük"> -->
                 <form>
-                    <orth>Vieux</orth>
+                    <orth>Volapük</orth>
                 </form>
                 <sense n="1">
                     [<def>
@@ -4736,7 +4748,8 @@
                                 «Langue internationale artificielle supplantée par l’espéranto.» (TLFi)
                             </quote>
                             <bibl>
-                                <title>Trésor de la Langue Française Informatisé</title> <!--Va bene?-->
+                                <title>Trésor de la Langue Française Informatisé</title>
+                                <ptr type="URL" target="https://www.cnrtl.fr/definition/volapük/>
                             </bibl>
                         </cit>
                         <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml">v. area B</ref> <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml#langue_artificielle">langue artificielle</ref>
