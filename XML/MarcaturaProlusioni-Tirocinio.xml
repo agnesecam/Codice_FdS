@@ -489,12 +489,12 @@
                     </body>
                 </text>
                 <text xml:id="fr_Prolusione-2"><!--FR 2 PROLUSIONE-->
-                    <body>
+                    <body xml:lang="fr" source="lists/TEI-ListBibl.xml#Bouquet-Engler2002">
                         <ab> ... </ab>
                     </body>
                 </text>
                 <text xml:id="fr_Prolusione-3"><!--FR 3 PROLUSIONE-->
-                    <body>
+                    <body xml:lang="fr" source="lists/TEI-ListBibl.xml#Bouquet-Engler2002">
                         <ab> ... </ab>
                     </body>
                 </text>
