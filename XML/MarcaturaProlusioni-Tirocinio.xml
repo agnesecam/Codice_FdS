@@ -63,24 +63,22 @@
                             <author xml:lang="fr" ref="#lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
                             <title type="sub">Première conférence</title>
-                            <!--<docDate when="1891-11-06">06/11/1891</docDate>--> <!--*6*-->
-                            <date when="1891-11-06" evidence="external" source="#/lists/TEI-ListBibl.xml/Journal de Genève #/lists/TEI-ListBibl.xml/Le Genevois">06/11/1891</date> <!--evidence https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.editLike.html --> <!--usare attributo notAfter per indicare la redazione degli scritti e aggiungi attr. source per datazione con confidence (da 20s a 30s)-->
+                            <date notAfter="1891-11-06" evidence="external" source="#/lists/TEI-ListBibl.xml/Journal de Genève #/lists/TEI-ListBibl.xml/Le Genevois">06/11/1891</date>
                             <textLang mainLang="fr">French</textLang>
                         </msItem>
                         <msItem>
                             <author xml:lang="fr" ref="#lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
                             <title type="sub">Deuxième conférence</title>
-                            <!--<docDate when="1891-11-10">10/11/1891</docDate>-->
-                            <date when="1891-11-10" evidence="high">10/11/1891</date>
+                            <date notAfter="1891-11-10" evidence="external" source="#/lists/TEI-ListBibl.xml/Journal de Genève #/lists/TEI-ListBibl.xml/Le Genevois">10/11/1891</date>
                             <textLang mainLang="fr">French</textLang>                           
                         </msItem>
                         <msItem>
                             <author xml:lang="fr" ref="#lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr">Trois premières conférences à l'Université</title>
                             <title type="sub">Troisième conférence</title>
-                            <!--<docDate when="1891-11-13">13/11/1891</docDate> non lo usare perché non presente nella fonte!-->
-                            <date when="1891-11-13" evidence="">06/13/1891</date> -<!--La seconda ipotesi di Chid. è 17/11/1891-->
+                            <date notAfter="1891-11-13" confidence="" evidence="external" source="#/lists/TEI-ListBibl.xml/Journal de Genève #/lists/TEI-ListBibl.xml/Le Genevois">06/13/1891</date>
+                            <date notAfter="1891-11-17" confidence="" evidence="external" source="#/lists/TEI-ListBibl.xml/Journal de Genève #/lists/TEI-ListBibl.xml/Le Genevois">06/17/1891</date> <!--La seconda ipotesi di Chid. è 17/11/1891-->
                             <textLang mainLang="fr">French</textLang>
                         </msItem>                        
                     </msContents>                    
@@ -98,11 +96,11 @@
                                     </measureGrp>
                                     <dimensions type="leaves" unit="mm"><height unit="mm" quantity="211">211</height><width unit="mm" quantity="136">136</width></dimensions>
                                 </extent>
-                                <collation>The page is part of a notebook composed of a left and a right page, each page consists in a folio</collation><!--*8*-->
+                                <collation>The page is part of a notebook composed of a left and a right page, each page consists in a folio</collation>
                                 <condition>Well preserved notebook, good conditions. Some pages present a few tears in the left or right borders.</condition>
                             </supportDesc>
                         </objectDesc>
-                        <handDesc hands="1"><!--*7*-->
+                        <handDesc hands="1">
                             <handNote xml:id="h1">The main text is written by hand by <persName ref="#lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</persName></handNote>
                         </handDesc>
                     </physDesc>
@@ -148,7 +146,7 @@
                             </label>
                             <item corresp="#pericope_91Aaaa001" facs="#facs_Pericope1">
                                 <!--Testo per. 1-->
-                                <seg type=""> <!--*9* attributo per indicare che è l'inizio del corpo della pericope-->
+                                <seg type="incipit-pericope"> <!--*9* attributo per indicare che è l'inizio del corpo della pericope-->
                                     Si la chaire que j’ai en ce moment l’honneur [...]
                                 </seg>
                                 <!--Descr. per. 1-->
@@ -164,7 +162,7 @@
                             </label>
                             <item corresp="#pericope_91Aaaa002" facs="#facs_Pericope2">
                                 <!--Testo per. 2-->
-                                <seg>
+                                <seg type="incipit-pericope">
                                     Sans exalter outre mesure les mérites [...]
                                 </seg>
                                 <!--Descr. per. 2-->
@@ -180,7 +178,7 @@
                             </label>
                             <item corresp="#pericope_91Aaaa003">
                                 <!--Testo per. 3-->
-                                <seg>
+                                <seg type="incipit-pericope">
                                     – et j’aurais ici à rappeler le nom genevois, [...]
                                 </seg>
                                 <!--Descr. per. 3-->
@@ -194,7 +192,7 @@
                             </label>
                             <item corresp="#pericope_91Aaaa004">
                                 <!--Testo per. 4-->
-                                <seg>
+                                <seg type="incipit-pericope">
                                     C’est une exigence à laquelle j’ai commencé [...]
                                 </seg>
                                 <!--Descr. per. 4-->
@@ -208,7 +206,7 @@
                             </label>
                             <item corresp="#pericope_91Aaaa005">
                                 <!--Testo per. 5-->
-                                <seg>
+                                <seg type="incipit-pericope">
                                     À quelle science pose-t-on cette condition [...]
                                 </seg>
                                 <!--Descr. per. 5-->
