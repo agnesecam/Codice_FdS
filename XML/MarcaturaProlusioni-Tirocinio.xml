@@ -54,7 +54,7 @@
                         <country>Switzerland</country>    
                         <settlement>Genève</settlement>
                         <institution>Bibliothèque de Genève</institution>
-                        <repository role="library" ref="http://institutions.ville-geneve.ch/fr/bge/">Bibliothèque de Genève</repository><!--*5*-->
+                        <repository role="library" ref="http://institutions.ville-geneve.ch/fr/bge/"><choice><abbr>BGE</abbr><expan>Bibliothèque de Genève</expan></choice></repository><!--*5*-->
                         <collection>Archives Ferdinand de Saussure</collection>
                         <idno type="inventory">Ms. fr. 3951/1</idno> <!--*4*-->
                     </msIdentifier>
@@ -109,7 +109,7 @@
                     <additional>
                         <surrogates>
                             <ptr target="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef"/>
-                            <!-- *** Ho spostato <altIdentifier type="inventory"><idno>17786/vtae78f994bf3242bef</idno></altIdentifier> dall'<msIdentifier> nei <surrogates>. Come è corretto inserire questo identificativo?-->
+                            <!-- *** Ho spostato <altIdentifier type="inventory"><idno>17786/vtae78f994bf3242bef</idno></altIdentifier> dall'<msIdentifier> nei <surrogates>. Come è corretto inserire questo identificativo secondario?-->
                         </surrogates>
                     </additional>
                     <history>
