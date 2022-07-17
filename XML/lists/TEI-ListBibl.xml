@@ -104,6 +104,18 @@
                         </note>
                     </bibl>
 
+                    <!--Le Genevois-->
+                    <bibl xml:id="LeGenevois">
+                        <title type="main">Le Genevois</title>
+                        <date when="1891">1981</date>
+                        <note>
+                            Historical archive, avaible at the BGE Salle des périodiques
+                        </note>
+                        <note>
+                            Source used by Chidichimo in his article appeared in the Cahiers Ferdinand de Saussure
+                        </note>
+                    </bibl>
+
                 </listBibl>
             </div>
         </back>
