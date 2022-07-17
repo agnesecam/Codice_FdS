@@ -36,16 +36,7 @@
                     <name ref="lists/TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
                     <name ref="lists/TEI-ListPerson.xml#AC">Agnese Camici</name>
                     <name ref="lists/TEI-ListPerson.xml#SP">Silvia Piccini</name>
-                </respStmt>
-                <respStmt> <!--*1*-->
-                    <resp>Transcription by</resp>
-                    <name ref="lists/TEI-ListPerson.xml#SB">Simon Bouquet</name>
-                    <name ref="lists/TEI-ListPerson.xml#RE">Rudolf Engler</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Translation by</resp>
-                    <name ref="lists/TEI-ListPerson.xml#EF">Emanuele Fadda</name>
-                </respStmt>              
+                </respStmt>        
             </editionStmt>
 
             <publicationStmt> <!--*2*-->
