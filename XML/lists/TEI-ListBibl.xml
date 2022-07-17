@@ -76,15 +76,31 @@
                                 <surname>Fadda</surname>
                             </persName>
                         </author>  
+                        <date when="2006">2006</date>
                         <publisher>Bonanno Editore</publisher>
                         <pubPlace>Alessandria</pubPlace>
                         <citedRange unit="page" from="85" to="121">85-121</citedRange>
                         <publisher>Bonanno Editore</publisher>
                         <pubPlace>Acireale - Roma</pubPlace>
                         <idno type="ISBN">887796276-3</idno>
-                        <citedRange unit="page" from="85" to="121">85-121</citedRange>
                         <note>
                             Italian transcription of the manuscript
+                        </note>
+                    </bibl>
+
+                    <!--Journal de Genève-->
+                    <bibl xml:id="JdG">
+                        <title type="main">Le Journal de Genève</title>
+                        <title type="article">Horace Micheli</title>
+                        <date when="1931-05-07">7 mai 1931</date>
+                        <author>J. Martin</author>
+                        <pubPlace>Genève</pubPlace>
+                        <citedRange unit="page">1</citedRange>
+                        <note>
+                            Avaible online at <ptr href="https://www.letempsarchives.ch/"/>
+                        </note>
+                        <note>
+                            Source used by Chidichimo in his article appeared in the Cahiers Ferdinand de Saussure
                         </note>
                     </bibl>
 

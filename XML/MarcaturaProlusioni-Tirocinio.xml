@@ -54,9 +54,9 @@
                         <country>Switzerland</country>    
                         <settlement>Genève</settlement>
                         <institution>Bibliothèque de Genève</institution>
-                        <repository role="library" ref="http://institutions.ville-geneve.ch/fr/bge/"><choice><abbr>BGE</abbr><expan>Bibliothèque de Genève</expan></choice></repository><!--*5*-->
+                        <repository role="library" ref="http://institutions.ville-geneve.ch/fr/bge/"><choice><abbr>BGE</abbr><expan>Bibliothèque de Genève</expan></choice></repository>
                         <collection>Archives Ferdinand de Saussure</collection>
-                        <idno type="inventory">Ms. fr. 3951/1</idno> <!--*4*-->
+                        <idno type="inventory">Ms. fr. 3951/1</idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
@@ -64,7 +64,8 @@
                             <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
                             <title type="sub">Première conférence</title>
                             <!--<docDate when="1891-11-06">06/11/1891</docDate>--> <!--*6*-->
-                            <date when="1891-11-06" evidence="">06/11/1891</date> <!--evidence https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.editLike.html --> <!--usare attributo notAfter per indicare la redazione degli scritti e aggiungi attr. source per datazione con confidence (da 20s a 30s)-->
+                            <date when="1891-11-06" evidence="external" source="Journal de Genève Le Genevois
+">06/11/1891</date> <!--evidence https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.editLike.html --> <!--usare attributo notAfter per indicare la redazione degli scritti e aggiungi attr. source per datazione con confidence (da 20s a 30s)-->
                             <textLang mainLang="fr">French</textLang>
                         </msItem>
                         <msItem>
