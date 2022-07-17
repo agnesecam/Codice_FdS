@@ -439,7 +439,7 @@
                             </ab>
                             <!--Fine 1 pericope-->
                             <!--Inizio 2 pericope-->        
-                            <ab xml:id="pericope_91Aaaa002" n="2" xml:lang="FR" corresp="#it_91Aaaa002 #en_91Aaaa02" facs="#facs_Pericope2a"> 
+                            <ab xml:id="pericope_91Aaaa002" n="2" xml:lang="FR" corresp="#it_91Aaaa002 #en_91Aaaa02" facs="#facs_Pericope2a" part="I"> 
                                 <add change="#CHG-3" place="left margin" facs="#facs_p1_leftblock2">
                                     <lb xml:id="lb32_p1" n="32" facs="#facs_p1_lb32"/>
                                     Sans exalter 
@@ -475,7 +475,7 @@
                         <fw type="pageNum" xml:id="HandPageNumber-2" rend="align(left)" facs="#facs_HandPageNumber-2">2</fw>
                         <div xml:id="div_p2" hand="#h1">
                             <!--Continuo 2a pericope iniziata in pagina 1-->
-                            <ab n="2"  xml:lang="FR" corresp="#pericope_91Aaaa002 it_91Aaaa002 en_91Aaaa002" facs="#facs_Pericope2b"> 
+                            <ab n="2"  xml:lang="FR" corresp="#pericope_91Aaaa002 it_91Aaaa002 en_91Aaaa002" facs="#facs_Pericope2b" part="F"> 
                                 <lb xml:id="lb1_p2" n="1" facs="#p2lb1"/>
                                 l’<term subtype="?" ref="#07._1891_Prolusioni_ginevrine.xml#histoire" facs="#facs_histoire-p2r1">histoire</term> de la civilisation
                             </ab>
