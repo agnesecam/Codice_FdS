@@ -8,12 +8,12 @@
             <titleStmt>
                 <title type="main">Trois premières conférences à l'Université</title> <!--Titolo preso dalla BGE-->
                 <title type="sub">(cours d'ouverture, <date when="1891-11">novembre 1891</date>)</title>
-                <author ref="lists/TEI-ListPerson.xml#FdS" role="author">Ferdinand de Saussure</author>
+                <author ref="#lists/TEI-ListPerson.xml#FdS" role="author">Ferdinand de Saussure</author>
                 <respStmt>
 					<resp>Responsability of:</resp>
-					<name ref="lists/TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
-					<name ref="lists/TEI-ListPerson.xml#AC">Agnese Camici</name>
-					<name ref="lists/TEI-ListPerson.xml#SP">Silvia Piccini</name>
+					<name ref="#lists/TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
+					<name ref="#lists/TEI-ListPerson.xml#AC">Agnese Camici</name>
+					<name ref="#lists/TEI-ListPerson.xml#SP">Silvia Piccini</name>
 				</respStmt>
             </titleStmt>
             
@@ -23,19 +23,19 @@
                 </edition>
                 <respStmt>
                     <resp>Digital edition project coordinated by</resp> 
-                    <name ref="lists/TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
-                    <name ref="lists/TEI-ListPerson.xml#AC">Agnese Camici</name>
-                    <name ref="lists/TEI-ListPerson.xml#SP">Silvia Piccini</name>
-                    <name ref="lists/TEI-ListPerson.xml#EF">Emanuele Fadda</name>
-                    <name ref="lists/TEI-ListPerson.xml#DG">Daniele Gambarara</name>
-                    <name ref="lists/TEI-ListPerson.xml#GC">Giuseppe Cosenza</name>
-                    <name ref="lists/TEI-ListPerson.xml#GD">Giuseppe D'Ottavi</name>
+                    <name ref="#lists/TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
+                    <name ref="#lists/TEI-ListPerson.xml#AC">Agnese Camici</name>
+                    <name ref="#lists/TEI-ListPerson.xml#SP">Silvia Piccini</name>
+                    <name ref="#lists/TEI-ListPerson.xml#EF">Emanuele Fadda</name>
+                    <name ref="#lists/TEI-ListPerson.xml#DG">Daniele Gambarara</name>
+                    <name ref="#lists/TEI-ListPerson.xml#GC">Giuseppe Cosenza</name>
+                    <name ref="#lists/TEI-ListPerson.xml#GD">Giuseppe D'Ottavi</name>
                 </respStmt>
                 <respStmt>
                     <resp>Encoding by</resp>
-                    <name ref="lists/TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
-                    <name ref="lists/TEI-ListPerson.xml#AC">Agnese Camici</name>
-                    <name ref="lists/TEI-ListPerson.xml#SP">Silvia Piccini</name>
+                    <name ref="#lists/TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
+                    <name ref="#lists/TEI-ListPerson.xml#AC">Agnese Camici</name>
+                    <name ref="#lists/TEI-ListPerson.xml#SP">Silvia Piccini</name>
                 </respStmt>        
             </editionStmt>
 
@@ -54,22 +54,21 @@
                         <country>Switzerland</country>    
                         <settlement>Genève</settlement>
                         <institution>Bibliothèque de Genève</institution>
-                        <repository role="library" ref="http://institutions.ville-geneve.ch/fr/bge/"><choice><abbr>BGE</abbr><expan>Bibliothèque de Genève</expan></choice></repository>
+                        <repository role="library" ref="#http://institutions.ville-geneve.ch/fr/bge/"><choice><abbr>BGE</abbr><expan>Bibliothèque de Genève</expan></choice></repository>
                         <collection>Archives Ferdinand de Saussure</collection>
                         <idno type="inventory">Ms. fr. 3951/1</idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <author xml:lang="fr" ref="lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</author>
+                            <author xml:lang="fr" ref="#lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
                             <title type="sub">Première conférence</title>
                             <!--<docDate when="1891-11-06">06/11/1891</docDate>--> <!--*6*-->
-                            <date when="1891-11-06" evidence="external" source="Journal de Genève Le Genevois
-">06/11/1891</date> <!--evidence https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.editLike.html --> <!--usare attributo notAfter per indicare la redazione degli scritti e aggiungi attr. source per datazione con confidence (da 20s a 30s)-->
+                            <date when="1891-11-06" evidence="external" source="#/lists/TEI-ListBibl.xml/Journal de Genève #/lists/TEI-ListBibl.xml/Le Genevois">06/11/1891</date> <!--evidence https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.editLike.html --> <!--usare attributo notAfter per indicare la redazione degli scritti e aggiungi attr. source per datazione con confidence (da 20s a 30s)-->
                             <textLang mainLang="fr">French</textLang>
                         </msItem>
                         <msItem>
-                            <author xml:lang="fr" ref="lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</author>
+                            <author xml:lang="fr" ref="#lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
                             <title type="sub">Deuxième conférence</title>
                             <!--<docDate when="1891-11-10">10/11/1891</docDate>-->
@@ -77,7 +76,7 @@
                             <textLang mainLang="fr">French</textLang>                           
                         </msItem>
                         <msItem>
-                            <author xml:lang="fr" ref="lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</author>
+                            <author xml:lang="fr" ref="#lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr">Trois premières conférences à l'Université</title>
                             <title type="sub">Troisième conférence</title>
                             <!--<docDate when="1891-11-13">13/11/1891</docDate> non lo usare perché non presente nella fonte!-->
@@ -104,7 +103,7 @@
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1"><!--*7*-->
-                            <handNote xml:id="h1">The main text is written by hand by <persName ref="lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</persName></handNote>
+                            <handNote xml:id="h1">The main text is written by hand by <persName ref="#lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</persName></handNote>
                         </handDesc>
                     </physDesc>
                     <additional>
@@ -226,7 +225,7 @@
         <profileDesc>
             <textClass>
                 <keywords scheme="#schemaKeywords"> <!-- questa tassonomia schemaKeywords va dichiarata nell'encodingDesc dentro classDecl -->
-                    <term resp="lists/TEI-ListPerson.xml#AC" ref="07._1891_Prolusioni_ginevrine.xml#linguistique-N"> linguistics </term>
+                    <term resp="lists/TEI-ListPerson.xml#AC" ref="#07._1891_Prolusioni_ginevrine.xml#linguistique-N"> linguistics </term>
                     <term resp="lists/TEI-ListPerson.xml#AC"> university </term>
                     <term resp="lists/TEI-ListPerson.xml#AC"> teaching </term>
                 </keywords>
@@ -380,7 +379,7 @@
                                 <lb xml:id="lb3_p1" n="3" facs="#facs_p1_lb3"/>
                                 d’études <del change="#CHG-3" rend="overstrike" facs="#facs_del1-p1r3"><gap atLeast="1" atMost="3" unit="words" reason="illegible"/></del> nouveau <del change="#CHG-3" rend="overstrike" facs="#facs_del2-p1r3"><gap atLeast="6" atMost="8" unit="words" reason="illegible"/></del>
                                 <lb xml:id="lb4_p1" n="4" facs="#facs_p1_lb4"/>
-                                <del change="#CHG-3" rend="overstrike" facs="#facs_del1-p1r4"> <gap atLeast="1" atMost="2" unit="words" reason="illegible"/></del>sdans <orgName ref="#UniGeneve">notre Université <supplied resp="lists/TEI-ListPerson.xml#AC"> de Genève</supplied></orgName><ptr target="#p1_note1"/>, <add change="#CHG-3" place="above" facs="#facs_si-javais-p1r4">si j’avais</add><del change="#CHG-3" rend="overstrike"><gap atLeast="7" atMost="8" unit="words" reason="illegible"/></del>
+                                <del change="#CHG-3" rend="overstrike" facs="#facs_del1-p1r4"> <gap atLeast="1" atMost="2" unit="words" reason="illegible"/></del>sdans <orgName ref="#/lists/TEI-ListBibl.xml#UniGeneve">notre Université <supplied resp="lists/TEI-ListPerson.xml#AC"> de Genève</supplied></orgName><ptr target="#p1_note1"/>, <add change="#CHG-3" place="above" facs="#facs_si-javais-p1r4">si j’avais</add><del change="#CHG-3" rend="overstrike"><gap atLeast="7" atMost="8" unit="words" reason="illegible"/></del>
                                 <lb xml:id="lb5_p1" n="5" facs="#facs_p1_lb5"/>
                                 <add change="#CHG-4" place="left margin" facs="#facs_aujourdhui-p1r5">aujourd’hui</add><add change="#CHG-3" place="above" facs="#facs_lamissionou-p1r5">la mission ou le</add> privilège <del change="#CHG-3" rend="overstrike" facs="#facs_del1-p1r5">de vous</del>
                                 <lb xml:id="lb6_p1" n="6" facs="#facs_p1_lb6"/>
@@ -389,7 +388,7 @@
                                 <!--Margine sx--> 
                                 <add change="#CHG-4" place="left margin" facs="#facs_p1_leftblock1">
                                     <lb xml:id="lb7_p1" n="7" facs="#facs_p1_lb7"/>
-                                    que la <term subtype="linguistics-term" ref="07._1891_Prolusioni_ginevrine.xml#linguistique-N" facs="#facs_scdulang-p1r7"><choice><abbr>sc.</abbr> <expan>sc<ex>ience</ex></expan></choice> du 
+                                    que la <term subtype="linguistics-term" ref="#07._1891_Prolusioni_ginevrine.xml#linguistique-N" facs="#facs_scdulang-p1r7"><choice><abbr>sc.</abbr> <expan>sc<ex>ience</ex></expan></choice> du 
                                     <lb xml:id="lb8_p1" n="8" facs="#facs_p1_lb8"/>
                                     <choice><abbr>l<am>.</am>age</abbr><expan>l<ex>ang</ex>age</expan></choice></term> est <choice facs="#facs_occ-p1r8"><abbr>occ.</abbr> <expan>occ<ex>upée</ex></expan></choice> 
                                     <lb xml:id="lb9_p1" n="9" facs="#facs_p1_lb9"/> 
@@ -434,7 +433,7 @@
                                     rendre dans une
                                 </add> 
                                 <lb xml:id="lb29_p1" n="29" facs="#facs_p1_lb29"/>
-                                <orgName ref="lists/TEI-ListOrg.xml#FacLettres">Faculté des lettres</orgName>, <delSpan change="#CHG-2" spanTo="delSpan1" rend="overstrike" facs="#facs_del1-p1r29"/><gap reason="illegible" extent="3" unit="lines"/><anchor xml:id="delSpan1"/> <add place="above" facs="#facs_add1-p1r29">je craindrais de ne pas remplir très</add> 
+                                <orgName ref="#lists/TEI-ListOrg.xml#FacLettres">Faculté des lettres</orgName>, <delSpan change="#CHG-2" spanTo="delSpan1" rend="overstrike" facs="#facs_del1-p1r29"/><gap reason="illegible" extent="3" unit="lines"/><anchor xml:id="delSpan1"/> <add place="above" facs="#facs_add1-p1r29">je craindrais de ne pas remplir très</add> 
                                 <lb xml:id="lb30_p1" n="30" facs="#facs_p1_lb30"/>
                                 <add change="#CHG-3" place="above" facs="#facs_del1-p1r30">dignement ma tâche, mais <choice facs="#facs_certain-p1r30"><abbr>certain.</abbr> <expan>certain<ex>ement</ex></expan></choice></add> 
                                 <lb xml:id="lb31_p1" n="31" facs="#facs_del1-p1r31"/>
@@ -449,7 +448,7 @@
                                     <lb xml:id="lb33_p1" n="33" facs="#facs_p1_lb33"/>
                                     outre mesure 
                                     <lb xml:id="lb34_p1" n="34" facs="#facs_p1_lb34"/>
-                                    les mérites de la <term subtype="linguistics-term" ref="07._1891_Prolusioni_ginevrine.xml#linguistique-N" facs="#facs_linguistique-p1r34">linguistique</term>,
+                                    les mérites de la <term subtype="linguistics-term" ref="#07._1891_Prolusioni_ginevrine.xml#linguistique-N" facs="#facs_linguistique-p1r34">linguistique</term>,
                                     <lb xml:id="lb35_p1" n="35" facs="#facs_p1_lb35"/>
                                     quel est le </add> 
                                 <lb xml:id="lb36_p1" n="36" facs="#facs_p1_lb36"/>
@@ -457,12 +456,12 @@
                                 <lb xml:id="lb37_p1" n="37" facs="#facs_p1_lb37"/>
                                 étude l’érudition classique, la connaissance 
                                 <lb xml:id="lb38_p1" n="38" facs="#facs_p1_lb38"/>
-                                des <term subtype="linguistics-term" ref="07._1891_Prolusioni_ginevrine.xml#langue1">langues</term> grecque, latine et française; 
+                                des <term subtype="linguistics-term" ref="#07._1891_Prolusioni_ginevrine.xml#langue1">langues</term> grecque, latine et française; 
                                 <lb xml:id="lb41_p1" n="39" facs="#facs_p1_lb39"/>
                                 <add change="#CHG-3" place="left margin" facs="facs_eutelle-p1r39">eût-elle un but simplement</add> l’intérêt 
                                 <term subtype="linguistics-term" facs="#facs_litteraire-p1r39">littéraire</term>, que peut avoir ensuite la même <!--Manca glossa-->
                                 <lb xml:id="lb43_p1" n="40" facs="#facs_p1_lb40"/>
-                                étude pour <del rend="overstrike" facs="#facs_del1-p1r40">l'<gap reason="illegible" extent="3" unit="chars"/></del>l’<term subtype="?" ref="07._1891_Prolusioni_ginevrine.xml#histoire" facs="#facs_histoire-p1r40">histoire</term> ou pour 
+                                étude pour <del rend="overstrike" facs="#facs_del1-p1r40">l'<gap reason="illegible" extent="3" unit="chars"/></del>l’<term subtype="?" ref="#07._1891_Prolusioni_ginevrine.xml#histoire" facs="#facs_histoire-p1r40">histoire</term> ou pour 
                                 <metamark function="sequence">    <!--THVP-->  <!--Manteniamo <metamark> e non usiamo <label> ma andrebbe chiarito con saussuriani. "sequence" non penso sia il più adatto--><!--Elimina nel caso THVP faccia parte del testo...-->
                                     <choice>
                                         <abbr>T.H.V.P.</abbr>
@@ -480,7 +479,7 @@
                             <!--Continuo 2a pericope iniziata in pagina 1-->
                             <ab n="2"  xml:lang="FR" corresp="#pericope_91Aaaa002 it_91Aaaa002 en_91Aaaa002" facs="#facs_Pericope2b"> 
                                 <lb xml:id="lb1_p2" n="1" facs="#p2lb1"/>
-                                l’<term subtype="?" ref="#histoire" facs="#facs_histoire-p2r1">histoire</term> de la civilisation
+                                l’<term subtype="?" ref="#07._1891_Prolusioni_ginevrine.xml#histoire" facs="#facs_histoire-p2r1">histoire</term> de la civilisation
                             </ab>
                             <!--Fine 2a pericope-->
                             <!--Inizio 3a pericope-->
