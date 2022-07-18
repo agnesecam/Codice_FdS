@@ -63,22 +63,28 @@
                             <author xml:lang="fr" ref="#lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
                             <title type="sub">Première conférence</title>
-                            <date notAfter="1891-11-06" evidence="external" source="#/lists/TEI-ListBibl.xml/Journal de Genève #/lists/TEI-ListBibl.xml/Le Genevois">06/11/1891</date>
+                            <note>
+                                <date notAfter="1891-11-06" evidence="external" source="#/lists/TEI-ListBibl.xml/Journal de Genève #/lists/TEI-ListBibl.xml/Le Genevois">06/11/1891</date>
+                            </note>
                             <textLang mainLang="fr">French</textLang>
                         </msItem>
                         <msItem>
                             <author xml:lang="fr" ref="#lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
                             <title type="sub">Deuxième conférence</title>
-                            <date notAfter="1891-11-10" evidence="external" source="#/lists/TEI-ListBibl.xml/Journal de Genève #/lists/TEI-ListBibl.xml/Le Genevois">10/11/1891</date>
+                            <note>
+                                <date notAfter="1891-11-10" evidence="external" source="#/lists/TEI-ListBibl.xml/Journal de Genève #/lists/TEI-ListBibl.xml/Le Genevois">10/11/1891</date>
+                            </note>
                             <textLang mainLang="fr">French</textLang>                           
                         </msItem>
                         <msItem>
                             <author xml:lang="fr" ref="#lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr">Trois premières conférences à l'Université</title>
                             <title type="sub">Troisième conférence</title>
-                            <date notAfter="1891-11-13" confidence="" evidence="external" source="#/lists/TEI-ListBibl.xml/Journal de Genève #/lists/TEI-ListBibl.xml/Le Genevois">06/13/1891</date>
-                            <date notAfter="1891-11-17" confidence="" evidence="external" source="#/lists/TEI-ListBibl.xml/Journal de Genève #/lists/TEI-ListBibl.xml/Le Genevois">06/17/1891</date> <!--La seconda ipotesi di Chid. è 17/11/1891-->
+                            <note>                            
+                                <date notAfter="1891-11-13" confidence="" evidence="external" source="#/lists/TEI-ListBibl.xml/Journal de Genève #/lists/TEI-ListBibl.xml/Le Genevois">06/13/1891</date>
+                                <date notAfter="1891-11-17" confidence="" evidence="external" source="#/lists/TEI-ListBibl.xml/Journal de Genève #/lists/TEI-ListBibl.xml/Le Genevois">06/17/1891</date> <!--La seconda ipotesi di Chid. è 17/11/1891-->
+                            </note>
                             <textLang mainLang="fr">French</textLang>
                         </msItem>                        
                     </msContents>                    
@@ -104,12 +110,6 @@
                             <handNote xml:id="h1">The main text is written by hand by <persName ref="#lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</persName></handNote>
                         </handDesc>
                     </physDesc>
-                    <additional>
-                        <surrogates>
-                            <ptr target="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef"/>
-                            <!-- *** Ho spostato <altIdentifier type="inventory"><idno>17786/vtae78f994bf3242bef</idno></altIdentifier> dall'<msIdentifier> nei <surrogates>. Come è corretto inserire questo identificativo secondario?-->
-                        </surrogates>
-                    </additional>
                     <history>
                         <origin ana="#pag1_note2">
                             <origDate when="1891-11-06" cert="high">06/11/1891</origDate> Première conférence
@@ -118,6 +118,12 @@
                             <origPlace>Gèneve</origPlace>
                         </origin>
                     </history>
+                    <additional>
+                        <surrogates>
+                            <ptr target="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef"/>
+                            <!-- *** Ho spostato <altIdentifier type="inventory"><idno>17786/vtae78f994bf3242bef</idno></altIdentifier> dall'<msIdentifier> nei <surrogates>. Come è corretto inserire questo identificativo secondario?-->
+                        </surrogates>
+                    </additional>                    
                 </msDesc>
             </sourceDesc>
         </fileDesc>
