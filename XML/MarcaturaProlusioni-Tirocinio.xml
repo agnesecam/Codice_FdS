@@ -82,8 +82,8 @@
                             <title xml:lang="fr">Trois premières conférences à l'Université</title>
                             <title type="sub">Troisième conférence</title>
                             <note>                            
-                                <date notAfter="1891-11-13" confidence="" evidence="external" source="#/lists/TEI-ListBibl.xml/Journal de Genève #/lists/TEI-ListBibl.xml/Le Genevois">06/13/1891</date>
-                                <date notAfter="1891-11-17" confidence="" evidence="external" source="#/lists/TEI-ListBibl.xml/Journal de Genève #/lists/TEI-ListBibl.xml/Le Genevois">06/17/1891</date> <!--La seconda ipotesi di Chid. è 17/11/1891-->
+                                <date notAfter="1891-11-13" confidence="" evidence="external" source="#/lists/TEI-ListBibl.xml/Journal de Genève #/lists/TEI-ListBibl.xml/Le Genevois">13/11/1891</date>
+                                <date notAfter="1891-11-17" confidence="" evidence="external" source="#/lists/TEI-ListBibl.xml/Journal de Genève #/lists/TEI-ListBibl.xml/Le Genevois">17/11/1891</date> <!--La seconda ipotesi di Chid. è 17/11/1891-->
                             </note>
                             <textLang mainLang="fr">French</textLang>
                         </msItem>                        
