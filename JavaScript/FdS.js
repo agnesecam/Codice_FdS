@@ -1,7 +1,7 @@
 window.onload = function testOne(){
     SaxonJS.transform({
         stylesheetLocation: "../FdS.sef.json",
-        sourceLocation: "../MP.xml"
+        sourceLocation: "XML/MarcaturaProlusioni-Tirocinio.xml"
     }, "async")
 }
 

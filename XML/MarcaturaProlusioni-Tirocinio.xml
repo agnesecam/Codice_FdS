@@ -14,6 +14,7 @@
 					<name ref="#lists/TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
 					<name ref="#lists/TEI-ListPerson.xml#AC">Agnese Camici</name>
 					<name ref="#lists/TEI-ListPerson.xml#SP">Silvia Piccini</name>
+					<name ref="#lists/TEI-ListPerson.xml#GC">Giuseppe Cosenza</name>
 				</respStmt>
             </titleStmt>
             
@@ -36,6 +37,7 @@
                     <name ref="#lists/TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
                     <name ref="#lists/TEI-ListPerson.xml#AC">Agnese Camici</name>
                     <name ref="#lists/TEI-ListPerson.xml#SP">Silvia Piccini</name>
+                    <name ref="#lists/TEI-ListPerson.xml#GC">Giuseppe Cosenza</name>
                 </respStmt>        
             </editionStmt>
 
