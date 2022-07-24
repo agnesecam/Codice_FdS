@@ -110,4 +110,65 @@
             </footer>
         </xsl:result-document>
     </xsl:template>
+
+
+
+
+
+    <!-- *************************** -->
+
+
+    <!-- IMMAGINI DEL MANOSCRITTO ORIGINALE DIV -->
+    <!-- Immagini delle lettere scannerizzate e map html -->
+    <xsl:template match="//tei:facsimile">
+        <xsl:for-each select="tei:surface/tei:graphic"> 
+            <xsl:variable name="position" select="position()"/>
+
+            <xsl:element name="img">    <!-- Voglio ottenere: <img usemap="#map1" id="imglettera1" src="LL1.1_fronte_recto.jpg" class="immagini_lettera"> -->
+                <xsl:attribute name="usemap">
+                    <xsl:value-of select="concat('#map',$position)"/>   <!-- usemap="#map1" -->
+                </xsl:attribute>
+                <xsl:attribute name="id">
+                    <xsl:value-of select="concat('imglettera' , $position)"/>  <!-- id="imglettera1" -->
+                </xsl:attribute> 
+                <xsl:attribute name="src">
+                    <xsl:value-of select="concat('immagini/', current()/@url)"/>     <!-- src="LL1.1_fronte_recto.jpg -->
+                </xsl:attribute>
+                <xsl:attribute name="class">
+                    <xsl:text>immagini_lettera</xsl:text>
+                </xsl:attribute>
+    
+                <xsl:element name="map">    <!-- <map name="map1"> <area class="LL1.1_fronte_recto_class" id="LL1.1_line_fr-01 shape="rect" coords=".." href="#ID#LL1.1_line_fr-01" onclick="gestoreEvidenzia("#ID#LL1.1_line_fr-01") ... aree ... -->
+                    <xsl:attribute name="name">
+                        <xsl:value-of select="concat('map',$position)"/>
+                    </xsl:attribute>
+
+                    <xsl:for-each select="parent::tei:surface/tei:zone">
+                        <xsl:element name="area">   
+                            <xsl:attribute name="class">
+                                <xsl:value-of select="concat(parent::tei:surface/@xml:id, '_class')"/>  <!-- recupero l'ID del surface padre di zone -->     
+                            </xsl:attribute>   
+                            <xsl:attribute name="id">
+                                <xsl:value-of select="@xml:id"/>       
+                            </xsl:attribute>
+                            <xsl:attribute name="shape">
+                                <xsl:text>rect</xsl:text>
+                            </xsl:attribute>
+                            <xsl:attribute name="coords">
+                                <xsl:value-of select="@ulx"/>,<xsl:value-of select="@uly"/>,<xsl:value-of select="@lrx"/>,<xsl:value-of select="@lry"/>
+                            </xsl:attribute>
+                            <xsl:attribute name="href"> 
+                                <xsl:value-of select="concat('#ID#', @xml:id)"/>    <!-- href="#ID#LL1.1_line_fr-01" -->
+                            </xsl:attribute>
+                            <xsl:attribute name="onclick">
+                                <xsl:value-of select="concat('gestoreEvidenzia( &quot;ID#', @xml:id, '&quot;)' )"/>     <!-- gestoreEvidenzia("#ID#LL1.1_line_fr-01") --> 
+                            </xsl:attribute>
+                        </xsl:element>
+                    </xsl:for-each>
+                </xsl:element>
+            </xsl:element>
+        </xsl:for-each>
+    </xsl:template>
+
+
 </xsl:stylesheet>
