@@ -8,50 +8,44 @@
             <titleStmt>
                 <title type="main">Trois premières conférences à l'Université</title> <!--Titolo preso dalla BGE-->
                 <title type="sub">(cours d'ouverture, <date when="1891-11">novembre 1891</date>)</title>
-                <author ref="#FdS" role="author">Ferdinand de Saussure</author>
+                <author ref="#lists/TEI-ListPerson.xml#FdS" role="author">Ferdinand de Saussure</author>
                 <respStmt>
 					<resp>Responsability of:</resp>
-					<name ref="#AMDG">Angelo Mario Del Grosso</name>
-					<name ref="#AC">Agnese Camici</name>
-					<name ref="#SP">Silvia Piccini</name>
+					<name ref="#lists/TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
+					<name ref="#lists/TEI-ListPerson.xml#AC">Agnese Camici</name>
+					<name ref="#lists/TEI-ListPerson.xml#SP">Silvia Piccini</name>
+					<name ref="#lists/TEI-ListPerson.xml#GC">Giuseppe Cosenza</name>
 				</respStmt>
             </titleStmt>
             
             <editionStmt>   
                 <edition n="DigitalEdition">Digital edition
-                    <date when="2021-05"> February 2022 </date>
+                    <date when="2021-05"> May 2022 </date>
                 </edition>
                 <respStmt>
                     <resp>Digital edition project coordinated by</resp> 
-                    <name ref="#AMDG">Angelo Mario Del Grosso</name>
-                    <name ref="#AC">Agnese Camici</name>
-                    <name ref="#SP">Silvia Piccini</name>
-                    <name ref="#EF">Emanuele Fadda</name>
-                    <name ref="#DG">Daniele Gambarara</name>
-                    <name ref="#GC">Giuseppe Cosenza</name>
-                    <name ref="#GD">Giuseppe D'Ottavi</name>
+                    <name ref="#lists/TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
+                    <name ref="#lists/TEI-ListPerson.xml#AC">Agnese Camici</name>
+                    <name ref="#lists/TEI-ListPerson.xml#SP">Silvia Piccini</name>
+                    <name ref="#lists/TEI-ListPerson.xml#EF">Emanuele Fadda</name>
+                    <name ref="#lists/TEI-ListPerson.xml#DG">Daniele Gambarara</name>
+                    <name ref="#lists/TEI-ListPerson.xml#GC">Giuseppe Cosenza</name>
+                    <name ref="#lists/TEI-ListPerson.xml#GD">Giuseppe D'Ottavi</name>
                 </respStmt>
                 <respStmt>
                     <resp>Encoding by</resp>
-                    <name ref="#AMDG">Angelo Mario Del Grosso</name>
-                    <name ref="#AC">Agnese Camici</name>
-                    <name ref="#SP">Silvia Piccini</name>
-                </respStmt>
-                <respStmt> <!--*1*-->
-                    <resp>Transcription by</resp>
-                    <name ref="#Bouquet">Simon Bouquet</name>
-                    <name ref="#Engler">Rudolf Engler</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Translation by</resp>
-                    <name ref="#EF">Emanuele Fadda</name>
-                </respStmt>              
+                    <name ref="#lists/TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
+                    <name ref="#lists/TEI-ListPerson.xml#AC">Agnese Camici</name>
+                    <name ref="#lists/TEI-ListPerson.xml#SP">Silvia Piccini</name>
+                    <name ref="#lists/TEI-ListPerson.xml#GC">Giuseppe Cosenza</name>
+                </respStmt>        
             </editionStmt>
 
-            <publicationStmt> <!--*2*-->
+            <publicationStmt> 
 				<publisher> CNR Pisa - Unical </publisher>
 				<availability>
-					<licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY 4.0 </licence>
+					<licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY SA 4.0 </licence>
+                    <!-- DA DECIDERE: almeno CC BY Share Alike poi valutiamo Non Derivaty e Non commercial-->
 				</availability>
                 <date when="2022">2022</date>
 			</publicationStmt>
@@ -62,40 +56,43 @@
                         <country>Switzerland</country>    
                         <settlement>Genève</settlement>
                         <institution>Bibliothèque de Genève</institution>
-                        <repository role="library" ref="http://institutions.ville-geneve.ch/fr/bge/">Bibliothèque de Genève</repository><!--*5*-->
+                        <repository role="library" ref="#http://institutions.ville-geneve.ch/fr/bge/"><choice><abbr>BGE</abbr><expan>Bibliothèque de Genève</expan></choice></repository>
                         <collection>Archives Ferdinand de Saussure</collection>
-                        <idno type="inventory">Ms. fr. 3951/1</idno> <!--*4*-->
-                        <altIdentifier type="inventory"><idno>17786/vtae78f994bf3242bef</idno></altIdentifier> <!--*3*-->
+                        <idno type="inventory">Ms. fr. 3951/1</idno>
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
+                            <author xml:lang="fr" ref="#lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
                             <title type="sub">Première conférence</title>
-                            <!--<docDate when="1891-11-06">06/11/1891</docDate>--> <!--*6*-->
-                            <date when="1891-11-06" evidence="">06/11/1891</date> <!--evidence https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.editLike.html --> <!--usare attributo notAfter per indicare la redazione degli scritti e aggiungi attr. source per datazione con confidence (da 20s a 30s)-->
+                            <note>
+                                <date notAfter="1891-11-06" evidence="external" source="#/lists/TEI-ListBibl.xml/Journal de Genève #/lists/TEI-ListBibl.xml/Le Genevois">06/11/1891</date>
+                            </note>
                             <textLang mainLang="fr">French</textLang>
                         </msItem>
                         <msItem>
-                            <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
+                            <author xml:lang="fr" ref="#lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
                             <title type="sub">Deuxième conférence</title>
-                            <!--<docDate when="1891-11-10">10/11/1891</docDate>-->
-                            <date when="1891-11-10" evidence="high">10/11/1891</date>
+                            <note>
+                                <date notAfter="1891-11-10" evidence="external" source="#/lists/TEI-ListBibl.xml/Journal de Genève #/lists/TEI-ListBibl.xml/Le Genevois">10/11/1891</date>
+                            </note>
                             <textLang mainLang="fr">French</textLang>                           
                         </msItem>
                         <msItem>
-                            <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
+                            <author xml:lang="fr" ref="#lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr">Trois premières conférences à l'Université</title>
                             <title type="sub">Troisième conférence</title>
-                            <!--<docDate when="1891-11-13">13/11/1891</docDate> non lo usare perché non presente nella fonte!-->
-                            <date when="1891-11-13" evidence="">06/13/1891</date> -<!--La seconda ipotesi di Chid. è 17/11/1891-->
+                            <note>                            
+                                <date notAfter="1891-11-13" confidence="" evidence="external" source="#/lists/TEI-ListBibl.xml/Journal de Genève #/lists/TEI-ListBibl.xml/Le Genevois">13/11/1891</date>
+                                <date notAfter="1891-11-17" confidence="" evidence="external" source="#/lists/TEI-ListBibl.xml/Journal de Genève #/lists/TEI-ListBibl.xml/Le Genevois">17/11/1891</date> <!--La seconda ipotesi di Chid. è 17/11/1891-->
+                            </note>
                             <textLang mainLang="fr">French</textLang>
                         </msItem>                        
                     </msContents>                    
                     <physDesc>
                         <objectDesc form="folio">
-                            <supportDesc resp="#AC" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef">
+                            <supportDesc resp="lists/TEI-ListPerson.xml#AC" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef">
                                 <support>
                                     <material>Thin checkered paper</material>
                                 </support>
@@ -107,22 +104,28 @@
                                     </measureGrp>
                                     <dimensions type="leaves" unit="mm"><height unit="mm" quantity="211">211</height><width unit="mm" quantity="136">136</width></dimensions>
                                 </extent>
-                                <collation>The page is part of a notebook composed of a left and a right page, each page consists in a folio</collation><!--*8*-->
+                                <collation>The page is part of a notebook composed of a left and a right page, each page consists in a folio</collation>
                                 <condition>Well preserved notebook, good conditions. Some pages present a few tears in the left or right borders.</condition>
                             </supportDesc>
                         </objectDesc>
-                        <handDesc hands="1"><!--*7*-->
-                            <handNote xml:id="h1">The main text is written by hand by <persName ref="#FdS">Ferdinand de Saussure</persName></handNote>
+                        <handDesc hands="1">
+                            <handNote xml:id="h1">The main text is written by hand by <persName ref="#lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</persName></handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin ana="#pag1_note2">
                             <origDate when="1891-11-06" cert="high">06/11/1891</origDate> Première conférence
                             <origDate when="1891-11-10" cert="high">10/11/1891</origDate> Deuxième conférence
-                            <origDate when="1891-11-13" cert="low" source="#Bouquet-Engler2002">13/11/1891</origDate> Troisième conférence
+                            <origDate when="1891-11-13" cert="low" source="lists/TEI-ListBibl.xml#Bouquet-Engler2002">13/11/1891</origDate> Troisième conférence
                             <origPlace>Gèneve</origPlace>
                         </origin>
                     </history>
+                    <additional>
+                        <surrogates>
+                            <ptr target="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef"/>
+                            <!-- *** Ho spostato <altIdentifier type="inventory"><idno>17786/vtae78f994bf3242bef</idno></altIdentifier> dall'<msIdentifier> nei <surrogates>. Come è corretto inserire questo identificativo secondario?-->
+                        </surrogates>
+                    </additional>                    
                 </msDesc>
             </sourceDesc>
         </fileDesc>
@@ -151,7 +154,7 @@
                             </label>
                             <item corresp="#pericope_91Aaaa001" facs="#facs_Pericope1">
                                 <!--Testo per. 1-->
-                                <seg type=""> <!--*9* attributo per indicare che è l'inizio del corpo della pericope-->
+                                <seg type="incipit-pericope"> <!--*9* attributo per indicare che è l'inizio del corpo della pericope-->
                                     Si la chaire que j’ai en ce moment l’honneur [...]
                                 </seg>
                                 <!--Descr. per. 1-->
@@ -167,7 +170,7 @@
                             </label>
                             <item corresp="#pericope_91Aaaa002" facs="#facs_Pericope2">
                                 <!--Testo per. 2-->
-                                <seg>
+                                <seg type="incipit-pericope">
                                     Sans exalter outre mesure les mérites [...]
                                 </seg>
                                 <!--Descr. per. 2-->
@@ -183,7 +186,7 @@
                             </label>
                             <item corresp="#pericope_91Aaaa003">
                                 <!--Testo per. 3-->
-                                <seg>
+                                <seg type="incipit-pericope">
                                     – et j’aurais ici à rappeler le nom genevois, [...]
                                 </seg>
                                 <!--Descr. per. 3-->
@@ -197,7 +200,7 @@
                             </label>
                             <item corresp="#pericope_91Aaaa004">
                                 <!--Testo per. 4-->
-                                <seg>
+                                <seg type="incipit-pericope">
                                     C’est une exigence à laquelle j’ai commencé [...]
                                 </seg>
                                 <!--Descr. per. 4-->
@@ -211,7 +214,7 @@
                             </label>
                             <item corresp="#pericope_91Aaaa005">
                                 <!--Testo per. 5-->
-                                <seg>
+                                <seg type="incipit-pericope">
                                     À quelle science pose-t-on cette condition [...]
                                 </seg>
                                 <!--Descr. per. 5-->
@@ -228,9 +231,9 @@
         <profileDesc>
             <textClass>
                 <keywords scheme="#schemaKeywords"> <!-- questa tassonomia schemaKeywords va dichiarata nell'encodingDesc dentro classDecl -->
-                    <term resp="#AC"> linguistics </term>
-                    <term resp="#AC"> university </term>
-                    <term resp="#AC"> teaching </term>
+                    <term resp="lists/TEI-ListPerson.xml#AC" ref="#07._1891_Prolusioni_ginevrine.xml#linguistique-N"> linguistics </term>
+                    <term resp="lists/TEI-ListPerson.xml#AC"> university </term>
+                    <term resp="lists/TEI-ListPerson.xml#AC"> teaching </term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -364,7 +367,7 @@
         <group> <!--Testo e traduzione delle 3 prolusioni-->
             <group xml:id="fr_Prolusioni"> <!--TESTO FRANCESE DELLE 3 PROLUSIONI-->
                 <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
-                    <body xml:lang="fr" source="#Bouquet-Engler2002">
+                    <body xml:lang="fr" source="lists/TEI-ListBibl.xml#Bouquet-Engler2002">
                         <!--Prima pagina = primo folio, recto-->
                         <pb n="f1r" xml:id="body_p1" facs="#scan_p1"/>
                         <!--Numeri impaginazione a stampa e a mano-->
@@ -382,7 +385,7 @@
                                 <lb xml:id="lb3_p1" n="3" facs="#facs_p1_lb3"/>
                                 d’études <del change="#CHG-3" rend="overstrike" facs="#facs_del1-p1r3"><gap atLeast="1" atMost="3" unit="words" reason="illegible"/></del> nouveau <del change="#CHG-3" rend="overstrike" facs="#facs_del2-p1r3"><gap atLeast="6" atMost="8" unit="words" reason="illegible"/></del>
                                 <lb xml:id="lb4_p1" n="4" facs="#facs_p1_lb4"/>
-                                <del change="#CHG-3" rend="overstrike" facs="#facs_del1-p1r4"> <gap atLeast="1" atMost="2" unit="words" reason="illegible"/></del>sdans <orgName ref="#UniGeneve">notre Université <supplied resp="#AC"> de Genève</supplied></orgName><ptr target="#p1_note1"/>, <add change="#CHG-3" place="above" facs="#facs_si-javais-p1r4">si j’avais</add><del change="#CHG-3" rend="overstrike"><gap atLeast="7" atMost="8" unit="words" reason="illegible"/></del>
+                                <del change="#CHG-3" rend="overstrike" facs="#facs_del1-p1r4"> <gap atLeast="1" atMost="2" unit="words" reason="illegible"/></del>sdans <orgName ref="#/lists/TEI-ListBibl.xml#UniGeneve">notre Université <supplied resp="lists/TEI-ListPerson.xml#AC"> de Genève</supplied></orgName><ptr target="#p1_note1"/>, <add change="#CHG-3" place="above" facs="#facs_si-javais-p1r4">si j’avais</add><del change="#CHG-3" rend="overstrike"><gap atLeast="7" atMost="8" unit="words" reason="illegible"/></del>
                                 <lb xml:id="lb5_p1" n="5" facs="#facs_p1_lb5"/>
                                 <add change="#CHG-4" place="left margin" facs="#facs_aujourdhui-p1r5">aujourd’hui</add><add change="#CHG-3" place="above" facs="#facs_lamissionou-p1r5">la mission ou le</add> privilège <del change="#CHG-3" rend="overstrike" facs="#facs_del1-p1r5">de vous</del>
                                 <lb xml:id="lb6_p1" n="6" facs="#facs_p1_lb6"/>
@@ -391,7 +394,7 @@
                                 <!--Margine sx--> 
                                 <add change="#CHG-4" place="left margin" facs="#facs_p1_leftblock1">
                                     <lb xml:id="lb7_p1" n="7" facs="#facs_p1_lb7"/>
-                                    que la <term subtype="linguistics-term" ref="#science-du-langage" facs="#facs_scdulang-p1r7"><choice><abbr>sc.</abbr> <expan>sc<ex>ience</ex></expan></choice> du 
+                                    que la <term subtype="linguistics-term" ref="#07._1891_Prolusioni_ginevrine.xml#linguistique-N" facs="#facs_scdulang-p1r7"><choice><abbr>sc.</abbr> <expan>sc<ex>ience</ex></expan></choice> du 
                                     <lb xml:id="lb8_p1" n="8" facs="#facs_p1_lb8"/>
                                     <choice><abbr>l<am>.</am>age</abbr><expan>l<ex>ang</ex>age</expan></choice></term> est <choice facs="#facs_occ-p1r8"><abbr>occ.</abbr> <expan>occ<ex>upée</ex></expan></choice> 
                                     <lb xml:id="lb9_p1" n="9" facs="#facs_p1_lb9"/> 
@@ -436,7 +439,7 @@
                                     rendre dans une
                                 </add> 
                                 <lb xml:id="lb29_p1" n="29" facs="#facs_p1_lb29"/>
-                                <orgName ref="#FacLettres">Faculté des lettres</orgName>, <delSpan change="#CHG-2" spanTo="delSpan1" rend="overstrike" facs="#facs_del1-p1r29"/><gap reason="illegible" extent="3" unit="lines"/><anchor xml:id="delSpan1"/> <add place="above" facs="#facs_add1-p1r29">je craindrais de ne pas remplir très</add> 
+                                <orgName ref="#lists/TEI-ListOrg.xml#FacLettres">Faculté des lettres</orgName>, <delSpan change="#CHG-2" spanTo="delSpan1" rend="overstrike" facs="#facs_del1-p1r29"/><gap reason="illegible" extent="3" unit="lines"/><anchor xml:id="delSpan1"/> <add place="above" facs="#facs_add1-p1r29">je craindrais de ne pas remplir très</add> 
                                 <lb xml:id="lb30_p1" n="30" facs="#facs_p1_lb30"/>
                                 <add change="#CHG-3" place="above" facs="#facs_del1-p1r30">dignement ma tâche, mais <choice facs="#facs_certain-p1r30"><abbr>certain.</abbr> <expan>certain<ex>ement</ex></expan></choice></add> 
                                 <lb xml:id="lb31_p1" n="31" facs="#facs_del1-p1r31"/>
@@ -444,14 +447,14 @@
                             </ab>
                             <!--Fine 1 pericope-->
                             <!--Inizio 2 pericope-->        
-                            <ab xml:id="pericope_91Aaaa002" n="2" xml:lang="FR" corresp="#it_91Aaaa002 #en_91Aaaa02" facs="#facs_Pericope2a"> 
+                            <ab xml:id="pericope_91Aaaa002" n="2" xml:lang="FR" corresp="#it_91Aaaa002 #en_91Aaaa02" facs="#facs_Pericope2a" part="I"> 
                                 <add change="#CHG-3" place="left margin" facs="#facs_p1_leftblock2">
                                     <lb xml:id="lb32_p1" n="32" facs="#facs_p1_lb32"/>
                                     Sans exalter 
                                     <lb xml:id="lb33_p1" n="33" facs="#facs_p1_lb33"/>
                                     outre mesure 
                                     <lb xml:id="lb34_p1" n="34" facs="#facs_p1_lb34"/>
-                                    les mérites de la <term subtype="linguistics-term" ref="#science-du-langage" facs="#facs_linguistique-p1r34">linguistique</term>,
+                                    les mérites de la <term subtype="linguistics-term" ref="#07._1891_Prolusioni_ginevrine.xml#linguistique-N" facs="#facs_linguistique-p1r34">linguistique</term>,
                                     <lb xml:id="lb35_p1" n="35" facs="#facs_p1_lb35"/>
                                     quel est le </add> 
                                 <lb xml:id="lb36_p1" n="36" facs="#facs_p1_lb36"/>
@@ -459,12 +462,12 @@
                                 <lb xml:id="lb37_p1" n="37" facs="#facs_p1_lb37"/>
                                 étude l’érudition classique, la connaissance 
                                 <lb xml:id="lb38_p1" n="38" facs="#facs_p1_lb38"/>
-                                des <term subtype="linguistics-term" ref="#langues">langues</term> grecque, latine et française; 
+                                des <term subtype="linguistics-term" ref="#07._1891_Prolusioni_ginevrine.xml#langue1">langues</term> grecque, latine et française; 
                                 <lb xml:id="lb41_p1" n="39" facs="#facs_p1_lb39"/>
                                 <add change="#CHG-3" place="left margin" facs="facs_eutelle-p1r39">eût-elle un but simplement</add> l’intérêt 
                                 <term subtype="linguistics-term" facs="#facs_litteraire-p1r39">littéraire</term>, que peut avoir ensuite la même <!--Manca glossa-->
                                 <lb xml:id="lb43_p1" n="40" facs="#facs_p1_lb40"/>
-                                étude pour <del rend="overstrike" facs="#facs_del1-p1r40">l'<gap reason="illegible" extent="3" unit="chars"/></del>l’<term subtype="?" ref="#histoire" facs="#facs_histoire-p1r40">histoire</term> ou pour 
+                                étude pour <del rend="overstrike" facs="#facs_del1-p1r40">l'<gap reason="illegible" extent="3" unit="chars"/></del>l’<term subtype="?" ref="#07._1891_Prolusioni_ginevrine.xml#histoire" facs="#facs_histoire-p1r40">histoire</term> ou pour 
                                 <metamark function="sequence">    <!--THVP-->  <!--Manteniamo <metamark> e non usiamo <label> ma andrebbe chiarito con saussuriani. "sequence" non penso sia il più adatto--><!--Elimina nel caso THVP faccia parte del testo...-->
                                     <choice>
                                         <abbr>T.H.V.P.</abbr>
@@ -480,9 +483,9 @@
                         <fw type="pageNum" xml:id="HandPageNumber-2" rend="align(left)" facs="#facs_HandPageNumber-2">2</fw>
                         <div xml:id="div_p2" hand="#h1">
                             <!--Continuo 2a pericope iniziata in pagina 1-->
-                            <ab n="2"  xml:lang="FR" corresp="#pericope_91Aaaa002 it_91Aaaa002 en_91Aaaa002" facs="#facs_Pericope2b"> 
+                            <ab n="2"  xml:lang="FR" corresp="#pericope_91Aaaa002 it_91Aaaa002 en_91Aaaa002" facs="#facs_Pericope2b" part="F"> 
                                 <lb xml:id="lb1_p2" n="1" facs="#p2lb1"/>
-                                l’<term subtype="?" ref="#histoire" facs="#facs_histoire-p2r1">histoire</term> de la civilisation
+                                l’<term subtype="?" ref="#07._1891_Prolusioni_ginevrine.xml#histoire" facs="#facs_histoire-p2r1">histoire</term> de la civilisation
                             </ab>
                             <!--Fine 2a pericope-->
                             <!--Inizio 3a pericope-->
@@ -498,12 +501,12 @@
                     </body>
                 </text>
                 <text xml:id="fr_Prolusione-2"><!--FR 2 PROLUSIONE-->
-                    <body>
+                    <body xml:lang="fr" source="lists/TEI-ListBibl.xml#Bouquet-Engler2002">
                         <ab> ... </ab>
                     </body>
                 </text>
                 <text xml:id="fr_Prolusione-3"><!--FR 3 PROLUSIONE-->
-                    <body>
+                    <body xml:lang="fr" source="lists/TEI-ListBibl.xml#Bouquet-Engler2002">
                         <ab> ... </ab>
                     </body>
                 </text>
@@ -511,7 +514,7 @@
             
             <group xml:id="it_Prolusioni" xml:lang="IT"> <!--TRADUZIONI ITALIANO DELLE 3 PROLUSIONI-->
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
-                    <body source="#Fadda2006" resp="#EF">
+                    <body source="lists/TEI-ListBibl.xml#Fadda2006" resp="lists/TEI-ListPerson.xml#EF">
                         <ab xml:id="it_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="IT">
                             Se la cattedra che ho in questa occasione l’onore di inaugurare rappresentasse 
                             un ordine di studi nuovo nella nostra Università, se avessi oggi 
@@ -541,7 +544,7 @@
                     </body>
                 </text>
                 <text xml:id="it_Prolusione-2"> <!--ITA 2 PROLUSIONE-->
-                    <body source="#Fadda2006" resp="#EF">
+                    <body source="lists/TEI-ListBibl.xml#Fadda2006" resp="lists/TEI-ListPerson.xml#EF">
                         <ab xml:id="it_91Baaa001" corresp="#pericope_91Baaa001" xml:lang="IT">
                             ...
                         </ab>   
@@ -557,7 +560,7 @@
                     </body>
                 </text>
                 <text xml:id="it_Prolusione-3"> <!--ITA 3 PROLUSIONE-->
-                    <body source="#Fadda2006" resp="#EF">
+                    <body source="lists/TEI-ListBibl.xml#Fadda2006" resp="lists/TEI-ListPerson.xml#EF">
                         <ab xml:id="it_91Caaa001" corresp="#pericope_91Caaa001" xml:lang="IT">
                             ...
                         </ab>   
@@ -576,7 +579,7 @@
 
             <group xml:id="en_Prolusioni" xml:lang="EN"> <!--TRADUZIONI INGLESE DELLE 3 PROLUSIONI-->
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
-                    <body resp="#AC">
+                    <body resp="lists/TEI-ListPerson.xml#AC">
                         <ab xml:id="en_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="EN">
                             If the chair I have the honor of inaugurating on this occasion represented 
                             a new order of study in our University, if I had today the mission or the 
@@ -603,7 +606,7 @@
                     </body>
                 </text>
                 <text xml:id="en_Prolusione-2"> <!--EN 2 PROLUSIONE-->
-                    <body source="#Fadda2006" resp="#EF">
+                    <body resp="lists/TEI-ListPerson.xml#EF">
                         <ab xml:id="en_91Baaa001" corresp="#pericope_91Baaa001" xml:lang="IT">
                             ...
                         </ab>   
@@ -619,7 +622,7 @@
                     </body>
                 </text>
                 <text xml:id="en_Prolusione-3"> <!--EN 3 PROLUSIONE-->
-                    <body source="#Fadda2006" resp="#EF">
+                    <body resp="lists/TEI-ListPerson.xml#EF">
                         <ab xml:id="en_91Caaa001" corresp="#pericope_91Caaa001" xml:lang="IT">
                             ...
                         </ab>   
@@ -645,406 +648,20 @@
                 <!-- NOTE -->
                 <list type="notes">
                     <!--1-->
-                    <item n="1" xml:id="pag1_note1" resp="#AC">
+                    <item n="1" xml:id="pag1_note1" resp="lists/TEI-ListPerson.xml#AC">
                         <p>
                             Scilicet “Université de Genève”, it. “Università di Ginevra”
                         </p>
                     </item>
                     <!--2-->
-                    <item n="2" xml:id="pag1_note2" resp="#AC">
+                    <item n="2" xml:id="pag1_note2" resp="lists/TEI-ListPerson.xml#AC">
                         <p>
                             Alessandro Chidichimo's provided each lessons date in his article appearing in Cahiers Ferdinand de Saussure. He provides the dates of the three FdS conferences at the University of Geneva: the certainty of the first two is high, comparing them with the information in the "Journal de Genève" and in "Le Genevois". Chidichimo puts forward two hypotheses for the third conference: Friday 13 November or Tuesday 17.
                         </p>
                     </item>
                 </list> 
 
-                <!-- BIBLIOGRAPHY -->
-                <listBibl xml:id="prolusioni1_bibliography">
-                    <head>Bibliography</head>
-
-                    <!--Bouquet-Engler2002-->
-                    <bibl xml:id="Bouquet-Engler2002"> 
-                        <title>Écrits de linguistique générale</title>
-                        <author>
-                            <persName ref="#FdS">
-                                <forename>Ferdinand</forename> 
-                                <surname>de Saussure</surname>
-                            </persName>
-                        </author>
-                        <author>
-                            <persName ref="#SB">
-                                <forename>Simon</forename>
-                                <surname>Bouquet</surname>
-                            </persName>
-                        </author>
-                        <author>
-                            <persName ref="#RE">
-                                <forename>Rudolf</forename>
-                                <surname>Engler</surname>
-                            </persName>
-                        </author>
-                        <author>
-                            <persName ref="#AW">
-                                <forename>Antoinette</forename>
-                                <surname>Weil</surname>
-                            </persName>
-                        </author>
-                        <date when="2002">2002</date>
-                        <publisher>Gallimard</publisher>
-                        <pubPlace>Paris</pubPlace>
-                        <idno type="ISSN">0302-5160</idno>
-                        <citedRange unit="page" from="143" to="172">143-172</citedRange>
-                        <note>
-                            French transcription of the manuscript
-                        </note>
-                    </bibl>
-
-                    <!--E.Fadda 2006-->
-                    <bibl xml:id="Fadda2006">
-                        <title type="main">Lingua e mente sociale</title>
-                        <title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
-                        <author>
-                            <persName ref="#EF">
-                                <forename>Emanuele</forename>
-                                <surname>Fadda</surname>
-                            </persName>
-                        </author>  
-                        <publisher>Bonanno Editore</publisher>
-                        <pubPlace>Alessandria</pubPlace>
-                        <citedRange unit="page" from="85" to="121">85-121</citedRange>
-                        <publisher>Bonanno Editore</publisher>
-                        <pubPlace>Acireale - Roma</pubPlace>
-                        <idno type="ISBN">887796276-3</idno>
-                        <citedRange unit="page" from="85" to="121">85-121</citedRange>
-                        <note>
-                            Italian transcription of the manuscript
-                        </note>
-                    </bibl>
-                </listBibl>
-                
-                <!-- PERSON -->
-                <listPerson>
-                    <head>People</head>
-                    
-                    <!--Ferdinand de Saussure-->
-                    <person xml:id="FdS" sameAs="https://viaf.org/viaf/95158205/ https://www.worldcat.org/identities/viaf-8291159248237604870007/"> 
-                        <persName role="author">
-                            <forename>Ferdinand</forename>
-                            <surname>de Saussure</surname>
-                        </persName>
-                        <occupation> linguistic </occupation>
-                        <sex>M</sex>
-                        <birth>
-                            <date when="1857-11-26">26th November 1857</date>
-                            <placeName ref="#GE">
-                                <settlement type="municipality">Genève</settlement>
-                                <settlement type="department" key="GE">Genève</settlement>
-                                <country key="CH">Switzerland</country>
-                            </placeName>
-                        </birth>
-                        <death>
-							<date when="1913-02-22">22nd February 1913</date>
-							<placeName ref="#VlC">
-								<settlement type="municipality">Vufflens-le-Château</settlement>
-								<settlement type="canton" key="Vaud">Vaud</settlement>
-								<country key="CH">Svizzera</country>
-							</placeName>
-                        </death> 
-                    </person>
-
-                    <!--Angelo Mario Del Grosso-->
-                    <person xml:id="AMDG" sameAs="https://viaf.org/viaf/323148207835400342025"> 
-                        <persName> 
-                            <forename>Angelo</forename>
-                            <forename>Mario</forename>
-                            <surname>Del Grosso</surname>
-                        </persName>
-                        <sex>M</sex>
-                        <birth>
-                            <date when="1980-02-19">19th February 1980</date>
-                            <placeName ref="#BN">
-                                <settlement type="municipality">Benevento</settlement>
-                                <settlement type="provincia" key="BN">Benevento</settlement>
-                                <country key="IT">Italy</country>
-                            </placeName>
-                        </birth>
-                    </person>
-
-                    <!--Silvia Piccini-->
-                    <person xml:id="SP">
-                        <persName> 
-                            <forename>Silvia</forename>
-                            <surname>Piccini</surname>
-                        </persName>
-                        <sex>F</sex>
-                        <birth>
-                            <date when="1978-11-12">12th November 1978</date>
-                            <placeName ref="#Osimo">
-                                <settlement type="municipality" key="Osimo">Osimo</settlement>
-                                <settlement type="provincia" key="AN">Ancona</settlement>
-                                <country key="IT">Italy</country>
-                            </placeName>
-                        </birth>
-                    </person>
-
-                    <!--Agnese Camici-->
-                    <person xml:id="AG">
-                        <persName> 
-                            <forename>Agnese</forename>
-                            <surname>Camici</surname>
-                        </persName>
-                        <sex>F</sex>
-                        <birth>
-                            <date when="1997-01-25">25nd Jenuary 1997</date>
-                            <placeName>
-                                <settlement type="municipality">Piombino</settlement>
-                                <settlement type="provincia" key="LI">Livorno</settlement>
-                                <country key="IT">Italy</country>
-                                </placeName>
-                        </birth>
-                    </person>    
-
-                    <!--Emanuele Fadda-->
-                    <person xml:id="EF" sameAs="http://viaf.org/viaf/101011384/ http://worldcat.org/identities/lccn-no2011183289/"> 
-                        <persName role="author"> 
-                            <forename>Emanuele</forename>
-                            <surname>Fadda</surname>
-                        </persName>
-                        <sex>M</sex>
-                        <birth>
-                        <date when="1972">1972</date>
-                            <placeName ref="#CA">
-                                <settlement type="municipality">Cagliari</settlement>
-                                <settlement type="provincia" key="CA">Cagliari</settlement>
-                                <country key="IT">Italy</country>
-                            </placeName>
-                        </birth> 
-                    </person>
-
-                    <!--Daniele Gambarara-->
-                    <person xml:id="DG" sameAs="https://viaf.org/viaf/56756122/ http://worldcat.org/identities/lccn-n78084157/"> 
-                        <persName> 
-                            <forename>Emanuele</forename>
-                            <surname>Fadda</surname>
-                        </persName>
-                        <sex>M</sex>
-                        <birth>
-                            <date when="1948-03-14">14th May 1948</date>
-                            <placeName ref="#TO">
-                                <settlement type="municipality">Torino</settlement>
-                                <settlement type="provincia" key="TO">Torino</settlement>
-                                <country key="IT">Italy</country>
-                            </placeName>
-                        </birth> 
-                    </person>
-
-                    <!--Giuseppe Cosenza-->
-                    <person xml:id="GC" sameAs="http://worldcat.org/identities/np-cosenza,%20giuseppe/"> 
-                        <persName> 
-                            <forename>Giuseppe</forename>
-                            <surname>Cosenza</surname>
-                        </persName>
-                        <sex>M</sex>
-                    </person>
-
-                    <!--Giuseppe D'Ottavi-->
-                    <person xml:id="GD" sameAs="http://worldcat.org/identities/lccn-no2020124840/">
-                        <persName>
-                            <forename>Giuseppe</forename>
-                            <surname>D'Ottavi</surname>
-                        </persName>
-                        <sex>M</sex>
-                    </person>
-
-                    <!--Simon Bouquet-->
-                    <person xml:id="SB" sameAs="http://viaf.org/viaf/100974817 https://www.worldcat.org/identities/lccn-n97102757/"> 
-                        <persName> 
-                            <forename>Simon</forename>
-                            <surname>Bouquet</surname>
-                        </persName>
-                        <sex>M</sex>
-                        <birth>
-                            <date when="1954">1954</date>
-                        </birth> 
-                    </person>
-
-                    <!--Rudolf Engler-->
-                    <person xml:id="RE" sameAs="https://viaf.org/viaf/2500391/ http://worldcat.org/identities/lccn-nr89013033/"> 
-                        <persName role="author"> 
-                            <forename>Rudolf</forename>
-                            <surname>Engler</surname>
-                        </persName>
-                        <sex>M</sex>
-                        <birth>
-                            <date when="1930-10-25">25th October 1930</date>
-                        </birth> 
-                    </person>
-
-                    <!--Antoinette Weil-->
-                    <person xml:id="AW" sameAs="http://worldcat.org/identities/lccn-nr2002015108/"> 
-                        <persName> 
-                            <forename>Antoinette</forename>
-                            <surname>Weil</surname>
-                        </persName>
-                        <sex>F</sex>
-                    </person>
-
-                    <!--Alessandro Chidichimo-->
-                    <person xml:id="Chidichimo" sameAs="https://www.worldcat.org/wcidentities/viaf-8291159248237604870007">
-                        <persName> 
-                            <forename>Alessandro</forename>
-                            <surname>Chidichimo</surname>
-                        </persName>
-                        <sex>M</sex>
-                        <note> Alessandro Chidichimo's provided each lessons date, the accuracy is by day, unlike Bouquet-Egler which gives only the year. Chidichimo is the responsable of the dating. </note>
-                    </person>
-                </listPerson>
-
-                <!-- PLACE -->
-                <listPlace>
-                    <head>Places</head>
-                    
-                    <!--Genève-->
-                    <place xml:id="GE">
-                        <placeName ref="https://www.geonames.org/2660646/geneve.html https://www.treccani.it/enciclopedia/ginevra/">Genève</placeName>
-                        <country key="CH">Switzerland</country>
-                        <note>...</note>
-                    </place>
-
-                    <!--Benevento-->
-                    <place xml:id="BN">
-                        <placeName ref="https://www.geonames.org/3182179/benevento.html https://www.treccani.it/enciclopedia/benevento/">Benevento</placeName>
-                        <country key="IT">Italy</country>
-                        <note>...</note>
-                    </place>
-
-                    <!--Piombino-->
-                    <place xml:id="Piombino">
-                        <placeName ref="https://www.geonames.org/6541646/piombino.html https://www.treccani.it/enciclopedia/piombino/">Piombino</placeName>
-                        <country key="IT">Italy</country>
-                        <note>...</note>
-                    </place>
-
-                    <!--Torino-->
-                    <place xml:id="TO">
-                        <placeName ref="https://www.geonames.org/3165523/torino.html https://www.treccani.it/enciclopedia/torino/">Torino</placeName>
-                        <country key="IT">Italy</country>
-                        <note>...</note>
-                    </place>    
-
-                    <!--Cosenza-->
-                    <place xml:id="CS">
-                        <placeName ref="https://www.geonames.org/2524907/cosenza.html https://www.treccani.it/enciclopedia/cosenza/">Cosenza</placeName>
-                        <country key="IT">Italy</country>
-                        <note>...</note>
-                    </place>
-
-                    <!--Cagliari-->
-                    <place xml:id="CA">
-                        <placeName ref="https://www.geonames.org/2524907/cagliari.html https://www.treccani.it/enciclopedia/cagliari/">Cagliari</placeName>
-                        <country key="IT">Italy</country>
-                        <note>...</note>
-                    </place>
-
-                    <!--Osimo-->
-                    <place xml:id="Osimo">
-                        <placeName ref="https://www.geonames.org/3171848/osimo.html https://www.treccani.it/enciclopedia/osimo/">Osimo</placeName>
-                        <country key="IT">Italy</country>
-                        <note>...</note>
-                    </place> 
-
-                    <listRelation>
-                        <!--Luoghi vicini-->
-                        <relation name="near" mutual="#Pl1 #Pl2"/>
-                        <!--Luogo di nascita di una persona-->
-                        <relation name="birth_place-FdS" active="#FdS" passive="#GE"/>               <!--Ferdinand de Saussure-->
-                        <relation name="birth_place-AMDG" active="#AMDG" passive="#BE"/>      <!--Angelo Mario del Grosso-->
-                        <relation name="birth_place-SP" active="#OS" passive="#SP"/>                   <!--Silvia Piccini-->
-                        <!--Luogo di morte di una persona-->
-                        <relation name="death_place" active="#FdS" passive="#VlC"/>
-                    </listRelation>
-                </listPlace>
-
-                <!-- GLOSSARIO  -->
-                <list type="terminology">      
-
-                    <!-- Science du langage = linguistics -->
-                    <label>
-                        <term subtype="linguistics-term" xml:lang="fr" xml:id="science-du-langage" key="">Science du langage</term>
-                    </label>
-                    <item>
-                        <gloss xml:lang="it" target="#science-du-langage" source="ontology_F_d_S.owl#linguistique"> <!--prefix declaration per accorciare l'URI!-->
-                            La science du langage ou des langues, étant sous-entendu que l&apos;objet véritable de l&apos;étude sera la langue (Engler 33). 
-                            (La linguistique) est une science sémiologique (Godel, 267)
-                        </gloss>
-                        <note>Periphrasis for linguistics</note>
-                    </item>
-
-                    <!-- Langues -->
-                    <label><!--langue1-->
-                        <term subtype="linguistics-term" xml:lang="fr" xml:id="langue1" key="">Langue</term> <!--Suggerimento per riconoscere l'accezione: se l'istanza del termine è al plurale, è un idioma-->
-                    </label>
-                    <item>
-                        <gloss n="1" xml:lang="fr" target="#langue1" source="ontology_F_d_S.owl#langue1">
-                            Idiome, langue déterminée quelconque.(Engler, 32) (Godel, 266) ; opposé à langue_1 (Engler, 32)
-                        </gloss>
-                    </item>
-                    <label><!--langue2-->
-                        <term subtype="linguistics-term" xml:lang="fr" xml:id="langue2" key="">Langue</term>
-                    </label>
-                    <item>
-                        <gloss n="2" xml:lang="fr" target="#langue2" source="ontology_F_d_S.owl#langue2">
-                            instrument sémiologique permettant au langage de se manifester dans la parole ; code social organisant 
-                            le langage et formant l’outil nécessaire à l’exercice de la faculté du langage, (Engler, 31) ; ensemble 
-                            des conventions nécessaires adoptées par le corps social pour permettre l&apos;usage de la faculté du 
-                            langage chez les individus. Institution unique en son genre, par les caractères qui font qu&apos;elle est 
-                            solidaire du passé. La langue est un système de signaux, de signes. Système de signes reposant sur des 
-                            images acoustiques, où les deux parties du signe sont psychiques. Sommes des signes évocables. 
-                            Système de valeurs. (Godel, 266)
-                        </gloss>    
-                    </item>
-                    <label><!--langue3-->
-                        <term subtype="linguistics-term" xml:lang="fr" xml:id="langue3" key="">Langue</term>
-                    </label>
-                    <item>
-                        <gloss n="3" xml:lang="fr" target="#langue3" source="ontology_F_d_S.owl#langue3">
-                            Organe charnu, allongé et mobile, placé dans la bouche
-                        </gloss>
-                    </item>
-
-                    <!-- Histoire -->
-                    <label>
-                        <term subtype="?" xml:lang="fr" xml:id="histoire" key="">Histoire</term>
-                    </label>
-                    <item>
-                        <gloss n="1" xml:lang="fr" target="#histoire" source="ontology_F_d_S.owl#histoire">
-                            En linguistique interne : diachronie, linguistique évolutive (Engler, 27)
-                        </gloss>
-                    </item>
-
-                    <!-- Litteraire --> <!-- Ho eliminato il riferimento nel testo perché non saprei che definizione inserire nella glossa -->
-                    <label>
-                        <term subtype="?" xml:lang="fr" xml:id="litteraire" key="">Litteraire</term>
-                    </label>
-                    <item>
-                        <gloss n="1" xml:lang="" target="#litteraire" source="">...</gloss>
-                    </item>
-                </list>
-            
-                <!-- ORGANIZZAZIONI  -->
-                <listOrg>
-                    <org xml:id="UniGeneve">
-                        <orgName ref="https://en.wikipedia.org/wiki/University_of_Geneva>">University of Geneva</orgName>
-                            <placeName ref="#GE">Genève</placeName>
-                        <desc>
-                            The University of Geneva (French: Université de Genève) is a public research university located in Geneva, Switzerland.
-                        </desc>
-                    </org>
-                    <org xml:id="FacLettres">
-                        <orgName ref="https://www.unige.ch/lettres/fr/">Faculté des lettres de l'Université de Genève</orgName>
-                        <placeName ref="#GE">Genève</placeName>
-                    </org>
-                </listOrg>      
+                <!--Il glossario è 07._1891_Prolusioni_ginevrine.xml-->
             </div>
         </back>
     </text>

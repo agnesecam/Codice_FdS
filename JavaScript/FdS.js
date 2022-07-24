@@ -77,7 +77,7 @@ window.onload = function testOne(){
     console.log("Hai selezionato la pagina " + p_selezionata + ". Il file corrispondente è " + file_input_XML);
     SaxonJS.transform({
         stylesheetLocation: "../FdS.sef.json",
-        sourceLocation: "../XML/" + file_input_XML
+        sourceLocation: "XML/" + file_input_XML
     }, "async")
 }
     

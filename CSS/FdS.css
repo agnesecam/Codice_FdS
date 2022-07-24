@@ -38,3 +38,12 @@ footer div {
     margin-left: 5%;
     margin-right: 5%;
 }
+
+#immagine {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 3pt;
+    margin: auto;
+    border: solid black;
+    border-radius: 10px 10px 10px 10px;
+}
