@@ -39,7 +39,7 @@
                     <xsl:variable name="N" select="30"/>
                     <xsl:variable name="pages" select="1 to $N"/>
                     <select id="select_pages" onchange="select_pages()">
-                        <option value="">Page to show:</option>
+                        <option value="">Seleziona pagina:</option>
                         <xsl:for-each select="$pages">
                             <option value="{.}">
                                 <xsl:sequence select="."/>
@@ -51,9 +51,15 @@
 
             <div id="corpo">
                 <div id="immagine">
-                    
-                </div>
+                    <h3>
+                        <!--OUTPUT: "1-2" "20-21" "3-4" ovvero pagine codificate nel file contenente la pagina selezionata-->
+                        <b><xsl:value-of select="substring-before(substring-after(document-uri(),'1_'), '.xml')"/></b>
+                        
+                    </h3>
+
+                <br/>
             </div>
+        </div>
 
 
             <footer>
