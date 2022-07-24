@@ -4,7 +4,6 @@ body {
     font-family: 'Rubik', sans-serif;
     padding: 30px 20px;
     background-color: #334E58;
-    border: dotted #E5E0D5;
 }
 
 header {
@@ -23,7 +22,7 @@ header {
     background-color: white;
     border-color: transparent;
     border-bottom: 5px solid #33261D;
-    border-radius: 5px;   
+    border-radius: 5px;
 }
 
 footer {
@@ -47,6 +46,27 @@ footer div {
     border-radius: 10px 10px 10px 10px;
 }
 
+
+/* USATE IN JAVASCRIPT */
 .immagini_scan {
-    height: 600px;
+    display: inline-block;
+    max-width: 325px;
+}
+
+#immagini_lettera {
+    float: left;
+    margin-left: 5px;
+    margin-top: 0px;
+    background-color: #c1c1a4;
+    padding: 25px;
+    border-radius: 40px;
+}
+
+#pulsanti_immagini_lettera {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#immagini_lettera h2 {
+    color: #474234;
 }
