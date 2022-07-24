@@ -39,11 +39,17 @@ footer div {
     margin-right: 5%;
 }
 
-#immagine {
+#div_immagine {
     background-color: #FFFFFF;
     text-align: center;
     padding: 3pt;
     margin: auto;
     border: solid black;
     border-radius: 10px 10px 10px 10px;
+}
+
+.immagini_scan {
+    display: inline;
+    height: 500px;
+    align: left;
 }
