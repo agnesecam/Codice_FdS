@@ -52,14 +52,18 @@
             <div id="corpo">
                 <div id="immagine">
                     <h3>
-                        <!--OUTPUT: "1-2" "20-21" "3-4" ovvero pagine codificate nel file contenente la pagina selezionata-->
-                        <b><xsl:value-of select="substring-before(substring-after(document-uri(),'1_'), '.xml')"/></b>
-                        
+                        <!--OUTPUT: "Pagine 1-2" "Pagine 20-21" "Pagine 3-4" ovvero pagine codificate nel file contenente la pagina selezionata-->
+                        <xsl:value-of select="concat('Pagine ', substring-before(substring-after(document-uri(),'1_'), '.xml'))"/>
                     </h3>
-
-                <br/>
+                    <!-- SCAN -->
+                    <div id="pulsanti_immagini_lettera" >
+                        <input id="icona_1" type="image" class="icone_numeri" alt="Clicca per visualizzare la prima facciata del manoscritto" src="immagini/icona1.png"/>
+                        <input id="icona_2" type="image" class="icone_numeri" alt="Clicca per visualizzare la seconda facciata del manoscritto" src="immagini/icona2.png"/>          
+                    </div>
+                    <xsl:apply-templates select="//tei:facsimile"/>
+                    <br/>
+                </div>
             </div>
-        </div>
 
 
             <footer>
