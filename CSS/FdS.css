@@ -41,8 +41,7 @@ footer div {
 
 #div_immagine {
     background-color: #FFFFFF;
-    text-align: center;
-    padding: 3pt;
+    padding-left: 5%;
     margin: auto;
     border: solid black;
     border-radius: 10px 10px 10px 10px;
@@ -50,5 +49,5 @@ footer div {
 
 .immagini_scan {
     display: inline;
-    height: 500px;
+    height: 100px;
 }

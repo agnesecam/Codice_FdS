@@ -255,7 +255,7 @@
     <facsimile>
         <!--PRIMA PAGINA-->
         <surface n="1" xml:id="scan_p1">
-            <graphic url='p15.png' width='1383px' height='804px' /> 
+            <graphic url='ms_fr_03951_01_1_p016.jpg'/>
             <!--Pericopi e numerazione a mano-->
             <zone ulx="259" uly="668" lrx="3708" lry="4155" rendition="hotspot" xml:id="facs_Pericope1" />         <!--Tutta la 1a pericope, da "Si la chaire que j’ai en" fino a "pourrais me plaindre ici de l’abandon"-->
             <zone ulx="271" uly="4181" lrx="3670" lry="5707" rendition="hotspot" xml:id="facs_Pericope2a" />        <!--Parte della 2a pericope, ma solo fino a "ou pour", poche parole finali della 2a sono nel secondo foglio-->
@@ -346,7 +346,7 @@
         </surface>
         <!--SECONDA PAGINA-->
         <surface n="2" xml:id="scan_p2">
-            <graphic url='p16.png' width='1383px' height='804px' />
+            <graphic url='ms_fr_03951_01_1_p015.jpg'/>
             <!--Pericopi e numerazione a mano-->
             <zone ulx="259" uly="668" lrx="3708" lry="4155" rendition="hotspot" xml:id="facs_Pericope2b" />                 <!--Parole finali della seconda pericope "l'histoire de la civilisation"-->
             <zone ulx="404" uly="362" lrx="607" lry="604" rendition="hotspot" xml:id="facs_HandPageNumber-2" />      <!--Numero 2 sx cerchiato -->
