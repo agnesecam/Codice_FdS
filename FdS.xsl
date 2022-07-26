@@ -56,9 +56,9 @@
                         <xsl:value-of select="concat('Pagine ', substring-before(substring-after(document-uri(),'1_'), '.xml'))"/>
                     </h3>
                     <!-- SCAN -->
-                    <div id="pulsanti_immagini_lettera" >
-                        <input id="icona_1" type="image" class="icone_FR" alt="Clicca per visualizzare la prima facciata del manoscritto" src="immagini/icona1.png" onclick="gestoreSelezionaScan1()"/>
-                        <input id="icona_2" type="image" class="icone_FR" alt="Clicca per visualizzare la seconda facciata del manoscritto" src="immagini/icona2.png" onclick="gestoreSelezionaScan2()"/>          
+                    <div id="pulsanti_immagini_lettera" >                       
+                        <input id="icona_1" type="button" class="icone_FR" alt="Clicca per visualizzare la prima facciata del manoscritto" src="immagini/icona1.png" onclick="gestoreSelezionaScan1()" value="Fronte"/>
+                        <input id="icona_2" type="button" class="icone_FR" alt="Clicca per visualizzare la seconda facciata del manoscritto" src="immagini/icona2.png" onclick="gestoreSelezionaScan2()" value="Retro"/>          
                     </div>
                     <div id="box_img">
                         <xsl:apply-templates select="//tei:facsimile"/>
