@@ -44,7 +44,7 @@ footer div {
 }
 
 #box_img{
-    height: 500px;
+    max-height: 900px;
     padding-top: 30px;
 }
 
@@ -60,7 +60,7 @@ footer div {
 /****** USATE IN JAVASCRIPT ******/
 .immagini_scan {
     display: inline-block;
-    max-width: 325px;
+    max-height: 600px;
 }
 .nascondi {
     display: none;
