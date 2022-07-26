@@ -60,7 +60,9 @@
                         <input id="icona_1" type="image" class="icone_FR" alt="Clicca per visualizzare la prima facciata del manoscritto" src="immagini/icona1.png" onclick="gestoreSelezionaScan1()"/>
                         <input id="icona_2" type="image" class="icone_FR" alt="Clicca per visualizzare la seconda facciata del manoscritto" src="immagini/icona2.png" onclick="gestoreSelezionaScan2()"/>          
                     </div>
-                    <xsl:apply-templates select="//tei:facsimile"/>
+                    <div id="box_img">
+                        <xsl:apply-templates select="//tei:facsimile"/>
+                    </div>
                     <br/>
                 </div>
             </div>
@@ -138,7 +140,7 @@
                     <xsl:text>immagini_scan</xsl:text>
                 </xsl:attribute>
     
-                <xsl:element name="map">    <!-- <map name="map1"> <area class="scan_p1_class" id="LL1.1_line_fr-01 shape="rect" coords=".." href="#ID#facs_Pericope1" onclick="gestoreEvidenzia("ID#facs_Pericope1") ... aree ... -->
+                <xsl:element name="map">    <!-- <map name="map1"> <area class="scan_p1_class" id="facs_Pericope1" shape="rect" coords=".." href="#ID#facs_Pericope1" onclick="gestoreEvidenzia("ID#facs_Pericope1") ... aree ... -->
                     <xsl:attribute name="name">
                         <xsl:value-of select="concat('map',$position)"/>
                     </xsl:attribute>

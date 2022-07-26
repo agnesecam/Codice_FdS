@@ -38,6 +38,11 @@ footer div {
     margin-right: 5%;
 }
 
+#box_img{
+    height: 500px;
+    padding-top: 30px;
+}
+
 #div_immagine {
     background-color: #FFFFFF;
     padding-left: 5%;
@@ -47,7 +52,7 @@ footer div {
 }
 
 
-/* USATE IN JAVASCRIPT */
+/****** USATE IN JAVASCRIPT ******/
 .immagini_scan {
     display: inline-block;
     max-width: 325px;
