@@ -36,7 +36,7 @@
                 <msDesc>
                     <msIdentifier>
                         <country>Italia</country>
-                        <settlement>xxx</settlement>
+                        <settlement>Alessandria</settlement>
                         <institution>xxx</institution>
                         <idno type="ISBN">978-88-6274-728-8</idno>
                     </msIdentifier>
@@ -66,8 +66,8 @@
                         Gli accorgimenti grafici adottati, [{, li mantengo a stampa oppure li ometto?
                 -->                
                 <sense n="1"> 
-                    [<def>
-                        che si produce per circostanze occasionali e contingenti (<ref type="see" target="#contingent">v. contingent</ref><!--Non posso usare <re> come figlio di <def>-->), in particolare concerne la realtà dei fatti linguistici;
+                    [<def> <!--ometti segni grafici, rend come attributo di def-->
+                        che si produce per circostanze occasionali e contingenti (<ref type="see" target="#contingent">v. contingent</ref><!--Non posso usare <re> come figlio di <def> - xr e ref -->), in particolare concerne la realtà dei fatti linguistici;
                     </def>]
                     <cit type="example">
                         <quote xml:lang="fr">
@@ -82,22 +82,24 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 149</biblScope>)
+                            (<biblScope unit="page">p. 149</biblScope>)<!--citedRange-->
                         </bibl>
                     </cit>
-                    <lbl type="syn">Sin. </lbl> <re type="synonim">contingent<ref target="#contingent"/></re>
-                    <lbl type="com">Cfr. </lbl><re type="compare">langue<ref target="#langue"/></re>
+                    <lbl type="syn">Sin. </lbl><re type="synonym">contingent<ref target="#contingent"/></re>
+                    <lbl type="com">Cfr. </lbl><re type="compare">langue<ref target="#langue"/></re><!-- xr e ref non re e ref // compare con xr diventa cf -->
                     <!--  DOMANDA:
                             Una soluzione di questo tipo, (<xr> "cross reference") per i riferimenti a sezioni di altre aree terminologiche è sensata?
                             Assumo di avere un glossario per ogni sezione terminologica (10._1894_Notes_Whitney.xml), e faccio una <ref> generica (non al termine) alla sezione dell'area terminologica, senza specificare l'entrata specifica, poiché in alcuni casi non mi è certa.
                             Mi limito a fare il collegamento al dizionario, inserendo come testo semplice il titolo della sezione e l'acronimo, ometto informazioni bibliografiche come il titolo della fonte della sezione.
                             Soluzione 2: uso una listRelation alla fine del documento, in cui scrivo queste relazioni tra termini, e quindi non nell'entrata specifica
                     -->
-                    {<xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml#accidentel"/>Status et motus</xr>;
-                    <xr type="other_dictionary"> <ref target="08._1891-1892_De_la_double_essence_du_langage.xml#accidentel"/>ED</xr>; 
-                    <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml#accidentel"/>Notes Whitney</xr>;
-                    <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml#accidentel"/>ThS </xr>;
-                    <xr type="other_dictionary"> <ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml#accidentel"/>II corso</xr>}
+                    {
+                    <!-- list type="" -->
+                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=1"/>Status et motus</xr>; <!-- pdf fragment per termine nel pdf-->
+                    <xr type="other_dictionary"> <ref target="#08._1891-1892_De_la_double_essence_du_langage.xml#accidentel"/>ED</xr>; 
+                    <xr type="other_dictionary"> <ref target="#10._1894_Notes_Whitney.xml#accidentel"/>Notes Whitney</xr>;
+                    <xr type="other_dictionary"> <ref target="#11._1895-1897_Théorie_des_Sonantes.xml#accidentel"/>ThS</xr>;
+                    <xr type="other_dictionary"> <ref target="#15._1908-1909_Secondo_corso_di_linguistica_generale.xml#accidentel"/>II corso</xr>}
                 </sense>
             </entry>
 
@@ -198,14 +200,14 @@
                 <form>
                     <orth>Analogie</orth>
                 </form>
-                <!--<sense> non può essere figlio di def, quindi uso due <sens> distinti, l'attributo n="a"/"b" li identifica-->
+                <!--<sense> non può essere figlio di def, quindi uso due <sense> distinti, l'attributo n="a"/"b" li identifica-->
                 <sense n="1">
                     <lbl type="v.">v.</lbl> <ref target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml#analogie">area B</ref>;
                     <sense n="a">
                         <def>
                             uno dei due procedimenti regolari di trasformazione delle lingue volto alla creazione di nuove segni 
                             linguistici sulla base di elementi già esistenti; si tratta di un fenomeno di trasformazione linguistica di ordine
-                            mentale che richiede un certo grado di azione intelligente.
+                            mentale che richiede un certo grado di azione intelligente.<!-- vedi https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-usg.html  ma considera l'uso di re -->
                                 a. in riferimento al procedimento: changement par <oRef>a.</oRef>, opération d’<oRef>a.</oRef>, phénomène d’<oRef>a.</oRef>, procédé d’<oRef>a.</oRef>.
                         </def>
                     </sense>
