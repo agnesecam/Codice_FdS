@@ -21,40 +21,40 @@ function select_pages(){
             case '5-6':
                 add_p = "5-6";
                 break;
-            case '7':
+            case '7-8':
                 add_p = "7-8";
                 break;
-            case '9':
+            case '9-10':
                 add_p = "9-10";
                 break;
-            case '11':
+            case '11-12':
                 add_p = "11-12";
                 break;
-            case '13':
+            case '13-14':
                 add_p = "13-14";
                 break;
-            case '15':
+            case '15-16':
                 add_p = "15-16";
                 break;
-            case '17':
+            case '17-18':
                 add_p = "17-18";
                 break;
-            case '19':
+            case '19-20':
                 add_p = "19-20";
                 break;
-            case '21':
+            case '21-22':
                 add_p = "21-22";
                 break;
-            case '23':
+            case '23-24':
                 add_p = "23-24";
                 break;
-            case '25':
+            case '25-26':
                 add_p = "25-26";
                 break;
-            case '27':
+            case '27-28':
                 add_p = "27-28";
                 break;
-            case '29':
+            case '29-30':
                 add_p = '29-30';
                 break;   
             default:
