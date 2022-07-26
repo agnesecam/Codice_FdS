@@ -24,7 +24,8 @@
             </editionStmt>
 
             <publicationStmt>
-                <publisher> xxx </publisher>
+                <pubPlace xml:id="xxx">Alessandria</pubPlace> <!--Collega alla listPlace-->
+                <publisher> Edizioni Dell'Orso </publisher>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by/xxx/"> xxx </licence>
                 </availability>
