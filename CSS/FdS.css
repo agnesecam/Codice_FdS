@@ -38,9 +38,11 @@ footer div {
     margin-right: 5%;
 }
 
-/*.icone_FR:after {
-background-color: aqua;
-}*/
+.iconaSelezionata{
+    opacity: 0.5;
+    outline: none;
+    box-shadow: 0px 10px black;
+}
 
 #box_img{
     height: 500px;
