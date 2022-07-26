@@ -1,3 +1,4 @@
+/*ONLOAD*/
 window.onload = function testOne(){
     SaxonJS.transform({
         stylesheetLocation: "../FdS.sef.json",
@@ -84,14 +85,22 @@ function select_pages(){
 //Seleziona fronte
 function gestoreSelezionaScan1() {
 	try {
+        nodoTasto1 = document.getElementById("icona_1");
+        nodoTasto2 = document.getElementById("icona_2");
+        nodoTasto1.onclick = gestoreSelezionaScan1;
+        nodoTasto2.onclick = gestoreSelezionaScan2;
+        nodoScan1 = document.getElementById("img-scan1");
+        nodoScan2 = document.getElementById("img-scan2");
+        nodoScan2.setAttribute("class", "nascondi");
+
         nodoScan1.removeAttribute("class");
-        nodoScan1.setAttribute("class", "immagini_lettera");
+        nodoScan1.setAttribute("class", "immagini_scan");
         nodoScan2.removeAttribute("class");
         nodoScan2.setAttribute("class", "nascondi");
         nodoTasto1.removeAttribute("class");
         nodoTasto1.setAttribute("class", "iconaSelezionata");
         nodoTasto2.removeAttribute("class");
-        nodoTasto2.setAttribute("class", "icone_numeri");
+        nodoTasto2.setAttribute("class", "icone_FR");
     } catch(e) {
 		alert("gestoreSelezionaScan1"+e);
     }
@@ -99,30 +108,23 @@ function gestoreSelezionaScan1() {
 //Seleziona retro
 function gestoreSelezionaScan2() {
 	try {
+        nodoTasto1 = document.getElementById("icona_1");
+        nodoTasto2 = document.getElementById("icona_2");
+        nodoTasto1.onclick = gestoreSelezionaScan1;
+        nodoTasto2.onclick = gestoreSelezionaScan2;
+        nodoScan1 = document.getElementById("img-scan1");
+        nodoScan2 = document.getElementById("img-scan2");
+        nodoScan2.setAttribute("class", "nascondi");
+
         nodoScan2.removeAttribute("class");
-        nodoScan2.setAttribute("class", "immagini_lettera");
+        nodoScan2.setAttribute("class", "immagini_scan");
         nodoScan1.removeAttribute("class");
         nodoScan1.setAttribute("class", "nascondi");
         nodoTasto2.removeAttribute("class");
         nodoTasto2.setAttribute("class", "iconaSelezionata");
         nodoTasto1.removeAttribute("class");
-        nodoTasto1.setAttribute("class", "icone_numeri");
+        nodoTasto1.setAttribute("class", "icone_FR");
     } catch(e) {
 		alert("gestoreSelezionaScan2"+e);
-    }
-}
-    
-
-
-//Gestore load
-function gestoreLoad {
-    try {
-        nodoTasto1 = document.getElementById("icona_1");
-        nodoTasto2 = document.getElementById("icona_2");
-        nodoTasto1.onclick = gestoreSelezionaScan1;
-        nodoTasto2.onclick = gestoreSelezionaScan2;
-        nodoScan1 = document.getElementById("imglettera1");
-        nodoScan2 = document.getElementById("imglettera2");
-
     }
 }

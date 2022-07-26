@@ -57,8 +57,8 @@
                     </h3>
                     <!-- SCAN -->
                     <div id="pulsanti_immagini_lettera" >
-                        <input id="icona_1" type="image" class="icone_numeri" alt="Clicca per visualizzare la prima facciata del manoscritto" src="immagini/icona1.png"/>
-                        <input id="icona_2" type="image" class="icone_numeri" alt="Clicca per visualizzare la seconda facciata del manoscritto" src="immagini/icona2.png"/>          
+                        <input id="icona_1" type="image" class="icone_FR" alt="Clicca per visualizzare la prima facciata del manoscritto" src="immagini/icona1.png" onclick="gestoreSelezionaScan1()"/>
+                        <input id="icona_2" type="image" class="icone_FR" alt="Clicca per visualizzare la seconda facciata del manoscritto" src="immagini/icona2.png" onclick="gestoreSelezionaScan2()"/>          
                     </div>
                     <xsl:apply-templates select="//tei:facsimile"/>
                     <br/>
