@@ -207,7 +207,8 @@
                         <def>
                             uno dei due procedimenti regolari di trasformazione delle lingue volto alla creazione di nuove segni 
                             linguistici sulla base di elementi già esistenti; si tratta di un fenomeno di trasformazione linguistica di ordine
-                            mentale che richiede un certo grado di azione intelligente.<!-- vedi https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-usg.html  ma considera l'uso di re -->
+                            mentale che richiede un certo grado di azione intelligente.
+                            <!-- vedi https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-usg.html - se polir. xr e riferimento alla polir. sennò re con type="compound" -->
                                 a. in riferimento al procedimento: changement par <oRef>a.</oRef>, opération d’<oRef>a.</oRef>, phénomène d’<oRef>a.</oRef>, procédé d’<oRef>a.</oRef>.
                         </def>
                     </sense>

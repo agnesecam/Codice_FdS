@@ -65,10 +65,10 @@
                         </persName>
                         <sex>M</sex>
                         <birth>
-                            <date when="xxxx">xxxx</date>
+                            <date when="1980-01-21">21st January 1980</date>
                             <placeName>
-                                <settlement type="municipality">xxx</settlement>
-                                <settlement type="provincia" key="xx">xxxx</settlement>
+                                <settlement type="municipality">Cariati</settlement>
+                                <settlement type="provincia" key="CS">Cosenza</settlement>
                                 <country key="IT">Italia</country>
                             </placeName>
                         </birth>
