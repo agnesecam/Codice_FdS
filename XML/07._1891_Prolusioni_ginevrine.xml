@@ -61,10 +61,7 @@
             <entry xml:id="accidentel">
                 <form>
                     <orth>Accidentel</orth>
-                </form>
-                <!--  DOMANDA:
-                        Gli accorgimenti grafici adottati, [{, li mantengo a stampa oppure li ometto?
-                -->                
+                </form>         
                 <sense n="1"> 
                     [<def> <!--ometti segni grafici, rend come attributo di def-->
                         che si produce per circostanze occasionali e contingenti (<ref type="see" target="#contingent">v. contingent</ref><!--Non posso usare <re> come figlio di <def> - xr e ref -->), in particolare concerne la realtà dei fatti linguistici;
@@ -85,8 +82,8 @@
                             (<citedRange unit="page">p. 149</citedRange>)<!--citedRange-->
                         </bibl>
                     </cit>
-                    <lbl type="syn">Sin. </lbl><re type="synonym">contingent<ref target="#contingent"/></re>
-                    <lbl type="com">Cfr. </lbl><re type="compare">langue<ref target="#langue"/></re><!-- xr e ref non re e ref // compare con xr diventa cf -->
+                    <lbl type="syn">Sin. </lbl><xr type="synonym">contingent<ref target="#contingent"/></xr>
+                    <lbl type="com">Cfr. </lbl><xr type="cf">langue<ref target="#langue"/></xr><!-- xr e ref non re e ref // compare con xr diventa cf -->
                     <!--  DOMANDA:
                             Una soluzione di questo tipo, (<xr> "cross reference") per i riferimenti a sezioni di altre aree terminologiche è sensata?
                             Assumo di avere un glossario per ogni sezione terminologica (10._1894_Notes_Whitney.xml), e faccio una <ref> generica (non al termine) alla sezione dell'area terminologica, senza specificare l'entrata specifica, poiché in alcuni casi non mi è certa.
@@ -127,8 +124,8 @@
                             (<citedRange unit="page">p. 150</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl>  <re type="compare">accidentel<ref target="#accidentel"/></re>,
-                    <re type="compare"> contingent<ref target="#contingent"/></re>
+                    <lbl type="com">Cfr.</lbl>  <xr type="cf">accidentel<ref target="#accidentel"/></xr>,
+                    <xr type="cf"> contingent<ref target="#contingent"/></xr>
                 </sense>
             </entry>
 
@@ -155,9 +152,9 @@
                             (<citedRange unit="page">p. 150</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl> <re type="compare">accidentel<ref target="#accidentel"/></re>,
-                    <re type="compare">acte humain<ref target="#acte_humain"/></re>,
-                    <re type="compare"> contingent<ref target="#contingent"/></re>
+                    <lbl type="com">Cfr.</lbl> <xr type="cf">accidentel<ref target="#accidentel"/></xr>,
+                    <xr type="cf">acte humain<ref target="#acte_humain"/></xr>,
+                    <xr type="cf"> contingent<ref target="#contingent"/></xr>
                     {<xr type="other_dictionary"> <ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml#acte_linguistique"/>Ph; </xr>
                     <xr type="other_dictionary"> <ref target="14._1907_Primo_corso_di_linguistica_generale.xml#acte_linguistique"/>I corso</xr>
                     <xr type="other_dictionary"> <ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml#acte_linguistique"/>II corso</xr>}
@@ -187,11 +184,11 @@
                             (<citedRange unit="page">p. 171</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl> <re type="compare">caractère dilectal<ref target="#caractère_dialectal"/></re>,
-                    <re type="compare">continuité2<ref target="#continuité2"/></re>,
-                    <re type="compare"> dialecte<ref target="#dialecte"/></re>,
-                    <re type="compare">frontière<ref target="#frontière"/></re>
-                    <re type="compare">espace<ref target="#espace"/></re>
+                    <lbl type="com">Cfr.</lbl> <xr type="cf">caractère dilectal<ref target="#caractère_dialectal"/></xr>,
+                    <xr type="cf">continuité2<ref target="#continuité2"/></xr>,
+                    <xr type="cf"> dialecte<ref target="#dialecte"/></xr>,
+                    <xr type="cf">frontière<ref target="#frontière"/></xr>
+                    <xr type="cf">espace<ref target="#espace"/></xr>
                     {<xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml#aire_des_faits_linguistique"/>III corso</xr>}
                 </sense>
             </entry>        
@@ -239,10 +236,10 @@
                             (<citedRange unit="page">p. 161</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="opp">Opp.</lbl> <re type="opposite">changement phonétique;<ref target="#changement_phonétique"/></re>
-                    <lbl type="com">Cfr.</lbl> <re type="compare">analogique<ref target="#analogique"/></re>,
-                    <re type="compare">création<ref target="#création"/></re>,
-                    <re type="compare">transformation<ref target="#transformation"/></re>
+                    <lbl type="opp">Opp.</lbl><xr type="opposite">changement phonétique;<ref target="#changement_phonétique"/></xr>
+                    <lbl type="com">Cfr.</lbl> <xr type="cf">analogique<ref target="#analogique"/></xr>,
+                    <xr type="cf">création<ref target="#création"/></xr>,
+                    <xr type="cf">transformation<ref target="#transformation"/></xr>
                     {<xr type="other_dictionary"> <ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml#analogie"/>Tesi</xr>
                     <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml#analogie"/>Status et motus</xr>
                     <xr type="other_dictionary"> <ref target="14._1907_Primo_corso_di_linguistica_generale.xml#analogie"/>I corso</xr>
@@ -262,7 +259,7 @@
                     aggettivo; che si riferisce all’analogia o al risultato di questo procedimento; usato soprattutto in espressioni complesse: 
                     </def>
                     <cit type="example">
-                        <eg xml:lang="fr">changement <oRef>a.</oRef>, formation <oRef>a.</oRef>, rennouvellement <oRef>a.</oRef> (<ref type="see" target="#analogie">v. analogie </ref>)];</eg>
+                        changement <oRef>a.</oRef>, formation <oRef>a.</oRef>, rennouvellement <oRef>a.</oRef> (<xr type="see"><ref target="#analogie">v. analogie </ref></xr>)];
                     </cit>
                 </sense>
             </entry>
@@ -309,7 +306,7 @@
                     [<def>
                         <ref type="see" target="#vieux">v. vieux;</ref> S. critica la sua utilità in linguistica e in riferimento alle lingue
                     </def>];
-                    <lbl type="syn">Sin.</lbl> <re type="synonim">vieux<ref target="#vieux"/></re>.
+                    <lbl type="syn">Sin.</lbl><xr type="synonym">vieux<ref target="#vieux"/></xr>.
                     {<xr type="other_dictionary"> <ref target="04._1878_Mémoire.xml#ancien"/>Mém</xr>}
                 </sense>
             </entry>
@@ -382,8 +379,8 @@
                             (<citedRange unit="page">p. 155</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl> <re type="compare">conventionnel<ref target="#conventionnel"/></re>;
-                    usato anche come avverbio <re type="compare">arbitrairement<ref target="#arbitrairement"/></re>
+                    <lbl type="com">Cfr.</lbl> <xr type="cf">conventionnel<ref target="#conventionnel"/></xr>;
+                    usato anche come avverbio <xr type="cf">arbitrairement<ref target="#arbitrairement"/></xr>
                     {<xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml#arbitraire"/>Notes item</xr>;
                     <xr type="other_dictionary"><ref target="13._1903-1910_Leggende_germaniche.xml#arbitraire"/>LG</xr>;
                     <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml#arbitraire"/>I corso</xr>;
@@ -397,9 +394,9 @@
                     <orth>Articulé</orth>
                 </form>
                 <sense n="1">
-                    <def>
-                        [discusso; <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml#articulé"> v. area B; usato in espressioni complesse <eg xml:lang="fr">parole a.</eg>, <eg xml:lang="fr">langage a.</eg></ref>;]
-                    </def>
+                    [<def>
+                        discusso; <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml#articulé"> v. area B; usato in espressioni complesse <eg xml:lang="fr">parole a.</eg>, <eg xml:lang="fr">langage a.</eg></ref>;
+                    </def>]
                     <cit type="example">
                         <quote xml:lang="fr">
                             Je vous dirai, Messieurs,
@@ -451,7 +448,7 @@
                             (<citedRange unit="page">p. 161</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl> <re type="compare">analogie<ref target="#analogie"/></re>;
+                    <lbl type="com">Cfr.</lbl> <xr type="cf">analogie<ref target="#analogie"/></xr>;
                     {<xr type="other_dictionary"> <ref target="xxx.xml#association"/>ED</xr>;
                     <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml#association"/>Notes item</xr>;
                     <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml#association"/>I corso</xr>;
@@ -486,10 +483,10 @@
                             (<citedRange unit="page">p. 170</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl>  <re type="compare">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/></re>,
-                    <re type="compare">continuité2<ref target="#continuité2"/></re>,
-                    <re type="compare">dialecte<ref target="#dialecte"/></re>,
-                    <re type="compare">frontière<ref target="#frontière"/></re>.
+                    <lbl type="com">Cfr.</lbl>  <xr type="cf">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/></xr>,
+                    <xr type="cf">continuité2<ref target="#continuité2"/></xr>,
+                    <xr type="cf">dialecte<ref target="#dialecte"/></xr>,
+                    <xr type="cf">frontière<ref target="#frontière"/></xr>.
                     {<xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml#caractère_dialectal"/>II corso</xr>;
                     <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml#caractère_dialectal"/>III corso</xr>}
                 </sense>
@@ -556,14 +553,14 @@
                                     (<citedRange unit="page" from="159" to="160">pp. 159-160</citedRange>)
                                 </bibl>
                             </cit>
-                            <re type="duale">duale changement analogique<ref target="#changement_analogique"/></re>,
-                            <re type="duale">analogie<ref target="#analogie"/></re>;
-                            <lbl type="com">Cfr.</lbl> <re type="compare">phonétique<ref target="#phonétique"/></re>,
-                            <re type="compare">physiologique<ref target="#physiologique"/></re>,
-                            <re type="compare">physique<ref target="#physique"/></re>,
-                            <re type="compare">forme<ref target="#forme"/></re>,
-                            <re type="compare">mécanique<ref target="#mécanique"/></re>,
-                            <re type="compare">inconscient<ref target="#inconscient"/></re>,
+                            <xr type="duale">duale changement analogique<ref target="#changement_analogique"/></xr>,
+                            <xr type="duale">analogie<ref target="#analogie"/></xr>;
+                            <lbl type="com">Cfr.</lbl> <xr type="cf">phonétique<ref target="#phonétique"/></xr>,
+                            <xr type="cf">physiologique<ref target="#physiologique"/></xr>,
+                            <xr type="cf">physique<ref target="#physique"/></xr>,
+                            <xr type="cf">forme<ref target="#forme"/></xr>,
+                            <xr type="cf">mécanique<ref target="#mécanique"/></xr>,
+                            <xr type="cf">inconscient<ref target="#inconscient"/></xr>,
                         </sense>
                     </entry>
                     <entry xml:id="changement_analogique">
@@ -593,10 +590,10 @@
                                     (<citedRange unit="page">p. 166</citedRange>)
                                 </bibl>
                             </cit>
-                            <lbl type="syn">Sin.</lbl> <re type="synonim">analogie;<ref target="#analogie"/></re>;
-                            duale <re type="duale">changement phonétique<ref target="#changement_analogique"/></re>;
-                            <lbl type="com">Cfr.</lbl> <re type="compare">création<ref target="#création"/></re>,
-                            <lbl type="com">Cfr.</lbl> <re type="compare">transformation<ref target="#transformation"/></re>.
+                            <lbl type="syn">Sin.</lbl><xr type="synonym">analogie;<ref target="#analogie"/></xr>;
+                            duale <xr type="duale">changement phonétique<ref target="#changement_analogique"/></xr>;
+                            <lbl type="com">Cfr.</lbl> <xr type="cf">création<ref target="#création"/></xr>,
+                            <lbl type="com">Cfr.</lbl> <xr type="cf">transformation<ref target="#transformation"/></xr>.
                         </sense>
                     </entry>
                     {<xr type="other_dictionary"> <ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml#changement_analogique"/>Ph</xr>
@@ -635,9 +632,9 @@
                             (<citedRange unit="page">p. 159</citedRange>)
                         </bibl>
                     </cit>
-                    Ant. <re type="antonym">inconscience<ref target="#inconscience"/></re>;
-                    <lbl type="com">Cfr.</lbl> <re type="compare">intelligence<ref target="#intelligence"/></re>;
-                    <re type="compare">volonté<ref target="#volonté"/></re>,
+                    Ant. <xr type="antonym">inconscience<ref target="#inconscience"/></xr>;
+                    <lbl type="com">Cfr.</lbl> <xr type="cf">intelligence<ref target="#intelligence"/></xr>;
+                    <xr type="cf">volonté<ref target="#volonté"/></xr>,
                     Usato anche come aggettivo conscient
                     {<xr type="other_dictionary"> <ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml#conscience"/>Ph</xr>
                     <xr type="other_dictionary"> <ref target="08._1891-1892_De_la_double_essence_du_langage.xml#conscience"/>ED</xr>; 
@@ -674,8 +671,8 @@
                             (<citedRange unit="page">p. 149</citedRange>)
                         </bibl>
                     </cit>
-                    Ant. <re type="antonym">accidentel<ref target="#accidentel"/></re>;
-                    <lbl type="com">Cfr.</lbl> <re type="compare">langue<ref target="#langue"/></re>;
+                    Ant. <xr type="antonym">accidentel<ref target="#accidentel"/></xr>;
+                    <lbl type="com">Cfr.</lbl> <xr type="cf">langue<ref target="#langue"/></xr>;
                 </sense>
             </entry>
 
@@ -717,15 +714,15 @@
                                 (<citedRange unit="page">p. 152</citedRange>)
                             </bibl>
                         </cit>
-                        <lbl type="opp">Opp.</lbl> <re type="opposite">fixité<ref target="#fixité"/></re>;
-                        <lbl type="syn">Sin.</lbl> <re type="synonym">ininterruption forcée<ref target="#ininterruption_forcée"/></re>;
-                        <lbl type="alm-syn">quasi-sin.</lbl> <re type="almost-synonym">tradition de la langue<ref target="#tradition_de_la_langue"/></re>;
-                        duale <re type="duale">mutabilité<ref target="#tradition_de_la_langue"/></re>,
-                        <re type="duale">transformation<ref target="#transformation"/></re>;
-                        <lbl type="com">Cfr.</lbl> <re type="compare">état de langue<ref target="#état_de_langue"/></re>,
-                        <re type="compare">succession<ref target="#succession"/></re>,
-                        <re type="compare">transition<ref target="#transition"/></re>,
-                        <re type="compare">via de langue<ref target="#via_de_langue"/></re>.
+                        <lbl type="opp">Opp.</lbl><xr type="opposite">fixité<ref target="#fixité"/></xr>;
+                        <lbl type="syn">Sin.</lbl> <xr type="synonym">ininterruption forcée<ref target="#ininterruption_forcée"/></xr>;
+                        <lbl type="alm-syn">quasi-sin.</lbl> <xr type="almost-synonym">tradition de la langue<ref target="#tradition_de_la_langue"/></xr>;
+                        duale <xr type="duale">mutabilité<ref target="#tradition_de_la_langue"/></xr>,
+                        <xr type="duale">transformation<ref target="#transformation"/></xr>;
+                        <lbl type="com">Cfr.</lbl> <xr type="cf">état de langue<ref target="#état_de_langue"/></xr>,
+                        <xr type="cf">succession<ref target="#succession"/></xr>,
+                        <xr type="cf">transition<ref target="#transition"/></xr>,
+                        <xr type="cf">via de langue<ref target="#via_de_langue"/></xr>.
                     </sense>
                     <sense n="b" xml:id="continuité2">2. 
                         [<def>
@@ -749,11 +746,11 @@
                                 (<citedRange unit="page">p. 171</citedRange>)
                             </bibl>
                         </cit>
-                        Ant. <re type="antonym">divergence<ref target="#divergence"/></re>;
-                        <lbl type="com">Cfr.</lbl> <re type="compare">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/></re>;
-                        <re type="compare">caractère dialectal<ref target="#caractère_dialectal"/></re>;
-                        <re type="compare">dialecte<ref target="#dialecte"/></re>;
-                        <re type="compare">frontière<ref target="#frontière"/></re>.
+                        Ant. <xr type="antonym">divergence<ref target="#divergence"/></xr>;
+                        <lbl type="com">Cfr.</lbl> <xr type="cf">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/></xr>;
+                        <xr type="cf">caractère dialectal<ref target="#caractère_dialectal"/></xr>;
+                        <xr type="cf">dialecte<ref target="#dialecte"/></xr>;
+                        <xr type="cf">frontière<ref target="#frontière"/></xr>.
                         <xr type="other_dictionary"> <ref target="08._1891-1892_De_la_double_essence_du_langage.xml"/>ED</xr>; 
                     </sense>
                     {<xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml#continuité"/>Status et motus</xr>;                    
@@ -819,8 +816,8 @@
                             (<citedRange unit="page">p. 165</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl> <re type="compare">arbitraire<ref target="#arbitraire"/></re>;
-                    <re type="compare">volonté<ref target="#volonté"/></re>,
+                    <lbl type="com">Cfr.</lbl> <xr type="cf">arbitraire<ref target="#arbitraire"/></xr>;
+                    <xr type="cf">volonté<ref target="#volonté"/></xr>,
                     Usato anche come aggettivo conscient
                     {<xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml#conventionnel"/>Status et motus</xr>;
                     <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml#conventionnel"/>Notes Whitney</xr>;
@@ -888,10 +885,10 @@
                             (<citedRange unit="page">p. 160</citedRange>)
                         </bibl>
                     </cit>
-                    Syn. <re type="synonym">innovation<ref target="#innovation"/></re>;
-                    quasi- sin. <re type="almost-synonym">transformation</re>;
-                    <lbl type="com">Cfr.</lbl> <re type="compare">analogie<ref target="#analogie"/></re>,
-                    <re type="compare">changement analogique<ref target="#changement analogique"/></re>
+                    Syn. <xr type="synonym">innovation<ref target="#innovation"/></xr>;
+                    quasi- sin. <xr type="almost-synonym">transformation</xr>;
+                    <lbl type="com">Cfr.</lbl> <xr type="cf">analogie<ref target="#analogie"/></xr>,
+                    <xr type="cf">changement analogique<ref target="#changement analogique"/></xr>
                     {<xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml#création"/>Notes item</xr>;
                     <xr type="other_dictionary"> <ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml#création"/>II corso</xr>;
                     <xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml#création"/>III corso</xr>}
@@ -929,10 +926,10 @@
                             (<citedRange unit="page">p. 171</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl> <re type="compare">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/></re>,
-                    <re type="compare">caractère dialectal<ref target="#caractère_dialectal"/></re>,
-                    <re type="compare">continuité2<ref target="#continuité2"/></re>,
-                    <re type="compare">frontière<ref target="#frontière"/></re>.
+                    <lbl type="com">Cfr.</lbl> <xr type="cf">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/></xr>,
+                    <xr type="cf">caractère dialectal<ref target="#caractère_dialectal"/></xr>,
+                    <xr type="cf">continuité2<ref target="#continuité2"/></xr>,
+                    <xr type="cf">frontière<ref target="#frontière"/></xr>.
                     {<xr type="other_dictionary"> <ref target="14._1907_Primo_corso_di_linguistica_generale.xml#dialecte"/>I corso</xr>;
                     <xr type="other_dictionary"> <ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml#dialecte"/>II corso</xr>;
                     <xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml#dialecte"/>III corso</xr>}
@@ -987,8 +984,8 @@
                                 (<citedRange unit="page">p. 167</citedRange>)
                             </bibl>
                         </cit>
-                        Ant. <re type="antonym">divergence<ref target="#divergence"/></re>;
-                        S. <re type="S.">différencier<ref target="#différencier"/></re>.
+                        Ant. <xr type="antonym">divergence<ref target="#divergence"/></xr>;
+                        S. <xr type="S.">différencier<ref target="#différencier"/></xr>.
                         {<xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml#différence"/>Status et motus</xr>;
                         <xr type="other_dictionary"> <ref target="08._1891-1892_De_la_double_essence_du_langage.xml#différence"/>ED</xr>;                     
                         <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml#différence"/>Notes item</xr>;
@@ -1030,8 +1027,8 @@
                             (<citedRange unit="page">p. 169</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl> <re type="compare">différence<ref target="#différence"/></re>,
-                    <re type="compare">différencier<ref target="#différencier"/></re>.
+                    <lbl type="com">Cfr.</lbl> <xr type="cf">différence<ref target="#différence"/></xr>,
+                    <xr type="cf">différencier<ref target="#différencier"/></xr>.
                     {<xr type="other_dictionary"> <ref target="14._1907_Primo_corso_di_linguistica_generale.xml#différenciation"/>I corso</xr>;
                     <xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml#différenciation"/>III corso</xr>}
                 </sense>
@@ -1064,7 +1061,7 @@
                             (<citedRange unit="page">p. 151</citedRange>)
                         </bibl>
                     </cit>
-                    Duale <re type="duale">diversifier<ref target="#diversifier"/></re>.
+                    Duale <xr type="duale">diversifier<ref target="#diversifier"/></xr>.
                 </sense>
             </entry>
 
@@ -1095,7 +1092,7 @@
                             (<citedRange unit="page">p. 169</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="alm-syn">Quasi-sin.</lbl> <re type="almost-synonym">isolation linguistique<ref target="#isolation_linguistique"/></re>,
+                    <lbl type="alm-syn">Quasi-sin.</lbl> <xr type="almost-synonym">isolation linguistique<ref target="#isolation_linguistique"/></xr>,
                     {<xr type="other_dictionary"> <ref target="14._1907_Primo_corso_di_linguistica_generale.xml#discontinuité"/>I corso</xr>;
                     <xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml#discontinuité"/>III corso</xr>}
                 </sense>
@@ -1108,7 +1105,7 @@
                 <sense n="1">
                     [<def>
                         uno dei due fattori che influenzano le differenze linguistiche; intervallo di tempo
-                        compreso tra due punti temporali qualsiasi in relazione alla continuità di una lingua (v. <ref type="see" target="#continuité1">continuité1</ref>), in
+                        compreso tra due punti temporali qualsiasi in relazione alla continuità di una lingua (v.  <ref type="see" target="#continuité1">continuité1</ref>), in
                         esso è possibile riscontrare cambiamenti e differenze linguistiche
                     </def>];
                     <cit type="example">
@@ -1130,7 +1127,7 @@
                             (<citedRange unit="page">p. 163</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="syn">Sin.</lbl> <re type="synonym">durée<ref target="#durée"/></re>.
+                    <lbl type="syn">Sin.</lbl> <xr type="synonym">durée<ref target="#durée"/></xr>.
                 </sense>
             </entry>
 
@@ -1159,9 +1156,9 @@
                             (<citedRange unit="page">p. 166</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl> <re type="compare">divergence<ref target="#divergence"/></re>,
-                    <re type="compare">diversifier<ref target="#diversifier"/></re>,
-                    <re type="compare">espace<ref target="#espace"/></re>.
+                    <lbl type="com">Cfr.</lbl> <xr type="cf">divergence<ref target="#divergence"/></xr>,
+                    <xr type="cf">diversifier<ref target="#diversifier"/></xr>,
+                    <xr type="cf">espace<ref target="#espace"/></xr>.
                 </sense>
             </entry>
 
@@ -1190,9 +1187,9 @@
                             (<citedRange unit="page">p. 151</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl> <re type="compare">distance géographique<ref target="#distance_géographique"/></re>,
-                    <re type="compare">diversifier<ref target="#diversifier"/></re>,
-                    <re type="compare">espace<ref target="#espace"/></re>.
+                    <lbl type="com">Cfr.</lbl> <xr type="cf">distance géographique<ref target="#distance_géographique"/></xr>,
+                    <xr type="cf">diversifier<ref target="#diversifier"/></xr>,
+                    <xr type="cf">espace<ref target="#espace"/></xr>.
                 </sense>
             </entry>
 
@@ -1224,9 +1221,9 @@
                             (<citedRange unit="page">p. 151</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl> <re type="compare">distance géographique<ref target="#distance_géographique"/></re>,
-                    <re type="compare">divergence<ref target="#divergence"/></re>,
-                    <re type="compare">espace<ref target="#espace"/></re>.
+                    <lbl type="com">Cfr.</lbl> <xr type="cf">distance géographique<ref target="#distance_géographique"/></xr>,
+                    <xr type="cf">divergence<ref target="#divergence"/></xr>,
+                    <xr type="cf">espace<ref target="#espace"/></xr>.
                     {<xr type="other_dictionary"> <ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml#diversifier"/>II corso</xr>;
                     <xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml#diversifier"/>III corso</xr>}
                 </sense>
@@ -1259,7 +1256,7 @@
                             (<citedRange unit="page">p. 163</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl> <re type="compare">distance chronologique<ref target="#distance_chronologique"/></re>
+                    <lbl type="com">Cfr.</lbl> <xr type="cf">distance chronologique<ref target="#distance_chronologique"/></xr>
                 </sense>
             </entry>
 
@@ -1338,7 +1335,7 @@
                             (<citedRange unit="page">p. 160</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="alm-syn">Quasi-sin.</lbl> <re type="almost-synonym">terme2<ref target="#terme2"/></re>.
+                    <lbl type="alm-syn">Quasi-sin.</lbl> <xr type="almost-synonym">terme2<ref target="#terme2"/></xr>.
                     {<xr type="other_dictionary"> <ref target="08._1891-1892_De_la_double_essence_du_langage.xml#elément"/>ED</xr>;   
                     <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml#elément"/>Notes Whitney</xr>;
                     <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml#elément"/>ThS</xr>;
@@ -1392,7 +1389,7 @@
                 <sense n="1">
                     [<def>
                         (<eg xml:lang="fr">état d’<oRef>é.</oRef></eg> criticato in riferimento alla lingua e ai suoi cambiamenti storici; per il termine
-                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#équilibre">équilibre</ref> v. <ref target="01._Area_terminologica_A_altri_saperi_specialistici.xml#équilibre">area A</ref>
+                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#équilibre">équilibre</ref> v. <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#équilibre">area A</ref>
                     </def>];
                     <cit type="example">
                         <quote xml:lang="fr">
@@ -1447,7 +1444,7 @@
                             (<citedRange unit="page">p. 151</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="alm-syn">Quasi-sin.</lbl> <re type="almost-synonym">distance géographique<ref target="#distance_géographique"/></re>.
+                    <lbl type="alm-syn">Quasi-sin.</lbl> <xr type="almost-synonym">distance géographique<ref target="#distance_géographique"/></xr>.
                     <xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml#espace"/>III corso</xr>}
                 </sense>
             </entry>
@@ -1484,10 +1481,10 @@
                             (<citedRange unit="page">p. 165</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl> <re type="compare">continuité<ref target="#continuité"/></re>,
-                    <re type="compare">succession<ref target="#succession"/></re>,
-                    <re type="compare">transition<ref target="#transition"/></re>, 
-                    <re type="compare">vie de la langue<ref target="#vie de la langu"/></re>.
+                    <lbl type="com">Cfr.</lbl> <xr type="cf">continuité<ref target="#continuité"/></xr>,
+                    <xr type="cf">succession<ref target="#succession"/></xr>,
+                    <xr type="cf">transition<ref target="#transition"/></xr>, 
+                    <xr type="cf">vie de la langue<ref target="#vie de la langu"/></xr>.
                     {<xr type="other_dictionary"> <ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml#etat_de_langue"/>Ph</xr>
                     <xr type="other_dictionary"> <ref target="08._1891-1892_De_la_double_essence_du_langage.xml#etat_de_langue"/>ED</xr>; 
                     <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml#etat_de_langue"/>Status et motus</xr>;
@@ -1545,7 +1542,7 @@
                 <sense n="1">
                     [<def>
                         laccadimento, fenomeno o avvenimento che non dipendono esclusivamente da leggi universali di
-                        natura ma determinati – in parte o in toto – da atti umani (v. <ref type="see" target="#acte_humain">acte_humain</ref>)
+                        natura ma determinati – in parte o in toto – da atti umani (v. <ref type="see" target="#acte_humain">acte humain</ref>)
                     </def>];
                     <cit type="example">
                         <quote xml:lang="fr">
@@ -1564,10 +1561,10 @@
                             (<citedRange unit="page">p. 149</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="opp">Opp.</lbl> <re type="opposite"> loi1<ref target="#loi1"/></re>;
-                    <lbl type="com">Cfr.</lbl> <re type="compare">accidentel<ref target="#accidentel"/></re>,
-                    <re type="compare">acte humaine<ref target="#acte_humaine"/></re>, 
-                    <re type="compare">contingent<ref target="#contingent"/></re>.
+                    <lbl type="opp">Opp.</lbl><xr type="opposite"> loi1<ref target="#loi1"/></xr>;
+                    <lbl type="com">Cfr.</lbl> <xr type="cf">accidentel<ref target="#accidentel"/></xr>,
+                    <xr type="cf">acte humaine<ref target="#acte_humaine"/></xr>, 
+                    <xr type="cf">contingent<ref target="#contingent"/></xr>.
                 </sense>
             </entry>
 
@@ -1597,8 +1594,8 @@
                             (<citedRange unit="page">p. 148</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl> <re type="compare">fait<ref target="#fait"/></re>,
-                    <re type="compare">linguistique<ref target="#linguistique"/></re>
+                    <lbl type="com">Cfr.</lbl> <xr type="cf">fait<ref target="#fait"/></xr>,
+                    <xr type="cf">linguistique<ref target="#linguistique"/></xr>
                     Occorre anche come <term xml:id="fait_linguistique">fait linguistique</term><!--Come lo rendo?-->
                     {<xr type="other_dictionary"><ref target="08._1891-1892_De_la_double_essence_du_langage.xml#fait_de_langage"/>ED</xr>; 
                     <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml#fait_de_langage"/>Status et motus</xr>;
@@ -1643,11 +1640,11 @@
                             (<citedRange unit="page">p. 151</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="syn">Sin.</lbl> <re type="synonym">immobilité<ref target="#immobilité"/></re>,
-                    <lbl type="opp">Opp.</lbl> <re type="opposite">continuité<ref target="#continuité"/></re>,
-                    <re type="opposite">mutabilité<ref target="#mutabilité"/></re>,
-                    <re type="opposite">transformation<ref target="#transformation"/></re>,
-                    <re type="opposite">changement<ref target="#changement"/></re>.
+                    <lbl type="syn">Sin.</lbl> <xr type="synonym">immobilité<ref target="#immobilité"/></xr>,
+                    <lbl type="opp">Opp.</lbl><xr type="opposite">continuité<ref target="#continuité"/></xr>,
+                   <xr type="opposite">mutabilité<ref target="#mutabilité"/></xr>,
+                   <xr type="opposite">transformation<ref target="#transformation"/></xr>,
+                   <xr type="opposite">changement<ref target="#changement"/></xr>.
                     {<xr type="other_dictionary"><ref target="13._1903-1910_Leggende_germaniche.xml#fixité"/>LG</xr>}
                 </sense>
             </entry>
@@ -1658,7 +1655,7 @@
                 </form>
                 <sense n="1">
                     [<def>
-                        v. <ref type="see" target="#01._Area_terminologica_A_altri_saperi_specialistici.xml#fonction">fonction</ref>area A; S. critica la posizione che il linguaggio sia riducibile ad una funzione
+                        v. <ref target="#01._Area_terminologica_A_altri_saperi_specialistici.xml#fonction">fonction</ref> area A; S. critica la posizione che il linguaggio sia riducibile ad una funzione
                         naturale
                     </def>];
                     <cit type="example">
@@ -1764,9 +1761,9 @@
                             (<citedRange unit="page">p. 151</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="syn">Cfr.</lbl> <re type="compare">continuité2<ref target="#continuité2"/></re>,
-                    <re type="compare">divergence<ref target="#divergence"/></re>,
-                    <re type="compare">diversifier<ref target="#diversifier"/></re>.
+                    <lbl type="syn">Cfr.</lbl> <xr type="cf">continuité2<ref target="#continuité2"/></xr>,
+                    <xr type="cf">divergence<ref target="#divergence"/></xr>,
+                    <xr type="cf">diversifier<ref target="#diversifier"/></xr>.
                     <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml#fractionament_dialecta"/>II corso</xr>                
                 </sense>
             </entry>
@@ -1807,11 +1804,11 @@
                             (<citedRange unit="page">p. 172</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="syn">Cfr.</lbl> <re type="compare"> aire des faits linguistique<ref target="#continuité2"/></re>,
-                    <re type="compare">caractère_dialectal<ref target="#caractère_dialectal"/></re>,
-                    <re type="compare">continuité2<ref target="#continuité2"/></re>,
-                    <re type="compare">dialecte<ref target="#dialecte"/></re>,
-                    <re type="compare">espace<ref target="#espace"/></re>.
+                    <lbl type="syn">Cfr.</lbl> <xr type="cf"> aire des faits linguistique<ref target="#continuité2"/></xr>,
+                    <xr type="cf">caractère_dialectal<ref target="#caractère_dialectal"/></xr>,
+                    <xr type="cf">continuité2<ref target="#continuité2"/></xr>,
+                    <xr type="cf">dialecte<ref target="#dialecte"/></xr>,
+                    <xr type="cf">espace<ref target="#espace"/></xr>.
                     <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml#frontière"/>III corso</xr>                
                 </sense>
             </entry>            
@@ -1823,7 +1820,7 @@
                 </form>
                 <sense n="1">
                     [<def>
-                        aggettivo; in riferimento ad un operazione di <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#généralisation"> généralisation</ref> (<ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#général">v. area A</ref>), usato in riferimento alle
+                        aggettivo; in riferimento ad un operazione di <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#généralisation"> généralisation</ref> (<ref target="01._Area_terminologica_A_altri_saperi_specialistici.xml#général">v. area A</ref>), usato in riferimento alle
                         lingue;
                     </def>];
                     <cit type="example">
@@ -1844,8 +1841,8 @@
                             (<citedRange unit="page">p. 146</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="duale">Duale</lbl> <re type="duale"> universel2<ref target="#universel2"/></re>,
-                    <lbl type="duale">Cfr.</lbl><re type="compare">généralisation<ref target="#généralisation"/></re>,
+                    <lbl type="duale">Duale</lbl> <xr type="duale"> universel2<ref target="#universel2"/></xr>,
+                    <lbl type="duale">Cfr.</lbl><xr type="cf">généralisation<ref target="#généralisation"/></xr>,
                     <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml#général"/>Notes Whitney</xr>.
                 </sense>
             </entry>   
@@ -1879,7 +1876,7 @@
                             (<citedRange unit="page">p. 147</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr. </lbl> <re type="compare">général<ref target="#général"/></re>,
+                    <lbl type="com">Cfr. </lbl> <xr type="cf">général<ref target="#général"/></xr>,
                     <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xmlgénéralisation"/>ED</xr>, 
                     <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xmlgénéralisation"/>Notes Whitney</xr>.
                 </sense>
@@ -1947,7 +1944,7 @@
                             (<citedRange unit="page">p. 148</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="synonym">Sin. </lbl><re type="synonym">famille des langues<ref target="#famille_des_langues"/></re>,
+                    <lbl type="synonym">Sin. </lbl><xr type="synonym">famille des langues<ref target="#famille_des_langues"/></xr>,
                     {<xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml#groupe_de_langues"/>I corso</xr>;}
                 </sense>
             </entry>
@@ -2023,7 +2020,7 @@
                             (<citedRange unit="page">p. 148</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="duale">duale. </lbl><re type="duale">langue dans l'histoire<ref target="#langue_dans_l'histoire"/></re>,
+                    <lbl type="duale">duale. </lbl><xr type="duale">langue dans l'histoire<ref target="#langue_dans_l'histoire"/></xr>,
                     {<xr type="other_dictionary"> <ref target="08._1891-1892_De_la_double_essence_du_langage.xml#histoire_de_la_langue"/>ED</xr>; 
                     <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xmlhistoire_de_la_langue"/>Status et motus</xr>;                    
                     <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xmlhistoire_de_la_langue"/>Notes item</xr>;
@@ -2134,11 +2131,11 @@
                             (<citedRange unit="page">p. 158</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="syn">Sin. di</lbl><re type="synonym">fixité<ref target="#fixité"/></re>;
-                    <lbl type="opp">opp</lbl><re type="opp">continuité<ref target="#continuité"/></re>;
-                    <re type="opp">mutabilité<ref target="#mutabilité"/></re>
-                    <re type="opp">transformation<ref target="#transformation"/></re>
-                    <re type="opp">changement<ref target="#changement"/></re>
+                    <lbl type="syn">Sin. di</lbl><xr type="synonym">fixité<ref target="#fixité"/></xr>;
+                    <lbl type="opp">opp</lbl><xr type="opp">continuité<ref target="#continuité"/></xr>;
+                    <xr type="opp">mutabilité<ref target="#mutabilité"/></xr>
+                    <xr type="opp">transformation<ref target="#transformation"/></xr>
+                    <xr type="opp">changement<ref target="#changement"/></xr>
                     {<xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml#immobilité"/>II corso</xr>;
                     <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml#immobilité"/>III corso</xr>}
                 </sense>
@@ -2178,7 +2175,7 @@
                             (<citedRange unit="page">p. 154</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr. </lbl><re type="compare">continuité<ref target="#continuité"/></re>;
+                    <lbl type="com">Cfr. </lbl><xr type="cf">continuité<ref target="#continuité"/></xr>;
                 </sense>
             </entry>
 
@@ -2206,9 +2203,9 @@
                             (<citedRange unit="page">p. 159</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="ant">Ant. </lbl><re type="antonym">Con science<ref target="#con_science"/></re>;
-                    <lbl type="com">Cfr</lbl><re type="compare">intelligence<ref target="#intelligence"/></re>;
-                    <re type="compare">volonté<ref target="#volonté"/></re>;
+                    <lbl type="ant">Ant. </lbl><xr type="antonym">Con science<ref target="#con_science"/></xr>;
+                    <lbl type="com">Cfr</lbl><xr type="cf">intelligence<ref target="#intelligence"/></xr>;
+                    <xr type="cf">volonté<ref target="#volonté"/></xr>;
                     usato anche come aggettivo <term xml:id="incoscient"/>;
                     {<xr type="other_dictionary"> <ref target="14._1907_Primo_corso_di_linguistica_generale.xml#inconscience"/>I corso</xr>}
                 </sense>
@@ -2239,7 +2236,7 @@
                             (<citedRange unit="page">p. 151</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="syn">Sin. </lbl><re type="synonym">continuité1<ref target="#continuité1"/></re>
+                    <lbl type="syn">Sin. </lbl><xr type="synonym">continuité1<ref target="#continuité1"/></xr>
                 </sense>
             </entry>
 
@@ -2269,8 +2266,8 @@
                             (<citedRange unit="page">p. 160</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="syn">Sin. </lbl><re type="synonym">création<ref target="#création"/></re>;
-                    <lbl type="com">Cfr. </lbl><re type="compare">analogie<ref target="#analogie"/></re>
+                    <lbl type="syn">Sin. </lbl><xr type="synonym">création<ref target="#création"/></xr>;
+                    <lbl type="com">Cfr. </lbl><xr type="cf">analogie<ref target="#analogie"/></xr>
                 </sense>
             </entry>
             
@@ -2299,8 +2296,8 @@
                             (<citedRange unit="page">p. 150</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr. </lbl><re type="compare">conscience<ref target="#conscience"/></re>;
-                    <lbl type="syn">Sin. </lbl><re type="synonym">volonté<ref target="#volonté"/></re>;                    
+                    <lbl type="com">Cfr. </lbl><xr type="cf">conscience<ref target="#conscience"/></xr>;
+                    <lbl type="syn">Sin. </lbl><xr type="synonym">volonté<ref target="#volonté"/></xr>;                    
                     {<xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml#intelligence"/>III corso</xr>}
                 </sense>
             </entry>
@@ -2333,7 +2330,7 @@
                             (<citedRange unit="page">p. 169</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="alm-syn">Quasi-sin. </lbl><re type="almost-synonim">discontinuité<ref target="#discontinuité"/></re>;
+                    <lbl type="alm-syn">Quasi-sin. </lbl><xr type="almost-synonim">discontinuité<ref target="#discontinuité"/></xr>;
                 </sense>
             </entry>
 
@@ -2597,7 +2594,7 @@
                             (<citedRange unit="page">p. 149</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="duale">Duale </lbl><re type="duale">histoire de la langue<ref target="#histoire_de_la_langue"/></re>;
+                    <lbl type="duale">Duale </lbl><xr type="duale">histoire de la langue<ref target="#histoire_de_la_langue"/></xr>;
                 </sense>
             </entry>
 
@@ -2641,7 +2638,7 @@
                     [<def>
                         criticato; <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml#langue_mère">v. area B</ref>
                     </def>];
-                    v. <ref type="see" target="#langue_fille">langue_fille</ref>
+                    v. <xr type="see"><ref target="#langue_fille">langue_fille</ref></xr>
                 </sense>
             </entry>
 
@@ -2668,7 +2665,7 @@
                             (<citedRange unit="page">p. 160</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="duale">Duale </lbl><re type="duale">histoire de la langue<ref target="#histoire_de_la_langue#linguiste"/></re>;
+                    <lbl type="duale">Duale </lbl><xr type="duale">histoire de la langue<ref target="#histoire_de_la_langue#linguiste"/></xr>;
                 </sense>
             </entry>
 
@@ -2705,7 +2702,7 @@
                                 (<citedRange unit="page">p. 148</citedRange>)
                             </bibl>
                         </cit>
-                        <lbl type="syn">Sin. </lbl><re type="synonym">science du langage<ref target="#science_du_langage"/></re>
+                        <lbl type="syn">Sin. </lbl><xr type="synonym">science du langage<ref target="#science_du_langage"/></xr>
                         <xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml#linguistique"/>Ph</xr>;
                         <xr type="other_dictionary"> <ref target="08._1891-1892_De_la_double_essence_du_langage.xml#linguistique"/>ED</xr>;  
                         <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml#linguistique"/>ThS </xr>;
@@ -2866,7 +2863,7 @@
                                 (<citedRange unit="page">p. 148</citedRange>)
                             </bibl>
                         </cit>
-                        <lbl type="opp">opp. </lbl><re type="opp">fait<ref target="#fait"/></re>
+                        <lbl type="opp">opp. </lbl><xr type="opp">fait<ref target="#fait"/></xr>
                     </sense>
                     <sense n="b" xml:id="loi2">2. 
                         [<def>
@@ -2889,7 +2886,7 @@
                                 (<citedRange unit="page">p. 151</citedRange>)
                             </bibl>
                         </cit>
-                        <lbl type="com">Cfr. </lbl><re type="compare">fait<ref target="#fait"/></re>
+                        <lbl type="com">Cfr. </lbl><xr type="cf">fait<ref target="#fait"/></xr>
                     </sense>
                     <xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml#loi"/>Ph</xr>;
                     <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml#loi"/>Notes Whitney</xr>;                    
@@ -3072,11 +3069,11 @@
                             (<citedRange unit="page">p. 154</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr. </lbl><re type="compare">ancien<ref target="ancien"/></re>,
-                    <re type="compare">naissance de la langue<ref target="naissance de la langue"/></re>,
-                    <re type="compare">organique<ref target="organique"/></re>,
-                    <re type="compare">vieux<ref target="vieux"/></re>,
-                    <re type="compare">vie de la langue<ref target="vie de la langue"/></re>.
+                    <lbl type="com">Cfr. </lbl><xr type="cf">ancien<ref target="ancien"/></xr>,
+                    <xr type="cf">naissance de la langue<ref target="naissance de la langue"/></xr>,
+                    <xr type="cf">organique<ref target="organique"/></xr>,
+                    <xr type="cf">vieux<ref target="vieux"/></xr>,
+                    <xr type="cf">vie de la langue<ref target="vie de la langue"/></xr>.
                 </sense>     
             </entry>
 
@@ -3146,9 +3143,9 @@
                             (<citedRange unit="page">p. 157</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr. </lbl><re type="compare">continuité<ref target="continuité"/></re>,
-                    <re type="compare">mutabilité<ref target="mutabilité"/></re>,
-                    <re type="compare">transformation<ref target="transformation"/></re>.
+                    <lbl type="com">Cfr. </lbl><xr type="cf">continuité<ref target="continuité"/></xr>,
+                    <xr type="cf">mutabilité<ref target="mutabilité"/></xr>,
+                    <xr type="cf">transformation<ref target="transformation"/></xr>.
                     {<xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml#mouvement"/>I corso</xr>}
                 </sense>     
             </entry>
@@ -3181,10 +3178,10 @@
                             (<citedRange unit="page">p. 157</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="opp">Opp. </lbl><re type="opposite">immobilité<ref target="immobilité"/></re>;
-                    <lbl type="opp">Cfr. </lbl><re type="opposite">continuité<ref target="continuité"/></re>;
-                    <re type="opp">mouvement<ref target="mouvement"/></re>,
-                    <re type="opp">transformation<ref target="transformation"/></re>.
+                    <lbl type="opp">Opp. </lbl><xr type="opposite">immobilité<ref target="immobilité"/></xr>;
+                    <lbl type="opp">Cfr. </lbl><xr type="opposite">continuité<ref target="continuité"/></xr>;
+                    <xr type="opp">mouvement<ref target="mouvement"/></xr>,
+                    <xr type="opp">transformation<ref target="transformation"/></xr>.
                     {<xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml#mutabilité"/>III corso</xr>}
                 </sense>     
             </entry>
@@ -3218,11 +3215,11 @@
                             (<citedRange unit="page">p. 152</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr. </lbl><re type="compare">ancien<ref target="ancien"/></re>;
-                    <re type="compare">mort<ref target="mort"/></re>,
-                    <re type="compare">organique<ref target="organique"/></re>,
-                    <re type="compare">continuité<ref target="continuité"/></re>,
-                    <re type="compare">vie de la langue<ref target="vie de la langue"/></re>.
+                    <lbl type="com">Cfr. </lbl><xr type="cf">ancien<ref target="ancien"/></xr>;
+                    <xr type="cf">mort<ref target="mort"/></xr>,
+                    <xr type="cf">organique<ref target="organique"/></xr>,
+                    <xr type="cf">continuité<ref target="continuité"/></xr>,
+                    <xr type="cf">vie de la langue<ref target="vie de la langue"/></xr>.
                     {<xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml#naissance_de_la_langue"/>III corso</xr>}
                 </sense>     
             </entry>
@@ -3266,7 +3263,7 @@
                         </bibl>
                     </cit>          
                     {<xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml#nom"/>Status et motus</xr>;
-                    <xr type="other_dictionary"><ref target="13._1903-1910_Leggende_germaniche.xml#nom"/>LG</xr>}
+                    <xr type="other_dictionary"> <ref target="13._1903-1910_Leggende_germaniche.xml#nom"/>LG</xr>}
                 </sense>     
             </entry>
 
@@ -3324,7 +3321,7 @@
                 </form>
                 <sense n="1">
                     [<def>
-                        <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml#organique">v. area A</ref>,
+                        <ref target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml#organique">v. area A</ref>,
                         criticato in riferimento alle lingue
                     </def>];
                     <cit type="example">
@@ -3354,7 +3351,7 @@
                 </form>
                 <sense n="1">
                     [<def>
-                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#organisme">v. area A</ref>,
+                        <ref target="01._Area_terminologica_A_altri_saperi_specialistici.xml#organisme">v. area A</ref>,
                         criticato in riferimento alle lingue
                     </def>];
                     <cit type="example">
@@ -3375,10 +3372,10 @@
                             (<citedRange unit="page" from="154">p. 154</citedRange>)
                         </bibl>
                     </cit>          
-                    <lbl type="com">Cfr. </lbl><re type="compare">ancien<ref target="#ancien"/></re>,
-                    <re type="compare">mort<ref target="#mort"/></re>,
-                    <re type="compare">naissance de langue<ref target="#naissance_de_langue"/></re>,
-                    <re type="compare">vieux<ref target="#vieux"/></re>,
+                    <lbl type="com">Cfr. </lbl><xr type="cf">ancien<ref target="#ancien"/></xr>,
+                    <xr type="cf">mort<ref target="#mort"/></xr>,
+                    <xr type="cf">naissance de langue<ref target="#naissance_de_langue"/></xr>,
+                    <xr type="cf">vieux<ref target="#vieux"/></xr>,
                     <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml#organisme"/>Notes item</xr>;
                     <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml#organisme"/>I corso</xr>;
                     <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml#organisme"/>II corso</xr>;
@@ -3417,8 +3414,8 @@
                                 (<citedRange unit="page">p. 159</citedRange>)
                             </bibl>
                         </cit>
-                        <lbl type="com">cfr. </lbl><re type="compare">naissance du langue<ref target="#naissance_du_langue"/></re>,
-                        <re type="compare">vie de la langue<ref target="#vie_de_la_langue"/></re>
+                        <lbl type="com">cfr. </lbl><xr type="cf">naissance du langue<ref target="#naissance_du_langue"/></xr>,
+                        <xr type="cf">vie de la langue<ref target="#vie_de_la_langue"/></xr>
                     </sense>
                     <sense n="b" xml:id="origine_du_langage2">2. 
                         [<def>
@@ -3475,7 +3472,7 @@
                             (<citedRange unit="page">p. 147</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr. </lbl><re type="compare">langage1<ref target="#langage1"/></re>
+                    <lbl type="com">Cfr. </lbl><xr type="cf">langage1<ref target="#langage1"/></xr>
                     {<xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml#parler_humain"/>Ph</xr>;}
                 </sense>     
             </entry>
@@ -3486,7 +3483,7 @@
                 </form>
                 <sense n="1">
                     [<def>
-                        discusso, <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml#parole">v. area B</ref>
+                        discusso, <ref target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml#parole">v. area B</ref>
                     </def>];
                     <cit type="example">
                         <quote xml:lang="fr">
@@ -3557,7 +3554,7 @@
                 </form>
                 <sense n="1">
                     [<def>
-                        <ref type="see" target="#analogie">v. analogie</ref>,                
+                        <ref target="#analogie">v. analogie</ref>,                
                     </def>];
                 </sense>     
             </entry>
@@ -3568,7 +3565,7 @@
                 </form>
                 <sense n="1">
                     [<def>
-                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#philosophe">v. area A</ref>,
+                        <ref target="01._Area_terminologica_A_altri_saperi_specialistici.xml#philosophe">v. area A</ref>,
                         in quanto distinto dalla linguistica
                     </def>];
                     <cit type="example">
@@ -3603,7 +3600,7 @@
                 <sense n="1">
                     [<def>
                         agg. relativo ai suoni delle lingue, usato esclusivamente in relazione ai cambiamenti fonetici
-                        (<ref type="see" target="#changement_phonetique">v. changement phonétique</ref>)
+                        (<ref target="#changement_phonetique">v. changement phonétique</ref>)
                     </def>];
                     {<xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml#phonétique"/>Ph</xr>;
                     <xr type="other_dictionary"> <ref target="08._1891-1892_De_la_double_essence_du_langage.xml#phonétique"/>ED</xr>;  
@@ -3647,8 +3644,8 @@
                             (<citedRange unit="page">p. 157</citedRange>)
                         </bibl>
                     </cit>            
-                    <lbl type="com">Cfr. </lbl><re type="compare"> photographe<ref target="#photographe"/></re>
-                    <re type="compare"> photographie<ref target="#photographie"/></re>
+                    <lbl type="com">Cfr. </lbl><xr type="cf"> photographe<ref target="#photographe"/></xr>
+                    <xr type="cf"> photographie<ref target="#photographie"/></xr>
                 </sense>     
             </entry>
 
@@ -3658,7 +3655,7 @@
                 </form>
                 <sense n="1">
                     [<def>
-                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#photographe">v. area A</ref>,
+                        <ref target="01._Area_terminologica_A_altri_saperi_specialistici.xml#photographe">v. area A</ref>,
                         Depuis vingt ans avec une régularité admirable, le premier et le quinze de chaque
                         mois, cet homme dévoué à la science se rendait chez son photographe, et il se trouvait maintenant en état
                         de faire profiter le public du fruit accumulé de ses labeurs
@@ -3682,8 +3679,8 @@
                             (<citedRange unit="page">p. 156</citedRange>)
                         </bibl>
                     </cit>                                
-                    <lbl type="com">Cfr. </lbl><re type="compare">photographier<ref target="#photographier"/></re>
-                    <re type="compare"> photographie<ref target="#photographie"/></re>
+                    <lbl type="com">Cfr. </lbl><xr type="cf">photographier<ref target="#photographier"/></xr>
+                    <xr type="cf"> photographie<ref target="#photographie"/></xr>
                 </sense>     
             </entry>
 
@@ -3693,7 +3690,7 @@
                 </form>
                 <sense n="1">
                     [<def>
-                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#photographie1">v. area A</ref>, accezione 1
+                        <ref target="01._Area_terminologica_A_altri_saperi_specialistici.xml#photographie1">v. area A</ref>, accezione 1
                     </def>]; 
                     <cit type="example">
                         <quote xml:lang="fr">
@@ -3711,8 +3708,8 @@
                             (<citedRange unit="page" from="156" to="157">p. 156-157</citedRange>)
                         </bibl>
                     </cit>                                
-                    <lbl type="com">Cfr. </lbl><re type="compare">photographier<ref target="#photographier"/></re>,
-                    <re type="compare"> photographie<ref target="#photographie"/></re>;
+                    <lbl type="com">Cfr. </lbl><xr type="cf">photographier<ref target="#photographier"/></xr>,
+                    <xr type="cf"> photographie<ref target="#photographie"/></xr>;
                     Attestato anche come <term xml:id="portrait_photografique">portrait photografique</term>;
                 </sense>     
             </entry>
@@ -3745,8 +3742,8 @@
                             </bibl>
                         </cit>
                         {<xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
-                        <xr type="other_dictionary"> <ref target="08._1891-1892_De_la_double_essence_du_langage.xml"/>ED</xr>;  
-                        <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS </xr>;                                        
+                        <xr type="other_dictionary"><ref target="08._1891-1892_De_la_double_essence_du_langage.xml"/>ED</xr>;  
+                        <xr type="other_dictionary"><ref target="11._1895-1897_Théorie_des_Sonantes.xml"/>ThS </xr>;                                        
                         <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
                         <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml"/>II corso</xr>;}
                     </sense>
@@ -4055,8 +4052,8 @@
                             (<citedRange unit="page" from="157" to="158">p. 157-158</citedRange>)
                         </bibl>
                     </cit>                                
-                    <lbl type="opp">Opp.</lbl> <re type="opp">continuité<ref target="#continuité"/></re>,
-                    <re type="opp">succession<ref target="#succession"/></re>.
+                    <lbl type="opp">Opp.</lbl> <xr type="opp">continuité<ref target="#continuité"/></xr>,
+                    <xr type="opp">succession<ref target="#succession"/></xr>.
                 </sense>     
             </entry>
 
@@ -4259,11 +4256,11 @@
                             (<citedRange unit="page">p. 152</citedRange>)
                         </bibl>
                     </cit> 
-                    <lbl type="alm-syn">Quasi-sin.</lbl> <re type="almost-synonym">transition<ref target="#transition"/></re>,
-                    <lbl type="opp">Opp.</lbl> <re type="opposite">saut<ref target="#saut"/></re>,
-                    <lbl type="opp">Cfr.</lbl> <re type="compare">continuité<ref target="#continuité"/></re>,
-                    <re type="compare">état de langue<ref target="#état_de_langue"/></re>,
-                    <re type="compare">vie de la langue<ref target="#vie_de_la_langue"/></re>.
+                    <lbl type="alm-syn">Quasi-sin.</lbl> <xr type="almost-synonym">transition<ref target="#transition"/></xr>,
+                    <lbl type="opp">Opp.</lbl><xr type="opposite">saut<ref target="#saut"/></xr>,
+                    <lbl type="opp">Cfr.</lbl> <xr type="cf">continuité<ref target="#continuité"/></xr>,
+                    <xr type="cf">état de langue<ref target="#état_de_langue"/></xr>,
+                    <xr type="cf">vie de la langue<ref target="#vie_de_la_langue"/></xr>.
                     {<xr type="other_dictionary"> <ref target="04._1878_Mémoire.xml#succession"/>Mém</xr>;
                     <xr type="other_dictionary"> <ref target="08._1891-1892_De_la_double_essence_du_langage.xml#succession"/>ED</xr>;  
                     <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml#succession"/>Status et motus</xr>;
@@ -4388,7 +4385,7 @@
                             </bibl>
                         </cit> 
                     </sense>
-                    <lbl type="alm-syn">Quasi sin. </lbl><re type="almost-synonym">élément<ref target="#élément"/></re>;
+                    <lbl type="alm-syn">Quasi sin. </lbl><xr type="almost-synonym">élément<ref target="#élément"/></xr>;
                     {<xr type="other_dictionary"> <ref target="04._1878_Mémoire.xml#terme"/>Mém</xr>;
                     <xr type="other_dictionary"> <ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml#terme"/>Tesi</xr>
                     <xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml#terme"/>Ph</xr>;
@@ -4408,7 +4405,7 @@
                 </form>
                 <sense n="1">
                     [<def>
-                        <ref type="see" target="01._Area_terminologica_A_altri_saperi_specialistici.xml#théorie">v. area A théorie</ref>, 
+                        <ref target="01._Area_terminologica_A_altri_saperi_specialistici.xml#théorie">v. area A théorie</ref>, 
                     </def>];
                     <cit type="example">
                         <quote xml:lang="fr">
@@ -4465,7 +4462,7 @@
                             (<citedRange unit="page">p. 156</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="alm-syn">Quasi-sin. </lbl><re type="almost-synonym">continuité1<ref target="#continuité1"/></re>.
+                    <lbl type="alm-syn">Quasi-sin. </lbl><xr type="almost-synonym">continuité1<ref target="#continuité1"/></xr>.
                 </sense>     
             </entry>
 
@@ -4507,10 +4504,10 @@
                             (<citedRange unit="page">p. 157</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="opp">Opp. </lbl><re type="opposite">immobilité<ref target="#immobilité" /></re>;
-                    <lbl type="com">Cfr.</lbl><re type="compare">continuité<ref target="#continuité"/></re>,
-                    {<re type="compare">mouvement<ref target="#mouvement"/></re>,
-                    <re type="compare">mutabilité<ref target="#mutabilité"/></re>.     
+                    <lbl type="opp">Opp. </lbl><xr type="opposite">immobilité<ref target="#immobilité" /></xr>;
+                    <lbl type="com">Cfr.</lbl><xr type="cf">continuité<ref target="#continuité"/></xr>,
+                    {<xr type="cf">mouvement<ref target="#mouvement"/></xr>,
+                    <xr type="cf">mutabilité<ref target="#mutabilité"/></xr>.     
                     <xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml#transformation"/>Notes Item</xr>;
                     <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml#transformation"/>I corso</xr>}
                 </sense>     
@@ -4544,9 +4541,9 @@
                             (<citedRange unit="page">p. 160</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="alm-syn">Quasi-sin. di</lbl><re type="almost-synonym">création<ref target="#création"/></re>,
-                    <re type="almost-synonym">changement analogique<ref target="#changement_analogique"/></re>;
-                    <lbl type="com">Cfr. </lbl><re type="compare">analogie<ref target="#analogie"/></re>
+                    <lbl type="alm-syn">Quasi-sin. di</lbl><xr type="almost-synonym">création<ref target="#création"/></xr>,
+                    <xr type="almost-synonym">changement analogique<ref target="#changement_analogique"/></xr>;
+                    <lbl type="com">Cfr. </lbl><xr type="cf">analogie<ref target="#analogie"/></xr>
                 </sense>     
             </entry>
 
@@ -4575,11 +4572,11 @@
                             (<citedRange unit="page">p. 165</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="opp">Opp.</lbl><re type="opposite">saut<ref target="#saut"/></re>;
-                    <lbl type="alm-syn">quasi-sin. di </lbl><re type="almost-synonym">succession<ref target="#succession"/></re>;
-                    <lbl type="com">Cfr. </lbl><re type="compare">continuité<ref target="#continuité"/></re>,
-                    <re type="compare">état de langue<ref target="#état_de_langue"/></re>,
-                    <re type="compare">vie de la langue<ref target="#vie_de_la_langue"/></re>.
+                    <lbl type="opp">Opp.</lbl><xr type="opposite">saut<ref target="#saut"/></xr>;
+                    <lbl type="alm-syn">quasi-sin. di </lbl><xr type="almost-synonym">succession<ref target="#succession"/></xr>;
+                    <lbl type="com">Cfr. </lbl><xr type="cf">continuité<ref target="#continuité"/></xr>,
+                    <xr type="cf">état de langue<ref target="#état_de_langue"/></xr>,
+                    <xr type="cf">vie de la langue<ref target="#vie_de_la_langue"/></xr>.
                     {<xr type="other_dictionary"> <ref target="04._1878_Mémoire.xml#transition"/>Mém</xr>;
                     <xr type="other_dictionary"><ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml#transition"/>III corso</xr>}
                 </sense>     
@@ -4644,7 +4641,7 @@
                             </bibl>
                         </cit>
                     </sense>  
-                    <lbl type="duale">Duale</lbl><re type="duale">général<ref target="#général"/></re>
+                    <lbl type="duale">Duale</lbl><xr type="duale">général<ref target="#général"/></xr>
                     {<xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml#universel"/>Notes Whitney</xr>;
                     <xr type="other_dictionary"> <ref target="11._1895-1897_Théorie_des_Sonantes.xml#universel"/>ThS</xr>}
                 </sense>
@@ -4675,15 +4672,15 @@
                             (<citedRange unit="page">p. 149</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr. </lbl><re type="compare">ancien<ref target="#ancien"/></re>,
-                    <re type="compare">continuité<ref target="#continuité"/></re>,
-                    <re type="compare">état de langue<ref target="#état_de_langue"/></re>,
-                    <re type="compare">naissance de la langue<ref target="#naissance_de_la_langue"/></re>,
-                    <re type="compare">mort<ref target="#mort"/></re>,
-                    <re type="compare">origine du langage<ref target="#origine_du_langage"/></re>,
-                    <re type="compare">succession<ref target="#succession"/></re>,
-                    <re type="compare">transition<ref target="#transition"/></re>,
-                    <re type="compare">vieux<ref target="#vieux"/></re>;
+                    <lbl type="com">Cfr. </lbl><xr type="cf">ancien<ref target="#ancien"/></xr>,
+                    <xr type="cf">continuité<ref target="#continuité"/></xr>,
+                    <xr type="cf">état de langue<ref target="#état_de_langue"/></xr>,
+                    <xr type="cf">naissance de la langue<ref target="#naissance_de_la_langue"/></xr>,
+                    <xr type="cf">mort<ref target="#mort"/></xr>,
+                    <xr type="cf">origine du langage<ref target="#origine_du_langage"/></xr>,
+                    <xr type="cf">succession<ref target="#succession"/></xr>,
+                    <xr type="cf">transition<ref target="#transition"/></xr>,
+                    <xr type="cf">vieux<ref target="#vieux"/></xr>;
                     occorre anche come <term xml:id="vie_du_langage">vie du langage</term><!--Come lo rendo?-->
                     {<xr type="other_dictionary"> <ref target="08._1891-1892_De_la_double_essence_du_langage.xml#vie_de_la_langue"/>ED</xr>;  
                     <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml#vie_de_la_langue"/>II corso</xr>;}
@@ -4727,15 +4724,15 @@
                             (<citedRange unit="page" from="155" to="156">p. 155-156</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="syn">Sin. </lbl><re type="synonym">ancien<ref target="#ancien"/></re>;
-                    <lbl type="com">Cfr. </lbl><re type="compare">continuité<ref target="#continuité"/></re>,
-                    <re type="compare">état de langue<ref target="#état_de_langue"/></re>,
-                    <re type="compare">naissance de la langue<ref target="#naissance_de_la_langue"/></re>,
-                    <re type="compare">mort<ref target="#mort"/></re>,
-                    <re type="compare">origine du langage<ref target="#origine_du_langage"/></re>,
-                    <re type="compare">succession<ref target="#succession"/></re>,
-                    <re type="compare">transition<ref target="#transition"/></re>,
-                    <re type="compare">vie de la langue<ref target="#vie-de_la_langue"/></re>.
+                    <lbl type="syn">Sin. </lbl><xr type="synonym">ancien<ref target="#ancien"/></xr>;
+                    <lbl type="com">Cfr. </lbl><xr type="cf">continuité<ref target="#continuité"/></xr>,
+                    <xr type="cf">état de langue<ref target="#état_de_langue"/></xr>,
+                    <xr type="cf">naissance de la langue<ref target="#naissance_de_la_langue"/></xr>,
+                    <xr type="cf">mort<ref target="#mort"/></xr>,
+                    <xr type="cf">origine du langage<ref target="#origine_du_langage"/></xr>,
+                    <xr type="cf">succession<ref target="#succession"/></xr>,
+                    <xr type="cf">transition<ref target="#transition"/></xr>,
+                    <xr type="cf">vie de la langue<ref target="#vie-de_la_langue"/></xr>.
                     {<xr type="other_dictionary"> <ref target="08._1891-1892_De_la_double_essence_du_langage.xml#vieux"/>ED</xr>;  
                     <xr type="other_dictionary"><ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml#vieux"/>II corso</xr>;}
                 </sense>     
@@ -4756,7 +4753,7 @@
                                 <ptr type="URL" target="https://www.cnrtl.fr/definition/volapük/"/>
                             </bibl>
                         </cit>
-                        <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml">v. area B</ref> <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml#langue_artificielle">langue artificielle</ref>
+                        <ref type="see" target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml">v. area B</ref><ref target="02._Area_terminologica_B_linguistica_Storico-comparativa_grammatica_classica.xml#langue_artificielle">langue artificielle</ref>
                     </def>];
                 </sense>     
             </entry>
@@ -4766,7 +4763,7 @@
                     <orth>Volonté</orth>
                 </form>
                 <sense n="1">
-                    (<ref type="see" target="#conscience">v. conscience</ref>); <ref type="see" target="#intelligence">intelligence</ref>)
+                    (<xr type="see"><ref target="#conscience">v. conscience</ref></xr>); <xr type="see"><ref target="#intelligence">intelligence</ref></xr>)
                     <xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml#volonté"/>Ph</xr>;
                     <xr type="other_dictionary"> <ref target="13._1903-1910_Leggende_germaniche.xml#volonté"/>LG</xr>
                     <xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml#volonté"/>I corso</xr>;
