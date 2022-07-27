@@ -82,7 +82,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 149</biblScope>)<!--citedRange-->
+                            (<citedRange unit="page">p. 149</citedRange>)<!--citedRange-->
                         </bibl>
                     </cit>
                     <lbl type="syn">Sin. </lbl><re type="synonym">contingent<ref target="#contingent"/></re>
@@ -124,7 +124,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 150</biblScope>)
+                            (<citedRange unit="page">p. 150</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="com">Cfr.</lbl>  <re type="compare">accidentel<ref target="#accidentel"/></re>,
@@ -152,7 +152,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 150</biblScope>)
+                            (<citedRange unit="page">p. 150</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="com">Cfr.</lbl> <re type="compare">accidentel<ref target="#accidentel"/></re>,
@@ -184,7 +184,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 171</biblScope>)
+                            (<citedRange unit="page">p. 171</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="com">Cfr.</lbl> <re type="compare">caractère dilectal<ref target="#caractère_dialectal"/></re>,
@@ -236,7 +236,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 161</biblScope>)
+                            (<citedRange unit="page">p. 161</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="opp">Opp.</lbl> <re type="opposite">changement phonétique;<ref target="#changement_phonétique"/></re>
@@ -290,7 +290,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 149</biblScope>)
+                            (<citedRange unit="page">p. 149</citedRange>)
                         </bibl>
                     </cit>
                     {<xr type="other_dictionary"> <ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml#analyse"/>Ph; </xr>
@@ -347,7 +347,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 153</biblScope>)
+                            (<citedRange unit="page">p. 153</citedRange>)
                         </bibl>
                     </cit>
                     {<xr type="other_dictionary"> <ref target="14._1907_Primo_corso_di_linguistica_generale.xml#antéhistorique"/>I corso</xr>}
@@ -379,7 +379,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 155</biblScope>)
+                            (<citedRange unit="page">p. 155</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="com">Cfr.</lbl> <re type="compare">conventionnel<ref target="#conventionnel"/></re>;
@@ -418,7 +418,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 145</biblScope>)
+                            (<citedRange unit="page">p. 145</citedRange>)
                         </bibl>
                     </cit>
                     {<xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml#articulé"/>I corso</xr>}
@@ -448,7 +448,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 161</biblScope>)
+                            (<citedRange unit="page">p. 161</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="com">Cfr.</lbl> <re type="compare">analogie<ref target="#analogie"/></re>;
@@ -483,7 +483,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 170</biblScope>)
+                            (<citedRange unit="page">p. 170</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="com">Cfr.</lbl>  <re type="compare">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/></re>,
@@ -519,7 +519,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 167</biblScope>)
+                            (<citedRange unit="page">p. 167</citedRange>)
                         </bibl>
                     </cit>
                     <entry xml:id="changements_phonétique">
@@ -553,7 +553,7 @@
                                     <pubPlace>Paris</pubPlace>
                                     <publisher>Gallimard</publisher>
                                     <date>2002</date>
-                                    (<biblScope unit="page" from="159" to="160">pp. 159-160</biblScope>)
+                                    (<citedRange unit="page" from="159" to="160">pp. 159-160</citedRange>)
                                 </bibl>
                             </cit>
                             <re type="duale">duale changement analogique<ref target="#changement_analogique"/></re>,
@@ -590,7 +590,7 @@
                                     <pubPlace>Paris</pubPlace>
                                     <publisher>Gallimard</publisher>
                                     <date>2002</date>
-                                    (<biblScope unit="page">p. 166</biblScope>)
+                                    (<citedRange unit="page">p. 166</citedRange>)
                                 </bibl>
                             </cit>
                             <lbl type="syn">Sin.</lbl> <re type="synonim">analogie;<ref target="#analogie"/></re>;
@@ -632,7 +632,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 159</biblScope>)
+                            (<citedRange unit="page">p. 159</citedRange>)
                         </bibl>
                     </cit>
                     Ant. <re type="antonym">inconscience<ref target="#inconscience"/></re>;
@@ -671,7 +671,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 149</biblScope>)
+                            (<citedRange unit="page">p. 149</citedRange>)
                         </bibl>
                     </cit>
                     Ant. <re type="antonym">accidentel<ref target="#accidentel"/></re>;
@@ -714,7 +714,7 @@
                                 <pubPlace>Paris</pubPlace>
                                 <publisher>Gallimard</publisher>
                                 <date>2002</date>
-                                (<biblScope unit="page">p. 152</biblScope>)
+                                (<citedRange unit="page">p. 152</citedRange>)
                             </bibl>
                         </cit>
                         <lbl type="opp">Opp.</lbl> <re type="opposite">fixité<ref target="#fixité"/></re>;
@@ -746,7 +746,7 @@
                                 <pubPlace>Paris</pubPlace>
                                 <publisher>Gallimard</publisher>
                                 <date>2002</date>
-                                (<biblScope unit="page">p. 171</biblScope>)
+                                (<citedRange unit="page">p. 171</citedRange>)
                             </bibl>
                         </cit>
                         Ant. <re type="antonym">divergence<ref target="#divergence"/></re>;
@@ -786,7 +786,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 157</biblScope>)
+                            (<citedRange unit="page">p. 157</citedRange>)
                         </bibl>
                     </cit>
                 </sense>
@@ -816,7 +816,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 165</biblScope>)
+                            (<citedRange unit="page">p. 165</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="com">Cfr.</lbl> <re type="compare">arbitraire<ref target="#arbitraire"/></re>;
@@ -850,7 +850,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 157</biblScope>)
+                            (<citedRange unit="page">p. 157</citedRange>)
                         </bibl>
                     </cit>
                     {<xr type="other_dictionary"> <ref target="08._1891-1892_De_la_double_essence_du_langage.xml#corrélation"/>ED</xr>; }
@@ -885,7 +885,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 160</biblScope>)
+                            (<citedRange unit="page">p. 160</citedRange>)
                         </bibl>
                     </cit>
                     Syn. <re type="synonym">innovation<ref target="#innovation"/></re>;
@@ -926,7 +926,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 171</biblScope>)
+                            (<citedRange unit="page">p. 171</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="com">Cfr.</lbl> <re type="compare">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/></re>,
@@ -964,7 +964,7 @@
                                 <pubPlace>Paris</pubPlace>
                                 <publisher>Gallimard</publisher>
                                 <date>2002</date>
-                                (<biblScope unit="page">p. 167</biblScope>)
+                                (<citedRange unit="page">p. 167</citedRange>)
                             </bibl>
                         </cit>
                     </sense>
@@ -984,7 +984,7 @@
                                 <pubPlace>Paris</pubPlace>
                                 <publisher>Gallimard</publisher>
                                 <date>2002</date>
-                                (<biblScope unit="page">p. 167</biblScope>)
+                                (<citedRange unit="page">p. 167</citedRange>)
                             </bibl>
                         </cit>
                         Ant. <re type="antonym">divergence<ref target="#divergence"/></re>;
@@ -1027,7 +1027,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 169</biblScope>)
+                            (<citedRange unit="page">p. 169</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="com">Cfr.</lbl> <re type="compare">différence<ref target="#différence"/></re>,
@@ -1061,7 +1061,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 151</biblScope>)
+                            (<citedRange unit="page">p. 151</citedRange>)
                         </bibl>
                     </cit>
                     Duale <re type="duale">diversifier<ref target="#diversifier"/></re>.
@@ -1092,7 +1092,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 169</biblScope>)
+                            (<citedRange unit="page">p. 169</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="alm-syn">Quasi-sin.</lbl> <re type="almost-synonym">isolation linguistique<ref target="#isolation_linguistique"/></re>,
@@ -1127,7 +1127,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 163</biblScope>)
+                            (<citedRange unit="page">p. 163</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="syn">Sin.</lbl> <re type="synonym">durée<ref target="#durée"/></re>.
@@ -1156,7 +1156,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 166</biblScope>)
+                            (<citedRange unit="page">p. 166</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="com">Cfr.</lbl> <re type="compare">divergence<ref target="#divergence"/></re>,
@@ -1187,7 +1187,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 151</biblScope>)
+                            (<citedRange unit="page">p. 151</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="com">Cfr.</lbl> <re type="compare">distance géographique<ref target="#distance_géographique"/></re>,
@@ -1221,7 +1221,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 151</biblScope>)
+                            (<citedRange unit="page">p. 151</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="com">Cfr.</lbl> <re type="compare">distance géographique<ref target="#distance_géographique"/></re>,
@@ -1256,7 +1256,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 163</biblScope>)
+                            (<citedRange unit="page">p. 163</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="com">Cfr.</lbl> <re type="compare">distance chronologique<ref target="#distance_chronologique"/></re>
@@ -1294,7 +1294,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 158</biblScope>)
+                            (<citedRange unit="page">p. 158</citedRange>)
                         </bibl>
                     </cit>
                     {<xr type="other_dictionary"> <ref target="04._1878_Mémoire.xml#écriture"/>Mem</xr>;
@@ -1335,7 +1335,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 160</biblScope>)
+                            (<citedRange unit="page">p. 160</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="alm-syn">Quasi-sin.</lbl> <re type="almost-synonym">terme2<ref target="#terme2"/></re>.
@@ -1379,7 +1379,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 149</biblScope>)
+                            (<citedRange unit="page">p. 149</citedRange>)
                         </bibl>
                     </cit>
                 </sense>
@@ -1411,7 +1411,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page" from="157" to="158">pp. 157-158</biblScope>)
+                            (<citedRange unit="page" from="157" to="158">pp. 157-158</citedRange>)
                         </bibl>
                     </cit>
                     {<xr type="other_dictionary"> <ref target="15._1908-1909_Secondo_corso_di_linguistica_generale.xml#équilibre"/>II corso</xr>;
@@ -1444,7 +1444,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 151</biblScope>)
+                            (<citedRange unit="page">p. 151</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="alm-syn">Quasi-sin.</lbl> <re type="almost-synonym">distance géographique<ref target="#distance_géographique"/></re>.
@@ -1481,7 +1481,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 165</biblScope>);
+                            (<citedRange unit="page">p. 165</citedRange>);
                         </bibl>
                     </cit>
                     <lbl type="com">Cfr.</lbl> <re type="compare">continuité<ref target="#continuité"/></re>,
@@ -1529,7 +1529,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page" from="145" to="146">p. 145-146</biblScope>);
+                            (<citedRange unit="page" from="145" to="146">p. 145-146</citedRange>);
                         </bibl>
                     </cit>
                     {<xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml#faculté"/>Notes Whitney</xr>;
@@ -1561,7 +1561,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 149</biblScope>);
+                            (<citedRange unit="page">p. 149</citedRange>);
                         </bibl>
                     </cit>
                     <lbl type="opp">Opp.</lbl> <re type="opposite"> loi1<ref target="#loi1"/></re>;
@@ -1594,7 +1594,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 148</biblScope>);
+                            (<citedRange unit="page">p. 148</citedRange>);
                         </bibl>
                     </cit>
                     <lbl type="com">Cfr.</lbl> <re type="compare">fait<ref target="#fait"/></re>,
@@ -1640,7 +1640,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 151</biblScope>);
+                            (<citedRange unit="page">p. 151</citedRange>);
                         </bibl>
                     </cit>
                     <lbl type="syn">Sin.</lbl> <re type="synonym">immobilité<ref target="#immobilité"/></re>,
@@ -1677,7 +1677,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 146</biblScope>);
+                            (<citedRange unit="page">p. 146</citedRange>);
                         </bibl>
                     </cit>
                     {<xr type="other_dictionary"><ref target="12._1899-1903_Notes_Item.xml#fonction_naturel"/>Notes item</xr>;
@@ -1725,7 +1725,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 158</biblScope>);
+                            (<citedRange unit="page">p. 158</citedRange>);
                         </bibl>
                     </cit>
                     {<xr type="other_dictionary"> <ref target="03._1874_Saggio_giovanile.xml#forme"/>Essai</xr>;
@@ -1761,7 +1761,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 151</biblScope>);
+                            (<citedRange unit="page">p. 151</citedRange>);
                         </bibl>
                     </cit>
                     <lbl type="syn">Cfr.</lbl> <re type="compare">continuité2<ref target="#continuité2"/></re>,
@@ -1804,7 +1804,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 172</biblScope>);
+                            (<citedRange unit="page">p. 172</citedRange>);
                         </bibl>
                     </cit>
                     <lbl type="syn">Cfr.</lbl> <re type="compare"> aire des faits linguistique<ref target="#continuité2"/></re>,
@@ -1841,7 +1841,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 146</biblScope>);
+                            (<citedRange unit="page">p. 146</citedRange>);
                         </bibl>
                     </cit>
                     <lbl type="duale">Duale</lbl> <re type="duale"> universel2<ref target="#universel2"/></re>,
@@ -1876,7 +1876,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 147</biblScope>);
+                            (<citedRange unit="page">p. 147</citedRange>);
                         </bibl>
                     </cit>
                     <lbl type="com">Cfr. </lbl> <re type="compare">général<ref target="#général"/></re>,
@@ -1913,7 +1913,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 167</biblScope>);
+                            (<citedRange unit="page">p. 167</citedRange>);
                         </bibl>
                     </cit>
                     Attestato anche nella forma avverbiale <term xml:id="géographiquement">géographiquement</term><!--Come lo rendo?-->
@@ -1944,7 +1944,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 148</biblScope>);
+                            (<citedRange unit="page">p. 148</citedRange>);
                         </bibl>
                     </cit>
                     <lbl type="synonym">Sin. </lbl><re type="synonym">famille des langues<ref target="#famille_des_langues"/></re>,
@@ -1985,7 +1985,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 148</biblScope>);
+                            (<citedRange unit="page">p. 148</citedRange>);
                         </bibl>
                     </cit>
                 </sense>
@@ -2020,7 +2020,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 148</biblScope>);
+                            (<citedRange unit="page">p. 148</citedRange>);
                         </bibl>
                     </cit>
                     <lbl type="duale">duale. </lbl><re type="duale">langue dans l'histoire<ref target="#langue_dans_l'histoire"/></re>,
@@ -2068,7 +2068,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 149</biblScope>);
+                            (<citedRange unit="page">p. 149</citedRange>);
                         </bibl>
                     </cit>
                 </sense>
@@ -2095,7 +2095,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 161</biblScope>);
+                            (<citedRange unit="page">p. 161</citedRange>);
                         </bibl>
                     </cit>
                     {<xr type="other_dictionary"><ref target="03._1874_Saggio_giovanile.xml#idée"/>Essai</xr>;
@@ -2131,7 +2131,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 158</biblScope>);
+                            (<citedRange unit="page">p. 158</citedRange>);
                         </bibl>
                     </cit>
                     <lbl type="syn">Sin. di</lbl><re type="synonym">fixité<ref target="#fixité"/></re>;
@@ -2175,7 +2175,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 154</biblScope>);
+                            (<citedRange unit="page">p. 154</citedRange>);
                         </bibl>
                     </cit>
                     <lbl type="com">Cfr. </lbl><re type="compare">continuité<ref target="#continuité"/></re>;
@@ -2203,7 +2203,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 159</biblScope>);
+                            (<citedRange unit="page">p. 159</citedRange>);
                         </bibl>
                     </cit>
                     <lbl type="ant">Ant. </lbl><re type="antonym">Con science<ref target="#con_science"/></re>;
@@ -2236,7 +2236,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 151</biblScope>)
+                            (<citedRange unit="page">p. 151</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="syn">Sin. </lbl><re type="synonym">continuité1<ref target="#continuité1"/></re>
@@ -2266,7 +2266,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 160</biblScope>)
+                            (<citedRange unit="page">p. 160</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="syn">Sin. </lbl><re type="synonym">création<ref target="#création"/></re>;
@@ -2296,7 +2296,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 150</biblScope>);
+                            (<citedRange unit="page">p. 150</citedRange>);
                         </bibl>
                     </cit>
                     <lbl type="com">Cfr. </lbl><re type="compare">conscience<ref target="#conscience"/></re>;
@@ -2330,7 +2330,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 169</biblScope>);
+                            (<citedRange unit="page">p. 169</citedRange>);
                         </bibl>
                     </cit>
                     <lbl type="alm-syn">Quasi-sin. </lbl><re type="almost-synonim">discontinuité<ref target="#discontinuité"/></re>;
@@ -2368,7 +2368,7 @@
                                 <pubPlace>Paris</pubPlace>
                                 <publisher>Gallimard</publisher>
                                 <date>2002</date>
-                                (<biblScope unit="page" from="144" to="145">p. 144-145</biblScope>)
+                                (<citedRange unit="page" from="144" to="145">p. 144-145</citedRange>)
                             </bibl>
                         </cit>
                     </sense>
@@ -2399,7 +2399,7 @@
                                 <pubPlace>Paris</pubPlace>
                                 <publisher>Gallimard</publisher>
                                 <date>2002</date>
-                                (<biblScope unit="page">p. 146</biblScope>)
+                                (<citedRange unit="page">p. 146</citedRange>)
                             </bibl>
                         </cit>
                         <xr type="other_dictionary"><ref target="03._1874_Saggio_giovanile.xml#langage"/>Essai</xr>;
@@ -2458,7 +2458,7 @@
                                 <pubPlace>Paris</pubPlace>
                                 <publisher>Gallimard</publisher>
                                 <date>2002</date>
-                                (<biblScope unit="page">p. 146</biblScope>)
+                                (<citedRange unit="page">p. 146</citedRange>)
                             </bibl>
                         </cit>
                     </sense>
@@ -2530,7 +2530,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page" from="154" to="155">pp. 154-155</biblScope>);
+                            (<citedRange unit="page" from="154" to="155">pp. 154-155</citedRange>);
                         </bibl>
                     </cit>
                     {<xr type="other_dictionary"> <ref target="16._1910-1911_Terzo_corso_di_linguistica_generale.xml#langue_artificielle"/>III corso</xr>}
@@ -2563,7 +2563,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page" from="158">pp. 158</biblScope>);
+                            (<citedRange unit="page" from="158">pp. 158</citedRange>);
                         </bibl>
                     </cit>
                 </sense>
@@ -2594,7 +2594,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 149</biblScope>);
+                            (<citedRange unit="page">p. 149</citedRange>);
                         </bibl>
                     </cit>
                     <lbl type="duale">Duale </lbl><re type="duale">histoire de la langue<ref target="#histoire_de_la_langue"/></re>;
@@ -2627,7 +2627,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 153</biblScope>);
+                            (<citedRange unit="page">p. 153</citedRange>);
                         </bibl>
                     </cit>
                 </sense>
@@ -2665,7 +2665,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 160</biblScope>);
+                            (<citedRange unit="page">p. 160</citedRange>);
                         </bibl>
                     </cit>
                     <lbl type="duale">Duale </lbl><re type="duale">histoire de la langue<ref target="#histoire_de_la_langue#linguiste"/></re>;
@@ -2702,7 +2702,7 @@
                                 <pubPlace>Paris</pubPlace>
                                 <publisher>Gallimard</publisher>
                                 <date>2002</date>
-                                (<biblScope unit="page">p. 148</biblScope>)
+                                (<citedRange unit="page">p. 148</citedRange>)
                             </bibl>
                         </cit>
                         <lbl type="syn">Sin. </lbl><re type="synonym">science du langage<ref target="#science_du_langage"/></re>
@@ -2749,7 +2749,7 @@
                                     <pubPlace>Paris</pubPlace>
                                     <publisher>Gallimard</publisher>
                                     <date>2002</date>
-                                    (<biblScope unit="page">p. 150</biblScope>)
+                                    (<citedRange unit="page">p. 150</citedRange>)
                                 </bibl>
                             </cit>
                         </sense>
@@ -2769,7 +2769,7 @@
                                     <pubPlace>Paris</pubPlace>
                                     <publisher>Gallimard</publisher>
                                     <date>2002</date>
-                                    (<biblScope unit="page">p. 149</biblScope>)
+                                    (<citedRange unit="page">p. 149</citedRange>)
                                 </bibl>
                             </cit>
                         </sense>                
@@ -2803,7 +2803,7 @@
                                 <pubPlace>Paris</pubPlace>
                                 <publisher>Gallimard</publisher>
                                 <date>2002</date>
-                                (<biblScope unit="page">p. 146</biblScope>);
+                                (<citedRange unit="page">p. 146</citedRange>);
                             </bibl>
                         </cit>
                     </sense>
@@ -2833,7 +2833,7 @@
                                 <pubPlace>Paris</pubPlace>
                                 <publisher>Gallimard</publisher>
                                 <date>2002</date>
-                                (<biblScope unit="page">p. 146</biblScope>);
+                                (<citedRange unit="page">p. 146</citedRange>);
                             </bibl>
                         </cit>
                     </sense>
@@ -2863,7 +2863,7 @@
                                 <pubPlace>Paris</pubPlace>
                                 <publisher>Gallimard</publisher>
                                 <date>2002</date>
-                                (<biblScope unit="page">p. 148</biblScope>)
+                                (<citedRange unit="page">p. 148</citedRange>)
                             </bibl>
                         </cit>
                         <lbl type="opp">opp. </lbl><re type="opp">fait<ref target="#fait"/></re>
@@ -2886,7 +2886,7 @@
                                 <pubPlace>Paris</pubPlace>
                                 <publisher>Gallimard</publisher>
                                 <date>2002</date>
-                                (<biblScope unit="page">p. 151</biblScope>)
+                                (<citedRange unit="page">p. 151</citedRange>)
                             </bibl>
                         </cit>
                         <lbl type="com">Cfr. </lbl><re type="compare">fait<ref target="#fait"/></re>
@@ -2924,7 +2924,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 150</biblScope>)
+                            (<citedRange unit="page">p. 150</citedRange>)
                         </bibl>
                     </cit>
                     <xr type="other_dictionary"> <ref target="10._1894_Notes_Whitney.xml#matière"/>Notes Whitney</xr>;                    
@@ -2974,7 +2974,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 166</biblScope>)
+                            (<citedRange unit="page">p. 166</citedRange>)
                         </bibl>
                     </cit>
                     {<xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml#mécanique"/>Ph</xr>;
@@ -3010,7 +3010,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 161</biblScope>)
+                            (<citedRange unit="page">p. 161</citedRange>)
                         </bibl>
                     </cit>
                 </sense>     
@@ -3036,7 +3036,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 161</biblScope>)
+                            (<citedRange unit="page">p. 161</citedRange>)
                         </bibl>
                     </cit>
                 </sense>     
@@ -3069,7 +3069,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 154</biblScope>)
+                            (<citedRange unit="page">p. 154</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="com">Cfr. </lbl><re type="compare">ancien<ref target="ancien"/></re>,
@@ -3100,7 +3100,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 166</biblScope>)
+                            (<citedRange unit="page">p. 166</citedRange>)
                         </bibl>
                     </cit>                    
                     <xr type="other_dictionary"> <ref target="04._1878_Mémoire.xml#mot"/>Mem</xr>;
@@ -3143,7 +3143,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 157</biblScope>)
+                            (<citedRange unit="page">p. 157</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="com">Cfr. </lbl><re type="compare">continuité<ref target="continuité"/></re>,
@@ -3178,7 +3178,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 157</biblScope>)
+                            (<citedRange unit="page">p. 157</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="opp">Opp. </lbl><re type="opposite">immobilité<ref target="immobilité"/></re>;
@@ -3215,7 +3215,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 152</biblScope>)
+                            (<citedRange unit="page">p. 152</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="com">Cfr. </lbl><re type="compare">ancien<ref target="ancien"/></re>;
@@ -3262,7 +3262,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page" from="164" to="165">p. 164-165</biblScope>)
+                            (<citedRange unit="page" from="164" to="165">p. 164-165</citedRange>)
                         </bibl>
                     </cit>          
                     {<xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml#nom"/>Status et motus</xr>;
@@ -3293,7 +3293,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 144</biblScope>)
+                            (<citedRange unit="page">p. 144</citedRange>)
                         </bibl>
                     </cit>                    
                     {<xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml#object"/>Ph</xr>;
@@ -3342,7 +3342,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 149</biblScope>)
+                            (<citedRange unit="page">p. 149</citedRange>)
                         </bibl>
                     </cit>
                 </sense>     
@@ -3372,7 +3372,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page" from="154">p. 154</biblScope>)
+                            (<citedRange unit="page" from="154">p. 154</citedRange>)
                         </bibl>
                     </cit>          
                     <lbl type="com">Cfr. </lbl><re type="compare">ancien<ref target="#ancien"/></re>,
@@ -3414,7 +3414,7 @@
                                 <pubPlace>Paris</pubPlace>
                                 <publisher>Gallimard</publisher>
                                 <date>2002</date>
-                                (<biblScope unit="page">p. 159</biblScope>)
+                                (<citedRange unit="page">p. 159</citedRange>)
                             </bibl>
                         </cit>
                         <lbl type="com">cfr. </lbl><re type="compare">naissance du langue<ref target="#naissance_du_langue"/></re>,
@@ -3438,7 +3438,7 @@
                                 <pubPlace>Paris</pubPlace>
                                 <publisher>Gallimard</publisher>
                                 <date>2002</date>
-                                (<biblScope unit="page">p. 155</biblScope>)
+                                (<citedRange unit="page">p. 155</citedRange>)
                             </bibl>
                         </cit>
                     </sense>
@@ -3472,7 +3472,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 147</biblScope>)
+                            (<citedRange unit="page">p. 147</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="com">Cfr. </lbl><re type="compare">langage1<ref target="#langage1"/></re>
@@ -3502,7 +3502,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 146</biblScope>)
+                            (<citedRange unit="page">p. 146</citedRange>)
                         </bibl>
                     </cit>                    
                     {<xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml#parole"/>Ph</xr>;
@@ -3540,7 +3540,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 171</biblScope>)
+                            (<citedRange unit="page">p. 171</citedRange>)
                         </bibl>
                     </cit>                          
                     {<xr type="other_dictionary"> <ref target="03._1874_Saggio_giovanile.xml#phénomène"/>Essai</xr>;
@@ -3586,7 +3586,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 146</biblScope>)
+                            (<citedRange unit="page">p. 146</citedRange>)
                         </bibl>
                     </cit>                          
                     {<xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xml#philosophe"/>Status et motus</xr>;
@@ -3644,7 +3644,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 157</biblScope>)
+                            (<citedRange unit="page">p. 157</citedRange>)
                         </bibl>
                     </cit>            
                     <lbl type="com">Cfr. </lbl><re type="compare"> photographe<ref target="#photographe"/></re>
@@ -3679,7 +3679,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 156</biblScope>)
+                            (<citedRange unit="page">p. 156</citedRange>)
                         </bibl>
                     </cit>                                
                     <lbl type="com">Cfr. </lbl><re type="compare">photographier<ref target="#photographier"/></re>
@@ -3708,7 +3708,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page" from="156" to="157">p. 156-157</biblScope>)
+                            (<citedRange unit="page" from="156" to="157">p. 156-157</citedRange>)
                         </bibl>
                     </cit>                                
                     <lbl type="com">Cfr. </lbl><re type="compare">photographier<ref target="#photographier"/></re>,
@@ -3741,7 +3741,7 @@
                                 <pubPlace>Paris</pubPlace>
                                 <publisher>Gallimard</publisher>
                                 <date>2002</date>
-                                (<biblScope unit="page">p. 146</biblScope>);
+                                (<citedRange unit="page">p. 146</citedRange>);
                             </bibl>
                         </cit>
                         {<xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
@@ -3774,7 +3774,7 @@
                                 <pubPlace>Paris</pubPlace>
                                 <publisher>Gallimard</publisher>
                                 <date>2002</date>
-                                (<biblScope unit="page">p. 146</biblScope>);
+                                (<citedRange unit="page">p. 146</citedRange>);
                             </bibl>
                         </cit>
                         {<xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
@@ -3810,7 +3810,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 166</biblScope>)
+                            (<citedRange unit="page">p. 166</citedRange>)
                         </bibl>
                     </cit>                                
                     {<xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml"/>Ph</xr>;
@@ -3859,7 +3859,7 @@
                                 <pubPlace>Paris</pubPlace>
                                 <publisher>Gallimard</publisher>
                                 <date>2002</date>
-                                (<biblScope unit="page">p. 159</biblScope>)
+                                (<citedRange unit="page">p. 159</citedRange>)
                             </bibl>
                         </cit>          
                         <ref target="#science_physique">v. science physique</ref>                              
@@ -3903,7 +3903,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 147</biblScope>)
+                            (<citedRange unit="page">p. 147</citedRange>)
                         </bibl>
                     </cit>                                
                     {<xr type="other_dictionary"> <ref target="04._1878_Mémoire.xml#point-de-vue"/>Mém</xr>;
@@ -3950,7 +3950,7 @@
                                 <pubPlace>Paris</pubPlace>
                                 <publisher>Gallimard</publisher>
                                 <date>2002</date>
-                                (<biblScope unit="page">p. 144</biblScope>);
+                                (<citedRange unit="page">p. 144</citedRange>);
                             </bibl>
                         </cit>
                         {<xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml#psychologie"/>I corso</xr>;
@@ -3980,7 +3980,7 @@
                                 <pubPlace>Paris</pubPlace>
                                 <publisher>Gallimard</publisher>
                                 <date>2002</date>
-                                (<biblScope unit="page">p. 144</biblScope>);
+                                (<citedRange unit="page">p. 144</citedRange>);
                             </bibl>
                         </cit>
                         {<xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml"/>I corso</xr>;
@@ -4010,7 +4010,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 161</biblScope>)
+                            (<citedRange unit="page">p. 161</citedRange>)
                         </bibl>
                     </cit>                                
                     {<xr type="other_dictionary"><ref target="14._1907_Primo_corso_di_linguistica_generale.xml#psychologie"/>I corso</xr>;
@@ -4052,7 +4052,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page" from="157" to="158">p. 157-158</biblScope>)
+                            (<citedRange unit="page" from="157" to="158">p. 157-158</citedRange>)
                         </bibl>
                     </cit>                                
                     <lbl type="opp">Opp.</lbl> <re type="opp">continuité<ref target="#continuité"/></re>,
@@ -4081,7 +4081,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 144</biblScope>)
+                            (<citedRange unit="page">p. 144</citedRange>)
                         </bibl>
                     </cit>                                
                 </sense>     
@@ -4124,7 +4124,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 150</biblScope>)
+                            (<citedRange unit="page">p. 150</citedRange>)
                         </bibl>
                     </cit>                                
                 </sense>     
@@ -4155,7 +4155,7 @@
                                 <pubPlace>Paris</pubPlace>
                                 <publisher>Gallimard</publisher>
                                 <date>2002</date>
-                                (<biblScope unit="page">p. 148</biblScope>)
+                                (<citedRange unit="page">p. 148</citedRange>)
                             </bibl>
                         </cit>                                
                     </sense>     
@@ -4184,7 +4184,7 @@
                                 <pubPlace>Paris</pubPlace>
                                 <publisher>Gallimard</publisher>
                                 <date>2002</date>
-                                (<biblScope unit="page">p. 148</biblScope>)
+                                (<citedRange unit="page">p. 148</citedRange>)
                             </bibl>
                         </cit>                                
                     </sense>     
@@ -4212,7 +4212,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 161</biblScope>)
+                            (<citedRange unit="page">p. 161</citedRange>)
                         </bibl>
                     </cit> 
                     {<xr type="other_dictionary"> <ref target="03._1874_Saggio_giovanile.xml#signe"/>Essai</xr>;   
@@ -4256,7 +4256,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 152</biblScope>)
+                            (<citedRange unit="page">p. 152</citedRange>)
                         </bibl>
                     </cit> 
                     <lbl type="alm-syn">Quasi-sin.</lbl> <re type="almost-synonym">transition<ref target="#transition"/></re>,
@@ -4316,7 +4316,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 151</biblScope>)
+                            (<citedRange unit="page">p. 151</citedRange>)
                         </bibl>
                     </cit> 
                     {<xr type="other_dictionary"><ref target="05._1881_Tesi_sul_genitivo_assoluto_in_sanscrito.xml#temps"/>Ph</xr>;
@@ -4362,7 +4362,7 @@
                                 <pubPlace>Paris</pubPlace>
                                 <publisher>Gallimard</publisher>
                                 <date>2002</date>
-                                (<biblScope unit="page">p. 145</biblScope>)
+                                (<citedRange unit="page">p. 145</citedRange>)
                             </bibl>
                         </cit>              
                     </sense>
@@ -4384,7 +4384,7 @@
                                 <pubPlace>Paris</pubPlace>
                                 <publisher>Gallimard</publisher>
                                 <date>2002</date>
-                                (<biblScope unit="page">p. 167</biblScope>)
+                                (<citedRange unit="page">p. 167</citedRange>)
                             </bibl>
                         </cit> 
                     </sense>
@@ -4428,7 +4428,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 147</biblScope>)
+                            (<citedRange unit="page">p. 147</citedRange>)
                         </bibl>
                     </cit>
                     {<xr type="other_dictionary"> <ref target="03._1874_Saggio_giovanile.xml#forme"/>Essai</xr>;
@@ -4462,7 +4462,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 156</biblScope>)
+                            (<citedRange unit="page">p. 156</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="alm-syn">Quasi-sin. </lbl><re type="almost-synonym">continuité1<ref target="#continuité1"/></re>.
@@ -4504,7 +4504,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 157</biblScope>)
+                            (<citedRange unit="page">p. 157</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="opp">Opp. </lbl><re type="opposite">immobilité<ref target="#immobilité" /></re>;
@@ -4541,7 +4541,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 160</biblScope>)
+                            (<citedRange unit="page">p. 160</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="alm-syn">Quasi-sin. di</lbl><re type="almost-synonym">création<ref target="#création"/></re>,
@@ -4572,7 +4572,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 165</biblScope>)
+                            (<citedRange unit="page">p. 165</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="opp">Opp.</lbl><re type="opposite">saut<ref target="#saut"/></re>;
@@ -4618,7 +4618,7 @@
                                 <pubPlace>Paris</pubPlace>
                                 <publisher>Gallimard</publisher>
                                 <date>2002</date>
-                                (<biblScope unit="page">p. 147</biblScope>)
+                                (<citedRange unit="page">p. 147</citedRange>)
                             </bibl>
                         </cit>
                     </sense>     
@@ -4640,7 +4640,7 @@
                                 <pubPlace>Paris</pubPlace>
                                 <publisher>Gallimard</publisher>
                                 <date>2002</date>
-                                (<biblScope unit="page">p. 157</biblScope>)
+                                (<citedRange unit="page">p. 157</citedRange>)
                             </bibl>
                         </cit>
                     </sense>  
@@ -4672,7 +4672,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page">p. 149</biblScope>)
+                            (<citedRange unit="page">p. 149</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="com">Cfr. </lbl><re type="compare">ancien<ref target="#ancien"/></re>,
@@ -4724,7 +4724,7 @@
                             <pubPlace>Paris</pubPlace>
                             <publisher>Gallimard</publisher>
                             <date>2002</date>
-                            (<biblScope unit="page" from="155" to="156">p. 155-156</biblScope>)
+                            (<citedRange unit="page" from="155" to="156">p. 155-156</citedRange>)
                         </bibl>
                     </cit>
                     <lbl type="syn">Sin. </lbl><re type="synonym">ancien<ref target="#ancien"/></re>;
