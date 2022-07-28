@@ -1765,7 +1765,7 @@
                     <lbl type="syn">Cfr.</lbl> <xr type="cf">continuité2<ref target="#continuité2"/></xr>,
                     <xr type="cf">divergence<ref target="#divergence"/></xr>,
                     <xr type="cf">diversifier<ref target="#diversifier"/></xr>.
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=fractionament_dialecta"/>II corso</xr>                
+                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=10"/>II corso</xr>                
                 </sense>
             </entry>
 
@@ -1810,7 +1810,7 @@
                     <xr type="cf">continuité2<ref target="#continuité2"/></xr>,
                     <xr type="cf">dialecte<ref target="#dialecte"/></xr>,
                     <xr type="cf">espace<ref target="#espace"/></xr>.
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=frontière"/>III corso</xr>                
+                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=15"/>III corso</xr>                
                 </sense>
             </entry>            
 
@@ -1821,7 +1821,7 @@
                 </form>
                 <sense n="1">
                     [<def>
-                        aggettivo; in riferimento ad un operazione di <ref type="see" target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/01.%20Area%20terminologica%20A%20altri%20saperi%20specialistici.pdf#page=généralisation"> généralisation</ref> (<ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/01.%20Area%20terminologica%20A%20altri%20saperi%20specialistici.pdf#page=général">v. area A</ref>), usato in riferimento alle
+                        aggettivo; in riferimento ad un operazione di <ref type="see" target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/01.%20Area%20terminologica%20A%20altri%20saperi%20specialistici.pdf#page=13"> généralisation</ref> (<ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/01.%20Area%20terminologica%20A%20altri%20saperi%20specialistici.pdf#page=général">v. area A</ref>), usato in riferimento alle
                         lingue;
                     </def>];
                     <cit type="example">
@@ -1844,7 +1844,7 @@
                     </cit>
                     <lbl type="duale">Duale</lbl> <xr type="duale"> universel2<ref target="#universel2"/></xr>,
                     <lbl type="duale">Cfr.</lbl><xr type="cf">généralisation<ref target="#généralisation"/></xr>,
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=général"/>Notes Whitney</xr>.
+                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=5"/>Notes Whitney</xr>.
                 </sense>
             </entry>   
         
@@ -1855,7 +1855,7 @@
                 </form>
                 <sense n="1">
                     [<def>
-                        <ref type="see" target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/01.%20Area%20terminologica%20A%20altri%20saperi%20specialistici.pdf#page=généralisation">v. area A</ref>;
+                        <ref type="see" target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/01.%20Area%20terminologica%20A%20altri%20saperi%20specialistici.pdf#page=12">v. area A</ref>;
                         usato in riferimento alle lingue
                     </def>];
                     <cit type="example">
@@ -1878,8 +1878,8 @@
                         </bibl>
                     </cit>
                     <lbl type="com">Cfr. </lbl> <xr type="cf">général<ref target="#général"/></xr>,
-                    <xr type="other_dictionary"> <ref target="xx._xxxx-xxxx_x.xmlgénéralisation"/>ED</xr>, 
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page="/>Notes Whitney</xr>.
+                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=12"/>ED</xr>, 
+                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=5"/>Notes Whitney</xr>.
                 </sense>
             </entry>   
 
@@ -1890,8 +1890,8 @@
                 </form>
                 <sense n="1"> 
                     [<def>
-                        <ref type="see" target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/01.%20Area%20terminologica%20A%20altri%20saperi%20specialistici.pdf#page=">v. area A</ref>;
-                        per il ruolo specifico in relazione alle differneze linguistiche
+                        <ref type="see" target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/01.%20Area%20terminologica%20A%20altri%20saperi%20specialistici.pdf#page=13">v. area A</ref>;
+                        per il ruolo specifico in relazione alle differenze linguistiche
                     </def>];
                     <cit type="example">
                         <quote xml:lang="fr">
@@ -1915,7 +1915,7 @@
                         </bibl>
                     </cit>
                     Attestato anche nella forma avverbiale <term xml:id="géographiquement">géographiquement</term><!--Come lo rendo?-->
-                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=#géographique"/>I corso</xr>;}
+                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=19"/>I corso</xr>;}
                 </sense>
             </entry>
 
@@ -1925,7 +1925,7 @@
                 </form>
                 <sense n="1"> 
                     [<def>
-                        <ref type="see" target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/02.%20Area%20terminologica%20B%20linguistica%20Storico-comparativa%20grammatica%20classica.pdf#page=famille_des_lamgues">v. area B famille des langues</ref>;
+                        <ref type="see" target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/02.%20Area%20terminologica%20B%20linguistica%20Storico-comparativa%20grammatica%20classica.pdf#page=11">v. area B famille des langues</ref>;
                     </def>];
                     <cit type="example">
                         <quote xml:lang="fr">
@@ -1946,7 +1946,7 @@
                         </bibl>
                     </cit>
                     <lbl type="synonym">Sin. </lbl><xr type="synonym">famille des langues<ref target="#famille_des_langues"/></xr>,
-                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=#groupe_de_langues"/>I corso</xr>;}
+                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf"/>I corso</xr>;}
                 </sense>
             </entry>
 
@@ -2022,13 +2022,13 @@
                         </bibl>
                     </cit>
                     <lbl type="duale">duale. </lbl><xr type="duale">langue dans l'histoire<ref target="#langue_dans_l'histoire"/></xr>,
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=histoire_de_la_langue"/>ED</xr>; 
-                    <xr type="other_dictionary"> <ref target="09._1893-1894_Status_et_motus.xmlhistoire_de_la_langue"/>Status et motus</xr>;                    
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=histoire_de_la_langue"/>Notes item</xr>;
-                    <xr type="other_dictionary"><ref target="13._1903-1910_Leggende_germaniche.xmlhistoire_de_la_langue"/>LG</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=histoire_de_la_langue"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=histoire_de_la_langue"/>II corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=histoire_de_la_langue"/>III corso</xr>}
+                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=8"/>ED</xr>; 
+                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf"/>Status et motus</xr>;                    
+                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=5"/>Notes item</xr>;
+                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=8"/>LG</xr>;
+                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=20"/>I corso</xr>;
+                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=15"/>II corso</xr>;
+                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=16"/>III corso</xr>}
                 </sense>
             </entry>
 
