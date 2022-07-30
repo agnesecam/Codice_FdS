@@ -85,19 +85,13 @@
                     </cit>
                     <lbl type="syn">Sin. </lbl><xr type="synonym">contingent<ref target="#contingent"/></xr>
                     <lbl type="com">Cfr. </lbl><xr type="cf">langue<ref target="#langue"/></xr><!-- xr e ref non re e ref // compare con xr diventa cf -->
-                    <!--  DOMANDA:
-                            Una soluzione di questo tipo, (<xr> "cross reference") per i riferimenti a sezioni di altre aree terminologiche è sensata?
-                            Assumo di avere un glossario per ogni sezione terminologica (10._1894_Notes_Whitney.xml), e faccio una <ref> generica (non al termine) alla sezione dell'area terminologica, senza specificare l'entrata specifica, poiché in alcuni casi non mi è certa.
-                            Mi limito a fare il collegamento al dizionario, inserendo come testo semplice il titolo della sezione e l'acronimo, ometto informazioni bibliografiche come il titolo della fonte della sezione.
-                            Soluzione 2: uso una listRelation alla fine del documento, in cui scrivo queste relazioni tra termini, e quindi non nell'entrata specifica
-                    -->
-                    {
-                    <!-- list type="" -->
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=1"/>Status et motus</xr>; <!-- pdf fragment per termine nel pdf-->
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=1"/>ED</xr>; 
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=1"/>Notes Whitney</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=1"/>ThS</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=1"/>II corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=1"/>Status et motus</xr>; <!-- pdf fragment per termine nel pdf-->
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=1"/>ED</xr>; 
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=1"/>Notes Whitney</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=1"/>ThS</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=1"/>II corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -156,9 +150,11 @@
                     <lbl type="com">Cfr.</lbl> <xr type="cf">accidentel<ref target="#accidentel"/></xr>,
                     <xr type="cf">acte humain<ref target="#acte_humain"/></xr>,
                     <xr type="cf"> contingent<ref target="#contingent"/></xr>
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf"/>Ph; </xr>
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=#2"/>I corso</xr>
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=2"/>II corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf"/>Ph; </xr>
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=#2"/>I corso</xr>
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=2"/>II corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -190,7 +186,9 @@
                     <xr type="cf"> dialecte<ref target="#dialecte"/></xr>,
                     <xr type="cf">frontière<ref target="#frontière"/></xr>
                     <xr type="cf">espace<ref target="#espace"/></xr>
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=2"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=2"/>III corso</xr>
+                    </list>}
                 </sense>
             </entry>        
 
@@ -241,10 +239,12 @@
                     <lbl type="com">Cfr.</lbl> <xr type="cf">analogique<ref target="#analogique"/></xr>,
                     <xr type="cf">création<ref target="#création"/></xr>,
                     <xr type="cf">transformation<ref target="#transformation"/></xr>
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/05.%201881%20Tesi%20sul%20genitivo%20assoluto%20in%20sanscrito.pdf#page=#1"/>Tesi</xr>
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=1"/>Status et motus</xr>
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=3"/>I corso</xr>
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=2"/>II corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/05.%201881%20Tesi%20sul%20genitivo%20assoluto%20in%20sanscrito.pdf#page=#1"/>Tesi</xr>
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=1"/>Status et motus</xr>
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=3"/>I corso</xr>
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=2"/>II corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -291,11 +291,13 @@
                             (<citedRange unit="page">p. 149</citedRange>)
                         </bibl>
                     </cit>
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=4"/>Ph; </xr>
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#analyse"/>ED</xr>
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=analyse"/>LG</xr>
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=#analyse"/>I corso</xr>
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=analyse"/>II corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=4"/>Ph; </xr>
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#analyse"/>ED</xr>
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=analyse"/>LG</xr>
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=#analyse"/>I corso</xr>
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=analyse"/>II corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -308,7 +310,9 @@
                         <ref type="see" target="#vieux">v. vieux;</ref> S. critica la sua utilità in linguistica e in riferimento alle lingue
                     </def>];
                     <lbl type="syn">Sin.</lbl><xr type="synonym">vieux<ref target="#vieux"/></xr>.
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/04.%201878%20M%C3%A9moire.pdf#ancien"/>Mém</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/04.%201878%20M%C3%A9moire.pdf#ancien"/>Mém</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -348,7 +352,9 @@
                             (<citedRange unit="page">p. 153</citedRange>)
                         </bibl>
                     </cit>
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=#antéhistorique"/>I corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=#antéhistorique"/>I corso</xr>
+                    </list>}
                 </sense>
             </entry>
         
@@ -382,11 +388,13 @@
                     </cit>
                     <lbl type="com">Cfr.</lbl> <xr type="cf">conventionnel<ref target="#conventionnel"/></xr>;
                     usato anche come avverbio <xr type="cf">arbitrairement<ref target="#arbitrairement"/></xr>
-                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=#arbitraire"/>Notes item</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=arbitraire"/>LG</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=#arbitraire"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=arbitraire"/>II corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=arbitraire"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=#arbitraire"/>Notes item</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=arbitraire"/>LG</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=#arbitraire"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=arbitraire"/>II corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=arbitraire"/>III corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -419,7 +427,9 @@
                             (<citedRange unit="page">p. 145</citedRange>)
                         </bibl>
                     </cit>
-                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=#articulé"/>I corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=#articulé"/>I corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -450,11 +460,13 @@
                         </bibl>
                     </cit>
                     <lbl type="com">Cfr.</lbl> <xr type="cf">analogie<ref target="#analogie"/></xr>;
-                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#3"/>ED</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=#2"/>Notes item</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=#6"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=4"/>II corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=4"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#3"/>ED</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=#2"/>Notes item</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=#6"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=4"/>II corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=4"/>III corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -488,8 +500,10 @@
                     <xr type="cf">continuité2<ref target="#continuité2"/></xr>,
                     <xr type="cf">dialecte<ref target="#dialecte"/></xr>,
                     <xr type="cf">frontière<ref target="#frontière"/></xr>.
-                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=5"/>II corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=5"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=5"/>II corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=5"/>III corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -597,15 +611,17 @@
                             <lbl type="com">Cfr.</lbl> <xr type="cf">transformation<ref target="#transformation"/></xr>.
                         </sense>
                     </entry>
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=8"/>Ph</xr>
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=3"/>ED</xr>; 
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=1"/>Notes Whitney</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=3"/>ThS</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=2"/>Notes item</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=3"/>LG</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=7"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=6"/>II corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=6"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=8"/>Ph</xr>
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=3"/>ED</xr>; 
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=1"/>Notes Whitney</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=3"/>ThS</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=2"/>Notes item</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=3"/>LG</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=7"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=6"/>II corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=6"/>III corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -637,13 +653,15 @@
                     <lbl type="com">Cfr.</lbl> <xr type="cf">intelligence<ref target="#intelligence"/></xr>;
                     <xr type="cf">volonté<ref target="#volonté"/></xr>,
                     Usato anche come aggettivo conscient
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=9"/>Ph</xr>
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=1"/>ED</xr>; 
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=3"/>Notes Whitney</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=3"/>Notes item</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=9"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=7"/>II corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=7"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=9"/>Ph</xr>
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=1"/>ED</xr>; 
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=3"/>Notes Whitney</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=3"/>Notes item</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=9"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=7"/>II corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=7"/>III corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -754,12 +772,14 @@
                         <xr type="cf">frontière<ref target="#frontière"/></xr>.
                         <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf"/>ED</xr>; 
                     </sense>
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=2"/>Status et motus</xr>;                    
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=3"/>Notes item</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=4"/>LG</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=#10"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=8"/>II corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=8"/>III corso</xr>}                
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=2"/>Status et motus</xr>;                    
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=3"/>Notes item</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=4"/>LG</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=#10"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=8"/>II corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=8"/>III corso</xr>
+                    </list>}                
                 </sense>
             </entry>
 
@@ -820,9 +840,11 @@
                     <lbl type="com">Cfr.</lbl> <xr type="cf">arbitraire<ref target="#arbitraire"/></xr>;
                     <xr type="cf">volonté<ref target="#volonté"/></xr>,
                     Usato anche come aggettivo conscient
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=2"/>Status et motus</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=2"/>Notes Whitney</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=#3"/>Notes item</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=2"/>Status et motus</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=2"/>Notes Whitney</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=#3"/>Notes item</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -851,7 +873,9 @@
                             (<citedRange unit="page">p. 157</citedRange>)
                         </bibl>
                     </cit>
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=5"/>ED</xr>; }
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=5"/>ED</xr>; 
+                    </list>}
                 </sense>
             </entry>
 
@@ -890,9 +914,11 @@
                     quasi- sin. <xr type="almost-synonym">transformation</xr>;
                     <lbl type="com">Cfr.</lbl> <xr type="cf">analogie<ref target="#analogie"/></xr>,
                     <xr type="cf">changement analogique<ref target="#changement analogique"/></xr>
-                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=3"/>Notes item</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=8"/>II corso</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=3"/>Notes item</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=8"/>II corso</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf"/>III corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -931,9 +957,11 @@
                     <xr type="cf">caractère dialectal<ref target="#caractère_dialectal"/></xr>,
                     <xr type="cf">continuité2<ref target="#continuité2"/></xr>,
                     <xr type="cf">frontière<ref target="#frontière"/></xr>.
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=#12"/>I corso</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=10"/>II corso</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=10"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=#12"/>I corso</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=10"/>II corso</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=10"/>III corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -987,13 +1015,15 @@
                         </cit>
                         Ant. <xr type="antonym">divergence<ref target="#divergence"/></xr>;
                         S. <xr type="S.">différencier<ref target="#différencier"/></xr>.
-                        {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=2"/>Status et motus</xr>;
-                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=6"/>ED</xr>;                     
-                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf"/>Notes item</xr>;
-                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=2"/>Notes Whitney</xr>;
-                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=12"/>I corso</xr>;
-                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=10"/>II corso</xr>;
-                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=10"/>III corso</xr>}
+                        {<list type="occurences">
+                            <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=2"/>Status et motus</xr>;
+                            <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=6"/>ED</xr>;                     
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf"/>Notes item</xr>;
+                            <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=2"/>Notes Whitney</xr>;
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=12"/>I corso</xr>;
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=10"/>II corso</xr>;
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=10"/>III corso</xr>
+                        </list>}
                     </sense>    
                 </sense>     
             </entry>
@@ -1030,8 +1060,10 @@
                     </cit>
                     <lbl type="com">Cfr.</lbl> <xr type="cf">différence<ref target="#différence"/></xr>,
                     <xr type="cf">différencier<ref target="#différencier"/></xr>.
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=12"/>I corso</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=10"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=12"/>I corso</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=10"/>III corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -1094,8 +1126,10 @@
                         </bibl>
                     </cit>
                     <lbl type="alm-syn">Quasi-sin.</lbl> <xr type="almost-synonym">isolation linguistique<ref target="#isolation_linguistique"/></xr>,
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=13"/>I corso</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=11"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=13"/>I corso</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=11"/>III corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -1225,8 +1259,10 @@
                     <lbl type="com">Cfr.</lbl> <xr type="cf">distance géographique<ref target="#distance_géographique"/></xr>,
                     <xr type="cf">divergence<ref target="#divergence"/></xr>,
                     <xr type="cf">espace<ref target="#espace"/></xr>.
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=10"/>II corso</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=10"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=10"/>II corso</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=10"/>III corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -1295,13 +1331,15 @@
                             (<citedRange unit="page">p. 158</citedRange>)
                         </bibl>
                     </cit>
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/04.%201878%20M%C3%A9moire.pdf#page=2"/>Mem</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=écriture"/>ED</xr>;                     
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=écriture"/>Notes item</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=écriture"/>Notes Whitney</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=#écriture"/>I corso</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=écriture"/>II corso</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=écriture"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/04.%201878%20M%C3%A9moire.pdf#page=2"/>Mem</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=écriture"/>ED</xr>;                     
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=écriture"/>Notes item</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=écriture"/>Notes Whitney</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=#écriture"/>I corso</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=écriture"/>II corso</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=écriture"/>III corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -1337,12 +1375,14 @@
                         </bibl>
                     </cit>
                     <lbl type="alm-syn">Quasi-sin.</lbl> <xr type="almost-synonym">terme2<ref target="#terme2"/></xr>.
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=8"/>ED</xr>;   
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=3"/>Notes Whitney</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=5"/>ThS</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=5"/>Notes item</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=14"/>I corso</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=12"/>II corso</xr>;}                
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=8"/>ED</xr>;   
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=3"/>Notes Whitney</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=5"/>ThS</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=5"/>Notes item</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=14"/>I corso</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=12"/>II corso</xr>;
+                    </list>}                
                 </sense>
             </entry>
 
@@ -1412,8 +1452,10 @@
                             (<citedRange unit="page" from="157" to="158">pp. 157-158</citedRange>)
                         </bibl>
                     </cit>
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=12"/>II corso</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=12"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=12"/>II corso</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=12"/>III corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -1446,7 +1488,9 @@
                         </bibl>
                     </cit>
                     <lbl type="alm-syn">Quasi-sin.</lbl> <xr type="almost-synonym">distance géographique<ref target="#distance_géographique"/></xr>.
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=12"/>III corso</xr>}
+                    {<list type="occurrences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=12"/>III corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -1486,16 +1530,18 @@
                     <xr type="cf">succession<ref target="#succession"/></xr>,
                     <xr type="cf">transition<ref target="#transition"/></xr>, 
                     <xr type="cf">vie de la langue<ref target="#vie de la langu"/></xr>.
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=13"/>Ph</xr>
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=9"/>ED</xr>; 
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=2"/>Status et motus</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=4"/>Notes Whitney</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=6"/>ThS </xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf"/>Notes item</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=6"/>LG</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=15"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=12"/>II corso</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=12"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=13"/>Ph</xr>
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=9"/>ED</xr>; 
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=2"/>Status et motus</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=4"/>Notes Whitney</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=6"/>ThS </xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf"/>Notes item</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=6"/>LG</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=15"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=12"/>II corso</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=12"/>III corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -1530,9 +1576,11 @@
                             (<citedRange unit="page" from="145" to="146">p. 145-146</citedRange>);
                         </bibl>
                     </cit>
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=4"/>Notes Whitney</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=13"/>II corso</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=14"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=4"/>Notes Whitney</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=13"/>II corso</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=14"/>III corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -1598,12 +1646,14 @@
                     <lbl type="com">Cfr.</lbl> <xr type="cf">fait<ref target="#fait"/></xr>,
                     <xr type="cf">linguistique<ref target="#linguistique"/></xr>
                     Occorre anche come <term xml:id="fait_linguistique">fait linguistique</term><!--Come lo rendo?-->
-                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=10"/>ED</xr>; 
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf"/>Status et motus</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=6"/>Notes item</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=13"/>II corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=14"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=10"/>ED</xr>; 
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf"/>Status et motus</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=6"/>Notes item</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=13"/>II corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=14"/>III corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -1646,7 +1696,9 @@
                     <xr type="opposite">mutabilité<ref target="#mutabilité"/></xr>,
                     <xr type="opposite">transformation<ref target="#transformation"/></xr>,
                     <xr type="opposite">changement<ref target="#changement"/></xr>.
-                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=7"/>LG</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=7"/>LG</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -1678,8 +1730,10 @@
                             (<citedRange unit="page">p. 146</citedRange>);
                         </bibl>
                     </cit>
-                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=#6"/>Notes item</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=13"/>II corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=#6"/>Notes item</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=13"/>II corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -1691,7 +1745,9 @@
                     [<def>
                         v. <ref type="see" target="#analogie">analogie</ref>
                     </def>];
-                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=13"/>II corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=13"/>II corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -1726,13 +1782,15 @@
                             (<citedRange unit="page">p. 158</citedRange>);
                         </bibl>
                     </cit>
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/03.%201874%20Saggio%20giovanile.pdf#page=2"/>Essai</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=11"/>ED</xr>; 
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=4"/>Status et motus</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=6"/>Notes item</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=6"/>I corso</xr>
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=14"/>II corso</xr>
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=15"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/03.%201874%20Saggio%20giovanile.pdf#page=2"/>Essai</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=11"/>ED</xr>; 
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=4"/>Status et motus</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=6"/>Notes item</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=6"/>I corso</xr>
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=14"/>II corso</xr>
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=15"/>III corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -1765,7 +1823,9 @@
                     <lbl type="syn">Cfr.</lbl> <xr type="cf">continuité2<ref target="#continuité2"/></xr>,
                     <xr type="cf">divergence<ref target="#divergence"/></xr>,
                     <xr type="cf">diversifier<ref target="#diversifier"/></xr>.
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=10"/>II corso</xr>                
+                    <list type="occurrences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=10"/>II corso</xr>
+                    </list>
                 </sense>
             </entry>
 
@@ -1810,7 +1870,9 @@
                     <xr type="cf">continuité2<ref target="#continuité2"/></xr>,
                     <xr type="cf">dialecte<ref target="#dialecte"/></xr>,
                     <xr type="cf">espace<ref target="#espace"/></xr>.
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=15"/>III corso</xr>                
+                    {<list type="occurrences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=15"/>III corso</xr> 
+                    </list>}
                 </sense>
             </entry>            
 
@@ -1844,7 +1906,9 @@
                     </cit>
                     <lbl type="duale">Duale</lbl> <xr type="duale"> universel2<ref target="#universel2"/></xr>,
                     <lbl type="duale">Cfr.</lbl><xr type="cf">généralisation<ref target="#généralisation"/></xr>,
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=5"/>Notes Whitney</xr>.
+                    {<list type="occurrences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=5"/>Notes Whitney</xr>.
+                    </list>}
                 </sense>
             </entry>   
         
@@ -1878,8 +1942,10 @@
                         </bibl>
                     </cit>
                     <lbl type="com">Cfr. </lbl> <xr type="cf">général<ref target="#général"/></xr>,
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=12"/>ED</xr>, 
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=5"/>Notes Whitney</xr>.
+                    {<list type="occurrences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=12"/>ED</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=5"/>Notes Whitney</xr>.
+                    </list>}
                 </sense>
             </entry>   
 
@@ -1915,7 +1981,9 @@
                         </bibl>
                     </cit>
                     Attestato anche nella forma avverbiale <term xml:id="géographiquement">géographiquement</term><!--Come lo rendo?-->
-                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=19"/>I corso</xr>;}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=19"/>I corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -1946,7 +2014,9 @@
                         </bibl>
                     </cit>
                     <lbl type="synonym">Sin. </lbl><xr type="synonym">famille des langues<ref target="#famille_des_langues"/></xr>,
-                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf"/>I corso</xr>;}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf"/>I corso</xr>;
+                    </list>}
                 </sense>
             </entry>
 
@@ -2022,13 +2092,15 @@
                         </bibl>
                     </cit>
                     <lbl type="duale">duale. </lbl><xr type="duale">langue dans l'histoire<ref target="#langue_dans_l'histoire"/></xr>,
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=8"/>ED</xr>; 
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf"/>Status et motus</xr>;                    
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=5"/>Notes item</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=8"/>LG</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=20"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=15"/>II corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=16"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=8"/>ED</xr>; 
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf"/>Status et motus</xr>;                    
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=5"/>Notes item</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=8"/>LG</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=20"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=15"/>II corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=16"/>III corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -2096,14 +2168,16 @@
                             (<citedRange unit="page">p. 161</citedRange>);
                         </bibl>
                     </cit>
-                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/03.%201874%20Saggio%20giovanile.pdf#page=3"/>Essai</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=16"/>Ph</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=13"/>ED</xr>; 
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=4"/>Status et motus</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=7"/>Notes item</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=20"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=16"/>II corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=16"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/03.%201874%20Saggio%20giovanile.pdf#page=3"/>Essai</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=16"/>Ph</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=13"/>ED</xr>; 
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=4"/>Status et motus</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=7"/>Notes item</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=20"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=16"/>II corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=16"/>III corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -2137,8 +2211,10 @@
                     <xr type="opp">mutabilité<ref target="#mutabilité"/></xr>
                     <xr type="opp">transformation<ref target="#transformation"/></xr>
                     <xr type="opp">changement<ref target="#changement"/></xr>
-                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=16"/>II corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=17"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=16"/>II corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=17"/>III corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -2208,7 +2284,9 @@
                     <lbl type="com">Cfr</lbl><xr type="cf">intelligence<ref target="#intelligence"/></xr>;
                     <xr type="cf">volonté<ref target="#volonté"/></xr>;
                     usato anche come aggettivo <term xml:id="incoscient"/>;
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=21"/>I corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=21"/>I corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -2299,7 +2377,9 @@
                     </cit>
                     <lbl type="com">Cfr. </lbl><xr type="cf">conscience<ref target="#conscience"/></xr>;
                     <lbl type="syn">Sin. </lbl><xr type="synonym">volonté<ref target="#volonté"/></xr>;                    
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=18"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=18"/>III corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -2400,15 +2480,17 @@
                                 (<citedRange unit="page">p. 146</citedRange>)
                             </bibl>
                         </cit>
-                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/03.%201874%20Saggio%20giovanile.pdf#page=3"/>Essai</xr>;
-                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=19"/>Ph</xr>;
-                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=15"/>ED</xr>;  
-                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=15"/>Status et motus</xr>;
-                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=16"/>Notes Whitney</xr>;
-                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=8"/>Notes item</xr>;
-                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=23"/>I corso</xr>;
-                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=18"/>II corso</xr>;
-                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=19"/>III corso</xr>}
+                        <list type="occurrences">
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/03.%201874%20Saggio%20giovanile.pdf#page=3"/>Essai</xr>;
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=19"/>Ph</xr>;
+                            <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=15"/>ED</xr>;  
+                            <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=15"/>Status et motus</xr>;
+                            <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=16"/>Notes Whitney</xr>;
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=8"/>Notes item</xr>;
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=23"/>I corso</xr>;
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=18"/>II corso</xr>;
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=19"/>III corso</xr>
+                        </list>}
                     </sense>    
                 </sense>     
             </entry>
@@ -2483,18 +2565,20 @@
                     <cit type="example">
                         <quote><eg xml:lang="fr"><oRef>langue</oRef> officielle administrative</eg></quote>
                     </cit>.
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/03.%201874%20Saggio%20giovanile.pdf#page=4"/>Essai</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/04.%201878%20M%C3%A9moire.pdf#page=3"/>Mem</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=19"/>Ph</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=16"/>ED</xr>;  
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=5"/>Status et motus</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=7"/>Notes Whitney</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=9"/>ThS </xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=8"/>Notes item</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=8"/>LG</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=23"/>I corso</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=17"/>II corso</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=19"/>III corso</xr>}
+                    <list type="occurrences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/03.%201874%20Saggio%20giovanile.pdf#page=4"/>Essai</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/04.%201878%20M%C3%A9moire.pdf#page=3"/>Mem</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=19"/>Ph</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=16"/>ED</xr>;  
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=5"/>Status et motus</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=7"/>Notes Whitney</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=9"/>ThS </xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=8"/>Notes item</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=8"/>LG</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=23"/>I corso</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=17"/>II corso</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=19"/>III corso</xr>
+                    </list>}
                 </sense>     
             </entry>
 
@@ -2531,7 +2615,9 @@
                             (<citedRange unit="page" from="154" to="155">pp. 154-155</citedRange>);
                         </bibl>
                     </cit>
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=21"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=21"/>III corso</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -2704,16 +2790,18 @@
                             </bibl>
                         </cit>
                         <lbl type="syn">Sin. </lbl><xr type="synonym">science du langage<ref target="#science_du_langage"/></xr>
-                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=20"/>Ph</xr>;
-                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf"/>ED</xr>;  
-                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=9"/>ThS </xr>;
-                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=5"/>Status et motus</xr>;
-                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=8"/>Notes Whitney</xr>;
-                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=8"/>Notes item</xr>;
-                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=9"/>LG</xr>;
-                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=25"/>I corso</xr>;
-                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=20"/>II corso</xr>;
-                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=22"/>III corso</xr>}
+                        <list type="occurrences">
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=20"/>Ph</xr>;
+                            <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf"/>ED</xr>;  
+                            <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=9"/>ThS </xr>;
+                            <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=5"/>Status et motus</xr>;
+                            <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=8"/>Notes Whitney</xr>;
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=8"/>Notes item</xr>;
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=9"/>LG</xr>;
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=25"/>I corso</xr>;
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=20"/>II corso</xr>;
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=22"/>III corso</xr>
+                        </list>}
                     </sense>     
                 </entry>
 
@@ -2889,13 +2977,15 @@
                         </cit>
                         <lbl type="com">Cfr. </lbl><xr type="cf">fait<ref target="#fait"/></xr>
                     </sense>
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=20"/>Ph</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=8"/>Notes Whitney</xr>;                    
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=9"/>ThS </xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=9"/>Notes item</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=25"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=21"/>II corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=23"/>III corso</xr>}                 
+                    <list type="occurrences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=20"/>Ph</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=8"/>Notes Whitney</xr>;                    
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=9"/>ThS </xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=9"/>Notes item</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=25"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=21"/>II corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=23"/>III corso</xr>
+                    </list>}                 
                 </sense>     
             </entry>
 
@@ -2925,11 +3015,13 @@
                             (<citedRange unit="page">p. 150</citedRange>)
                         </bibl>
                     </cit>
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=9"/>Notes Whitney</xr>;                    
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=9"/>Notes item</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=25"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=21"/>II corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=23"/>III corso</xr>}                 
+                    <list type="occurrences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=9"/>Notes Whitney</xr>;                    
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=9"/>Notes item</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=25"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=21"/>II corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=23"/>III corso</xr>
+                    </list>}                 
                 </sense>     
             </entry>
 
@@ -2975,12 +3067,14 @@
                             (<citedRange unit="page">p. 166</citedRange>)
                         </bibl>
                     </cit>
-                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=21"/>Ph</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=17"/>ED</xr>;  
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=10"/>ThS </xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf"/>Notes Whitney</xr>;                    
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=#9"/>Notes item</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=#25"/>I corso</xr>;}                 
+                    {<list type="occurences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=21"/>Ph</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=17"/>ED</xr>;  
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=10"/>ThS </xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf"/>Notes Whitney</xr>;                    
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=#9"/>Notes item</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=#25"/>I corso</xr>;
+                    </list>}                 
                 </sense>     
             </entry>
 
@@ -3100,15 +3194,17 @@
                             <date>2002</date>
                             (<citedRange unit="page">p. 166</citedRange>)
                         </bibl>
-                    </cit>                    
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/04.%201878%20M%C3%A9moire.pdf#page=3"/>Mem</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=18"/>ED</xr>;  
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=9"/>Notes Whitney</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=9"/>Notes item</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=10"/>LG</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=26"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=22"/>II corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=24"/>III corso</xr>}
+                    </cit>             
+                    <list type="occurrences">       
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/04.%201878%20M%C3%A9moire.pdf#page=3"/>Mem</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=18"/>ED</xr>;  
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=9"/>Notes Whitney</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=9"/>Notes item</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=10"/>LG</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=26"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=22"/>II corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=24"/>III corso</xr>
+                    </list>}
                 </sense>     
             </entry>
 
@@ -3147,7 +3243,9 @@
                     <lbl type="com">Cfr. </lbl><xr type="cf">continuité<ref target="continuité"/></xr>,
                     <xr type="cf">mutabilité<ref target="mutabilité"/></xr>,
                     <xr type="cf">transformation<ref target="transformation"/></xr>.
-                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=26"/>I corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=26"/>I corso</xr>
+                    </list>}
                 </sense>     
             </entry>
 
@@ -3183,7 +3281,9 @@
                     <lbl type="opp">Cfr. </lbl><xr type="opposite">continuité<ref target="continuité"/></xr>;
                     <xr type="opp">mouvement<ref target="mouvement"/></xr>,
                     <xr type="opp">transformation<ref target="transformation"/></xr>.
-                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=24"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=24"/>III corso</xr>
+                    </list>}
                 </sense>     
             </entry>
 
@@ -3221,7 +3321,9 @@
                     <xr type="cf">organique<ref target="organique"/></xr>,
                     <xr type="cf">continuité<ref target="continuité"/></xr>,
                     <xr type="cf">vie de la langue<ref target="vie de la langue"/></xr>.
-                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf"/>III corso</xr>
+                    </list>}
                 </sense>     
             </entry>
 
@@ -3263,8 +3365,10 @@
                             (<citedRange unit="page" from="164" to="165">p. 164-165</citedRange>)
                         </bibl>
                     </cit>          
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=6"/>Status et motus</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=11"/>LG</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=6"/>Status et motus</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=11"/>LG</xr>
+                    </list>}
                 </sense>     
             </entry>
 
@@ -3294,13 +3398,15 @@
                             (<citedRange unit="page">p. 144</citedRange>)
                         </bibl>
                     </cit>                    
-                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=22"/>Ph</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=19"/>ED</xr>;  
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=6"/>Status et motus</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=10"/>Notes Whitney</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=27"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=23"/>II corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=25"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=22"/>Ph</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=19"/>ED</xr>;  
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=6"/>Status et motus</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=10"/>Notes Whitney</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=27"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=23"/>II corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=25"/>III corso</xr>
+                    </list>}
                 </sense>     
             </entry>
 
@@ -3312,7 +3418,9 @@
                     [<def>
                         <ref type="see" target="#analogie">v. analogie</ref>
                     </def>];
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=19"/>ED</xr>; }
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=19"/>ED</xr>; 
+                    </list>}
                 </sense>     
             </entry>
 
@@ -3377,10 +3485,12 @@
                     <xr type="cf">mort<ref target="#mort"/></xr>,
                     <xr type="cf">naissance de langue<ref target="#naissance_de_langue"/></xr>,
                     <xr type="cf">vieux<ref target="#vieux"/></xr>,
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=10"/>Notes item</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=28"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=24"/>II corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=25"/>III corso</xr>}
+                    <list type="occurrences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=10"/>Notes item</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=28"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=24"/>II corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=25"/>III corso</xr>
+                    </list>}
                 </sense>     
             </entry>
 
@@ -3440,12 +3550,14 @@
                             </bibl>
                         </cit>
                     </sense>
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=7"/>Status et motus</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=20"/>ED</xr>; 
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=10"/>Notes item</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=28"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=24"/>II corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf"/>III corso</xr>}                 
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=7"/>Status et motus</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=20"/>ED</xr>; 
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=10"/>Notes item</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=28"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=24"/>II corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf"/>III corso</xr>
+                    </list>}                 
                 </sense>     
             </entry>
 
@@ -3474,7 +3586,9 @@
                         </bibl>
                     </cit>
                     <lbl type="com">Cfr. </lbl><xr type="cf">langage1<ref target="#langage1"/></xr>
-                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=24"/>Ph</xr>;}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=24"/>Ph</xr>;
+                    </list>}
                 </sense>     
             </entry>
 
@@ -3503,12 +3617,14 @@
                             (<citedRange unit="page">p. 146</citedRange>)
                         </bibl>
                     </cit>                    
-                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=24"/>Ph</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=11"/>ThS </xr>;                                        
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=11"/>Notes item</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=28"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=24"/>II corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=26"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=24"/>Ph</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=11"/>ThS </xr>;                                        
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=11"/>Notes item</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=28"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=24"/>II corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=26"/>III corso</xr>
+                    </list>}
                 </sense>     
             </entry>
 
@@ -3541,11 +3657,13 @@
                             (<citedRange unit="page">p. 171</citedRange>)
                         </bibl>
                     </cit>                          
-                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/03.%201874%20Saggio%20giovanile.pdf#page=4"/>Essai</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf"/>Ph</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=29"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=25"/>II corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/03.%201874%20Saggio%20giovanile.pdf#page=4"/>Essai</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf"/>Ph</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=29"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=25"/>II corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf"/>III corso</xr>
+                    </list>}
                 </sense>     
             </entry>
 
@@ -3587,9 +3705,11 @@
                             (<citedRange unit="page">p. 146</citedRange>)
                         </bibl>
                     </cit>                          
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=7"/>Status et motus</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf"/>Notes Whitney</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=13"/>LG</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=7"/>Status et motus</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf"/>Notes Whitney</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=13"/>LG</xr>
+                    </list>}
                 </sense>     
             </entry>
 
@@ -3603,16 +3723,18 @@
                         agg. relativo ai suoni delle lingue, usato esclusivamente in relazione ai cambiamenti fonetici
                         (<ref target="#changement_phonetique">v. changement phonétique</ref>)
                     </def>];
-                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=13"/>Ph</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=21"/>ED</xr>;  
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=7"/>Status et motus</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=11"/>Notes Whitney</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=12"/>ThS </xr>;                                        
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=11"/>Notes item</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=13"/>LG</xr>}
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=29"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=26"/>II corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=27"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=13"/>Ph</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=21"/>ED</xr>;  
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=7"/>Status et motus</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=11"/>Notes Whitney</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=12"/>ThS </xr>;                                        
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=11"/>Notes item</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=13"/>LG</xr>
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=29"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=26"/>II corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=27"/>III corso</xr>
+                    </list>}
                 </sense>     
             </entry>
 
@@ -3742,11 +3864,13 @@
                                 (<citedRange unit="page">p. 146</citedRange>);
                             </bibl>
                         </cit>
-                        {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf"/>Ph</xr>;
-                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=22"/>ED</xr>;  
-                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=12"/>ThS </xr>;                                        
-                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=30"/>I corso</xr>;
-                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf"/>II corso</xr>;}
+                        {<list type="occurences">
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf"/>Ph</xr>;
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=22"/>ED</xr>;  
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=12"/>ThS </xr>;                                        
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=30"/>I corso</xr>;
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf"/>II corso</xr>;
+                        </list>}
                     </sense>
                 </entry>
                 <entry xml:id="physiologiste">
@@ -3775,11 +3899,13 @@
                                 (<citedRange unit="page">p. 146</citedRange>);
                             </bibl>
                         </cit>
-                        {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf"/>Ph</xr>;
-                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=21"/>ED</xr>;  
-                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=12"/>ThS </xr>;                                        
-                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=30"/>I corso</xr>;
-                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf"/>II corso</xr>;}
+                        {<list type="occurences">
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf"/>Ph</xr>;
+                            <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=21"/>ED</xr>;  
+                            <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=12"/>ThS </xr>;                                        
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=30"/>I corso</xr>;
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf"/>II corso</xr>;
+                        </list>}
                     </sense>
                 </entry>
             </superEntry>
@@ -3811,11 +3937,13 @@
                             (<citedRange unit="page">p. 166</citedRange>)
                         </bibl>
                     </cit>                                
-                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=21"/>Ph</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=21"/>ED</xr>;  
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=12"/>ThS </xr>;                                        
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=30"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf"/>II corso</xr>;}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=21"/>Ph</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=21"/>ED</xr>;  
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=12"/>ThS </xr>;                                        
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=30"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf"/>II corso</xr>;
+                    </list>}
                 </sense>     
             </entry>
 
@@ -3861,8 +3989,10 @@
                             </bibl>
                         </cit>          
                         <ref target="#science_physique">v. science physique</ref>                              
-                        {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=27"/>Ph</xr>;
-                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=12"/>Notes Item</xr>;}
+                        {<list type="occurences">
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=27"/>Ph</xr>;
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=12"/>Notes Item</xr>;
+                        </list>}
                     </sense>     
                 </entry>
             </superEntry>
@@ -3904,12 +4034,14 @@
                             (<citedRange unit="page">p. 147</citedRange>)
                         </bibl>
                     </cit>                                
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/04.%201878%20M%C3%A9moire.pdf#page=4"/>Mém</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=27"/>Ph</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=22"/>ED</xr>;  
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=13"/>ThS </xr>;                                        
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=31"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=27"/>II corso</xr>;}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/04.%201878%20M%C3%A9moire.pdf#page=4"/>Mém</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=27"/>Ph</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=22"/>ED</xr>;  
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=13"/>ThS </xr>;                                        
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=31"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=27"/>II corso</xr>;
+                    </list>}
                 </sense>     
             </entry>
 
@@ -3921,7 +4053,9 @@
                     [<def>
                         <ref target="#analogie">v. analogie</ref>
                     </def>];                
-                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=31"/>I corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=31"/>I corso</xr>
+                    </list>}
                 </sense>     
             </entry>
 
@@ -3951,9 +4085,11 @@
                                 (<citedRange unit="page">p. 144</citedRange>);
                             </bibl>
                         </cit>
-                        {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=32"/>I corso</xr>;
-                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=27"/>II corso</xr>;
-                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=29"/>III corso</xr>}
+                        {<list type="occurences">
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=32"/>I corso</xr>;
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=27"/>II corso</xr>;
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=29"/>III corso</xr>
+                        </list>}
                     </sense>
                 </entry>
                 <entry xml:id="psychologue">
@@ -3981,9 +4117,11 @@
                                 (<citedRange unit="page">p. 144</citedRange>);
                             </bibl>
                         </cit>
-                        {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=32"/>I corso</xr>;
-                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=27"/>II corso</xr>;
-                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=29"/>III corso</xr>}
+                        {<list type="occurences">
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=32"/>I corso</xr>;
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=27"/>II corso</xr>;
+                            <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=29"/>III corso</xr>
+                        </list>}
                     </sense>
                 </entry>
             </superEntry>
@@ -4011,9 +4149,11 @@
                             (<citedRange unit="page">p. 161</citedRange>)
                         </bibl>
                     </cit>                                
-                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=32"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=27"/>II corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=29"/>III corso</xr>;}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=32"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=27"/>II corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=29"/>III corso</xr>;
+                    </list>}
                 </sense>     
             </entry>
 
@@ -4213,17 +4353,19 @@
                             (<citedRange unit="page">p. 161</citedRange>)
                         </bibl>
                     </cit> 
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/03.%201874%20Saggio%20giovanile.pdf#page=5"/>Essai</xr>;   
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/04.%201878%20M%C3%A9moire.pdf#5"/>Mém</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=30"/>Ph</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=25"/>ED</xr>;  
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=9"/>Status et motus</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=12"/>Notes Whitney</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=14"/>Notes Item</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=16"/>LG</xr>}
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=35"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=29"/>II corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=32"/>III corso</xr>}                               
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/03.%201874%20Saggio%20giovanile.pdf#page=5"/>Essai</xr>;   
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/04.%201878%20M%C3%A9moire.pdf#5"/>Mém</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=30"/>Ph</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=25"/>ED</xr>;  
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=9"/>Status et motus</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=12"/>Notes Whitney</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=14"/>Notes Item</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=16"/>LG</xr>
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=35"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=29"/>II corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=32"/>III corso</xr>
+                    </list>}                               
                 </sense>     
             </entry>
 
@@ -4262,12 +4404,14 @@
                     <lbl type="opp">Cfr.</lbl> <xr type="cf">continuité<ref target="#continuité"/></xr>,
                     <xr type="cf">état de langue<ref target="#état_de_langue"/></xr>,
                     <xr type="cf">vie de la langue<ref target="#vie_de_la_langue"/></xr>.
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/04.%201878%20M%C3%A9moire.pdf#succession"/>Mém</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=succession"/>ED</xr>;  
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=succession"/>Status et motus</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=succession"/>ThS </xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=#succession"/>Notes Item</xr>;<!--Nel PDF è scritto solo "Item"-->
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=succession"/>III corso</xr>}                               
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/04.%201878%20M%C3%A9moire.pdf#succession"/>Mém</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=succession"/>ED</xr>;  
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=succession"/>Status et motus</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=succession"/>ThS </xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=#succession"/>Notes Item</xr>;<!--Nel PDF è scritto solo "Item"-->
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=succession"/>III corso</xr>
+                    </list>}                               
                 </sense>     
             </entry>
 
@@ -4317,13 +4461,16 @@
                             (<citedRange unit="page">p. 151</citedRange>)
                         </bibl>
                     </cit> 
-                    {<xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=33"/>Ph</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=10"/>Status et motus</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=10"/>Notes Whitney</xr>;                    
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=17"/>Notes Item</xr>;<!--Nel PDF è scritto solo "Item"-->
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=17"/>LG</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=33"/>Ph</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=10"/>Status et motus</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=10"/>Notes Whitney</xr>;                    
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=17"/>Notes Item</xr>;<!--Nel PDF è scritto solo "Item"-->
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=17"/>LG</xr>
+                    </list>}
                     <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=38"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=37"/>III corso</xr>}                               
+                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=37"/>III corso</xr>
+                </list>}                               
                 </sense>     
             </entry>
 
@@ -4387,16 +4534,18 @@
                         </cit> 
                     </sense>
                     <lbl type="alm-syn">Quasi sin. </lbl><xr type="almost-synonym">élément<ref target="#élément"/></xr>;
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/04.%201878%20M%C3%A9moire.pdf#page=6"/>Mém</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/05.%201881%20Tesi%20sul%20genitivo%20assoluto%20in%20sanscrito.pdf#page=3"/>Tesi</xr>
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=34"/>Ph</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=28"/>ED</xr>;  
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=10"/>Status et motus</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=17"/>ThS </xr>;                                        
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=17"/>Notes Item</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=17"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=33"/>II corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=38"/>III corso</xr>}                               
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/04.%201878%20M%C3%A9moire.pdf#page=6"/>Mém</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/05.%201881%20Tesi%20sul%20genitivo%20assoluto%20in%20sanscrito.pdf#page=3"/>Tesi</xr>
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=34"/>Ph</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=28"/>ED</xr>;  
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=10"/>Status et motus</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=17"/>ThS </xr>;                                        
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=17"/>Notes Item</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=17"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=33"/>II corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=38"/>III corso</xr>
+                    </list>}                               
                 </sense>    
             </entry>            
 
@@ -4429,11 +4578,13 @@
                             (<citedRange unit="page">p. 147</citedRange>)
                         </bibl>
                     </cit>
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/03.%201874%20Saggio%20giovanile.pdf#page=5"/>Essai</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=34"/>Ph</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=10"/>Status et motus</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=13"/>Notes Whitney</xr>; 
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=33"/>II corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/03.%201874%20Saggio%20giovanile.pdf#page=5"/>Essai</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=34"/>Ph</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/09.%201893-1894%20Status%20et%20motus.pdf#page=10"/>Status et motus</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=13"/>Notes Whitney</xr>; 
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=33"/>II corso</xr>
+                    </list>}
                 </sense>     
             </entry>
 
@@ -4507,10 +4658,12 @@
                     </cit>
                     <lbl type="opp">Opp. </lbl><xr type="opposite">immobilité<ref target="#immobilité" /></xr>;
                     <lbl type="com">Cfr.</lbl><xr type="cf">continuité<ref target="#continuité"/></xr>,
-                    {<xr type="cf">mouvement<ref target="#mouvement"/></xr>,
-                    <xr type="cf">mutabilité<ref target="#mutabilité"/></xr>.     
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=3"/>Notes Item</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=10"/>I corso</xr>}
+                    {<list type="occurences">
+                        <xr type="cf">mouvement<ref target="#mouvement"/></xr>,
+                        <xr type="cf">mutabilité<ref target="#mutabilité"/></xr>.     
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/12.%201899-1903%20Notes%20Item.pdf#page=3"/>Notes Item</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=10"/>I corso</xr>
+                    </list>}
                 </sense>     
             </entry>
 
@@ -4578,8 +4731,10 @@
                     <lbl type="com">Cfr. </lbl><xr type="cf">continuité<ref target="#continuité"/></xr>,
                     <xr type="cf">état de langue<ref target="#état_de_langue"/></xr>,
                     <xr type="cf">vie de la langue<ref target="#vie_de_la_langue"/></xr>.
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/04.%201878%20M%C3%A9moire.pdf#page=7"/>Mém</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=38"/>III corso</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/04.%201878%20M%C3%A9moire.pdf#page=7"/>Mém</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/16.%201910-1911%20Terzo%20corso%20di%20linguistica%20generale.pdf#page=38"/>III corso</xr>
+                    </list>}
                 </sense>     
             </entry>
 
@@ -4643,8 +4798,10 @@
                         </cit>
                     </sense>  
                     <lbl type="duale">Duale</lbl><xr type="duale">général<ref target="#général"/></xr>
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=14"/>Notes Whitney</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=18"/>ThS</xr>}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/10.%201894%20Notes%20Whitney.pdf#page=14"/>Notes Whitney</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/11.%201895-1897%20Th%C3%A9orie%20des%20Sonantes.pdf#page=18"/>ThS</xr>
+                    </list>}
                 </sense>
             </entry>
 
@@ -4683,8 +4840,10 @@
                     <xr type="cf">transition<ref target="#transition"/></xr>,
                     <xr type="cf">vieux<ref target="#vieux"/></xr>;
                     occorre anche come <term xml:id="vie_du_langage">vie du langage</term><!--Come lo rendo?-->
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=29"/>ED</xr>;  
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=36"/>II corso</xr>;}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf#page=29"/>ED</xr>;  
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=36"/>II corso</xr>;
+                    </list>}
                 </sense>     
             </entry>
 
@@ -4734,8 +4893,10 @@
                     <xr type="cf">succession<ref target="#succession"/></xr>,
                     <xr type="cf">transition<ref target="#transition"/></xr>,
                     <xr type="cf">vie de la langue<ref target="#vie-de_la_langue"/></xr>.
-                    {<xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf"/>ED</xr>;  
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf"/>II corso</xr>;}
+                    {<list type="occurences">
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/08.%201891-1892%20De%20la%20double%20essence%20du%20langage.pdf"/>ED</xr>;  
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf"/>II corso</xr>;
+                    </list>}
                 </sense>     
             </entry>
 
@@ -4764,11 +4925,13 @@
                     <orth>Volonté</orth>
                 </form>
                 <sense n="1">
-                    (<xr type="see"><ref target="#conscience">v. conscience</ref></xr>); <xr type="see"><ref target="#intelligence">intelligence</ref></xr>)
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=36"/>Ph</xr>;
-                    <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=19"/>LG</xr>
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=41"/>I corso</xr>;
-                    <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=36"/>II corso</xr>}
+                    {<list type="occurences">
+                        <xr type="see"><ref target="#conscience">v. conscience</ref></xr>); <xr type="see"><ref target="#intelligence">intelligence</ref></xr>)
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/06.%201881-1884%20Phon%C3%A9tique.pdf#page=36"/>Ph</xr>;
+                        <xr type="other_dictionary"> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/13.%201903-1910%20Leggende%20germaniche.pdf#page=19"/>LG</xr>
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/14.%201907%20Primo%20corso%20di%20linguistica%20generale.pdf#page=41"/>I corso</xr>;
+                        <xr type="other_dictionary"><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=36"/>II corso</xr>
+                    </list>}
                 </sense>     
             </entry>            
         </body>
