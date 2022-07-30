@@ -24,21 +24,19 @@
             </editionStmt>
 
             <publicationStmt>
-                <publisher> Edizioni Dell'Orso</publisher>
-                <pubPlace xml:id="xxx">Alessandria</pubPlace> <!--Collega alla listPlace-->
+                <publisher> CNR Pisa - Unical </publisher>
                 <date when="2022">2022</date>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by/xxx/"> xxx </licence>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY SA 4.0 </licence>
+                    <!-- DA DECIDERE: almeno CC BY Share Alike poi valutiamo Non Derivaty e Non commercial-->
                 </availability>
-                
+                <date when="2022">2022</date>
             </publicationStmt>
 
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
                         <country>Italia</country>
-                        <settlement>Alessandria</settlement>
-                        <institution>xxx</institution>
                         <idno type="ISBN">978-88-6274-728-8</idno>
                     </msIdentifier>
                     <msContents>
@@ -51,6 +49,13 @@
                             <textLang mainLang="it">Italiano</textLang>
                         </msItem>
                     </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <p>
+                                Volume sulle terminologie saussuriane, contenente la raccolta terminologica "1891 Prolusioni ginevrine"
+                            </p>
+                        </objectDesc>
+                    </physDesc>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
