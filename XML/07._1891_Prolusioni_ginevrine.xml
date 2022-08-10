@@ -236,7 +236,12 @@
                             </form>
                         </re>
                         <xr type="compound"><ref target="#formation_analogique">formation d’<oRef>a.</oRef></ref></xr>,
-                        <xr type="compound"><ref target="#">perturbation d’<oRef>a.</oRef></ref></xr>]
+                        <re>
+                            <form type="compound">
+                                <orth>perturbation d'<oRef>a.</oRef></orth>
+                            </form>
+                        </re>
+                        ]
                     </sense>
                     <cit type="example">
                         <quote xml:lang="fr">
