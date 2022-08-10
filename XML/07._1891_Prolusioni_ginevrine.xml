@@ -285,9 +285,14 @@
                     [<def>
                     aggettivo; che si riferisce all’analogia o al risultato di questo procedimento; usato soprattutto in espressioni complesse: 
                     </def>
-                    <cit type="example">
-                        <eg xml:lang="fr">changement <oRef>a.</oRef>, formation <oRef>a.</oRef>, rennouvellement <oRef>a.</oRef> (<ref type="see" target="#analogie">v. analogie </ref>)];</eg>
-                    </cit>
+                    <xr type="compound"><ref target="#changement_analogique">changement par<oRef>a.</oRef></ref></xr>,
+                    <xr type="compound"><ref target="#formation_analogique">formation <oRef>a.</oRef></ref></xr>,
+                    <re>
+                        <form type="compound">
+                            <orth>rennouvellement <oRef>a.</oRef></orth>
+                        </form>
+                    </re>
+                    (<ref type="see" target="#analogie">v. analogie </ref>)];
                 </sense>
             </entry>
 
