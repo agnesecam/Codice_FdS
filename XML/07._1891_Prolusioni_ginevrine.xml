@@ -3492,7 +3492,7 @@
 
             <entry xml:id="nom">
                 <form>
-                    <orth><oRef></oRef></orth>
+                    <orth>Nom</orth>
                 </form>
                 <sense n="1">
                     [<def>
@@ -3504,7 +3504,7 @@
                             Or à quoi peut-on
                             comparer en réalité la soi-disant succession du français au latin? Imaginons-nous dans une ville une rue
                             très longue; on pourra discuter dans les conseils de l’édilité si on lui donnera dans toute sa longueur un
-                            <oRef><oRef>nom</oRef></oRef> unique; par exemple boulevard National; ou bien si on divisera cette rue en deux parties, boulevard
+                            <oRef>nom</oRef> unique; par exemple boulevard National; ou bien si on divisera cette rue en deux parties, boulevard
                             du Temple et boulevard de l’École, ou bien en trois, boulevard de X, de Y et de Z, ou enfin en dix, quinze
                             fractions portant des <oRef>noms</oRef> différents. L’existence distincte de chacune de ces portions de rue est
                             naturellement une chose purement nominale et fictive, il n’y a donc pas lieu de demander comment le
@@ -4841,17 +4841,23 @@
                 <sense n="1">
                     [<def>
                         in riferimento alle lingue, i cambiamenti che sopravvengono nel corso del tempo; usato in
-                        espressioni complesse: 
-                        <cit type="example">
-                            <quote>
-                                <eg xml:lang="fr">principe de la <oRef>t.</oRef> dans le temps</eg>;
-                            </quote>
-                            <quote>
-                                <eg xml:lang="fr">la continuelle <oRef>t.</oRef> de la langue dans le temps</eg>;
-                            </quote>
-                        </cit>
-                        le trasformazioni linguistiche sono due tipi changement phonétique e changement analogique
-                    </def>];
+                        espressioni complesse:
+                    </def>];                    
+                    <re>
+                        <form type="compound">
+                            <orth> 
+                                principe de la <oRef>t.</oRef> dans le temps;
+                            </orth>
+                        </form>
+                    </re>
+                    <re>
+                        <form type="compound">
+                            <orth> 
+                                la continuelle <oRef>t.</oRef> de la langue dans le temps;
+                            </orth>
+                        </form>
+                    </re>
+                    le trasformazioni linguistiche sono due tipi changement phonétique e changement analogique
                     <cit type="example">
                         <quote xml:lang="fr">
                         Nous
