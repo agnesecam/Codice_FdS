@@ -90,7 +90,7 @@
                         </bibl>
                     </cit>
                     <lbl type="syn">Sin. </lbl><xr type="synonym">contingent<ref target="#contingent"/></xr>
-                    <lbl type="com">Cfr. </lbl><xr type="cf">langue<ref target="#langue"/></xr><!-- xr e ref non re e ref // compare con xr diventa cf -->
+                    <lbl type="cf">Cfr. </lbl><xr type="cf">langue<ref target="#langue"/></xr><!-- xr e ref non re e ref // compare con xr diventa cf -->
                 </sense>
                 <xr type="other_dictionaries">
                     {<listRef>
@@ -127,7 +127,7 @@
                             (<citedRange unit="page">p. 150</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl>  <xr type="cf">accidentel<ref target="#accidentel"/>,</xr>
+                    <lbl type="cf">Cfr.</lbl>  <xr type="cf">accidentel<ref target="#accidentel"/>,</xr>
                     <xr type="cf"> contingent<ref target="#contingent"/></xr>
                 </sense>
             </entry>
@@ -155,7 +155,7 @@
                             (<citedRange unit="page">p. 150</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl> <xr type="cf">accidentel<ref target="#accidentel"/>,</xr>
+                    <lbl type="cf">Cfr.</lbl> <xr type="cf">accidentel<ref target="#accidentel"/>,</xr>
                     <xr type="cf">acte humain<ref target="#acte_humain"/>,</xr>
                     <xr type="cf"> contingent<ref target="#contingent"/></xr>
                 </sense>
@@ -191,7 +191,7 @@
                             (<citedRange unit="page">p. 171</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl> <xr type="cf">caractère dilectal<ref target="#caractère_dialectal"/>,</xr>
+                    <lbl type="cf">Cfr.</lbl> <xr type="cf">caractère dilectal<ref target="#caractère_dialectal"/>,</xr>
                     <xr type="cf">continuité2<ref target="#continuité2"/>,</xr>
                     <xr type="cf"> dialecte<ref target="#dialecte"/>,</xr>
                     <xr type="cf">frontière<ref target="#frontière"/></xr>
@@ -210,7 +210,7 @@
                 </form>
                 <!--<sense> non può essere figlio di def, quindi uso due <sense> distinti, l'attributo n="a"/"b" li identifica-->
                 <sense n="1">
-                    <lbl type="v.">v.</lbl> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/02.%20Area%20terminologica%20B%20linguistica%20Storico-comparativa%20grammatica%20classica.pdf#page=3">area B;</ref>
+                    [<lbl type="v.">v.</lbl> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/02.%20Area%20terminologica%20B%20linguistica%20Storico-comparativa%20grammatica%20classica.pdf#page=3">area B;</ref>
                     <sense n="a">
                         <def>
                             uno dei due procedimenti regolari di trasformazione delle lingue volto alla creazione di nuove segni 
@@ -228,7 +228,7 @@
                     <sense n="b">
                         <def>
                             Usato anche per indicare il risultato di questo procedimento;
-                        </def>
+                        </def>]
                         b. in riferimento al risultato del processo:                         
                         <re>
                             <form type="compound">
@@ -240,8 +240,7 @@
                             <form type="compound">
                                 <orth>perturbation d'<oRef>a.</oRef></orth>
                             </form>
-                        </re>
-                        ]
+                        </re>                        
                     </sense>
                     <cit type="example">
                         <quote xml:lang="fr">
@@ -265,7 +264,7 @@
                         </bibl>
                     </cit>
                     <lbl type="opp">Opp.</lbl><xr type="opposite">changement phonétique;<ref target="#changement_phonétique"/></xr>
-                    <lbl type="com">Cfr.</lbl> <xr type="cf">analogique<ref target="#analogique"/>,</xr>
+                    <lbl type="cf">Cfr.</lbl> <xr type="cf">analogique<ref target="#analogique"/>,</xr>
                     <xr type="cf">création<ref target="#création"/>,</xr>
                     <xr type="cf">transformation<ref target="#transformation"/></xr>
                 </sense>
@@ -428,7 +427,7 @@
                             (<citedRange unit="page">p. 155</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl> <xr type="cf">conventionnel<ref target="#conventionnel"/>;</xr>
+                    <lbl type="cf">Cfr.</lbl> <xr type="cf">conventionnel<ref target="#conventionnel"/>;</xr>
                     usato anche come avverbio <xr type="cf">arbitrairement<ref target="#arbitrairement"/></xr>
                 </sense>
                 <xr type="other_dictionaries">
@@ -505,7 +504,7 @@
                             (<citedRange unit="page">p. 161</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl> <xr type="cf">analogie<ref target="#analogie"/>;</xr>
+                    <lbl type="cf">Cfr.</lbl> <xr type="cf">analogie<ref target="#analogie"/>;</xr>
                 </sense>
                 <xr type="other_dictionaries">
                     {<listRef>
@@ -544,7 +543,7 @@
                             (<citedRange unit="page">p. 170</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl>  <xr type="cf">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/>,</xr>
+                    <lbl type="cf">Cfr.</lbl>  <xr type="cf">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/>,</xr>
                     <xr type="cf">continuité2<ref target="#continuité2"/>,</xr>
                     <xr type="cf">dialecte<ref target="#dialecte"/>,</xr>
                     <xr type="cf">frontière<ref target="#frontière"/></xr>.
@@ -620,7 +619,7 @@
                             </cit>
                             <xr type="duale">duale changement analogique<ref target="#changement_analogique"/>,</xr>
                             <xr type="duale">analogie<ref target="#analogie"/>;</xr>
-                            <lbl type="com">Cfr.</lbl> <xr type="cf">phonétique<ref target="#phonétique"/>,</xr>
+                            <lbl type="cf">Cfr.</lbl> <xr type="cf">phonétique<ref target="#phonétique"/>,</xr>
                             <xr type="cf">physiologique<ref target="#physiologique"/>,</xr>
                             <xr type="cf">physique<ref target="#physique"/>,</xr>
                             <xr type="cf">forme<ref target="#forme"/>,</xr>
@@ -657,8 +656,8 @@
                             </cit>
                             <lbl type="syn">Sin.</lbl><xr type="synonym">analogie;<ref target="#analogie"/>;</xr>
                             duale <xr type="duale">changement phonétique<ref target="#changement_analogique"/>;</xr>
-                            <lbl type="com">Cfr.</lbl> <xr type="cf">création<ref target="#création"/>,</xr>
-                            <lbl type="com">Cfr.</lbl> <xr type="cf">transformation<ref target="#transformation"/></xr>.
+                            <lbl type="cf">Cfr.</lbl> <xr type="cf">création<ref target="#création"/>,</xr>
+                            <lbl type="cf">Cfr.</lbl> <xr type="cf">transformation<ref target="#transformation"/></xr>.
                         </sense>
                     </entry>
                 </sense>
@@ -702,7 +701,7 @@
                         </bibl>
                     </cit>
                     Ant. <xr type="antonym">inconscience<ref target="#inconscience"/>;</xr>
-                    <lbl type="com">Cfr.</lbl> <xr type="cf">intelligence<ref target="#intelligence"/>;</xr>
+                    <lbl type="cf">Cfr.</lbl> <xr type="cf">intelligence<ref target="#intelligence"/>;</xr>
                     <xr type="cf">volonté<ref target="#volonté"/>,</xr>
                     Usato anche come aggettivo conscient
                 </sense>
@@ -745,7 +744,7 @@
                         </bibl>
                     </cit>
                     Ant. <xr type="antonym">accidentel<ref target="#accidentel"/>;</xr>
-                    <lbl type="com">Cfr.</lbl> <xr type="cf">langue<ref target="#langue"/>;</xr>
+                    <lbl type="cf">Cfr.</lbl> <xr type="cf">langue<ref target="#langue"/>;</xr>
                 </sense>
             </entry>
 
@@ -792,7 +791,7 @@
                         <lbl type="alm-syn">quasi-sin.</lbl> <xr type="almost-synonym">tradition de la langue<ref target="#tradition_de_la_langue"/>;</xr>
                         duale <xr type="duale">mutabilité<ref target="#tradition_de_la_langue"/>,</xr>
                         <xr type="duale">transformation<ref target="#transformation"/>;</xr>
-                        <lbl type="com">Cfr.</lbl> <xr type="cf">état de langue<ref target="#état_de_langue"/>,</xr>
+                        <lbl type="cf">Cfr.</lbl> <xr type="cf">état de langue<ref target="#état_de_langue"/>,</xr>
                         <xr type="cf">succession<ref target="#succession"/>,</xr>
                         <xr type="cf">transition<ref target="#transition"/>,</xr>
                         <xr type="cf">via de langue<ref target="#via_de_langue"/></xr>.
@@ -820,7 +819,7 @@
                             </bibl>
                         </cit>
                         Ant. <xr type="antonym">divergence<ref target="#divergence"/>;</xr>
-                        <lbl type="com">Cfr.</lbl> <xr type="cf">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/>;</xr>
+                        <lbl type="cf">Cfr.</lbl> <xr type="cf">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/>;</xr>
                         <xr type="cf">caractère dialectal<ref target="#caractère_dialectal"/>;</xr>
                         <xr type="cf">dialecte<ref target="#dialecte"/>;</xr>
                         <xr type="cf">frontière<ref target="#frontière"/></xr>.
@@ -893,7 +892,7 @@
                             (<citedRange unit="page">p. 165</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl> <xr type="cf">arbitraire<ref target="#arbitraire"/>;</xr>
+                    <lbl type="cf">Cfr.</lbl> <xr type="cf">arbitraire<ref target="#arbitraire"/>;</xr>
                     <xr type="cf">volonté<ref target="#volonté"/>,</xr>
                     Usato anche come aggettivo conscient
                 </sense>
@@ -972,7 +971,7 @@
                     </cit>
                     Syn. <xr type="synonym">innovation<ref target="#innovation"/>;</xr>
                     quasi- sin. <xr type="almost-synonym">transformation;</xr>
-                    <lbl type="com">Cfr.</lbl> <xr type="cf">analogie<ref target="#analogie"/>,</xr>
+                    <lbl type="cf">Cfr.</lbl> <xr type="cf">analogie<ref target="#analogie"/>,</xr>
                     <xr type="cf">changement analogique<ref target="#changement analogique"/></xr>
                 </sense>
                 <xr type="other_dictionaries">
@@ -1015,7 +1014,7 @@
                             (<citedRange unit="page">p. 171</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl> <xr type="cf">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/>,</xr>
+                    <lbl type="cf">Cfr.</lbl> <xr type="cf">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/>,</xr>
                     <xr type="cf">caractère dialectal<ref target="#caractère_dialectal"/>,</xr>
                     <xr type="cf">continuité2<ref target="#continuité2"/>,</xr>
                     <xr type="cf">frontière<ref target="#frontière"/></xr>.
@@ -1124,7 +1123,7 @@
                             (<citedRange unit="page">p. 169</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl> <xr type="cf">différence<ref target="#différence"/>,</xr>
+                    <lbl type="cf">Cfr.</lbl> <xr type="cf">différence<ref target="#différence"/>,</xr>
                     <xr type="cf">différencier<ref target="#différencier"/></xr>.
                 </sense>
                 <xr type="other_dictionaries">
@@ -1261,7 +1260,7 @@
                             (<citedRange unit="page">p. 166</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl> <xr type="cf">divergence<ref target="#divergence"/>,</xr>
+                    <lbl type="cf">Cfr.</lbl> <xr type="cf">divergence<ref target="#divergence"/>,</xr>
                     <xr type="cf">diversifier<ref target="#diversifier"/>,</xr>
                     <xr type="cf">espace<ref target="#espace"/></xr>.
                 </sense>
@@ -1292,7 +1291,7 @@
                             (<citedRange unit="page">p. 151</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl> <xr type="cf">distance géographique<ref target="#distance_géographique"/>,</xr>
+                    <lbl type="cf">Cfr.</lbl> <xr type="cf">distance géographique<ref target="#distance_géographique"/>,</xr>
                     <xr type="cf">diversifier<ref target="#diversifier"/>,</xr>
                     <xr type="cf">espace<ref target="#espace"/></xr>.
                 </sense>
@@ -1326,7 +1325,7 @@
                             (<citedRange unit="page">p. 151</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl> <xr type="cf">distance géographique<ref target="#distance_géographique"/>,</xr>
+                    <lbl type="cf">Cfr.</lbl> <xr type="cf">distance géographique<ref target="#distance_géographique"/>,</xr>
                     <xr type="cf">divergence<ref target="#divergence"/>,</xr>
                     <xr type="cf">espace<ref target="#espace"/></xr>.
                 </sense>
@@ -1365,7 +1364,7 @@
                             (<citedRange unit="page">p. 163</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl> <xr type="cf">distance chronologique<ref target="#distance_chronologique"/></xr>
+                    <lbl type="cf">Cfr.</lbl> <xr type="cf">distance chronologique<ref target="#distance_chronologique"/></xr>
                 </sense>
             </entry>
 
@@ -1606,7 +1605,7 @@
                             (<citedRange unit="page">p. 165</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl> <xr type="cf">continuité<ref target="#continuité"/>,</xr>
+                    <lbl type="cf">Cfr.</lbl> <xr type="cf">continuité<ref target="#continuité"/>,</xr>
                     <xr type="cf">succession<ref target="#succession"/>,</xr>
                     <xr type="cf">transition<ref target="#transition"/>,</xr> 
                     <xr type="cf">vie de la langue<ref target="#vie de la langu"/></xr>.
@@ -1695,7 +1694,7 @@
                         </bibl>
                     </cit>
                     <lbl type="opp">Opp.</lbl><xr type="opposite"> loi1<ref target="#loi1"/>;</xr>
-                    <lbl type="com">Cfr.</lbl> <xr type="cf">accidentel<ref target="#accidentel"/>,</xr>
+                    <lbl type="cf">Cfr.</lbl> <xr type="cf">accidentel<ref target="#accidentel"/>,</xr>
                     <xr type="cf">acte humaine<ref target="#acte_humaine"/>,</xr> 
                     <xr type="cf">contingent<ref target="#contingent"/></xr>.
                 </sense>
@@ -1727,7 +1726,7 @@
                             (<citedRange unit="page">p. 148</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr.</lbl> <xr type="cf">fait<ref target="#fait"/>,</xr>
+                    <lbl type="cf">Cfr.</lbl> <xr type="cf">fait<ref target="#fait"/>,</xr>
                     <xr type="cf">linguistique<ref target="#linguistique"/></xr>
                     Occorre anche come <term xml:id="fait_linguistique">fait linguistique</term><!--Come lo rendo?-->
                 </sense>
@@ -2041,7 +2040,7 @@
                             (<citedRange unit="page">p. 147</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr. </lbl> <xr type="cf">général<ref target="#général"/>,</xr>
+                    <lbl type="cf">Cfr. </lbl> <xr type="cf">général<ref target="#général"/>,</xr>
                 </sense>
                 <xr type="other_dictionaries">
                     {<listRef>
@@ -2364,7 +2363,7 @@
                             (<citedRange unit="page">p. 154</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr. </lbl><xr type="cf">continuité<ref target="#continuité"/>;</xr>
+                    <lbl type="cf">Cfr. </lbl><xr type="cf">continuité<ref target="#continuité"/>;</xr>
                 </sense>
             </entry>
 
@@ -2393,7 +2392,7 @@
                         </bibl>
                     </cit>
                     <lbl type="ant">Ant. </lbl><xr type="antonym">Con science<ref target="#con_science"/>;</xr>
-                    <lbl type="com">Cfr</lbl><xr type="cf">intelligence<ref target="#intelligence"/>;</xr>
+                    <lbl type="cf">Cfr</lbl><xr type="cf">intelligence<ref target="#intelligence"/>;</xr>
                     <xr type="cf">volonté<ref target="#volonté"/>;</xr>
                     usato anche come aggettivo <term xml:id="incoscient"/>;
                 </sense>
@@ -2460,7 +2459,7 @@
                         </bibl>
                     </cit>
                     <lbl type="syn">Sin. </lbl><xr type="synonym">création<ref target="#création"/>;</xr>
-                    <lbl type="com">Cfr. </lbl><xr type="cf">analogie<ref target="#analogie"/></xr>
+                    <lbl type="cf">Cfr. </lbl><xr type="cf">analogie<ref target="#analogie"/></xr>
                 </sense>
             </entry>
             
@@ -2489,7 +2488,7 @@
                             (<citedRange unit="page">p. 150</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr. </lbl><xr type="cf">conscience<ref target="#conscience"/>;</xr>
+                    <lbl type="cf">Cfr. </lbl><xr type="cf">conscience<ref target="#conscience"/>;</xr>
                     <lbl type="syn">Sin. </lbl><xr type="synonym">volonté<ref target="#volonté"/>;</xr>                    
                 </sense>
                 <xr type="other_dictionaries">
@@ -3099,7 +3098,7 @@
                                 (<citedRange unit="page">p. 151</citedRange>)
                             </bibl>
                         </cit>
-                        <lbl type="com">Cfr. </lbl><xr type="cf">fait<ref target="#fait"/></xr>
+                        <lbl type="cf">Cfr. </lbl><xr type="cf">fait<ref target="#fait"/></xr>
                     </sense>
                 </sense>     
                 <xr type="other_dictionaries">
@@ -3294,7 +3293,7 @@
                             (<citedRange unit="page">p. 154</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr. </lbl><xr type="cf">ancien<ref target="ancien"/>,</xr>
+                    <lbl type="cf">Cfr. </lbl><xr type="cf">ancien<ref target="ancien"/>,</xr>
                     <xr type="cf">naissance de la langue<ref target="naissance de la langue"/>,</xr>
                     <xr type="cf">organique<ref target="organique"/>,</xr>
                     <xr type="cf">vieux<ref target="vieux"/>,</xr>
@@ -3372,7 +3371,7 @@
                             (<citedRange unit="page">p. 157</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr. </lbl><xr type="cf">continuité<ref target="continuité"/>,</xr>
+                    <lbl type="cf">Cfr. </lbl><xr type="cf">continuité<ref target="continuité"/>,</xr>
                     <xr type="cf">mutabilité<ref target="mutabilité"/>,</xr>
                     <xr type="cf">transformation<ref target="transformation"/></xr>.
                 </sense>  
@@ -3452,7 +3451,7 @@
                             (<citedRange unit="page">p. 152</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr. </lbl><xr type="cf">ancien<ref target="ancien"/>;</xr>
+                    <lbl type="cf">Cfr. </lbl><xr type="cf">ancien<ref target="ancien"/>;</xr>
                     <xr type="cf">mort<ref target="mort"/>,</xr>
                     <xr type="cf">organique<ref target="organique"/>,</xr>
                     <xr type="cf">continuité<ref target="continuité"/>,</xr>
@@ -3625,7 +3624,7 @@
                             (<citedRange unit="page" from="154">p. 154</citedRange>)
                         </bibl>
                     </cit>          
-                    <lbl type="com">Cfr. </lbl><xr type="cf">ancien<ref target="#ancien"/>,</xr>
+                    <lbl type="cf">Cfr. </lbl><xr type="cf">ancien<ref target="#ancien"/>,</xr>
                     <xr type="cf">mort<ref target="#mort"/>,</xr>
                     <xr type="cf">naissance de langue<ref target="#naissance_de_langue"/>,</xr>
                     <xr type="cf">vieux<ref target="#vieux"/>,</xr>
@@ -3671,7 +3670,7 @@
                                 (<citedRange unit="page">p. 159</citedRange>)
                             </bibl>
                         </cit>
-                        <lbl type="com">cfr. </lbl><xr type="cf">naissance du langue<ref target="#naissance_du_langue"/>,</xr>
+                        <lbl type="cf">cfr. </lbl><xr type="cf">naissance du langue<ref target="#naissance_du_langue"/>,</xr>
                         <xr type="cf">vie de la langue<ref target="#vie_de_la_langue"/></xr>
                     </sense>
                     <sense n="b" xml:id="origine_du_langage2">2. 
@@ -3733,7 +3732,7 @@
                             (<citedRange unit="page">p. 147</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr. </lbl><xr type="cf">langage1<ref target="#langage1"/></xr>
+                    <lbl type="cf">Cfr. </lbl><xr type="cf">langage1<ref target="#langage1"/></xr>
                 </sense>     
                 <xr type="other_dictionaries">
                     {<listRef>
@@ -3925,7 +3924,7 @@
                             (<citedRange unit="page">p. 157</citedRange>)
                         </bibl>
                     </cit>            
-                    <lbl type="com">Cfr. </lbl><xr type="cf"> photographe<ref target="#photographe"/></xr>
+                    <lbl type="cf">Cfr. </lbl><xr type="cf"> photographe<ref target="#photographe"/></xr>
                     <xr type="cf"> photographie<ref target="#photographie"/></xr>
                 </sense>     
             </entry>
@@ -3960,7 +3959,7 @@
                             (<citedRange unit="page">p. 156</citedRange>)
                         </bibl>
                     </cit>                                
-                    <lbl type="com">Cfr. </lbl><xr type="cf">photographier<ref target="#photographier"/></xr>
+                    <lbl type="cf">Cfr. </lbl><xr type="cf">photographier<ref target="#photographier"/></xr>
                     <xr type="cf"> photographie<ref target="#photographie"/></xr>
                 </sense>     
             </entry>
@@ -3989,7 +3988,7 @@
                             (<citedRange unit="page" from="156" to="157">p. 156-157</citedRange>)
                         </bibl>
                     </cit>                                
-                    <lbl type="com">Cfr. </lbl><xr type="cf">photographier<ref target="#photographier"/>,</xr>
+                    <lbl type="cf">Cfr. </lbl><xr type="cf">photographier<ref target="#photographier"/>,</xr>
                     <xr type="cf"> photographie<ref target="#photographie"/>;</xr>
                     Attestato anche come <term xml:id="portrait_photografique">portrait photografique</term>;
                 </sense>     
@@ -4848,7 +4847,7 @@
                         </bibl>
                     </cit>
                     <lbl type="opp">Opp. </lbl><xr type="opposite">immobilité<ref target="#immobilité" />;</xr>
-                    <lbl type="com">Cfr.</lbl><xr type="cf">continuité<ref target="#continuité"/>,</xr>
+                    <lbl type="cf">Cfr.</lbl><xr type="cf">continuité<ref target="#continuité"/>,</xr>
                 </sense>     
                 <xr type="cf">mouvement<ref target="#mouvement"/>,</xr>
                 <xr type="cf">mutabilité<ref target="#mutabilité"/>.</xr>
@@ -4890,7 +4889,7 @@
                     </cit>
                     <lbl type="alm-syn">Quasi-sin. di</lbl><xr type="almost-synonym">création<ref target="#création"/>,</xr>
                     <xr type="almost-synonym">changement analogique<ref target="#changement_analogique"/>;</xr>
-                    <lbl type="com">Cfr. </lbl><xr type="cf">analogie<ref target="#analogie"/></xr>
+                    <lbl type="cf">Cfr. </lbl><xr type="cf">analogie<ref target="#analogie"/></xr>
                 </sense>     
             </entry>
 
@@ -4921,7 +4920,7 @@
                     </cit>
                     <lbl type="opp">Opp.</lbl><xr type="opposite">saut<ref target="#saut"/>;</xr>
                     <lbl type="alm-syn">quasi-sin. di </lbl><xr type="almost-synonym">succession<ref target="#succession"/>;</xr>
-                    <lbl type="com">Cfr. </lbl><xr type="cf">continuité<ref target="#continuité"/>,</xr>
+                    <lbl type="cf">Cfr. </lbl><xr type="cf">continuité<ref target="#continuité"/>,</xr>
                     <xr type="cf">état de langue<ref target="#état_de_langue"/>,</xr>
                     <xr type="cf">vie de la langue<ref target="#vie_de_la_langue"/></xr>.
                 </sense>   
@@ -5027,7 +5026,7 @@
                             (<citedRange unit="page">p. 149</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="com">Cfr. </lbl><xr type="cf">ancien<ref target="#ancien"/>,</xr>
+                    <lbl type="cf">Cfr. </lbl><xr type="cf">ancien<ref target="#ancien"/>,</xr>
                     <xr type="cf">continuité<ref target="#continuité"/>,</xr>
                     <xr type="cf">état de langue<ref target="#état_de_langue"/>,</xr>
                     <xr type="cf">naissance de la langue<ref target="#naissance_de_la_langue"/>,</xr>
@@ -5084,7 +5083,7 @@
                         </bibl>
                     </cit>
                     <lbl type="syn">Sin. </lbl><xr type="synonym">ancien<ref target="#ancien"/>;</xr>
-                    <lbl type="com">Cfr. </lbl><xr type="cf">continuité<ref target="#continuité"/>,</xr>
+                    <lbl type="cf">Cfr. </lbl><xr type="cf">continuité<ref target="#continuité"/>,</xr>
                     <xr type="cf">état de langue<ref target="#état_de_langue"/>,</xr>
                     <xr type="cf">naissance de la langue<ref target="#naissance_de_la_langue"/>,</xr>
                     <xr type="cf">mort<ref target="#mort"/>,</xr>
