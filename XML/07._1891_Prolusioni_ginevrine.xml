@@ -210,14 +210,13 @@
                 </form>
                 <!--<sense> non può essere figlio di def, quindi uso due <sense> distinti, l'attributo n="a"/"b" li identifica-->
                 <sense n="1">
-                    [<lbl type="v.">v.</lbl> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/02.%20Area%20terminologica%20B%20linguistica%20Storico-comparativa%20grammatica%20classica.pdf#page=3">area B;</ref>
+                    [<lbl type="v.">v.</lbl> <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/02.%20Area%20terminologica%20B%20linguistica%20Storico-comparativa%20grammatica%20classica.pdf#page=3">area B;</ref>                    
+                    <def>
+                        uno dei due procedimenti regolari di trasformazione delle lingue volto alla creazione di nuove segni 
+                        linguistici sulla base di elementi già esistenti; si tratta di un fenomeno di trasformazione linguistica di ordine
+                        mentale che richiede un certo grado di azione intelligente. Usato anche per indicare il risultato di questo procedimento;
+                    </def>]                    
                     <sense n="a">
-                        <def>
-                            uno dei due procedimenti regolari di trasformazione delle lingue volto alla creazione di nuove segni 
-                            linguistici sulla base di elementi già esistenti; si tratta di un fenomeno di trasformazione linguistica di ordine
-                            mentale che richiede un certo grado di azione intelligente.
-                        </def>
-                        <!-- vedi https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-usg.html - se polir. <xr> e riferimento alla polir. sennò <re> con type="compound" -->
                         a. in riferimento al procedimento:
                         <xr type="compound"><ref target="#changement_analogique">changement par <oRef>a.</oRef></ref></xr>,
                         <xr type="compound"><ref target="#operation_d_analogie">opération d’<oRef>a.</oRef></ref></xr>,
@@ -226,9 +225,6 @@
                         <!--Ho spostato la riga con l'<xr> fuori la def perché <xr> non può essere figlio di <def>-->                        
                     </sense>
                     <sense n="b">
-                        <def>
-                            Usato anche per indicare il risultato di questo procedimento;
-                        </def>]
                         b. in riferimento al risultato del processo:                         
                         <re>
                             <form type="compound">
@@ -484,10 +480,25 @@
                 </form>
                 <sense n="1">
                     [<def>
-                        usato in espressioni complesse: <eg xml:lang="fr"><oRef>a.</oRef> de formes</eg> e <eg xml:lang="fr"><oRef>a.</oRef> des idées</eg>; capacità mentale implicata nel
-                        procedimento analogico. In particolare concerne la capacità di associare forme in base alle idee che
-                        rappresentano;]
+                        usato in espressioni complesse: 
                     </def>
+                    <re>
+                        <form type="compound">
+                            <orth><oRef>a.</oRef> de formes</orth>
+                        </form>
+                    </re> 
+                    e 
+                    <re>
+                        <form type="compound">
+                            <orth><oRef>a.</oRef> des idées</orth>
+                        </form>
+                    </re>;
+                    <def>
+                        capacità mentale implicata nel
+                        procedimento analogico. In particolare concerne la capacità di associare forme in base alle idee che
+                        rappresentano;
+                    </def>]
+                    <!-- <re> non può essere figlio di <def>, quindi ho diviso la definizione dove inserisco le "polirematiche"-->
                     <cit type="example">
                         <quote xml:lang="fr">
                             C’est sur une analogie que s’effectue le raisonnement qui est à la base du phénomène.
@@ -1503,8 +1514,13 @@
                     <orth>Équilibre</orth>
                 </form>
                 <sense n="1">
+                    (<re>
+                        <form> 
+                            <orth>état d’<oRef>é.</oRef></orth>
+                        </form> 
+                    </re>
                     [<def>
-                        (<eg xml:lang="fr">état d’<oRef>é.</oRef></eg> criticato in riferimento alla lingua e ai suoi cambiamenti storici; per il termine
+                        criticato in riferimento alla lingua e ai suoi cambiamenti storici; per il termine
                         <ref type="see" target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/01.%20Area%20terminologica%20A%20altri%20saperi%20specialistici.pdf#page=11">équilibre</ref> v. <ref type="see" target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/01.%20Area%20terminologica%20A%20altri%20saperi%20specialistici.pdf#page=équilibre">area A</ref>
                     </def>];
                     <cit type="example">
@@ -1632,9 +1648,20 @@
                 </form>
                 <sense n="1">
                     [<def>
-                        potenzialità psico-fisiche di un essere vivente, in particolare quelle umane; usato anche in
-                        espressioni complesse: <oRef>f.</oRef> natives, <oRef>f.</oRef> de l’homme
+                        potenzialità psico-fisiche di un essere vivente, in particolare quelle umane; 
                     </def>];
+                    usato anche in espressioni complesse: 
+                    <re>
+                        <form type="compound">
+                            <orth><oRef>f.</oRef> natives,</orth>
+                        </form>
+                    </re>   
+                    <re>
+                        <form type="compound">
+                            <orth><oRef>f.</oRef> de l’homme</orth>
+                        </form>
+                    </re>
+                    <!-- Ho dovuto anticipare la fine di <def> perché <re> non può essere figlio di <def> -->
                     <cit type="example">
                         <quote xml:lang="fr">
                             Ce qui est clair, comme on l’a répété mille fois, c’est
