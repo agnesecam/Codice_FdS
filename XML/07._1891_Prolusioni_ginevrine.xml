@@ -2690,25 +2690,24 @@
                         [<def>
                             usato in espressioni complesse per indicare usi settoriali                        
                         </def>];
-                    </sense>    
-                    <cit type="example">
-                        <quote><eg xml:lang="fr">histoire de la <oRef>langue</oRef></eg></quote>
-                    </cit>,
-                    <cit type="example">
-                        <quote><eg xml:lang="fr"><oRef>langue</oRef> de trafic ou d’intercourse</eg></quote>
-                    </cit>,
-                    <cit type="example">
-                        <quote><eg xml:lang="fr"><oRef>langue</oRef> écrite</eg></quote>
-                    </cit>,
-                    <cit type="example">
-                        <quote><eg xml:lang="fr"><oRef>langue</oRef> dans l’histoire</eg></quote>
-                    </cit>,
-                    <cit type="example">
-                        <quote><eg xml:lang="fr"><oRef>langue</oRef> littéraire</eg></quote> 
-                    </cit>,
-                    <cit type="example">
-                        <quote><eg xml:lang="fr"><oRef>langue</oRef> officielle administrative</eg></quote>
-                    </cit>.
+                        <xr type="compound"><ref target="#histoire_de_la_langue">histoire de la <oRef>langue</oRef></ref></xr>,
+                        <re>
+                            <form type="compound">
+                                <orth><oRef>langue</oRef> de trafic ou d’intercourse</orth>,
+                            </form>
+                        </re>                 
+                        <xr type="compound"><ref target="#langue_écrite"><oRef>langue</oRef> écrite</ref></xr>,
+                        <re>
+                            <form type="compound">
+                                <orth><oRef>langue</oRef> litteraire</orth>,
+                            </form>
+                        </re> 
+                        <re>
+                            <form type="compound">
+                                <orth><oRef>langue</oRef> officielle administrative</orth>.
+                            </form>
+                        </re>                                                                                        
+                    </sense>
                 </sense> 
                 <xr type="other_dictionaries">
                     <listRef>
