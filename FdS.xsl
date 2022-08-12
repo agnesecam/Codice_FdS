@@ -56,10 +56,11 @@
                         <xsl:value-of select="concat('Pagine ', substring-before(substring-after(document-uri(),'1_'), '.xml'))"/>
                     </h3>
                     <!-- SCAN -->
-                    <div id="pulsanti_immagini_lettera" >                       
+                    <!--Elimino la possibilità di visualizzare soltanto il fronte o soltanto il retro-->      
+                    <!--<div id="pulsanti_immagini_lettera" >                       
                         <input id="icona_1" type="button" class="icone_FR" alt="Clicca per visualizzare la prima facciata del manoscritto" src="immagini/icona1.png" onclick="gestoreSelezionaScan1()" value="Fronte"/>
                         <input id="icona_2" type="button" class="icone_FR" alt="Clicca per visualizzare la seconda facciata del manoscritto" src="immagini/icona2.png" onclick="gestoreSelezionaScan2()" value="Retro"/>          
-                    </div>
+                    </div>-->
                     <div id="box_img">
                         <xsl:apply-templates select="//tei:facsimile"/>
                     </div>
@@ -68,6 +69,7 @@
                             <xsl:apply-templates select="//tei:group[@xml:id='fr_Prolusioni']/tei:text[1]/tei:body/tei:ab[1]"/>
                             <xsl:apply-templates select="//tei:body/tei:div[1]"/>
                         </div>
+                        <br/>
                         <div id="box_testo_retro">
                             <xsl:apply-templates select="//tei:body/tei:div[2]"/>
                         </div>
