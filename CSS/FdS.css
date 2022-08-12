@@ -54,18 +54,25 @@ footer div {
 #box_img{
     /*max-height: 900px;*/
     padding-top: 30px;
-    
-
+    display: inline-block;
 }
 
 #box_testo{
-    
+    display: inline-block;
+    float: right;
+    margin-top: 40px;
+    margin-right: 100px;
+}
+
+.lineNumber{
+    padding: 0.5em;
+  margin-right: 0.5em;
 }
 
 /****** USATE IN JAVASCRIPT ******/
 .immagini_scan {
-    display: inline-block;
-    max-height: 600px;
+    display: block;
+    max-width: 550px;
 }
 .nascondi {
     display: none;

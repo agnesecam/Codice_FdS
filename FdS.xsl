@@ -64,8 +64,13 @@
                         <xsl:apply-templates select="//tei:facsimile"/>
                     </div>
                     <div id="box_testo">
-                        <xsl:apply-templates select="//tei:group[@xml:id='fr_Prolusioni']/tei:text[1]/tei:body/tei:ab[1]"/>
-                        <xsl:apply-templates select="//tei:body/tei:div[1]"/>
+                        <div id="box_testo_fronte">
+                            <xsl:apply-templates select="//tei:group[@xml:id='fr_Prolusioni']/tei:text[1]/tei:body/tei:ab[1]"/>
+                            <xsl:apply-templates select="//tei:body/tei:div[1]"/>
+                        </div>
+                        <div id="box_testo_retro">
+                            <xsl:apply-templates select="//tei:body/tei:div[2]"/>
+                        </div>
                     </div>                    
                 </div>
             </div>
@@ -174,5 +179,17 @@
             </xsl:element>
         </xsl:for-each>
     </xsl:template>
+
+    <xsl:template match="tei:lb">
+        <br/>
+        <xsl:element name="span">
+            <xsl:attribute name="class">lineNumber</xsl:attribute>
+            <xsl:attribute name="id">
+            <xsl:value-of select="concat('line', substring(@xml:id, 6, 1), '_', @n)" />
+            </xsl:attribute>
+            <xsl:value-of select="@n" />
+        </xsl:element>
+    </xsl:template>
+
 
 </xsl:stylesheet>
