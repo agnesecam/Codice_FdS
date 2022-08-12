@@ -200,5 +200,27 @@
         <span class="gap">?</span>
     </xsl:template>
 
+    <!--DEL-->
+    <xsl:template match="tei:del">
+        <del><xsl:apply-templates /></del>
+    </xsl:template>
+
+    <!--ABBR-->
+    <xsl:template match="tei:abbr">
+        <abbr><xsl:value-of select="current()" /></abbr>
+    </xsl:template>
+
+    <!--EXPAN-->
+    <xsl:template match="tei:expan">
+        <xsl:element name="span">
+            <xsl:attribute name="class">expan</xsl:attribute>
+            <xsl:value-of select="current()" />
+        </xsl:element>
+    </xsl:template>
+
+    <!--ADD-->
+    <xsl:template match="tei:add">
+        <ins><xsl:apply-templates /></ins>
+    </xsl:template>
 
 </xsl:stylesheet>
