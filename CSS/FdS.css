@@ -52,27 +52,27 @@ footer div {
 }
 
 #box_img{
-    /*max-height: 900px;*/
-    padding-top: 30px;
     display: inline-block;
 }
 
-#box_testo{
+#box_testo_fr{
     display: inline-block;
     float: right;
-    margin-top: 40px;
     margin-right: 100px;
+    font-size: 90%;
 }
 
 .lineNumber{
     padding: 0.5em;
-  margin-right: 0.5em;
+    margin-right: 0.5em;
 }
+
 
 /****** USATE IN JAVASCRIPT ******/
 .immagini_scan {
     display: block;
     max-width: 550px;
+    padding: 22px;
 }
 .nascondi {
     display: none;

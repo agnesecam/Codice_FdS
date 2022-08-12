@@ -51,10 +51,10 @@
 
             <div id="corpo">
                 <div id="div_immagine_testo">
-                    <h3 id="titolo_div_immagine">
+                    <h2 id="titolo_div_immagine">
                         <!--OUTPUT: "Pagine 1-2" "Pagine 20-21" "Pagine 3-4" ovvero pagine codificate nel file contenente la pagina selezionata-->
                         <xsl:value-of select="concat('Pagine ', substring-before(substring-after(document-uri(),'1_'), '.xml'))"/>
-                    </h3>
+                    </h2>
                     <!-- SCAN -->
                     <!--Elimino la possibilità di visualizzare soltanto il fronte o soltanto il retro-->      
                     <!--<div id="pulsanti_immagini_lettera" >                       
@@ -62,9 +62,11 @@
                         <input id="icona_2" type="button" class="icone_FR" alt="Clicca per visualizzare la seconda facciata del manoscritto" src="immagini/icona2.png" onclick="gestoreSelezionaScan2()" value="Retro"/>          
                     </div>-->
                     <div id="box_img">
+                        <h3>Manoscritto</h3>
                         <xsl:apply-templates select="//tei:facsimile"/>
                     </div>
-                    <div id="box_testo">
+                    <div id="box_testo_fr">
+                        <h3>Trascrizione</h3>
                         <div id="box_testo_fronte">
                             <xsl:apply-templates select="//tei:group[@xml:id='fr_Prolusioni']/tei:text[1]/tei:body/tei:ab[1]"/>
                             <xsl:apply-templates select="//tei:body/tei:div[1]"/>
@@ -191,6 +193,11 @@
             </xsl:attribute>
             <xsl:value-of select="@n" />
         </xsl:element>
+    </xsl:template>
+
+    <!--GAP ?-->
+    <xsl:template match="tei:gap">
+        <span class="gap">?</span>
     </xsl:template>
 
 
