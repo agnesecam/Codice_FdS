@@ -387,16 +387,16 @@
                                 <lb xml:id="lb4_p1" n="4" facs="#facs_p1_lb4"/>
                                 <del change="#CHG-3" rend="overstrike" facs="#facs_del1-p1r4"> <gap atLeast="1" atMost="2" unit="words" reason="illegible"/></del> sdans <orgName ref="#/lists/TEI-ListBibl.xml#UniGeneve">notre Université <supplied resp="lists/TEI-ListPerson.xml#AC"> de Genève</supplied></orgName><ptr target="#p1_note1"/>, <add change="#CHG-3" place="above" facs="#facs_si-javais-p1r4">si j’avais </add><del change="#CHG-3" rend="overstrike"><gap atLeast="7" atMost="8" unit="words" reason="illegible"/></del>
                                 <lb xml:id="lb5_p1" n="5" facs="#facs_p1_lb5"/>
-                                <add change="#CHG-4" place="left margin" facs="#facs_aujourdhui-p1r5">aujourd’hui</add><add change="#CHG-3" place="above" facs="#facs_lamissionou-p1r5">la mission ou le</add> privilège <del change="#CHG-3" rend="overstrike" facs="#facs_del1-p1r5">de vous</del>
+                                <add change="#CHG-4" place="left margin" facs="#facs_aujourdhui-p1r5">aujourd’hui </add><add change="#CHG-3" place="above" facs="#facs_lamissionou-p1r5">la mission ou le</add> privilège <del change="#CHG-3" rend="overstrike" facs="#facs_del1-p1r5">de vous</del>
                                 <lb xml:id="lb6_p1" n="6" facs="#facs_p1_lb6"/>
-                                <add change="#CHG-3" place="left margin" facs="#facs_devous-p1r6">de vous</add><add change="#CHG-3" place="above" facs="#facs_introd.-p1r6">introduire dans l’édifice</add> 
+                                <add change="#CHG-3" place="left margin" facs="#facs_devous-p1r6">de vous </add><add change="#CHG-3" place="above" facs="#facs_introd.-p1r6">introduire dans l’édifice</add> 
                                 <gap reason="irrilevant" extent="11 lines" facs="#facs_gapcentrale-p1"/>
                                 <!--Margine sx--> 
                                 <add change="#CHG-4" place="left margin" facs="#facs_p1_leftblock1">
                                     <lb xml:id="lb7_p1" n="7" facs="#facs_p1_lb7"/>
                                     que la <term subtype="linguistics-term" ref="#07._1891_Prolusioni_ginevrine.xml#linguistique-N" facs="#facs_scdulang-p1r7"><choice><abbr>sc.</abbr> <expan>sc<ex>ience</ex></expan></choice> du 
                                     <lb xml:id="lb8_p1" n="8" facs="#facs_p1_lb8"/>
-                                    <choice><abbr>l<am>.</am>age</abbr><expan>l<ex>ang</ex>age</expan></choice></term> est <choice facs="#facs_occ-p1r8"><abbr>occ.</abbr> <expan>occ<ex>upée</ex></expan></choice> 
+                                    <choice><abbr>l<am>.</am>age</abbr> <expan>l<ex>ang</ex>age</expan></choice></term> est <choice facs="#facs_occ-p1r8"><abbr>occ.</abbr> <expan>occ<ex>upée</ex></expan></choice> 
                                     <lb xml:id="lb9_p1" n="9" facs="#facs_p1_lb9"/> 
                                     à <choice facs="#facs_constr-p1r9"><abbr>constr.</abbr> <expan>constr<ex>uire</ex></expan></choice> depuis 
                                     <lb xml:id="lb10_p1" n="10" facs="#facs_p1_lb10"/>
@@ -406,7 +406,7 @@
                                     <lb xml:id="lb12_p1" n="12" facs="#facs_p1_lb12"/>                                    
                                     décrire 
                                     <lb xml:id="lb13_p1" n="13" facs="#facs_p1_lb13"/>
-                                    <choice facs="#facs_ds-p1r13"><abbr>ds</abbr><expan>dans</expan></choice> ses grandes 
+                                    <choice facs="#facs_ds-p1r13"><abbr>ds</abbr> <expan>dans</expan></choice> ses grandes 
                                     <lb xml:id="lb14_p1" n="14" facs="#facs_p1_lb14"/>
                                     lignes l’état présent 
                                     <lb xml:id="lb15_p1" n="15" facs="#facs_p1_lb15"/>

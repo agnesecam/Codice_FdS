@@ -218,9 +218,14 @@
         </xsl:element>
     </xsl:template>
 
-    <!--ADD-->
-    <xsl:template match="tei:add">
-        <ins><xsl:apply-templates /></ins>
+    <!--ADD place=above-->
+    <xsl:template match="tei:add[@place='above']">
+        <sup><xsl:apply-templates /></sup>
+    </xsl:template>
+
+    <!--ADD place=below-->
+    <xsl:template match="tei:add[@place='above']">
+        <sup><xsl:apply-templates /></sup>
     </xsl:template>
 
 </xsl:stylesheet>

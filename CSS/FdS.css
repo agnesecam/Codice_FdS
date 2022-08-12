@@ -72,6 +72,15 @@ footer div {
     font-weight: bold;
 }
 
+abbr, .expan {
+    cursor: pointer;
+}
+abbr {
+    font-style: italic;
+}
+.expan {
+    display: none;
+}
 
 /****** USATE IN JAVASCRIPT ******/
 .immagini_scan {
