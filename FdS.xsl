@@ -50,7 +50,7 @@
             </header>
 
             <div id="corpo">
-                <div id="div_immagine">
+                <div id="div_immagine_testo">
                     <h3 id="titolo_div_immagine">
                         <!--OUTPUT: "Pagine 1-2" "Pagine 20-21" "Pagine 3-4" ovvero pagine codificate nel file contenente la pagina selezionata-->
                         <xsl:value-of select="concat('Pagine ', substring-before(substring-after(document-uri(),'1_'), '.xml'))"/>
@@ -63,7 +63,10 @@
                     <div id="box_img">
                         <xsl:apply-templates select="//tei:facsimile"/>
                     </div>
-                    <br/>
+                    <div id="box_testo">
+                        <xsl:apply-templates select="//tei:group[@xml:id='fr_Prolusioni']/tei:text[1]/tei:body/tei:ab[1]"/>
+                        <xsl:apply-templates select="//tei:body/tei:div[1]"/>
+                    </div>                    
                 </div>
             </div>
 
@@ -171,6 +174,5 @@
             </xsl:element>
         </xsl:for-each>
     </xsl:template>
-
 
 </xsl:stylesheet>

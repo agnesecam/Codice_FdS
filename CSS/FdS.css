@@ -43,12 +43,7 @@ footer div {
     outline: none;
 }
 
-#box_img{
-    max-height: 900px;
-    padding-top: 30px;
-}
-
-#div_immagine {
+#div_immagine_testo {
     background-color: #FFFFFF;
     padding-left: 5%;
     margin: auto;
@@ -56,6 +51,16 @@ footer div {
     border-radius: 10px 10px 10px 10px;
 }
 
+#box_img{
+    /*max-height: 900px;*/
+    padding-top: 30px;
+    
+
+}
+
+#box_testo{
+    
+}
 
 /****** USATE IN JAVASCRIPT ******/
 .immagini_scan {
