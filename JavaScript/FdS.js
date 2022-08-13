@@ -126,19 +126,20 @@ function gestoreMostraAbbreviazioni() {
     try {
         nodoTastoExpan = document.getElementById("icona_expan");
         nodoTastoAbbreviazioni = document.getElementById("icona_abbreviazioni");
-        nodiAbbreviazioni = document.getElementsByTagName("abbr");       
         nodiExpan = document.getElementsByClassName("expan");
-
+        nodiAbbreviazioni = document.getElementsByTagName("abbr");        
+        //Ad ogni occorrenza di <span class="expan"> viene messo l'attributo style="display:none;"> per nascondere le espansioni
         for (let i = 0; i < nodiExpan.length; i++) {
-            nodiExpan[i].setAttribute("class", "nascondi");
-        }        
+            nodiExpan[i].setAttribute("style", "display:none;");
+        }
+        //Ad ogni occorrenza di <abbr> metto luna classe "nascondi" per nascondere le abbreviazioni
         for (let i = 0; i < nodiAbbreviazioni.length; i++) {
             nodiAbbreviazioni[i].removeAttribute("class", "nascondi");
-            nodiAbbreviazioni[i ].setAttribute("class", "mostra");
-        }
-
-        nodoTastoExpan.setAttribute("class", "clicked"); // Per creare ombra del pulsante premuto
-        nodoTastoAbbreviazioni.removeAttribute("class");
+            nodiAbbreviazioni[i].setAttribute("class", "mostra");
+        }     
+        
+        nodoTastoAbbreviazioni.setAttribute("class", "clicked"); // Per creare ombra del pulsante premuto
+        nodoTastoExpan.removeAttribute("class");
     } catch (e) {
         alert("gestoreAbbreviazioni"+e);
     }
@@ -149,19 +150,17 @@ function gestoreMostraExpan() {
         nodoTastoAbbreviazioni = document.getElementById("icona_abbreviazioni");
         nodiExpan = document.getElementsByClassName("expan");
         nodiAbbreviazioni = document.getElementsByTagName("abbr");        
-
+        //Ad ogni occorrenza di <span class="expan" style="display:none;"> viene rimosso l'attributo "style" e vengono mostrate le espansioni
+        for (let i = 0; i < nodiExpan.length; i++) {
+            nodiExpan[i].removeAttribute("style");
+        }
+        //Ad ogni occorrenza di <abbr> metto luna classe "nascondi" per nascondere le abbreviazioni
         for (let i = 0; i < nodiAbbreviazioni.length; i++) {
             nodiAbbreviazioni[i].setAttribute("class", "nascondi");
         }     
-        for (let i = 0; i < nodiExpan.length; i++) {
-            alert("oioi"); /*NON MI ENTRA IN QUESTO CICLOOOO*/
-            nodiExpan[i].classList.remove("nascondi");
-            nodiExpan[i ].setAttribute("class", "mostra");
-        }
 
         nodoTastoExpan.setAttribute("class", "clicked"); // Per creare ombra del pulsante premuto
         nodoTastoAbbreviazioni.removeAttribute("class");
-
     } catch (e) {
         alert("gestoreAbbreviazioni"+e);
     }

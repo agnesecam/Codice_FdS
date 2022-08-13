@@ -84,9 +84,6 @@ ins {
 abbr {
     font-style: italic;
 }
-.mostra {
-    display: inline;
-}
 
 /****** USATE IN JAVASCRIPT ******/
 .immagini_scan {
@@ -96,6 +93,9 @@ abbr {
 }
 .nascondi {
     display: none;
+}
+.mostra {
+    display: inline;
 }
 
 .clicked {

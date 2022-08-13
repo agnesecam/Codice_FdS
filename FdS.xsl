@@ -212,9 +212,6 @@
     <!--ABBR-->
     <xsl:template match="//tei:abbr">
         <xsl:element name="abbr">
-            <!--<xsl:attribute name="onclick">
-                <xsl:text>gestoreAbbreviazioni()</xsl:text>
-            </xsl:attribute>-->
             <xsl:value-of select="current()" />
         </xsl:element>
     </xsl:template>
@@ -223,7 +220,7 @@
     <xsl:template match="//tei:expan">
         <xsl:element name="span">            
             <xsl:attribute name="class">expan</xsl:attribute>
-            <xsl:attribute name="class">nascondi</xsl:attribute>
+            <xsl:attribute name="style">display:none;</xsl:attribute>
             <xsl:value-of select="current()" />
         </xsl:element>
     </xsl:template>
