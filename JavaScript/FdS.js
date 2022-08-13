@@ -119,3 +119,50 @@ function gestoreSelezionaScan2() {
 		alert("gestoreSelezionaScan2"+e);
     }
 }
+
+
+//Gestori abbreviazioni e expan
+function gestoreMostraAbbreviazioni() {
+    try {
+        nodoTastoExpan = document.getElementById("icona_expan");
+        nodoTastoAbbreviazioni = document.getElementById("icona_abbreviazioni");
+        nodiAbbreviazioni = document.getElementsByTagName("abbr");       
+        nodiExpan = document.getElementsByClassName("expan");
+
+        for (let i = 0; i < nodiExpan.length; i++) {
+            nodiExpan[i].setAttribute("class", "nascondi");
+        }        
+        for (let i = 0; i < nodiAbbreviazioni.length; i++) {
+            nodiAbbreviazioni[i].removeAttribute("class", "nascondi");
+            nodiAbbreviazioni[i ].setAttribute("class", "mostra");
+        }
+
+        nodoTastoExpan.setAttribute("class", "clicked"); // Per creare ombra del pulsante premuto
+        nodoTastoAbbreviazioni.removeAttribute("class");
+    } catch (e) {
+        alert("gestoreAbbreviazioni"+e);
+    }
+}
+function gestoreMostraExpan() {
+    try {
+        nodoTastoExpan = document.getElementById("icona_expan");
+        nodoTastoAbbreviazioni = document.getElementById("icona_abbreviazioni");
+        nodiExpan = document.getElementsByClassName("expan");
+        nodiAbbreviazioni = document.getElementsByTagName("abbr");        
+
+        for (let i = 0; i < nodiAbbreviazioni.length; i++) {
+            nodiAbbreviazioni[i].setAttribute("class", "nascondi");
+        }     
+        for (let i = 0; i < nodiExpan.length; i++) {
+            alert("oioi"); /*NON MI ENTRA IN QUESTO CICLOOOO*/
+            nodiExpan[i].classList.remove("nascondi");
+            nodiExpan[i ].setAttribute("class", "mostra");
+        }
+
+        nodoTastoExpan.setAttribute("class", "clicked"); // Per creare ombra del pulsante premuto
+        nodoTastoAbbreviazioni.removeAttribute("class");
+
+    } catch (e) {
+        alert("gestoreAbbreviazioni"+e);
+    }
+}

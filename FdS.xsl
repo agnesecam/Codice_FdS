@@ -55,6 +55,10 @@
                         <!--OUTPUT: "Pagine 1-2" "Pagine 20-21" "Pagine 3-4" ovvero pagine codificate nel file contenente la pagina selezionata-->
                         <xsl:value-of select="concat('Pagine ', substring-before(substring-after(document-uri(),'1_'), '.xml'))"/>
                     </h2>
+                    <div id="box_icone_formattazione">
+                        <input id="icona_abbreviazioni" type="button" class="clicked" alt="Clicca per visualizzare le abbreviazioni fedelmente" src="immagini/iconaAbbreviazioni.png" onclick="gestoreMostraAbbreviazioni()" value="Mostra parole abbreviate"/>
+                        <input id="icona_expan" type="button" class="" alt="Clicca per sciogliere le abbreviazioni" src="immagini/iconaExpan.png" onclick="gestoreMostraExpan()" value="Sciogli le abbreviazioni"/>          
+                    </div>
                     <!-- SCAN -->
                     <!--Elimino la possibilità di visualizzare soltanto il fronte o soltanto il retro-->      
                     <!--<div id="pulsanti_immagini_lettera" >                       
@@ -184,7 +188,7 @@
         </xsl:for-each>
     </xsl:template>
 
-    <xsl:template match="tei:lb">
+    <xsl:template match="//tei:lb">
         <br/>
         <xsl:element name="span">
             <xsl:attribute name="class">lineNumber</xsl:attribute>
@@ -196,7 +200,7 @@
     </xsl:template>
 
     <!--GAP ?-->
-    <xsl:template match="tei:gap">
+    <xsl:template match="//tei:gap">
         <span class="gap">?</span>
     </xsl:template>
 
@@ -206,26 +210,51 @@
     </xsl:template>
 
     <!--ABBR-->
-    <xsl:template match="tei:abbr">
-        <abbr><xsl:value-of select="current()" /></abbr>
+    <xsl:template match="//tei:abbr">
+        <xsl:element name="abbr">
+            <!--<xsl:attribute name="onclick">
+                <xsl:text>gestoreAbbreviazioni()</xsl:text>
+            </xsl:attribute>-->
+            <xsl:value-of select="current()" />
+        </xsl:element>
     </xsl:template>
 
     <!--EXPAN-->
-    <xsl:template match="tei:expan">
-        <xsl:element name="span">
+    <xsl:template match="//tei:expan">
+        <xsl:element name="span">            
             <xsl:attribute name="class">expan</xsl:attribute>
+            <xsl:attribute name="class">nascondi</xsl:attribute>
             <xsl:value-of select="current()" />
         </xsl:element>
     </xsl:template>
 
     <!--ADD place=above-->
-    <xsl:template match="tei:add[@place='above']">
+    <xsl:template match="//tei:add[@place='above']">
         <sup><xsl:apply-templates /></sup>
     </xsl:template>
 
     <!--ADD place=below-->
-    <xsl:template match="tei:add[@place='above']">
-        <sup><xsl:apply-templates /></sup>
+    <xsl:template match="//tei:add[@place='above']">
+        <sub><xsl:apply-templates /></sub>
+    </xsl:template>
+
+    <xsl:template match="//tei:add">
+        <ins><xsl:apply-templates/></ins>
+    </xsl:template>
+
+    <!--FOREIGN-->
+    <xsl:template match="//tei:foreign | tei:hi[@rend='italic']">
+        <i><xsl:apply-templates /></i>
+    </xsl:template>
+
+    <!--HI-->
+    <xsl:template match="//tei:hi[@rend = 'bold']">
+        <strong><xsl:apply-templates /></strong>
+    </xsl:template>
+
+    <!--UNDERLINE-->
+    <xsl:template match="//tei:hi[@rend = 'underline']">
+        <u><xsl:apply-templates /></u>
     </xsl:template>
 
 </xsl:stylesheet>

@@ -38,7 +38,11 @@ footer div {
     margin-right: 5%;
 }
 
-.iconaSelezionata{
+input {
+    cursor: pointer;
+}
+
+.iconaSelezionata {
     opacity: 0.7;
     outline: none;
 }
@@ -51,18 +55,18 @@ footer div {
     border-radius: 10px 10px 10px 10px;
 }
 
-#box_img{
+#box_img {
     display: inline-block;
 }
 
-#box_testo_fr{
+#box_testo_fr {
     display: inline-block;
     float: right;
     margin-right: 100px;
     font-size: 90%;
 }
 
-.lineNumber{
+.lineNumber {
     padding: 0.5em;
     margin-right: 0.5em;
     font-weight: bold;
@@ -72,14 +76,16 @@ footer div {
     font-weight: bold;
 }
 
-abbr, .expan {
-    cursor: pointer;
-}
+ins {
+    color: grey;
+    text-decoration: none;
+} 
+
 abbr {
     font-style: italic;
 }
-.expan {
-    display: none;
+.mostra {
+    display: inline;
 }
 
 /****** USATE IN JAVASCRIPT ******/
@@ -90,4 +96,8 @@ abbr {
 }
 .nascondi {
     display: none;
+}
+
+.clicked {
+    opacity: 0.3;
 }
