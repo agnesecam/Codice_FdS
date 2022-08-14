@@ -64,6 +64,7 @@
                         <input id="icona_testo_italiano" type="button" class="" alt="Visualizza la traduzione italiana" onclick="gestoreMostraTraduzioneIT()" value="Traduzione italiana"/>          
                         <input id="icona_testo_inglese" type="button" class="" alt="Visualizza la traduzione inglese" onclick="gestoreMostraTraduzioneEN()" value="Traduzione inglese"/>          
                     </div>
+                    <br/>
                     <!-- SCAN -->
                     <!--Elimino la possibilità di visualizzare soltanto il fronte o soltanto il retro-->      
                     <!--<div id="pulsanti_immagini_lettera" >                       
@@ -76,7 +77,7 @@
                     </div>
                     <!--TRASCRIZIONE FRANCESE-->
                     <div id="box_testo_fr">
-                        <h3>Trascrizione</h3>
+                        <h3>Trascrizione francese</h3>
                         <div class="box_testo_fronte">
                             <xsl:apply-templates select="//tei:group[@xml:id='fr_Prolusioni']/tei:text[1]/tei:body/tei:ab[1]"/>
                             <xsl:apply-templates select="//tei:body[1]/tei:div[1]"/>
@@ -101,12 +102,11 @@
                     <div id="box_testo_en" style="display:none;">
                         <h3>Traduzione inglese</h3>
                         <div class="box_testo_fronte">
-                            <xsl:apply-templates select="//tei:group[@xml:id='fr_Prolusioni']/tei:text[1]/tei:body/tei:ab[1]"/>
-                            <xsl:apply-templates select="//tei:body/tei:div[1]"/>
+                            <xsl:apply-templates select="//tei:group[@xml:id='en_Prolusioni']/tei:text[1]/tei:body/tei:ab"/>
                         </div>
                         <br/>
                         <div class="box_testo_retro">
-                            <xsl:apply-templates select="//tei:body/tei:div[2]"/>
+                            <xsl:apply-templates select="/tei:group[@xml:id='en_Prolusioni']/tei:text[1]/tei:body/tei:div[2]"/>
                         </div>
                     </div>                                
                 </div>

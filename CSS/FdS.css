@@ -63,8 +63,19 @@ input {
 #box_testo_fr, #box_testo_it, #box_testo_en {
     display: inline-block;
     float: right;
-    margin-right: 100px;
+    margin-right: 80px;
     font-size: 90%;
+}
+#box_testo_it, #box_testo_en {
+    width: 500px;
+    margin-right: 150px;
+}
+
+.box_testo_fronte {
+    padding-top: 105px;
+}
+.box_testo_retro{
+    padding-top: 135px;
 }
 
 #box_icone_traduzioni {

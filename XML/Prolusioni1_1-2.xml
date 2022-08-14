@@ -478,10 +478,10 @@
                         </div>
                         <!--Fine pagina 1, la pericope 2 continua nella seconda pagina-->
                         <!--Inizio pagina 2-->
-                        <pb n="f2v" xml:id="body_p2" facs="#scan_p2"/>
-                        <!--Numero impaginazione a mano-->                        
-                        <fw type="pageNum" xml:id="HandPageNumber-2" rend="align(left)" facs="#facs_HandPageNumber-2">2</fw>
+                        <pb n="f2v" xml:id="body_p2" facs="#scan_p2"/>                        
                         <div xml:id="div_p2" hand="#h1">
+                            <!--Numero impaginazione a mano-->                        
+                            <fw type="pageNum" xml:id="HandPageNumber-2" rend="align(left)" facs="#facs_HandPageNumber-2">2</fw>
                             <!--Continuo 2a pericope iniziata in pagina 1-->
                             <ab n="2"  xml:lang="FR" corresp="#pericope_91Aaaa002 it_91Aaaa002 en_91Aaaa002" facs="#facs_Pericope2b" part="F"> 
                                 <lb xml:id="lb1_p2" n="1" facs="#p2lb1"/>
@@ -494,7 +494,25 @@
                                 <lb xml:id="lb2_p2" n="2" facs="#facs_p2lb2"/>
                                 ici à rappeler le nom
                                 <lb xml:id="lb3_p2" n="3" facs="#facs_p2lb3"/>
-                                ...
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                <lb xml:id="lb4_p2" n="4" facs="#facs_p2lb4"/>
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                <lb xml:id="lb5_p2" n="5" facs="#facs_p2lb5"/>
+                                Accumsan sit amet nulla facilisi morbi tempus. Interdum consectetur libero 
+                                <lb xml:id="lb6_p2" n="6" facs="#facs_p2lb6"/>
+                                id faucibus nisl tincidunt eget. Nisl suscipit adipiscing bibendum est ultricies 
+                                <lb xml:id="lb7_p2" n="7" facs="#facs_p2lb7"/>
+                                integer quis auctor. Tortor at auctor urna nunc. Felis donec et odio pellentesque 
+                                <lb xml:id="lb8_p2" n="8" facs="#facs_p2lb8"/>
+                                diam volutpat commodo. Sapien nec sagittis aliquam malesuada bibendum. 
+                                <lb xml:id="lb9_p2" n="9" facs="#facs_p2lb9"/>
+                                Tempus iaculis urna id volutpat lacus laoreet non. Luctus accumsan tortor 
+                                <lb xml:id="lb10_p2" n="10" facs="#facs_p2lb10"/>
+                                posuere ac ut. Elementum curabitur vitae nunc sed. Vestibulum morbi 
+                                <lb xml:id="lb11_p2" n="11" facs="#facs_p2lb11"/>
+                                blandit cursus risus at ultrices mi tempus imperdiet. Pulvinar sapien et ligula 
+                                <lb xml:id="lb12_p2" n="12" facs="#facs_p2lb12"/>
+                                ullamcorper malesuada proin libero nunc consequat.
                             </ab>
                         </div>
                         <!--Fine 2a pagina, la 3a pericope continua nella 3a pagina-->
@@ -560,10 +578,28 @@
                             <lb/>studio per la storia o per la storia della civiltà?                    
                         </ab> 
                         <ab xml:id="it_91Aaaa003" corresp="#pericope_91Aaaa003" xml:lang="IT">
-                            <lb/>...traduzione terza pericope...
+                            <lb/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            <lb/>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            <lb/>Accumsan sit amet nulla facilisi morbi tempus. Interdum consectetur libero 
+                            <lb/>id faucibus nisl tincidunt eget. Nisl suscipit adipiscing bibendum est ultricies 
+                            <lb/>integer quis auctor. Tortor at auctor urna nunc. Felis donec et odio pellentesque 
+                            <lb/>diam volutpat commodo. Sapien nec sagittis aliquam malesuada bibendum. 
+                            <lb/>Tempus iaculis urna id volutpat lacus laoreet non. Luctus accumsan tortor 
+                            <lb/>posuere ac ut. Elementum curabitur vitae nunc sed. Vestibulum morbi 
+                            <lb/>blandit cursus risus at ultrices mi tempus imperdiet. Pulvinar sapien et ligula 
+                            <lb/>ullamcorper malesuada proin libero nunc consequat.
                         </ab> 
                         <ab xml:id="it_91Aaaa004" corresp="#pericope_91Aaaa004" xml:lang="IT">
-                            <lb/>...traduzione quarta pericope...
+                            <lb/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            <lb/>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            <lb/>Accumsan sit amet nulla facilisi morbi tempus. Interdum consectetur libero 
+                            <lb/>id faucibus nisl tincidunt eget. Nisl suscipit adipiscing bibendum est ultricies 
+                            <lb/>integer quis auctor. Tortor at auctor urna nunc. Felis donec et odio pellentesque 
+                            <lb/>diam volutpat commodo. Sapien nec sagittis aliquam malesuada bibendum. 
+                            <lb/>Tempus iaculis urna id volutpat lacus laoreet non. Luctus accumsan tortor 
+                            <lb/>posuere ac ut. Elementum curabitur vitae nunc sed. Vestibulum morbi 
+                            <lb/>blandit cursus risus at ultrices mi tempus imperdiet. Pulvinar sapien et ligula 
+                            <lb/>ullamcorper malesuada proin libero nunc consequat.
                         </ab>                                         
                     </body>
                 </text>
@@ -605,27 +641,68 @@
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
                     <body resp="lists/TEI-ListPerson.xml#AC">
                         <ab xml:id="en_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="EN">
-                            If the chair I have the honor of inaugurating on this occasion represented 
-                            a new order of study in our University, if I had today the mission or the 
-                            privilege of introducing you to the building that the science of language 
-                            has been building for seventy years here, and to outline the current state 
-                            of this science, and to go through its past, which is not so long, or to predict 
-                            its future, its usefulness, and define the place it occupies in the circle of human 
-                            knowledge and the services it can render in a Faculty of Arts, I would be afraid 
-                            of not being able to carry out my task worthily, but certainly I would not be able 
-                            to complain of abandonment here.
+                            <lb/>If the chair I have the honor of inaugurating 
+                            <lb/>on this occasion represented 
+                            <lb/>a new order of study in our University, if I had 
+                            <lb/>today the mission or the privilege 
+                            <lb/>of introducing you to the building 
+                            <lb/>that the science of 
+                            <lb/>language has been 
+                            <lb/>building for seventy years here, 
+                            <lb/>and to outline 
+                            <lb/>the current state 
+                            <lb/>of this science,
+                            <lb/> and to go through its past, 
+                            <lb/>which is not so long, 
+                            <lb/>or to predict 
+                            <lb/>its future, 
+                            <lb/>its usefulness, 
+                            <lb/>and define 
+                            <lb/>the place it 
+                            <lb/>occupies in 
+                            <lb/>the circle of human knowledge 
+                            <lb/>and the services it can 
+                            <lb/>render in a Faculty of Arts, I would be afraid of not being able to carry out
+                            <lb/>my task worthily, but certainly 
+                            <lb/>I would not be able 
+                            <lb/>to complain 
+                            <lb/>of abandonment here.
                         </ab>
                         <ab xml:id="en_91Aaaa002" corresp="#pericope_91Aaaa002" xml:lang="EN">
-                            Without exalting beyond measure the merits of linguistics, what is the benefit 
-                            that can derive from such study, for example, classical scholarship, knowledge 
-                            of the Greek, Latin and French languages, even if it had a purely literary purpose, 
-                            and the interest that can it have the same study for history or for the history of civilization?                
+                            <lb/>Without exalting 
+                            <lb/>beyond measure 
+                            <lb/>the merits of linguistics, 
+                            <lb/>what is the 
+                            <lb/>benefit that can derive from such study, 
+                            <lb/>for example, classical scholarship, knowledge 
+                            <lb/>of the Greek, Latin and French languages, 
+                            <lb/>even if it had a purely literary purpose, 
+                            <lb/>and the interest that can it have the same 
+                            <lb/>study for history or for the history of civilization?                
                         </ab> 
                         <ab xml:id="en_91Aaaa003" corresp="#pericope_91Aaaa003" xml:lang="EN">
-                            ...traduzione inglese terza pericope...
+                            <lb/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            <lb/>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            <lb/>Accumsan sit amet nulla facilisi morbi tempus. Interdum consectetur libero 
+                            <lb/>id faucibus nisl tincidunt eget. Nisl suscipit adipiscing bibendum est ultricies 
+                            <lb/>integer quis auctor. Tortor at auctor urna nunc. Felis donec et odio pellentesque 
+                            <lb/>diam volutpat commodo. Sapien nec sagittis aliquam malesuada bibendum. 
+                            <lb/>Tempus iaculis urna id volutpat lacus laoreet non. Luctus accumsan tortor 
+                            <lb/>posuere ac ut. Elementum curabitur vitae nunc sed. Vestibulum morbi 
+                            <lb/>blandit cursus risus at ultrices mi tempus imperdiet. Pulvinar sapien et ligula 
+                            <lb/>ullamcorper malesuada proin libero nunc consequat.
                         </ab> 
                         <ab xml:id="en_91Aaaa004" corresp="#pericope_91Aaaa004" xml:lang="EN">
-                            ...traduzione inglese quarta pericope...
+                            <lb/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            <lb/>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            <lb/>Accumsan sit amet nulla facilisi morbi tempus. Interdum consectetur libero 
+                            <lb/>id faucibus nisl tincidunt eget. Nisl suscipit adipiscing bibendum est ultricies 
+                            <lb/>integer quis auctor. Tortor at auctor urna nunc. Felis donec et odio pellentesque 
+                            <lb/>diam volutpat commodo. Sapien nec sagittis aliquam malesuada bibendum. 
+                            <lb/>Tempus iaculis urna id volutpat lacus laoreet non. Luctus accumsan tortor 
+                            <lb/>posuere ac ut. Elementum curabitur vitae nunc sed. Vestibulum morbi 
+                            <lb/>blandit cursus risus at ultrices mi tempus imperdiet. Pulvinar sapien et ligula 
+                            <lb/>ullamcorper malesuada proin libero nunc consequat.
                         </ab>                                         
                     </body>
                 </text>
