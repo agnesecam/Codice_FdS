@@ -56,8 +56,13 @@
                         <xsl:value-of select="concat('Pagine ', substring-before(substring-after(document-uri(),'1_'), '.xml'))"/>
                     </h2>
                     <div id="box_icone_formattazione">
-                        <input id="icona_abbreviazioni" type="button" class="clicked" alt="Clicca per visualizzare le abbreviazioni fedelmente" src="immagini/iconaAbbreviazioni.png" onclick="gestoreMostraAbbreviazioni()" value="Mostra parole abbreviate"/>
-                        <input id="icona_expan" type="button" class="" alt="Clicca per sciogliere le abbreviazioni" src="immagini/iconaExpan.png" onclick="gestoreMostraExpan()" value="Sciogli le abbreviazioni"/>          
+                        <input id="icona_abbreviazioni" type="button" class="clicked" alt="Clicca per visualizzare le abbreviazioni fedelmente" onclick="gestoreMostraAbbreviazioni()" value="Mostra parole abbreviate"/>
+                        <input id="icona_expan" type="button" class="" alt="Clicca per sciogliere le abbreviazioni" onclick="gestoreMostraExpan()" value="Sciogli le abbreviazioni"/>          
+                    </div>
+                    <div id="box_icone_traduzioni">
+                        <input id="icona_testo_francese" type="button" class="clicked" alt="Visualizza la trascrizione francese" onclick="gestoreMostraTrascrizioneFR()" value="Trascrizione francese"/>
+                        <input id="icona_testo_italiano" type="button" class="" alt="Visualizza la traduzione italiana" onclick="gestoreMostraTraduzioneIT()" value="Traduzione italiana"/>          
+                        <input id="icona_testo_inglese" type="button" class="" alt="Visualizza la traduzione inglese" onclick="gestoreMostraTraduzioneEN()" value="Traduzione inglese"/>          
                     </div>
                     <!-- SCAN -->
                     <!--Elimino la possibilità di visualizzare soltanto il fronte o soltanto il retro-->      
@@ -69,17 +74,41 @@
                         <h3>Manoscritto</h3>
                         <xsl:apply-templates select="//tei:facsimile"/>
                     </div>
+                    <!--TRASCRIZIONE FRANCESE-->
                     <div id="box_testo_fr">
                         <h3>Trascrizione</h3>
-                        <div id="box_testo_fronte">
+                        <div class="box_testo_fronte">
+                            <xsl:apply-templates select="//tei:group[@xml:id='fr_Prolusioni']/tei:text[1]/tei:body/tei:ab[1]"/>
+                            <xsl:apply-templates select="//tei:body[1]/tei:div[1]"/>
+                        </div>
+                        <br/>
+                        <div class="box_testo_retro">
+                            <xsl:apply-templates select="//tei:body/tei:div[2]"/>
+                        </div>
+                    </div>   
+                    <!--TRADUZIONE ITALIANA-->                 
+                    <div id="box_testo_it" style="display:none;">
+                        <h3>Traduzione italiana</h3>
+                        <div class="box_testo_fronte">
+                            <xsl:apply-templates select="//tei:group[@xml:id='it_Prolusioni']/tei:text[1]/tei:body[1]/tei:ab"/>
+                        </div>
+                        <br/>
+                        <div class="box_testo_retro">
+                            <xsl:apply-templates select="/tei:group[@xml:id='it_Prolusioni']/tei:text[1]/tei:body/tei:div[2]"/>
+                        </div>
+                    </div>            
+                    <!--TRADUZIONE INGLESE-->                 
+                    <div id="box_testo_en" style="display:none;">
+                        <h3>Traduzione inglese</h3>
+                        <div class="box_testo_fronte">
                             <xsl:apply-templates select="//tei:group[@xml:id='fr_Prolusioni']/tei:text[1]/tei:body/tei:ab[1]"/>
                             <xsl:apply-templates select="//tei:body/tei:div[1]"/>
                         </div>
                         <br/>
-                        <div id="box_testo_retro">
+                        <div class="box_testo_retro">
                             <xsl:apply-templates select="//tei:body/tei:div[2]"/>
                         </div>
-                    </div>                    
+                    </div>                                
                 </div>
             </div>
 

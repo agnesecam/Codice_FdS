@@ -40,6 +40,7 @@ footer div {
 
 input {
     cursor: pointer;
+    margin-right:2px;
 }
 
 .iconaSelezionata {
@@ -59,11 +60,15 @@ input {
     display: inline-block;
 }
 
-#box_testo_fr {
+#box_testo_fr, #box_testo_it, #box_testo_en {
     display: inline-block;
     float: right;
     margin-right: 100px;
     font-size: 90%;
+}
+
+#box_icone_traduzioni {
+    margin-top: 10px;
 }
 
 .lineNumber {
@@ -81,7 +86,7 @@ ins {
     text-decoration: none;
 } 
 
-abbr {
+abbr, .expan {
     font-style: italic;
 }
 

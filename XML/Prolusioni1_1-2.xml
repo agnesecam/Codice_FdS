@@ -516,30 +516,54 @@
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="lists/TEI-ListBibl.xml#Fadda2006" resp="lists/TEI-ListPerson.xml#EF">
                         <ab xml:id="it_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="IT">
-                            Se la cattedra che ho in questa occasione l’onore di inaugurare rappresentasse 
-                            un ordine di studi nuovo nella nostra Università, se avessi oggi 
-                            la missione o il privilegio d’introdurvi nell’edificio che la 
-                            scienza del linguaggio è intenta a costruire da settant’anni in qua, 
-                            e di descrivere a grandi linee lo stato attuale di questa scienza,
-                            e percorrere il suo passato, che non è poi così lungo, o di pronosticare 
-                            il suo avvenire, la sua utilità, e definire il posto che essa 
-                            occupa nel cerchio delle conoscenze umane e i servizi che essa 
-                            può rendere in una Facoltà di Lettere, avrei timore di non poter assolvere 
-                            degnamente il mio compito, ma certamente non potrei lamentarmi qui 
-                            dell’abbandono.
+                            <lb/>Se la cattedra che ho in questa
+                            <lb/>occasione l’onore di inaugurare rappresentasse un ordine 
+                            <lb/>di studi nuovo 
+                            <lb/>nella nostra Università, se avessi 
+                            <lb/>oggi la missione o il privilegio 
+                            <lb/>d’introdurvi nell’edificio 
+                            <lb/>che la scienza del 
+                            <lb/>linguaggio è intenta 
+                            <lb/>a costruire da 
+                            <lb/>settant’anni in qua, 
+                            <lb/>e di descrivere 
+                            <lb/>a grandi 
+                            <lb/>linee lo stato attuale
+                            <lb/>di questa scienza,
+                            <lb/>e percorrere il suo passato, che
+                            <lb/>non è poi così lungo, 
+                            <lb/>o di pronosticare 
+                            <lb/>il suo avvenire, 
+                            <lb/>la sua utilità, 
+                            <lb/>e definire 
+                            <lb/>il posto che essa 
+                            <lb/>occupa nel
+                            <lb/>cerchio delle conoscenze
+                            <lb/>umane e i 
+                            <lb/>servizi che essa può
+                            <lb/>rendere in una
+                            <lb/>Facoltà di Lettere, avrei timore di non poter assolvere 
+                            <lb/>degnamente il mio compito, ma certamente 
+                            <lb/>non potrei lamentarmi qui 
+                            <lb/>dell’abbandono.
                         </ab>
                         <ab xml:id="it_91Aaaa002" corresp="#pericope_91Aaaa002" xml:lang="IT">
-                            Senza esaltare oltre misura i meriti della linguistica, qual è il 
-                            beneficio che può trarre da tale studio, per esempio, l’erudizione classica, 
-                            la conoscenza delle lingue greca, latina e francese, avesse pure un fine 
-                            semplicemente letterario, e l’interesse che può avere il medesimo studio per 
-                            la storia o per la storia della civiltà?                    
+                            <lb/>Senza esaltare 
+                            <lb/>oltre misura 
+                            <lb/>i meriti della linguistica, 
+                            <lb/>qual è il 
+                            <lb/>beneficio che può trarre da tale studio, 
+                            <lb/>per esempio, l’erudizione classica, la conoscenza 
+                            <lb/>delle lingue greca, latina e francese, 
+                            <lb/>avesse pure un fine semplicemente 
+                            <lb/>letterario, e l’interesse che può avere il medesimo 
+                            <lb/>studio per la storia o per la storia della civiltà?                    
                         </ab> 
                         <ab xml:id="it_91Aaaa003" corresp="#pericope_91Aaaa003" xml:lang="IT">
-                            ...traduzione terza pericope...
+                            <lb/>...traduzione terza pericope...
                         </ab> 
                         <ab xml:id="it_91Aaaa004" corresp="#pericope_91Aaaa004" xml:lang="IT">
-                            ...traduzione quarta pericope...
+                            <lb/>...traduzione quarta pericope...
                         </ab>                                         
                     </body>
                 </text>

@@ -73,7 +73,7 @@ function select_pages(){
     }
 }
 
-
+/*
 //Seleziona fronte
 function gestoreSelezionaScan1() {
 	try {
@@ -119,7 +119,7 @@ function gestoreSelezionaScan2() {
 		alert("gestoreSelezionaScan2"+e);
     }
 }
-
+*/
 
 //Gestori abbreviazioni e expan
 function gestoreMostraAbbreviazioni() {
@@ -161,6 +161,77 @@ function gestoreMostraExpan() {
 
         nodoTastoExpan.setAttribute("class", "clicked"); // Per creare ombra del pulsante premuto
         nodoTastoAbbreviazioni.removeAttribute("class");
+    } catch (e) {
+        alert("gestoreAbbreviazioni"+e);
+    }
+}
+
+//Gestori traduzioni FR - IT - EN
+function gestoreMostraTrascrizioneFR() {
+    try {
+        nodoTastoFR = document.getElementById("icona_testo_francese");
+        nodoTastoIT = document.getElementById("icona_testo_italiano");
+        nodoTastoEN = document.getElementById("icona_testo_inglese");
+            
+        nodoTraduzioneFR = document.getElementById("box_testo_fr");        
+        nodoTraduzioneIT = document.getElementById("box_testo_it");    
+        nodoTraduzioneEN = document.getElementById("box_testo_en");        
+
+        //Rimuovo lo "style" dal box_testo_fr e e lo metto nel box_testo_it e nel box_testo_en
+        nodoTraduzioneFR.removeAttribute("style");
+        nodoTraduzioneIT.setAttribute("style", "display:none;");
+        nodoTraduzioneEN.setAttribute("style", "display:none;");
+
+        nodoTastoFR.setAttribute("class", "clicked"); // Per creare ombra del pulsante premuto
+        nodoTastoIT.removeAttribute("class");
+        nodoTastoEN.removeAttribute("class");
+    
+    } catch (e) {
+        alert("gestoreAbbreviazioni"+e);
+    }
+}
+function gestoreMostraTraduzioneIT() {
+    try {
+        nodoTastoFR = document.getElementById("icona_testo_francese");
+        nodoTastoIT = document.getElementById("icona_testo_italiano");
+        nodoTastoEN = document.getElementById("icona_testo_inglese");
+            
+        nodoTraduzioneFR = document.getElementById("box_testo_fr");        
+        nodoTraduzioneIT = document.getElementById("box_testo_it");    
+        nodoTraduzioneEN = document.getElementById("box_testo_en");        
+
+        //Rimuovo lo "style" dal box_testo_it e e lo metto nel box_testo_fr e nel box_testo_en
+        nodoTraduzioneIT.removeAttribute("style");
+        nodoTraduzioneFR.setAttribute("style", "display:none;");
+        nodoTraduzioneEN.setAttribute("style", "display:none;");
+
+        nodoTastoIT.setAttribute("class", "clicked"); // Per creare ombra del pulsante premuto
+        nodoTastoFR.removeAttribute("class");
+        nodoTastoEN.removeAttribute("class");
+        
+    } catch (e) {
+        alert("gestoreAbbreviazioni"+e);
+    }
+}
+function gestoreMostraTraduzioneEN() {
+    try {
+        nodoTastoFR = document.getElementById("icona_testo_francese");
+        nodoTastoIT = document.getElementById("icona_testo_italiano");
+        nodoTastoEN = document.getElementById("icona_testo_inglese");
+            
+        nodoTraduzioneFR = document.getElementById("box_testo_fr");        
+        nodoTraduzioneIT = document.getElementById("box_testo_it");    
+        nodoTraduzioneEN = document.getElementById("box_testo_en");        
+
+        //Rimuovo lo "style" dal box_testo_en e e lo metto nel box_testo_fr e nel box_testo_it
+        nodoTraduzioneEN.removeAttribute("style");
+        nodoTraduzioneFR.setAttribute("style", "display:none;");
+        nodoTraduzioneIT.setAttribute("style", "display:none;");
+
+        nodoTastoEN.setAttribute("class", "clicked"); // Per creare ombra del pulsante premuto
+        nodoTastoIT.removeAttribute("class");
+        nodoTastoFR.removeAttribute("class");        
+    
     } catch (e) {
         alert("gestoreAbbreviazioni"+e);
     }
