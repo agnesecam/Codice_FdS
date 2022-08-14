@@ -58,6 +58,9 @@
                     <div id="box_icone_formattazione">
                         <input id="icona_abbreviazioni" type="button" class="clicked" alt="Clicca per visualizzare le abbreviazioni fedelmente" onclick="gestoreMostraAbbreviazioni()" value="Mostra parole abbreviate"/>
                         <input id="icona_expan" type="button" class="" alt="Clicca per sciogliere le abbreviazioni" onclick="gestoreMostraExpan()" value="Sciogli le abbreviazioni"/>          
+
+                        <input id="icona_gap" type="button" class="" alt="Clicca per omettere i gap nel testo" onclick="gestoreMostraGap()" value="Mostra gap"/>
+                        <!--STESSA COSA PER I DEL-->
                     </div>
                     <div id="box_icone_traduzioni">
                         <input id="icona_testo_francese" type="button" class="clicked" alt="Visualizza la trascrizione francese" onclick="gestoreMostraTrascrizioneFR()" value="Trascrizione francese"/>

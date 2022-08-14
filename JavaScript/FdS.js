@@ -166,6 +166,29 @@ function gestoreMostraExpan() {
     }
 }
 
+//Gestore mostra/nascondi GAP
+function gestoreMostraGap() {
+    try {
+        nodoTastoGap = document.getElementById("icona_gap");
+        nodiGap = document.getElementsByClassName("gap");
+        //Se i nodi hanno l'attributo "style = 'display:none;'" allora lo elimino
+        for (let i = 0; i < nodiGap.length; i++) {
+            if (nodiGap[i].hasAttributes("style") == true) {
+                nodiGap[i].removeAttribute("style");
+                console.log("Rimosso style");
+            }            
+        }
+        for (let i = 0; i < nodiGap.length; i++) {
+                if ((nodiGap[i].hasAttributes("style") == false)) {
+                nodiGap[i].setAttribute("style", "display:none;");
+                console.log("Messo style");
+            }
+        }
+    } catch (e) {
+        alert("gestoreAbbreviazioni"+e);
+    }
+}
+
 //Gestori traduzioni FR - IT - EN
 function gestoreMostraTrascrizioneFR() {
     try {
