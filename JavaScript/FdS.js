@@ -170,20 +170,25 @@ function gestoreMostraExpan() {
 function gestoreMostraGap() {
     try {
         nodoTastoGap = document.getElementById("icona_gap");
-        nodiGap = document.getElementsByClassName("gap");
-        //Se i nodi hanno l'attributo "style = 'display:none;'" allora lo elimino
+        nodiGap = document.getElementsByClassName("gap");      
+        nodoValoreValue = nodoTastoGap.getAttribute("value");
+
         for (let i = 0; i < nodiGap.length; i++) {
-            if (nodiGap[i].hasAttributes("style")) {
+            //Se i nodi hanno l'attributo "style = 'display:none;'" allora lo elimino
+            if (nodiGap[i].hasAttribute("style")) {
                 nodiGap[i].removeAttribute("style");
-                console.log("Rimosso style");
-            }            
-        }
-        //Se non c'è style lo mette
-        for (let i = 0; i < nodiGap.length; i++) {
-            console.log("Messo style");
-                if (!(nodiGap[i].hasAttributes("style"))) {
-                nodiGap[i].setAttribute("style", "display:none;");                
+            }         
+            //Se i nodi non hanno l'attributo "style = 'display:none;'" allora lo metto
+            else {
+                nodiGap[i].setAttribute("style", "display:none;");      
             }
+        }
+        //if (nodoValoreValue == "Mostra gap" ? nodoValoreValue = "Nascondi gap" : nodoValoreValue = "MostraGap");
+        if (nodoValoreValue == "Mostra gap"){
+            nodoTastoGap.setAttribute("value", "Nascondi gap");
+        }
+        else if (nodoValoreValue == "Nascondi gap"){
+            nodoTastoGap.setAttribute("value", "Mostra gap");
         }
     } catch (e) {
         alert("gestoreAbbreviazioni"+e);

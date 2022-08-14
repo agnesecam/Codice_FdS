@@ -263,11 +263,12 @@
     </xsl:template>
 
     <!--ADD place=below-->
-    <xsl:template match="//tei:add[@place='above']">
+    <xsl:template match="//tei:add[@place='below']">
         <sub><xsl:apply-templates /></sub>
     </xsl:template>
 
-    <xsl:template match="//tei:add">
+    <!--FAI IN MODO CHE GLI ADD CON ATTRIBUTO PLACE SIANO VISUALIZZABILI DIVERSAMENTE-->
+    <xsl:template match="//tei:add[not(@place='above')]">
         <ins><xsl:apply-templates/></ins>
     </xsl:template>
 
