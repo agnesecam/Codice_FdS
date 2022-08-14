@@ -173,15 +173,16 @@ function gestoreMostraGap() {
         nodiGap = document.getElementsByClassName("gap");
         //Se i nodi hanno l'attributo "style = 'display:none;'" allora lo elimino
         for (let i = 0; i < nodiGap.length; i++) {
-            if (nodiGap[i].hasAttributes("style") == true) {
+            if (nodiGap[i].hasAttributes("style")) {
                 nodiGap[i].removeAttribute("style");
                 console.log("Rimosso style");
             }            
         }
+        //Se non c'è style lo mette
         for (let i = 0; i < nodiGap.length; i++) {
-                if ((nodiGap[i].hasAttributes("style") == false)) {
-                nodiGap[i].setAttribute("style", "display:none;");
-                console.log("Messo style");
+            console.log("Messo style");
+                if (!(nodiGap[i].hasAttributes("style"))) {
+                nodiGap[i].setAttribute("style", "display:none;");                
             }
         }
     } catch (e) {

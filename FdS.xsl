@@ -233,7 +233,7 @@
 
     <!--GAP ?-->
     <xsl:template match="//tei:gap">
-        <span class="gap">?</span>
+        <span class="gap"> ?</span>  <!--style="display:none;">-->
     </xsl:template>
 
     <!--DEL-->
