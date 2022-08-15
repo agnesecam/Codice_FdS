@@ -121,48 +121,36 @@ function gestoreSelezionaScan2() {
 }
 */
 
-//Gestori abbreviazioni e expan
-function gestoreMostraAbbreviazioni() {
+//Gestore ABBR/EXPAN
+function gestoreAbbr() {
     try {
-        nodoTastoExpan = document.getElementById("icona_expan");
-        nodoTastoAbbreviazioni = document.getElementById("icona_abbreviazioni");
-        nodiExpan = document.getElementsByClassName("expan");
-        nodiAbbreviazioni = document.getElementsByTagName("abbr");        
-        //Ad ogni occorrenza di <span class="expan"> viene messo l'attributo style="display:none;"> per nascondere le espansioni
-        for (let i = 0; i < nodiExpan.length; i++) {
-            nodiExpan[i].setAttribute("style", "display:none;");
+        nodoTastoAbbr = document.getElementById("icona_abbr_expan");
+        nodiAbbreviazioni = document.getElementsByTagName("abbr");
+        nodiEspansioni = document.getElementsByClassName("expan");
+        nodoValoreValue = nodoTastoAbbr.getAttribute("value");
+        //Scorro sia le espansioni che le abbreviazioni con un unico ciclo perché sono a coppie (a nodiEspansioni[3] corrisponde un nodiAbbreviazioni[3])
+        for (let i = 0; i < nodiEspansioni.length; i++) {
+            //Se i nodiEspansioni hanno l'attributo "style = 'display:none;'" allora lo elimino per renderli visibili (sciogliere le abbreviazioni) 
+            //A questo punto, nascondo le abbreviazioni contratte settando l'attributo "style = 'display:none;'"
+            if (nodiEspansioni[i].hasAttribute("style")) {
+                nodiEspansioni[i].removeAttribute("style");
+                nodiAbbreviazioni[i].setAttribute("style", "display:none;")
+            }         
+            //Se i nodiEspansioni non hanno l'attributo "style = 'display:none;'" allora lo metto per nascondere gli scioglimenti delle abbreviazioni
+            //A questo punto, mostro le abbreviazioni contratte eliminando il loro attributo "style = 'display:none;'"            
+            else {
+                nodiEspansioni[i].setAttribute("style", "display:none;");
+                nodiAbbreviazioni[i].removeAttribute("style");
+            }
         }
-        //Ad ogni occorrenza di <abbr> metto luna classe "nascondi" per nascondere le abbreviazioni
-        for (let i = 0; i < nodiAbbreviazioni.length; i++) {
-            nodiAbbreviazioni[i].removeAttribute("class", "nascondi");
-            nodiAbbreviazioni[i].setAttribute("class", "mostra");
-        }     
-        
-        nodoTastoAbbreviazioni.setAttribute("class", "clicked"); // Per creare ombra del pulsante premuto
-        nodoTastoExpan.removeAttribute("class");
-    } catch (e) {
-        alert("gestoreAbbreviazioni"+e);
-    }
-}
-function gestoreMostraExpan() {
-    try {
-        nodoTastoExpan = document.getElementById("icona_expan");
-        nodoTastoAbbreviazioni = document.getElementById("icona_abbreviazioni");
-        nodiExpan = document.getElementsByClassName("expan");
-        nodiAbbreviazioni = document.getElementsByTagName("abbr");        
-        //Ad ogni occorrenza di <span class="expan" style="display:none;"> viene rimosso l'attributo "style" e vengono mostrate le espansioni
-        for (let i = 0; i < nodiExpan.length; i++) {
-            nodiExpan[i].removeAttribute("style");
+        if (nodoValoreValue == "Contrai le abbreviazioni") {
+            nodoTastoAbbr.setAttribute("value", "Sciogli le abbreviazioni");
         }
-        //Ad ogni occorrenza di <abbr> metto luna classe "nascondi" per nascondere le abbreviazioni
-        for (let i = 0; i < nodiAbbreviazioni.length; i++) {
-            nodiAbbreviazioni[i].setAttribute("class", "nascondi");
-        }     
-
-        nodoTastoExpan.setAttribute("class", "clicked"); // Per creare ombra del pulsante premuto
-        nodoTastoAbbreviazioni.removeAttribute("class");
+        else if (nodoValoreValue == "Sciogli le abbreviazioni") {
+            nodoTastoAbbr.setAttribute("value", "Contrai le abbreviazioni");
+        }
     } catch (e) {
-        alert("gestoreAbbreviazioni"+e);
+        alert("gestoreAbbr"+e);
     }
 }
 
@@ -183,7 +171,6 @@ function gestoreMostraGap() {
                 nodiGap[i].setAttribute("style", "display:none;");      
             }
         }
-        //if (nodoValoreValue == "Mostra gap" ? nodoValoreValue = "Nascondi gap" : nodoValoreValue = "MostraGap");
         if (nodoValoreValue == "Mostra gap"){
             nodoTastoGap.setAttribute("value", "Nascondi gap");
         }

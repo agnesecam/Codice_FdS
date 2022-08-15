@@ -56,10 +56,10 @@
                         <xsl:value-of select="concat('Pagine ', substring-before(substring-after(document-uri(),'1_'), '.xml'))"/>
                     </h2>
                     <div id="box_icone_formattazione">
-                        <input id="icona_abbreviazioni" type="button" class="clicked" alt="Clicca per visualizzare le abbreviazioni fedelmente" onclick="gestoreMostraAbbreviazioni()" value="Mostra parole abbreviate"/>
-                        <input id="icona_expan" type="button" class="" alt="Clicca per sciogliere le abbreviazioni" onclick="gestoreMostraExpan()" value="Sciogli le abbreviazioni"/>          
-
+                        <input id="icona_abbr_expan" type="button" alt="Clicca per sciogliere o contrarre le abbreviazioni" onclick="gestoreAbbr()" value="Sciogli le abbreviazioni"/>
+                        <br/>
                         <input id="icona_gap" type="button" class="" alt="Clicca per nascondere i gap nel testo" onclick="gestoreMostraGap()" value="Mostra gap"/>
+                        <br/>
                         <input id="icona_del" type="button" class="" alt="Clicca per nascondere i del nel testo" onclick="gestoreMostraDel()" value="Mostra del"/>
                     </div>
                     <div id="box_icone_traduzioni">
