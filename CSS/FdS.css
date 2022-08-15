@@ -93,8 +93,8 @@ input {
 }
 
 ins {
-    color: rgb(82, 79, 151);
     text-decoration: none;
+    background-color:rgb(228, 191, 146) ;
 } 
 
 abbr, .expan {

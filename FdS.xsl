@@ -59,8 +59,8 @@
                         <input id="icona_abbreviazioni" type="button" class="clicked" alt="Clicca per visualizzare le abbreviazioni fedelmente" onclick="gestoreMostraAbbreviazioni()" value="Mostra parole abbreviate"/>
                         <input id="icona_expan" type="button" class="" alt="Clicca per sciogliere le abbreviazioni" onclick="gestoreMostraExpan()" value="Sciogli le abbreviazioni"/>          
 
-                        <input id="icona_gap" type="button" class="" alt="Clicca per omettere i gap nel testo" onclick="gestoreMostraGap()" value="Mostra gap"/>
-                        <!--STESSA COSA PER I DEL-->
+                        <input id="icona_gap" type="button" class="" alt="Clicca per nascondere i gap nel testo" onclick="gestoreMostraGap()" value="Mostra gap"/>
+                        <input id="icona_del" type="button" class="" alt="Clicca per nascondere i del nel testo" onclick="gestoreMostraDel()" value="Mostra del"/>
                     </div>
                     <div id="box_icone_traduzioni">
                         <input id="icona_testo_francese" type="button" class="clicked" alt="Visualizza la trascrizione francese" onclick="gestoreMostraTrascrizioneFR()" value="Trascrizione francese"/>
@@ -225,7 +225,7 @@
         <xsl:element name="span">
             <xsl:attribute name="class">lineNumber</xsl:attribute>
             <xsl:attribute name="id">
-            <xsl:value-of select="concat('line', substring(@xml:id, 6, 1), '_', @n)" />
+                <xsl:value-of select="concat('line', substring(@xml:id, 6, 1), '_', @n)" />
             </xsl:attribute>
             <xsl:value-of select="@n" />
         </xsl:element>
@@ -233,12 +233,12 @@
 
     <!--GAP ?-->
     <xsl:template match="//tei:gap">
-        <span class="gap"> ?</span>  <!--style="display:none;">-->
+        <span class="gap" style="display:none;"> ?</span> 
     </xsl:template>
 
     <!--DEL-->
     <xsl:template match="tei:del">
-        <del><xsl:apply-templates /></del>
+        <del style="display:none;"><xsl:apply-templates /></del>
     </xsl:template>
 
     <!--ABBR-->

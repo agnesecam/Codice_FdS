@@ -166,7 +166,7 @@ function gestoreMostraExpan() {
     }
 }
 
-//Gestore mostra/nascondi GAP
+//Gestori mostra GAP e DEL
 function gestoreMostraGap() {
     try {
         nodoTastoGap = document.getElementById("icona_gap");
@@ -189,6 +189,32 @@ function gestoreMostraGap() {
         }
         else if (nodoValoreValue == "Nascondi gap"){
             nodoTastoGap.setAttribute("value", "Mostra gap");
+        }
+    } catch (e) {
+        alert("gestoreAbbreviazioni"+e);
+    }
+}
+function gestoreMostraDel() {
+    try {
+        nodoTastoDel = document.getElementById("icona_del");
+        nodiDel = document.getElementsByTagName("del");      
+        nodoValoreValue = nodoTastoDel.getAttribute("value");
+
+        for (let i = 0; i < nodiDel.length; i++) {
+            //Se i nodi hanno l'attributo "style = 'display:none;'" allora lo elimino
+            if (nodiDel[i].hasAttribute("style")) {
+                nodiDel[i].removeAttribute("style");
+            }         
+            //Se i nodi non hanno l'attributo "style = 'display:none;'" allora lo metto
+            else {
+                nodiDel[i].setAttribute("style", "display:none;");      
+            }
+        }
+        if (nodoValoreValue == "Mostra del"){
+            nodoTastoDel.setAttribute("value", "Nascondi del");
+        }
+        else if (nodoValoreValue == "Nascondi del"){
+            nodoTastoDel.setAttribute("value", "Mostra del");
         }
     } catch (e) {
         alert("gestoreAbbreviazioni"+e);
