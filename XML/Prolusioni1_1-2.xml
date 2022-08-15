@@ -8,13 +8,13 @@
             <titleStmt>
                 <title type="main">Trois premières conférences à l'Université</title> <!--Titolo preso dalla BGE-->
                 <title type="sub">(cours d'ouverture, <date when="1891-11">novembre 1891</date>)</title>
-                <author ref="#lists/TEI-ListPerson.xml#FdS" role="author">Ferdinand de Saussure</author>
+                <author ref="lists/TEI-ListPerson.xml#FdS" role="author">Ferdinand de Saussure</author>
                 <respStmt>
 					<resp>Responsability of:</resp>
-					<name ref="#lists/TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
-					<name ref="#lists/TEI-ListPerson.xml#AC">Agnese Camici</name>
-					<name ref="#lists/TEI-ListPerson.xml#SP">Silvia Piccini</name>
-					<name ref="#lists/TEI-ListPerson.xml#GC">Giuseppe Cosenza</name>
+					<name ref="lists/TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
+					<name ref="lists/TEI-ListPerson.xml#AC">Agnese Camici</name>
+					<name ref="lists/TEI-ListPerson.xml#SP">Silvia Piccini</name>
+					<name ref="lists/TEI-ListPerson.xml#GC">Giuseppe Cosenza</name>
 				</respStmt>
             </titleStmt>
             
@@ -24,20 +24,20 @@
                 </edition>
                 <respStmt>
                     <resp>Digital edition project coordinated by</resp> 
-                    <name ref="#lists/TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
-                    <name ref="#lists/TEI-ListPerson.xml#AC">Agnese Camici</name>
-                    <name ref="#lists/TEI-ListPerson.xml#SP">Silvia Piccini</name>
-                    <name ref="#lists/TEI-ListPerson.xml#EF">Emanuele Fadda</name>
-                    <name ref="#lists/TEI-ListPerson.xml#DG">Daniele Gambarara</name>
-                    <name ref="#lists/TEI-ListPerson.xml#GC">Giuseppe Cosenza</name>
-                    <name ref="#lists/TEI-ListPerson.xml#GD">Giuseppe D'Ottavi</name>
+                    <name ref="lists/TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
+                    <name ref="lists/TEI-ListPerson.xml#AC">Agnese Camici</name>
+                    <name ref="lists/TEI-ListPerson.xml#SP">Silvia Piccini</name>
+                    <name ref="lists/TEI-ListPerson.xml#EF">Emanuele Fadda</name>
+                    <name ref="lists/TEI-ListPerson.xml#DG">Daniele Gambarara</name>
+                    <name ref="lists/TEI-ListPerson.xml#GC">Giuseppe Cosenza</name>
+                    <name ref="lists/TEI-ListPerson.xml#GD">Giuseppe D'Ottavi</name>
                 </respStmt>
                 <respStmt>
                     <resp>Encoding by</resp>
-                    <name ref="#lists/TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
-                    <name ref="#lists/TEI-ListPerson.xml#AC">Agnese Camici</name>
-                    <name ref="#lists/TEI-ListPerson.xml#SP">Silvia Piccini</name>
-                    <name ref="#lists/TEI-ListPerson.xml#GC">Giuseppe Cosenza</name>
+                    <name ref="lists/TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
+                    <name ref="lists/TEI-ListPerson.xml#AC">Agnese Camici</name>
+                    <name ref="lists/TEI-ListPerson.xml#SP">Silvia Piccini</name>
+                    <name ref="lists/TEI-ListPerson.xml#GC">Giuseppe Cosenza</name>
                 </respStmt>        
             </editionStmt>
 
@@ -62,7 +62,7 @@
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <author xml:lang="fr" ref="#lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</author>
+                            <author xml:lang="fr" ref="lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
                             <title type="sub">Première conférence</title>
                             <note>
@@ -71,7 +71,7 @@
                             <textLang mainLang="fr">French</textLang>
                         </msItem>
                         <msItem>
-                            <author xml:lang="fr" ref="#lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</author>
+                            <author xml:lang="fr" ref="lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
                             <title type="sub">Deuxième conférence</title>
                             <note>
@@ -80,7 +80,7 @@
                             <textLang mainLang="fr">French</textLang>                           
                         </msItem>
                         <msItem>
-                            <author xml:lang="fr" ref="#lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</author>
+                            <author xml:lang="fr" ref="lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr">Trois premières conférences à l'Université</title>
                             <title type="sub">Troisième conférence</title>
                             <note>                            
@@ -109,7 +109,7 @@
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote xml:id="h1">The main text is written by hand by <persName ref="#lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</persName></handNote>
+                            <handNote xml:id="h1">The main text is written by hand by <persName ref="lists/TEI-ListPerson.xml#FdS">Ferdinand de Saussure</persName></handNote>
                         </handDesc>
                     </physDesc>
                     <history>
@@ -385,7 +385,7 @@
                                 <lb xml:id="lb3_p1" n="3" facs="#facs_p1_lb3"/>
                                 d’études <del change="#CHG-3" rend="overstrike" facs="#facs_del1-p1r3"><gap atLeast="1" atMost="3" unit="words" reason="illegible"/></del> nouveau <del change="#CHG-3" rend="overstrike" facs="#facs_del2-p1r3"><gap atLeast="6" atMost="8" unit="words" reason="illegible"/></del>
                                 <lb xml:id="lb4_p1" n="4" facs="#facs_p1_lb4"/>
-                                <del change="#CHG-3" rend="overstrike" facs="#facs_del1-p1r4"> <gap atLeast="1" atMost="2" unit="words" reason="illegible"/></del> sdans <orgName ref="#/lists/TEI-ListBibl.xml#UniGeneve">notre Université <supplied resp="lists/TEI-ListPerson.xml#AC"> de Genève</supplied></orgName><ptr target="#p1_note1"/>, <add change="#CHG-3" place="above" facs="#facs_si-javais-p1r4">si j’avais </add><del change="#CHG-3" rend="overstrike"><gap atLeast="7" atMost="8" unit="words" reason="illegible"/></del>
+                                <del change="#CHG-3" rend="overstrike" facs="#facs_del1-p1r4"> <gap atLeast="1" atMost="2" unit="words" reason="illegible"/></del> sdans <orgName ref="lists/TEI-ListBibl.xml#UniGeneve">notre Université <supplied resp="lists/TEI-ListPerson.xml#AC"> de Genève</supplied></orgName><ptr target="#p1_note1"/>, <add change="#CHG-3" place="above" facs="#facs_si-javais-p1r4">si j’avais </add><del change="#CHG-3" rend="overstrike"><gap atLeast="7" atMost="8" unit="words" reason="illegible"/></del>
                                 <lb xml:id="lb5_p1" n="5" facs="#facs_p1_lb5"/>
                                 <add change="#CHG-4" place="left margin" facs="#facs_aujourdhui-p1r5">aujourd’hui </add><add change="#CHG-3" place="above" facs="#facs_lamissionou-p1r5">la mission ou le</add> privilège <del change="#CHG-3" rend="overstrike" facs="#facs_del1-p1r5">de vous</del>
                                 <lb xml:id="lb6_p1" n="6" facs="#facs_p1_lb6"/>
@@ -439,7 +439,7 @@
                                     rendre dans une
                                 </add> 
                                 <lb xml:id="lb29_p1" n="29" facs="#facs_p1_lb29"/>
-                                <orgName ref="#lists/TEI-ListOrg.xml#FacLettres">Faculté des lettres</orgName>, <delSpan change="#CHG-2" spanTo="delSpan1" rend="overstrike" facs="#facs_del1-p1r29"/><gap reason="illegible" extent="3" unit="lines"/><anchor xml:id="delSpan1"/> <add place="above" facs="#facs_add1-p1r29">je craindrais de ne pas remplir très</add> 
+                                <orgName ref="lists/TEI-ListOrg.xml#FacLettres">Faculté des lettres</orgName>, <delSpan change="#CHG-2" spanTo="delSpan1" rend="overstrike" facs="#facs_del1-p1r29"/><gap reason="illegible" extent="3" unit="lines"/><anchor xml:id="delSpan1"/> <add place="above" facs="#facs_add1-p1r29">je craindrais de ne pas remplir très</add> 
                                 <lb xml:id="lb30_p1" n="30" facs="#facs_p1_lb30"/>
                                 <add change="#CHG-3" place="above" facs="#facs_del1-p1r30">dignement ma tâche, mais <choice facs="#facs_certain-p1r30"><abbr>certain.</abbr> <expan>certain<ex>ement</ex></expan></choice></add> 
                                 <lb xml:id="lb31_p1" n="31" facs="#facs_del1-p1r31"/>
@@ -494,7 +494,7 @@
                                 <lb xml:id="lb2_p2" n="2" facs="#facs_p2lb2"/>
                                 ici à rappeler le nom
                                 <lb xml:id="lb3_p2" n="3" facs="#facs_p2lb3"/>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                <persName ref="lists/TEI-ListPerson.xml#FdS">Lorem ipsum</persName> dolor sit amet, consectetur adipiscing elit, 
                                 <lb xml:id="lb4_p2" n="4" facs="#facs_p2lb4"/>
                                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                 <lb xml:id="lb5_p2" n="5" facs="#facs_p2lb5"/>
@@ -512,7 +512,7 @@
                                 <lb xml:id="lb11_p2" n="11" facs="#facs_p2lb11"/>
                                 blandit cursus risus at ultrices mi tempus imperdiet. Pulvinar sapien et ligula 
                                 <lb xml:id="lb12_p2" n="12" facs="#facs_p2lb12"/>
-                                ullamcorper malesuada proin libero nunc consequat.
+                                <placeName ref="lists/TEI-ListPlace.xml#CS">quis</placeName> malesuada proin libero nunc consequat.
                             </ab>
                         </div>
                         <!--Fine 2a pagina, la 3a pericope continua nella 3a pagina-->
@@ -582,7 +582,7 @@
                             <lb/>sed do eiusmod  aliqua. 
                             <lb/>Accumsan sit amet  tempus. Interdum  
                             <lb/>id faucibus nisl. Nisl scipit  est ultricies 
-                            <lb/>integer quis auctor. Tortor nunc.  pellentesque 
+                            <lb/>integer  auctor. Tortor nunc.  pellentesque 
                             <lb/>diam volutpat commodo. Sapien bibendum. 
                             <lb/>Tempus iaculis lacus . Luctus accumsan tortor 
                             <lb/>posuere ac ut e nunc morbi 

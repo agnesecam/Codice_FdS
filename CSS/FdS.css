@@ -93,12 +93,24 @@ input {
 }
 
 ins {
+    font-variant: small-caps;
     text-decoration: none;
-    background-color:rgb(228, 191, 146) ;
 } 
 
 abbr, .expan {
     font-style: italic;
+}
+
+.persName {
+    color: fuchsia;
+}
+
+.placeName {
+    color: green;
+}
+
+.orgName {
+    color: orange;
 }
 
 /****** USATE IN JAVASCRIPT ******/
@@ -114,6 +126,6 @@ abbr, .expan {
     display: inline;
 }
 
-.clicked {
+/*.clicked {
     opacity: 0.3;
-}
+}*/

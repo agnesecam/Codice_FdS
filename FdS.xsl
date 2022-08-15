@@ -286,5 +286,30 @@
     <xsl:template match="//tei:hi[@rend = 'underline']">
         <u><xsl:apply-templates /></u>
     </xsl:template>
+    
+    <!--persName-->
+    <xsl:template match="//tei:persName">
+        <xsl:element name="span">            
+            <xsl:attribute name="class">persName</xsl:attribute>
+            <xsl:value-of select="current()" />
+        </xsl:element>
+    </xsl:template>
+    
+    <!--placeName-->
+    <xsl:template match="//tei:placeName">
+        <xsl:element name="span">            
+            <xsl:attribute name="class">placeName</xsl:attribute>
+            <xsl:value-of select="current()" />
+        </xsl:element>
+    </xsl:template>
+
+    <!--orgName-->
+    <xsl:template match="//tei:orgName">
+        <xsl:element name="span">            
+            <xsl:attribute name="class">orgName</xsl:attribute>
+            <xsl:value-of select="current()" />
+        </xsl:element>
+    </xsl:template>
+
 
 </xsl:stylesheet>
