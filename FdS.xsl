@@ -225,7 +225,7 @@
         <xsl:element name="span">
             <xsl:attribute name="class">lineNumber</xsl:attribute>
             <xsl:attribute name="id">
-                <xsl:value-of select="concat('line', substring(@xml:id, 6, 1), '_', @n)" />
+                <xsl:value-of select="concat('line', @n, '_', substring-after(@xml:id, '_' ))" /> <!--line24_p2-->
             </xsl:attribute>
             <xsl:value-of select="@n" />
         </xsl:element>

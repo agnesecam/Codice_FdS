@@ -82,19 +82,13 @@ input {
     margin-top: 10px;
 }
 
-.lineNumber {
-    padding: 0.5em;
-    margin-right: 0.5em;
-    font-weight: bold;
-}
-
 .gap {
     font-weight: bold;
 }
 
 ins {
-    font-variant: small-caps;
     text-decoration: none;
+    color: rgb(116, 114, 111);
 } 
 
 abbr, .expan {
@@ -111,6 +105,15 @@ abbr, .expan {
 
 .orgName {
     color: orange;
+}
+
+
+.lineNumber {
+    padding: 0.5em;
+    margin-right: 0.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
 }
 
 /****** USATE IN JAVASCRIPT ******/
