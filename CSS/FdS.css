@@ -130,7 +130,8 @@ abbr, .expan {
 /****** USATE IN JAVASCRIPT ******/
 .immagini_scan {
     display: block;
-    padding: 22px;
+    width: 600px;
+    height: 900px;
 }
 .nascondi {
     display: none;

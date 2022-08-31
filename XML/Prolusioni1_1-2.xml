@@ -262,44 +262,49 @@
             <!--Pericopi e numerazione a mano-->
             <!--<zone ulx="259" uly="668" lrx="3708" lry="4155" rendition="hotspot" xml:id="facs_Pericope1" />-->         <!--Tutta la 1a pericope, da "Si la chaire que j’ai en" fino a "pourrais me plaindre ici de l’abandon"-->
             <!--<zone ulx="271" uly="4181" lrx="3670" lry="5707" rendition="hotspot" xml:id="facs_Pericope2a" />-->     <!--Parte della 2a pericope, ma solo fino a "ou pour", poche parole finali della 2a sono nel secondo foglio-->
-            <zone ulx="56" uly="82" lrx="97" lry="115" rendition="hotspot" xml:id="facs_HandPageNumber-1" />            <!--Numero 1 sx cerchiato -->
-            <zone ulx="511" uly="64" lrx="523" lry="80" rendition="hotspot" xml:id="facs_PrintPageNumber-2" />          <!--Numero 2 dx stampato -->
+            <zone ulx="52" uly="80" lrx="102" lry="123" rendition="hotspot" xml:id="facs_HandPageNumber-1" />            <!--Numero 1 sx cerchiato -->
+            <zone ulx="510" uly="61" lrx="527" lry="84" rendition="hotspot" xml:id="facs_PrintPageNumber-2" />          <!--Numero 2 dx stampato -->
             <!--Righe-->
-            <zone ulx="980" uly="654" lrx="3471" lry="802" rendition="line" xml:id="facs_p1_lb1"/>                  <!--1a riga-->
-            <zone ulx="939" uly="921" lrx="3647" lry="991" rendition="line" xml:id="facs_p1_lb2"/>                  <!--2a riga-->
-            <zone ulx="939" uly="1026" lrx="3646" lry="1242" rendition="line" xml:id="facs_p1_lb3"/>                <!--3a riga-->
-            <zone ulx="934" uly="1261" lrx="3639" lry="1460" rendition="line" xml:id="facs_p1_lb4"/>                <!--4a riga-->
-            <zone ulx="966" uly="1491" lrx="3630" lry="1613" rendition="line" xml:id="facs_p1_lb5"/>                <!--5a riga intera, anche pezzo cancellato -->
-            <zone ulx="955" uly="1613" lrx="3335" lry="1799" rendition="line" xml:id="facs_p1_lb6"/>                <!--6a riga intera, anche pezzo cancellato-->
-            <zone ulx="359" uly="1877" lrx="853" lry="1911" rendition="line" xml:id="facs_p1_lb7"/>                 <!--7a riga, que la sc.-->
-            <zone ulx="397" uly="1938" lrx="795" lry="2040" rendition="line" xml:id="facs_p1_lb8"/>                 <!--8a riga, l.age-->
-            <zone ulx="408" uly="2019" lrx="852" lry="2108" rendition="line" xml:id="facs_p1_lb9"/>                 <!--9a riga, à constr.-->
-            <zone ulx="291" uly="2127" lrx="744" lry="2243" rendition="line" xml:id="facs_p1_lb10"/>                <!--10a riga, ill.+70 ans-->
-            <zone ulx="275" uly="2263" lrx="634" lry="2344" rendition="line" xml:id="facs_p1_lb11"/>                <!--11a riga, à + canc-->
-            <zone ulx="279" uly="2367" lrx="514" lry="2450" rendition="line" xml:id="facs_p1_lb12"/>                <!--12a riga, décrire-->
-            <zone points = ' 297,2458 298,2533 600,2481 575,2417 ' rendition="line" xml:id="facs_p1_lb13"/>         <!--13a riga, ds ses grandes-->
-            <zone points = ' 302,2548 303,2645 865,2506 851,2427 ' rendition="line" xml:id="facs_p1_lb14"/>         <!--14a riga, lignes l'etat present-->
-            <zone points = ' 295,2668 298,2746 839,2606 834,2574 ' rendition="line" xml:id="facs_p1_lb15"/>         <!--15a riga, de cette science-->
-            <zone points = ' 244,2765 272,2879 810,2730 802,2657 ' rendition="line" xml:id="facs_p1_lb16"/>         <!--16a riga, à parcourir-->
-            <zone points = ' 297,2893 302,2973 851,2826 831,2767 ' rendition="line" xml:id="facs_p1_lb17"/>         <!--17a riga, n'est pas très long-->
-            <zone points = ' 287,2996 285,3097 819,2964 802,2889 ' rendition="line" xml:id="facs_p1_lb18"/>         <!--18a riga, ou à pronostiquer-->
-            <zone points = ' 324,3107 308,3189 775,3088 764,3028 ' rendition="line" xml:id="facs_p1_lb19"/>         <!--19a riga, son avenir-->
-            <zone points = ' 294,3221 278,3314 848,3181 795,3123 ' rendition="line" xml:id="facs_p1_lb20"/>         <!--20a riga, à définir son-->
-            <zone points = ' 304,3340 292,3440 868,3254 861,3196 ' rendition="line" xml:id="facs_p1_lb21"/>         <!--21a riga, but, son utilité-->
-            <zone points = ' 297,3466 295,3534 845,3364 813,3313 ' rendition="line" xml:id="facs_p1_lb22"/>         <!--22a riga, à marquer la-->
-            <zone points = ' 299,3584 287,3669 824,3468 810,3429 ' rendition="line" xml:id="facs_p1_lb23"/>         <!--23a riga, place qu’elle-->
-            <zone points = ' 308,3694 319,3731 869,3537 852,3486 ' rendition="line" xml:id="facs_p1_lb24"/>         <!--24a riga, occupe dans le-->
-            <zone points = ' 288,3806 300,3846 831,3650 803,3601 ' rendition="line" xml:id="facs_p1_lb25"/>         <!--25a riga, cercle des-->
-            <zone points = ' 290,3886 295,3978 843,3727 817,3683 ' rendition="line" xml:id="facs_p1_lb26"/>         <!--26a riga, humaines et les-->
-            <zone points = ' 324,4001 331,4080 955,3776 899,3725 ' rendition="line" xml:id="facs_p1_lb27"/>         <!--27a riga, services qu’elle peut -->
-            <zone points = ' 362,4085 371,4143 988,3803 965,3783 ' rendition="line" xml:id="facs_p1_lb28"/>         <!--28a riga, rendre dans une-->
-            <zone ulx="1003" uly="3548" lrx="3557" lry="3766" rendition="line" xml:id="facs_p1_lb29"/>              <!--29a riga, Faculté des lettres-->
-            <zone points = ' 1027,3978 1039,3870 3457,3782 3435,3860 ' rendition="line" xml:id="facs_p1_lb30"/>     <!--30a riga, cancellata e sopraelevata-->
-            <zone points = ' 1013,4158 1025,4030 3521,3844 3515,4014 ' rendition="line" xml:id="facs_p1_lb31"/>     <!--31a riga, cancellata e sopraelevata-->
-            <zone points = ' 288,4278 290,4439 799,4215 763,4146 ' rendition="line" xml:id="facs_p1_lb32"/>         <!--32a riga, a margine sinistro "Sans exalter"-->
-            <zone points = ' 288,4475 298,4527 785,4362 722,4340 ' rendition="line" xml:id="facs_p1_lb33"/>         <!--33a riga, a margine sinistro "outre misure"-->
-            <zone points = ' 358,4503 374,4573 974,4376 1174,4376 1178,4326 958,4321 ' rendition="line" xml:id="facs_p1_lb34"/>       <!--34a riga, a margine sinitro "les mérites de la linguistique"-->
-            <zone points = ' 593,4525 598,4571 974,4460 953,4393 ' rendition="line" xml:id="facs_p1_lb35"/>         <!--35a riga, margine sinistro "quel est le"-->
+            <zone ulx="140" uly="91" lrx="524" lry="115" rendition="line" xml:id="facs_p1_lb1"/>                  <!--1a riga-->
+            <zone ulx="139" uly="128" lrx="542" lry="149" rendition="line" xml:id="facs_p1_lb2"/>               <!--2a riga-->
+            <zone ulx="139" uly="163" lrx="547" lry="179" rendition="line" xml:id="facs_p1_lb3"/>               <!--3a riga-->
+            <zone ulx="142" uly="190" lrx="543" lry="210" rendition="line" xml:id="facs_p1_lb4"/>               <!--4a riga-->
+            <zone ulx="55" uly="211" lrx="544" lry="239" rendition="line" xml:id="facs_p1_lb5"/>                  <!--5a riga, anche aggiunta sx-->
+            <zone ulx="78" uly="244" lrx="507" lry="257" rendition="line" xml:id="facs_p1_lb6"/>                  <!--6a riga intera, anche pezzo cancellato -->
+
+            <zone ulx="51" uly="274" lrx="130" lry="281" rendition="line" xml:id="facs_p1_lb7"/>                  <!--7a riga, que la sc.-->
+            <zone ulx="54" uly="289" lrx="127" lry="294" rendition="line" xml:id="facs_p1_lb8"/>                  <!--8a riga, l.age-->
+            <zone ulx="54" uly="302" lrx="124" lry="311" rendition="line" xml:id="facs_p1_lb9"/>                  <!--9a riga, à constr.-->
+            <zone ulx="41" uly="314" lrx="110" lry="325" rendition="line" xml:id="facs_p1_lb10"/>                <!--10a riga, ill.+70 ans-->
+            <zone ulx="37" uly="332" lrx="91" lry="346" rendition="line" xml:id="facs_p1_lb11"/>                  <!--11a riga, à + canc-->
+            <zone ulx="39" uly="348" lrx="75" lry="354" rendition="line" xml:id="facs_p1_lb12"/>                  <!--12a riga, décrire-->
+            <zone ulx="42" uly="360" lrx="87" lry="370" rendition="line" xml:id="facs_p1_lb13"/>                  <!--13a riga, ds ses grandes-->
+            <zone ulx="40" uly="375" lrx="121" lry="379" rendition="line" xml:id="facs_p1_lb14"/>                <!--14a riga, lignes l'etat present-->
+            <zone ulx="39" uly="384" lrx="119" lry="395" rendition="line" xml:id="facs_p1_lb15"/>                <!--15a riga, de cette science-->
+            <zone ulx="39" uly="403" lrx="119" lry="409" rendition="line" xml:id="facs_p1_lb16"/>                <!--16a riga, à parcourir-->
+
+            <zone ulx="38" uly="424" lrx="125" lry="426" rendition="line" xml:id="facs_p1_lb17"/>                <!--17a riga, n'est pas très long-->
+            <zone ulx="43" uly="440" lrx="117" lry="442" rendition="line" xml:id="facs_p1_lb18"/>                <!--18a riga, ou à pronostiquer-->
+            <zone ulx="42" uly="455" lrx="113" lry="458" rendition="line" xml:id="facs_p1_lb19"/>                <!--19a riga, son avenir-->
+            <zone ulx="39" uly="472" lrx="116" lry="474" rendition="line" xml:id="facs_p1_lb20"/>                <!--20a riga, à définir son-->
+            <zone ulx="43" uly="487" lrx="108" lry="490" rendition="line" xml:id="facs_p1_lb21"/>                <!--21a riga, but, son utilité-->
+            <zone ulx="44" uly="506" lrx="99" lry="507" rendition="line" xml:id="facs_p1_lb22"/>                  <!--22a riga, à marquer la-->
+            <zone ulx="41" uly="524" lrx="91" lry="527" rendition="line" xml:id="facs_p1_lb23"/>                  <!--23a riga, place qu’elle-->
+            <zone ulx="42" uly="542" lrx="85" lry="544" rendition="line" xml:id="facs_p1_lb24"/>                  <!--24a riga, occupe dans le-->
+            <zone ulx="50" uly="556" lrx="76" lry="563" rendition="line" xml:id="facs_p1_lb25"/>                  <!--25a riga, cercle des-->
+            <zone ulx="43" uly="573" lrx="75" lry="580" rendition="line" xml:id="facs_p1_lb26"/>                  <!--26a riga, humaines et les-->
+            <zone ulx="45" uly="589" lrx="72" lry="596" rendition="line" xml:id="facs_p1_lb27"/>                  <!--27a riga, services qu’elle peut -->
+            <zone ulx="50" uly="602" lrx="81" lry="611" rendition="line" xml:id="facs_p1_lb28"/>                  <!--28a riga, rendre dans une-->
+
+            <zone ulx="147" uly="525" lrx="533" lry="549" rendition="line" xml:id="facs_p1_lb29"/>             <!--29a riga, Faculté des lettres-->
+            <zone ulx="155" uly="557" lrx="523" lry="573" rendition="line" xml:id="facs_p1_lb30"/>             <!--30a riga, cancellata e sopraelevata-->
+            <zone ulx="155" uly="582" lrx="522" lry="591" rendition="line" xml:id="facs_p1_lb31"/>             <!--31a riga, cancellata e sopraelevata-->
+            
+            <zone ulx="41" uly="619" lrx="120" lry="627" rendition="line" xml:id="facs_p1_lb32"/>         <!--32a riga, a margine sinistro "Sans exalter"-->
+            <zone ulx="41" uly="646" lrx="111" lry="652" rendition="line" xml:id="facs_p1_lb33"/>         <!--33a riga, a margine sinistro "outre misure"-->
+            <zone ulx="49" uly="660" lrx="110" lry="664" rendition="line" xml:id="facs_p1_lb34"/>       <!--34a riga, a margine sinitro "les mérites de la linguistique"-->
+            <zone ulx="123" uly="641" lrx="223" lry="652" rendition="line" xml:id="facs_p1_lb35"/>         <!--35a riga, margine sinistro "quel est le"-->
+
             <zone ulx="996" uly="4830" lrx="3562" lry="5036" rendition="line" xml:id="facs_p1_lb36"/>               <!--36a riga, riprende corpo testo centrale "profit que peut tirer"-->
             <zone ulx="1068" uly="5019" lrx="3677" lry="5147" rendition="line" xml:id="facs_p1_lb37"/>              <!--37a riga, "étude l’érudition classique la connaissance"-->
             <zone ulx="1070" uly="5207" lrx="3252" lry="5351" rendition="line" xml:id="facs_p1lb38"/>               <!--38a riga, "des langues greque"-->
@@ -307,6 +312,9 @@
             <zone ulx="1272" uly="5523" lrx="3468" lry="5691" rendition="line" xml:id="facs_p1lb40"/>               <!--40a riga, "étude pour l'histoire ou pour"-->
             <zone ulx="470" uly="733" lrx="557" lry="760" rendition="line" xml:id="facs_p1_lb25-THVP"/>                  <!--THVP-->
             <zone ulx="466" uly="699" lrx="558" lry="725" rendition="line" xml:id="facs_p1_lb26-upTHVP"/>                  <!--parte sopra THVP-->
+            
+            
+            
             <!--Hotspot-->
             <zone ulx="3079" uly="692" lrx="3466" lry="805" rendition="hotspot" xml:id="facs_ence-p1r1"/>           <!--inserimento "en ce." nella 1a riga-->
             <zone ulx="1430" uly="1045" lrx="1676" lry="1113" rendition="hotspot" xml:id="facs_del1-p1r3"/>         <!--cancellatura parola sopraelevata riga 3-->
@@ -345,6 +353,10 @@
             <zone ulx="769" uly="5359" lrx="1029" lry="5487" rendition="hotspot" xml:id="facs_litteraire-p1r39"/>   <!--parola "litteraire" riga 39--> 
             <zone ulx="1947" uly="5551" lrx="2263" lry="5665" rendition="hotspot" xml:id="facs_del1-p1r40"/>        <!--cancellatura "l' + illeggibile" riga 40-->
             <zone ulx="2379" uly="5517" lrx="2829" lry="5655" rendition="hotspot" xml:id="facs_histoire-p1r40"/>    <!--parola "histoire" riga 40-->
+            
+
+
+    
             <!--Fine 1a pagina e anche fine 1a pericope-->
         </surface>
         <!--SECONDA PAGINA-->
