@@ -40,7 +40,7 @@ footer div {
 
 input {
     cursor: pointer;
-    margin-right:2px;
+    margin-right: 2px;
 }
 
 .iconaSelezionata {
@@ -80,6 +80,14 @@ input {
 
 #box_icone_traduzioni {
     margin-top: 10px;
+}
+
+#box_legenda {
+    border: 2px solid black;
+    background-color: rgba(211, 211, 211, 0.336);
+    padding: 4px;
+    width: 30%;
+    margin-bottom: 20px;
 }
 
 .gap {

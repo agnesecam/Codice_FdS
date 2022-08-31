@@ -55,6 +55,13 @@
                         <!--OUTPUT: "Pagine 1-2" "Pagine 20-21" "Pagine 3-4" ovvero pagine codificate nel file contenente la pagina selezionata-->
                         <xsl:value-of select="concat('Pagine ', substring-before(substring-after(document-uri(),'1_'), '.xml'))"/>
                     </h2>
+                    <div id="box_legenda">
+                        <b>Legenda</b><br/><br/>
+                        <b>?</b> indica un gap nel manoscritto<br/>
+                        Le <sup>parole</sup> in apice sono aggiunte al testo sopra alla riga corrente<br/>
+                        Le <sub place="below">parole</sub> in pedice sono aggiunte al testo sotto alla riga corrente<br/>
+                        Le <del>parole</del> cancellate sono barrate
+                    </div>
                     <div id="box_icone_formattazione">
                         <input id="icona_abbr_expan" type="button" alt="Clicca per sciogliere o contrarre le abbreviazioni" onclick="gestoreAbbr()" value="Sciogli le abbreviazioni"/>
                         <br/>
