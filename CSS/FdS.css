@@ -88,6 +88,8 @@ input {
     padding: 4px;
     width: 30%;
     margin-bottom: 20px;
+    margin-right: 40px;
+    display: inline-block;
 }
 
 .gap {
