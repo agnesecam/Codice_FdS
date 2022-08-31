@@ -300,18 +300,19 @@
             <zone ulx="155" uly="557" lrx="523" lry="573" rendition="line" xml:id="facs_p1_lb30"/>             <!--30a riga, cancellata e sopraelevata-->
             <zone ulx="155" uly="582" lrx="522" lry="591" rendition="line" xml:id="facs_p1_lb31"/>             <!--31a riga, cancellata e sopraelevata-->
             
-            <zone ulx="41" uly="619" lrx="120" lry="627" rendition="line" xml:id="facs_p1_lb32"/>         <!--32a riga, a margine sinistro "Sans exalter"-->
-            <zone ulx="41" uly="646" lrx="111" lry="652" rendition="line" xml:id="facs_p1_lb33"/>         <!--33a riga, a margine sinistro "outre misure"-->
-            <zone ulx="49" uly="660" lrx="110" lry="664" rendition="line" xml:id="facs_p1_lb34"/>       <!--34a riga, a margine sinitro "les mérites de la linguistique"-->
-            <zone ulx="123" uly="641" lrx="223" lry="652" rendition="line" xml:id="facs_p1_lb35"/>         <!--35a riga, margine sinistro "quel est le"-->
+            <zone ulx="41" uly="619" lrx="120" lry="627" rendition="line" xml:id="facs_p1_lb32"/>               <!--32a riga, a margine sinistro "Sans exalter"-->
+            <zone ulx="41" uly="646" lrx="111" lry="652" rendition="line" xml:id="facs_p1_lb33"/>               <!--33a riga, a margine sinistro "outre misure"-->
+            <zone ulx="49" uly="660" lrx="110" lry="664" rendition="line" xml:id="facs_p1_lb34"/>               <!--34a riga, a margine sinitro "les mérites de la linguistique"-->
+            <zone ulx="123" uly="641" lrx="223" lry="652" rendition="line" xml:id="facs_p1_lb35"/>             <!--35a riga, margine sinistro "quel est le"-->
 
-            <zone ulx="996" uly="4830" lrx="3562" lry="5036" rendition="line" xml:id="facs_p1_lb36"/>               <!--36a riga, riprende corpo testo centrale "profit que peut tirer"-->
-            <zone ulx="1068" uly="5019" lrx="3677" lry="5147" rendition="line" xml:id="facs_p1_lb37"/>              <!--37a riga, "étude l’érudition classique la connaissance"-->
-            <zone ulx="1070" uly="5207" lrx="3252" lry="5351" rendition="line" xml:id="facs_p1lb38"/>               <!--38a riga, "des langues greque"-->
-            <zone ulx="1169" uly="5379" lrx="3610" lry="5567" rendition="line" xml:id="facs_p1lb39"/>               <!--39a riga, "eût-elle un but simplement l’intérêt"-->
-            <zone ulx="1272" uly="5523" lrx="3468" lry="5691" rendition="line" xml:id="facs_p1lb40"/>               <!--40a riga, "étude pour l'histoire ou pour"-->
-            <zone ulx="470" uly="733" lrx="557" lry="760" rendition="line" xml:id="facs_p1_lb25-THVP"/>                  <!--THVP-->
-            <zone ulx="466" uly="699" lrx="558" lry="725" rendition="line" xml:id="facs_p1_lb26-upTHVP"/>                  <!--parte sopra THVP-->
+            <zone ulx="152" uly="721" lrx="526" lry="732" rendition="line" xml:id="facs_p1_lb36"/>               <!--36a riga, riprende corpo testo centrale "profit que peut tirer"-->
+            <zone ulx="155" uly="744" lrx="543" lry="757" rendition="line" xml:id="facs_p1_lb37"/>             <!--37a riga, "étude l’érudition classique la connaissance"-->
+            <zone ulx="155" uly="770" lrx="529" lry="787" rendition="line" xml:id="facs_p1lb38"/>               <!--38a riga, "des langues greque"-->
+            <zone ulx="179" uly="796" lrx="539" lry="811" rendition="line" xml:id="facs_p1lb39"/>               <!--39a riga, "eût-elle un but simplement l’intérêt"-->
+            <zone ulx="190" uly="822" lrx="517" lry="839" rendition="line" xml:id="facs_p1lb40"/>               <!--40a riga, "étude pour l'histoire ou pour"-->
+
+            <zone ulx="47" uly="771" lrx="147" lry="814" rendition="line" xml:id="facs_p1_lb25-THVP"/>          <!--THVP-->
+            <zone uulx="47" uly="818" lrx="149" lry="848" rendition="line" xml:id="facs_p1_lb26-upTHVP"/>     <!--parte sopra THVP-->
             
             
             
