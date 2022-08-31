@@ -278,3 +278,19 @@ function gestoreMostraTraduzioneEN() {
         alert("gestoreAbbreviazioni"+e);
     }
 }
+
+//Evidenizia zona testo corrispondente al facs
+function gestoreEvidenzia(name){  
+    try {
+        console.log(name);
+        /*if (name == 'ID#LL1.1_line_fr-01' ) {
+            
+            document.getElementsByName(name).item(0).className='freccia_sopra';
+        } else {
+            document.getElementsByName(name).item(0).className='dot';
+            
+        }*/
+    }catch(e) {
+        alert("gestoreEvidenzia()"+e);   
+    }                                     
+}

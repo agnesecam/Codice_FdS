@@ -203,7 +203,7 @@
                     <xsl:for-each select="parent::tei:surface/tei:zone">
                         <xsl:element name="area">   
                             <xsl:attribute name="class">
-                                <xsl:value-of select="concat(parent::tei:surface/@xml:id, '_class')"/>  <!-- recupero l'ID del surface padre di zone -->     
+                                <xsl:value-of select="concat(parent::tei:surface/@xml:id, '_class')"/>  <!-- recupero l'ID del surface padre di zone, class="scan_p1_class"> -->     
                             </xsl:attribute>   
                             <xsl:attribute name="id">
                                 <xsl:value-of select="@xml:id"/>       

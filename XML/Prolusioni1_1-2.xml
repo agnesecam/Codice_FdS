@@ -260,10 +260,10 @@
         <surface n="1" xml:id="scan_p1">
             <graphic url='ms_fr_03951_01_1_p001.jpg'/> 
             <!--Pericopi e numerazione a mano-->
-            <zone ulx="259" uly="668" lrx="3708" lry="4155" rendition="hotspot" xml:id="facs_Pericope1" />         <!--Tutta la 1a pericope, da "Si la chaire que j’ai en" fino a "pourrais me plaindre ici de l’abandon"-->
-            <zone ulx="271" uly="4181" lrx="3670" lry="5707" rendition="hotspot" xml:id="facs_Pericope2a" />        <!--Parte della 2a pericope, ma solo fino a "ou pour", poche parole finali della 2a sono nel secondo foglio-->
-            <zone ulx="377" uly="536" lrx="655" lry="786" rendition="hotspot" xml:id="facs_HandPageNumber-1" />     <!--Numero 1 sx cerchiato -->
-            <zone ulx="3430" uly="441" lrx="3501" lry="525" rendition="hotspot" xml:id="facs_PrintPageNumber-2" />  <!--Numero 2 dx stampato -->
+            <!--<zone ulx="259" uly="668" lrx="3708" lry="4155" rendition="hotspot" xml:id="facs_Pericope1" />-->         <!--Tutta la 1a pericope, da "Si la chaire que j’ai en" fino a "pourrais me plaindre ici de l’abandon"-->
+            <!--<zone ulx="271" uly="4181" lrx="3670" lry="5707" rendition="hotspot" xml:id="facs_Pericope2a" />-->     <!--Parte della 2a pericope, ma solo fino a "ou pour", poche parole finali della 2a sono nel secondo foglio-->
+            <zone ulx="56" uly="82" lrx="97" lry="115" rendition="hotspot" xml:id="facs_HandPageNumber-1" />            <!--Numero 1 sx cerchiato -->
+            <zone ulx="511" uly="64" lrx="523" lry="80" rendition="hotspot" xml:id="facs_PrintPageNumber-2" />          <!--Numero 2 dx stampato -->
             <!--Righe-->
             <zone ulx="980" uly="654" lrx="3471" lry="802" rendition="line" xml:id="facs_p1_lb1"/>                  <!--1a riga-->
             <zone ulx="939" uly="921" lrx="3647" lry="991" rendition="line" xml:id="facs_p1_lb2"/>                  <!--2a riga-->
