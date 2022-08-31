@@ -58,9 +58,9 @@
                     <div id="box_icone_formattazione">
                         <input id="icona_abbr_expan" type="button" alt="Clicca per sciogliere o contrarre le abbreviazioni" onclick="gestoreAbbr()" value="Sciogli le abbreviazioni"/>
                         <br/>
-                        <input id="icona_gap" type="button" class="" alt="Clicca per nascondere i gap nel testo" onclick="gestoreMostraGap()" value="Mostra gap"/>
+                        <input id="icona_gap" type="button" class="" alt="Clicca per nascondere i gap nel testo" onclick="gestoreMostraGap()" value="Nascondi gap"/>
                         <br/>
-                        <input id="icona_del" type="button" class="" alt="Clicca per nascondere i del nel testo" onclick="gestoreMostraDel()" value="Mostra del"/>
+                        <input id="icona_del" type="button" class="" alt="Clicca per nascondere i del nel testo" onclick="gestoreMostraDel()" value="Nascondi del"/>
                     </div>
                     <div id="box_icone_traduzioni">
                         <input id="icona_testo_francese" type="button" class="clicked" alt="Visualizza la trascrizione francese" onclick="gestoreMostraTrascrizioneFR()" value="Trascrizione francese"/>
@@ -233,12 +233,12 @@
 
     <!--GAP ?-->
     <xsl:template match="//tei:gap">
-        <span class="gap" style="display:none;"> ?</span> 
+        <span class="gap" > ?</span> 
     </xsl:template>
 
     <!--DEL-->
     <xsl:template match="tei:del">
-        <del style="display:none;"><xsl:apply-templates /></del>
+        <del><xsl:apply-templates /></del>
     </xsl:template>
 
     <!--ABBR-->
