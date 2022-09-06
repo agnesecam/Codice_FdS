@@ -145,5 +145,21 @@ abbr, .expan {
 }*/
 
 .dot {
-    background-color: red;
+    color: red;
+    padding: 0.5em;
+    margin-right: 0.5em;
+    font-weight: bold;
+    text-decoration: none;
+    animation: blink-animation 0.8s steps(5, start) 4;
+    -webkit-animation: blink-animation s steps(5, start) 4;
+}
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
 }

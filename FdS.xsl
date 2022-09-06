@@ -215,28 +215,22 @@
                                 <xsl:value-of select="@ulx"/>,<xsl:value-of select="@uly"/>,<xsl:value-of select="@lrx"/>,<xsl:value-of select="@lry"/>
                             </xsl:attribute>
                             <xsl:attribute name="href"> 
-                                <xsl:value-of select="concat('#ID#', @xml:id)"/>    <!-- href="#ID#LL1.1_line_fr-01" -->
+                                <xsl:value-of select="concat('#',(substring-after(@xml:id, 'facs_')))"/>    <!-- href="facs_HandpageNumber-1" -->    <!--VOGLIO CHE HREF SIA solo HandpageNumber-1-->
                             </xsl:attribute>
+                            <xsl:variable name="stringa" select="substring-after(@xml:id, 'facs_')"/>
+                                
+                            
                             <xsl:attribute name="onclick">
-                                <xsl:value-of select="concat('gestoreEvidenzia( &quot;ID#', @xml:id, '&quot;)' )"/>     <!-- gestoreEvidenzia("#ID#LL1.1_line_fr-01") --> 
+                                <xsl:value-of select="'gestoreEvidenzia(id)'"/>     <!-- gestoreEvidenzia("facs_HandpageNumber-1") - passo come parametro l'id della zona cliccata-->
                             </xsl:attribute>
                         </xsl:element>
                     </xsl:for-each>
                 </xsl:element>
             </xsl:element>
         </xsl:for-each>
-        <xsl:call-template name="facs_template_body"/>
+        
     </xsl:template>
 
-    <!-- corrispondenze facsimile-->
-    <xsl:template name="facs_template_body" match="*[@facs]">
-        <xsl:apply-templates/><br/><xsl:element name="a">
-            <xsl:attribute name="name">
-                <xsl:value-of select="concat('ID',@facs)"/>
-            </xsl:attribute>
-            <xsl:text disable-output-escaping="yes"><![CDATA[xxx ]]></xsl:text> 
-        </xsl:element>
-    </xsl:template>
 
 
 
@@ -250,6 +244,10 @@
             <xsl:value-of select="@n" />
         </xsl:element>
     </xsl:template>
+
+    <!-- Voglio ricavare l'ID della <lb> precedente una zona della mappa cliccata, per colorare il numero di linea corrispondente-->
+    
+
 
     <!--GAP ?-->
     <xsl:template match="//tei:gap">

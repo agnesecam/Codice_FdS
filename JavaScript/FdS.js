@@ -281,15 +281,21 @@ function gestoreMostraTraduzioneEN() {
 
 //Evidenizia zona testo corrispondente al facs
 function gestoreEvidenzia(name){  
+    //ricevo l'ID della zona cliccata come parametro
     try {
-        console.log(name);
-        if (name == 'ID#LL1.1_line_fr-01' ) {
-            
-            document.getElementsByName(name).item(0).className='freccia_sopra';
-        } else {
-            document.getElementsByName(name).item(0).className='dot';
+        //Evidenzio il numero di riga corrispondente alla <lb> selezionata
+        last_number = name.substring(name.indexOf('_lb')+3);
+        page = name.substring(6,7);
+        lineNumberID = ("line".concat(last_number, "_p", page));
+        console.log(lineNumberID);
+        lineNumber = document.getElementById(lineNumberID);
+        lineNumber.setAttribute("class", "dot");
 
-        }
+
+        //Adesso devi fare i casi in cui non sia una <lb> quella selezionata ma qualcos'altro
+        //Il numero di riga deve tornare alla normalità dopo tot secondi, oppure dopo aver premuto qualcos'altro, vedi se usare JavaScript che rimette la classe lineNumber a tutti i numeri di riga prima di evidenziarne un altro
+        
+            //document.getElementsByName(name).item(0).className='dot';
     }catch(e) {
         alert("gestoreEvidenzia()"+e);   
     }                                     
