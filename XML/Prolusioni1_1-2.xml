@@ -260,6 +260,51 @@
         <surface n="1" xml:id="scan_p1">
             <graphic url='ms_fr_03951_01_1_p001.jpg'/> 
 
+            <!--Righe-->
+            <zone ulx="140" uly="91" lrx="524" lry="115" rendition="line" xml:id="facs_p1_lb1"/>                  <!--1a riga-->
+            <zone ulx="139" uly="128" lrx="542" lry="149" rendition="line" xml:id="facs_p1_lb2"/>               <!--2a riga-->
+            <zone ulx="139" uly="163" lrx="547" lry="179" rendition="line" xml:id="facs_p1_lb3"/>               <!--3a riga-->
+            <zone ulx="142" uly="190" lrx="543" lry="210" rendition="line" xml:id="facs_p1_lb4"/>               <!--4a riga-->
+            <zone ulx="55" uly="211" lrx="544" lry="239" rendition="line" xml:id="facs_p1_lb5"/>                  <!--5a riga, anche aggiunta sx-->
+            <zone ulx="78" uly="244" lrx="507" lry="257" rendition="line" xml:id="facs_p1_lb6"/>                  <!--6a riga intera, anche pezzo cancellato -->
+            <zone ulx="51" uly="274" lrx="130" lry="281" rendition="line" xml:id="facs_p1_lb7"/>                  <!--7a riga, que la sc.-->
+            <zone ulx="54" uly="289" lrx="127" lry="294" rendition="line" xml:id="facs_p1_lb8"/>                  <!--8a riga, l.age-->
+            <zone ulx="54" uly="302" lrx="124" lry="311" rendition="line" xml:id="facs_p1_lb9"/>                  <!--9a riga, à constr.-->
+            <zone ulx="41" uly="314" lrx="110" lry="325" rendition="line" xml:id="facs_p1_lb10"/>                <!--10a riga, ill.+70 ans-->
+            <zone ulx="37" uly="332" lrx="91" lry="346" rendition="line" xml:id="facs_p1_lb11"/>                  <!--11a riga, à + canc-->
+            <zone ulx="39" uly="348" lrx="75" lry="354" rendition="line" xml:id="facs_p1_lb12"/>                  <!--12a riga, décrire-->
+            <zone ulx="42" uly="360" lrx="87" lry="370" rendition="line" xml:id="facs_p1_lb13"/>                  <!--13a riga, ds ses grandes-->
+            <zone ulx="40" uly="375" lrx="121" lry="379" rendition="line" xml:id="facs_p1_lb14"/>                <!--14a riga, lignes l'etat present-->
+            <zone ulx="39" uly="384" lrx="119" lry="395" rendition="line" xml:id="facs_p1_lb15"/>                <!--15a riga, de cette science-->
+            <zone ulx="39" uly="403" lrx="119" lry="409" rendition="line" xml:id="facs_p1_lb16"/>                <!--16a riga, à parcourir-->
+            <zone ulx="38" uly="424" lrx="125" lry="426" rendition="line" xml:id="facs_p1_lb17"/>                <!--17a riga, n'est pas très long-->
+            <zone ulx="43" uly="440" lrx="117" lry="442" rendition="line" xml:id="facs_p1_lb18"/>                <!--18a riga, ou à pronostiquer-->
+            <zone ulx="42" uly="455" lrx="113" lry="458" rendition="line" xml:id="facs_p1_lb19"/>                <!--19a riga, son avenir-->
+            <zone ulx="39" uly="472" lrx="116" lry="474" rendition="line" xml:id="facs_p1_lb20"/>                <!--20a riga, à définir son-->
+            <zone ulx="43" uly="487" lrx="108" lry="490" rendition="line" xml:id="facs_p1_lb21"/>                <!--21a riga, but, son utilité-->
+            <zone ulx="44" uly="506" lrx="99" lry="507" rendition="line" xml:id="facs_p1_lb22"/>                  <!--22a riga, à marquer la-->
+            <zone ulx="41" uly="524" lrx="91" lry="527" rendition="line" xml:id="facs_p1_lb23"/>                  <!--23a riga, place qu’elle-->
+            <zone ulx="42" uly="542" lrx="85" lry="544" rendition="line" xml:id="facs_p1_lb24"/>                  <!--24a riga, occupe dans le-->
+            <zone ulx="50" uly="556" lrx="76" lry="563" rendition="line" xml:id="facs_p1_lb25"/>                  <!--25a riga, cercle des-->
+            <zone ulx="43" uly="573" lrx="75" lry="580" rendition="line" xml:id="facs_p1_lb26"/>                  <!--26a riga, humaines et les-->
+            <zone ulx="45" uly="589" lrx="72" lry="596" rendition="line" xml:id="facs_p1_lb27"/>                  <!--27a riga, services qu’elle peut -->
+            <zone ulx="50" uly="602" lrx="81" lry="611" rendition="line" xml:id="facs_p1_lb28"/>                  <!--28a riga, rendre dans une-->
+            <zone ulx="147" uly="525" lrx="533" lry="549" rendition="line" xml:id="facs_p1_lb29"/>             <!--29a riga, Faculté des lettres-->
+            <zone ulx="155" uly="557" lrx="523" lry="573" rendition="line" xml:id="facs_p1_lb30"/>             <!--30a riga, cancellata e sopraelevata-->
+            <zone ulx="155" uly="582" lrx="522" lry="591" rendition="line" xml:id="facs_p1_lb31"/>             <!--31a riga, cancellata e sopraelevata-->
+            <zone ulx="41" uly="619" lrx="120" lry="627" rendition="line" xml:id="facs_p1_lb32"/>               <!--32a riga, a margine sinistro "Sans exalter"-->
+            <zone ulx="41" uly="646" lrx="111" lry="652" rendition="line" xml:id="facs_p1_lb33"/>               <!--33a riga, a margine sinistro "outre misure"-->
+            <zone ulx="49" uly="660" lrx="110" lry="664" rendition="line" xml:id="facs_p1_lb34"/>               <!--34a riga, a margine sinitro "les mérites de la linguistique"-->
+            <zone ulx="123" uly="641" lrx="223" lry="652" rendition="line" xml:id="facs_p1_lb35"/>             <!--35a riga, margine sinistro "quel est le"-->
+            <zone ulx="152" uly="721" lrx="526" lry="732" rendition="line" xml:id="facs_p1_lb36"/>             <!--36a riga, riprende corpo testo centrale "profit que peut tirer"-->
+            <zone ulx="155" uly="744" lrx="543" lry="757" rendition="line" xml:id="facs_p1_lb37"/>             <!--37a riga, "étude l’érudition classique la connaissance"-->
+            <zone ulx="155" uly="770" lrx="529" lry="787" rendition="line" xml:id="facs_p1lb38"/>               <!--38a riga, "des langues greque"-->
+            <zone ulx="179" uly="796" lrx="539" lry="811" rendition="line" xml:id="facs_p1lb39"/>               <!--39a riga, "eût-elle un but simplement l’intérêt"-->
+            <zone ulx="190" uly="822" lrx="517" lry="839" rendition="line" xml:id="facs_p1lb40"/>               <!--40a riga, "étude pour l'histoire ou pour"-->
+            <zone ulx="47" uly="818" lrx="149" lry="848" rendition="line" xml:id="facs_p1_lb25-THVP"/>          <!--THVP-->
+            <zone ulx="47" uly="771" lrx="147" lry="814" rendition="line" xml:id="facs_p1_lb26-upTHVP"/>     <!--parte sopra THVP-->
+            <zone ulx="31" uly="214" lrx="141" lry="615" rendition="hotspot" xml:id="facs_p1_leftblock1"/>            <!--blocco da inserire a sinistra, grande-->
+
             <!--Hotspot-->
             <zone ulx="451" uly="94" lrx="520" lry="122" rendition="hotspot" xml:id="facs_ence-p1r1"/>                                      <!--inserimento "en ce." nella 1a riga-->
             <zone ulx="211" uly="155" lrx="259" lry="167" rendition="hotspot" xml:id="facs_del1-p1r3"/>                                     <!--cancellatura parola sopraelevata riga 3-->
@@ -300,59 +345,7 @@
             <zone ulx="354" uly="824" lrx="429" lry="845"  rendition="hotspot" xml:id="facs_histoire-p1r40"/>                           <!--parola "histoire" riga 40-->
 
             <zone ulx="52" uly="80" lrx="102" lry="123" rendition="hotspot" xml:id="facs_HandPageNumber-1" />            <!--Numero 1 sx cerchiato -->
-            <zone ulx="510" uly="61" lrx="527" lry="84" rendition="hotspot" xml:id="facs_PrintPageNumber-2" />          <!--Numero 2 dx stampato -->
-
-            <!--Righe-->
-            <zone ulx="140" uly="91" lrx="524" lry="115" rendition="line" xml:id="facs_p1_lb1"/>                  <!--1a riga-->
-            <zone ulx="139" uly="128" lrx="542" lry="149" rendition="line" xml:id="facs_p1_lb2"/>               <!--2a riga-->
-            <zone ulx="139" uly="163" lrx="547" lry="179" rendition="line" xml:id="facs_p1_lb3"/>               <!--3a riga-->
-            <zone ulx="142" uly="190" lrx="543" lry="210" rendition="line" xml:id="facs_p1_lb4"/>               <!--4a riga-->
-            <zone ulx="55" uly="211" lrx="544" lry="239" rendition="line" xml:id="facs_p1_lb5"/>                  <!--5a riga, anche aggiunta sx-->
-            <zone ulx="78" uly="244" lrx="507" lry="257" rendition="line" xml:id="facs_p1_lb6"/>                  <!--6a riga intera, anche pezzo cancellato -->
-
-            <zone ulx="51" uly="274" lrx="130" lry="281" rendition="line" xml:id="facs_p1_lb7"/>                  <!--7a riga, que la sc.-->
-            <zone ulx="54" uly="289" lrx="127" lry="294" rendition="line" xml:id="facs_p1_lb8"/>                  <!--8a riga, l.age-->
-            <zone ulx="54" uly="302" lrx="124" lry="311" rendition="line" xml:id="facs_p1_lb9"/>                  <!--9a riga, à constr.-->
-            <zone ulx="41" uly="314" lrx="110" lry="325" rendition="line" xml:id="facs_p1_lb10"/>                <!--10a riga, ill.+70 ans-->
-            <zone ulx="37" uly="332" lrx="91" lry="346" rendition="line" xml:id="facs_p1_lb11"/>                  <!--11a riga, à + canc-->
-            <zone ulx="39" uly="348" lrx="75" lry="354" rendition="line" xml:id="facs_p1_lb12"/>                  <!--12a riga, décrire-->
-            <zone ulx="42" uly="360" lrx="87" lry="370" rendition="line" xml:id="facs_p1_lb13"/>                  <!--13a riga, ds ses grandes-->
-            <zone ulx="40" uly="375" lrx="121" lry="379" rendition="line" xml:id="facs_p1_lb14"/>                <!--14a riga, lignes l'etat present-->
-            <zone ulx="39" uly="384" lrx="119" lry="395" rendition="line" xml:id="facs_p1_lb15"/>                <!--15a riga, de cette science-->
-            <zone ulx="39" uly="403" lrx="119" lry="409" rendition="line" xml:id="facs_p1_lb16"/>                <!--16a riga, à parcourir-->
-
-            <zone ulx="38" uly="424" lrx="125" lry="426" rendition="line" xml:id="facs_p1_lb17"/>                <!--17a riga, n'est pas très long-->
-            <zone ulx="43" uly="440" lrx="117" lry="442" rendition="line" xml:id="facs_p1_lb18"/>                <!--18a riga, ou à pronostiquer-->
-            <zone ulx="42" uly="455" lrx="113" lry="458" rendition="line" xml:id="facs_p1_lb19"/>                <!--19a riga, son avenir-->
-            <zone ulx="39" uly="472" lrx="116" lry="474" rendition="line" xml:id="facs_p1_lb20"/>                <!--20a riga, à définir son-->
-            <zone ulx="43" uly="487" lrx="108" lry="490" rendition="line" xml:id="facs_p1_lb21"/>                <!--21a riga, but, son utilité-->
-            <zone ulx="44" uly="506" lrx="99" lry="507" rendition="line" xml:id="facs_p1_lb22"/>                  <!--22a riga, à marquer la-->
-            <zone ulx="41" uly="524" lrx="91" lry="527" rendition="line" xml:id="facs_p1_lb23"/>                  <!--23a riga, place qu’elle-->
-            <zone ulx="42" uly="542" lrx="85" lry="544" rendition="line" xml:id="facs_p1_lb24"/>                  <!--24a riga, occupe dans le-->
-            <zone ulx="50" uly="556" lrx="76" lry="563" rendition="line" xml:id="facs_p1_lb25"/>                  <!--25a riga, cercle des-->
-            <zone ulx="43" uly="573" lrx="75" lry="580" rendition="line" xml:id="facs_p1_lb26"/>                  <!--26a riga, humaines et les-->
-            <zone ulx="45" uly="589" lrx="72" lry="596" rendition="line" xml:id="facs_p1_lb27"/>                  <!--27a riga, services qu’elle peut -->
-            <zone ulx="50" uly="602" lrx="81" lry="611" rendition="line" xml:id="facs_p1_lb28"/>                  <!--28a riga, rendre dans une-->
-
-            <zone ulx="147" uly="525" lrx="533" lry="549" rendition="line" xml:id="facs_p1_lb29"/>             <!--29a riga, Faculté des lettres-->
-            <zone ulx="155" uly="557" lrx="523" lry="573" rendition="line" xml:id="facs_p1_lb30"/>             <!--30a riga, cancellata e sopraelevata-->
-            <zone ulx="155" uly="582" lrx="522" lry="591" rendition="line" xml:id="facs_p1_lb31"/>             <!--31a riga, cancellata e sopraelevata-->
-            
-            <zone ulx="41" uly="619" lrx="120" lry="627" rendition="line" xml:id="facs_p1_lb32"/>               <!--32a riga, a margine sinistro "Sans exalter"-->
-            <zone ulx="41" uly="646" lrx="111" lry="652" rendition="line" xml:id="facs_p1_lb33"/>               <!--33a riga, a margine sinistro "outre misure"-->
-            <zone ulx="49" uly="660" lrx="110" lry="664" rendition="line" xml:id="facs_p1_lb34"/>               <!--34a riga, a margine sinitro "les mérites de la linguistique"-->
-            <zone ulx="123" uly="641" lrx="223" lry="652" rendition="line" xml:id="facs_p1_lb35"/>             <!--35a riga, margine sinistro "quel est le"-->
-
-            <zone ulx="152" uly="721" lrx="526" lry="732" rendition="line" xml:id="facs_p1_lb36"/>             <!--36a riga, riprende corpo testo centrale "profit que peut tirer"-->
-            <zone ulx="155" uly="744" lrx="543" lry="757" rendition="line" xml:id="facs_p1_lb37"/>             <!--37a riga, "étude l’érudition classique la connaissance"-->
-            <zone ulx="155" uly="770" lrx="529" lry="787" rendition="line" xml:id="facs_p1lb38"/>               <!--38a riga, "des langues greque"-->
-            <zone ulx="179" uly="796" lrx="539" lry="811" rendition="line" xml:id="facs_p1lb39"/>               <!--39a riga, "eût-elle un but simplement l’intérêt"-->
-            <zone ulx="190" uly="822" lrx="517" lry="839" rendition="line" xml:id="facs_p1lb40"/>               <!--40a riga, "étude pour l'histoire ou pour"-->
-
-            <zone ulx="47" uly="818" lrx="149" lry="848" rendition="line" xml:id="facs_p1_lb25-THVP"/>          <!--THVP-->
-            <zone ulx="47" uly="771" lrx="147" lry="814" rendition="line" xml:id="facs_p1_lb26-upTHVP"/>     <!--parte sopra THVP-->
-            
-            <zone ulx="31" uly="214" lrx="141" lry="615" rendition="hotspot" xml:id="facs_p1_leftblock1"/>            <!--blocco da inserire a sinistra, grande-->
+            <zone ulx="510" uly="61" lrx="527" lry="84" rendition="hotspot" xml:id="facs_PrintPageNumber-2" />          <!--Numero 2 dx stampato -->                
 
             <!--Pericopi e numerazione a mano-->
             <zone ulx="36" uly="70" lrx="554" lry="606" rendition="hotspot" xml:id="facs_Pericope1" />                     <!--Tutta la 1a pericope, da "Si la chaire que j’ai en" fino a "pourrais me plaindre ici de l’abandon"-->
@@ -363,16 +356,15 @@
         <!--SECONDA PAGINA-->
         <surface n="2" xml:id="scan_p2">
             <graphic url='ms_fr_03951_01_1_p002.jpg'/>
+            <!--Righe-->
+            <zone ulx="157" uly="72" lrx="550" lry="108" rendition="line" xml:id="facs_p2lb1"/>                                               <!--1a riga-->
+            <zone ulx="112" uly="110" lrx="554" lry="138" rendition="line" xml:id="facs_p2lb2"/>                                            <!--2a riga-->
+            <zone ulx="108" uly="141" lrx="548" lry="163" rendition="line" xml:id="facs_p2lb3"/>                                            <!--3a riga-->            
             <!--Pericopi e numerazione a mano-->
             <zone ulx="157" uly="74" lrx="416" lry="103" rendition="hotspot" xml:id="facs_Pericope2b" />                            <!--Parole finali della seconda pericope "l'histoire de la civilisation"-->
             <zone ulx="59" uly="56" lrx="94" lry="95" rendition="hotspot" xml:id="facs_HandPageNumber-2" />                  <!--Numero 2 sx cerchiato -->    
             <!--Hotspot-->
             <zone ulx="177" uly="77" lrx="237" lry="102" rendition="hotspot" xml:id="facs_histoire-p2r1"/>
-            <!--Righe-->
-            <zone ulx="157" uly="72" lrx="550" lry="108" rendition="line" xml:id="facs_p2lb1"/>                                               <!--1a riga-->
-            <zone ulx="112" uly="110" lrx="554" lry="138" rendition="line" xml:id="facs_p2lb2"/>                                            <!--2a riga-->
-            <zone ulx="108" uly="141" lrx="548" lry="163" rendition="line" xml:id="facs_p2lb3"/>                                            <!--3a riga-->
-        
         </surface>
     </facsimile>
 
@@ -391,7 +383,7 @@
                         </ab>
                         <div xml:id="div_p1" hand="#h1">
                             <!--Inizio 1a pericope-->
-                            <ab xml:id="pericope_91Aaaa001" n="1" xml:lang="FR" corresp="#it_91Aaaa001 #en_91Aaaa001" facs="#facs_Pericope1"> 
+                            <ab xml:id="pericope_91Aaaa001" n="1" xml:lang="FR" corresp="#it_91Aaaa001 #en_91Aaaa001" facs="#facs_pericope_91Aaaa001"> 
                                 <lb xml:id="lb1_p1" n="1" facs="#facs_p1_lb1"/> 
                                 Si la chaire que j’ai <add place="inline" xml:id="p1_en-ce-moment" change="#CHG-1" facs="#facs_ence-p1r1"> en ce 
                                 <lb xml:id="lb2_p1" n="2" facs="#facs_p1_lb2"/>

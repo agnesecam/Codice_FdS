@@ -283,6 +283,12 @@ function gestoreMostraTraduzioneEN() {
 function gestoreEvidenzia(name){  
     //ricevo l'ID della zona cliccata come parametro
     try {
+        /* RIGHE NORMALI */
+        if (name.substring(0, 20) == "facs_HandPageNumber-") {
+            console.log(name.substring(5));
+            HandPage_evidenziato = document.getElementById(name.substring(4, 20));
+            HandPage_evidenziato.setAttribute("class", "dot_HandPageNumber");
+        }/*
         //Se non c'è nessun numero già evidenziato...
         if (document.getElementsByClassName("dot").length == 0) {
              //Evidenzio il numero di riga corrispondente alla <lb> selezionata
@@ -301,12 +307,11 @@ function gestoreEvidenzia(name){
             lineNumberID = ("line".concat(last_number, "_p", page));
             lineNumber = document.getElementById(lineNumberID);
             lineNumber.setAttribute("class", "dot");
-        }
+        }*/
 
         //Adesso devi fare i casi in cui non sia una <lb> quella selezionata ma qualcos'altro
-        //Il numero di riga deve tornare alla normalità dopo tot secondi, oppure dopo aver premuto qualcos'altro, vedi se usare JavaScript che rimette la classe lineNumber a tutti i numeri di riga prima di evidenziarne un altro
         
-            //document.getElementsByName(name).item(0).className='dot';
+
     }catch(e) {
         alert("gestoreEvidenzia()"+e);   
     }                                     

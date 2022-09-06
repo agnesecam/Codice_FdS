@@ -153,6 +153,9 @@ abbr, .expan {
     animation: blink-animation 0.8s steps(5, start) 4;
     -webkit-animation: blink-animation s steps(5, start) 4;
 }
+.dot_HandPageNumber{
+    background-color: red;
+}
 @keyframes blink-animation {
     to {
         visibility: hidden;
