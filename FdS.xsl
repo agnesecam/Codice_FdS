@@ -225,7 +225,20 @@
                 </xsl:element>
             </xsl:element>
         </xsl:for-each>
+        <xsl:call-template name="facs_template_body"/>
     </xsl:template>
+
+    <!-- corrispondenze facsimile-->
+    <xsl:template name="facs_template_body" match="*[@facs]">
+        <xsl:apply-templates/><br/><xsl:element name="a">
+            <xsl:attribute name="name">
+                <xsl:value-of select="concat('ID',@facs)"/>
+            </xsl:attribute>
+            <xsl:text disable-output-escaping="yes"><![CDATA[xxx ]]></xsl:text> 
+        </xsl:element>
+    </xsl:template>
+
+
 
     <xsl:template match="//tei:lb">
         <br/>
