@@ -283,14 +283,25 @@ function gestoreMostraTraduzioneEN() {
 function gestoreEvidenzia(name){  
     //ricevo l'ID della zona cliccata come parametro
     try {
-        //Evidenzio il numero di riga corrispondente alla <lb> selezionata
-        last_number = name.substring(name.indexOf('_lb')+3);
-        page = name.substring(6,7);
-        lineNumberID = ("line".concat(last_number, "_p", page));
-        console.log(lineNumberID);
-        lineNumber = document.getElementById(lineNumberID);
-        lineNumber.setAttribute("class", "dot");
-
+        //Se non c'è nessun numero già evidenziato...
+        if (document.getElementsByClassName("dot").length == 0) {
+             //Evidenzio il numero di riga corrispondente alla <lb> selezionata
+            last_number = name.substring(name.indexOf('_lb')+3);
+            page = name.substring(6,7);
+            lineNumberID = ("line".concat(last_number, "_p", page));
+            lineNumber = document.getElementById(lineNumberID);
+            lineNumber.setAttribute("class", "dot");
+        }
+        //Se è stato già evidenziato un numero...
+        else {
+            document.getElementsByClassName("dot")[0].setAttribute("class", "lineNumber");
+            //Evidenzio il numero di riga corrispondente alla <lb> selezionata
+            last_number = name.substring(name.indexOf('_lb')+3);
+            page = name.substring(6,7);
+            lineNumberID = ("line".concat(last_number, "_p", page));
+            lineNumber = document.getElementById(lineNumberID);
+            lineNumber.setAttribute("class", "dot");
+        }
 
         //Adesso devi fare i casi in cui non sia una <lb> quella selezionata ma qualcos'altro
         //Il numero di riga deve tornare alla normalità dopo tot secondi, oppure dopo aver premuto qualcos'altro, vedi se usare JavaScript che rimette la classe lineNumber a tutti i numeri di riga prima di evidenziarne un altro
