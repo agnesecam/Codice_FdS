@@ -272,31 +272,32 @@
             <zone ulx="83" uly="246" lrx="143" lry="260" rendition="hotspot" xml:id="facs_devous-p1r6"/>                                   <!--aggiunta de vous inizio riga 6-->
             <zone ulx="139" uly="241" lrx="270" lry="251" rendition="hotspot" xml:id="facs_introd.-p1r6"/>                                 <!--aggiunta parole sopraelevate introduire dans l'édifice riga 6-->
             <zone ulx="108" uly="274" lrx="127" lry="289"  rendition="hotspot" xml:id="facs_scdulang-p1r7"/>                            <!--parola "l.age", riga 7-->
-            <zone ulx="669" uly="1947" lrx="805" lry="1987" rendition="hotspot" xml:id="facs_occ-p1r7"/>            <!--parola "occ." riga 7-->
-            <zone ulx="505" uly="2043" lrx="659" lry="2123" rendition="hotspot" xml:id="facs_constr-p1r9"/>         <!--parola "constr" riga 9-->
-            <zone ulx="273" uly="2173" lrx="435" lry="2225" rendition="hotspot" xml:id="facs_illegible-p1r10"/>     <!--segno illeggibile riga 10 prima di 70 ans-->
-            <zone ulx="463" uly="2131" lrx="739" lry="2265" rendition="hotspot" xml:id="facs_70ans-p1r10"/>         <!--parola "70 ans", riga 10-->
-            <zone ulx="371" uly="2247" lrx="623" lry="2355" rendition="hotspot" xml:id="facs_del1-p1r11"/>          <!--cancellatura dopo à riga 11-->
-            <zone ulx="301" uly="2475" lrx="365" lry="2531" rendition="hotspot" xml:id="facs_ds-p1r13"/>            <!--abbreviazione ds riga 13-->
-            <zone ulx="253" uly="2741" lrx="443" lry="2829" rendition="hotspot" xml:id="facs_aparcourir-p1r16"/>    <!--aggiunta a parcourir riga 16-->
-            <zone ulx="653" uly="3583" lrx="827" lry="3721" rendition="hotspot" xml:id="facs_conn-p1r25"/>          <!--parola "conn." riga 25-->
-            <zone ulx="983" uly="3621" lrx="2007" lry="3771" rendition="hotspot" xml:id="facs_FacDesLettres-p1r29"/><!--parole "Faculté des lettres riga 29"-->
-            <zone ulx="3229" uly="3681" lrx="3535" lry="3753" rendition="hotspot" xml:id="facs_certain-p1r30"/>     <!--parola "certain." riga 30-->
-            <zone ulx="949" uly="1729" lrx="3663" lry="3521" rendition="hotspot" xml:id="facs_gapcentrale-p1"/>     <!--gap centrale pagina omesso nella traduzione-->
-            <zone points = ' 2083,3654 3571,3602 3537,4016 969,4146 1013,3894 2067,3780 2071,3684 ' rendition="hotspot" xml:id="facs_del1-p1r29"/>              <!--cancellatura 3 righe dopo Faculté des lettres riga 29-->
-            <zone ulx="2087" uly="3584" lrx="3509" lry="3614" rendition="hotspot" xml:id="facs_add1-p1r29"/>        <!--aggiunta sopraelevata parole dopo Faculté-->
-            <zone ulx="2243" uly="3694" lrx="3497" lry="3818" rendition="hotspot" xml:id="facs_add1-p1r30"/>        <!--aggiunta sopraelevata parole riga 30-->
-            <zone ulx="1901" uly="3866" lrx="3541" lry="4022" rendition="hotspot" xml:id="facs_add1-p1r31"/>        <!--aggiunta sopraelevata parole riga 31-->
-            <zone ulx="1919" uly="3847" lrx="3497" lry="4005" rendition="hotspot" xml:id="facs_add2-p1r31"/>     <!--aggiunta parole "je ne pourrais me plaindre ici de l'abandon" riga 31-->
-            <zone ulx="915" uly="4287" lrx="1211" lry="4361" rendition="hotspot" xml:id="facs_linguistique-p1r34"/> <!--termine "linguistique" riga 34-->
-            <zone ulx="2161" uly="4851" lrx="2551" lry="4927" rendition="hotspot" xml:id="facs_del1-p1r36"/>        <!--cancellatura "de cette é" riga 36-->
-            <zone ulx="2969" uly="4857" lrx="3097" lry="4937" rendition="hotspot" xml:id="facs_ex-p1r36"/>          <!--parola "ex." riga 36-->
-            <zone ulx="1255" uly="5195" lrx="1623" lry="5339" rendition="hotspot" xml:id="facs_langues-p1r38"/>     <!--parola "langues" riga 38-->
-            <zone points = ' 283,4299 749,4137 807,4347 979,4311 1005,4459 333,4687 ' rendition="hotspot" xml:id="facs_p1_leftblock2"/><!--aggiunta 4 righe margine sinistro, "Sans exalter outre.."-->
-            <zone points = ' 326,5312 403,5463 936,5403 874,5286 ' rendition="hotspot" xml:id="facs_eutelle-p1r39"/><!--aggiunta margine sinistro in basso "eût-elle un but simplement"-->
-            <zone ulx="769" uly="5359" lrx="1029" lry="5487" rendition="hotspot" xml:id="facs_litteraire-p1r39"/>   <!--parola "litteraire" riga 39--> 
-            <zone ulx="1947" uly="5551" lrx="2263" lry="5665" rendition="hotspot" xml:id="facs_del1-p1r40"/>        <!--cancellatura "l' + illeggibile" riga 40-->
-            <zone ulx="2379" uly="5517" lrx="2829" lry="5655" rendition="hotspot" xml:id="facs_histoire-p1r40"/>    <!--parola "histoire" riga 40-->
+            <zone ulx="101" uly="288" lrx="124" lry="298" rendition="hotspot" xml:id="facs_occ-p1r7"/>                                        <!--parola "occ." riga 7-->
+            <zone ulx="72" uly="304" lrx="104" lry="317" rendition="hotspot" xml:id="facs_constr-p1r9"/>                                    <!--parola "constr" riga 9-->
+            <zone ulx="41" uly="318" lrx="65" lry="334" rendition="hotspot" xml:id="facs_illegible-p1r10"/>                                 <!--segno illeggibile riga 10 prima di 70 ans-->
+            <zone ulx="68" uly="321" lrx="113" lry="333" rendition="hotspot" xml:id="facs_70ans-p1r10"/>                                   <!--parola "70 ans", riga 10-->
+            <zone ulx="52" uly="339" lrx="96" lry="348" rendition="hotspot" xml:id="facs_del1-p1r11"/>                                        <!--cancellatura dopo à riga 11-->
+            <zone ulx="40" uly="368" lrx="60" lry="380" rendition="hotspot" xml:id="facs_ds-p1r13"/>                                            <!--abbreviazione ds riga 13-->
+            <zone ulx="34" uly="408" lrx="68" lry="418" rendition="hotspot" xml:id="facs_aparcourir-p1r16"/>                             <!--aggiunta a parcourir riga 16-->
+            <zone ulx="94" uly="531" lrx="125" lry="556" rendition="hotspot" xml:id="facs_conn-p1r25"/>                                     <!--parola "conn." riga 25-->
+            <zone ulx="141" uly="540" lrx="296" lry="560" rendition="hotspot" xml:id="facs_FacDesLettres-p1r29"/>               <!--parole "Faculté des lettres riga 29"-->
+            <zone ulx="478" uly="549" lrx="524" lry="561" rendition="hotspot" xml:id="facs_certain-p1r30"/>                             <!--parola "certain." riga 30-->
+            <zone ulx="136" uly="258" lrx="543" lry="526" rendition="hotspot" xml:id="facs_gapcentrale-p1"/>                          <!--gap centrale pagina omesso nella traduzione-->
+            <zone ulx="149" uly="563" lrx="524" lry="621" rendition="hotspot" xml:id="facs_del1-p1r29a"/>                                <!--cancellatura 3 righe dopo Faculté des lettres riga 29, prima riga-->
+            <zone ulx="308" uly="546" lrx="534" lry="558" rendition="hotspot" xml:id="facs_del1-p1r29"/>                                  <!--cancellatura 3 righe dopo Faculté des lettres riga 29, seconda riga-->
+            <zone ulx="309" uly="529" lrx="518" lry="545" rendition="hotspot" xml:id="facs_add1-p1r29"/>                                 <!--aggiunta sopraelevata parole dopo Faculté-->
+            <zone ulx="265" uly="557" lrx="526" lry="568" rendition="hotspot" xml:id="facs_add1-p1r30"/>                                 <!--aggiunta sopraelevata parole riga 30-->
+            <zone ulx="285" uly="585" lrx="527" lry="588" rendition="hotspot" xml:id="facs_add1-p1r31"/>                                 <!--aggiunta sopraelevata parole riga 31-->
+            <zone ulx="283" uly="583" lrx="521" lry="593" rendition="hotspot" xml:id="facs_add2-p1r31"/>                                 <!--aggiunta parole "je ne pourrais me plaindre ici de l'abandon" riga 31-->
+            <zone ulx="132" uly="644" lrx="188" lry="652" rendition="hotspot" xml:id="facs_linguistique-p1r34"/>                   <!--termine "linguistique" riga 34-->
+            <zone ulx="315" uly="722" lrx="396" lry="740" rendition="hotspot" xml:id="facs_del1-p1r36"/>                                  <!--cancellatura "de cette é" riga 36-->
+            <zone ulx="442" uly="721" lrx="462" lry="738" rendition="hotspot" xml:id="facs_ex-p1r36"/>                                      <!--parola "ex." riga 36-->
+            <zone ulx="185" uly="778" lrx="247" lry="800" rendition="hotspot" xml:id="facs_langues-p1r38"/>                           <!--parola "langues" riga 38-->
+            <zone ulx="41" uly="632" lrx="174" lry="667" rendition="hotspot" xml:id="facs_p1_leftblock2"/>                              <!--aggiunta 4 righe margine sinistro, "Sans exalter outre.."-->
+            <zone ulx="48" uly="781" lrx="155" lry="815" rendition="hotspot" xml:id="facs_eutelle-p1r39"/>                               <!--aggiunta margine sinistro in basso "eût-elle un but simplement"-->
+            <zone ulx="172" uly="803" lrx="251" lry="824" rendition="hotspot" xml:id="facs_litteraire-p1r39"/>                         <!--parola "litteraire" riga 39--> 
+            <zone ulx="291" uly="828" lrx="329" lry="850" rendition="hotspot" xml:id="facs_del1-p1r40"/>                                 <!--cancellatura "l' + illeggibile" riga 40-->
+            <zone ulx="354" uly="824" lrx="429" lry="845"  rendition="hotspot" xml:id="facs_histoire-p1r40"/>                           <!--parola "histoire" riga 40-->
 
             <zone ulx="52" uly="80" lrx="102" lry="123" rendition="hotspot" xml:id="facs_HandPageNumber-1" />            <!--Numero 1 sx cerchiato -->
             <zone ulx="510" uly="61" lrx="527" lry="84" rendition="hotspot" xml:id="facs_PrintPageNumber-2" />          <!--Numero 2 dx stampato -->
