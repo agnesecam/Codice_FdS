@@ -329,4 +329,25 @@
     </xsl:template>
 
 
+    <!--Numeri scritti a mano-->
+    <xsl:template match="//tei:group[@xml:id='fr_Prolusioni']/tei:text[1]/tei:body/tei:ab/tei:fw">
+        <xsl:element name="span">            
+            <xsl:attribute name="type">pageNum</xsl:attribute>
+            <xsl:attribute name="id"><xsl:value-of select="current()/@xml:id"/> </xsl:attribute>
+            <xsl:attribute name="rend"><xsl:value-of select="current()/@rend"/></xsl:attribute>
+            <xsl:attribute name="facs"><xsl:value-of select="current()/@facs"/></xsl:attribute>
+            <xsl:value-of select="current()" />
+        </xsl:element>
+    </xsl:template>
+    <!--Numeri stampati-->
+    <xsl:template match="//tei:group[@xml:id='fr_Prolusioni']/tei:text[1]/tei:body/tei:ab/tei:stamp">
+        <xsl:element name="span">            
+            <xsl:attribute name="type">pageNum</xsl:attribute>
+            <xsl:attribute name="id"><xsl:value-of select="current()/@xml:id"/> </xsl:attribute>
+            <xsl:attribute name="rend"><xsl:value-of select="current()/@rend"/></xsl:attribute>
+            <xsl:attribute name="facs"><xsl:value-of select="current()/@facs"/></xsl:attribute>
+            <xsl:value-of select="current()" />
+        </xsl:element>
+    </xsl:template>    
+
 </xsl:stylesheet>
