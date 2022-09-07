@@ -283,14 +283,25 @@ function gestoreMostraTraduzioneEN() {
 function gestoreEvidenzia(name){  
     //ricevo l'ID della zona cliccata come parametro
     try {
-        /* RIGHE NORMALI */
+        /*HandPageNumber*/
         if (name.substring(0, 20) == "facs_HandPageNumber-") {
             console.log(name.substring(5));
-            HandPage_evidenziato = document.getElementById(name.substring(4, 20));
-            HandPage_evidenziato.setAttribute("class", "dot_HandPageNumber");
-        }/*
+            HandPageNumber = name.substring(5);
+            //Voglio prendere l'elemento che ha "xml:id='HandPageNumber-1'"
+            var matchingElements = [];
+            var allElements = document.getElementsByTagName('fw');
+            for (var i = 0, n = allElements.length; i < n; i++) {
+                if (allElements[i].getAttribute('xml:id') == HandPageNumber) {
+                    // Element exists with attribute. Add to array.
+                    matchingElements.push(allElements[i]);
+                }
+            }
+            console.log(matchingElements);
+            matchingElements[0].setAttribute("style", "display:none;");
+        }
+         /* RIGHE NORMALI */
         //Se non c'è nessun numero già evidenziato...
-        if (document.getElementsByClassName("dot").length == 0) {
+        /*if (document.getElementsByClassName("dot").length == 0) {
              //Evidenzio il numero di riga corrispondente alla <lb> selezionata
             last_number = name.substring(name.indexOf('_lb')+3);
             page = name.substring(6,7);

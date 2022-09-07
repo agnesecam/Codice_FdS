@@ -246,7 +246,6 @@
     </xsl:template>
 
     <!-- Voglio ricavare l'ID della <lb> precedente una zona della mappa cliccata, per colorare il numero di linea corrispondente-->
-    
 
 
     <!--GAP ?-->

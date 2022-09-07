@@ -154,7 +154,7 @@ abbr, .expan {
     -webkit-animation: blink-animation s steps(5, start) 4;
 }
 .dot_HandPageNumber{
-    background-color: red;
+    color: red;
 }
 @keyframes blink-animation {
     to {
