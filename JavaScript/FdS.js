@@ -284,19 +284,17 @@ function gestoreEvidenzia(name){
     //ricevo l'ID della zona cliccata come parametro
     try {
         //Se non c'è nessun numero evidenziato, e se non c'è nemmeno nessuna riga evidenziata
-        if ( (document.getElementsByClassName("dot_HandPageNumber".length == 0)) && (document.getElementsByClassName("dot").length == 0) ) {
+        if (document.getElementsByClassName("dot").length == 0) {
             /*HandPageNumber*/
             if (name.substring(0, 20) == "facs_HandPageNumber-") {
-                console.log(name.substring(5));
                 HandPageNumber = name.substring(5);
                 element = document.getElementById(HandPageNumber);
-                element.setAttribute("class", "dot_HandPageNumber");
+                element.setAttribute("class", "dot");
             /*PrintPageNumber*/
             } else if (name.substring(0, 21) == "facs_PrintPageNumber-") {
-                console.log(name.substring(5));
                 PrintPageNumber = name.substring(5);
                 element = document.getElementById(PrintPageNumber);
-                element.setAttribute("class", "dot_HandPageNumber");
+                element.setAttribute("class", "dot");
             /* Righe normali */
             } else {
                 //Evidenzio il numero di riga corrispondente alla <lb> selezionata
@@ -306,17 +304,33 @@ function gestoreEvidenzia(name){
                 lineNumber = document.getElementById(lineNumberID);
                 lineNumber.setAttribute("class", "dot");
             }
-        }
-        //Se è stato già evidenziato un numero...
-        else {
-            document.getElementsByClassName("dot")[0].setAttribute("class", "lineNumber");
-FAI CASO IN CUI CÈ UN NUMERO PRINT PAGE EVIDENZIATO
-            //Evidenzio il numero di riga corrispondente alla <lb> selezionata
-            last_number = name.substring(name.indexOf('_lb')+3);
-            page = name.substring(6,7);
-            lineNumberID = ("line".concat(last_number, "_p", page));
-            lineNumber = document.getElementById(lineNumberID);
-            lineNumber.setAttribute("class", "dot");
+        //Se è stata già evidenziata una riga o un numero di pagina
+        } else {
+            elementoEvidenziato = document.getElementsByClassName("dot")[0];
+            elementoEvidenziato.removeAttribute("class");
+            if (elementoEvidenziato.getAttribute("type") != "pageNum") {
+                //Se l'elemento evidenziato è un numero di riga e non di pagina, e quindi ha una formattazione in base alla classe
+                elementoEvidenziato.setAttribute("class", "lineNumber");
+            }
+            /*HandPageNumber*/
+            if (name.substring(0, 20) == "facs_HandPageNumber-") {
+                HandPageNumber = name.substring(5);
+                element = document.getElementById(HandPageNumber);
+                element.setAttribute("class", "dot");
+            /*PrintPageNumber*/
+            } else if (name.substring(0, 21) == "facs_PrintPageNumber-") {
+                PrintPageNumber = name.substring(5);
+                element = document.getElementById(PrintPageNumber);
+                element.setAttribute("class", "dot");
+            /* Righe normali */
+            } else {
+                //Evidenzio il numero di riga corrispondente alla <lb> selezionata
+                last_number = name.substring(name.indexOf('_lb')+3);
+                page = name.substring(6,7);
+                lineNumberID = ("line".concat(last_number, "_p", page));
+                lineNumber = document.getElementById(lineNumberID);
+                lineNumber.setAttribute("class", "dot");
+            }
         }
 
         //Adesso devi fare i casi in cui non sia una <lb> quella selezionata ma qualcos'altro
