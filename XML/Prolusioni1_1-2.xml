@@ -350,7 +350,7 @@
             <zone ulx="510" uly="61" lrx="527" lry="84" rendition="hotspot" xml:id="facs_PrintPageNumber-2" />          <!--Numero 2 dx stampato -->                
 
             <!--Pericopi e numerazione a mano-->
-            <!--<zone ulx="36" uly="70" lrx="554" lry="606" rendition="hotspot" xml:id="facs_Pericope1" />                     <!--Tutta la 1a pericope, da "Si la chaire que j’ai en" fino a "pourrais me plaindre ici de l’abandon"-->
+            <!--<zone ulx="36" uly="70" lrx="554" lry="606" rendition="hotspot" xml:id="facs_Pericope1" />-->                     <!--Tutta la 1a pericope, da "Si la chaire que j’ai en" fino a "pourrais me plaindre ici de l’abandon"-->
             <!--<zone ulx="40" uly="608" lrx="547" lry="850" rendition="hotspot" xml:id="facs_Pericope2a" />-->                <!--Parte della 2a pericope, ma solo fino a "ou pour", poche parole finali della 2a sono nel secondo foglio-->
             <!--Fine 1a pagina e anche fine 1a pericope-->
         </surface>
