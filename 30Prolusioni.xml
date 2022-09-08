@@ -13,20 +13,20 @@
                 
                 <respStmt>
                     <resp>Digital edition project coordinated by</resp> 
-                    <name ref="lists/TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
-                    <name ref="lists/TEI-ListPerson.xml#AC">Agnese Camici</name>
-                    <name ref="lists/TEI-ListPerson.xml#SP">Silvia Piccini</name>
-                    <name ref="lists/TEI-ListPerson.xml#EF">Emanuele Fadda</name>
-                    <name ref="lists/TEI-ListPerson.xml#DG">Daniele Gambarara</name>
-                    <name ref="lists/TEI-ListPerson.xml#GC">Giuseppe Cosenza</name>
-                    <name ref="lists/TEI-ListPerson.xml#GD">Giuseppe D'Ottavi</name>
+                    <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                    <name ref="#AC">Agnese Camici</name>
+                    <name ref="#SP">Silvia Piccini</name>
+                    <name ref="#EF">Emanuele Fadda</name>
+                    <name ref="#DG">Daniele Gambarara</name>
+                    <name ref="#GC">Giuseppe Cosenza</name>
+                    <name ref="#GD">Giuseppe D'Ottavi</name>
                 </respStmt>
                 <respStmt>
                     <resp>Encoding by</resp>
-                    <name ref="lists/TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
-                    <name ref="lists/TEI-ListPerson.xml#AC">Agnese Camici</name>
-                    <name ref="lists/TEI-ListPerson.xml#SP">Silvia Piccini</name>
-                    <name ref="lists/TEI-ListPerson.xml#GC">Giuseppe Cosenza</name>
+                    <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                    <name ref="#AC">Agnese Camici</name>
+                    <name ref="#SP">Silvia Piccini</name>
+                    <name ref="#GC">Giuseppe Cosenza</name>
                 </respStmt>
             </titleStmt>
             
@@ -36,20 +36,20 @@
                 </edition>
                 <respStmt>
                     <resp>Digital edition project coordinated by</resp> 
-                    <name ref="lists/TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
-                    <name ref="lists/TEI-ListPerson.xml#AC">Agnese Camici</name>
-                    <name ref="lists/TEI-ListPerson.xml#SP">Silvia Piccini</name>
-                    <name ref="lists/TEI-ListPerson.xml#EF">Emanuele Fadda</name>
-                    <name ref="lists/TEI-ListPerson.xml#DG">Daniele Gambarara</name>
-                    <name ref="lists/TEI-ListPerson.xml#GC">Giuseppe Cosenza</name>
-                    <name ref="lists/TEI-ListPerson.xml#GD">Giuseppe D'Ottavi</name>
+                    <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                    <name ref="#AC">Agnese Camici</name>
+                    <name ref="#SP">Silvia Piccini</name>
+                    <name ref="#EF">Emanuele Fadda</name>
+                    <name ref="#DG">Daniele Gambarara</name>
+                    <name ref="#GC">Giuseppe Cosenza</name>
+                    <name ref="#GD">Giuseppe D'Ottavi</name>
                 </respStmt>
                 <respStmt>
                     <resp>Encoding by</resp>
-                    <name ref="lists/TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
-                    <name ref="lists/TEI-ListPerson.xml#AC">Agnese Camici</name>
-                    <name ref="lists/TEI-ListPerson.xml#SP">Silvia Piccini</name>
-                    <name ref="lists/TEI-ListPerson.xml#GC">Giuseppe Cosenza</name>
+                    <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                    <name ref="#AC">Agnese Camici</name>
+                    <name ref="#SP">Silvia Piccini</name>
+                    <name ref="#GC">Giuseppe Cosenza</name>
                 </respStmt>        
             </editionStmt>
             
@@ -311,11 +311,11 @@
 
                     <listRelation>
                         <!--Luogo di nascita di una persona-->
-                        <relation name="birth_place-FdS" active="TEI-ListPerson.xml#FdS" passive="#GE"/>               <!--Ferdinand de Saussure-->
-                        <relation name="birth_place-AMDG" active="TEI-ListPerson.xml#AMDG" passive="#BE"/>      <!--Angelo Mario del Grosso-->
-                        <relation name="birth_place-SP" active="TEI-ListPerson.xml#OS" passive="#SP"/>                   <!--Silvia Piccini-->
+                        <relation name="birth_place-FdS" active="#FdS" passive="#GE"/>               <!--Ferdinand de Saussure-->
+                        <relation name="birth_place-AMDG" active="#AMDG" passive="#BE"/>      <!--Angelo Mario del Grosso-->
+                        <relation name="birth_place-SP" active="#OS" passive="#SP"/>                   <!--Silvia Piccini-->
                         <!--Luogo di morte di una persona-->
-                        <relation name="death_place" active="TEI-ListPerson.xml#FdS" passive="#VlC"/>
+                        <relation name="death_place" active="#FdS" passive="#VlC"/>
                     </listRelation>
 
                 </listPlace>
@@ -327,25 +327,25 @@
                     <bibl xml:id="Bouquet-Engler2002"> 
                         <title>Écrits de linguistique générale</title>
                         <author>
-                            <persName ref="TEI-ListPerson.xml#FdS">
+                            <persName ref="#FdS">
                                 <forename>Ferdinand</forename> 
                                 <surname>de Saussure</surname>
                             </persName>
                         </author>
                         <author>
-                            <persName ref="TEI-ListPerson.xml#SB">
+                            <persName ref="#SB">
                                 <forename>Simon</forename>
                                 <surname>Bouquet</surname>
                             </persName>
                         </author>
                         <author>
-                            <persName ref="TEI-ListPerson.xml#RE">
+                            <persName ref="#RE">
                                 <forename>Rudolf</forename>
                                 <surname>Engler</surname>
                             </persName>
                         </author>
                         <author>
-                            <persName ref="TEI-ListPerson.xml#AW">
+                            <persName ref="#AW">
                                 <forename>Antoinette</forename>
                                 <surname>Weil</surname>
                             </persName>
