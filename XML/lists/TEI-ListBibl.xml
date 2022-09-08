@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE TEI SYSTEM "tei-all.dtd">
+
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI 
+xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:svg="http://www.w3.org/2000/svg" 
+xmlns:xi="http://www.w3.org/2001/XInclude">
+
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -97,7 +102,7 @@
                         <pubPlace>Genève</pubPlace>
                         <citedRange unit="page">1</citedRange>
                         <note>
-                            Avaible online at <ptr href="https://www.letempsarchives.ch/"/>
+                            Avaible online at <ptr target="https://www.letempsarchives.ch/"/>
                         </note>
                         <note>
                             Source used by Chidichimo in his article appeared in the Cahiers Ferdinand de Saussure
