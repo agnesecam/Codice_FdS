@@ -71,7 +71,7 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
                             <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
                             <title type="sub">Première conférence</title>
                             <note>
-                                <date notAfter="1891-11-06" evidence="external" source="/lists/TEI-ListBibl.xml/Journal de Genève #/lists/TEI-ListBibl.xml/Le Genevois">06/11/1891</date>
+                                <date notAfter="1891-11-06" evidence="external" source="../30Prolusioni.xml#Journal de Genève ../30Prolusioni.xml#Le Genevois">06/11/1891</date>
                             </note>
                             <textLang mainLang="fr">French</textLang>
                         </msItem>
@@ -80,7 +80,7 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
                             <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
                             <title type="sub">Deuxième conférence</title>
                             <note>
-                                <date notAfter="1891-11-10" evidence="external" source="/lists/TEI-ListBibl.xml/Journal de Genève #/lists/TEI-ListBibl.xml/Le Genevois">10/11/1891</date>
+                                <date notAfter="1891-11-10" evidence="external" source="../30Prolusioni.xml#Journal de Genève ../30Prolusioni.xml#Le Genevois">10/11/1891</date>
                             </note>
                             <textLang mainLang="fr">French</textLang>                           
                         </msItem>
@@ -89,8 +89,8 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
                             <title xml:lang="fr">Trois premières conférences à l'Université</title>
                             <title type="sub">Troisième conférence</title>
                             <note>                            
-                                <date notAfter="1891-11-13" confidence="" evidence="external" source="/lists/TEI-ListBibl.xml/Journal de Genève #/lists/TEI-ListBibl.xml/Le Genevois">13/11/1891</date>
-                                <date notAfter="1891-11-17" confidence="" evidence="external" source="/lists/TEI-ListBibl.xml/Journal de Genève #/lists/TEI-ListBibl.xml/Le Genevois">17/11/1891</date> <!--La seconda ipotesi di Chid. è 17/11/1891-->
+                                <date notAfter="1891-11-13" confidence="" evidence="external" source="../30Prolusioni.xml#Journal de Genève ../30Prolusioni.xml#Le Genevois">13/11/1891</date>
+                                <date notAfter="1891-11-17" confidence="" evidence="external" source="../30Prolusioni.xml#Journal de Genève ../30Prolusioni.xml#Le Genevois">17/11/1891</date> <!--La seconda ipotesi di Chid. è 17/11/1891-->
                             </note>
                             <textLang mainLang="fr">French</textLang>
                         </msItem>                        
@@ -121,7 +121,7 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
                         <origin ana="#pag1_note2">
                             <origDate when="1891-11-06" cert="high">06/11/1891</origDate> Première conférence
                             <origDate when="1891-11-10" cert="high">10/11/1891</origDate> Deuxième conférence
-                            <origDate when="1891-11-13" cert="low" source="lists/TEI-ListBibl.xml#Bouquet-Engler2002">13/11/1891</origDate> Troisième conférence
+                            <origDate when="1891-11-13" cert="low" source="../30Prolusioni.xml#Bouquet-Engler2002">13/11/1891</origDate> Troisième conférence
                             <origPlace>Gèneve</origPlace>
                         </origin>
                     </history>
@@ -380,7 +380,7 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
         <group> <!--Testo e traduzione delle 3 prolusioni-->
             <group xml:id="fr_Prolusioni"> <!--TESTO FRANCESE DELLE 3 PROLUSIONI-->
                 <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
-                    <body xml:lang="fr" source="lists/TEI-ListBibl.xml#Bouquet-Engler2002">
+                    <body xml:lang="fr" source="../30Prolusioni.xml#Bouquet-Engler2002">
                         <!--Prima pagina = primo folio, recto-->
                         <pb n="f1r" xml:id="body_p1" facs="#scan_p1"/>
                         <!--Numeri impaginazione a stampa e a mano-->
@@ -398,7 +398,7 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
                                 <lb xml:id="lb3_p1" n="3" facs="#facs_p1_lb3"/>
                                 d’études <del change="#CHG-3" rend="overstrike" facs="#facs_del1-p1r3"><gap atLeast="1" atMost="3" unit="words" reason="illegible"/></del> nouveau <del change="#CHG-3" rend="overstrike" facs="#facs_del2-p1r3"><gap atLeast="6" atMost="8" unit="words" reason="illegible"/></del>
                                 <lb xml:id="lb4_p1" n="4" facs="#facs_p1_lb4"/>
-                                <del change="#CHG-3" rend="overstrike" facs="#facs_del1-p1r4"> <gap atLeast="1" atMost="2" unit="words" reason="illegible"/></del> sdans <orgName ref="lists/TEI-ListBibl.xml#UniGeneve">notre Université <supplied resp="../30Prolusioni.xml#AC"> de Genève</supplied></orgName><ptr target="#p1_note1"/>, <add change="#CHG-3" place="above" facs="#facs_si-javais-p1r4">si j’avais </add><del change="#CHG-3" rend="overstrike"><gap atLeast="7" atMost="8" unit="words" reason="illegible"/></del>
+                                <del change="#CHG-3" rend="overstrike" facs="#facs_del1-p1r4"> <gap atLeast="1" atMost="2" unit="words" reason="illegible"/></del> sdans <orgName ref="../30Prolusioni.xml#UniGeneve">notre Université <supplied resp="../30Prolusioni.xml#AC"> de Genève</supplied></orgName><ptr target="#p1_note1"/>, <add change="#CHG-3" place="above" facs="#facs_si-javais-p1r4">si j’avais </add><del change="#CHG-3" rend="overstrike"><gap atLeast="7" atMost="8" unit="words" reason="illegible"/></del>
                                 <lb xml:id="lb5_p1" n="5" facs="#facs_p1_lb5"/>
                                 <add change="#CHG-4" place="left margin" facs="#facs_aujourdhui-p1r5">aujourd’hui </add><add change="#CHG-3" place="above" facs="#facs_lamissionou-p1r5">la mission ou le</add> privilège <del change="#CHG-3" rend="overstrike" facs="#facs_del1-p1r5">de vous</del>
                                 <lb xml:id="lb6_p1" n="6" facs="#facs_p1_lb6"/>
@@ -532,12 +532,12 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
                     </body>
                 </text>
                 <text xml:id="fr_Prolusione-2"><!--FR 2 PROLUSIONE-->
-                    <body xml:lang="fr" source="lists/TEI-ListBibl.xml#Bouquet-Engler2002">
+                    <body xml:lang="fr" source="../30Prolusioni.xml#Bouquet-Engler2002">
                         <ab> ... </ab>
                     </body>
                 </text>
                 <text xml:id="fr_Prolusione-3"><!--FR 3 PROLUSIONE-->
-                    <body xml:lang="fr" source="lists/TEI-ListBibl.xml#Bouquet-Engler2002">
+                    <body xml:lang="fr" source="../30Prolusioni.xml#Bouquet-Engler2002">
                         <ab> ... </ab>
                     </body>
                 </text>
@@ -545,7 +545,7 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
             
             <group xml:id="it_Prolusioni" xml:lang="IT"> <!--TRADUZIONI ITALIANO DELLE 3 PROLUSIONI-->
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
-                    <body source="lists/TEI-ListBibl.xml#Fadda2006" resp="../30Prolusioni.xml#EF">
+                    <body source="../30Prolusioni.xml#Fadda2006" resp="../30Prolusioni.xml#EF">
                         <ab xml:id="it_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="IT">
                             <lb/>Se la cattedra che ho in questa
                             <lb/>occasione l’onore di inaugurare rappresentasse un ordine 
@@ -617,7 +617,7 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
                     </body>
                 </text>
                 <text xml:id="it_Prolusione-2"> <!--ITA 2 PROLUSIONE-->
-                    <body source="lists/TEI-ListBibl.xml#Fadda2006" resp="../30Prolusioni.xml#EF">
+                    <body source="../30Prolusioni.xml#Fadda2006" resp="../30Prolusioni.xml#EF">
                         <ab xml:id="it_91Baaa001" corresp="#pericope_91Baaa001" xml:lang="IT">
                             ...
                         </ab>   
@@ -633,7 +633,7 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
                     </body>
                 </text>
                 <text xml:id="it_Prolusione-3"> <!--ITA 3 PROLUSIONE-->
-                    <body source="lists/TEI-ListBibl.xml#Fadda2006" resp="../30Prolusioni.xml#EF">
+                    <body source="../30Prolusioni.xml#Fadda2006" resp="../30Prolusioni.xml#EF">
                         <ab xml:id="it_91Caaa001" corresp="#pericope_91Caaa001" xml:lang="IT">
                             ...
                         </ab>   
