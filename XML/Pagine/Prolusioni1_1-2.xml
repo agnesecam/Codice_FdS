@@ -13,13 +13,13 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
             <titleStmt>
                 <title type="main">Trois premières conférences à l'Université</title> <!--Titolo preso dalla BGE-->
                 <title type="sub">(cours d'ouverture, <date when="1891-11">novembre 1891</date>)</title>
-                <author ref="../30Prolusioni.xml#FdS" role="author">Ferdinand de Saussure</author>
+                <author ref=".#FdS" role="author">Ferdinand de Saussure</author>
                 <respStmt>
 					<resp>Responsability of:</resp>
-					<name ref="../30Prolusioni.xml#AMDG">Angelo Mario Del Grosso</name>
-					<name ref="../30Prolusioni.xml#AC">Agnese Camici</name>
-					<name ref="../30Prolusioni.xml#SP">Silvia Piccini</name>
-					<name ref="../30Prolusioni.xml#GC">Giuseppe Cosenza</name>
+					<name ref="#AMDG">Angelo Mario Del Grosso</name>
+					<name ref="#AC">Agnese Camici</name>
+					<name ref="#SP">Silvia Piccini</name>
+					<name ref="#GC">Giuseppe Cosenza</name>
 				</respStmt>
             </titleStmt>
             
@@ -29,20 +29,20 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
                 </edition>
                 <respStmt>
                     <resp>Digital edition project coordinated by</resp> 
-                    <name ref="../30Prolusioni.xml#AMDG">Angelo Mario Del Grosso</name>
-                    <name ref="../30Prolusioni.xml#AC">Agnese Camici</name>
-                    <name ref="../30Prolusioni.xml#SP">Silvia Piccini</name>
-                    <name ref="../30Prolusioni.xml#EF">Emanuele Fadda</name>
-                    <name ref="../30Prolusioni.xml#DG">Daniele Gambarara</name>
-                    <name ref="../30Prolusioni.xml#GC">Giuseppe Cosenza</name>
-                    <name ref="../30Prolusioni.xml#GD">Giuseppe D'Ottavi</name>
+                    <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                    <name ref="#AC">Agnese Camici</name>
+                    <name ref="#SP">Silvia Piccini</name>
+                    <name ref="#EF">Emanuele Fadda</name>
+                    <name ref="#DG">Daniele Gambarara</name>
+                    <name ref="#GC">Giuseppe Cosenza</name>
+                    <name ref="#GD">Giuseppe D'Ottavi</name>
                 </respStmt>
                 <respStmt>
                     <resp>Encoding by</resp>
-                    <name ref="../30Prolusioni.xml#AMDG">Angelo Mario Del Grosso</name>
-                    <name ref="../30Prolusioni.xml#AC">Agnese Camici</name>
-                    <name ref="../30Prolusioni.xml#SP">Silvia Piccini</name>
-                    <name ref="../30Prolusioni.xml#GC">Giuseppe Cosenza</name>
+                    <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                    <name ref="#AC">Agnese Camici</name>
+                    <name ref="#SP">Silvia Piccini</name>
+                    <name ref="#GC">Giuseppe Cosenza</name>
                 </respStmt>        
             </editionStmt>
 
@@ -67,37 +67,37 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <author xml:lang="fr" ref="../30Prolusioni.xml#FdS">Ferdinand de Saussure</author>
+                            <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
                             <title type="sub">Première conférence</title>
                             <note>
-                                <date notAfter="1891-11-06" evidence="external" source="../30Prolusioni.xml#Journal de Genève ../30Prolusioni.xml#Le Genevois">06/11/1891</date>
+                                <date notAfter="1891-11-06" evidence="external" source="#Journal de Genève #Le Genevois">06/11/1891</date>
                             </note>
                             <textLang mainLang="fr">French</textLang>
                         </msItem>
                         <msItem>
-                            <author xml:lang="fr" ref="../30Prolusioni.xml#FdS">Ferdinand de Saussure</author>
+                            <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
                             <title type="sub">Deuxième conférence</title>
                             <note>
-                                <date notAfter="1891-11-10" evidence="external" source="../30Prolusioni.xml#Journal de Genève ../30Prolusioni.xml#Le Genevois">10/11/1891</date>
+                                <date notAfter="1891-11-10" evidence="external" source="#Journal de Genève #Le Genevois">10/11/1891</date>
                             </note>
                             <textLang mainLang="fr">French</textLang>                           
                         </msItem>
                         <msItem>
-                            <author xml:lang="fr" ref="../30Prolusioni.xml#FdS">Ferdinand de Saussure</author>
+                            <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
                             <title xml:lang="fr">Trois premières conférences à l'Université</title>
                             <title type="sub">Troisième conférence</title>
                             <note>                            
-                                <date notAfter="1891-11-13" confidence="" evidence="external" source="../30Prolusioni.xml#Journal de Genève ../30Prolusioni.xml#Le Genevois">13/11/1891</date>
-                                <date notAfter="1891-11-17" confidence="" evidence="external" source="../30Prolusioni.xml#Journal de Genève ../30Prolusioni.xml#Le Genevois">17/11/1891</date> <!--La seconda ipotesi di Chid. è 17/11/1891-->
+                                <date notAfter="1891-11-13" confidence="" evidence="external" source="#Journal de Genève #Le Genevois">13/11/1891</date>
+                                <date notAfter="1891-11-17" confidence="" evidence="external" source="#Journal de Genève #Le Genevois">17/11/1891</date> <!--La seconda ipotesi di Chid. è 17/11/1891-->
                             </note>
                             <textLang mainLang="fr">French</textLang>
                         </msItem>                        
                     </msContents>                    
                     <physDesc>
                         <objectDesc form="folio">
-                            <supportDesc resp="../30Prolusioni.xml#AC" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef">
+                            <supportDesc resp="#AC" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef">
                                 <support>
                                     <material>Thin checkered paper</material>
                                 </support>
@@ -114,14 +114,14 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote xml:id="h1">The main text is written by hand by <persName ref="../30Prolusioni.xml#FdS">Ferdinand de Saussure</persName></handNote>
+                            <handNote xml:id="h1">The main text is written by hand by <persName ref="#FdS">Ferdinand de Saussure</persName></handNote>
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin ana="#pag1_note2">
                             <origDate when="1891-11-06" cert="high">06/11/1891</origDate> Première conférence
                             <origDate when="1891-11-10" cert="high">10/11/1891</origDate> Deuxième conférence
-                            <origDate when="1891-11-13" cert="low" source="../30Prolusioni.xml#Bouquet-Engler2002">13/11/1891</origDate> Troisième conférence
+                            <origDate when="1891-11-13" cert="low" source="#Bouquet-Engler2002">13/11/1891</origDate> Troisième conférence
                             <origPlace>Gèneve</origPlace>
                         </origin>
                     </history>
@@ -236,9 +236,9 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
         <profileDesc>
             <textClass>
                 <keywords scheme="#schemaKeywords"> <!-- questa tassonomia schemaKeywords va dichiarata nell'encodingDesc dentro classDecl -->
-                    <term resp="../30Prolusioni.xml#AC" ref="#07._1891_Prolusioni_ginevrine.xml#linguistique-N"> linguistics </term>
-                    <term resp="../30Prolusioni.xml#AC"> university </term>
-                    <term resp="../30Prolusioni.xml#AC"> teaching </term>
+                    <term resp="#AC" ref="#linguistique-N"> linguistics </term>
+                    <term resp="#AC"> university </term>
+                    <term resp="#AC"> teaching </term>
                 </keywords>
             </textClass>
             <langUsage>
@@ -263,7 +263,7 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
     <facsimile>
         <!--PRIMA PAGINA-->
         <surface n="1" xml:id="scan_p1">
-            <graphic url='../immagini/ms_fr_03951_01_1_p001.jpg'/> 
+            <graphic url='/immagini/ms_fr_03951_01_1_p001.jpg'/> 
 
             <!--Righe-->
             <zone ulx="140" uly="91" lrx="524" lry="115" rendition="line" xml:id="facs_p1_lb1"/>                  <!--1a riga-->
@@ -380,7 +380,7 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
         <group> <!--Testo e traduzione delle 3 prolusioni-->
             <group xml:id="fr_Prolusioni"> <!--TESTO FRANCESE DELLE 3 PROLUSIONI-->
                 <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
-                    <body xml:lang="fr" source="../30Prolusioni.xml#Bouquet-Engler2002">
+                    <body xml:lang="fr" source="#Bouquet-Engler2002">
                         <!--Prima pagina = primo folio, recto-->
                         <pb n="f1r" xml:id="body_p1" facs="#scan_p1"/>
                         <!--Numeri impaginazione a stampa e a mano-->
@@ -398,7 +398,7 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
                                 <lb xml:id="lb3_p1" n="3" facs="#facs_p1_lb3"/>
                                 d’études <del change="#CHG-3" rend="overstrike" facs="#facs_del1-p1r3"><gap atLeast="1" atMost="3" unit="words" reason="illegible"/></del> nouveau <del change="#CHG-3" rend="overstrike" facs="#facs_del2-p1r3"><gap atLeast="6" atMost="8" unit="words" reason="illegible"/></del>
                                 <lb xml:id="lb4_p1" n="4" facs="#facs_p1_lb4"/>
-                                <del change="#CHG-3" rend="overstrike" facs="#facs_del1-p1r4"> <gap atLeast="1" atMost="2" unit="words" reason="illegible"/></del> sdans <orgName ref="../30Prolusioni.xml#UniGeneve">notre Université <supplied resp="../30Prolusioni.xml#AC"> de Genève</supplied></orgName><ptr target="#p1_note1"/>, <add change="#CHG-3" place="above" facs="#facs_si-javais-p1r4">si j’avais </add><del change="#CHG-3" rend="overstrike"><gap atLeast="7" atMost="8" unit="words" reason="illegible"/></del>
+                                <del change="#CHG-3" rend="overstrike" facs="#facs_del1-p1r4"> <gap atLeast="1" atMost="2" unit="words" reason="illegible"/></del> sdans <orgName ref="#UniGeneve">notre Université <supplied resp="#AC"> de Genève</supplied></orgName><ptr target="#p1_note1"/>, <add change="#CHG-3" place="above" facs="#facs_si-javais-p1r4">si j’avais </add><del change="#CHG-3" rend="overstrike"><gap atLeast="7" atMost="8" unit="words" reason="illegible"/></del>
                                 <lb xml:id="lb5_p1" n="5" facs="#facs_p1_lb5"/>
                                 <add change="#CHG-4" place="left margin" facs="#facs_aujourdhui-p1r5">aujourd’hui </add><add change="#CHG-3" place="above" facs="#facs_lamissionou-p1r5">la mission ou le</add> privilège <del change="#CHG-3" rend="overstrike" facs="#facs_del1-p1r5">de vous</del>
                                 <lb xml:id="lb6_p1" n="6" facs="#facs_p1_lb6"/>
@@ -407,7 +407,7 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
                                 <!--Margine sx--> 
                                 <add change="#CHG-4" place="left margin" facs="#facs_p1_leftblock1">
                                     <lb xml:id="lb7_p1" n="7" facs="#facs_p1_lb7"/>
-                                    que la <term subtype="linguistics-term" ref="#07._1891_Prolusioni_ginevrine.xml#linguistique-N" facs="#facs_scdulang-p1r7"><choice><abbr>sc.</abbr> <expan>sc<ex>ience</ex></expan></choice> du 
+                                    que la <term subtype="linguistics-term" ref="#linguistique-N" facs="#facs_scdulang-p1r7"><choice><abbr>sc.</abbr> <expan>sc<ex>ience</ex></expan></choice> du 
                                     <lb xml:id="lb8_p1" n="8" facs="#facs_p1_lb8"/>
                                     <choice><abbr>l<am>.</am>age</abbr> <expan>l<ex>ang</ex>age</expan></choice></term> est <choice facs="#facs_occ-p1r8"><abbr>occ.</abbr> <expan>occ<ex>upée</ex></expan></choice> 
                                     <lb xml:id="lb9_p1" n="9" facs="#facs_p1_lb9"/> 
@@ -452,7 +452,7 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
                                     rendre dans une
                                 </add> 
                                 <lb xml:id="lb29_p1" n="29" facs="#facs_p1_lb29"/>
-                                <orgName ref="../30Prolusioni.xml#FacLettres">Faculté des lettres</orgName>, <delSpan change="#CHG-2" spanTo="delSpan1" rend="overstrike" facs="#facs_del1-p1r29"/><gap reason="illegible" extent="3" unit="lines"/><anchor xml:id="delSpan1"/> <add place="above" facs="#facs_add1-p1r29">je craindrais de ne pas remplir très</add> 
+                                <orgName ref="#FacLettres">Faculté des lettres</orgName>, <delSpan change="#CHG-2" spanTo="delSpan1" rend="overstrike" facs="#facs_del1-p1r29"/><gap reason="illegible" extent="3" unit="lines"/><anchor xml:id="delSpan1"/> <add place="above" facs="#facs_add1-p1r29">je craindrais de ne pas remplir très</add> 
                                 <lb xml:id="lb30_p1" n="30" facs="#facs_p1_lb30"/>
                                 <add change="#CHG-3" place="above" facs="#facs_del1-p1r30">dignement ma tâche, mais <choice facs="#facs_certain-p1r30"><abbr>certain.</abbr> <expan>certain<ex>ement</ex></expan></choice></add> 
                                 <lb xml:id="lb31_p1" n="31" facs="#facs_del1-p1r31"/>
@@ -467,7 +467,7 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
                                     <lb xml:id="lb33_p1" n="33" facs="#facs_p1_lb33"/>
                                     outre mesure 
                                     <lb xml:id="lb34_p1" n="34" facs="#facs_p1_lb34"/>
-                                    les mérites de la <term subtype="linguistics-term" ref="#07._1891_Prolusioni_ginevrine.xml#linguistique-N" facs="#facs_linguistique-p1r34">linguistique</term>,
+                                    les mérites de la <term subtype="linguistics-term" ref="#linguistique-N" facs="#facs_linguistique-p1r34">linguistique</term>,
                                     <lb xml:id="lb35_p1" n="35" facs="#facs_p1_lb35"/>
                                     quel est le </add> 
                                 <lb xml:id="lb36_p1" n="36" facs="#facs_p1_lb36"/>
@@ -475,12 +475,12 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
                                 <lb xml:id="lb37_p1" n="37" facs="#facs_p1_lb37"/>
                                 étude l’érudition classique, la connaissance 
                                 <lb xml:id="lb38_p1" n="38" facs="#facs_p1_lb38"/>
-                                des <term subtype="linguistics-term" ref="#07._1891_Prolusioni_ginevrine.xml#langue1">langues</term> grecque, latine et française; 
+                                des <term subtype="linguistics-term" ref="#langue1">langues</term> grecque, latine et française; 
                                 <lb xml:id="lb41_p1" n="39" facs="#facs_p1_lb39"/>
                                 <add change="#CHG-3" place="left margin" facs="facs_eutelle-p1r39">eût-elle un but simplement</add> l’intérêt 
                                 <term subtype="linguistics-term" facs="#facs_litteraire-p1r39">littéraire</term>, que peut avoir ensuite la même <!--Manca glossa-->
                                 <lb xml:id="lb43_p1" n="40" facs="#facs_p1_lb40"/>
-                                étude pour <del rend="overstrike" facs="#facs_del1-p1r40">l'<gap reason="illegible" extent="3" unit="chars"/></del> l’<term subtype="?" ref="#07._1891_Prolusioni_ginevrine.xml#histoire" facs="#facs_histoire-p1r40">histoire</term> ou pour 
+                                étude pour <del rend="overstrike" facs="#facs_del1-p1r40">l'<gap reason="illegible" extent="3" unit="chars"/></del> l’<term subtype="?" ref="#histoire" facs="#facs_histoire-p1r40">histoire</term> ou pour 
                                 <metamark function="sequence">    <!--THVP-->  <!--Manteniamo <metamark> e non usiamo <label> ma andrebbe chiarito con saussuriani. "sequence" non penso sia il più adatto--><!--Elimina nel caso THVP faccia parte del testo...-->
                                     <choice>
                                         <abbr>T.H.V.P.</abbr>
@@ -498,7 +498,7 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
                             <!--Continuo 2a pericope iniziata in pagina 1-->
                             <ab n="2"  xml:lang="FR" corresp="#pericope_91Aaaa002 it_91Aaaa002 en_91Aaaa002" facs="#facs_Pericope2b" part="F"> 
                                 <lb xml:id="lb1_p2" n="1" facs="#p2lb1"/>
-                                l’<term subtype="?" ref="#07._1891_Prolusioni_ginevrine.xml#histoire" facs="#facs_histoire-p2r1">histoire</term> de la civilisation
+                                l’<term subtype="?" ref="#histoire" facs="#facs_histoire-p2r1">histoire</term> de la civilisation
                             </ab>
                             <!--Fine 2a pericope-->
                             <!--Inizio 3a pericope-->
@@ -507,7 +507,7 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
                                 <lb xml:id="lb2_p2" n="2" facs="#facs_p2lb2"/>
                                 ici à rappeler le nom
                                 <lb xml:id="lb3_p2" n="3" facs="#facs_p2lb3"/>
-                                <persName ref="../30Prolusioni.xml#FdS">Lorem ipsum</persName> dolor sit amet, consectetur adipiscing elit, 
+                                <persName ref="#FdS">Lorem ipsum</persName> dolor sit amet, consectetur adipiscing elit, 
                                 <lb xml:id="lb4_p2" n="4" facs="#facs_p2lb4"/>
                                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                 <lb xml:id="lb5_p2" n="5" facs="#facs_p2lb5"/>
@@ -525,19 +525,19 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
                                 <lb xml:id="lb11_p2" n="11" facs="#facs_p2lb11"/>
                                 blandit cursus risus at ultrices mi tempus imperdiet. Pulvinar sapien et ligula 
                                 <lb xml:id="lb12_p2" n="12" facs="#facs_p2lb12"/>
-                                <placeName ref="../30Prolusioni.xml#CS">quis</placeName> malesuada proin libero nunc consequat.
+                                <placeName ref="#CS">quis</placeName> malesuada proin libero nunc consequat.
                             </ab>
                         </div>
                         <!--Fine 2a pagina, la 3a pericope continua nella 3a pagina-->
                     </body>
                 </text>
                 <text xml:id="fr_Prolusione-2"><!--FR 2 PROLUSIONE-->
-                    <body xml:lang="fr" source="../30Prolusioni.xml#Bouquet-Engler2002">
+                    <body xml:lang="fr" source="#Bouquet-Engler2002">
                         <ab> ... </ab>
                     </body>
                 </text>
                 <text xml:id="fr_Prolusione-3"><!--FR 3 PROLUSIONE-->
-                    <body xml:lang="fr" source="../30Prolusioni.xml#Bouquet-Engler2002">
+                    <body xml:lang="fr" source="#Bouquet-Engler2002">
                         <ab> ... </ab>
                     </body>
                 </text>
@@ -545,7 +545,7 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
             
             <group xml:id="it_Prolusioni" xml:lang="IT"> <!--TRADUZIONI ITALIANO DELLE 3 PROLUSIONI-->
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
-                    <body source="../30Prolusioni.xml#Fadda2006" resp="../30Prolusioni.xml#EF">
+                    <body source="#Fadda2006" resp="#EF">
                         <ab xml:id="it_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="IT">
                             <lb/>Se la cattedra che ho in questa
                             <lb/>occasione l’onore di inaugurare rappresentasse un ordine 
@@ -617,7 +617,7 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
                     </body>
                 </text>
                 <text xml:id="it_Prolusione-2"> <!--ITA 2 PROLUSIONE-->
-                    <body source="../30Prolusioni.xml#Fadda2006" resp="../30Prolusioni.xml#EF">
+                    <body source="#Fadda2006" resp="#EF">
                         <ab xml:id="it_91Baaa001" corresp="#pericope_91Baaa001" xml:lang="IT">
                             ...
                         </ab>   
@@ -633,7 +633,7 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
                     </body>
                 </text>
                 <text xml:id="it_Prolusione-3"> <!--ITA 3 PROLUSIONE-->
-                    <body source="../30Prolusioni.xml#Fadda2006" resp="../30Prolusioni.xml#EF">
+                    <body source="#Fadda2006" resp="#EF">
                         <ab xml:id="it_91Caaa001" corresp="#pericope_91Caaa001" xml:lang="IT">
                             ...
                         </ab>   
@@ -652,7 +652,7 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
 
             <group xml:id="en_Prolusioni" xml:lang="EN"> <!--TRADUZIONI INGLESE DELLE 3 PROLUSIONI-->
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
-                    <body resp="../30Prolusioni.xml#AC">
+                    <body resp="#AC">
                         <ab xml:id="en_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="EN">
                             <lb/>If the chair I have the honor of inaugurating 
                             <lb/>on this occasion represented 
@@ -720,7 +720,7 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
                     </body>
                 </text>
                 <text xml:id="en_Prolusione-2"> <!--EN 2 PROLUSIONE-->
-                    <body resp="../30Prolusioni.xml#EF">
+                    <body resp="#EF">
                         <ab xml:id="en_91Baaa001" corresp="#pericope_91Baaa001" xml:lang="IT">
                             ...
                         </ab>   
@@ -736,7 +736,7 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
                     </body>
                 </text>
                 <text xml:id="en_Prolusione-3"> <!--EN 3 PROLUSIONE-->
-                    <body resp="../30Prolusioni.xml#EF">
+                    <body resp="#EF">
                         <ab xml:id="en_91Caaa001" corresp="#pericope_91Caaa001" xml:lang="IT">
                             ...
                         </ab>   
@@ -762,13 +762,13 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
                 <!-- NOTE -->
                 <list type="notes">
                     <!--1-->
-                    <item n="1" xml:id="pag1_note1" resp="../30Prolusioni.xml#AC">
+                    <item n="1" xml:id="pag1_note1" resp="#AC">
                         <p>
                             Scilicet “Université de Genève”, it. “Università di Ginevra”
                         </p>
                     </item>
                     <!--2-->
-                    <item n="2" xml:id="pag1_note2" resp="../30Prolusioni.xml#AC">
+                    <item n="2" xml:id="pag1_note2" resp="#AC">
                         <p>
                             Alessandro Chidichimo's provided each lessons date in his article appearing in Cahiers Ferdinand de Saussure. He provides the dates of the three FdS conferences at the University of Geneva: the certainty of the first two is high, comparing them with the information in the "Journal de Genève" and in "Le Genevois". Chidichimo puts forward two hypotheses for the third conference: Friday 13 November or Tuesday 17.
                         </p>
