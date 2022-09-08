@@ -755,7 +755,7 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
         </group>
 
 
-        <!--Note, bibliografia, listPerson, listPlace, glossario, listOrganizations-->
+        <!--Note-->
         <back>
             <div type="addList">
 
