@@ -48,7 +48,7 @@ input {
     outline: none;
 }
 
-#div_immagine_testo {
+#div_immagine_testo, #div_bibliografia {
     background-color: #FFFFFF;
     padding-left: 5%;
     margin: auto;
@@ -124,6 +124,8 @@ abbr, .expan {
     text-decoration: none;
     color: black;
 }
+
+
 
 
 

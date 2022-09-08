@@ -122,6 +122,10 @@
                 </div>
             </div>
 
+            <div id="div_bibliografia">
+                <h3>Bibliografia</h3>
+                <xsl:apply-templates select="document-node('/XML/lists/TEI-ListBibl.xml')//tei:listBibl" />
+            </div>
 
             <footer>
                 <div id="footer_respStmt">
@@ -233,7 +237,7 @@
 
 
 
-
+    <!--lineNumber-->
     <xsl:template match="//tei:lb">
         <br/>
         <xsl:element name="span">
@@ -244,9 +248,6 @@
             <xsl:value-of select="@n" />
         </xsl:element>
     </xsl:template>
-
-    <!-- Voglio ricavare l'ID della <lb> precedente una zona della mappa cliccata, per colorare il numero di linea corrispondente-->
-
 
     <!--GAP ?-->
     <xsl:template match="//tei:gap">
