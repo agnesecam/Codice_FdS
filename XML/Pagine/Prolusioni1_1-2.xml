@@ -452,7 +452,7 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
                                     rendre dans une
                                 </add> 
                                 <lb xml:id="lb29_p1" n="29" facs="#facs_p1_lb29"/>
-                                <orgName ref="lists/TEI-ListOrg.xml#FacLettres">Faculté des lettres</orgName>, <delSpan change="#CHG-2" spanTo="delSpan1" rend="overstrike" facs="#facs_del1-p1r29"/><gap reason="illegible" extent="3" unit="lines"/><anchor xml:id="delSpan1"/> <add place="above" facs="#facs_add1-p1r29">je craindrais de ne pas remplir très</add> 
+                                <orgName ref="../30Prolusioni.xml#FacLettres">Faculté des lettres</orgName>, <delSpan change="#CHG-2" spanTo="delSpan1" rend="overstrike" facs="#facs_del1-p1r29"/><gap reason="illegible" extent="3" unit="lines"/><anchor xml:id="delSpan1"/> <add place="above" facs="#facs_add1-p1r29">je craindrais de ne pas remplir très</add> 
                                 <lb xml:id="lb30_p1" n="30" facs="#facs_p1_lb30"/>
                                 <add change="#CHG-3" place="above" facs="#facs_del1-p1r30">dignement ma tâche, mais <choice facs="#facs_certain-p1r30"><abbr>certain.</abbr> <expan>certain<ex>ement</ex></expan></choice></add> 
                                 <lb xml:id="lb31_p1" n="31" facs="#facs_del1-p1r31"/>
