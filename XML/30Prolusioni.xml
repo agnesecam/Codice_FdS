@@ -441,35 +441,35 @@
     </teiHeader>
 
     <!-- Pagine 1-2 -->
-    <xi:include href="Prolusioni1_1-2.xml"/>    
+    <xi:include href="/Pagine/Prolusioni1_1-2.xml"/>    
     <!-- Pagine 3-4 -->
-    <xi:include href="Prolusioni1_3-4.xml"/>    
+    <xi:include href="/Pagine/Prolusioni1_3-4.xml"/>    
     <!-- Pagine 5-6 -->
-    <xi:include href="Prolusioni1_5-6.xml"/>    
+    <xi:include href="/Pagine/Prolusioni1_5-6.xml"/>    
     <!-- Pagine 7-8 -->
-    <xi:include href="Prolusioni1_7-8.xml"/>    
+    <xi:include href="/Pagine/Prolusioni1_7-8.xml"/>    
     <!-- Pagine 9-10 -->
-    <xi:include href="Prolusioni1_9-10.xml"/>    
+    <xi:include href="/Pagine/Prolusioni1_9-10.xml"/>    
     <!-- Pagine 11-12 -->
-    <xi:include href="Prolusioni1_11-12.xml"/>    
+    <xi:include href="/Pagine/Prolusioni1_11-12.xml"/>    
     <!-- Pagine 13-14 -->
-    <xi:include href="Prolusioni1_13-14.xml"/>    
+    <xi:include href="/Pagine/Prolusioni1_13-14.xml"/>    
     <!-- Pagine 15-16 -->
-    <xi:include href="Prolusioni1_15-16.xml"/>    
+    <xi:include href="/Pagine/Prolusioni1_15-16.xml"/>    
     <!-- Pagine 17-18 -->
-    <xi:include href="Prolusioni1_17-18.xml"/>    
+    <xi:include href="/Pagine/Prolusioni1_17-18.xml"/>    
     <!-- Pagine 19-20 -->
-    <xi:include href="Prolusioni1_19-20.xml"/>   
+    <xi:include href="/Pagine/Prolusioni1_19-20.xml"/>   
     <!-- Pagine 21-22 -->
-    <xi:include href="Prolusioni1_21-22.xml"/>    
+    <xi:include href="/Pagine/Prolusioni1_21-22.xml"/>    
     <!-- Pagine 23-24 -->
-    <xi:include href="Prolusioni1_23-24.xml"/>    
+    <xi:include href="/Pagine/Prolusioni1_23-24.xml"/>    
     <!-- Pagine 25-26 -->
-    <xi:include href="Prolusioni1_25-26.xml"/>    
+    <xi:include href="/Pagine/Prolusioni1_25-26.xml"/>    
     <!-- Pagine 27-28 -->
-    <xi:include href="Prolusioni1_27-28.xml"/>    
+    <xi:include href="/Pagine/Prolusioni1_27-28.xml"/>    
     <!-- Pagine 29-30 -->
-    <xi:include href="Prolusioni1_29-30.xml"/> 
+    <xi:include href="/Pagine/Prolusioni1_29-30.xml"/> 
 
 
     
