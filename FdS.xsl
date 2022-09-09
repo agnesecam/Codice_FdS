@@ -124,7 +124,7 @@
 
             <div id="div_bibliografia">
                 <h3>Bibliografia</h3>
-                <!--<xsl:apply-templates select="document-node('/XML/lists/TEI-ListBibl.xml')//tei:listBibl" />-->
+                <xsl:apply-templates select="document('XML/lists/TEI-ListBibl.xml')//tei:listBibl" />
             </div>
 
             <footer>
