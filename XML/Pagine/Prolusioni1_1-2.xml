@@ -13,7 +13,7 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
             <titleStmt>
                 <title type="main">Trois premières conférences à l'Université</title> <!--Titolo preso dalla BGE-->
                 <title type="sub">(cours d'ouverture, <date when="1891-11">novembre 1891</date>)</title>
-                <author ref=".#FdS" role="author">Ferdinand de Saussure</author>
+                <author ref="#FdS" role="author">Ferdinand de Saussure</author>
                 <respStmt>
 					<resp>Responsability of:</resp>
 					<name ref="#AMDG">Angelo Mario Del Grosso</name>
