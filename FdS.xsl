@@ -53,7 +53,7 @@
                 <div id="div_immagine_testo">
                     <h2 id="titolo_div_immagine">
                         <!--OUTPUT: "Pagine 1-2" "Pagine 20-21" "Pagine 3-4" ovvero pagine codificate nel file contenente la pagina selezionata-->
-                        <xsl:value-of select="concat('Pagine ', substring-before(substring-after(document-uri(),'1_'), '.xml'))"/>
+                        <xsl:value-of select="concat('Pagine ', substring-before(substring-after(document-uri(),'1_'), '_included.xml'))"/>
                     </h2>
                     <div id="box_legenda">
                         <b>Legenda</b><br/><br/>

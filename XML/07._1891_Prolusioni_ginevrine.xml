@@ -5,9 +5,9 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">Una raccolta terminologica saussuriana</title>
+                <title type="main" class="exclude">Una raccolta terminologica saussuriana</title>
                 <title type="sub">1891 Prolusioni ginevrine</title>
-                <author ref="TEI-ListPerson.xml#GC" role="author">Giuseppe Cosenza</author>
+                <author ref="#GC" role="author">Giuseppe Cosenza</author>
             </titleStmt>
 
             <editionStmt>
@@ -16,10 +16,10 @@
                 </edition>
                 <respStmt>
                     <resp>Edizione digitale a cura di:</resp>
-                    <name ref="TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
-                    <name ref="TEI-ListPerson.xml#AC">Agnese Camici</name>
-                    <name ref="TEI-ListPerson.xml#SP">Silvia Piccini</name>
-                    <name ref="TEI-ListPerson.xml#GC">Giuseppe Cosenza</name>
+                    <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                    <name ref="#AC">Agnese Camici</name>
+                    <name ref="#SP">Silvia Piccini</name>
+                    <name ref="#GC">Giuseppe Cosenza</name>
                 </respStmt>
             </editionStmt>
 
@@ -41,7 +41,7 @@
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <author xml:lang="it" ref="TEI-ListPerson.xml#GC">Giuseppe Cosenza</author>
+                            <author xml:lang="it" ref="#GC">Giuseppe Cosenza</author>
                             <title xml:lang="it" type="main">Dalle parole ai termini</title>
                             <title type="sub">I percorsi di pensiero di F. de Saussure</title>
                             <title type="desc">Una raccolta terminologica saussuriana</title>
