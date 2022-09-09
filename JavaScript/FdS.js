@@ -2,7 +2,7 @@
 window.onload = function testOne(){
     SaxonJS.transform({
         stylesheetLocation: "../FdS.sef.json",
-        sourceLocation: "XML/Prolusioni1_1-2.xml"
+        sourceLocation: "XML/Prolusioni1_1-2_included.xml"
     }, "async")
 }
 
@@ -61,7 +61,7 @@ function select_pages(){
                 add_p = "1-2";
         }
 
-        file_input_XML = "Prolusioni1_" + add_p + ".xml";
+        file_input_XML = "Prolusioni1_" + add_p + "_included.xml";
         console.log("Hai selezionato la pagina " + p_selezionata + ". Il file corrispondente è " + file_input_XML);
         SaxonJS.transform({
             stylesheetLocation: "../FdS.sef.json",

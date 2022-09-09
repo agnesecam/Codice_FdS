@@ -754,6 +754,13 @@
         <back>
             <div type="addList">
 
+                <!--ListBibl-->
+                <xi:include href="lists/TEI-ListBibl.xml"/>
+                <xi:include href="lists/TEI-ListPerson.xml"/>
+                <xi:include href="lists/TEI-ListOrg.xml"/>
+                <xi:include href="lists/TEI-ListPlace.xml"/>
+                <xi:include href="07._1891_Prolusioni_ginevrine.xml"/>
+
                 <!-- NOTE -->
                 <list type="notes">
                     <!--1-->
