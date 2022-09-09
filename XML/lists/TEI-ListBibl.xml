@@ -89,7 +89,7 @@
                     </bibl>
 
                     <!--Journal de Genève-->
-                    <bibl xml:id="JdG">
+                    <bibl xml:id="Journal_de_Genève">
                         <title type="main">Le Journal de Genève</title>
                         <title type="article">Horace Micheli</title>
                         <date when="1931-05-07">7 mai 1931</date>
@@ -105,7 +105,7 @@
                     </bibl>
 
                     <!--Le Genevois-->
-                    <bibl xml:id="LeGenevois">
+                    <bibl xml:id="Le_Genevois">
                         <title type="main">Le Genevois</title>
                         <date when="1891">1981</date>
                         <note>
