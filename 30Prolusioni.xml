@@ -5,29 +5,16 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Prolusioni di Ferdinand de Saussure</title>
+                <title type="main">Trois premières conférences à l'Université</title> <!--Titolo preso dalla BGE-->
+                <title type="sub">(cours d'ouverture, <date when="1891-11">novembre 1891</date>)</title>
+                <author ref=".#FdS" role="author">Ferdinand de Saussure</author>
                 <respStmt>
-                    <resp>Trascritte da</resp>
-                    <name xml:id="LC">Leonardo Colombini</name>
-                </respStmt>
-                
-                <respStmt>
-                    <resp>Digital edition project coordinated by</resp> 
-                    <name ref="#AMDG">Angelo Mario Del Grosso</name>
-                    <name ref="#AC">Agnese Camici</name>
-                    <name ref="#SP">Silvia Piccini</name>
-                    <name ref="#EF">Emanuele Fadda</name>
-                    <name ref="#DG">Daniele Gambarara</name>
-                    <name ref="#GC">Giuseppe Cosenza</name>
-                    <name ref="#GD">Giuseppe D'Ottavi</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Encoding by</resp>
-                    <name ref="#AMDG">Angelo Mario Del Grosso</name>
-                    <name ref="#AC">Agnese Camici</name>
-                    <name ref="#SP">Silvia Piccini</name>
-                    <name ref="#GC">Giuseppe Cosenza</name>
-                </respStmt>
+					<resp>Responsability of:</resp>
+					<name ref="#AMDG">Angelo Mario Del Grosso</name>
+					<name ref="#AC">Agnese Camici</name>
+					<name ref="#SP">Silvia Piccini</name>
+					<name ref="#GC">Giuseppe Cosenza</name>
+				</respStmt>
             </titleStmt>
             
             <editionStmt>   
@@ -52,7 +39,7 @@
                     <name ref="#GC">Giuseppe Cosenza</name>
                 </respStmt>        
             </editionStmt>
-            
+
             <publicationStmt> 
 				<publisher> CNR Pisa - Unical </publisher>
 				<availability>
