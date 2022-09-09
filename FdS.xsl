@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="3.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns="http://www.w3.org/1999/xhtml"
     xmlns:ixsl="http://saxonica.com/ns/interactiveXSLT"
@@ -10,7 +9,8 @@
     xmlns:saxon="http://saxon.sf.net/"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns="http://www.w3.org/1999/xhtml" exclude-result-prefixes="h ixsl js saxon xs" version="3.0"
-    xmlns:xi="http://www.w3.org/2001/XInclude">
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    exclude-result-prefixes="h ixsl js saxon xs">
 
     <xsl:output method="html" html-version="5" encoding="utf-8" indent="no"/>
     <xsl:mode on-no-match="shallow-copy"/>
@@ -18,6 +18,7 @@
     <!--INITIAL TEMPLATE-->
     <xsl:template name="xsl:initial-template">
         <xsl:call-template name="main"/>
+        
     </xsl:template>
 
     <!--MAIN TEMPLATE-->
