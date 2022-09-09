@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei-all.dtd">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <!-- Insert title for this digital text -->
+                </title>
+            </titleStmt>
+            <publicationStmt>
+                <p>
+                    <!-- Insert information about the publication of this digital text -->
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <listPlace>
+                    <head>Lista dei luoghi</head>
+ 
+                    <!--Benevento-->
+                    <place xml:id="BN">
+                        <placeName ref="https://www.geonames.org/3182179/benevento.html https://www.treccani.it/enciclopedia/benevento/">Benevento</placeName>
+                        <country key="IT">Italy</country>
+                        <note>...</note>
+                    </place>
+
+                    <!--Cagliari-->
+                    <place xml:id="CA">
+                        <placeName ref="https://www.geonames.org/2524907/cagliari.html https://www.treccani.it/enciclopedia/cagliari/">Cagliari</placeName>
+                        <country key="IT">Italy</country>
+                        <note>...</note>
+                    </place>                
+
+                    <!--Cosenza-->
+                    <place xml:id="CS">
+                        <placeName ref="https://www.geonames.org/2524907/cosenza.html https://www.treccani.it/enciclopedia/cosenza/">Cosenza</placeName>
+                        <country key="IT">Italy</country>
+                        <note>...</note>
+                    </place>        
+
+                    <!--Genève, Svizzera-->
+                    <place xml:id="GE">
+                        <placeName ref="https://www.geonames.org/2660646/geneve.html https://www.treccani.it/enciclopedia/ginevra/">Genève</placeName>
+                        <country key="CH">Switzerland</country>
+                        <note>...</note>
+                    </place>                                    
+
+                    <!--Osimo-->
+                    <place xml:id="Osimo">
+                        <placeName ref="https://www.geonames.org/3171848/osimo.html https://www.treccani.it/enciclopedia/osimo/">Osimo</placeName>
+                        <country key="IT">Italy</country>
+                        <note>...</note>
+                    </place> 
+
+                    <!--Piombino-->
+                    <place xml:id="Piombino">
+                        <placeName ref="https://www.geonames.org/6541646/piombino.html https://www.treccani.it/enciclopedia/piombino/">Piombino</placeName>
+                        <country key="IT">Italy</country>
+                        <note>...</note>
+                    </place>
+
+                    <!--Torino-->
+                    <place xml:id="TO">
+                        <placeName ref="https://www.geonames.org/3165523/torino.html https://www.treccani.it/enciclopedia/torino/">Torino</placeName>
+                        <country key="IT">Italy</country>
+                        <note>...</note>
+                    </place>                        
+                    
+                    <!--Vufflens-le-Château, Svizzera-->
+                    <place xml:id="VlC">
+                        <placeName ref="https://www.geonames.org/6619308/vufflens-le-chateau.html">Vufflens-le-Château</placeName>
+                        <country key="CH">Switzerland</country>
+                        <note>...</note>
+                    </place>    
+
+                    <listRelation>
+                        <!--Luogo di nascita di una persona-->
+                        <relation name="birth_place-FdS" active="TEI-ListPerson.xml#FdS" passive="#GE"/>               <!--Ferdinand de Saussure-->
+                        <relation name="birth_place-AMDG" active="TEI-ListPerson.xml#AMDG" passive="#BE"/>      <!--Angelo Mario del Grosso-->
+                        <relation name="birth_place-SP" active="TEI-ListPerson.xml#OS" passive="#SP"/>                   <!--Silvia Piccini-->
+                        <!--Luogo di morte di una persona-->
+                        <relation name="death_place" active="TEI-ListPerson.xml#FdS" passive="#VlC"/>
+                    </listRelation>
+
+                </listPlace>
+
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>This is a template for a minimal TEI header with the mandatory components:</p>
+        </body>
+    </text>
+</TEI>

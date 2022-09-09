@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei-all.dtd">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <!-- Insert title for this digital text -->
+                </title>
+            </titleStmt>
+            <publicationStmt>
+                <p>
+                    <!-- Insert information about the publication of this digital text -->
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <listOrg>
+                    <head>Organizzazioni</head>
+                    
+                    <!--Faculté des lettres Genève-->
+                    <org xml:id="FacLettres">
+                        <orgName ref="https://www.unige.ch/lettres/fr/">Faculté des lettres de l'Université de Genève</orgName>
+                        <placeName ref="TEI-ListPlace.xml#GE">Genève</placeName>
+                    </org>
+
+                    <!--University of Geneva-->
+                    <org xml:id="UniGeneve">
+                        <orgName ref="https://en.wikipedia.org/wiki/University_of_Geneva>">University of Geneva</orgName>
+                            <placeName ref="TEI-ListPlace.xml#GE">Genève</placeName>
+                        <desc>
+                            The University of Geneva (French: Université de Genève) is a public research university located in Geneva, Switzerland.
+                        </desc>
+                    </org>
+        
+                </listOrg>
+
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>This is a template for a minimal TEI header with the mandatory components:</p>
+        </body>
+    </text>
+</TEI>
