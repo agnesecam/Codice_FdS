@@ -25,15 +25,15 @@
             <header>
                 <div>
                     <h1>
-                        <xsl:value-of select="//tei:titleStmt/tei:title[@type='main']" />
+                        <xsl:value-of select="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='main']" />
                     </h1>
                 </div>
                 <h2>
-                    <xsl:value-of select="//tei:titleStmt/tei:author" />
+                    <xsl:value-of select="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author" />
                 </h2>
                 <!--SELECT che permette di scegliere la pagina del manoscritto da visualizzare-->
                 <div id="div_select_pages">
-                    <xsl:copy-of select="//tei:msIdentifier/tei:idno"/>
+                    <xsl:copy-of select="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno"/>
                     <br/>
                     <xsl:variable name="default" select="6"/>
                     <xsl:variable name="N" select="30"/>

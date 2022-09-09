@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE TEI SYSTEM "tei-all.dtd">
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xml:id="glossario" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main" class="exclude">Una raccolta terminologica saussuriana</title>
+                <title type="main">Una raccolta terminologica saussuriana</title>
                 <title type="sub">1891 Prolusioni ginevrine</title>
                 <author ref="#GC" role="author">Giuseppe Cosenza</author>
             </titleStmt>
