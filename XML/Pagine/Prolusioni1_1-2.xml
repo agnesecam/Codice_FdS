@@ -3,7 +3,7 @@
 <!DOCTYPE TEI SYSTEM "tei-all.dtd">
 
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI 
+<TEI xml:id="Pagina1-2"
 xmlns="http://www.tei-c.org/ns/1.0" 
 xmlns:svg="http://www.w3.org/2000/svg" 
 xmlns:xi="http://www.w3.org/2001/XInclude">
