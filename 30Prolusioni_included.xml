@@ -5624,7 +5624,7 @@
     </teiHeader>
 
     <!-- Pagine 1-2 -->
-    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="XML/Pagine/Prolusioni1_1-2.xml">
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Pagina1-2" xml:base="XML/Pagine/Prolusioni1_1-2.xml">
 
     <teiHeader>
         <fileDesc>
@@ -6399,7 +6399,7 @@
     </text>
 </TEI>    
     <!-- Pagine 3-4 -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="XML/Pagine/Prolusioni1_3-4.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Pagina3-4" xml:base="XML/Pagine/Prolusioni1_3-4.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -7447,7 +7447,7 @@
     </text>
 </TEI>    
     <!-- Pagine 5-6 -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="XML/Pagine/Prolusioni1_5-6.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Pagina5-6" xml:base="XML/Pagine/Prolusioni1_5-6.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -8495,7 +8495,7 @@
     </text>
 </TEI>    
     <!-- Pagine 7-8 -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="XML/Pagine/Prolusioni1_7-8.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Pagina7-8" xml:base="XML/Pagine/Prolusioni1_7-8.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -9543,7 +9543,7 @@
     </text>
 </TEI>    
     <!-- Pagine 9-10 -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="XML/Pagine/Prolusioni1_9-10.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Pagina9-10" xml:base="XML/Pagine/Prolusioni1_9-10.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -10591,7 +10591,7 @@
     </text>
 </TEI>    
     <!-- Pagine 11-12 -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="XML/Pagine/Prolusioni1_11-12.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Pagina11-12" xml:base="XML/Pagine/Prolusioni1_11-12.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -11639,7 +11639,7 @@
     </text>
 </TEI>    
     <!-- Pagine 13-14 -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="XML/Pagine/Prolusioni1_13-14.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Pagina13-14" xml:base="XML/Pagine/Prolusioni1_13-14.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -12687,7 +12687,7 @@
     </text>
 </TEI>    
     <!-- Pagine 15-16 -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="XML/Pagine/Prolusioni1_15-16.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Pagina15-16" xml:base="XML/Pagine/Prolusioni1_15-16.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -13735,7 +13735,7 @@
     </text>
 </TEI>    
     <!-- Pagine 17-18 -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="XML/Pagine/Prolusioni1_17-18.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Pagina17-18" xml:base="XML/Pagine/Prolusioni1_17-18.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -14783,7 +14783,7 @@
     </text>
 </TEI>    
     <!-- Pagine 19-20 -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="XML/Pagine/Prolusioni1_19-20.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Pagina19-20" xml:base="XML/Pagine/Prolusioni1_19-20.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -15831,7 +15831,7 @@
     </text>
 </TEI>   
     <!-- Pagine 21-22 -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="XML/Pagine/Prolusioni1_21-22.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Pagina21-22" xml:base="XML/Pagine/Prolusioni1_21-22.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16879,7 +16879,7 @@
     </text>
 </TEI>    
     <!-- Pagine 23-24 -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="XML/Pagine/Prolusioni1_23-24.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Pagina23-24" xml:base="XML/Pagine/Prolusioni1_23-24.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -17927,7 +17927,7 @@
     </text>
 </TEI>    
     <!-- Pagine 25-26 -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="XML/Pagine/Prolusioni1_25-26.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Pagina25-26" xml:base="XML/Pagine/Prolusioni1_25-26.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -18975,7 +18975,7 @@
     </text>
 </TEI>    
     <!-- Pagine 27-28 -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="XML/Pagine/Prolusioni1_27-28.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Pagina27-28" xml:base="XML/Pagine/Prolusioni1_27-28.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20023,7 +20023,7 @@
     </text>
 </TEI>    
     <!-- Pagine 29-30 -->
-    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="XML/Pagine/Prolusioni1_29-30.xml">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="Pagina29-30" xml:base="XML/Pagine/Prolusioni1_29-30.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>

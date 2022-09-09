@@ -16,15 +16,14 @@
     <xsl:mode on-no-match="shallow-copy"/>
 
     <!--INITIAL TEMPLATE-->
-    <xsl:template name="initial">
-        <xsl:call-template name="header"/>      <!--HEADER-->
-        <xsl:call-template name="home"/>        <!--HOME-->
-        <xsl:call-template name="footer"/>      <!--FOOTER-->
+    <xsl:template name="xsl:initial-template">
+        <xsl:call-template name="main"/>
+        
     </xsl:template>
 
-    <!--HEADER TEMPLATE-->
-    <xsl:template name="header">
-        <xsl:result-document href="#header" method="ixsl:replace-content"> 
+    <!--MAIN TEMPLATE-->
+    <xsl:template name="main" match="/">
+        <xsl:result-document href="#body" method="ixsl:replace-content">
             <header>
                 <div>
                     <h1>
@@ -34,90 +33,24 @@
                 <h2>
                     <xsl:value-of select="//tei:titleStmt/tei:author" />
                 </h2>
-                <!--Nav per scegliere le pagine da visualizzare-->
+                <!--SELECT che permette di scegliere la pagina del manoscritto da visualizzare-->
                 <div id="div_select_pages">
-                    <nav id="barra_navigazione">
-                        <ul>
-                            <li id="nav_home">Home</li>
-                            <li id="nav_1-2">1-2</li>
-                            <li id="nav_3-4">3-4</li>
-                            <li id="nav_5-6">5-6</li>
-                            <li id="nav_7-8">7-8</li>
-                            <li id="nav_9-10">9-10</li>
-                            <li id="nav_11-12">11-12</li>
-                            <li id="nav_13-14">13-14</li>
-                            <li id="nav_15-16">15-16</li>
-                            <li id="nav_17-18">17-18</li>
-                            <li id="nav_19-20">19-20</li>
-                            <li id="nav_21-22">21-22</li>
-                            <li id="nav_23-24">23-24</li>      
-                            <li id="nav_25-26">25-26</li>
-                            <li id="nav_27-28">27-28</li>
-                            <li id="nav_29-30">29-30</li>                                                   
-                        </ul>
-                    </nav>
+                    <xsl:copy-of select="//tei:msIdentifier/tei:idno"/>
+                    <br/>
+                    <xsl:variable name="default" select="6"/>
+                    <xsl:variable name="N" select="30"/>
+                    <xsl:variable name="pages" select="'1-2', '3-4', '5-6', '7-8', '9-10', '11-12', '13-14', '15-16', '17-18', '19-20', '21-22', '23-24', '25-26', '27-28', '29-30'"/>
+                    <select id="select_pages" onchange="select_pages()">
+                        <option value="">Pagine da visualizzare:</option>
+                        <xsl:for-each select="$pages">
+                            <option value="{.}">
+                                <xsl:sequence select="."/>
+                            </option>
+                        </xsl:for-each>
+                    </select>
                 </div>
             </header>
-        </xsl:result-document>
-    </xsl:template>
 
-    <xsl:template name="footer">
-        <xsl:result-document href="#footer">
-            <footer>
-                <div id="footer_respStmt">
-                    <p>
-                        <b>
-                            <xsl:copy-of select="//tei:editionStmt/tei:respStmt[1]/tei:resp"/>:<br/>
-                        </b>
-                        <xsl:for-each select="//tei:editionStmt/tei:respStmt[1]/tei:name">
-                            <xsl:choose>
-                                <xsl:when test="position() = last()">
-                                    <xsl:copy-of select="."/>
-                                    <xsl:text>. </xsl:text>
-                                </xsl:when>
-                                <xsl:otherwise>
-                                    <xsl:copy-of select="."/>
-                                    <xsl:text>, </xsl:text>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                            <!--Per avere un elenco di nomi-->
-                            <!--<ul>
-                                <li> <xsl:copy-of select="."/></li>
-                            </ul>-->
-                        </xsl:for-each>
-                    </p>
-                    <p>
-                        <b>
-                            <xsl:copy-of select="//tei:editionStmt/tei:respStmt[2]/tei:resp"/>:<br/>
-                        </b>
-                        <xsl:for-each select="//tei:editionStmt/tei:respStmt[2]/tei:name">
-                            <xsl:choose>
-                                <xsl:when test="position() = last()">
-                                    <xsl:copy-of select="."/>
-                                    <xsl:text>. </xsl:text>
-                                </xsl:when>
-                                <xsl:otherwise>
-                                    <xsl:copy-of select="."/>
-                                    <xsl:text>, </xsl:text>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                        </xsl:for-each>
-                    </p>
-                </div>
-            </footer>
-        </xsl:result-document>
-    </xsl:template>
-
-
-
-
-
-
-
-
-    <!--HOME TEMPLATE-->
-    <xsl:template name="home" match="/">
-        <xsl:result-document href="#body" method="ixsl:replace-content">
             <div id="corpo">
                 <div id="div_immagine_testo">
                     <h2 id="titolo_div_immagine">
