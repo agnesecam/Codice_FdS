@@ -123,17 +123,78 @@
             </div>
 
             <div id="div_bibliografia">
-                <h3>Bibliografia</h3>
-                <xsl:apply-templates select="//tei:listBibl" />
+                <p>
+                    <b>Bibliografia:</b><br/>
+                    <xsl:for-each select="//tei:TEI[not(@xml:id='glossario')]/tei:text/tei:back/tei:div/tei:listBibl/tei:bibl">
+                        <xsl:element name="li">
+                            <xsl:attribute name="class">bBook</xsl:attribute>
+                            <xsl:attribute name="id">
+                                <xsl:value-of select="@xml:id" />
+                            </xsl:attribute>
+                            <!--Autore-->
+                            <xsl:for-each select="current()//tei:author">
+                                <xsl:element name="span">
+                                    <xsl:attribute name="class">bAuth</xsl:attribute>
+                                    <xsl:for-each select="current()//tei:surname">
+                                        <xsl:copy-of select="current()"/>
+                                    </xsl:for-each>
+                                    <xsl:text> </xsl:text> <!--spazio divide cognome da iniziale-->
+                                    <xsl:for-each select="current()//tei:forename">
+                                        <xsl:value-of select="concat(substring(current(), 1, 1), '.')" />
+                                    </xsl:for-each>
+                                </xsl:element>
+                                <xsl:text>, </xsl:text>
+                            </xsl:for-each>
+                            <!--Titolo-->
+                            <xsl:element name="span">
+                                <xsl:attribute name="class">bTitle</xsl:attribute>
+                                <xsl:element name="i">
+                                    <xsl:for-each select="current()//tei:title">
+                                        <xsl:apply-templates />
+                                        <xsl:text>. </xsl:text>
+                                    </xsl:for-each>
+                                </xsl:element>
+                            </xsl:element>
+                            <!--Luogo di pubblicazione-->
+                            <xsl:element name="span">
+                                <xsl:attribute name="class">bPlace</xsl:attribute>
+                                <xsl:for-each select="current()//tei:pubPlace">
+                                    <xsl:apply-templates />
+                                    <xsl:text>, </xsl:text>
+                                </xsl:for-each>
+                            </xsl:element>
+                            <!--Editore-->
+                            <xsl:element name="span">
+                                <xsl:attribute name="class">bPubl</xsl:attribute>
+                                <xsl:apply-templates select="current()//tei:publisher" />
+                            </xsl:element>
+                            <xsl:text>, </xsl:text>
+                            <!--Data-->
+                            <xsl:element name="span">
+                                <xsl:attribute name="class">bDate</xsl:attribute>
+                                <xsl:apply-templates select="current()//tei:date" />
+                            </xsl:element>
+                            <!--Note-->
+                            <!--<xsl:if test="current()//tei:note">
+                                <br />
+                                <xsl:element name="div">
+                                    <xsl:attribute name="class">bkDesc</xsl:attribute>
+                                    <xsl:apply-templates select="current()//tei:note" />
+                                    <br />
+                                </xsl:element>
+                            </xsl:if>-->
+                        </xsl:element>
+                    </xsl:for-each>
+                </p>
             </div>
 
             <footer>
                 <div id="footer_respStmt">
                     <p>
                         <b>
-                            <xsl:copy-of select="//tei:editionStmt/tei:respStmt[1]/tei:resp"/>:<br/>
+                            <xsl:copy-of select="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:editionStmt/tei:respStmt[1]/tei:resp"/>:<br/>
                         </b>
-                        <xsl:for-each select="//tei:editionStmt/tei:respStmt[1]/tei:name">
+                        <xsl:for-each select="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:editionStmt/tei:respStmt[1]/tei:name">
                             <xsl:choose>
                                 <xsl:when test="position() = last()">
                                     <xsl:copy-of select="."/>
