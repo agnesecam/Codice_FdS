@@ -5894,7 +5894,7 @@
     <facsimile>
         <!--PRIMA PAGINA-->
         <surface n="1" xml:id="scan_p1">
-            <graphic url="/immagini/ms_fr_03951_01_1_p001.jpg"/> 
+            <graphic url="ms_fr_03951_01_1_p001.jpg"/> 
 
             <!--Righe-->
             <zone ulx="140" uly="91" lrx="524" lry="115" rendition="line" xml:id="facs_p1_lb1"/>                  <!--1a riga-->

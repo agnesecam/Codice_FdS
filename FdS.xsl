@@ -129,7 +129,7 @@
                 <h3>Bibliografia</h3>
                 
                 <!--<xi:include href="XML/lists/TEI-ListBibl.xml" xpointer="a1" xmlns:xi="http://www.w3.org/2001/XInclude"/>-->
-                <xsl:apply-templates select="document('/XML/lists/TEI-ListBibl.xml')//tei:listBibl" />
+                <!--<xsl:apply-templates select="document('/XML/lists/TEI-ListBibl.xml')//tei:listBibl" />-->
             </div>
 
             <footer>
