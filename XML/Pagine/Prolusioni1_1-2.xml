@@ -61,7 +61,7 @@ xmlns:xi="http://www.w3.org/2001/XInclude">
                         <country>Switzerland</country>    
                         <settlement>Genève</settlement>
                         <institution>Bibliothèque de Genève</institution>
-                        <repository role="library" ref="#http://institutions.ville-geneve.ch/fr/bge/"><choice><abbr>BGE</abbr><expan>Bibliothèque de Genève</expan></choice></repository>
+                        <repository role="library" ref="http://institutions.ville-geneve.ch/fr/bge/"><choice><abbr>BGE</abbr><expan>Bibliothèque de Genève</expan></choice></repository>
                         <collection>Archives Ferdinand de Saussure</collection>
                         <idno type="inventory">Ms. fr. 3951/1</idno>
                     </msIdentifier>
