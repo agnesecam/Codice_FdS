@@ -405,22 +405,24 @@
         <u><xsl:apply-templates /></u>
     </xsl:template>
 
-    <!--<span class="hovertext" data-hover="Hello, this is the tooltip">-->
-
+    <!--Voglio ottenere: <span class="hovertext" data-hover="Hello, this is the tooltip">-->
     <!--persName-->
     <xsl:template match="//tei:persName">
         <xsl:element name="span"> 
             <xsl:variable name="testo-hover">
-                <xsl:copy-of select="concat(//tei:listPerson/tei:person[@xml:id='FdS']/tei:persName/tei:forename, ' ')"/>
-                <xsl:copy-of select="concat(//tei:listPerson/tei:person[@xml:id='FdS']/tei:persName/tei:surname, ',')"/>
-                <xsl:if test="//tei:listPerson/tei:person[@xml:id='FdS']/tei:occupation"><xsl:copy-of select="concat(//tei:listPerson/tei:person[@xml:id='FdS']/tei:occupation, ',')"/></xsl:if>
-                <xsl:if test="//tei:listPerson/tei:person[@xml:id='FdS']/tei:birth">
-                    <xsl:copy-of select="concat(//tei:listPerson/tei:person[@xml:id='FdS']/tei:birth/tei:date, ' ')"/>
-                    <xsl:copy-of select="concat('(', //tei:listPerson/tei:person[@xml:id='FdS']/tei:birth/tei:placeName/tei:settlement[@type='municipality'], ') - ')"/>
+                <xsl:variable name="ref">
+                    <xsl:value-of select="substring-after(current()/@ref, '#')"/>
+                </xsl:variable>
+                <xsl:copy-of select="concat(//tei:listPerson/tei:person[@xml:id=$ref]/tei:persName/tei:forename, ' ')"/>
+                <xsl:copy-of select="concat(//tei:listPerson/tei:person[@xml:id=$ref]/tei:persName/tei:surname, ',')"/>
+                <xsl:if test="//tei:listPerson/tei:person[@xml:id=$ref]/tei:occupation"><xsl:copy-of select="concat(//tei:listPerson/tei:person[@xml:id='FdS']/tei:occupation, ',')"/></xsl:if>
+                <xsl:if test="//tei:listPerson/tei:person[@xml:id=$ref]/tei:birth">
+                    <xsl:copy-of select="concat(//tei:listPerson/tei:person[@xml:id=$ref]/tei:birth/tei:date, ' ')"/>
+                    <xsl:copy-of select="concat('(', //tei:listPerson/tei:person[@xml:id=$ref]/tei:birth/tei:placeName/tei:settlement[@type='municipality'], ') - ')"/>
                 </xsl:if>            
-                <xsl:if test="//tei:listPerson/tei:person[@xml:id='FdS']/tei:death">
-                    <xsl:copy-of select="concat(//tei:listPerson/tei:person[@xml:id='FdS']/tei:death/tei:date, ' ')"/> 
-                    <xsl:copy-of select="concat('(', //tei:listPerson/tei:person[@xml:id='FdS']/tei:death/tei:placeName/tei:settlement[@type='municipality'], ') ')"/>
+                <xsl:if test="//tei:listPerson/tei:person[@xml:id=$ref]/tei:death">
+                    <xsl:copy-of select="concat(//tei:listPerson/tei:person[@xml:id=$ref]/tei:death/tei:date, ' ')"/> 
+                    <xsl:copy-of select="concat('(', //tei:listPerson/tei:person[@xml:id=$ref]/tei:death/tei:placeName/tei:settlement[@type='municipality'], ') ')"/>
                 </xsl:if>
             </xsl:variable>        
             <xsl:attribute name="class">hovertext</xsl:attribute>

@@ -107,7 +107,7 @@
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote xml:id="h1">Il corpo principale del manoscritto è interamente scritta da <persName ref="#FdS">Ferdinand de Saussure</persName></handNote>.
+                            <handNote xml:id="h1">Il corpo principale del manoscritto è interamente scritto da <persName ref="#FdS">Ferdinand de Saussure</persName></handNote>.
                         </handDesc>
                     </physDesc>
                     <history>
@@ -500,7 +500,7 @@
                                 <lb xml:id="lb2_p2" n="2" facs="#facs_p2lb2"/>
                                 ici à rappeler le nom
                                 <lb xml:id="lb3_p2" n="3" facs="#facs_p2lb3"/>
-                                <persName ref="#FdS">Lorem ipsum</persName> dolor sit amet, consectetur adipiscing elit, 
+                                <persName ref="#AC">Lorem ipsum</persName> dolor sit amet, consectetur adipiscing elit, 
                                 <lb xml:id="lb4_p2" n="4" facs="#facs_p2lb4"/>
                                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                 <lb xml:id="lb5_p2" n="5" facs="#facs_p2lb5"/>
@@ -908,7 +908,7 @@
                     </person>
 
                     <!--Agnese Camici-->
-                    <person xml:id="AG">
+                    <person xml:id="AC">
                         <persName> 
                             <forename>Agnese</forename>
                             <surname>Camici</surname>

@@ -502,7 +502,7 @@
                                 <lb xml:id="lb2_p2" n="2" facs="#facs_p2lb2"/>
                                 ici à rappeler le nom
                                 <lb xml:id="lb3_p2" n="3" facs="#facs_p2lb3"/>
-                                <persName ref="#FdS">Lorem ipsum</persName> dolor sit amet, consectetur adipiscing elit, 
+                                <persName ref="#AC">Lorem ipsum</persName> dolor sit amet, consectetur adipiscing elit, 
                                 <lb xml:id="lb4_p2" n="4" facs="#facs_p2lb4"/>
                                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                 <lb xml:id="lb5_p2" n="5" facs="#facs_p2lb5"/>
