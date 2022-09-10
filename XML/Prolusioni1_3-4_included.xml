@@ -639,7 +639,6 @@
         <!--Note, bibliografia, listPerson, listPlace, glossario, listOrganizations-->
         <back>
             <div type="addList">
-
                 <!--ListBibl-->
                 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="lists/TEI-ListBibl.xml">
     <teiHeader>
@@ -675,7 +674,7 @@
                         <author>
                             <persName ref="TEI-ListPerson.xml#FdS">
                                 <forename>Ferdinand</forename> 
-                                <surname>de Saussure</surname>
+                                <surname>De Saussure</surname>
                             </persName>
                         </author>
                         <author>
@@ -702,7 +701,7 @@
                         <idno type="ISSN">0302-5160</idno>
                         <citedRange unit="page" from="143" to="172">143-172</citedRange>
                         <note>
-                            French transcription of the manuscript
+                            Trascrizione del manoscritto.
                         </note>
                     </bibl>
 
@@ -724,35 +723,40 @@
                         <pubPlace>Acireale - Roma</pubPlace>
                         <idno type="ISBN">887796276-3</idno>
                         <note>
-                            Italian transcription of the manuscript
+                            Traduzione italiana del manoscritto.
                         </note>
                     </bibl>
 
                     <!--Journal de Genève-->
-                    <bibl xml:id="JdG">
+                    <bibl xml:id="Journal_de_Genève">
                         <title type="main">Le Journal de Genève</title>
                         <title type="article">Horace Micheli</title>
                         <date when="1931-05-07">7 mai 1931</date>
-                        <author>J. Martin</author>
+                        <author>
+                            <persName>
+                                <forename>J.</forename>
+                            </persName>
+                            <surname>Martin</surname>
+                        </author>
                         <pubPlace>Genève</pubPlace>
                         <citedRange unit="page">1</citedRange>
                         <note>
                             Avaible online at <ptr href="https://www.letempsarchives.ch/"/>
                         </note>
                         <note>
-                            Source used by Chidichimo in his article appeared in the Cahiers Ferdinand de Saussure
+                            Fonte utilizzata da Chidichimo nel suo articolo all'interno dei Cahiers Ferdinand de Saussure.
                         </note>
                     </bibl>
 
                     <!--Le Genevois-->
-                    <bibl xml:id="LeGenevois">
+                    <bibl xml:id="Le_Genevois">
                         <title type="main">Le Genevois</title>
                         <date when="1891">1981</date>
                         <note>
-                            Historical archive, avaible at the BGE Salle des périodiques
+                            Historical archive, avaible at the BGE Salle des périodiques.
                         </note>
                         <note>
-                            Source used by Chidichimo in his article appeared in the Cahiers Ferdinand de Saussure
+                            Fonte utilizzata da Chidichimo nel suo articolo all'interno dei Cahiers Ferdinand de Saussure.
                         </note>
                     </bibl>
 
@@ -1105,13 +1109,13 @@
         </body>
     </text>
 </TEI>
-                <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="glossario">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="main">Una raccolta terminologica saussuriana</title>
                 <title type="sub">1891 Prolusioni ginevrine</title>
-                <author ref="TEI-ListPerson.xml#GC" role="author">Giuseppe Cosenza</author>
+                <author ref="#GC" role="author">Giuseppe Cosenza</author>
             </titleStmt>
 
             <editionStmt>
@@ -1120,10 +1124,10 @@
                 </edition>
                 <respStmt>
                     <resp>Edizione digitale a cura di:</resp>
-                    <name ref="TEI-ListPerson.xml#AMDG">Angelo Mario Del Grosso</name>
-                    <name ref="TEI-ListPerson.xml#AC">Agnese Camici</name>
-                    <name ref="TEI-ListPerson.xml#SP">Silvia Piccini</name>
-                    <name ref="TEI-ListPerson.xml#GC">Giuseppe Cosenza</name>
+                    <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                    <name ref="#AC">Agnese Camici</name>
+                    <name ref="#SP">Silvia Piccini</name>
+                    <name ref="#GC">Giuseppe Cosenza</name>
                 </respStmt>
             </editionStmt>
 
@@ -1145,7 +1149,7 @@
                     </msIdentifier>
                     <msContents>
                         <msItem>
-                            <author xml:lang="it" ref="TEI-ListPerson.xml#GC">Giuseppe Cosenza</author>
+                            <author xml:lang="it" ref="#GC">Giuseppe Cosenza</author>
                             <title xml:lang="it" type="main">Dalle parole ai termini</title>
                             <title type="sub">I percorsi di pensiero di F. de Saussure</title>
                             <title type="desc">Una raccolta terminologica saussuriana</title>
@@ -6304,7 +6308,6 @@
     </text>
 </TEI>
 
-
                 <!-- NOTE -->
                 <list type="notes">
                     <!--1-->
@@ -6320,394 +6323,6 @@
                         </p>
                     </item>
                 </list> 
-
-                <!-- BIBLIOGRAPHY -->
-                <listBibl xml:id="prolusioni1_bibliography">
-                    <head>Bibliography</head>
-
-                    <!--Bouquet-Engler2002-->
-                    <bibl xml:id="Bouquet-Engler2002"> 
-                        <title>Écrits de linguistique générale</title>
-                        <author>
-                            <persName ref="#FdS">
-                                <forename>Ferdinand</forename> 
-                                <surname>de Saussure</surname>
-                            </persName>
-                        </author>
-                        <author>
-                            <persName ref="#SB">
-                                <forename>Simon</forename>
-                                <surname>Bouquet</surname>
-                            </persName>
-                        </author>
-                        <author>
-                            <persName ref="#RE">
-                                <forename>Rudolf</forename>
-                                <surname>Engler</surname>
-                            </persName>
-                        </author>
-                        <author>
-                            <persName ref="#AW">
-                                <forename>Antoinette</forename>
-                                <surname>Weil</surname>
-                            </persName>
-                        </author>
-                        <date when="2002">2002</date>
-                        <publisher>Gallimard</publisher>
-                        <pubPlace>Paris</pubPlace>
-                        <idno type="ISSN">0302-5160</idno>
-                        <citedRange unit="page" from="143" to="172">143-172</citedRange>
-                        <note>
-                            French transcription of the manuscript
-                        </note>
-                    </bibl>
-
-                    <!--E.Fadda 2006-->
-                    <bibl xml:id="Fadda2006">
-                        <title type="main">Lingua e mente sociale</title>
-                        <title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
-                        <author>
-                            <persName ref="#EF">
-                                <forename>Emanuele</forename>
-                                <surname>Fadda</surname>
-                            </persName>
-                        </author>  
-                        <publisher>Bonanno Editore</publisher>
-                        <pubPlace>Alessandria</pubPlace>
-                        <citedRange unit="page" from="85" to="121">85-121</citedRange>
-                        <publisher>Bonanno Editore</publisher>
-                        <pubPlace>Acireale - Roma</pubPlace>
-                        <idno type="ISBN">887796276-3</idno>
-                        <citedRange unit="page" from="85" to="121">85-121</citedRange>
-                        <note>
-                            Italian transcription of the manuscript
-                        </note>
-                    </bibl>
-                </listBibl>
-                
-                <!-- PERSON -->
-                <listPerson>
-                    <head>People</head>
-                    
-                    <!--Ferdinand de Saussure-->
-                    <person xml:id="FdS" sameAs="https://viaf.org/viaf/95158205/ https://www.worldcat.org/identities/viaf-8291159248237604870007/"> 
-                        <persName role="author">
-                            <forename>Ferdinand</forename>
-                            <surname>de Saussure</surname>
-                        </persName>
-                        <occupation> linguistic </occupation>
-                        <sex>M</sex>
-                        <birth>
-                            <date when="1857-11-26">26th November 1857</date>
-                            <placeName ref="#GE">
-                                <settlement type="municipality">Genève</settlement>
-                                <settlement type="department" key="GE">Genève</settlement>
-                                <country key="CH">Switzerland</country>
-                            </placeName>
-                        </birth>
-                        <death>
-							<date when="1913-02-22">22nd February 1913</date>
-							<placeName ref="#VlC">
-								<settlement type="municipality">Vufflens-le-Château</settlement>
-								<settlement type="canton" key="Vaud">Vaud</settlement>
-								<country key="CH">Svizzera</country>
-							</placeName>
-                        </death> 
-                    </person>
-
-                    <!--Angelo Mario Del Grosso-->
-                    <person xml:id="AMDG" sameAs="https://viaf.org/viaf/323148207835400342025"> 
-                        <persName> 
-                            <forename>Angelo</forename>
-                            <forename>Mario</forename>
-                            <surname>Del Grosso</surname>
-                        </persName>
-                        <sex>M</sex>
-                        <birth>
-                            <date when="1980-02-19">19th February 1980</date>
-                            <placeName ref="#BN">
-                                <settlement type="municipality">Benevento</settlement>
-                                <settlement type="provincia" key="BN">Benevento</settlement>
-                                <country key="IT">Italy</country>
-                            </placeName>
-                        </birth>
-                    </person>
-
-                    <!--Silvia Piccini-->
-                    <person xml:id="SP">
-                        <persName> 
-                            <forename>Silvia</forename>
-                            <surname>Piccini</surname>
-                        </persName>
-                        <sex>F</sex>
-                        <birth>
-                            <date when="1978-11-12">12th November 1978</date>
-                            <placeName ref="#Osimo">
-                                <settlement type="municipality" key="Osimo">Osimo</settlement>
-                                <settlement type="provincia" key="AN">Ancona</settlement>
-                                <country key="IT">Italy</country>
-                            </placeName>
-                        </birth>
-                    </person>
-
-                    <!--Agnese Camici-->
-                    <person xml:id="AG">
-                        <persName> 
-                            <forename>Agnese</forename>
-                            <surname>Camici</surname>
-                        </persName>
-                        <sex>F</sex>
-                        <birth>
-                            <date when="1997-01-25">25nd Jenuary 1997</date>
-                            <placeName>
-                                <settlement type="municipality">Piombino</settlement>
-                                <settlement type="provincia" key="LI">Livorno</settlement>
-                                <country key="IT">Italy</country>
-                                </placeName>
-                        </birth>
-                    </person>    
-
-                    <!--Emanuele Fadda-->
-                    <person xml:id="EF" sameAs="http://viaf.org/viaf/101011384/ http://worldcat.org/identities/lccn-no2011183289/"> 
-                        <persName role="author"> 
-                            <forename>Emanuele</forename>
-                            <surname>Fadda</surname>
-                        </persName>
-                        <sex>M</sex>
-                        <birth>
-                        <date when="1972">1972</date>
-                            <placeName ref="#CA">
-                                <settlement type="municipality">Cagliari</settlement>
-                                <settlement type="provincia" key="CA">Cagliari</settlement>
-                                <country key="IT">Italy</country>
-                            </placeName>
-                        </birth> 
-                    </person>
-
-                    <!--Daniele Gambarara-->
-                    <person xml:id="DG" sameAs="https://viaf.org/viaf/56756122/ http://worldcat.org/identities/lccn-n78084157/"> 
-                        <persName> 
-                            <forename>Emanuele</forename>
-                            <surname>Fadda</surname>
-                        </persName>
-                        <sex>M</sex>
-                        <birth>
-                            <date when="1948-03-14">14th May 1948</date>
-                            <placeName ref="#TO">
-                                <settlement type="municipality">Torino</settlement>
-                                <settlement type="provincia" key="TO">Torino</settlement>
-                                <country key="IT">Italy</country>
-                            </placeName>
-                        </birth> 
-                    </person>
-
-                    <!--Giuseppe Cosenza-->
-                    <person xml:id="GC" sameAs="http://worldcat.org/identities/np-cosenza,%20giuseppe/"> 
-                        <persName> 
-                            <forename>Giuseppe</forename>
-                            <surname>Cosenza</surname>
-                        </persName>
-                        <sex>M</sex>
-                    </person>
-
-                    <!--Giuseppe D'Ottavi-->
-                    <person xml:id="GD" sameAs="http://worldcat.org/identities/lccn-no2020124840/">
-                        <persName>
-                            <forename>Giuseppe</forename>
-                            <surname>D'Ottavi</surname>
-                        </persName>
-                        <sex>M</sex>
-                    </person>
-
-                    <!--Simon Bouquet-->
-                    <person xml:id="SB" sameAs="http://viaf.org/viaf/100974817 https://www.worldcat.org/identities/lccn-n97102757/"> 
-                        <persName> 
-                            <forename>Simon</forename>
-                            <surname>Bouquet</surname>
-                        </persName>
-                        <sex>M</sex>
-                        <birth>
-                            <date when="1954">1954</date>
-                        </birth> 
-                    </person>
-
-                    <!--Rudolf Engler-->
-                    <person xml:id="RE" sameAs="https://viaf.org/viaf/2500391/ http://worldcat.org/identities/lccn-nr89013033/"> 
-                        <persName role="author"> 
-                            <forename>Rudolf</forename>
-                            <surname>Engler</surname>
-                        </persName>
-                        <sex>M</sex>
-                        <birth>
-                            <date when="1930-10-25">25th October 1930</date>
-                        </birth> 
-                    </person>
-
-                    <!--Antoinette Weil-->
-                    <person xml:id="AW" sameAs="http://worldcat.org/identities/lccn-nr2002015108/"> 
-                        <persName> 
-                            <forename>Antoinette</forename>
-                            <surname>Weil</surname>
-                        </persName>
-                        <sex>F</sex>
-                    </person>
-
-                    <!--Alessandro Chidichimo-->
-                    <person xml:id="Chidichimo" sameAs="https://www.worldcat.org/wcidentities/viaf-8291159248237604870007">
-                        <persName> 
-                            <forename>Alessandro</forename>
-                            <surname>Chidichimo</surname>
-                        </persName>
-                        <sex>M</sex>
-                        <note> Alessandro Chidichimo's provided each lessons date, the accuracy is by day, unlike Bouquet-Egler which gives only the year. Chidichimo is the responsable of the dating. </note>
-                    </person>
-                </listPerson>
-
-                <!-- PLACE -->
-                <listPlace>
-                    <head>Places</head>
-                    
-                    <!--Genève-->
-                    <place xml:id="GE">
-                        <placeName ref="https://www.geonames.org/2660646/geneve.html https://www.treccani.it/enciclopedia/ginevra/">Genève</placeName>
-                        <country key="CH">Switzerland</country>
-                        <note>...</note>
-                    </place>
-
-                    <!--Benevento-->
-                    <place xml:id="BN">
-                        <placeName ref="https://www.geonames.org/3182179/benevento.html https://www.treccani.it/enciclopedia/benevento/">Benevento</placeName>
-                        <country key="IT">Italy</country>
-                        <note>...</note>
-                    </place>
-
-                    <!--Piombino-->
-                    <place xml:id="Piombino">
-                        <placeName ref="https://www.geonames.org/6541646/piombino.html https://www.treccani.it/enciclopedia/piombino/">Piombino</placeName>
-                        <country key="IT">Italy</country>
-                        <note>...</note>
-                    </place>
-
-                    <!--Torino-->
-                    <place xml:id="TO">
-                        <placeName ref="https://www.geonames.org/3165523/torino.html https://www.treccani.it/enciclopedia/torino/">Torino</placeName>
-                        <country key="IT">Italy</country>
-                        <note>...</note>
-                    </place>    
-
-                    <!--Cosenza-->
-                    <place xml:id="CS">
-                        <placeName ref="https://www.geonames.org/2524907/cosenza.html https://www.treccani.it/enciclopedia/cosenza/">Cosenza</placeName>
-                        <country key="IT">Italy</country>
-                        <note>...</note>
-                    </place>
-
-                    <!--Cagliari-->
-                    <place xml:id="CA">
-                        <placeName ref="https://www.geonames.org/2524907/cagliari.html https://www.treccani.it/enciclopedia/cagliari/">Cagliari</placeName>
-                        <country key="IT">Italy</country>
-                        <note>...</note>
-                    </place>
-
-                    <!--Osimo-->
-                    <place xml:id="Osimo">
-                        <placeName ref="https://www.geonames.org/3171848/osimo.html https://www.treccani.it/enciclopedia/osimo/">Osimo</placeName>
-                        <country key="IT">Italy</country>
-                        <note>...</note>
-                    </place> 
-
-                    <listRelation>
-                        <!--Luoghi vicini-->
-                        <relation name="near" mutual="#Pl1 #Pl2"/>
-                        <!--Luogo di nascita di una persona-->
-                        <relation name="birth_place-FdS" active="#FdS" passive="#GE"/>               <!--Ferdinand de Saussure-->
-                        <relation name="birth_place-AMDG" active="#AMDG" passive="#BE"/>      <!--Angelo Mario del Grosso-->
-                        <relation name="birth_place-SP" active="#OS" passive="#SP"/>                   <!--Silvia Piccini-->
-                        <!--Luogo di morte di una persona-->
-                        <relation name="death_place" active="#FdS" passive="#VlC"/>
-                    </listRelation>
-                </listPlace>
-
-                <!-- GLOSSARIO  -->
-                <list type="terminology">      
-
-                    <!-- Science du langage = linguistics -->
-                    <label>
-                        <term subtype="linguistics-term" xml:lang="fr" xml:id="science-du-langage" key="">Science du langage</term>
-                    </label>
-                    <item>
-                        <gloss xml:lang="it" target="#science-du-langage" source="ontology_F_d_S.owl#linguistique"> <!--prefix declaration per accorciare l'URI!-->
-                            La science du langage ou des langues, étant sous-entendu que l'objet véritable de l'étude sera la langue (Engler 33). 
-                            (La linguistique) est une science sémiologique (Godel, 267)
-                        </gloss>
-                        <note>Periphrasis for linguistics</note>
-                    </item>
-
-                    <!-- Langues -->
-                    <label><!--langue1-->
-                        <term subtype="linguistics-term" xml:lang="fr" xml:id="langue1" key="">Langue</term> <!--Suggerimento per riconoscere l'accezione: se l'istanza del termine è al plurale, è un idioma-->
-                    </label>
-                    <item>
-                        <gloss n="1" xml:lang="fr" target="#langue1" source="ontology_F_d_S.owl#langue1">
-                            Idiome, langue déterminée quelconque.(Engler, 32) (Godel, 266) ; opposé à langue_1 (Engler, 32)
-                        </gloss>
-                    </item>
-                    <label><!--langue2-->
-                        <term subtype="linguistics-term" xml:lang="fr" xml:id="langue2" key="">Langue</term>
-                    </label>
-                    <item>
-                        <gloss n="2" xml:lang="fr" target="#langue2" source="ontology_F_d_S.owl#langue2">
-                            instrument sémiologique permettant au langage de se manifester dans la parole ; code social organisant 
-                            le langage et formant l’outil nécessaire à l’exercice de la faculté du langage, (Engler, 31) ; ensemble 
-                            des conventions nécessaires adoptées par le corps social pour permettre l'usage de la faculté du 
-                            langage chez les individus. Institution unique en son genre, par les caractères qui font qu'elle est 
-                            solidaire du passé. La langue est un système de signaux, de signes. Système de signes reposant sur des 
-                            images acoustiques, où les deux parties du signe sont psychiques. Sommes des signes évocables. 
-                            Système de valeurs. (Godel, 266)
-                        </gloss>    
-                    </item>
-                    <label><!--langue3-->
-                        <term subtype="linguistics-term" xml:lang="fr" xml:id="langue3" key="">Langue</term>
-                    </label>
-                    <item>
-                        <gloss n="3" xml:lang="fr" target="#langue3" source="ontology_F_d_S.owl#langue3">
-                            Organe charnu, allongé et mobile, placé dans la bouche
-                        </gloss>
-                    </item>
-
-                    <!-- Histoire -->
-                    <label>
-                        <term subtype="?" xml:lang="fr" xml:id="histoire" key="">Histoire</term>
-                    </label>
-                    <item>
-                        <gloss n="1" xml:lang="fr" target="#histoire" source="ontology_F_d_S.owl#histoire">
-                            En linguistique interne : diachronie, linguistique évolutive (Engler, 27)
-                        </gloss>
-                    </item>
-
-                    <!-- Litteraire --> <!-- Ho eliminato il riferimento nel testo perché non saprei che definizione inserire nella glossa -->
-                    <label>
-                        <term subtype="?" xml:lang="fr" xml:id="litteraire" key="">Litteraire</term>
-                    </label>
-                    <item>
-                        <gloss n="1" xml:lang="" target="#litteraire" source="">...</gloss>
-                    </item>
-                </list>
-            
-                <!-- ORGANIZZAZIONI  -->
-                <listOrg>
-                    <org xml:id="UniGeneve">
-                        <orgName ref="https://en.wikipedia.org/wiki/University_of_Geneva&gt;">University of Geneva</orgName>
-                            <placeName ref="#GE">Genève</placeName>
-                        <desc>
-                            The University of Geneva (French: Université de Genève) is a public research university located in Geneva, Switzerland.
-                        </desc>
-                    </org>
-                    <org xml:id="FacLettres">
-                        <orgName ref="https://www.unige.ch/lettres/fr/">Faculté des lettres de l'Université de Genève</orgName>
-                        <placeName ref="#GE">Genève</placeName>
-                    </org>
-                </listOrg>      
             </div>
         </back>
     </text>

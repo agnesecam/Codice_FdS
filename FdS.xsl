@@ -315,22 +315,21 @@
             <b>Luogo </b><xsl:apply-templates select="//tei:origin//tei:origPlace" /><br/>
         </div><br/>
     </xsl:template>
-
     <xsl:template match="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier">
         <div id="archivistica">
             <b><u>ARCHIVISTICA</u></b><br/>
             <b>Luogo </b><xsl:apply-templates select="current()//tei:country" />, <xsl:apply-templates select="current()//tei:settlement" /><br/>
-            <b>Repository </b><xsl:apply-templates select="current()//tei:repository/tei:choice" /><br/>
+            <b>Repository </b><xsl:apply-templates select="current()//tei:repository" /><br/>
             <b>Collection </b><xsl:apply-templates select="current()//tei:collection" /><br/>
             <b>IDNO </b><xsl:apply-templates select="//tei:idno[@type='inventory']" /><br/>
         </div><br/>
     </xsl:template>
-
     <xsl:template match="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc">
         <div id="supporto">
             <b><u>SUPPORTO</u></b><br/>
             <b>Materiale </b><xsl:apply-templates select="current()//tei:support" /><br/>
-            <b>Estensione </b><xsl:apply-templates select="current()//tei:extent/tei:measureGroup" /><br/>
+            <b>Estensione </b><xsl:apply-templates select="current()//tei:extent/tei:measureGrp" /><br/>
+            <b>Dimensioni </b> Altezza: <xsl:apply-templates select="current()//tei:extent/tei:dimensions/tei:height" /> cm - larghezza: <xsl:apply-templates select="current()//tei:extent/tei:dimensions/tei:width" /> cm<br/>
             <b>Layout </b><xsl:apply-templates select="current()//tei:collation" /><br/>
             <b>Conservazione </b><xsl:apply-templates select="current()//tei:condition" /><br/>
             <b>Mani</b><xsl:apply-templates select="current()//tei:handDesc" />
