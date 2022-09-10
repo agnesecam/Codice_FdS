@@ -53,8 +53,8 @@
             <sourceDesc>
                 <msDesc>
                     <msIdentifier>
-                        <country>Switzerland</country>    
-                        <settlement>Genève</settlement>
+                        <country>Svizzera</country>    
+                        <settlement>Ginevra</settlement>
                         <institution>Bibliothèque de Genève</institution>
                         <repository role="library" ref="#http://institutions.ville-geneve.ch/fr/bge/"><choice><abbr>BGE</abbr><expan>Bibliothèque de Genève</expan></choice></repository>
                         <collection>Archives Ferdinand de Saussure</collection>
@@ -94,30 +94,30 @@
                         <objectDesc form="folio">
                             <supportDesc resp="#AC" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef">
                                 <support>
-                                    <material>Thin checkered paper</material>
+                                    <material>Carta sottile quadrettata</material>
                                 </support>
                                 <extent>
                                     <measureGrp type="notebook" unit="page" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef"> 
-                                        <measure quantity="30">30 pages</measure> +
-                                        <measure quantity="15">15 pages</measure> +
-                                        <measure quantity="22">22 pages</measure>
+                                        <measure quantity="30">30 pagine</measure> +
+                                        <measure quantity="15">15 pagine</measure> +
+                                        <measure quantity="22">22 pagine</measure>
                                     </measureGrp>
                                     <dimensions type="leaves" unit="mm"><height unit="mm" quantity="211">211</height><width unit="mm" quantity="136">136</width></dimensions>
                                 </extent>
-                                <collation>The page is part of a notebook composed of a left and a right page, each page consists in a folio</collation>
-                                <condition>Well preserved notebook, good conditions. Some pages present a few tears in the left or right borders.</condition>
+                                <collation>La pagina è inserita in un quaderno. Ogni pagina costituisce un folio.</collation>
+                                <condition>Il quaderno si trova in buone condizioni, ben conservato. Alcune pagine presentano strappi o lacerazioni nei bordi o agli angoli.</condition>
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote xml:id="h1">The main text is written by hand by <persName ref="#FdS">Ferdinand de Saussure</persName></handNote>
+                            <handNote xml:id="h1">Il corpo principale del manoscritto è interamente scritta da <persName ref="#FdS">Ferdinand de Saussure</persName></handNote>.
                         </handDesc>
                     </physDesc>
                     <history>
                         <origin ana="#pag1_note2">
-                            <origDate when="1891-11-06" cert="high">06/11/1891</origDate> Première conférence
-                            <origDate when="1891-11-10" cert="high">10/11/1891</origDate> Deuxième conférence
-                            <origDate when="1891-11-13" cert="low" source="#Bouquet-Engler2002">13/11/1891</origDate> Troisième conférence
-                            <origPlace>Gèneve</origPlace>
+                            Première conférence <origDate when="1891-11-06" cert="high">06/11/1891</origDate>
+                            Deuxième conférence <origDate when="1891-11-10" cert="high">10/11/1891</origDate>
+                            Troisième conférence <origDate when="1891-11-13" cert="low" source="#Bouquet-Engler2002">13/11/1891</origDate>
+                            <origPlace>Ginevra</origPlace>
                         </origin>
                     </history>
                     <additional>

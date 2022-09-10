@@ -47,6 +47,12 @@
                         </xsl:for-each>
                     </select>
                 </div>
+                <div id="introduzione">
+                    <h3>Informazioni</h3>
+                    <xsl:apply-templates select="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history" />
+                    <xsl:apply-templates select="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier"/>
+                    <xsl:apply-templates select="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc" />
+                </div>
             </header>
 
             <div id="corpo">
@@ -294,6 +300,41 @@
             </xsl:element>
         </xsl:for-each>
         
+    </xsl:template>
+
+
+
+    <!--Box info-->
+    <xsl:template match="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history">
+        <div id="date_di_composizione">
+            <b><u>COMPOSIZIONE</u></b><br/>
+            <b>Date di composizione </b>            
+            <xsl:apply-templates select="//tei:origin/tei:origDate[1]" /> Première conférence - 
+            <xsl:apply-templates select="//tei:origin/tei:origDate[2]" /> Deuxième conférence - 
+            <xsl:apply-templates select="//tei:origin/tei:origDate[3]" /> Troisième conférence<br/>
+            <b>Luogo </b><xsl:apply-templates select="//tei:origin//tei:origPlace" /><br/>
+        </div><br/>
+    </xsl:template>
+
+    <xsl:template match="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier">
+        <div id="archivistica">
+            <b><u>ARCHIVISTICA</u></b><br/>
+            <b>Luogo </b><xsl:apply-templates select="current()//tei:country" />, <xsl:apply-templates select="current()//tei:settlement" /><br/>
+            <b>Repository </b><xsl:apply-templates select="current()//tei:repository/tei:choice" /><br/>
+            <b>Collection </b><xsl:apply-templates select="current()//tei:collection" /><br/>
+            <b>IDNO </b><xsl:apply-templates select="//tei:idno[@type='inventory']" /><br/>
+        </div><br/>
+    </xsl:template>
+
+    <xsl:template match="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc">
+        <div id="supporto">
+            <b><u>SUPPORTO</u></b><br/>
+            <b>Materiale </b><xsl:apply-templates select="current()//tei:support" /><br/>
+            <b>Estensione </b><xsl:apply-templates select="current()//tei:extent/tei:measureGroup" /><br/>
+            <b>Layout </b><xsl:apply-templates select="current()//tei:collation" /><br/>
+            <b>Conservazione </b><xsl:apply-templates select="current()//tei:condition" /><br/>
+            <b>Mani</b><xsl:apply-templates select="current()//tei:handDesc" />
+        </div><br/>
     </xsl:template>
 
 
