@@ -286,7 +286,7 @@
             <zone ulx="50" uly="556" lrx="76" lry="563" rendition="line" xml:id="facs_p1_lb25"/>                  <!--25a riga, cercle des-->
             <zone ulx="43" uly="573" lrx="75" lry="580" rendition="line" xml:id="facs_p1_lb26"/>                  <!--26a riga, humaines et les-->
             <zone ulx="45" uly="589" lrx="72" lry="596" rendition="line" xml:id="facs_p1_lb27"/>                  <!--27a riga, services qu’elle peut -->
-            <zone ulx="50" uly="602" lrx="81" lry="611" rendition="line" xml:id="facs_p1_lb28"/>                  <!--28a riga, rendre dans une-->
+            <zone points="53,619 48,612 145,559 154,572" rendition="line" xml:id="facs_p1_lb28"/>                  <!--28a riga, rendre dans une-->
             <zone ulx="147" uly="525" lrx="533" lry="549" rendition="line" xml:id="facs_p1_lb29"/>             <!--29a riga, Faculté des lettres-->
             <zone ulx="155" uly="557" lrx="523" lry="573" rendition="line" xml:id="facs_p1_lb30"/>             <!--30a riga, cancellata e sopraelevata-->
             <zone ulx="155" uly="582" lrx="522" lry="591" rendition="line" xml:id="facs_p1_lb31"/>             <!--31a riga, cancellata e sopraelevata-->
@@ -814,7 +814,7 @@
                         <idno type="ISSN">0302-5160</idno>
                         <citedRange unit="page" from="143" to="172">143-172</citedRange>
                         <note>
-                            French transcription of the manuscript.
+                            Trascrizione del manoscritto.
                         </note>
                     </bibl>
 
@@ -836,7 +836,7 @@
                         <pubPlace>Acireale - Roma</pubPlace>
                         <idno type="ISBN">887796276-3</idno>
                         <note>
-                            Italian transcription of the manuscript.
+                            Traduzione italiana del manoscritto.
                         </note>
                     </bibl>
 
@@ -857,7 +857,7 @@
                             Avaible online at <ptr href="https://www.letempsarchives.ch/"/>
                         </note>
                         <note>
-                            Source used by Chidichimo in his article appeared in the Cahiers Ferdinand de Saussure.
+                            Fonte utilizzata da Chidichimo nel suo articolo all'interno dei Cahiers Ferdinand de Saussure.
                         </note>
                     </bibl>
 
@@ -869,7 +869,7 @@
                             Historical archive, avaible at the BGE Salle des périodiques.
                         </note>
                         <note>
-                            Source used by Chidichimo in his article appeared in the Cahiers Ferdinand de Saussure.
+                            Fonte utilizzata da Chidichimo nel suo articolo all'interno dei Cahiers Ferdinand de Saussure.
                         </note>
                     </bibl>
 

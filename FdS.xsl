@@ -175,14 +175,14 @@
                                 <xsl:apply-templates select="current()//tei:date" />
                             </xsl:element>
                             <!--Note-->
-                            <!--<xsl:if test="current()//tei:note">
+                            <xsl:if test="current()//tei:note">
                                 <br />
                                 <xsl:element name="div">
                                     <xsl:attribute name="class">bkDesc</xsl:attribute>
                                     <xsl:apply-templates select="current()//tei:note" />
                                     <br />
                                 </xsl:element>
-                            </xsl:if>-->
+                            </xsl:if>
                         </xsl:element>
                     </xsl:for-each>
                 </p>

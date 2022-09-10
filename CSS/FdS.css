@@ -58,6 +58,7 @@ input {
 
 #box_img {
     display: inline-block;
+    padding-bottom: 20px;
 }
 
 #box_testo_fr, #box_testo_it, #box_testo_en {
@@ -125,6 +126,11 @@ abbr, .expan {
     color: black;
 }
 
+.bkDesc {
+    font-size: 90%;
+    color:rgb(78, 76, 76);
+    padding-left: 21px;
+}
 
 
 
