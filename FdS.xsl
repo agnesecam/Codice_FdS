@@ -459,8 +459,18 @@
 
     <!--orgName-->
     <xsl:template match="//tei:orgName">
-        <xsl:element name="span">            
-            <xsl:attribute name="class">orgName</xsl:attribute>
+        <xsl:element name="span"> 
+            <xsl:variable name="testo-hover">
+                <xsl:variable name="ref">
+                    <xsl:value-of select="substring-after(current()/@ref, '#')"/>
+                </xsl:variable>
+                <xsl:copy-of select="concat(//tei:listOrg/tei:org[@xml:id=$ref]/tei:orgName, ' ')"/>
+                <xsl:copy-of select="concat('(',//tei:listOrg/tei:org[@xml:id=$ref]/tei:placeName, ')')"/>
+            </xsl:variable>        
+            <xsl:attribute name="class">hovertext</xsl:attribute>
+            <xsl:attribute name="data-hover">
+                <xsl:value-of select="$testo-hover"/>
+            </xsl:attribute>
             <xsl:value-of select="current()" />
         </xsl:element>
     </xsl:template>
