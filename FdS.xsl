@@ -415,7 +415,7 @@
                 </xsl:variable>
                 <xsl:copy-of select="concat(//tei:listPerson/tei:person[@xml:id=$ref]/tei:persName/tei:forename, ' ')"/>
                 <xsl:copy-of select="concat(//tei:listPerson/tei:person[@xml:id=$ref]/tei:persName/tei:surname, ',')"/>
-                <xsl:if test="//tei:listPerson/tei:person[@xml:id=$ref]/tei:occupation"><xsl:copy-of select="concat(//tei:listPerson/tei:person[@xml:id='FdS']/tei:occupation, ',')"/></xsl:if>
+                <xsl:if test="//tei:listPerson/tei:person[@xml:id=$ref]/tei:occupation"><xsl:copy-of select="concat(//tei:listPerson/tei:person[@xml:id=$ref]/tei:occupation, ',')"/></xsl:if>
                 <xsl:if test="//tei:listPerson/tei:person[@xml:id=$ref]/tei:birth">
                     <xsl:copy-of select="concat(//tei:listPerson/tei:person[@xml:id=$ref]/tei:birth/tei:date, ' ')"/>
                     <xsl:copy-of select="concat('(', //tei:listPerson/tei:person[@xml:id=$ref]/tei:birth/tei:placeName/tei:settlement[@type='municipality'], ') - ')"/>
@@ -431,18 +431,28 @@
             </xsl:attribute>
             <xsl:value-of select="current()" />
         </xsl:element>
-        <br/><br/>
-        
-        
-
-        
-        
     </xsl:template>
     
     <!--placeName-->
     <xsl:template match="//tei:placeName">
-        <xsl:element name="span">            
-            <xsl:attribute name="class">placeName</xsl:attribute>
+        <xsl:element name="span"> 
+            <xsl:variable name="testo-hover">
+                <xsl:variable name="ref">
+                    <xsl:value-of select="substring-after(current()/@ref, '#')"/>
+                </xsl:variable>
+                <xsl:copy-of select="concat(//tei:listPlace/tei:place[@xml:id=$ref]/tei:placeName, ',')"/>
+                <xsl:if test="//tei:listPlace/tei:place[@xml:id=$ref]/tei:note">
+                    <xsl:copy-of select="concat(//tei:listPlace/tei:place[@xml:id=$ref]/tei:note, ' ')"/>
+                </xsl:if>                
+                <xsl:if test="//tei:listPlace/tei:place[@xml:id=$ref]/tei:settlement">
+                    <xsl:copy-of select="concat(//tei:listPlace/tei:place[@xml:id=$ref]/tei:settlement, ', ')"/>
+                </xsl:if>
+                <xsl:copy-of select="concat(//tei:listPlace/tei:place[@xml:id=$ref]/tei:country, ',')"/>
+            </xsl:variable>        
+            <xsl:attribute name="class">hovertext</xsl:attribute>
+            <xsl:attribute name="data-hover">
+                <xsl:value-of select="$testo-hover"/>
+            </xsl:attribute>
             <xsl:value-of select="current()" />
         </xsl:element>
     </xsl:template>

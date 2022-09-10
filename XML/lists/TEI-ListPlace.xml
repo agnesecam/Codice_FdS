@@ -22,63 +22,58 @@
                     <place xml:id="BN">
                         <placeName ref="https://www.geonames.org/3182179/benevento.html https://www.treccani.it/enciclopedia/benevento/">Benevento</placeName>
                         <country key="IT">Italy</country>
-                        <note>...</note>
                     </place>
 
                     <!--Cagliari-->
                     <place xml:id="CA">
                         <placeName ref="https://www.geonames.org/2524907/cagliari.html https://www.treccani.it/enciclopedia/cagliari/">Cagliari</placeName>
                         <country key="IT">Italy</country>
-                        <note>...</note>
                     </place>                
 
                     <!--Cosenza-->
                     <place xml:id="CS">
                         <placeName ref="https://www.geonames.org/2524907/cosenza.html https://www.treccani.it/enciclopedia/cosenza/">Cosenza</placeName>
                         <country key="IT">Italy</country>
-                        <note>...</note>
                     </place>        
 
                     <!--Genève, Svizzera-->
                     <place xml:id="GE">
                         <placeName ref="https://www.geonames.org/2660646/geneve.html https://www.treccani.it/enciclopedia/ginevra/">Genève</placeName>
                         <country key="CH">Switzerland</country>
-                        <note>...</note>
                     </place>                                    
 
                     <!--Osimo-->
                     <place xml:id="Osimo">
                         <placeName ref="https://www.geonames.org/3171848/osimo.html https://www.treccani.it/enciclopedia/osimo/">Osimo</placeName>
+                        <settlement key="AN">Ancona</settlement>
                         <country key="IT">Italy</country>
-                        <note>...</note>
                     </place> 
 
                     <!--Piombino-->
                     <place xml:id="Piombino">
                         <placeName ref="https://www.geonames.org/6541646/piombino.html https://www.treccani.it/enciclopedia/piombino/">Piombino</placeName>
+                        <settlement key="LI">Livorno</settlement>
                         <country key="IT">Italy</country>
-                        <note>...</note>
                     </place>
 
                     <!--Torino-->
                     <place xml:id="TO">
                         <placeName ref="https://www.geonames.org/3165523/torino.html https://www.treccani.it/enciclopedia/torino/">Torino</placeName>
                         <country key="IT">Italy</country>
-                        <note>...</note>
-                    </place>                        
+                    </place>                     
                     
                     <!--Vufflens-le-Château, Svizzera-->
                     <place xml:id="VlC">
                         <placeName ref="https://www.geonames.org/6619308/vufflens-le-chateau.html">Vufflens-le-Château</placeName>
-                        <country key="CH">Switzerland</country>
-                        <note>...</note>
+                        <settlement key="VD">Morges</settlement>
+                        <country key="CH">Switzerland</country>                        
                     </place>    
 
                     <listRelation>
                         <!--Luogo di nascita di una persona-->
-                        <relation name="birth_place-FdS" active="#FdS" passive="#GE"/>               <!--Ferdinand de Saussure-->
+                        <relation name="birth_place-FdS" active="#FdS" passive="#GE"/>                <!--Ferdinand de Saussure-->
                         <relation name="birth_place-AMDG" active="#AMDG" passive="#BE"/>      <!--Angelo Mario del Grosso-->
-                        <relation name="birth_place-SP" active="#OS" passive="#SP"/>                   <!--Silvia Piccini-->
+                        <relation name="birth_place-SP" active="#OS" passive="#SP"/>                     <!--Silvia Piccini-->
                         <!--Luogo di morte di una persona-->
                         <relation name="death_place" active="#FdS" passive="#VlC"/>
                     </listRelation>

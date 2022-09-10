@@ -518,7 +518,7 @@
                                 <lb xml:id="lb11_p2" n="11" facs="#facs_p2lb11"/>
                                 blandit cursus risus at ultrices mi tempus imperdiet. Pulvinar sapien et ligula 
                                 <lb xml:id="lb12_p2" n="12" facs="#facs_p2lb12"/>
-                                <placeName ref="#CS">quis</placeName> malesuada proin libero nunc consequat.
+                                <placeName ref="#Osimo">quis</placeName> malesuada proin libero nunc consequat.
                             </ab>
                         </div>
                         <!--Fine 2a pagina, la 3a pericope continua nella 3a pagina-->
@@ -785,25 +785,25 @@
                     <bibl xml:id="Bouquet-Engler2002"> 
                         <title>Écrits de linguistique générale</title>
                         <author>
-                            <persName ref="TEI-ListPerson.xml#FdS">
+                            <persName ref="#FdS">
                                 <forename>Ferdinand</forename> 
                                 <surname>De Saussure</surname>
                             </persName>
                         </author>
                         <author>
-                            <persName ref="TEI-ListPerson.xml#SB">
+                            <persName ref="#SB">
                                 <forename>Simon</forename>
                                 <surname>Bouquet</surname>
                             </persName>
                         </author>
                         <author>
-                            <persName ref="TEI-ListPerson.xml#RE">
+                            <persName ref="#RE">
                                 <forename>Rudolf</forename>
                                 <surname>Engler</surname>
                             </persName>
                         </author>
                         <author>
-                            <persName ref="TEI-ListPerson.xml#AW">
+                            <persName ref="#AW">
                                 <forename>Antoinette</forename>
                                 <surname>Weil</surname>
                             </persName>
@@ -970,7 +970,7 @@
                         <sex>M</sex>
                         <birth>
                             <date when="1857-11-26">26th November 1857</date>
-                            <placeName ref="TEI-ListPlace.xml#GE">
+                            <placeName ref="#GE">
                                 <settlement type="municipality">Genève</settlement>
                                 <settlement type="department" key="GE">Genève</settlement>
                                 <country key="CH">Switzerland</country>
@@ -978,7 +978,7 @@
                         </birth>
                         <death>
 							<date when="1913-02-22">22nd February 1913</date>
-							<placeName ref="TEI-ListPlace.xml#VlC">
+							<placeName ref="#VlC">
 								<settlement type="municipality">Vufflens-le-Château</settlement>
 								<settlement type="canton" key="Vaud">Vaud</settlement>
 								<country key="CH">Svizzera</country>
@@ -996,7 +996,7 @@
                         <sex>M</sex>
                         <birth>
                             <date when="1980-02-19">19th February 1980</date>
-                            <placeName ref="TEI-ListPlace.xml#BN">
+                            <placeName ref="#BN">
                                 <settlement type="municipality">Benevento</settlement>
                                 <settlement type="provincia" key="BN">Benevento</settlement>
                                 <country key="IT">Italy</country>
@@ -1025,7 +1025,7 @@
                         <sex>M</sex>
                         <birth>
                         <date when="1972">1972</date>
-                            <placeName ref="TEI-ListPlace.xml#CA">
+                            <placeName ref="#CA">
                                 <settlement type="municipality">Cagliari</settlement>
                                 <settlement type="provincia" key="CA">Cagliari</settlement>
                                 <country key="IT">Italy</country>
@@ -1042,7 +1042,7 @@
                         <sex>M</sex>
                         <birth>
                             <date when="1948-03-14">14th May 1948</date>
-                            <placeName ref="TEI-ListPlace.xml#TO">
+                            <placeName ref="#TO">
                                 <settlement type="municipality">Torino</settlement>
                                 <settlement type="provincia" key="TO">Torino</settlement>
                                 <country key="IT">Italy</country>
@@ -1059,7 +1059,7 @@
                         <sex>F</sex>
                         <birth>
                             <date when="1978-11-12">12th November 1978</date>
-                            <placeName ref="TEI-ListPlace.xml#Osimo">
+                            <placeName ref="#Osimo">
                                 <settlement type="municipality" key="Osimo">Osimo</settlement>
                                 <settlement type="provincia" key="AN">Ancona</settlement>
                                 <country key="IT">Italy</country>
@@ -1106,13 +1106,13 @@
                     <!--Faculté des lettres Genève-->
                     <org xml:id="FacLettres">
                         <orgName ref="https://www.unige.ch/lettres/fr/">Faculté des lettres de l'Université de Genève</orgName>
-                        <placeName ref="TEI-ListPlace.xml#GE">Genève</placeName>
+                        <placeName ref="#GE">Genève</placeName>
                     </org>
 
                     <!--University of Geneva-->
                     <org xml:id="UniGeneve">
                         <orgName ref="https://en.wikipedia.org/wiki/University_of_Geneva&gt;">University of Geneva</orgName>
-                            <placeName ref="TEI-ListPlace.xml#GE">Genève</placeName>
+                            <placeName ref="#GE">Genève</placeName>
                         <desc>
                             The University of Geneva (French: Université de Genève) is a public research university located in Geneva, Switzerland.
                         </desc>
@@ -1150,65 +1150,60 @@
                     <place xml:id="BN">
                         <placeName ref="https://www.geonames.org/3182179/benevento.html https://www.treccani.it/enciclopedia/benevento/">Benevento</placeName>
                         <country key="IT">Italy</country>
-                        <note>...</note>
                     </place>
 
                     <!--Cagliari-->
                     <place xml:id="CA">
                         <placeName ref="https://www.geonames.org/2524907/cagliari.html https://www.treccani.it/enciclopedia/cagliari/">Cagliari</placeName>
                         <country key="IT">Italy</country>
-                        <note>...</note>
                     </place>                
 
                     <!--Cosenza-->
                     <place xml:id="CS">
                         <placeName ref="https://www.geonames.org/2524907/cosenza.html https://www.treccani.it/enciclopedia/cosenza/">Cosenza</placeName>
                         <country key="IT">Italy</country>
-                        <note>...</note>
                     </place>        
 
                     <!--Genève, Svizzera-->
                     <place xml:id="GE">
                         <placeName ref="https://www.geonames.org/2660646/geneve.html https://www.treccani.it/enciclopedia/ginevra/">Genève</placeName>
                         <country key="CH">Switzerland</country>
-                        <note>...</note>
                     </place>                                    
 
                     <!--Osimo-->
                     <place xml:id="Osimo">
                         <placeName ref="https://www.geonames.org/3171848/osimo.html https://www.treccani.it/enciclopedia/osimo/">Osimo</placeName>
+                        <settlement key="AN">Ancona</settlement>
                         <country key="IT">Italy</country>
-                        <note>...</note>
                     </place> 
 
                     <!--Piombino-->
                     <place xml:id="Piombino">
                         <placeName ref="https://www.geonames.org/6541646/piombino.html https://www.treccani.it/enciclopedia/piombino/">Piombino</placeName>
+                        <settlement key="LI">Livorno</settlement>
                         <country key="IT">Italy</country>
-                        <note>...</note>
                     </place>
 
                     <!--Torino-->
                     <place xml:id="TO">
                         <placeName ref="https://www.geonames.org/3165523/torino.html https://www.treccani.it/enciclopedia/torino/">Torino</placeName>
                         <country key="IT">Italy</country>
-                        <note>...</note>
-                    </place>                        
+                    </place>                     
                     
                     <!--Vufflens-le-Château, Svizzera-->
                     <place xml:id="VlC">
                         <placeName ref="https://www.geonames.org/6619308/vufflens-le-chateau.html">Vufflens-le-Château</placeName>
-                        <country key="CH">Switzerland</country>
-                        <note>...</note>
+                        <settlement key="VD">Morges</settlement>
+                        <country key="CH">Switzerland</country>                        
                     </place>    
 
                     <listRelation>
                         <!--Luogo di nascita di una persona-->
-                        <relation name="birth_place-FdS" active="TEI-ListPerson.xml#FdS" passive="#GE"/>               <!--Ferdinand de Saussure-->
-                        <relation name="birth_place-AMDG" active="TEI-ListPerson.xml#AMDG" passive="#BE"/>      <!--Angelo Mario del Grosso-->
-                        <relation name="birth_place-SP" active="TEI-ListPerson.xml#OS" passive="#SP"/>                   <!--Silvia Piccini-->
+                        <relation name="birth_place-FdS" active="#FdS" passive="#GE"/>                <!--Ferdinand de Saussure-->
+                        <relation name="birth_place-AMDG" active="#AMDG" passive="#BE"/>      <!--Angelo Mario del Grosso-->
+                        <relation name="birth_place-SP" active="#OS" passive="#SP"/>                     <!--Silvia Piccini-->
                         <!--Luogo di morte di una persona-->
-                        <relation name="death_place" active="TEI-ListPerson.xml#FdS" passive="#VlC"/>
+                        <relation name="death_place" active="#FdS" passive="#VlC"/>
                     </listRelation>
 
                 </listPlace>
