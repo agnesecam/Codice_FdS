@@ -8,11 +8,15 @@ body {
 
 header {
     background-color: #FFFFFF;
-    text-align: center;
+    min-height: 625px;
     padding: 3pt;
     margin: auto;
     border: solid black;
     border-radius: 10px 10px 10px 10px;
+}
+
+#titoli_header_eIDNO{
+    text-align:center;
 }
 
 .select_idno {
@@ -73,7 +77,7 @@ input {
 }
 
 .box_testo_fronte {
-    padding-top: 105px;
+    padding-top: 95px;
 }
 .box_testo_retro{
     padding-top: 135px;
@@ -81,14 +85,16 @@ input {
 
 #box_icone_traduzioni {
     margin-top: 10px;
+    margin-bottom: 10px;
+
 }
 
 #box_legenda {
     border: 2px solid black;
     background-color: rgba(211, 211, 211, 0.336);
-    padding: 4px;
+    padding: 0px 20px 20px 20px;
     width: 30%;
-    margin-bottom: 20px;
+    margin-top: 20px;
     margin-right: 40px;
     display: inline-block;
 }
@@ -134,15 +140,15 @@ abbr, .expan {
 
 #introduzione{
     border: 2px solid black;
-    border-radius: 10px 10px 10px 10px;
-    background-color: rgba(211, 211, 211, 0.336);
+    background-color:  rgba(211, 211, 211, 0.336);
     padding: 1px;
     text-align: left;
-    padding-left: 20px;
+    padding: 0px 20px 0px 20px;
     padding-bottom: 20px;
- 
+    display: inline-block;
+    float: left;
+    max-width: 60%;
     margin: 20px;
-
 }
 
 

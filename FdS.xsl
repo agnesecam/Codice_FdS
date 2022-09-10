@@ -23,64 +23,63 @@
     <xsl:template name="main" match="/">
         <xsl:result-document href="#body" method="ixsl:replace-content">
             <header>
-                <div>
-                    <h1>
-                        <xsl:value-of select="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='main']" />
-                    </h1>
+                <div id="titoli_header_eIDNO">
+                    <h1><xsl:value-of select="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@type='main']" /></h1>
+                    <h2><xsl:value-of select="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author"/></h2>        
+                    <h3><xsl:copy-of select="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno"/></h3>
                 </div>
-                <h2>
-                    <xsl:value-of select="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author" />
-                </h2>
-                <!--SELECT che permette di scegliere la pagina del manoscritto da visualizzare-->
-                <div id="div_select_pages">
-                    <xsl:copy-of select="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno"/>
-                    <br/>
-                    <xsl:variable name="default" select="6"/>
-                    <xsl:variable name="N" select="30"/>
-                    <xsl:variable name="pages" select="'1-2', '3-4', '5-6', '7-8', '9-10', '11-12', '13-14', '15-16', '17-18', '19-20', '21-22', '23-24', '25-26', '27-28', '29-30'"/>
-                    <select id="select_pages" onchange="select_pages()">
-                        <option value="">Pagine da visualizzare:</option>
-                        <xsl:for-each select="$pages">
-                            <option value="{.}">
-                                <xsl:sequence select="."/>
-                            </option>
-                        </xsl:for-each>
-                    </select>
-                </div>
-                <div id="introduzione">
-                    <h3>Informazioni</h3>
-                    <xsl:apply-templates select="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history" />
-                    <xsl:apply-templates select="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier"/>
-                    <xsl:apply-templates select="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc" />
-                </div>
+                <div id="info_legenda_pulsanti">
+                    <div id="introduzione">
+                        <h3>Informazioni</h3>
+                        <xsl:apply-templates select="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history" />
+                        <xsl:apply-templates select="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msIdentifier"/>
+                        <xsl:apply-templates select="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc" />
+                    </div>
+                    <div id="legenda_pulsanti">
+                        <div id="box_legenda">
+                            <h3>Legenda</h3><br/>
+                            <b>?</b> indica un gap nel manoscritto<br/>
+                            Le <sup>parole</sup> in apice sono aggiunte al testo sopra alla riga corrente<br/>
+                            Le <sub place="below">parole</sub> in pedice sono aggiunte al testo sotto alla riga corrente<br/>
+                            Le <del>parole</del> cancellate sono barrate
+                        </div>
+                        <div id="box_icone_traduzioni">
+                            <input id="icona_testo_francese" type="button" class="clicked" alt="Visualizza la trascrizione francese" onclick="gestoreMostraTrascrizioneFR()" value="Trascrizione francese"/>
+                            <input id="icona_testo_italiano" type="button" class="" alt="Visualizza la traduzione italiana" onclick="gestoreMostraTraduzioneIT()" value="Traduzione italiana"/>          
+                            <input id="icona_testo_inglese" type="button" class="" alt="Visualizza la traduzione inglese" onclick="gestoreMostraTraduzioneEN()" value="Traduzione inglese"/>          
+                        </div>
+                        <div id="box_icone_formattazione">
+                            <input id="icona_abbr_expan" type="button" alt="Clicca per sciogliere o contrarre le abbreviazioni" onclick="gestoreAbbr()" value="Sciogli le abbreviazioni"/>
+                            <br/>
+                            <input id="icona_gap" type="button" class="" alt="Clicca per nascondere i gap nel testo" onclick="gestoreMostraGap()" value="Nascondi gap"/>
+                            <br/>
+                            <input id="icona_del" type="button" class="" alt="Clicca per nascondere i del nel testo" onclick="gestoreMostraDel()" value="Nascondi del"/>
+                        </div>                    
+                    </div>
+            </div>
             </header>
-
+            
             <div id="corpo">
                 <div id="div_immagine_testo">
                     <h2 id="titolo_div_immagine">
                         <!--OUTPUT: "Pagine 1-2" "Pagine 20-21" "Pagine 3-4" ovvero pagine codificate nel file contenente la pagina selezionata-->
                         <xsl:value-of select="concat('Pagine ', substring-before(substring-after(document-uri(),'1_'), '_included.xml'))"/>
                     </h2>
-                    <div id="box_legenda">
-                        <b>Legenda</b><br/><br/>
-                        <b>?</b> indica un gap nel manoscritto<br/>
-                        Le <sup>parole</sup> in apice sono aggiunte al testo sopra alla riga corrente<br/>
-                        Le <sub place="below">parole</sub> in pedice sono aggiunte al testo sotto alla riga corrente<br/>
-                        Le <del>parole</del> cancellate sono barrate
+                    <!--SELECT che permette di scegliere la pagina del manoscritto da visualizzare-->
+                    <div id="div_select_pages">
+                        <xsl:variable name="default" select="6"/>
+                        <xsl:variable name="N" select="30"/>
+                        <xsl:variable name="pages" select="'1-2', '3-4', '5-6', '7-8', '9-10', '11-12', '13-14', '15-16', '17-18', '19-20', '21-22', '23-24', '25-26', '27-28', '29-30'"/>
+                        <select id="select_pages" onchange="select_pages()">
+                            <option value="">Pagine da visualizzare:</option>
+                            <xsl:for-each select="$pages">
+                                <option value="{.}">
+                                    <xsl:sequence select="."/>
+                                </option>
+                            </xsl:for-each>
+                        </select>
                     </div>
-                    <div id="box_icone_formattazione">
-                        <input id="icona_abbr_expan" type="button" alt="Clicca per sciogliere o contrarre le abbreviazioni" onclick="gestoreAbbr()" value="Sciogli le abbreviazioni"/>
-                        <br/>
-                        <input id="icona_gap" type="button" class="" alt="Clicca per nascondere i gap nel testo" onclick="gestoreMostraGap()" value="Nascondi gap"/>
-                        <br/>
-                        <input id="icona_del" type="button" class="" alt="Clicca per nascondere i del nel testo" onclick="gestoreMostraDel()" value="Nascondi del"/>
-                    </div>
-                    <div id="box_icone_traduzioni">
-                        <input id="icona_testo_francese" type="button" class="clicked" alt="Visualizza la trascrizione francese" onclick="gestoreMostraTrascrizioneFR()" value="Trascrizione francese"/>
-                        <input id="icona_testo_italiano" type="button" class="" alt="Visualizza la traduzione italiana" onclick="gestoreMostraTraduzioneIT()" value="Traduzione italiana"/>          
-                        <input id="icona_testo_inglese" type="button" class="" alt="Visualizza la traduzione inglese" onclick="gestoreMostraTraduzioneEN()" value="Traduzione inglese"/>          
-                    </div>
-                    <br/>
+                    
                     <!-- SCAN -->
                     <!--Elimino la possibilità di visualizzare soltanto il fronte o soltanto il retro-->      
                     <!--<div id="pulsanti_immagini_lettera" >                       
