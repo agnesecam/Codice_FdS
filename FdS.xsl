@@ -475,6 +475,24 @@
         </xsl:element>
     </xsl:template>
 
+    <!--glossario-->
+    <xsl:template match="//tei:term">
+        <xsl:element name="span"> 
+            <xsl:variable name="testo-hover">
+                <xsl:variable name="ref">
+                    <xsl:value-of select="substring-after(current()/@ref, '#')"/>
+                </xsl:variable>
+                <xsl:copy-of select="concat(//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry[@xml:id=$ref]/tei:form/tei:orth, ': ')"/>
+                <xsl:copy-of select="//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry[@xml:id=$ref]/tei:sense/tei:def"/>
+            </xsl:variable>        
+            <xsl:attribute name="class">hovertext</xsl:attribute>
+            <xsl:attribute name="data-hover">
+                <xsl:value-of select="$testo-hover"/>
+            </xsl:attribute>
+            <xsl:value-of select="current()" />
+        </xsl:element>
+    </xsl:template>
+
 
     <!--Numeri scritti a mano-->
     <xsl:template match="//tei:group[@xml:id='fr_Prolusioni']/tei:text[1]/tei:body/tei:ab/tei:fw">
