@@ -409,21 +409,32 @@
 
     <!--persName-->
     <xsl:template match="//tei:persName">
-        <xsl:element name="span">            
+        <xsl:element name="span"> 
+            <xsl:variable name="testo-hover">
+                <xsl:copy-of select="concat(//tei:listPerson/tei:person[@xml:id='FdS']/tei:persName/tei:forename, ' ')"/>
+                <xsl:copy-of select="concat(//tei:listPerson/tei:person[@xml:id='FdS']/tei:persName/tei:surname, ',')"/>
+                <xsl:if test="//tei:listPerson/tei:person[@xml:id='FdS']/tei:occupation"><xsl:copy-of select="concat(//tei:listPerson/tei:person[@xml:id='FdS']/tei:occupation, ',')"/></xsl:if>
+                <xsl:if test="//tei:listPerson/tei:person[@xml:id='FdS']/tei:birth">
+                    <xsl:copy-of select="concat(//tei:listPerson/tei:person[@xml:id='FdS']/tei:birth/tei:date, ' ')"/>
+                    <xsl:copy-of select="concat('(', //tei:listPerson/tei:person[@xml:id='FdS']/tei:birth/tei:placeName/tei:settlement[@type='municipality'], ') - ')"/>
+                </xsl:if>            
+                <xsl:if test="//tei:listPerson/tei:person[@xml:id='FdS']/tei:death">
+                    <xsl:copy-of select="concat(//tei:listPerson/tei:person[@xml:id='FdS']/tei:death/tei:date, ' ')"/> 
+                    <xsl:copy-of select="concat('(', //tei:listPerson/tei:person[@xml:id='FdS']/tei:death/tei:placeName/tei:settlement[@type='municipality'], ') ')"/>
+                </xsl:if>
+            </xsl:variable>        
             <xsl:attribute name="class">hovertext</xsl:attribute>
-            <!--<xsl:attribute name="data-hover">
-                <xsl:apply-templates select="$testo-hover"/>
-            </xsl:attribute>-->
+            <xsl:attribute name="data-hover">
+                <xsl:value-of select="$testo-hover"/>
+            </xsl:attribute>
             <xsl:value-of select="current()" />
         </xsl:element>
-        <br/>
+        <br/><br/>
+        
+        
 
-        <xsl:variable name="testo-hover">
-            <xsl:copy-of select="//tei:listPerson/tei:person[@xml:id='FdS']">
-                
-            </xsl:copy-of>
-        </xsl:variable>
-        <xsl:value-of select="$testo-hover" />
+        
+        
     </xsl:template>
     
     <!--placeName-->
