@@ -76,11 +76,11 @@
 
                     <listRelation>
                         <!--Luogo di nascita di una persona-->
-                        <relation name="birth_place-FdS" active="TEI-ListPerson.xml#FdS" passive="#GE"/>               <!--Ferdinand de Saussure-->
-                        <relation name="birth_place-AMDG" active="TEI-ListPerson.xml#AMDG" passive="#BE"/>      <!--Angelo Mario del Grosso-->
-                        <relation name="birth_place-SP" active="TEI-ListPerson.xml#OS" passive="#SP"/>                   <!--Silvia Piccini-->
+                        <relation name="birth_place-FdS" active="#FdS" passive="#GE"/>               <!--Ferdinand de Saussure-->
+                        <relation name="birth_place-AMDG" active="#AMDG" passive="#BE"/>      <!--Angelo Mario del Grosso-->
+                        <relation name="birth_place-SP" active="#OS" passive="#SP"/>                   <!--Silvia Piccini-->
                         <!--Luogo di morte di una persona-->
-                        <relation name="death_place" active="TEI-ListPerson.xml#FdS" passive="#VlC"/>
+                        <relation name="death_place" active="#FdS" passive="#VlC"/>
                     </listRelation>
 
                 </listPlace>
