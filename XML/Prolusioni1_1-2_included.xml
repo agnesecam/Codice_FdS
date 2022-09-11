@@ -829,10 +829,8 @@
                         </author>  
                         <date when="2006">2006</date>
                         <publisher>Bonanno Editore</publisher>
-                        <pubPlace>Alessandria</pubPlace>
-                        <citedRange unit="page" from="85" to="121">85-121</citedRange>
-                        <publisher>Bonanno Editore</publisher>
                         <pubPlace>Acireale - Roma</pubPlace>
+                        <citedRange unit="page" from="85" to="121">85-121</citedRange>                        
                         <idno type="ISBN">887796276-3</idno>
                         <note>
                             Traduzione italiana del manoscritto.
@@ -851,6 +849,7 @@
                             <surname>Martin</surname>
                         </author>
                         <pubPlace>Genève</pubPlace>
+                        <idno type="ISSN">1010-2108</idno>
                         <citedRange unit="page">1</citedRange>
                         <note>
                             Fonte utilizzata da Chidichimo nel suo articolo all'interno dei Cahiers Ferdinand de Saussure.
@@ -864,6 +863,7 @@
                     <bibl xml:id="Le_Genevois">
                         <title type="main">Le Genevois</title>
                         <date when="1891">1981</date>
+                        <pubPlace>Genève</pubPlace>
                         <note>
                             Fonte utilizzata da Chidichimo nel suo articolo all'interno dei Cahiers Ferdinand de Saussure.
                         </note>

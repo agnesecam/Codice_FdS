@@ -169,11 +169,13 @@
                                 </xsl:for-each>
                             </xsl:element>
                             <!--Editore-->
-                            <xsl:element name="span">
-                                <xsl:attribute name="class">bPubl</xsl:attribute>
-                                <xsl:apply-templates select="current()//tei:publisher" />
-                            </xsl:element>
-                            <xsl:text>, </xsl:text>
+                            <xsl:if test="current()//tei:publisher">
+                                <xsl:element name="span">
+                                    <xsl:attribute name="class">bPubl</xsl:attribute>
+                                    <xsl:apply-templates select="current()//tei:publisher" />
+                                </xsl:element>
+                                <xsl:text>, </xsl:text>
+                            </xsl:if>
                             <!--Data-->
                             <xsl:element name="span">
                                 <xsl:attribute name="class">bDate</xsl:attribute>
