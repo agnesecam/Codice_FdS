@@ -192,19 +192,21 @@ abbr, .expan {
 /*FINESTRE HOVER*/
 .hovertext {
     position: relative;
-    border-bottom: 1px dotted black;
+    background-color: #88c8e04f;
+    border-radius: 3px;
+    cursor: copy;
 }
 .hovertext:before {
     content: attr(data-hover);
     visibility: hidden;
     opacity: 0;
-    width: 340px;
+    width: 300px;
     background-color: black;
     color: #fff;
     text-align: center;
     border-radius: 5px;
-    padding: 5px 0;
-    transition: opacity 1s ease-in-out;
+    padding: 5px ;
+    transition: opacity 0.5s ease-in-out;
     position: absolute;
     z-index: 1;
     left: 0;

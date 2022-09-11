@@ -127,14 +127,16 @@ function gestoreAbbr() {
         nodoTastoAbbr = document.getElementById("icona_abbr_expan");
         nodiAbbreviazioni = document.getElementsByTagName("abbr");
         nodiEspansioni = document.getElementsByClassName("expan");
+        nodiHovertext = document.getElementsByClassName("hovertext");
         nodoValoreValue = nodoTastoAbbr.getAttribute("value");
+
         //Scorro sia le espansioni che le abbreviazioni con un unico ciclo perché sono a coppie (a nodiEspansioni[3] corrisponde un nodiAbbreviazioni[3])
         for (let i = 0; i < nodiEspansioni.length; i++) {
             //Se i nodiEspansioni hanno l'attributo "style = 'display:none;'" allora lo elimino per renderli visibili (sciogliere le abbreviazioni) 
             //A questo punto, nascondo le abbreviazioni contratte settando l'attributo "style = 'display:none;'"
             if (nodiEspansioni[i].hasAttribute("style")) {
                 nodiEspansioni[i].removeAttribute("style");
-                nodiAbbreviazioni[i].setAttribute("style", "display:none;")
+                nodiAbbreviazioni[i].setAttribute("style", "display:none;");
             }         
             //Se i nodiEspansioni non hanno l'attributo "style = 'display:none;'" allora lo metto per nascondere gli scioglimenti delle abbreviazioni
             //A questo punto, mostro le abbreviazioni contratte eliminando il loro attributo "style = 'display:none;'"            

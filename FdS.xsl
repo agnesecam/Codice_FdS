@@ -362,17 +362,52 @@
     <!--ABBR-->
     <xsl:template match="//tei:abbr">
         <xsl:element name="abbr">
+            <xsl:attribute name="title">
+                <xsl:value-of select="current()/following-sibling::tei:expan"/>
+            </xsl:attribute>
             <xsl:value-of select="current()" />
         </xsl:element>
     </xsl:template>
 
     <!--EXPAN-->
     <xsl:template match="//tei:expan">
-        <xsl:element name="span">            
-            <xsl:attribute name="class">expan</xsl:attribute>
-            <xsl:attribute name="style">display:none;</xsl:attribute>
-            <xsl:value-of select="current()" />
-        </xsl:element>
+        <!--Se <choice> non è figlio di <term>-->
+        <xsl:if test="not(current()/parent::tei:choice/parent::tei:term)">
+            <xsl:element name="span">            
+                <xsl:attribute name="class">expan</xsl:attribute>
+                <xsl:attribute name="style">display:none;</xsl:attribute>
+                <xsl:value-of select="current()" />
+            </xsl:element>
+        </xsl:if>
+        <!--Se <choice> è figlio di <term>-->
+        <xsl:if test="current()/parent::tei:choice/parent::tei:term">
+            <xsl:element name="span"> 
+                <xsl:attribute name="class">expan</xsl:attribute>
+                <xsl:attribute name="style">display:none;</xsl:attribute>
+                <xsl:variable name="testo-hover">
+                    <xsl:variable name="ref">
+                        <xsl:value-of select="substring-after(current()/@ref, '#')"/>
+                    </xsl:variable>
+                    <xsl:copy-of select="
+                        concat(//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry[@xml:id=$ref]/tei:form/tei:orth | 
+                                    //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry[@xml:id=$ref]/tei:form/tei:orth | 
+                                    //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/ancestor::tei:form/tei:orth |
+                                    //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/ancestor::tei:entry/tei:form/tei:orth, ': ')"/>
+                    <xsl:copy-of select="
+                                    //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry[@xml:id=$ref]/tei:sense/tei:def | 
+                                    //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry[@xml:id=$ref]/tei:sense/tei:def | 
+                                    //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/tei:def |
+                                    //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/tei:def/tei:cit/tei:quote"/>
+                </xsl:variable>        
+                <xsl:attribute name="class">hovertext</xsl:attribute>
+                <!--NOTA PER JS: aggiungere questa classe non fa più cancellare lo style=display:none;-->
+                <xsl:attribute name="data-hover">
+                    <xsl:value-of select="$testo-hover"/>
+                </xsl:attribute>
+                
+                <xsl:value-of select="current()" />
+            </xsl:element> 
+        </xsl:if>
     </xsl:template>
 
     <!--ADD place=above-->
@@ -477,30 +512,31 @@
 
     <!--glossario-->
     <xsl:template match="//tei:term">
-        <xsl:element name="span"> 
-            <xsl:variable name="testo-hover">
-                <xsl:variable name="ref">
-                    <xsl:value-of select="substring-after(current()/@ref, '#')"/>
-                </xsl:variable>
-                <xsl:copy-of select="
-                    concat(//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry[@xml:id=$ref]/tei:form/tei:orth | 
-                                //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry[@xml:id=$ref]/tei:form/tei:orth | 
-                                //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/ancestor::tei:form/tei:orth |
-                                //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/ancestor::tei:entry/tei:form/tei:orth, ': ')"/>
-                <xsl:copy-of select="
-                                //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry[@xml:id=$ref]/tei:sense/tei:def | 
-                                //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry[@xml:id=$ref]/tei:sense/tei:def | 
-                                //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/tei:def |
-                                //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/tei:def/tei:cit/tei:quote"/>
-            </xsl:variable>        
-            <xsl:attribute name="class">hovertext</xsl:attribute>
-            <xsl:attribute name="data-hover">
-                <xsl:value-of select="$testo-hover"/>
-            </xsl:attribute>
-            <xsl:value-of select="current()" />
-        </xsl:element>
+        <xsl:if test="not(current()/parent::tei:choice/parent::tei:term)">
+            <xsl:element name="span"> 
+                <xsl:variable name="testo-hover">
+                    <xsl:variable name="ref">
+                        <xsl:value-of select="substring-after(current()/@ref, '#')"/>
+                    </xsl:variable>
+                    <xsl:copy-of select="
+                        concat(//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry[@xml:id=$ref]/tei:form/tei:orth | 
+                                    //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry[@xml:id=$ref]/tei:form/tei:orth | 
+                                    //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/ancestor::tei:form/tei:orth |
+                                    //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/ancestor::tei:entry/tei:form/tei:orth, ': ')"/>
+                    <xsl:copy-of select="
+                                    //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry[@xml:id=$ref]/tei:sense/tei:def | 
+                                    //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry[@xml:id=$ref]/tei:sense/tei:def | 
+                                    //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/tei:def |
+                                    //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/tei:def/tei:cit/tei:quote"/>
+                </xsl:variable>        
+                <xsl:attribute name="class">hovertext</xsl:attribute>
+                <xsl:attribute name="data-hover">
+                    <xsl:value-of select="$testo-hover"/>
+                </xsl:attribute>
+                <xsl:value-of select="current()" />
+            </xsl:element>
+        </xsl:if>
     </xsl:template>
-
 
     <!--Numeri scritti a mano-->
     <xsl:template match="//tei:group[@xml:id='fr_Prolusioni']/tei:text[1]/tei:body/tei:ab/tei:fw">
