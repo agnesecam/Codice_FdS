@@ -482,8 +482,16 @@
                 <xsl:variable name="ref">
                     <xsl:value-of select="substring-after(current()/@ref, '#')"/>
                 </xsl:variable>
-                <xsl:copy-of select="concat(//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry[@xml:id=$ref]/tei:form/tei:orth, ': ')"/>
-                <xsl:copy-of select="//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry[@xml:id=$ref]/tei:sense/tei:def"/>
+                <xsl:copy-of select="
+                    concat(//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry[@xml:id=$ref]/tei:form/tei:orth | 
+                                //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry[@xml:id=$ref]/tei:form/tei:orth | 
+                                //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/ancestor::tei:form/tei:orth |
+                                //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/ancestor::tei:entry/tei:form/tei:orth, ': ')"/>
+                <xsl:copy-of select="
+                                //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry[@xml:id=$ref]/tei:sense/tei:def | 
+                                //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry[@xml:id=$ref]/tei:sense/tei:def | 
+                                //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/tei:def |
+                                //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/tei:def/tei:cit/tei:quote"/>
             </xsl:variable>        
             <xsl:attribute name="class">hovertext</xsl:attribute>
             <xsl:attribute name="data-hover">

@@ -2906,7 +2906,7 @@
             <superEntry xml:id="linguistique">
                 <entry xml:id="linguistique-N">
                     <form>
-                        <orth>linguistique</orth>
+                        <orth>Linguistique</orth>
                     </form>
                     <gramGrp>
                         <pos>n</pos>
@@ -2956,7 +2956,7 @@
 
                 <entry xml:id="linguistique-A">
                     <form>
-                        <orth>linguistique</orth>
+                        <orth>Linguistique</orth>
                     </form>
                     <gramGrp>
                         <pos>adj</pos>
@@ -5167,7 +5167,10 @@
                         <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=36">II corso</ref>
                     </listRef>}
                 </xr>
-            </entry>            
+            </entry> 
+
+            <!--Quando nel manoscritto è presente un termine marcato come <term> che non presenta un'entrata nel glossario-->
+            <entry xml:id="glossa-mancante"><form><orth>Glossa mancante</orth></form><sense><def>questo termine non è stato ancora inserito nel glossario</def></sense></entry>           
         </body>
 
         <back>

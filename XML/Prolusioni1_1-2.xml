@@ -402,7 +402,7 @@
                                 <!--Margine sx--> 
                                 <add change="#CHG-4" place="left margin" facs="#facs_p1_leftblock1">
                                     <lb xml:id="lb7_p1" n="7" facs="#facs_p1_lb7"/>
-                                    que la <term subtype="linguistics-term" ref="#linguistique-N" facs="#facs_scdulang-p1r7"><choice><abbr>sc.</abbr> <expan>sc<ex>ience</ex></expan></choice> du 
+                                    que la <term subtype="linguistics-term" ref="#linguistique-N" facs="#facs_scdulang-p1r7"><choice><abbr>sc<am>.</am></abbr> <expan>sc<ex>ience</ex></expan></choice> du 
                                     <lb xml:id="lb8_p1" n="8" facs="#facs_p1_lb8"/>
                                     <choice><abbr>l<am>.</am>age</abbr> <expan>l<ex>ang</ex>age</expan></choice></term> est <choice facs="#facs_occ-p1r8"><abbr>occ.</abbr> <expan>occ<ex>upée</ex></expan></choice> 
                                     <lb xml:id="lb9_p1" n="9" facs="#facs_p1_lb9"/> 
@@ -473,7 +473,7 @@
                                 des <term subtype="linguistics-term" ref="#langue1">langues</term> grecque, latine et française; 
                                 <lb xml:id="lb41_p1" n="39" facs="#facs_p1_lb39"/>
                                 <add change="#CHG-3" place="left margin" facs="facs_eutelle-p1r39">eût-elle un but simplement</add> l’intérêt 
-                                <term subtype="linguistics-term" facs="#facs_litteraire-p1r39">littéraire</term>, que peut avoir ensuite la même <!--Manca glossa-->
+                                <term subtype="linguistics-term" facs="#facs_litteraire-p1r39" ref="#glossa-mancante">littéraire</term>, que peut avoir ensuite la même <!--Manca glossa-->
                                 <lb xml:id="lb43_p1" n="40" facs="#facs_p1_lb40"/>
                                 étude pour <del rend="overstrike" facs="#facs_del1-p1r40">l'<gap reason="illegible" extent="3" unit="chars"/></del> l’<term subtype="?" ref="#histoire" facs="#facs_histoire-p1r40">histoire</term> ou pour 
                                 <metamark function="sequence">    <!--THVP-->  <!--Manteniamo <metamark> e non usiamo <label> ma andrebbe chiarito con saussuriani. "sequence" non penso sia il più adatto--><!--Elimina nel caso THVP faccia parte del testo...-->

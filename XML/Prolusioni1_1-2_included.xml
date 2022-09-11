@@ -471,7 +471,7 @@
                                 des <term subtype="linguistics-term" ref="#langue1">langues</term> grecque, latine et française; 
                                 <lb xml:id="lb41_p1" n="39" facs="#facs_p1_lb39"/>
                                 <add change="#CHG-3" place="left margin" facs="facs_eutelle-p1r39">eût-elle un but simplement</add> l’intérêt 
-                                <term subtype="linguistics-term" facs="#facs_litteraire-p1r39">littéraire</term>, que peut avoir ensuite la même <!--Manca glossa-->
+                                <term subtype="linguistics-term" facs="#facs_litteraire-p1r39" ref="#glossa-mancante">littéraire</term>, que peut avoir ensuite la même <!--Manca glossa-->
                                 <lb xml:id="lb43_p1" n="40" facs="#facs_p1_lb40"/>
                                 étude pour <del rend="overstrike" facs="#facs_del1-p1r40">l'<gap reason="illegible" extent="3" unit="chars"/></del> l’<term subtype="?" ref="#histoire" facs="#facs_histoire-p1r40">histoire</term> ou pour 
                                 <metamark function="sequence">    <!--THVP-->  <!--Manteniamo <metamark> e non usiamo <label> ma andrebbe chiarito con saussuriani. "sequence" non penso sia il più adatto--><!--Elimina nel caso THVP faccia parte del testo...-->
@@ -4122,7 +4122,7 @@
             <superEntry xml:id="linguistique">
                 <entry xml:id="linguistique-N">
                     <form>
-                        <orth>linguistique</orth>
+                        <orth>Linguistique</orth>
                     </form>
                     <gramGrp>
                         <pos>n</pos>
@@ -4172,7 +4172,7 @@
 
                 <entry xml:id="linguistique-A">
                     <form>
-                        <orth>linguistique</orth>
+                        <orth>Linguistique</orth>
                     </form>
                     <gramGrp>
                         <pos>adj</pos>
@@ -6383,7 +6383,10 @@
                         <ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/15.%201908-1909%20Secondo%20corso%20di%20linguistica%20generale.pdf#page=36">II corso</ref>
                     </listRef>}
                 </xr>
-            </entry>            
+            </entry> 
+
+            <!--Quando nel manoscritto è presente un termine marcato come <term> che non presenta un'entrata nel glossario-->
+            <entry xml:id="glossa-mancante"><form><orth>Glossa mancante</orth></form><sense><def>questo termine non è stato ancora inserito nel glossario</def></sense></entry>           
         </body>
 
         <back>
