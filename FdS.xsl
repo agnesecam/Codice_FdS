@@ -38,10 +38,11 @@
                     <div id="legenda_pulsanti">
                         <div id="box_legenda">
                             <h3>Legenda</h3><br/>
-                            <b>?</b> indica un gap nel manoscritto<br/>
-                            Le <sup>parole</sup> in apice sono aggiunte al testo sopra alla riga corrente<br/>
-                            Le <sub place="below">parole</sub> in pedice sono aggiunte al testo sotto alla riga corrente<br/>
-                            Le <del>parole</del> cancellate sono barrate
+                            <li><b>?</b> indica un gap nel manoscritto.</li>
+                            <li>Le <sup>parole</sup> in apice sono aggiunte al testo sopra alla riga corrente.</li>
+                            <li>Le <sub place="below">parole</sub> in pedice sono aggiunte al testo sotto alla riga corrente.</li>
+                            <li>Le <del>parole</del> cancellate sono barrate.</li>
+                            <li>Ponendo il cursore sopra i termini evidenziati d'azzurro vengono mostrate le relative informazioni.</li>
                         </div>
                         <div id="box_icone_traduzioni">
                             <input id="icona_testo_francese" type="button" class="clicked" alt="Visualizza la trascrizione francese" onclick="gestoreMostraTrascrizioneFR()" value="Trascrizione francese"/>
