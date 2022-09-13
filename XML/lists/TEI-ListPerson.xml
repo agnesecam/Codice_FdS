@@ -191,14 +191,35 @@
                     </person>
 
                     <!--Antoinette Weil-->
-                    <person xml:id="AW" sameAs="http://worldcat.org/identities/lccn-nr2002015108/"> 
+                    <person xml:id="AW" sameAs="http://worldcat.org/identities/lccn-nr2002015108/ https://en.wikipedia.org/wiki/VIAF_(identifier)"> 
                         <persName> 
                             <forename>Antoinette</forename>
                             <surname>Weil</surname>
                         </persName>
-                        <sex>F</sex>
+                        <occupation>linguista</occupation>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1799-09-11">11th September 1799</date>
+                            <placeName ref="#GE">
+                                <settlement type="municipality">Genève</settlement>
+                                <settlement type="department" key="GE">Genève</settlement>
+                                <country key="CH">Switzerland</country>
+                            </placeName>
+                        </birth>
+                        <death>
+							<date when="1875-12-20">20th December 1875</date>
+                        </death> 
                     </person>
-                </listPerson>
+
+                <!--Adolphe Pictet-->
+                <person xml:id="AdPic" sameAs="http://worldcat.org/identities/lccn-n90720615/"> 
+                    <persName role="author"> 
+                        <forename>Adolphe</forename>
+                        <surname>Pictet</surname>
+                    </persName>
+                    <sex>M</sex>
+                </person>
+            </listPerson>                
 
             </sourceDesc>
         </fileDesc>
