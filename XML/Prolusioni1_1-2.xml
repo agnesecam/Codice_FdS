@@ -258,7 +258,7 @@
     <facsimile>
         <!--PRIMA PAGINA-->
         <surface n="1" xml:id="scan_p1">
-            <graphic url='ms_fr_03951_01_1_p001.jpg'/> 
+            <graphic url='ms_fr_03951_01_1_p001.jpg' width='600px' height='900px'/> 
 
             <!--Righe-->
             <zone ulx="140" uly="91" lrx="524" lry="115" rendition="line" xml:id="facs_p1_lb1"/>                  <!--1a riga-->
@@ -356,7 +356,7 @@
         </surface>
 
         <!--SECONDA PAGINA-->
-        <surface n="2" xml:id="scan_p2">
+        <surface n="2" xml:id="scan_p2"  width='600px' height='870px'>
             <graphic url='ms_fr_03951_01_1_p002.jpg'/>
             <!--Righe-->
             <zone ulx="157" uly="72" lrx="550" lry="108" rendition="line" xml:id="facs_p2lb1"/>                                               <!--1a riga-->
