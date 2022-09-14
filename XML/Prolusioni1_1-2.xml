@@ -510,21 +510,17 @@
                                 <lb xml:id="lb6_p2" n="6" facs="#p2lb6"/>
                                 <del rend = "overstrike">et</del><choice> <abbr resp = "#FdS">pr</abbr><expan>pour</expan></choice> notre patrie, d'<persName ref = "#AdPic">Adolphe Pictet</persName>, d' <add place="above"><choice><abbr>A<em>.</em>P<em>.</em></abbr><expan>A<ex>dolphe</ex> P<ex>ictet</ex></expan></choice></add> qui
                                 <lb xml:id="lb7_p2" n="7" facs="#p2lb7"/>
-                                <gap extent = "3 words" reason="illegible"/>
-                                
+                                <gap extent = "3 words" reason="illegible"/>                                
                                 <lb xml:id="lb8_p2" n="8" facs="#p2lb8"/>
                                 <add place="left" resp="#FdS">
                                 <gap extent = "2 lines" reason="deleted"/>
-                                </add>
-                                
+                                </add>                                
                                 <lb xml:id="lb9_p2" n="9" facs="#p2lb9"/>
                                 <del rend="overstrike">pour l'imitateur</del> le premier conçut <del rend="overstrike">ce</del>
                                 <lb xml:id="lb10_p2" n="10" facs="#p2lb10"/>
                                 <add place = "left"><unclear reason = "illegible">méthodiquement</unclear></add> <del rend="overstrike">ce</del> <add place = "above"><unclear reason = "illegible">le parti</unclear></add> qu’on pouvait tirer <add place = "above"><gap extent = "1 word" reason = "deleted"/></add> de la <term ref="#lang">langue</term> <del rend="overstrike">pour</del>
-                
                                 <lb xml:id="lb11_p2" n="11" facs="#p2lb11"/>
-                                <gap extent = "2 lines" reason = "deleted"/>
-                                
+                                <gap extent = "2 lines" reason = "deleted"/>                                
                                 <lb xml:id="lb12_p2" n="12" facs="#p2lb12"/>
                                 <del rend="overstrike">et qui</del> comme témoin des âges préhistoriques, 
                                 <lb xml:id="lb13_p2" n="13" facs="#p2lb13"/>
@@ -575,7 +571,7 @@
                                 <lb xml:id="lb35_p2" n="35" facs="#p2lb35"/>
                                 plus ample informé, la preuve première
                                 <lb xml:id="lb36_p2" n="36" facs="#p2lb36"/>
-                                <choice><abbr>pr</abbr><expan>pour</expan></choice> l’ethnologiste, – et qu<add place="above" resp="#FdS">’on se demande</add><del rend="overstrike">le même <choice><abbr resp="#FdS">ethnolo</abbr><expan>ethnologique</expan></choice></del>
+                                <choice><abbr>pr</abbr><expan>pour</expan></choice> l’ethnologiste, – et qu<add place="above" resp="#FdS">’on se demande</add> <del rend="overstrike">le même <choice><abbr resp="#FdS">ethnolo</abbr><expan>ethnologique</expan></choice></del>
                                 <lb xml:id="lb37_p2" n="37" facs="#p2lb37"/>
                                 <unclear reason="illegible">comment</unclear> l’ethnologiste, sans cette donnée n'aurait jamais
                                 <lb xml:id="lb38_p2" n="38" facs="#p2lb38"/>
@@ -652,29 +648,74 @@
                             <lb/>studio per la storia o per la storia della civiltà?                    
                         </ab> 
                         <ab xml:id="it_91Aaaa003" corresp="#pericope_91Aaaa003" xml:lang="IT">
-                            <lb/>Lorem ipsum sit amet, 
-                            <lb/>sed do eiusmod  aliqua. 
-                            <lb/>Accumsan sit amet  tempus. Interdum  
-                            <lb/>id faucibus nisl. Nisl scipit  est ultricies 
-                            <lb/>integer  auctor. Tortor nunc.  pellentesque 
-                            <lb/>diam volutpat commodo. Sapien bibendum. 
-                            <lb/>Tempus iaculis lacus . Luctus accumsan tortor 
-                            <lb/>posuere ac ut e nunc morbi 
-                            <lb/>blandit cursus sapien et ligula 
-                            <lb/>ullamcorper nunc consequat.
-                        </ab> 
-                        <ab xml:id="it_91Aaaa004" corresp="#pericope_91Aaaa004" xml:lang="IT">
-                            <lb/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            <lb/>sed do eiusmod tempor incididunt ut labore et dolore . 
-                            <lb/>Accumsan sit amet nulla facilisi morbi tempus. Interdum 
-                            <lb/>id faucibus nisl tincidunt eget. Nisl suscipit adipiscing  
-                            <lb/>integer quis auctor. Tortor at auctor urna nunc. Felis donec et
-                            <lb/>diam volutpat commodo. Sapien nec sagittis aliquam . 
-                            <lb/>Tempus iaculis urna id volutpat lacus laoreet non. Luctus 
-                            <lb/>posuere ac ut. Elementum curabitur vitae nunc sed. Vestibulum 
-                            <lb/>blandit cursus risus at ultrices mi tempus imperdiet. Pulvinar  
-                            <lb/>ullamcorper malesuada proin libero nunc consequat.
-                        </ab>                                         
+                            <lb/>
+                            la storia della civiltà? – e dovrei 
+                            <lb/>
+                            qui ricordare il nome ginevrino, di cui siamo
+                            <lb/>
+                            fieri, anche in altri ambiti,
+                            <lb/>
+                            per la nostra patria, di Adolphe Pictet, di Adolphe Pictet il quale,
+                            <lb/>
+                            per primo, concepì 
+                            <lb/>
+                            con metodo il contributo che si poteva trarre dalla lingua 
+                            <lb/>
+                            in quanto testimone delle età preistoriche,
+                            <lb/>
+                            e che, sebbene sorretto da una fiducia forse eccessiva – com’era
+                            <lb/>
+                            inevitabile 
+                            <lb/>
+                            nel primo entusiasmo
+                            <lb/>
+                            provocato dalla
+                            <lb/>
+                            sùbita 
+                            <lb/>
+                            rivelazione d’un
+                            <lb/>
+                            mondo
+                            <lb/>
+                            insospettato 
+                            <lb/>
+                            – nella verità, 
+                            <lb/>
+                            nel valore assoluto 
+                            <lb/>
+                            delle indicazioni che la
+                            <lb/>
+                            lingua può dare, 
+                            <lb/>
+                            è stato nondimeno il fondatore 
+                            <lb/>
+                            di una seria branca di ricerche, coltivate 
+                            <lb/>
+                            ancora attualmente a giusto titolo 
+                            <lb/>
+                            da una serie ininterrotta di studiosi
+                            <lb/>
+                            – dopo di che insisterei sulla portata
+                            <lb/>
+                            singolarmente precisa che ha assunto, per l’etnografia,
+                            <lb/> 
+                            la linguistica, a tal segno che il dato
+                            <lb/>
+                            [linguistico] è sempre, fino a
+                            <lb/>
+                            prova più dettagliata, la prova principale 
+                            <lb/>
+                            per l’etnologo, – e che ci si chiede 
+                            <lb/>
+                            come l’etnologo senza quel dato avrebbe mai
+                            <lb/>
+                            potuto affermare per esempio (per scegliere un esempio tra mille) che tra gli Ungheresi gli 
+                            <lb/>
+                            Tzigani rappresentano una razza totalmente distinta
+                            <lb/>
+                            dai Magiari, che in seno all’impero 
+                            <lb/>austriaco il Magiaro, a sua volta, rappresenta
+                        </ab>                                     
                     </body>
                 </text>
                 <text xml:id="it_Prolusione-2"> <!--ITA 2 PROLUSIONE-->
