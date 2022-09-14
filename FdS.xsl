@@ -107,7 +107,7 @@
                     <div id="box_testo_it" style="display:none;">
                         <h3>Traduzione italiana</h3>
                         <div class="box_testo_fronte">
-                            <xsl:apply-templates select="//tei:group[@xml:id='it_Prolusioni']/tei:text[1]/tei:body[1]/tei:ab"/>
+                            <xsl:apply-templates select="//tei:group[@xml:id='it_Prolusioni']/tei:text[1]/tei:body[1]/tei:div[1]/tei:ab"/>
                         </div>
                         <br/>
                         <div class="box_testo_retro">
@@ -301,7 +301,6 @@
                 </xsl:element>
             </xsl:element>
         </xsl:for-each>
-        
     </xsl:template>
 
 
