@@ -498,17 +498,15 @@
                                 - et j’aurais
                                 <!--***CODICE PASSANISI-RAGUSA (Pp. 1-2)***-->
                                 <lb xml:id="lb2_p2" n="2" facs="#p2lb2"/>
-                                ici à rappeler <add place="above" resp="#FdS">le</add> <del rend="overstrike">que</del> <del rend="overstrike">le</del>nom <add place="above" resp="#FdS">genevois,<unclear reason="illegible"> dont nous sommes </unclear></add><gap quantity="4" unit="chars" reason="deleted"/><del rend="overstrike"> glorieux à</del>
+                                ici à rappeler <add place="above" resp="#FdS">le</add> <del rend="overstrike">que</del> <del rend="overstrike">le</del> nom <add place="above" resp="#FdS">genevois,<unclear reason="illegible"> dont nous sommes </unclear></add><gap quantity="4" unit="chars" reason="deleted"/> <del rend="overstrike">glorieux à</del>
                                 <lb xml:id="lb3_p2" n="3" facs="#p2lb3"/>
-                                fiers à d’autres égards encore <del rend="overstrike">pour notre Faculté</del>
-                                
+                                fiers à d’autres égards encore <del rend="overstrike">pour notre Faculté</del>                                
                                 <lb xml:id="lb4_p2" n="4" facs="#p2lb4"/>
                                 <metamark function="insert"><add place="left" resp="#FdS"> <gap extent="4 words" reason="deleted"/>
                                 <lb xml:id="lb5_p2" n="5" facs="#p2lb5"/>
-                                <gap extent="1 word" reason="deleted"/></add></metamark>
-                                
+                                <gap extent="1 word" reason="deleted"/></add></metamark>                                
                                 <lb xml:id="lb6_p2" n="6" facs="#p2lb6"/>
-                                <del rend="overstrike">et</del><choice><abbr resp="#FdS">pr</abbr><expan>(pour)</expan></choice> notre patrie, d'<persName ref="#AdPic">Adolphe Pictet</persName>, d'<persName ref="#AdPic"><choice><abbr resp="#FdS">A.P.</abbr><expan>(Adolphe Pictet)</expan></choice></persName> qui
+                                <del rend="overstrike">et</del><choice> <abbr resp="#FdS">pr</abbr><expan>pour</expan></choice> notre patrie, d'<persName ref="#AdPic">Adolphe Pictet</persName>, d' <add place="above"><choice><abbr>A<em>.</em>P<em>.</em></abbr><expan>A<ex>dolphe</ex> P<ex>ictet</ex></expan></choice></add> qui
                                 <lb xml:id="lb7_p2" n="7" facs="#p2lb7"/>
                                 <gap extent="3 words" reason="illegible"/>
                                 
@@ -520,13 +518,13 @@
                                 <lb xml:id="lb9_p2" n="9" facs="#p2lb9"/>
                                 <del rend="overstrike">pour l'imitateur</del> le premier conçut <del rend="overstrike">ce</del>
                                 <lb xml:id="lb10_p2" n="10" facs="#p2lb10"/>
-                                <add place="left"><unclear reason="illegible">méthodiquement</unclear></add><del rend="overstrike">ce</del><add place="above"><unclear reason="illegible">le parti</unclear></add> qu’on pouvait tirer <add place="above"><gap extent="1 word" reason="deleted"/></add> de la <term ref="#lang">langue</term><del rend="overstrike">pour</del>
+                                <add place="left"><unclear reason="illegible">méthodiquement</unclear></add> <del rend="overstrike">ce</del> <add place="above"><unclear reason="illegible">le parti</unclear></add> qu’on pouvait tirer <add place="above"><gap extent="1 word" reason="deleted"/></add> de la <term ref="#lang">langue</term><del rend="overstrike">pour</del>
                 
                                 <lb xml:id="lb11_p2" n="11" facs="#p2lb11"/>
                                 <gap extent="2 lines" reason="deleted"/>
                                 
                                 <lb xml:id="lb12_p2" n="12" facs="#p2lb12"/>
-                                <del rend="overstrike">et qui</del> comme témoin des âges préhistoriques, 
+                                <del rend="overstrike">et qui </del>comme témoin des âges préhistoriques, 
                                 <lb xml:id="lb13_p2" n="13" facs="#p2lb13"/>
                                 et qui, <choice><abbr resp="#FdS">tt</abbr><expan>(tout)</expan></choice> en <gap extent="2 words" reason="deleted"/> <add place="above" resp="#FdS">se <gap extent="4 words" reason="deleted"/> fiant</add> peut-être <add place="above"><unclear reason="illegible">trop,</unclear><del rend="overstrike" resp="#FdS"> comme il </del></add><del rend="overstrike" resp="#FdS"> la sureté </del><metamark function="insert"><addSpan spanTo="#span4"/>
                                 <lb xml:id="lb14_p2" n="14" facs="#p2lb14"/>
@@ -1136,24 +1134,12 @@
                     </person>
 
                     <!--Antoinette Weil-->
-                    <person xml:id="AW" sameAs="http://worldcat.org/identities/lccn-nr2002015108/ https://en.wikipedia.org/wiki/VIAF_(identifier)"> 
+                    <person xml:id="AW" sameAs="http://worldcat.org/identities/lccn-nr2002015108/"> 
                         <persName> 
                             <forename>Antoinette</forename>
                             <surname>Weil</surname>
                         </persName>
-                        <occupation>linguista</occupation>
-                        <sex>M</sex>
-                        <birth>
-                            <date when="1799-09-11">11th September 1799</date>
-                            <placeName ref="#GE">
-                                <settlement type="municipality">Genève</settlement>
-                                <settlement type="department" key="GE">Genève</settlement>
-                                <country key="CH">Switzerland</country>
-                            </placeName>
-                        </birth>
-                        <death>
-							<date when="1875-12-20">20th December 1875</date>
-                        </death> 
+                        <sex>F</sex>
                     </person>
 
                 <!--Adolphe Pictet-->
@@ -1162,8 +1148,24 @@
                         <forename>Adolphe</forename>
                         <surname>Pictet</surname>
                     </persName>
-                    <sex>M</sex>
-                </person>
+                    <occupation>linguista</occupation>
+                    <birth>
+                        <date when="1799-09-11">11th Semptember 1799</date>
+                        <placeName ref="#GE">
+                            <settlement type="municipality">Lancy</settlement>
+                            <settlement type="department" key="GE">Genève</settlement>
+                            <country key="CH">Switzerland</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1875-12-20">20nd December 1875</date>
+                        <placeName ref="#GE">
+                            <settlement type="municipality">Genève</settlement>
+                            <settlement type="department" key="GE">Genève</settlement>
+                            <country key="CH">Switzerland</country>
+                        </placeName>                        
+                    </death> 
+                </person>          
             </listPerson>                
 
             </sourceDesc>
