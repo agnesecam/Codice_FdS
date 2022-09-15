@@ -299,6 +299,10 @@
             <zone ulx="152" uly="721" lrx="526" lry="732" rendition="line" xml:id="facs_p1_lb36"/>             <!--36a riga, riprende corpo testo centrale "profit que peut tirer"-->
             <zone ulx="155" uly="744" lrx="543" lry="757" rendition="line" xml:id="facs_p1_lb37"/>             <!--37a riga, "étude l’érudition classique la connaissance"-->
             <zone ulx="155" uly="770" lrx="529" lry="787" rendition="line" xml:id="facs_p1_lb38"/>               <!--38a riga, "des langues greque"-->
+            <!--
+                Riga per provare points al posto di rectangle
+                <zone points = ' 53,624 152,572 142,558 49,610 ' rendition="line" xml:id="facs_p1_lb38"/>
+            -->
             <zone ulx="179" uly="796" lrx="539" lry="811" rendition="line" xml:id="facs_p1_lb39"/>               <!--39a riga, "eût-elle un but simplement l’intérêt"-->
             <zone ulx="190" uly="822" lrx="517" lry="839" rendition="line" xml:id="facs_p1_lb40"/>               <!--40a riga, "étude pour l'histoire ou pour"-->
 
