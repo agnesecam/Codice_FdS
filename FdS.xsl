@@ -569,5 +569,7 @@
             <xsl:value-of select="current()" />
         </xsl:element>
     </xsl:template>    
-
+<!--getResource e xPathEvalueate - documentation di Saxonica-->
+<!--getResource per passare il contextItem in xpath.evaluate-->
+<!--Per bibl-->
 </xsl:stylesheet>
