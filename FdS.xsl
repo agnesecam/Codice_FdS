@@ -291,7 +291,6 @@
                             <xsl:attribute name="href"> 
                                 <xsl:value-of select="concat('#',(substring-after(@xml:id, 'facs_')))"/>    <!-- href="facs_HandpageNumber-1" -->    <!--VOGLIO CHE HREF SIA solo HandpageNumber-1-->
                             </xsl:attribute>
-                            <xsl:variable name="stringa" select="substring-after(@xml:id, 'facs_')"/>
                                 
                             
                             <xsl:attribute name="onclick">
