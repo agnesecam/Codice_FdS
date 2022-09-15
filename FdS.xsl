@@ -290,9 +290,7 @@
                             </xsl:attribute>
                             <xsl:attribute name="href"> 
                                 <xsl:value-of select="concat('#',(substring-after(@xml:id, 'facs_')))"/>    <!-- href="facs_HandpageNumber-1" -->    <!--VOGLIO CHE HREF SIA solo HandpageNumber-1-->
-                            </xsl:attribute>
-                                
-                            
+                            </xsl:attribute>                                                            
                             <xsl:attribute name="onclick">
                                 <xsl:value-of select="'gestoreEvidenzia(id)'"/>     <!-- gestoreEvidenzia("facs_HandpageNumber-1") - passo come parametro l'id della zona cliccata-->
                             </xsl:attribute>
@@ -300,6 +298,16 @@
                     </xsl:for-each>
                 </xsl:element>
             </xsl:element>
+            <script src="JavaScript/image-map-highlighter.js"></script>
+            <script>
+                var image = document.querySelector('.immagini_scan');
+                var highlighter = new ImageMapHighlighter(image, {
+                    strokeColor: 'ff0000',
+                    fill: true,
+                    fillColor: 'ff0000',
+                });
+                highlighter.init();
+            </script>
         </xsl:for-each>
     </xsl:template>
 

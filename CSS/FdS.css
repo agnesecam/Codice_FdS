@@ -216,3 +216,17 @@ abbr, .expan {
     opacity: 1;
     visibility: visible;
 }
+
+/*MAPPA EVIDENZIATA*/
+.map-container {
+    background-size: cover;
+    position: relative;
+}
+.map-container canvas { 
+    position: absolute; 
+}
+.map-container img {
+    opacity: 0;
+    position: absolute;
+}
+
