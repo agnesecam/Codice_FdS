@@ -283,7 +283,7 @@
                                 <xsl:value-of select="@xml:id"/>       
                             </xsl:attribute>
                             <xsl:attribute name="shape">
-                                <xsl:text>rect</xsl:text>
+                                <xsl:text>rect</xsl:text><!--"poly" se usi i points-->
                             </xsl:attribute>
                             <xsl:attribute name="coords">
                                 <xsl:value-of select="@ulx"/>,<xsl:value-of select="@uly"/>,<xsl:value-of select="@lrx"/>,<xsl:value-of select="@lry"/>

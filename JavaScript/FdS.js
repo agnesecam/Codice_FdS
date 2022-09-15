@@ -67,7 +67,6 @@ function select_pages(){
             stylesheetLocation: "../FdS.sef.json",
             sourceLocation: "XML/" + file_input_XML
         }, "async")
-
     } catch(e) {
 		alert("gestoreSelezionaScan1"+e);
     }
