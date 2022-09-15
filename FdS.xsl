@@ -43,6 +43,7 @@
                             <li>Le <sub place="below">parole</sub> in pedice sono aggiunte al testo sotto alla riga corrente.</li>
                             <li>Le <del>parole</del> cancellate sono barrate.</li>
                             <li>Ponendo il cursore sopra i termini evidenziati d'azzurro vengono mostrate le relative informazioni.</li>
+                            <li>Ponendo il cursore sopra i termini sottolineati viene mostrata l'abbreviazione sciolta.</li>
                         </div>
                         <div id="box_icone_traduzioni">
                             <input id="icona_testo_francese" type="button" class="clicked" alt="Visualizza la trascrizione francese" onclick="gestoreMostraTrascrizioneFR()" value="Trascrizione francese"/>
