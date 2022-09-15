@@ -364,8 +364,12 @@
             <graphic url='ms_fr_03951_01_1_p002.jpg'/>
             <!--Righe-->
             <zone ulx="157" uly="72" lrx="550" lry="108" rendition="line" xml:id="facs_p2lb1"/>                                               <!--1a riga-->
-            <zone ulx="112" uly="110" lrx="554" lry="138" rendition="line" xml:id="facs_p2lb2"/>                                            <!--2a riga-->
-            <zone ulx="108" uly="141" lrx="548" lry="163" rendition="line" xml:id="facs_p2lb3"/>                                            <!--3a riga-->            
+            <zone ulx="114" uly="114" lrx="555" lry="131" rendition="line" xml:id="facs_p2lb3" />                                            <!--2a riga-->
+            <zone ulx="111" uly="139" lrx="544" lry="164" rendition="line" xml:id="facs_p2lb4"/>                                             <!--3a riga-->
+            <zone ulx="51" uly="171" lrx="135" lry="209" rendition="line" xml:id="facs_p2lb5"/>                                                <!--4a riga-->
+            <zone ulx="162" uly="175" lrx="542" lry="191" rendition="line" xml:id="facs_p2lb6"/>                                              <!--Parole a sinistra-->
+            <zone ulx="146" uly="201" lrx="235" lry="216" rendition="line" xml:id="facs_p2lb7"/>                                              <!--Cancellatura sotto-->
+            
             <!--Pericopi e numerazione a mano-->
             <zone ulx="157" uly="74" lrx="416" lry="103" rendition="hotspot" xml:id="facs_Pericope2b" />                            <!--Parole finali della seconda pericope "l'histoire de la civilisation"-->
             <zone ulx="59" uly="56" lrx="94" lry="95" rendition="hotspot" xml:id="facs_HandPageNumber-2" />                  <!--Numero 2 sx cerchiato -->    
