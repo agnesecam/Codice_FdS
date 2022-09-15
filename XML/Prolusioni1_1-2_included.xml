@@ -373,7 +373,7 @@
         <group> <!--Testo e traduzione delle 3 prolusioni-->
             <group xml:id="fr_Prolusioni"> <!--TESTO FRANCESE DELLE 3 PROLUSIONI-->
                 <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
-                    <body xml:lang="fr" source="#Bouquet-Engler2002">
+                    <body xml:lang="fr" source="#Bouquet-Engler2002" xml:id="body-francese">
                         <!--Prima pagina = primo folio, recto-->
                         <pb n="f1r" xml:id="body_p1" facs="#scan_p1"/>
                         <!--Numeri impaginazione a stampa e a mano-->
@@ -381,7 +381,7 @@
                             <fw type="pageNum" xml:id="HandPageNumber-1" rend="align(left)" facs="#facs_HandPageNumber-1"> 1 </fw>
                             <stamp xml:id="PrintPageNumber-2" rend="align(right)" facs="#facs_PrintPageNumber-2"> 2 </stamp>
                         </ab>
-                        <div xml:id="div_p1" hand="#h1">
+                        <div xml:id="div_p1_fr" hand="#h1">
                             <!--Inizio 1a pericope-->
                             <ab xml:id="pericope_91Aaaa001" n="1" xml:lang="FR" corresp="#it_91Aaaa001 #en_91Aaaa001" facs="#facs_pericope_91Aaaa001"> 
                                 <lb xml:id="lb1_p1" n="1" facs="#facs_p1_lb1"/> 
@@ -484,7 +484,7 @@
                         <!--Fine pagina 1, la pericope 2 continua nella seconda pagina-->
                         <!--Inizio pagina 2-->
                         <pb n="f2v" xml:id="body_p2" facs="#scan_p2"/>                        
-                        <div xml:id="div_p2" hand="#h1">
+                        <div xml:id="div_p2_fr" hand="#h1">
                             <!--Numero impaginazione a mano-->                        
                             <fw type="pageNum" xml:id="HandPageNumber-2" rend="align(left)" facs="#facs_HandPageNumber-2">2</fw>
                             <!--Continuo 2a pericope iniziata in pagina 1-->
@@ -516,7 +516,7 @@
                                 <lb xml:id="lb9_p2" n="9" facs="#p2lb9"/>
                                 <del rend="overstrike">pour l'imitateur</del> le premier conçut <del rend="overstrike">ce</del>
                                 <lb xml:id="lb10_p2" n="10" facs="#p2lb10"/>
-                                <add place="left"><unclear reason="illegible">méthodiquement</unclear></add> <del rend="overstrike">ce</del> <add place="above"><unclear reason="illegible">le parti</unclear></add> qu’on pouvait tirer <add place="above"><gap extent="1 word" reason="deleted"/></add> de la <term ref="#lang">langue</term> <del rend="overstrike">pour</del>
+                                <add place="left"><unclear reason="illegible">méthodiquement</unclear></add> <del rend="overstrike">ce</del> <add place="above"><unclear reason="illegible">le parti</unclear></add> qu’on pouvait tirer <add place="above"><gap extent="1 word" reason="deleted"/></add> de la <term ref="#langue1">langue</term> <del rend="overstrike">pour</del>
                                 <lb xml:id="lb11_p2" n="11" facs="#p2lb11"/>
                                 <gap extent="2 lines" reason="deleted"/>                                
                                 <lb xml:id="lb12_p2" n="12" facs="#p2lb12"/>
@@ -549,7 +549,7 @@
                                 <lb xml:id="lb25_p2" n="25" facs="#p2lb25"/>
                                 <add place="above" resp="#FdS">le valeur absolue </add>
                                 <lb xml:id="lb26_p2" n="26" facs="#p2lb26"/>
-                                des indications que <del rend="overstrike">de</del> peut la <term ref="#lang">langue</term>, n’en a pas
+                                des indications que <del rend="overstrike">de</del> peut la <term ref="#langue1">langue</term>, n’en a pas
                                 <lb xml:id="lb27_p2" n="27" facs="#p2lb27"/>
                                 moins été <del rend="overstrike">l'imitateur d'</del> le fondateur
                                 <lb xml:id="lb28_p2" n="28" facs="#p2lb28"/>
@@ -586,283 +586,205 @@
                         <!--Fine 2a pagina, la 3a pericope continua nella 3a pagina-->
                     </body>
                 </text>
-                <text xml:id="fr_Prolusione-2"><!--FR 2 PROLUSIONE-->
-                    <body xml:lang="fr" source="#Bouquet-Engler2002">
-                        <ab> ... </ab>
-                    </body>
-                </text>
-                <text xml:id="fr_Prolusione-3"><!--FR 3 PROLUSIONE-->
-                    <body xml:lang="fr" source="#Bouquet-Engler2002">
-                        <ab> ... </ab>
-                    </body>
-                </text>
             </group>  
             
             <group xml:id="it_Prolusioni" xml:lang="IT"> <!--TRADUZIONI ITALIANO DELLE 3 PROLUSIONI-->
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
-                    <body source="#Fadda2006" resp="#EF">
-                        <ab xml:id="it_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="IT">
-                            <lb/>Se la cattedra che ho in questa
-                            <lb/>occasione l’onore di inaugurare rappresentasse un ordine 
-                            <lb/>di studi nuovo 
-                            <lb/>nella nostra Università, se avessi 
-                            <lb/>oggi la missione o il privilegio 
-                            <lb/>d’introdurvi nell’edificio 
-                            <lb/>che la scienza del 
-                            <lb/>linguaggio è intenta 
-                            <lb/>a costruire da 
-                            <lb/>settant’anni in qua, 
-                            <lb/>e di descrivere 
-                            <lb/>a grandi 
-                            <lb/>linee lo stato attuale
-                            <lb/>di questa scienza,
-                            <lb/>e percorrere il suo passato, che
-                            <lb/>non è poi così lungo, 
-                            <lb/>o di pronosticare 
-                            <lb/>il suo avvenire, 
-                            <lb/>la sua utilità, 
-                            <lb/>e definire 
-                            <lb/>il posto che essa 
-                            <lb/>occupa nel
-                            <lb/>cerchio delle conoscenze
-                            <lb/>umane e i 
-                            <lb/>servizi che essa può
-                            <lb/>rendere in una
-                            <lb/>Facoltà di Lettere, avrei timore di non poter assolvere 
-                            <lb/>degnamente il mio compito, ma certamente 
-                            <lb/>non potrei lamentarmi qui 
-                            <lb/>dell’abbandono.
-                        </ab>
-                        <ab xml:id="it_91Aaaa002" corresp="#pericope_91Aaaa002" xml:lang="IT">
-                            <lb/>Senza esaltare 
-                            <lb/>oltre misura 
-                            <lb/>i meriti della linguistica, 
-                            <lb/>qual è il 
-                            <lb/>beneficio che può trarre da tale studio, 
-                            <lb/>per esempio, l’erudizione classica, la conoscenza 
-                            <lb/>delle lingue greca, latina e francese, 
-                            <lb/>avesse pure un fine semplicemente 
-                            <lb/>letterario, e l’interesse che può avere il medesimo 
-                            <lb/>studio per la storia o per la storia della civiltà?                    
-                        </ab> 
-                        <ab xml:id="it_91Aaaa003" corresp="#pericope_91Aaaa003" xml:lang="IT">
-                            <lb/>
-                            la storia della civiltà? – e dovrei 
-                            <lb/>
-                            qui ricordare il nome ginevrino, di cui siamo
-                            <lb/>
-                            fieri, anche in altri ambiti,
-                            <lb/>
-                            per la nostra patria, di Adolphe Pictet, di Adolphe Pictet il quale,
-                            <lb/>
-                            per primo, concepì 
-                            <lb/>
-                            con metodo il contributo che si poteva trarre dalla lingua 
-                            <lb/>
-                            in quanto testimone delle età preistoriche,
-                            <lb/>
-                            e che, sebbene sorretto da una fiducia forse eccessiva – com’era
-                            <lb/>
-                            inevitabile 
-                            <lb/>
-                            nel primo entusiasmo
-                            <lb/>
-                            provocato dalla
-                            <lb/>
-                            sùbita 
-                            <lb/>
-                            rivelazione d’un
-                            <lb/>
-                            mondo
-                            <lb/>
-                            insospettato 
-                            <lb/>
-                            – nella verità, 
-                            <lb/>
-                            nel valore assoluto 
-                            <lb/>
-                            delle indicazioni che la
-                            <lb/>
-                            lingua può dare, 
-                            <lb/>
-                            è stato nondimeno il fondatore 
-                            <lb/>
-                            di una seria branca di ricerche, coltivate 
-                            <lb/>
-                            ancora attualmente a giusto titolo 
-                            <lb/>
-                            da una serie ininterrotta di studiosi
-                            <lb/>
-                            – dopo di che insisterei sulla portata
-                            <lb/>
-                            singolarmente precisa che ha assunto, per l’etnografia,
-                            <lb/> 
-                            la linguistica, a tal segno che il dato
-                            <lb/>
-                            [linguistico] è sempre, fino a
-                            <lb/>
-                            prova più dettagliata, la prova principale 
-                            <lb/>
-                            per l’etnologo, – e che ci si chiede 
-                            <lb/>
-                            come l’etnologo senza quel dato avrebbe mai
-                            <lb/>
-                            potuto affermare per esempio (per scegliere un esempio tra mille) che tra gli Ungheresi gli 
-                            <lb/>
-                            Tzigani rappresentano una razza totalmente distinta
-                            <lb/>
-                            dai Magiari, che in seno all’impero 
-                            <lb/>austriaco il Magiaro, a sua volta, rappresenta
-                        </ab> 
-                        <ab xml:id="it_91Aaaa004" corresp="#pericope_91Aaaa004" xml:lang="IT">
-                            <lb/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            <lb/>sed do eiusmod tempor incididunt ut labore et dolore . 
-                            <lb/>Accumsan sit amet nulla facilisi morbi tempus. Interdum 
-                            <lb/>id faucibus nisl tincidunt eget. Nisl suscipit adipiscing  
-                            <lb/>integer quis auctor. Tortor at auctor urna nunc. Felis donec et
-                            <lb/>diam volutpat commodo. Sapien nec sagittis aliquam . 
-                            <lb/>Tempus iaculis urna id volutpat lacus laoreet non. Luctus 
-                            <lb/>posuere ac ut. Elementum curabitur vitae nunc sed. Vestibulum 
-                            <lb/>blandit cursus risus at ultrices mi tempus imperdiet. Pulvinar  
-                            <lb/>ullamcorper malesuada proin libero nunc consequat.
-                        </ab>                                         
+                    <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
+                        <div xml:id="div_p1_it" hand="#h1">
+                            <ab xml:id="it_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="IT">
+                                <lb/>Se la cattedra che ho in questa
+                                <lb/>occasione l’onore di inaugurare rappresentasse un ordine 
+                                <lb/>di studi nuovo 
+                                <lb/>nella nostra Università, se avessi 
+                                <lb/>oggi la missione o il privilegio 
+                                <lb/>d’introdurvi nell’edificio 
+                                <lb/>che la scienza del 
+                                <lb/>linguaggio è intenta 
+                                <lb/>a costruire da 
+                                <lb/>settant’anni in qua, 
+                                <lb/>e di descrivere 
+                                <lb/>a grandi 
+                                <lb/>linee lo stato attuale
+                                <lb/>di questa scienza,
+                                <lb/>e percorrere il suo passato, che
+                                <lb/>non è poi così lungo, 
+                                <lb/>o di pronosticare 
+                                <lb/>il suo avvenire, 
+                                <lb/>la sua utilità, 
+                                <lb/>e definire 
+                                <lb/>il posto che essa 
+                                <lb/>occupa nel
+                                <lb/>cerchio delle conoscenze
+                                <lb/>umane e i 
+                                <lb/>servizi che essa può
+                                <lb/>rendere in una
+                                <lb/>Facoltà di Lettere, avrei timore di non poter assolvere 
+                                <lb/>degnamente il mio compito, ma certamente 
+                                <lb/>non potrei lamentarmi qui 
+                                <lb/>dell’abbandono.
+                            </ab>
+                            <ab xml:id="it_91Aaaa002" corresp="#pericope_91Aaaa002" xml:lang="IT">
+                                <lb/>Senza esaltare 
+                                <lb/>oltre misura 
+                                <lb/>i meriti della linguistica, 
+                                <lb/>qual è il 
+                                <lb/>beneficio che può trarre da tale studio, 
+                                <lb/>per esempio, l’erudizione classica, la conoscenza 
+                                <lb/>delle lingue greca, latina e francese, 
+                                <lb/>avesse pure un fine semplicemente 
+                                <lb/>letterario, e l’interesse che può avere il medesimo 
+                                <lb/>studio per la storia o per la storia della civiltà?                    
+                            </ab>
+                        </div>
+                        <div xml:id="div_p2_it">
+                            <ab xml:id="it_91Aaaa003" corresp="#pericope_91Aaaa003" xml:lang="IT">
+                                <lb/>
+                                la storia della civiltà? – e dovrei 
+                                <lb/>
+                                qui ricordare il nome ginevrino, di cui siamo
+                                <lb/>
+                                fieri, anche in altri ambiti,
+                                <lb/>
+                                per la nostra patria, di Adolphe Pictet, di Adolphe Pictet il quale,
+                                <lb/>
+                                per primo, concepì 
+                                <lb/>
+                                con metodo il contributo che si poteva trarre dalla lingua 
+                                <lb/>
+                                in quanto testimone delle età preistoriche,
+                                <lb/>
+                                e che, sebbene sorretto da una fiducia forse eccessiva – com’era
+                                <lb/>
+                                inevitabile 
+                                <lb/>
+                                nel primo entusiasmo
+                                <lb/>
+                                provocato dalla
+                                <lb/>
+                                sùbita 
+                                <lb/>
+                                rivelazione d’un
+                                <lb/>
+                                mondo
+                                <lb/>
+                                insospettato 
+                                <lb/>
+                                – nella verità, 
+                                <lb/>
+                                nel valore assoluto 
+                                <lb/>
+                                delle indicazioni che la
+                                <lb/>
+                                lingua può dare, 
+                                <lb/>
+                                è stato nondimeno il fondatore 
+                                <lb/>
+                                di una seria branca di ricerche, coltivate 
+                                <lb/>
+                                ancora attualmente a giusto titolo 
+                                <lb/>
+                                da una serie ininterrotta di studiosi
+                                <lb/>
+                                – dopo di che insisterei sulla portata
+                                <lb/>
+                                singolarmente precisa che ha assunto, per l’etnografia,
+                                <lb/> 
+                                la linguistica, a tal segno che il dato
+                                <lb/>
+                                [linguistico] è sempre, fino a
+                                <lb/>
+                                prova più dettagliata, la prova principale 
+                                <lb/>
+                                per l’etnologo, – e che ci si chiede 
+                                <lb/>
+                                come l’etnologo senza quel dato avrebbe mai
+                                <lb/>
+                                potuto affermare per esempio (per scegliere un esempio tra mille) che tra gli Ungheresi gli 
+                                <lb/>
+                                Tzigani rappresentano una razza totalmente distinta
+                                <lb/>
+                                dai Magiari, che in seno all’impero 
+                                <lb/>austriaco il Magiaro, a sua volta, rappresenta
+                            </ab> 
+                        </div>                                    
                     </body>
-                </text>
-                <text xml:id="it_Prolusione-2"> <!--ITA 2 PROLUSIONE-->
-                    <body source="#Fadda2006" resp="#EF">
-                        <ab xml:id="it_91Baaa001" corresp="#pericope_91Baaa001" xml:lang="IT">
-                            ...
-                        </ab>   
-                        <ab xml:id="it_91Baaa002" corresp="#pericope_91Baaa002" xml:lang="IT">
-                            ...
-                        </ab>
-                        <ab xml:id="it_91Baaa003" corresp="#pericope_91Baaa003" xml:lang="IT">
-                            ...
-                        </ab>   
-                        <ab xml:id="it_91Baaa004" corresp="#pericope_91Baaa004" xml:lang="IT">
-                            ...
-                        </ab>
-                    </body>
-                </text>
-                <text xml:id="it_Prolusione-3"> <!--ITA 3 PROLUSIONE-->
-                    <body source="#Fadda2006" resp="#EF">
-                        <ab xml:id="it_91Caaa001" corresp="#pericope_91Caaa001" xml:lang="IT">
-                            ...
-                        </ab>   
-                        <ab xml:id="it_91Caaa002" corresp="#pericope_91Caaa002" xml:lang="IT">
-                            ...
-                        </ab>
-                        <ab xml:id="it_91Caaa003" corresp="#pericope_91Caaa003" xml:lang="IT">
-                            ...
-                        </ab>   
-                        <ab xml:id="it_91Caaa004" corresp="#pericope_91Caaa004" xml:lang="IT">
-                            ...
-                        </ab>
-                    </body>
-                </text>            
+                </text>          
             </group>
 
             <group xml:id="en_Prolusioni" xml:lang="EN"> <!--TRADUZIONI INGLESE DELLE 3 PROLUSIONI-->
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
-                    <body resp="#AC">
-                        <ab xml:id="en_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="EN">
-                            <lb/>If the chair I have the honor of inaugurating 
-                            <lb/>on this occasion represented 
-                            <lb/>a new order of study in our University, if I had 
-                            <lb/>today the mission or the privilege 
-                            <lb/>of introducing you to the building 
-                            <lb/>that the science of 
-                            <lb/>language has been 
-                            <lb/>building for seventy years here, 
-                            <lb/>and to outline 
-                            <lb/>the current state 
-                            <lb/>of this science,
-                            <lb/> and to go through its past, 
-                            <lb/>which is not so long, 
-                            <lb/>or to predict 
-                            <lb/>its future, 
-                            <lb/>its usefulness, 
-                            <lb/>and define 
-                            <lb/>the place it 
-                            <lb/>occupies in 
-                            <lb/>the circle of human knowledge 
-                            <lb/>and the services it can 
-                            <lb/>render in a Faculty of Arts, I would be afraid of not being able to carry out
-                            <lb/>my task worthily, but certainly 
-                            <lb/>I would not be able 
-                            <lb/>to complain 
-                            <lb/>of abandonment here.
-                        </ab>
-                        <ab xml:id="en_91Aaaa002" corresp="#pericope_91Aaaa002" xml:lang="EN">
-                            <lb/>Without exalting 
-                            <lb/>beyond measure 
-                            <lb/>the merits of linguistics, 
-                            <lb/>what is the 
-                            <lb/>benefit that can derive from such study, 
-                            <lb/>for example, classical scholarship, knowledge 
-                            <lb/>of the Greek, Latin and French languages, 
-                            <lb/>even if it had a purely literary purpose, 
-                            <lb/>and the interest that can it have the same 
-                            <lb/>study for history or for the history of civilization?                
-                        </ab> 
-                        <ab xml:id="en_91Aaaa003" corresp="#pericope_91Aaaa003" xml:lang="EN">
-                            <lb/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            <lb/>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            <lb/>Accumsan sit amet nulla facilisi morbi tempus. Interdum consectetur libero 
-                            <lb/>id faucibus nisl tincidunt eget. Nisl suscipit adipiscing bibendum est ultricies 
-                            <lb/>integer quis auctor. Tortor at auctor urna nunc. Felis donec et odio pellentesque 
-                            <lb/>diam volutpat commodo. Sapien nec sagittis aliquam malesuada bibendum. 
-                            <lb/>Tempus iaculis urna id volutpat lacus laoreet non. Luctus accumsan tortor 
-                            <lb/>posuere ac ut. Elementum curabitur vitae nunc sed. Vestibulum morbi 
-                            <lb/>blandit cursus risus at ultrices mi tempus imperdiet. Pulvinar sapien et ligula 
-                            <lb/>ullamcorper malesuada proin libero nunc consequat.
-                        </ab> 
-                        <ab xml:id="en_91Aaaa004" corresp="#pericope_91Aaaa004" xml:lang="EN">
-                            <lb/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                            <lb/>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            <lb/>Accumsan sit amet nulla facilisi morbi tempus. Interdum consectetur libero 
-                            <lb/>id faucibus nisl tincidunt eget. Nisl suscipit adipiscing bibendum est ultricies 
-                            <lb/>integer quis auctor. Tortor at auctor urna nunc. Felis donec et odio pellentesque 
-                            <lb/>diam volutpat commodo. Sapien nec sagittis aliquam malesuada bibendum. 
-                            <lb/>Tempus iaculis urna id volutpat lacus laoreet non. Luctus accumsan tortor 
-                            <lb/>posuere ac ut. Elementum curabitur vitae nunc sed. Vestibulum morbi 
-                            <lb/>blandit cursus risus at ultrices mi tempus imperdiet. Pulvinar sapien et ligula 
-                            <lb/>ullamcorper malesuada proin libero nunc consequat.
-                        </ab>                                         
+                    <body resp="#AC" xml:id="body-inglese">
+                        <div xml:id="div_p1_en" hand="#h1">
+                            <ab xml:id="en_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="EN">
+                                <lb/>If the chair I have the honor of inaugurating 
+                                <lb/>on this occasion represented 
+                                <lb/>a new order of study in our University, if I had 
+                                <lb/>today the mission or the privilege 
+                                <lb/>of introducing you to the building 
+                                <lb/>that the science of 
+                                <lb/>language has been 
+                                <lb/>building for seventy years here, 
+                                <lb/>and to outline 
+                                <lb/>the current state 
+                                <lb/>of this science,
+                                <lb/> and to go through its past, 
+                                <lb/>which is not so long, 
+                                <lb/>or to predict 
+                                <lb/>its future, 
+                                <lb/>its usefulness, 
+                                <lb/>and define 
+                                <lb/>the place it 
+                                <lb/>occupies in 
+                                <lb/>the circle of human knowledge 
+                                <lb/>and the services it can 
+                                <lb/>render in a Faculty of Arts, I would be afraid of not being able to carry out
+                                <lb/>my task worthily, but certainly 
+                                <lb/>I would not be able 
+                                <lb/>to complain 
+                                <lb/>of abandonment here.
+                            </ab>
+                            <ab xml:id="en_91Aaaa002" corresp="#pericope_91Aaaa002" xml:lang="EN">
+                                <lb/>Without exalting 
+                                <lb/>beyond measure 
+                                <lb/>the merits of linguistics, 
+                                <lb/>what is the 
+                                <lb/>benefit that can derive from such study, 
+                                <lb/>for example, classical scholarship, knowledge 
+                                <lb/>of the Greek, Latin and French languages, 
+                                <lb/>even if it had a purely literary purpose, 
+                                <lb/>and the interest that can it have the same 
+                                <lb/>study for history or for the history of civilization?                
+                            </ab> 
+                        </div>
+                        <div xml:id="div_p2_en">
+                            <ab xml:id="en_91Aaaa003" corresp="#pericope_91Aaaa003" xml:lang="EN">
+                                <lb/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                <lb/>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                <lb/>Accumsan sit amet nulla facilisi morbi tempus. Interdum consectetur  
+                                <lb/>id faucibus nisl tincidunt eget. Nisl suscipit adipiscing bibendum est  
+                                <lb/>integer quis auctor. Tortor at auctor urna nunc. Felis donec et odio  
+                                <lb/>diam volutpat commodo. Sapien nec sagittis aliquam malesuada. 
+                                <lb/>Tempus iaculis urna id volutpat lacus laoreet non. Luctus   
+                                <lb/>posuere ac ut. Elementum curabitur vitae nunc sed. Vestibulum  
+                                <lb/>blandit cursus risus at ultrices mi tempus imperdiet. Pulvinar sapien et  
+                                <lb/>ullamcorper malesuada proin libero nunc consequat.
+                            </ab> 
+                            <ab xml:id="en_91Aaaa004" corresp="#pericope_91Aaaa004" xml:lang="EN">
+                                <lb/>Lorem ipsum dolor sit amet, consectetur adipiscing, 
+                                <lb/>sed do eiusmod tempor incididunt ut labore et dolore magna. 
+                                <lb/>Accumsan sit amet nulla facilisi morbi tempus. Interdum consectetur 
+                                <lb/>id faucibus nisl tincidunt eget. Nisl suscipit adipiscing bibendum est  
+                                <lb/>integer quis auctor. Tortor at auctor urna nunc. Felis donec et odio  
+                                <lb/>diam volutpat commodo. Sapien nec sagittis aliquam malesuada. 
+                                <lb/>Tempus iaculis urna id volutpat lacus laoreet non. Luctus accumsan  
+                                <lb/>posuere ac ut. Elementum curabitur vitae nunc sed. Vestibulum  
+                                <lb/>blandit cursus risus at ultrices mi tempus imperdiet. Pulvinar sapien et  
+                                <lb/>ullamcorper malesuada proin libero nunc.
+                            </ab>              
+                        </div>                           
                     </body>
-                </text>
-                <text xml:id="en_Prolusione-2"> <!--EN 2 PROLUSIONE-->
-                    <body resp="#EF">
-                        <ab xml:id="en_91Baaa001" corresp="#pericope_91Baaa001" xml:lang="IT">
-                            ...
-                        </ab>   
-                        <ab xml:id="en_91Baaa002" corresp="#pericope_91Baaa002" xml:lang="IT">
-                            ...
-                        </ab>
-                        <ab xml:id="en_91Baaa003" corresp="#pericope_91Baaa003" xml:lang="IT">
-                            ...
-                        </ab>   
-                        <ab xml:id="en_91Baaa004" corresp="#pericope_91Baaa004" xml:lang="IT">
-                            ...
-                        </ab>
-                    </body>
-                </text>
-                <text xml:id="en_Prolusione-3"> <!--EN 3 PROLUSIONE-->
-                    <body resp="#EF">
-                        <ab xml:id="en_91Caaa001" corresp="#pericope_91Caaa001" xml:lang="IT">
-                            ...
-                        </ab>   
-                        <ab xml:id="en_91Caaa002" corresp="#pericope_91Caaa002" xml:lang="IT">
-                            ...
-                        </ab>
-                        <ab xml:id="en_91Caaa003" corresp="#pericope_91Caaa003" xml:lang="IT">
-                            ...
-                        </ab>   
-                        <ab xml:id="en_91Caaa004" corresp="#pericope_91Caaa004" xml:lang="IT">
-                            ...
-                        </ab>
-                    </body>
-                </text>            
+                </text>       
             </group>
         </group>
 
