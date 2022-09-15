@@ -42,7 +42,7 @@
                             <li>Le <sup>parole</sup> in apice sono aggiunte al testo sopra alla riga corrente.</li>
                             <li>Le <sub place="below">parole</sub> in pedice sono aggiunte al testo sotto alla riga corrente.</li>
                             <li>Le <del>parole</del> cancellate sono barrate.</li>
-                            <li>Ponendo il cursore sopra i termini evidenziati d'azzurro vengono mostrate le relative informazioni.</li>
+                            <li>I termini evidenziati di azzurro sono riferimenti a: persone, luoghi, enti o termini linguistici. Passandoci il cursore sopra vengono mostrate informazioni e definizioni. Le definizioni dei termini linguistici derivano da <i>Dalle parole ai termini</i> di Giuseppe Cosenza.</li>
                             <li>Ponendo il cursore sopra i termini sottolineati viene mostrata l'abbreviazione sciolta.</li>
                         </div>
                         <div id="box_icone_traduzioni">

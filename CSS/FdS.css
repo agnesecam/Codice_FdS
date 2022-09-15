@@ -92,11 +92,11 @@ input {
 #box_legenda {
     border: 2px solid black;
     background-color: rgba(211, 211, 211, 0.336);
-    padding: 0px 20px 20px 20px;
+    padding: 0px 20px 20px 40px;
     width: 600px;
     margin-top: 20px;
-    margin-right: 40px;
     display: inline-block;
+    text-indent: -21px;
 }
 
 .gap {
