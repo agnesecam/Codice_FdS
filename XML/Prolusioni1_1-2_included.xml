@@ -914,6 +914,22 @@
                         </note>
                     </bibl>
 
+                    <bibl xml:id="Prolusioni_Ginevrine">
+                        <title type="main">Dalle parole ai termini</title>
+                        <title type="sub">I percorsi di pensiero di F. de Saussure</title>
+                        <author ref="#GC" role="author">
+                            <persName>
+                                <forename>Giuseppe</forename>
+                                <surname>Cosenza</surname>
+                            </persName>
+                        </author>
+                        <date when="2016-12">2016</date>
+                        <publisher>Edizioni dell'Orso</publisher>
+                        <pubPlace>Alessandria</pubPlace>
+                        <idno type="ISBN">978-88-6274-728-8</idno>
+                        
+                    </bibl>
+
                 </listBibl>
             </div>
         </back>
@@ -1312,7 +1328,6 @@
                     <licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY SA 4.0 </licence>
                     <!-- DA DECIDERE: almeno CC BY Share Alike poi valutiamo Non Derivaty e Non commercial-->
                 </availability>
-                <date when="2022">2022</date>
             </publicationStmt>
 
             <sourceDesc>
@@ -3938,7 +3953,7 @@
                                     <pubPlace>Utrecht-Anvers</pubPlace>
                                     <publisher>Spectrum</publisher>
                                     <date>1968</date>
-                                </bibl>
+                                </bibl> 
                             </cit>               
                         </def>];
                         <cit type="example">
