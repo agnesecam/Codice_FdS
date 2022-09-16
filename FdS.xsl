@@ -306,6 +306,18 @@
                         </xsl:for-each>
                     </p>
                 </div>
+
+                <div id="prova_XPathEvaluate">
+                    <script type="text/javascript">                    
+                        var documento = SaxonJS.getResource({
+                            location: "/XML/Prolusioni1_1-2_included.xml",
+                            type: "xml"
+                        )}
+                        .then((documento) => saxon.XPath.evaluate(xpathQuery, documento))
+                        var v = SaxonJS.XPath.evaluate(".//*[xml:id='h1']", documento);
+                        console.log(v);
+                    </script>
+                </div>
             </footer>
         </xsl:result-document>
     </xsl:template>
