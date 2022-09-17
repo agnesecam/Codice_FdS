@@ -13,6 +13,7 @@
 
     <xsl:output method="html" html-version="5" encoding="utf-8" indent="no"/>
     <xsl:mode on-no-match="shallow-copy"/>
+    
 
     <!--INITIAL TEMPLATE-->
     <xsl:template name="xsl:initial-template">
@@ -304,18 +305,23 @@
                                 </xsl:otherwise>
                             </xsl:choose>
                         </xsl:for-each>
+                        <br/>
+                        <!--Prove XPath Evaluate-->
+                        <br/><xsl:copy-of select=".//*[not(@xml:id='glossario')]/*[@xml:id='h1']"/><br/>
+
                     </p>
                 </div>
 
                 <div id="prova_XPathEvaluate">
-                    <script type="text/javascript">                    
-                        var documento = SaxonJS.getResource({
-                            location: "/XML/Prolusioni1_1-2_included.xml",
+                    <script type="text/javascript">  
+                        SaxonJS.getResource({
+                            location: "XML/Prolusioni1_1-2_included.xml",
                             type: "xml"
-                        )}
-                        .then((documento) => saxon.XPath.evaluate(xpathQuery, documento))
-                        var v = SaxonJS.XPath.evaluate(".//*[xml:id='h1']", documento);
-                        console.log(v);
+                            }).then(doc => {
+                            const result = SaxonJS.XPath.evaluate("//persName/text()", doc);
+                            const output = SaxonJS.serialize(result, {method: "xml", indent: true, "omit-xml-declaration":true});
+                            console.log("Lista persone: " + output);
+                        })
                     </script>
                 </div>
             </footer>
