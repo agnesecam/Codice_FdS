@@ -315,10 +315,10 @@
                 <div id="prova_XPathEvaluate">
                     <script type="text/javascript">  
                         SaxonJS.getResource({
-                            location: "XML/Prolusioni1_1-2_included.xml",
+                            location: "XML/prova.xml",
                             type: "xml"
                             }).then(doc => {
-                            const result = SaxonJS.XPath.evaluate("//persName/text()", doc);
+                            const result = SaxonJS.XPath.evaluate(".//*[@xml:id='person1']/persName/text()", doc);
                             const output = SaxonJS.serialize(result, {method: "xml", indent: true, "omit-xml-declaration":true});
                             console.log("Lista persone: " + output);
                         })

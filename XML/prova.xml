@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI>
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+            </titleStmt>
+
+            <publicationStmt>
+                <p></p>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listPerson>
+                    <head>Lista persone</head>
+                    <person xml:id="person1">
+                        <persName>1a<surname>1b</surname></persName>
+                    </person>
+                    <person>
+                        <persName>2</persName>
+                    </person>
+                </listPerson>
+            </sourceDesc>
+
+        </fileDesc>
+
+    </teiHeader>
+</TEI>
