@@ -318,7 +318,11 @@
                             location: "XML/prova.xml",
                             type: "xml"
                             }).then(doc => {
-                            const result = SaxonJS.XPath.evaluate(".//*[@xml:id='person1']/persName/text()", doc);
+                            const result = SaxonJS.XPath.evaluate(
+                                "TEI/teiHeader/fileDesc/titleStmt/respStmt/name/text()",
+                                doc,
+                                
+                                );
                             const output = SaxonJS.serialize(result, {method: "xml", indent: true, "omit-xml-declaration":true});
                             console.log("Lista persone: " + output);
                         })
