@@ -31,10 +31,18 @@ header {
 
 footer {
     background-color: #FFFFFF;
-    margin: auto;
     border: solid black;
     border-radius: 10px 10px 10px 10px;
-    padding-left: 5%;
+    text-align: center;
+    padding: 10pt 0 10pt 0;
+}
+
+#publisher, #licence, #date{
+    display: inline;
+    font-weight: bold;
+}
+#publisher, #licence{
+    margin-right: 5%;
 }
 
 #div_respStmt {
@@ -152,7 +160,6 @@ abbr, .expan {
     max-width: 60%;
     margin: 20px;
 }
-
 
 /****** USATE IN JAVASCRIPT ******/
 .immagini_scan {
