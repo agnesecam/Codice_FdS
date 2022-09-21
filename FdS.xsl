@@ -266,66 +266,65 @@
                 </p>
             </div>
 
-            <footer>
-                <div id="footer_respStmt">
-                    <p>
-                        <b>
-                            <xsl:copy-of select="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:editionStmt/tei:respStmt[1]/tei:resp"/>:<br/>
-                        </b>
-                        <xsl:for-each select="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:editionStmt/tei:respStmt[1]/tei:name">
-                            <xsl:choose>
-                                <xsl:when test="position() = last()">
-                                    <xsl:copy-of select="."/>
-                                    <xsl:text>. </xsl:text>
-                                </xsl:when>
-                                <xsl:otherwise>
-                                    <xsl:copy-of select="."/>
-                                    <xsl:text>, </xsl:text>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                            <!--Per avere un elenco di nomi-->
-                            <!--<ul>
-                                <li> <xsl:copy-of select="."/></li>
-                            </ul>-->
-                        </xsl:for-each>
-                    </p>
-                    <p>
-                        <b>
-                            <xsl:copy-of select="//tei:editionStmt/tei:respStmt[2]/tei:resp"/>:<br/>
-                        </b>
-                        <xsl:for-each select="//tei:editionStmt/tei:respStmt[2]/tei:name">
-                            <xsl:choose>
-                                <xsl:when test="position() = last()">
-                                    <xsl:copy-of select="."/>
-                                    <xsl:text>. </xsl:text>
-                                </xsl:when>
-                                <xsl:otherwise>
-                                    <xsl:copy-of select="."/>
-                                    <xsl:text>, </xsl:text>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                        </xsl:for-each>
-                        <br/>
-                        <!--Prove XPath Evaluate-->
-                        <br/><xsl:copy-of select=".//*[not(@xml:id='glossario')]/*[@xml:id='h1']"/><br/>
-                        <!--"TEI/teiHeader/fileDesc/titleStmt/respStmt/name/text()"-->
-                    </p>
-                </div>
+            <div id="div_respStmt">
+                <p>
+                    <b>
+                        <xsl:copy-of select="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:editionStmt/tei:respStmt[1]/tei:resp"/>:<br/>
+                    </b>
+                    <xsl:for-each select="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:editionStmt/tei:respStmt[1]/tei:name">
+                        <xsl:choose>
+                            <xsl:when test="position() = last()">
+                                <xsl:copy-of select="."/>
+                                <xsl:text>. </xsl:text>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:copy-of select="."/>
+                                <xsl:text>, </xsl:text>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                        <!--Per avere un elenco di nomi-->
+                        <!--<ul>
+                            <li> <xsl:copy-of select="."/></li>
+                        </ul>-->
+                    </xsl:for-each>
+                </p>
+                <p>
+                    <b>
+                        <xsl:copy-of select="//tei:editionStmt/tei:respStmt[2]/tei:resp"/>:<br/>
+                    </b>
+                    <xsl:for-each select="//tei:editionStmt/tei:respStmt[2]/tei:name">
+                        <xsl:choose>
+                            <xsl:when test="position() = last()">
+                                <xsl:copy-of select="."/>
+                                <xsl:text>. </xsl:text>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:copy-of select="."/>
+                                <xsl:text>, </xsl:text>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:for-each>
+                    <br/>
+                </p>
+            </div>
 
+            <footer>
                 <div id="prova_XPathEvaluate">
-                    <script type="text/javascript">  
-                        SaxonJS.getResource({
-                            location: "XML/prova.xml",
-                            type: "xml"
-                            }).then(doc => {
-                            const result = SaxonJS.XPath.evaluate(
-                                "//*[local-name()='TEI']/*[local-name()='teiHeader']/*[local-name()='fileDesc']/*[local-name()='titleStmt']/*[local-name()='respStmt']/*[local-name()='name']/text()",
-                                doc,                                
-                                );
-                            const output = SaxonJS.serialize(result, {method: "xml", indent: true, "omit-xml-declaration":true});
-                            console.log("Lista persone: " + output);
-                        })
-                    </script>
+                    <p id="publication_XPathEvaluate">
+                        <script type="text/javascript">  
+                            SaxonJS.getResource({
+                                location: "XML/Prolusioni1_1-2.xml",
+                                type: "xml"
+                                }).then(doc => {
+                                const result = SaxonJS.XPath.evaluate(
+                                    "//*[local-name()='TEI']/*[local-name()='teiHeader']/*[local-name()='fileDesc']/*[local-name()='publicationStmt']/*[local-name()='publisher']/text()",
+                                    doc,                                
+                                    );
+                                const output = SaxonJS.serialize(result, {method: "xml", indent: true, "omit-xml-declaration":true});
+                                document.getElementById("publication_XPathEvaluate").innerHTML = output;
+                            })
+                        </script>
+                    </p>
                 </div>
             </footer>
         </xsl:result-document>
