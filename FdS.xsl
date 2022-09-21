@@ -656,7 +656,7 @@
     </xsl:template>
  
     <!--Numeri scritti a mano-->
-    <xsl:template match="//tei:group[@xml:id='fr_Prolusioni']/tei:text[1]/tei:body/tei:ab/tei:fw">
+    <xsl:template match="//tei:group[@xml:id='fr_Prolusioni']/tei:text[1]/tei:body/tei:ab/tei:fw | //tei:group[@xml:id='fr_Prolusioni']/tei:text[1]/tei:body/tei:div/tei:fw">
         <xsl:element name="span">            
             <xsl:attribute name="type">pageNum</xsl:attribute>
             <xsl:attribute name="id"><xsl:value-of select="current()/@xml:id"/> </xsl:attribute>

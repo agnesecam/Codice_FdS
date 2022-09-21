@@ -290,6 +290,7 @@ function gestoreEvidenzia(name){
             if (name.substring(0, 20) == "facs_HandPageNumber-") {
                 HandPageNumber = name.substring(5);
                 element = document.getElementById(HandPageNumber);
+                console.log(HandPageNumber);
                 element.setAttribute("class", "dot");
             /*PrintPageNumber*/
             } else if (name.substring(0, 21) == "facs_PrintPageNumber-") {

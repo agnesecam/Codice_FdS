@@ -346,8 +346,8 @@
             <!-- <zone ulx="291" uly="828" lrx="329" lry="850" rendition="hotspot" xml:id="facs_del1-p1r40"/>  -->                                <!--cancellatura "l' + illeggibile" riga 40-->
             <!-- <zone ulx="354" uly="824" lrx="429" lry="845"  rendition="hotspot" xml:id="facs_histoire-p1r40"/>       -->                    <!--parola "histoire" riga 40-->
         
-            <zone ulx="52" uly="80" lrx="102" lry="123" rendition="hotspot" xml:id="facs_HandPageNumber-1" />            <!--Numero 1 sx cerchiato -->
-            <zone ulx="510" uly="61" lrx="527" lry="84" rendition="hotspot" xml:id="facs_PrintPageNumber-2" />          <!--Numero 2 dx stampato -->                
+            <zone points = ' 64,82,48,117,94,120,99,85 ' rendition="hotspot" xml:id="facs_HandPageNumber-1" />            <!--Numero 1 sx cerchiato -->
+            <zone points = ' 512,65,523,68,525,82,509,81 ' rendition="hotspot" xml:id="facs_PrintPageNumber-2" />          <!--Numero 2 dx stampato -->                
 
             <!--Pericopi e numerazione a mano-->
             <!--<zone ulx="36" uly="70" lrx="554" lry="606" rendition="hotspot" xml:id="facs_Pericope1" />-->                     <!--Tutta la 1a pericope, da "Si la chaire que j’ai en" fino a "pourrais me plaindre ici de l’abandon"-->
@@ -356,19 +356,19 @@
         </surface>
 
         <!--SECONDA PAGINA-->
-        <surface n="2" xml:id="scan_p2"  width='600px' height='870px'>
-            <graphic url='ms_fr_03951_01_1_p002.jpg'/>
+        <surface n="2" xml:id="scan_p2">
+            <graphic url='ms_fr_03951_01_1_p002.jpg'  width='600px' height='870px'/>
             <!--Righe-->
-            <zone ulx="157" uly="72" lrx="550" lry="108" rendition="line" xml:id="facs_p2lb1"/>                                               <!--1a riga-->
-            <zone ulx="114" uly="114" lrx="555" lry="131" rendition="line" xml:id="facs_p2lb3" />                                            <!--2a riga-->
-            <zone ulx="111" uly="139" lrx="544" lry="164" rendition="line" xml:id="facs_p2lb4"/>                                             <!--3a riga-->
-            <zone ulx="51" uly="171" lrx="135" lry="209" rendition="line" xml:id="facs_p2lb5"/>                                                <!--4a riga-->
-            <zone ulx="162" uly="175" lrx="542" lry="191" rendition="line" xml:id="facs_p2lb6"/>                                              <!--Parole a sinistra-->
-            <zone ulx="146" uly="201" lrx="235" lry="216" rendition="line" xml:id="facs_p2lb7"/>                                              <!--Cancellatura sotto-->
+            <zone points = ' 165,77,155,104,548,106,552,86 ' rendition="line" xml:id="facs_p2_lb1"/>                                                      <!--1a riga-->
+            <zone points = ' 125,107,110,139,553,128,550,106 ' rendition="line" xml:id="facs_p2_lb2" />                                                <!--2a riga-->
+            <zone points = ' 115,141,113,162,543,159,542,130 ' rendition="line" xml:id="facs_p2_lb3"/>                                                 <!--3a riga-->
+            <zone points = ' 543,141,113,140,110,164,535,159 ' rendition="line" xml:id="facs_p2_lb4"/>                                                 <!--4a riga-->
+            <zone ulx="162" uly="175" lrx="542" lry="191" rendition="line" xml:id="facs_p2_lb6"/>                                                         <!--Parole a sinistra-->
+            <zone ulx="146" uly="201" lrx="235" lry="216" rendition="line" xml:id="facs_p2_lb7"/>                                                         <!--Cancellatura sotto-->
             
             <!--Pericopi e numerazione a mano-->
-            <zone ulx="157" uly="74" lrx="416" lry="103" rendition="hotspot" xml:id="facs_Pericope2b" />                            <!--Parole finali della seconda pericope "l'histoire de la civilisation"-->
-            <zone ulx="59" uly="56" lrx="94" lry="95" rendition="hotspot" xml:id="facs_HandPageNumber-2" />                  <!--Numero 2 sx cerchiato -->    
+            <!--<zone ulx="157" uly="74" lrx="416" lry="103" rendition="hotspot" xml:id="facs_Pericope2b" />-->                            <!--Parole finali della seconda pericope "l'histoire de la civilisation"-->
+            <zone points = ' 66,57,62,88,76,93,93,79,94,58 ' rendition="hotspot" xml:id="facs_HandPageNumber-2" />                  <!--Numero 2 sx cerchiato -->    
             <!--Hotspot-->
             <!--<zone ulx="177" uly="77" lrx="237" lry="102" rendition="hotspot" xml:id="facs_histoire-p2r1"/>-->
         </surface>
