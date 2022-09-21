@@ -389,10 +389,10 @@
                                 <xsl:value-of select="@xml:id"/>       
                             </xsl:attribute>
                             <xsl:attribute name="shape">
-                                <xsl:text>rect</xsl:text><!--"poly" se usi i points-->
+                                <xsl:text>poly</xsl:text><!--"poly" se usi i points, "rect" se usi i rettangoli-->
                             </xsl:attribute>
                             <xsl:attribute name="coords">
-                                <xsl:value-of select="@ulx"/>,<xsl:value-of select="@uly"/>,<xsl:value-of select="@lrx"/>,<xsl:value-of select="@lry"/>
+                                <xsl:value-of select="@points"/>
                             </xsl:attribute>
                             <xsl:attribute name="href"> 
                                 <xsl:value-of select="concat('#',(substring-after(@xml:id, 'facs_')))"/>    <!-- href="facs_HandpageNumber-1" -->    <!--VOGLIO CHE HREF SIA solo HandpageNumber-1-->

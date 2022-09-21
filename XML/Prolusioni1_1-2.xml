@@ -261,46 +261,46 @@
             <graphic url='ms_fr_03951_01_1_p001.jpg' width='600px' height='900px'/> 
 
             <!--Righe-->
-            <zone points = ' 147,99 143,121 513,121 511,99 ' rendition="line" xml:id="facs_p1_lb1"/>                  <!--1a riga-->
-            <zone points = ' 140,136 136,160 538,155 538,130 ' rendition="line" xml:id="facs_p1_lb2"/>               <!--2a riga-->
-            <zone points = ' 143,160 138,185 542,177 537,153 ' rendition="line" xml:id="facs_p1_lb3"/>               <!--3a riga-->
-            <zone points = ' 143,190 539,182 541,214 142,217 ' rendition="line" xml:id="facs_p1_lb4"/>               <!--4a riga-->
-            <zone points = ' 57,212 57,241 544,240 544,220 ' rendition="line" xml:id="facs_p1_lb5"/>                  <!--5a riga, anche aggiunta sx-->
-            <zone points= ' 39,278 511,262 494,237 59,245 ' rendition="line" xml:id="facs_p1_lb6"/>                  <!--6a riga intera, anche pezzo cancellato -->
-            <zone points = ' 51,279 53,294 127,285 123,275 ' rendition="line" xml:id="facs_p1_lb7"/>                  <!--7a riga, que la sc.-->
-            <zone points = ' 53,296 60,310 127,296 121,290 ' rendition="line" xml:id="facs_p1_lb8"/>                  <!--8a riga, l.age-->
-            <zone points = ' 59,314 64,322 128,309 124,297 ' rendition="line" xml:id="facs_p1_lb9"/>                  <!--9a riga, à constr.-->
-            <zone  points = ' 44,318 44,337 73,336 120,323 114,315 75,323 ' rendition="line" xml:id="facs_p1_lb10"/>                <!--10a riga, ill.+70 ans-->
-            <zone points = ' 36,338 39,356 93,345 89,334 '  rendition="line" xml:id="facs_p1_lb11"/>                  <!--11a riga, à + canc-->
-            <zone points = ' 35,356 43,368 72,361 69,354 ' rendition="line" xml:id="facs_p1_lb12"/>                  <!--12a riga, décrire-->
-            <zone points = ' 43,370 43,381 89,374 86,359 ' rendition="line" xml:id="facs_p1_lb13"/>                  <!--13a riga, ds ses grandes-->
-            <zone points = ' 42,381 43,395 129,379 124,361 ' rendition="line" xml:id="facs_p1_lb14"/>                <!--14a riga, lignes l'etat present-->
-            <zone points = ' 42,397 42,412 128,393 126,383 ' rendition="line" xml:id="facs_p1_lb15"/>                <!--15a riga, de cette science-->
-            <zone points = ' 39,410 41,430 122,410 119,397 ' rendition="line" xml:id="facs_p1_lb16"/>                <!--16a riga, à parcourir-->
-            <zone points = ' 40,434 43,447 127,429 122,410 ' rendition="line" xml:id="facs_p1_lb17"/>                <!--17a riga, n'est pas très long-->
-            <zone points = ' 42,450 44,462 129,446 126,433 ' rendition="line" xml:id="facs_p1_lb18"/>                <!--18a riga, ou à pronostiquer-->
-            <zone points = ' 43,466 49,478 122,463 118,452 '  rendition="line" xml:id="facs_p1_lb19"/>                <!--19a riga, son avenir-->
-            <zone points = ' 42,480 42,496 122,476 116,468 ' rendition="line" xml:id="facs_p1_lb20"/>                <!--20a riga, à définir son-->
-            <zone points = ' 41,499 44,513 135,488 130,475 ' rendition="line" xml:id="facs_p1_lb21"/>                <!--21a riga, but, son utilité-->
-            <zone points = ' 42,518 46,533 130,509 124,496 ' rendition="line" xml:id="facs_p1_lb22"/>                  <!--22a riga, à marquer la-->
-            <zone points = ' 41,536 45,551 128,519 121,512 ' rendition="line" xml:id="facs_p1_lb23"/>                  <!--23a riga, place qu’elle-->
-            <zone points = ' 51,561 48,552 126,523 129,534 '  rendition="line" xml:id="facs_p1_lb24"/>                  <!--24a riga, occupe dans le-->
-            <zone points = ' 41,561 47,578 121,552 118,541 ' rendition="line" xml:id="facs_p1_lb25"/>                  <!--25a riga, cercle des-->
-            <zone points = ' 41,579 44,595 125,564 117,551 ' rendition="line" xml:id="facs_p1_lb26"/>                  <!--26a riga, humaines et les-->
-            <zone points = ' 45,598 132,553 143,564 54,611 ' rendition="line" xml:id="facs_p1_lb27"/>                  <!--27a riga, services qu’elle peut -->
-            <zone points = ' 54,608 61,617 152,573 141,561 ' rendition="line" xml:id="facs_p1_lb28"/>                  <!--28a riga, rendre dans une-->
-            <zone points = ' 149,542 530,526 539,550 152,569 ' rendition="line" xml:id="facs_p1_lb29"/>             <!--29a riga, Faculté des lettres-->
-            <zone points = ' 528,549 521,574 154,598 154,572 ' rendition="line" xml:id="facs_p1_lb30"/>             <!--30a riga, cancellata e sopraelevata-->
-            <zone points = ' 153,598 152,617 521,604 521,574 ' rendition="line" xml:id="facs_p1_lb31"/>             <!--31a riga, cancellata e sopraelevata-->
-            <zone points = ' 41,639 110,615 117,635 44,659 ' rendition="line" xml:id="facs_p1_lb32"/>               <!--32a riga, a margine sinistro "Sans exalter"-->
-            <zone points = ' 44,660 113,641 119,651 47,674 ' rendition="line" xml:id="facs_p1_lb33"/>               <!--33a riga, a margine sinistro "outre misure"-->
-            <zone points = ' 52,673 56,684 177,643 170,629 '  rendition="line" xml:id="facs_p1_lb34"/>               <!--34a riga, a margine sinitro "les mérites de la linguistique"-->
-            <zone points = ' 84,677 216,633 227,648 96,687 ' rendition="line" xml:id="facs_p1_lb35"/>             <!--35a riga, margine sinistro "quel est le"-->
-            <zone points = ' 153,728 531,720 532,734 150,750 ' rendition="line" xml:id="facs_p1_lb36"/>             <!--36a riga, riprende corpo testo centrale "profit que peut tirer"-->
-            <zone points = ' 156,754 163,770 543,767 542,748 ' rendition="line" xml:id="facs_p1_lb37"/>             <!--37a riga, "étude l’érudition classique la connaissance"-->
-            <zone points = ' 158,778 480,774 477,795 162,802 ' rendition="line" xml:id="facs_p1_lb38"/>              <!--38a riga, "des langues greque"-->            
-            <zone points = ' 47,785 57,819 159,830 536,821 536,803 154,809 134,780 ' rendition="line" xml:id="facs_p1_lb39"/>               <!--39a riga, "eût-elle un but simplement l’intérêt"-->
-            <zone points = ' 182,834 186,849 520,842 517,825 ' rendition="line" xml:id="facs_p1_lb40"/>               <!--40a riga, "étude pour l'histoire ou pour"-->
+            <zone points = ' 147,99,143,121,513,121,511,99 ' rendition="line" xml:id="facs_p1_lb1"/>                  <!--1a riga-->
+            <zone points = ' 140,137,534,128,543,150,135,155  ' rendition="line" xml:id="facs_p1_lb2"/>               <!--2a riga-->
+            <zone points = ' 143,160,138,185,542,177,537,153 ' rendition="line" xml:id="facs_p1_lb3"/>               <!--3a riga-->
+            <zone points = ' 143,190,539,182,541,214,142,217 ' rendition="line" xml:id="facs_p1_lb4"/>               <!--4a riga-->
+            <zone points = ' 57,212,57,241,544,240,544,220 ' rendition="line" xml:id="facs_p1_lb5"/>                  <!--5a riga, anche aggiunta sx-->
+            <zone points= ' 39,278,511,262,494,237,59,245 ' rendition="line" xml:id="facs_p1_lb6"/>                  <!--6a riga intera, anche pezzo cancellato -->
+            <zone points = ' 51,279,53,294,127,285,123,275 ' rendition="line" xml:id="facs_p1_lb7"/>                  <!--7a riga, que la sc.-->
+            <zone points = ' 53,296,60,310,127,296,121,290 ' rendition="line" xml:id="facs_p1_lb8"/>                  <!--8a riga, l.age-->
+            <zone points = ' 59,314,64,322,128,309,124,297 ' rendition="line" xml:id="facs_p1_lb9"/>                  <!--9a riga, à constr.-->
+            <zone  points = ' 44,318,44,337,73,336,120,323,114,315,75,323 ' rendition="line" xml:id="facs_p1_lb10"/>                <!--10a riga, ill.+70 ans-->
+            <zone points = ' 36,338,39,356,93,345,89,334 '  rendition="line" xml:id="facs_p1_lb11"/>                  <!--11a riga, à + canc-->
+            <zone points = ' 35,356,43,368,72,361,69,354 ' rendition="line" xml:id="facs_p1_lb12"/>                  <!--12a riga, décrire-->
+            <zone points = ' 43,370,43,381,89,374,86,359 ' rendition="line" xml:id="facs_p1_lb13"/>                  <!--13a riga, ds ses grandes-->
+            <zone points = ' 42,381,43,395,129,379,124,361 ' rendition="line" xml:id="facs_p1_lb14"/>                <!--14a riga, lignes l'etat present-->
+            <zone points = ' 42,397,42,412,128,393,126,383 ' rendition="line" xml:id="facs_p1_lb15"/>                <!--15a riga, de cette science-->
+            <zone points = ' 39,410,41,430,122,410,119,397 ' rendition="line" xml:id="facs_p1_lb16"/>                <!--16a riga, à parcourir-->
+            <zone points = ' 40,434,43,447,127,429,122,410 ' rendition="line" xml:id="facs_p1_lb17"/>                <!--17a riga, n'est pas très long-->
+            <zone points = ' 42,450,44,462,129,446,126,433 ' rendition="line" xml:id="facs_p1_lb18"/>                <!--18a riga, ou à pronostiquer-->
+            <zone points = ' 43,466,49,478,122,463,118,452 '  rendition="line" xml:id="facs_p1_lb19"/>                <!--19a riga, son avenir-->
+            <zone points = ' 42,480,42,496,122,476,116,468 ' rendition="line" xml:id="facs_p1_lb20"/>                <!--20a riga, à définir son-->
+            <zone points = ' 41,499,44,513,135,488,130,475 ' rendition="line" xml:id="facs_p1_lb21"/>                <!--21a riga, but, son utilité-->
+            <zone points = ' 42,518,46,533,130,509,124,496 ' rendition="line" xml:id="facs_p1_lb22"/>                  <!--22a riga, à marquer la-->
+            <zone points = ' 41,536,45,551,128,519,121,512 ' rendition="line" xml:id="facs_p1_lb23"/>                  <!--23a riga, place qu’elle-->
+            <zone points = ' 51,561,48,552,126,523,129,534 '  rendition="line" xml:id="facs_p1_lb24"/>                  <!--24a riga, occupe dans le-->
+            <zone points = ' 41,561,47,578,121,552,118,541 ' rendition="line" xml:id="facs_p1_lb25"/>                  <!--25a riga, cercle des-->
+            <zone points = ' 41,579,44,595,125,564,117,551 ' rendition="line" xml:id="facs_p1_lb26"/>                  <!--26a riga, humaines et les-->
+            <zone points = ' 45,598,132,553,143,564,54,611 ' rendition="line" xml:id="facs_p1_lb27"/>                  <!--27a riga, services qu’elle peut -->
+            <zone points = ' 54,608,61,617,152,573,141,561 ' rendition="line" xml:id="facs_p1_lb28"/>                  <!--28a riga, rendre dans une-->
+            <zone points = ' 149,542,530,526,539,550,152,569 ' rendition="line" xml:id="facs_p1_lb29"/>             <!--29a riga, Faculté des lettres-->
+            <zone points = ' 528,549,521,574,154,598,154,572 ' rendition="line" xml:id="facs_p1_lb30"/>             <!--30a riga, cancellata e sopraelevata-->
+            <zone points = ' 153,598 ,152,617,521,604,521,574 ' rendition="line" xml:id="facs_p1_lb31"/>             <!--31a riga, cancellata e sopraelevata-->
+            <zone points = ' 41,639,110,615,117,635,44,659 ' rendition="line" xml:id="facs_p1_lb32"/>               <!--32a riga, a margine sinistro "Sans exalter"-->
+            <zone points = ' 44,660,113,641,119,651,47,674 ' rendition="line" xml:id="facs_p1_lb33"/>               <!--33a riga, a margine sinistro "outre misure"-->
+            <zone points = ' 52,673,56,684,177,643,170,629 '  rendition="line" xml:id="facs_p1_lb34"/>               <!--34a riga, a margine sinitro "les mérites de la linguistique"-->
+            <zone points = ' 84,677,216,633,227,648,96,687 ' rendition="line" xml:id="facs_p1_lb35"/>             <!--35a riga, margine sinistro "quel est le"-->
+            <zone points = ' 153,728,531,720,532,734,150,750 ' rendition="line" xml:id="facs_p1_lb36"/>             <!--36a riga, riprende corpo testo centrale "profit que peut tirer"-->
+            <zone points = ' 156,754,163,770,543,767,542,748 ' rendition="line" xml:id="facs_p1_lb37"/>             <!--37a riga, "étude l’érudition classique la connaissance"-->
+            <zone points = ' 158,778,480,774,477,795,162,802 ' rendition="line" xml:id="facs_p1_lb38"/>              <!--38a riga, "des langues greque"-->            
+            <zone points = ' 47,785,57,819,159,830,536,821,536,803,154,809,134,780 ' rendition="line" xml:id="facs_p1_lb39"/>               <!--39a riga, "eût-elle un but simplement l’intérêt"-->
+            <zone points = ' 182,834,186,849,520,842,517,825 ' rendition="line" xml:id="facs_p1_lb40"/>               <!--40a riga, "étude pour l'histoire ou pour"-->
 
             <!-- <zone ulx="47" uly="818" lrx="149" lry="848" rendition="line" xml:id="facs_p1_lb25-THVP"/> -->         <!--THVP-->
             <!-- <zone ulx="47" uly="771" lrx="147" lry="814" rendition="line" xml:id="facs_p1_lb26-upTHVP"/> -->     <!--parte sopra THVP-->
