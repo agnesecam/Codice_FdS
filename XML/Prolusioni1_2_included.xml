@@ -256,13 +256,13 @@
     <facsimile>
         <!--SECONDA PAGINA-->
         <surface n="2" xml:id="scan_p2">
-            <graphic url="ms_fr_03951_01_1_p002.jpg" width="600px" height="870px"/>
+            <graphic url="ms_fr_03951_01_1_p002.jpg" width="600px" height="900px"/>
             
             <!--Righe-->
             <zone points=" 165,77,155,104,548,106,552,86 " rendition="line" xml:id="facs_p2_lb1"/>                                                      <!--1a riga-->
             <zone points=" 125,107,110,139,553,128,550,106 " rendition="line" xml:id="facs_p2_lb2"/>                                                <!--2a riga-->
             <zone points=" 115,141,113,162,543,159,542,130 " rendition="line" xml:id="facs_p2_lb3"/>                                                 <!--3a riga-->
-            <zone points=" 60,170,51,207 133,212,150,173 " rendition="line" xml:id="facs_p2_lb4"/>                                                      <!--4a riga, 4 parole a sinistra cancellate--> <!--La 5a riga non torna col testo del progetto-->
+            <zone points=" 60,170,51,207,133,212,150,173 " rendition="line" xml:id="facs_p2_lb4"/>                                                      <!--4a riga, 4 parole a sinistra cancellate--> <!--La 5a riga non torna col testo del progetto-->
             <zone points=" 127,224,553,188,551,156,167,168 " rendition="line" xml:id="facs_p2_lb6"/>                                                  <!--6a riga-->
             <zone points=" 67,234,166,238,160,270,67,270 " rendition="line" xml:id="facs_p2_lb8"/>                                                       <!--8a riga-->
             <zone points=" 185,223,540,204,546,228,182,245 " rendition="line" xml:id="facs_p2_lb9"/>                                                  <!--9a riga-->
@@ -296,8 +296,8 @@
             <zone points=" 103,722,545,719,549,740,90,759 " rendition="line" xml:id="facs_p2_lb37"/>                                                   <!--37a riga-->
             <zone points=" 191,755,190,772,545,764,543,746 " rendition="line" xml:id="facs_p2_lb38"/>                                                  <!--38a riga-->
             <zone points=" 197,776,532,767,535,792,191,797 " rendition="line" xml:id="facs_p2_lb39"/>                                                  <!--39a riga-->
-            <zone points=" 195,807,557,796,562,816,196,826 " rendition="line" xml:id="facs_p2_lb40"/>                                                  <!--40a riga-->
-            <zone points=" 197,808,558,801,556,816,194,820 " rendition="line" xml:id="facs_p2_lb41"/>                                                  <!--41a riga, ultima-->
+            <zone points=" 197,780,195,800,532,790,529,776 " rendition="line" xml:id="facs_p2_lb40"/>                                                  <!--40a riga-->
+            <zone points=" 197,802,191,822,547,816,547,794 " rendition="line" xml:id="facs_p2_lb41"/>                                                  <!--41a riga, ultima-->
 
             <!--Pericopi e numerazione a mano-->
             <!--<zone ulx="157" uly="74" lrx="416" lry="103" rendition="hotspot" xml:id="facs_Pericope2b" />-->                            <!--Parole finali della seconda pericope "l'histoire de la civilisation"-->
