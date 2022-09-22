@@ -551,83 +551,83 @@
                                 fiers à d’autres égards encore <del rend="overstrike">pour notre Faculté</del>                                
                                 <lb xml:id="lb4_p2" n="4" facs="#p2_lb4"/>
                                 <metamark function = "insert"><add place="left" resp="#FdS"> <gap extent = "4 words" reason="deleted"/>
-                                <lb xml:id="lb5_p2" n="5" facs="#p2lb5"/>
+                                <lb xml:id="lb5_p2" n="5" facs="#p2_lb5"/>
                                 <gap extent = "1 word" reason="deleted"/></add></metamark>                                
-                                <lb xml:id="lb6_p2" n="6" facs="#p2lb6"/>
+                                <lb xml:id="lb6_p2" n="6" facs="#p2_lb6"/>
                                 <del rend = "overstrike">et</del><choice> <abbr resp = "#FdS">pr</abbr><expan>pour</expan></choice> notre patrie, d'<persName ref = "#AdPic">Adolphe Pictet</persName>, d' <add place="above"><choice><abbr>A<em>.</em>P<em>.</em></abbr><expan>A<ex>dolphe</ex> P<ex>ictet</ex></expan></choice></add> qui
-                                <lb xml:id="lb7_p2" n="7" facs="#p2lb7"/>
+                                <lb xml:id="lb7_p2" n="7" facs="#p2_lb7"/>
                                 <gap extent = "3 words" reason="illegible"/>                                
-                                <lb xml:id="lb8_p2" n="8" facs="#p2lb8"/>
+                                <lb xml:id="lb8_p2" n="8" facs="#p2_lb8"/>
                                 <add place="left" resp="#FdS">
                                 <gap extent = "2 lines" reason="deleted"/>
                                 </add>                                
-                                <lb xml:id="lb9_p2" n="9" facs="#p2lb9"/>
+                                <lb xml:id="lb9_p2" n="9" facs="#p2_lb9"/>
                                 <del rend="overstrike">pour l'imitateur</del> le premier conçut <del rend="overstrike">ce</del>
-                                <lb xml:id="lb10_p2" n="10" facs="#p2lb10"/>
+                                <lb xml:id="lb10_p2" n="10" facs="#p2_lb10"/>
                                 <add place = "left"><unclear reason = "illegible">méthodiquement</unclear></add> <del rend="overstrike">ce</del> <add place = "above"><unclear reason = "illegible">le parti</unclear></add> qu’on pouvait tirer <add place = "above"><gap extent = "1 word" reason = "deleted"/></add> de la <term ref="#langue1">langue</term> <del rend="overstrike">pour</del>
-                                <lb xml:id="lb11_p2" n="11" facs="#p2lb11"/>
+                                <lb xml:id="lb11_p2" n="11" facs="#p2_lb11"/>
                                 <gap extent = "2 lines" reason = "deleted"/>                                
-                                <lb xml:id="lb12_p2" n="12" facs="#p2lb12"/>
+                                <lb xml:id="lb12_p2" n="12" facs="#p2_lb12"/>
                                 <del rend="overstrike">et qui</del> comme témoin des âges préhistoriques, 
-                                <lb xml:id="lb13_p2" n="13" facs="#p2lb13"/>
+                                <lb xml:id="lb13_p2" n="13" facs="#p2_lb13"/>
                                 et qui, <choice><abbr resp="#FdS">tt</abbr><expan>tout</expan></choice> en <gap extent = "2 words" reason="deleted"/> <add place="above" resp="#FdS">se <gap extent = "4 words" reason = "deleted"/> fiant</add> peut-être <add place="above"><unclear reason = "illegible">trop,</unclear> <del rend = "overstrike" resp = "#FdS">comme il</del> </add><del rend = "overstrike" resp = "#FdS">la sureté</del> <metamark function = "insert"><addSpan spanTo = "#span4" />
-                                <lb xml:id="lb14_p2" n="14" facs="#p2lb14"/>
+                                <lb xml:id="lb14_p2" n="14" facs="#p2_lb14"/>
                                 <gap extent = "1 word" reason = "illegible"/>
                                 était inévitable
-                                <lb xml:id="lb15_p2" n="15" facs="#p2lb15"/>
+                                <lb xml:id="lb15_p2" n="15" facs="#p2_lb15"/>
                                 <choice><abbr resp="#FdS">ds</abbr><expan>dans</expan></choice> le <num type = "ordinal" value = "1">premier</num> <w>enthou-
-                                <lb xml:id="lb16_p2" n="16" facs="#p2lb16" break="no" rend="stroke"/>
+                                <lb xml:id="lb16_p2" n="16" facs="#p2_lb16" break="no" rend="stroke"/>
                                 -siasme</w> <del rend="overstrike">du</del>
-                                <lb xml:id="lb17_p2" n="17" facs="#p2lb17"/>
+                                <lb xml:id="lb17_p2" n="17" facs="#p2_lb17"/>
                                 <del rend = "overstrike">grande</del> 
-                                <lb xml:id="lb18_p2" n="18" facs="#p2lb18"/>
+                                <lb xml:id="lb18_p2" n="18" facs="#p2_lb18"/>
                                 que <unclear reason = "illegible">provoquait</unclear>
-                                <lb xml:id="lb19_p2" n="19" facs="#p2lb19"/>
+                                <lb xml:id="lb19_p2" n="19" facs="#p2_lb19"/>
                                 <gap extent = "1 word" reason = "illegible" /> la 
-                                <lb xml:id="lb20_p2" n="20" facs="#p2lb20"/>
+                                <lb xml:id="lb20_p2" n="20" facs="#p2-lb20"/>
                                 <choice><abbr resp="#FdS">révélati</abbr><expan>révélation</expan></choice>
-                                <lb xml:id="lb21_p2" n="21" facs="#p2lb21"/>
+                                <lb xml:id="lb21_p2" n="21" facs="#p2_lb21"/>
                                 <add place  ="above">subite </add> <del rend="overstrike">de <gap quantity="2" unit="chars" reason="deleted"/></del> d’un 
-                                <lb xml:id="lb22_p2" n="22" facs="#p2lb22"/>
+                                <lb xml:id="lb22_p2" n="22" facs="#p2_lb22"/>
                                 monde
-                                <lb xml:id="lb23_p2" n="23" facs="#p2lb23"/>
+                                <lb xml:id="lb23_p2" n="23" facs="#p2_lb23"/>
                                 insoupçonné
-                                <lb xml:id="lb24_p2" n="24" facs="#p2lb24"/>
+                                <lb xml:id="lb24_p2" n="24" facs="#p2_lb24"/>
                                 <emph>la vérité</emph>, <anchor xml:id = "span4" /> </metamark>
-                                <lb xml:id="lb25_p2" n="25" facs="#p2lb25"/>
+                                <lb xml:id="lb25_p2" n="25" facs="#p2_lb25"/>
                                 <add place = "above" resp = "#FdS">le valeur absolue </add>
-                                <lb xml:id="lb26_p2" n="26" facs="#p2lb26"/>
+                                <lb xml:id="lb26_p2" n="26" facs="#p2_lb26"/>
                                 des indications que <del rend="overstrike">de</del> peut la <term ref="#langue1">langue</term>, n’en a pas
-                                <lb xml:id="lb27_p2" n="27" facs="#p2lb27"/>
+                                <lb xml:id="lb27_p2" n="27" facs="#p2_lb27"/>
                                 moins été <del rend="overstrike">l'imitateur d'</del> le fondateur
-                                <lb xml:id="lb28_p2" n="28" facs="#p2lb28"/>
+                                <lb xml:id="lb28_p2" n="28" facs="#p2_lb28"/>
                                 d’une <add place="above" resp="#FdS">sérieuse</add> branche de recherches encore
-                                <lb xml:id="lb29_p2" n="29" facs="#p2lb29"/>
+                                <lb xml:id="lb29_p2" n="29" facs="#p2_lb29"/>
                                 actuellement cultivée avec <choice><abbr resp="#FdS">tte</abbr><expan>toute</expan> </choice>raison
-                                <lb xml:id="lb30_p2" n="30" facs="#p2lb30"/>
+                                <lb xml:id="lb30_p2" n="30" facs="#p2_lb30"/>
                                 par une série ininterrompue de savants
-                                <lb xml:id="lb31_p2" n="31" facs="#p2lb31"/>
+                                <lb xml:id="lb31_p2" n="31" facs="#p2_lb31"/>
                                 – <persPronouns value = "je">j</persPronouns>’insisterais après cela sur la portée
-                                <lb xml:id="lb32_p2" n="32" facs="#p2lb32"/>
+                                <lb xml:id="lb32_p2" n="32" facs="#p2_lb32"/>
                                 <choice><abbr>singulière</abbr><expan>singulièrement</expan></choice> précise qu’a prise pour <w>l’ethno – 
-                                <lb xml:id="lb33_p2" n="33" facs="#p2lb33" break="no" rend="stroke"/>
+                                <lb xml:id="lb33_p2" n="33" facs="#p2_lb33" break="no" rend="stroke"/>
                                 graphie</w><gap reason="omitted" quantity="1" unit="word"><space dim = "horizontal" /></gap>, tellement que la
-                                <lb xml:id="lb34_p2" n="34" facs="#p2lb34"/>
+                                <lb xml:id="lb34_p2" n="34" facs="#p2_lb34"/>
                                 donnée <term ref="#linguistique-A1">linguistique</term> est toujours jusqu’à
-                                <lb xml:id="lb35_p2" n="35" facs="#p2lb35"/>
+                                <lb xml:id="lb35_p2" n="35" facs="#p2_lb35"/>
                                 plus ample informé, la preuve première
-                                <lb xml:id="lb36_p2" n="36" facs="#p2lb36"/>
+                                <lb xml:id="lb36_p2" n="36" facs="#p2_lb36"/>
                                 <choice><abbr>pr</abbr><expan>pour</expan></choice> l’ethnologiste, – et qu<add place="above" resp="#FdS">’on se demande</add> <del rend="overstrike">le même <choice><abbr resp="#FdS">ethnolo</abbr><expan>ethnologique</expan></choice></del>
-                                <lb xml:id="lb37_p2" n="37" facs="#p2lb37"/>
+                                <lb xml:id="lb37_p2" n="37" facs="#p2_lb37"/>
                                 <unclear reason="illegible">comment</unclear> l’ethnologiste, sans cette donnée n'aurait jamais
-                                <lb xml:id="lb38_p2" n="38" facs="#p2lb38"/>
+                                <lb xml:id="lb38_p2" n="38" facs="#p2_lb38"/>
                                 pu affirmer <del rend="overstrike">imaginé</del> par <choice><abbr resp="#FdS">ex.</abbr><expan>exemple</expan></choice> <add place="above" resp="#FdS">pour choisir un <choice><abbr resp="#FdS">ex.</abbr><expan>exemple</expan></choice> entre mille</add>
                                 qu’au sein des <name>Hongrois</name> les
-                                <lb xml:id="lb39_p2" n="39" facs="#p2lb39"/>
+                                <lb xml:id="lb39_p2" n="39" facs="#p2_lb39"/>
                                 <name>Tsiganes</name> représentent une race totalement distincte 
-                                <lb xml:id="lb40_p2" n="40" facs="#p2lb40"/>
+                                <lb xml:id="lb40_p2" n="40" facs="#p2_lb40"/>
                                 du <name>Magyar</name> - qu’au sein de l’empire
-                                <lb xml:id="lb41_p2" n="41" facs="#p2lb41"/>
+                                <lb xml:id="lb41_p2" n="41" facs="#p2_lb41"/>
                                 autrichien, le <name>Magyar</name> à son tour représente
                             </ab>
                         </div>
