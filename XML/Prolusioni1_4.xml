@@ -258,7 +258,7 @@
     <facsimile>
         <!--QUARTA PAGINA-->
         <surface n="4" xml:id="scan_p4">
-            <graphic url='ms_fr_03951_01_1_p004_resized.jpg' width='600px' height='900px'/> 
+            <graphic url='ms_fr_03951_01_1_p004-resized.jpg' width='600px' height='900px'/> 
 
             <!--Righe-->
             <zone points = ' 147,99,143,121,513,121,511,99 ' rendition="line" xml:id="facs_p4_lb1"/>                                <!--1a riga-->

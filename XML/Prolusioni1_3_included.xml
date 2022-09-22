@@ -256,7 +256,7 @@
     <facsimile>
         <!--TERZA PAGINA-->
         <surface n="3" xml:id="scan_p3">
-            <graphic url="ms_fr_03951_01_1_p003_resized.jpg" width="600px" height="900px"/> 
+            <graphic url="ms_fr_03951_01_1_p003-resized.jpg" width="600px" height="900px"/> 
 
             <!--Righe-->
             <zone points=" 147,99,143,121,513,121,511,99 " rendition="line" xml:id="facs_p3_lb1"/>                                <!--1a riga-->
