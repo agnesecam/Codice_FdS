@@ -2,7 +2,7 @@
 window.onload = function testOne(){
     SaxonJS.transform({
         stylesheetLocation: "../FdS.sef.json",
-        sourceLocation: "XML/Prolusioni1_1-2_included.xml"
+        sourceLocation: "XML/Prolusioni1_1_included.xml"
     }, "async")
 }
 
@@ -12,9 +12,12 @@ function select_pages(){
         var p_selezionata = document.getElementById("select_pages").value;
         var add_p;
         switch (p_selezionata) {
-            case '1-2':
-                add_p = "1-2";
+            case '1':
+                add_p = "1";
                 break;
+            case '2':
+                    add_p = "2";
+                    break;
             case '3-4':
                 add_p = "3-4";
                 break;
@@ -333,10 +336,7 @@ function gestoreEvidenzia(name){
                 lineNumber = document.getElementById(lineNumberID);
                 lineNumber.setAttribute("class", "dot");
             }
-        }
-
-        //Adesso devi fare i casi in cui non sia una <lb> quella selezionata ma qualcos'altro
-        
+        }       
 
     }catch(e) {
         alert("gestoreEvidenzia()"+e);   

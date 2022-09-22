@@ -66,13 +66,13 @@
                 <div id="div_immagine_testo">
                     <h2 id="titolo_div_immagine">
                         <!--OUTPUT: "Pagine 1-2" "Pagine 20-21" "Pagine 3-4" ovvero pagine codificate nel file contenente la pagina selezionata-->
-                        <xsl:value-of select="concat('Pagine ', substring-before(substring-after(document-uri(),'1_'), '_included.xml'))"/>
+                        <xsl:value-of select="concat('Pagina ', substring-before(substring-after(document-uri(),'1_'), '_included.xml'))"/>
                     </h2>
                     <!--SELECT che permette di scegliere la pagina del manoscritto da visualizzare-->
                     <div id="div_select_pages">
                         <xsl:variable name="default" select="6"/>
                         <xsl:variable name="N" select="30"/>
-                        <xsl:variable name="pages" select="'1-2', '3-4', '5-6', '7-8', '9-10', '11-12', '13-14', '15-16', '17-18', '19-20', '21-22', '23-24', '25-26', '27-28', '29-30'"/>
+                        <xsl:variable name="pages" select="'1', '2', '3-4', '5-6', '7-8', '9-10', '11-12', '13-14', '15-16', '17-18', '19-20', '21-22', '23-24', '25-26', '27-28', '29-30'"/>
                         <select id="select_pages" onchange="select_pages()">
                             <option value="">Pagine da visualizzare:</option>
                             <xsl:for-each select="$pages">
@@ -316,7 +316,7 @@
 
                     <script type="text/javascript">  
                         SaxonJS.getResource({
-                            location: "XML/Prolusioni1_1-2.xml",
+                            location: "XML/Prolusioni1_1.xml",
                             type: "xml"
                         }).then(doc => {
 
