@@ -18,50 +18,50 @@ function select_pages(){
             case '2':
                     add_p = "2";
                     break;
-            case '3-4':
-                add_p = "3-4";
+            case '3':
+                add_p = "3";
                 break;
-            case '5-6':
-                add_p = "5-6";
+            case '4':
+                add_p = "4";
                 break;
-            case '7-8':
-                add_p = "7-8";
+            case '5':
+                add_p = "5";
                 break;
-            case '9-10':
-                add_p = "9-10";
+            case '6':
+                add_p = "6";
                 break;
-            case '11-12':
-                add_p = "11-12";
+            case '7':
+                add_p = "7";
                 break;
-            case '13-14':
-                add_p = "13-14";
+            case '8':
+                add_p = "9";
                 break;
-            case '15-16':
-                add_p = "15-16";
+            case '10':
+                add_p = "10";
                 break;
-            case '17-18':
-                add_p = "17-18";
+            case '11':
+                add_p = "11";
                 break;
-            case '19-20':
-                add_p = "19-20";
+            case '12':
+                add_p = "12";
                 break;
-            case '21-22':
-                add_p = "21-22";
+            case '13':
+                add_p = "13";
                 break;
-            case '23-24':
-                add_p = "23-24";
+            case '14':
+                add_p = "14";
                 break;
-            case '25-26':
-                add_p = "25-26";
+            case '15':
+                add_p = "15";
                 break;
-            case '27-28':
-                add_p = "27-28";
+            case '16':
+                add_p = "16";
                 break;
-            case '29-30':
-                add_p = '29-30';
+            case '17':
+                add_p = '17';
                 break;   
             default:
-                add_p = "1-2";
+                add_p = "1";
         }
 
         file_input_XML = "Prolusioni1_" + add_p + "_included.xml";
