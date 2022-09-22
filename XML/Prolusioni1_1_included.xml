@@ -318,7 +318,7 @@
                             <fw type="pageNum" xml:id="HandPageNumber-1" rend="align(left)" facs="#facs_HandPageNumber-1"> 1 </fw>
                             <stamp xml:id="PrintPageNumber-2" rend="align(right)" facs="#facs_PrintPageNumber-2"> 2 </stamp>
                         </ab>
-                        <div xml:id="div_p1_fr" hand="#h1">
+                        <div xml:id="div_p1_fr" hand="#h1" type="box_testo">
                             <!--Inizio 1a pericope-->
                             <ab xml:id="pericope_91Aaaa001" n="1" xml:lang="FR" corresp="#it_91Aaaa001 #en_91Aaaa001" facs="#facs_pericope_91Aaaa001"> 
                                 <lb xml:id="lb1_p1" n="1" facs="#facs_p1_lb1"/> 
@@ -426,7 +426,7 @@
             <group xml:id="it_Prolusioni" xml:lang="IT"> <!--TRADUZIONI ITALIANO DELLE 3 PROLUSIONI-->
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
-                        <div xml:id="div_p1_it" hand="#h1">
+                        <div xml:id="div_p1_it" hand="#h1" type="box_testo_it">
                             <ab xml:id="it_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="IT">
                                 <lb/>Se la cattedra che ho in questa
                                 <lb/>occasione l’onore di inaugurare rappresentasse un ordine 
@@ -479,7 +479,7 @@
             <group xml:id="en_Prolusioni" xml:lang="EN"> <!--TRADUZIONI INGLESE DELLE 3 PROLUSIONI-->
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
                     <body resp="#AC" xml:id="body-inglese">
-                        <div xml:id="div_p1_en" hand="#h1">
+                        <div xml:id="div_p1_en" hand="#h1" type="box_testo_en">
                             <ab xml:id="en_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="EN">
                                 <lb/>If the chair I have the honor of inaugurating 
                                 <lb/>on this occasion represented 

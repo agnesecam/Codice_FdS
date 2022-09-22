@@ -96,35 +96,23 @@
                     <!--TRASCRIZIONE FRANCESE-->
                     <div id="box_testo_fr">
                         <h3>Trascrizione francese</h3>
-                        <div class="box_testo_fronte">
+                        <div class="box_testo">
                             <xsl:apply-templates select="//tei:body[@xml:id='body-francese']/tei:ab[1]"/>
-                            <xsl:apply-templates select="//tei:div[@xml:id='div_p1_fr']"/>
-                        </div>
-                        <br/>
-                        <div class="box_testo_retro">
-                            <xsl:apply-templates select="//tei:div[@xml:id='div_p2_fr']"/>
+                            <xsl:apply-templates select="//tei:div[@type='box_testo']"/>
                         </div>
                     </div>   
                     <!--TRADUZIONE ITALIANA-->                 
                     <div id="box_testo_it" style="display:none;">
                         <h3>Traduzione italiana</h3>
-                        <div class="box_testo_fronte">
-                            <xsl:apply-templates select="//tei:div[@xml:id='div_p1_it']"/>
-                        </div>
-                        <br/>
-                        <div class="box_testo_retro">
-                            <xsl:apply-templates select="//tei:div[@xml:id='div_p2_it']"/>
+                        <div class="box_testo_it">
+                            <xsl:apply-templates select="//tei:div[@type='box_testo_it']"/>
                         </div>
                     </div>            
                     <!--TRADUZIONE INGLESE-->                 
                     <div id="box_testo_en" style="display:none;">
                         <h3>Traduzione inglese</h3>
-                        <div class="box_testo_fronte">
-                            <xsl:apply-templates select="//tei:div[@xml:id='div_p1_en']"/>
-                        </div>
-                        <br/>
-                        <div class="box_testo_retro">
-                            <xsl:apply-templates select="//tei:div[@xml:id='div_p2_en']"/>
+                        <div class="box_testo_en">
+                            <xsl:apply-templates select="//tei:div[@type='box_testo_en']"/>
                         </div>
                     </div>                                
                 </div>

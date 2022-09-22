@@ -299,15 +299,6 @@
             <zone points=" 195,807,557,796,562,816,196,826 " rendition="line" xml:id="facs_p2_lb40"/>                                                  <!--40a riga-->
             <zone points=" 197,808,558,801,556,816,194,820 " rendition="line" xml:id="facs_p2_lb41"/>                                                  <!--41a riga, ultima-->
 
-
-
-
-
-
-
-                
-
-            
             <!--Pericopi e numerazione a mano-->
             <!--<zone ulx="157" uly="74" lrx="416" lry="103" rendition="hotspot" xml:id="facs_Pericope2b" />-->                            <!--Parole finali della seconda pericope "l'histoire de la civilisation"-->
             <zone points=" 66,57,62,88,76,93,93,79,94,58 " rendition="hotspot" xml:id="facs_HandPageNumber-2"/>                  <!--Numero 2 sx cerchiato -->    
@@ -324,7 +315,7 @@
                     <body xml:lang="fr" source="#Bouquet-Engler2002" xml:id="body-francese">
                         <!--Inizio pagina 2-->
                         <pb n="f2v" xml:id="body_p2" facs="#scan_p2"/>                        
-                        <div xml:id="div_p2_fr" hand="#h1">
+                        <div xml:id="div_p2_fr" hand="#h1" type="box_testo">
                             <!--Numero impaginazione a mano-->                        
                             <fw type="pageNum" xml:id="HandPageNumber-2" rend="align(left)" facs="#facs_HandPageNumber-2">2</fw>
                             <!--Continuo 2a pericope iniziata in pagina 1-->
@@ -431,7 +422,7 @@
             <group xml:id="it_Prolusioni" xml:lang="IT"> <!--TRADUZIONI ITALIANO DELLE 3 PROLUSIONI-->
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
-                        <div xml:id="div_p2_it">
+                        <div xml:id="div_p2_it" type="box_testo_it">
                             <ab xml:id="it_91Aaaa003" corresp="#pericope_91Aaaa003" xml:lang="IT">
                                 <lb/>
                                 la storia della civiltà? – e dovrei 
@@ -509,7 +500,7 @@
             <group xml:id="en_Prolusioni" xml:lang="EN"> <!--TRADUZIONI INGLESE DELLE 3 PROLUSIONI-->
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
                     <body resp="#AC" xml:id="body-inglese">
-                        <div xml:id="div_p2_en">
+                        <div xml:id="div_p2_en" type="box_testo_en">
                             <ab xml:id="en_91Aaaa003" corresp="#pericope_91Aaaa003" xml:lang="EN">
                                 <lb/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                                 <lb/>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 

@@ -86,11 +86,8 @@ input {
     margin-right: 150px;
 }
 
-.box_testo_fronte {
+.box_testo {
     padding-top: 95px;
-}
-.box_testo_retro{
-    padding-top: 135px;
 }
 
 #box_icone_traduzioni {
