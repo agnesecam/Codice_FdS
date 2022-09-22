@@ -382,20 +382,20 @@
             <zone points=" 181,379,278,373,285,386,191,388 " rendition="line" xml:id="facs_p2_lb25"/>                                                 <!--25a riga, le valeur absolue-->        
             <zone points=" 177,387,174,404,540,400,540,385 " rendition="line" xml:id="facs_p2_lb26"/>                                                 <!--26a riga-->        
             <zone points=" 159,437,159,449,547,444,544,420 " rendition="line" xml:id="facs_p2_lb27"/>                                                 <!--27a riga-->
-            <zone points=" 163,455,543,449,546,472,164,480 " rendition="line" xml:id="facs_p2_lb28"/>                                                 <!--28a riga-->
-            <zone points=" 177,481,178,504,534,500,540,482 " rendition="line" xml:id="facs_p2_lb29"/>                                                 <!--29a riga-->
-            <zone points=" 180,508,534,504,538,524,171,537 " rendition="line" xml:id="facs_p2_lb30"/>                                                 <!--30a riga-->
-            <zone points=" 185,541,190,561,541,552,534,533 " rendition="line" xml:id="facs_p2_lb31"/>                                                 <!--31a riga-->
-            <zone points=" 178,569,546,559,557,586,171,593 " rendition="line" xml:id="facs_p2_lb32"/>                                                 <!--32a riga-->
-            <zone points=" 174,596,536,588,539,606,172,616 " rendition="line" xml:id="facs_p2_lb33"/>                                                 <!--33a riga-->
-            <zone points=" 179,616,550,614,548,638,182,641 " rendition="line" xml:id="facs_p2_lb34"/>                                                 <!--34a riga-->
-            <zone points=" 179,644,555,639,555,669,172,673 " rendition="line" xml:id="facs_p2_lb35"/>                                                 <!--35a riga-->
-            <zone points=" 175,679,559,666,560,692,173,702 " rendition="line" xml:id="facs_p2_lb36"/>                                                 <!--36a riga-->
-            <zone points=" 48,705,551,697,546,717,46,719 " rendition="line" xml:id="facs_p2_lb37"/>                                                      <!--37a riga-->
-            <zone points=" 103,722,545,719,549,740,90,759 " rendition="line" xml:id="facs_p2_lb38"/>                                                   <!--38a riga-->
-            <zone points=" 191,755,190,772,545,764,543,746 " rendition="line" xml:id="facs_p2_lb39"/>                                                  <!--39a riga-->
-            <zone points=" 197,776,532,767,535,792,191,797 " rendition="line" xml:id="facs_p2_lb40"/>                                                  <!--40a riga-->
-            <zone points=" 195,807,557,796,562,816,196,826 " rendition="line" xml:id="facs_p2_lb41"/>                                                  <!--41a riga-->
+            <zone points=" 177,481,178,504,534,500,540,482 " rendition="line" xml:id="facs_p2_lb28"/>                                                 <!--28a riga-->
+            <zone points=" 180,508,534,504,538,524,171,537 " rendition="line" xml:id="facs_p2_lb29"/>                                                 <!--29a riga-->
+            <zone points=" 185,541,190,561,541,552,534,533 " rendition="line" xml:id="facs_p2_lb30"/>                                                 <!--30a riga-->
+            <zone points=" 178,569,546,559,557,586,171,593 " rendition="line" xml:id="facs_p2_lb31"/>                                                 <!--31a riga-->
+            <zone points=" 174,596,536,588,539,606,172,616 " rendition="line" xml:id="facs_p2_lb32"/>                                                 <!--32a riga-->
+            <zone points=" 179,616,550,614,548,638,182,641 " rendition="line" xml:id="facs_p2_lb33"/>                                                 <!--33a riga-->
+            <zone points=" 179,644,555,639,555,669,172,673 " rendition="line" xml:id="facs_p2_lb34"/>                                                 <!--34a riga-->
+            <zone points=" 175,679,559,666,560,692,173,702 " rendition="line" xml:id="facs_p2_lb35"/>                                                 <!--35a riga-->
+            <zone points=" 48,705,551,697,546,717,46,719 " rendition="line" xml:id="facs_p2_lb36"/>                                                      <!--36a riga-->
+            <zone points=" 103,722,545,719,549,740,90,759 " rendition="line" xml:id="facs_p2_lb37"/>                                                   <!--37a riga-->
+            <zone points=" 191,755,190,772,545,764,543,746 " rendition="line" xml:id="facs_p2_lb38"/>                                                  <!--38a riga-->
+            <zone points=" 197,776,532,767,535,792,191,797 " rendition="line" xml:id="facs_p2_lb39"/>                                                  <!--39a riga-->
+            <zone points=" 195,807,557,796,562,816,196,826 " rendition="line" xml:id="facs_p2_lb40"/>                                                  <!--40a riga-->
+            <zone points=" 197,807,559,794,559,819,193,823 " rendition="line" xml:id="facs_p2_lb41"/>                                                  <!--41a riga-->
 
 
 
