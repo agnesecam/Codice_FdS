@@ -287,7 +287,7 @@
                                 <lb xml:id="lb21_p4" n="21" facs="#facs_p4_lb21"/> 
                                 Maintenant<pc force="strong">,</pc> estime<pc force="inter">-</pc>t<pc force="inter">-</pc>on 
                                 <lb xml:id="lb22_p4" n="22" facs="#facs_p4_lb22"/>
-                                que le <term ref="#langage1">langage</term> <term ref="#langue1">soit</term> <choice><abbr type="contraction">ds </abbr> <expan>dans</expan></choice> cet ensemble 
+                                que le <term ref="#langage1">langage</term> soit <choice><abbr type="contraction">ds </abbr> <expan>dans</expan></choice> cet ensemble 
                                 <lb xml:id="lb23_p4" n="23" facs="#facs_p4_lb23"/>
                                 un facteur digne d<pc force="inter">’</pc>être aperçu <add place="above">ou</add> un facteur nul<pc force="strong">,</pc> <del rend="strikethrough"><gap reason="cancelled" extent="one or two letters" atLeast="1" atMost="2" unit="chars"/></del> une quantité <del rend="strikethrough">négligeable</del>
                             </ab>
