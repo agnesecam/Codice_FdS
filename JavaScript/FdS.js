@@ -2,7 +2,7 @@
 window.onload = function testOne(){
     SaxonJS.transform({
         stylesheetLocation: "../FdS.sef.json",
-        sourceLocation: "XML/Prolusioni1_2_included.xml"
+        sourceLocation: "XML/Prolusioni1_4_included.xml"
     }, "async")
 }
 

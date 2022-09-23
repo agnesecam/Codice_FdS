@@ -501,7 +501,8 @@
                                     //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry[@xml:id=$ref]/tei:sense/tei:def | 
                                     //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry[@xml:id=$ref]/tei:sense/tei:def | 
                                     //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/tei:def |
-                                    //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/tei:def/tei:cit/tei:quote"/>
+                                    //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/tei:def/tei:cit/tei:quote |
+                                     //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/tei:def"/>
                 </xsl:variable>        
                 <xsl:attribute name="class">hovertext</xsl:attribute>
                 <!--NOTA PER JS: aggiungere questa classe non fa più cancellare lo style=display:none;-->
@@ -632,7 +633,8 @@
                                     //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry[@xml:id=$ref]/tei:sense/tei:def | 
                                     //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry[@xml:id=$ref]/tei:sense/tei:def | 
                                     //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/tei:def |
-                                    //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/tei:def/tei:cit/tei:quote"/>
+                                    //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/tei:def/tei:cit/tei:quote |
+                                     //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/tei:def"/>
                 </xsl:variable>        
                 <xsl:attribute name="class">hovertext</xsl:attribute>
                 <xsl:attribute name="data-hover">

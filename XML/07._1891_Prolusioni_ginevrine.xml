@@ -136,8 +136,6 @@
                     <orth>Acte linguistique</orth>
                 </form>
                 <sense n="1">
-                    <def>
-                    </def>
                     <cit type="example">
                         <quote xml:lang="fr">
                             de tous les actes qu’on pourrait mettre en parallèle, l’acte linguistique, si je puis le nommer ainsi, a ce caractère [d’être] le moins réfléchi, 
@@ -2563,7 +2561,7 @@
                 <sense n="1">
                     <sense n="a" xml:id="langage1">1. 
                         [<def>
-                            la totalità dei fatti lingustici
+                            la totalità dei fatti linguistici
                         </def>];
                         <cit type="example">
                             <quote xml:lang="fr">
