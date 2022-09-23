@@ -2,7 +2,7 @@
 window.onload = function testOne(){
     SaxonJS.transform({
         stylesheetLocation: "../FdS.sef.json",
-        sourceLocation: "XML/Prolusioni1_5_included.xml"
+        sourceLocation: "XML/Prolusioni1_7_included.xml"
     }, "async")
 }
 
@@ -34,6 +34,9 @@ function select_pages(){
                 add_p = "7";
                 break;
             case '8':
+                add_p = "8";
+                break;            
+            case '9':
                 add_p = "9";
                 break;
             case '10':
