@@ -261,19 +261,23 @@
             <graphic url='ms_fr_03951_01_1_p007-resized.jpg' width='600px' height='900px'/> 
 
             <!--Righe-->
-            <zone points = ' 140,81,324,70,299,97,535,98,534,119,124,127 ' rendition="line" xml:id="facs_p7_lb1"/>      <!--1 riga, prima parte-->
-            <zone points = ' 141,127,141,146,552,146,537,117 '  rendition="line" xml:id="facs_p7_lb2"/>                              <!--3 riga-->
-            <zone points = ' 146,149,142,175,551,172,541,154 '  rendition="line" xml:id="facs_p7_lb3"/>                              <!--4 riga-->
-            <zone points = ' 140,183,140,205,526,198,525,186 '  rendition="line" xml:id="facs_p7_lb4"/>                              <!--5 riga-->
-            <zone points = ' 141,212,526,198,526,226,139,237 '  rendition="line" xml:id="facs_p7_lb5"/>                              <!--6 riga-->
-            <zone points = ' 66,224,118,225,119,240,527,227,520,251,65,252 '  rendition="line" xml:id="facs_p7_lb6"/>  <!--7 riga-->
-            <zone points = ' 147,256,148,303,539,303, 538, 256 '  rendition="line" xml:id="facs_p7_lb7"/>                              <!--8 riga-->
-            <zone points = ' 140,309,535,304,531,324,143,332 '  rendition="line" xml:id="facs_p7_lb8"/>                              <!--9 riga-->
-            <zone points = ' 78,335,78,362,533,346,530,331 '  rendition="line" xml:id="facs_p7_lb9"/>                                   <!--10 riga-->
-            <zone points = ' 146,365,137,390,522,378,522,346 '  rendition="line" xml:id="facs_p7_lb10"/>                              <!--11 riga-->
-            <zone points = ' 140,410,151,389,526,385,538,406 '  rendition="line" xml:id="facs_p7_lb11"/>                              <!--12 riga-->        
+            <zone points = ' 117,127,117,149,504,141,509,128 '  rendition="line" xml:id="facs_p7_lb1"/>      <!--1 riga, prima parte-->
+            <zone points = ' 128,157,125,181,532,178,536,154,324,161,322,126,334,105,543,108,543,71,342,78,314,114,311,157 '  rendition="line" xml:id="facs_p7_lb2"/>                              <!--3 riga-->
+            <zone points = ' 54,186,60,215,532,211,531,192,321,185 ' rendition="line" xml:id="facs_p7_lb3"/>                              <!--4 riga-->
+            <zone points = ' 123,222,513,221,513,241,122,249 '  rendition="line" xml:id="facs_p7_lb4"/>                              <!--5 riga-->
+            <zone points = ' 130,254,513,245,521,274,129,276 '  rendition="line" xml:id="facs_p7_lb5"/>                              <!--6 riga-->
+            <zone points = ' 58,276,532,274,546,305,67,300 '  rendition="line" xml:id="facs_p7_lb6"/>  <!--7 riga-->
+            <zone points =  ' 65,301,56,358,148,339,524,331,524,307 ' rendition="line" xml:id="facs_p7_lb7"/>                              <!--8 riga-->
+            <zone points = ' 467,342,461,362,122,368,136,348 '  rendition="line" xml:id="facs_p7_lb8"/>                              <!--9 riga-->
+            <zone points = ' 95,366,85,391,533,389,533,360 ' rendition="line" xml:id="facs_p7_lb9"/>                                   <!--10 riga-->
+            <zone points = ' 53,410,53,458,109,455,122,430,533,417,531,394,170,392,103,395 ' rendition="line" xml:id="facs_p7_lb10"/>                              <!--11 riga-->
+            <zone points = ' 122,428,123,451,530,452,529,424 '  rendition="line" xml:id="facs_p7_lb11"/>                              <!--12 riga-->        
+            <zone points = ' 139,455,379,456,377,478, 133,479 ' rendition="line" xml:id="facs_p7_lb12"/>                              <!--12 riga-->        
+            <zone points = ' 164,489,548,493,526,514, 150,514 '  rendition="line" xml:id="facs_p7_lb13"/>                              <!--12 riga-->        
+            <zone points =  ' 169,521,521,530, 516,554, 168,540 '  rendition="line" xml:id="facs_p7_lb14"/>                              <!--12 riga-->        
+            <zone points =  ' 144,552,125,588, 492,579, 484,562 '  rendition="line" xml:id="facs_p7_lb15"/>                              <!--12 riga-->        
 
-            <zone points =  ' 72,55,94,86,64,101,48,74 ' rendition="hotspot" xml:id="facs_HandPageNumber-5" />              <!--Numero 5 sx cerchiato -->
+            <zone points =  '75,74,128,74,118,119,64,114  ' rendition="hotspot" xml:id="facs_HandPageNumber-7" />              <!--Numero 5 sx cerchiato -->
         </surface>
     </facsimile>
 
@@ -296,18 +300,16 @@
                                 serait peut-être l’<hi rend="underlined">homme</hi>, mais 
                                 <lb xml:id="lb2_p7" n="2" facs="#facs_p7_lb2"/>
                                 qu’il ne serait pas <add place="top" facs="#add1TOP_p7">un être se rapprochant même approximativement</add> <add place="above">de</add> l’homme <del rend="strikethrough"> <add place="above"> que nous</add><gap reason="cancelled" rend="underlined" extent="2 words"/></del>                                
-                                
                                 <lb xml:id="lb3_p7" n="3" facs="#facs_p7_lb3"/>
                                 <del rend="strikethrough"><add place="left">connaissons</add></del><del rend="underlined">et</del><del rend="strikethrough"><gap reason="cancelled" extent="7 words"/></del><add place="above"><unclear reason="illegible">que nous sommes,</unclear></add>
-                                
                                 <lb xml:id="lb4_p7" n="4" facs="#facs_p7_lb4"/>
                                 <del rend="strikethrough"><gap reason="cancelled" extent="3 words"/></del>parce que le <term ref="#langage1">langage</term>
                                 <lb xml:id="lb5_p7" n="5" facs="#facs_p7_lb5"/>
                                 a été <del rend="strikethrough"><gap reason="cancelled" extent="3 words"/></del> le <choice><abbr type="brevigraph" n="abbr1">+</abbr><expan n="exp1"> plus </expan></choice> <subst><del rend="strikethrough"><gap reason="cancelled" extent="2 words"/></del> <add type="above"><del rend="strikethrough"><gap reason="cancelled" extent="1 words"/></del>formidable</add></subst>
                                 <lb xml:id="lb6_p7" n="6" facs="#facs_p7_lb6"/>
-                                <add place="left">engin</add><del rend="strikethrough"><gap reason="cancelled" extent="3 words" /></del> <add place="above">d’</add><term ref="#ac">action collective</term> <add place="above">d’une part</add>, <term ref="#ei">et d’éducation
+                                <add place="left">engin</add><del rend="strikethrough"><gap reason="cancelled" extent="3 words" /></del> <add place="above">d’</add><term ref="#ac">action collective</term> <add place="above">d’une part</add>, <term ref="#glossa-mancante">et d’éducation</term>
                                 <lb xml:id="lb7_p7" n="7" facs="#facs_p7_lb7"/>
-                                <add facs="#add2LX_p7" place="left"><subst><del rend="strikethrough"><gap reason="cancelled"/></del><add place="below"> individuelle</add></subst></add> </term><del rend="strikethrough"><damage agent="ink"/><gap reason="cancelled"/></del>de l’autre<ptr target="#n1"/>, <gap reason="illegible"/>                                
+                                <add facs="#add2LX_p7" place="left"><subst><del rend="strikethrough"><gap reason="cancelled"/></del><add place="below"> <term ref="#glossa-mancante">individuelle </term></add></subst></add><del rend="strikethrough"><damage agent="ink"/><gap reason="cancelled"/></del>de l’autre<ptr target="#n1"/>, <gap reason="illegible"/>                                
                                 <lb xml:id="lb8_p7" n="8" facs="#facs_p7_lb8"/>
                                 <del rend="strikethrough"><gap reason="cancelled"/></del><space facs="#space_1" />
                                 <lb xml:id="lb9_p7" n="9" facs="#facs_p7_lb9"/>
@@ -316,13 +318,13 @@
                                 lequel <subst><add place="above">en fait </add><del rend="strikethrough"><gap reason="cancelled"/></del><add facs="#add3LX2_p7" place="left">l’individu ou l’espèce</add> <del rend="strikethrough"><gap reason="cancelled"/></del><add place="above">n’auraient jamais pu</add> </subst>même aspirer
                                 <lb xml:id="lb11_p7" n="11" facs="#facs_p7_lb11"/>
                                 à développer dans aucun sens <del rend="strikethrough"><gap reason="cancelled"/></del> ses <del rend="strikethrough"><gap reason="cancelled"/></del>
-                                <lb xml:id="lb12_p7" n="11" facs="#facs_p7_lb12"/>
+                                <lb xml:id="lb12_p7" n="12" facs="#facs_p7_lb12"/>
                                 <term ref="#fn">facultés natives</term><ptr target="#n2"/>.<del rend="strikethrough"><gap reason="cancelled"/></del><space facs="#space_2"/>
-                                <lb xml:id="lb13_p7" n="11" facs="#facs_p7_lb12"/>
+                                <lb xml:id="lb13_p7" n="13" facs="#facs_p7_lb13"/>
                                 <space facs="#space_3"/><del rend="strikethrough"><gap reason="cancelled"/></del>
-                                <lb xml:id="lb14_p7" n="11" facs="#facs_p7_lb12"/>
+                                <lb xml:id="lb14_p7" n="14" facs="#facs_p7_lb14"/>
                                 <space facs="#space_4"/><del rend="strikethrough"><gap reason="cancelled"/></del>
-                                <lb xml:id="lb15_p7" n="11" facs="#facs_p7_lb12"/>
+                                <lb xml:id="lb15_p7" n="15" facs="#facs_p7_lb15"/>
                                 <del rend="strikethrough"><gap reason="cancelled"/></del>
 
                             </ab>
