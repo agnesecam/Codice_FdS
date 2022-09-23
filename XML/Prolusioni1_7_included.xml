@@ -281,41 +281,48 @@
             <group xml:id="fr_Prolusioni"> <!--TESTO FRANCESE DELLE 3 PROLUSIONI-->
                 <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
                     <body xml:lang="fr" source="#Bouquet-Engler2002" xml:id="body-francese">
-                        <!--Quinta pagina-->
+                        <!--Settima pagina-->
                         <pb n="f1r" xml:id="body_p7" facs="#scan_p7"/>
                         <!--Numeri impaginazione a stampa e a mano-->
                         <ab>
-                            <fw type="pageNum" xml:id="HandPageNumber-5" rend="align(left)" facs="#facs_HandPageNumber-5"> 5 </fw>
+                            <fw type="pageNum" xml:id="HandPageNumber-7" rend="align(left)" facs="#facs_HandPageNumber-7"> 7 </fw>
                         </ab>
                         <div xml:id="div_p7_fr" hand="#h1" type="box_testo">
-                            <!--Continuo prima pericope della pagina-->
+                            <!--Pagina 7, prima pericope-->
                             <ab xml:id="pericope_91Aaaa001" n="1" xml:lang="FR" corresp="#it_91Aaaa001 #en_91Aaaa001" facs="#facs_pericope_91Aaaa001"> 
                                 <lb xml:id="lb1_p7" n="1" facs="#facs_p7_lb1"/> 
-                                <subst><add place="above">appéciable</add><del> positive</del></subst> <del rend="strikethrough"><gap reason="cancelled" extent="six or seven letters" atLeast="6" atMost="7" unit="chars"/></del> ou une quantité négligeable <del><pc>,</pc></del><supplied><pc force="strong">.</pc></supplied> -  
-                                <gap quantity="1" unit="char" reason="editorial"/> C<pc force="strong">’</pc>est <!--seconda parte della PRIMA riga, non della seconda, ma il meccanismo di collegamento dei facs si basa su una lb unica-->
-                            </ab>
-                            <!--Fine prima pericope, inizio seconda-->
-                            <ab xml:id="pericope_91aaa002" n="2" xml:lang="fr" corresp="#it_91aaa002 #en_91aaa002" facs="#facs_pericope_91aaa002">
+                                serait peut-être l’<hi rend="underlined">homme</hi>, mais 
                                 <lb xml:id="lb2_p7" n="2" facs="#facs_p7_lb2"/>
-                                de là <del><pc>,</pc></del><supplied><pc>(</pc></supplied>mais seulement de là<del><pc>,</pc></del><supplied><pc>)</pc></supplied> que <subst><add place="above">peut</add><del> doit</del></subst> dépendre
+                                qu’il ne serait pas <add place="top" facs="#add1TOP_p7">un être se rapprochant même approximativement</add> <add place="above">de</add> l’homme <del rend="strikethrough"> <add place="above"> que nous</add><gap reason="cancelled" rend="underlined" extent="2 words"/></del>                                
+                                
                                 <lb xml:id="lb3_p7" n="3" facs="#facs_p7_lb3"/>
-                                un<del rend="strikethrough">e</del> <subst><add place="above">jugement équitable</add><del> esacte appreciation</del></subst><add place="above">et </add> <choice><sic>éclaireé</sic><corr> éclairé</corr></choice> <subst><add place="above">sur </add><del>le </del></subst>la valeur
+                                <del rend="strikethrough"><add place="left">connaissons</add></del><del rend="underlined">et</del><del rend="strikethrough"><gap reason="cancelled" extent="7 words"/></del><add place="above"><unclear reason="illegible">que nous sommes,</unclear></add>
+                                
                                 <lb xml:id="lb4_p7" n="4" facs="#facs_p7_lb4"/>
-                                de l<pc force="inter">’</pc><term ref="#langage1">étude du langage</term> dans la connaissance
+                                <del rend="strikethrough"><gap reason="cancelled" extent="3 words"/></del>parce que le <term ref="#langage1">langage</term>
                                 <lb xml:id="lb5_p7" n="5" facs="#facs_p7_lb5"/>
-                                générale<pc>;</pc> les rayons de lumière<supplied><pc force="strong">,</pc></supplied> <add place="above">si intenses qu<pc force="inter">’</pc>ils aient été</add> <supplied><pc force="strong">,</pc></supplied>qui ont pu
+                                a été <del rend="strikethrough"><gap reason="cancelled" extent="3 words"/></del> le <choice><abbr type="brevigraph" n="abbr1">+</abbr><expan n="exp1"> plus </expan></choice> <subst><del rend="strikethrough"><gap reason="cancelled" extent="2 words"/></del> <add type="above"><del rend="strikethrough"><gap reason="cancelled" extent="1 words"/></del>formidable</add></subst>
                                 <lb xml:id="lb6_p7" n="6" facs="#facs_p7_lb6"/>
-                                <subst><add place="above">soudain tomber</add><del rend="strikethrough"><gap reason="cancelled"/></del></subst> <add place="below">de la <term ref="#langue1">langue</term></add> sur d<pc force="inter">’</pc>autres disciplines et sur 
+                                <add place="left">engin</add><del rend="strikethrough"><gap reason="cancelled" extent="3 words"/></del> <add place="above">d’</add><term ref="#ac">action collective</term> <add place="above">d’une part</add>, <term ref="#ei">et d’éducation
                                 <lb xml:id="lb7_p7" n="7" facs="#facs_p7_lb7"/>
-                                d<pc force="inter">’</pc>autres <term ref="#objet">objets</term> de recherche<pc force="strong">,</pc> <subst><add place="above">ne sauraient avoir</add><del rend="strikethrough"><gap reason="cancelled"/></del></subst>
+                                <add facs="#add2LX_p7" place="left"><subst><del rend="strikethrough"><gap reason="cancelled"/></del><add place="below"> individuelle</add></subst></add> </term><del rend="strikethrough"><damage agent="ink"/><gap reason="cancelled"/></del>de l’autre<ptr target="#n1"/>, <gap reason="illegible"/>                                
                                 <lb xml:id="lb8_p7" n="8" facs="#facs_p7_lb8"/>
-                                qu<pc force="inter">’</pc>une importance absolument épisodique et 
+                                <del rend="strikethrough"><gap reason="cancelled"/></del><space facs="#space_1"/>
                                 <lb xml:id="lb9_p7" n="9" facs="#facs_p7_lb9"/>
-                                <subst><add place="left">incidente</add><del> incidente</del></subst> <del><pc>,</pc></del> pour l<pc force="inter">’</pc><term ref="#langage1">étude de la langue</term> elle<pc force="inter">-</pc>même<pc force="strong">,</pc> <del rend="strikethroug"><gap reason="cancelled"/></del>
+                                <del rend="strikethrough"><gap reason="cancelled"/></del><gap reason="illegible"/> l’instrument sans                                
                                 <lb xml:id="lb10_p7" n="10" facs="#facs_p7_lb10"/>
-                                pour <subst><add place="above">le</add><del rend="strikethrough"><gap reason="cancelled"/></del></subst> développement <del rend="strikethrough"><gap reason="cancelled"/></del> intérieur <add place="above">de cette étude</add> et pour
+                                lequel <subst><add place="above">en fait </add><del rend="strikethrough"><gap reason="cancelled"/></del><add facs="#add3LX2_p7" place="left">l’individu ou l’espèce</add> <del rend="strikethrough"><gap reason="cancelled"/></del><add place="above">n’auraient jamais pu</add> </subst>même aspirer
                                 <lb xml:id="lb11_p7" n="11" facs="#facs_p7_lb11"/>
-                                le but vers lequel elle marche<pc force="strong">.</pc>
+                                à développer dans aucun sens <del rend="strikethrough"><gap reason="cancelled"/></del> ses <del rend="strikethrough"><gap reason="cancelled"/></del>
+                                <lb xml:id="lb12_p7" n="11" facs="#facs_p7_lb12"/>
+                                <term ref="#fn">facultés natives</term><ptr target="#n2"/>.<del rend="strikethrough"><gap reason="cancelled"/></del><space facs="#space_2"/>
+                                <lb xml:id="lb13_p7" n="11" facs="#facs_p7_lb12"/>
+                                <space facs="#space_3"/><del rend="strikethrough"><gap reason="cancelled"/></del>
+                                <lb xml:id="lb14_p7" n="11" facs="#facs_p7_lb12"/>
+                                <space facs="#space_4"/><del rend="strikethrough"><gap reason="cancelled"/></del>
+                                <lb xml:id="lb15_p7" n="11" facs="#facs_p7_lb12"/>
+                                <del rend="strikethrough"><gap reason="cancelled"/></del>
+
                             </ab>
                         </div>
                         <!--fine seconda pericope-->
