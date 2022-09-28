@@ -2896,7 +2896,7 @@
                             (<citedRange unit="page">p. 160</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="duale">Duale </lbl><xr type="duale">histoire de la langue<ref target="histoire_de_la_langue#linguiste"/>;</xr>
+                    <lbl type="duale">Duale </lbl><xr type="duale">histoire de la langue<ref target="histoire_de_la_langue #linguiste"/>;</xr>
                 </sense>
             </entry>
 

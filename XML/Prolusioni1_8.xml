@@ -261,19 +261,36 @@
             <graphic url='ms_fr_03951_01_1_p008-resized.jpg' width='600px' height='900px'/> 
 
             <!--Righe-->
-            <zone points = ' 140,81,324,70,299,97,535,98,534,119,124,127 ' rendition="line" xml:id="facs_p8_lb1"/>      <!--1 riga, prima parte-->
-            <zone points = ' 141,127,141,146,552,146,537,117 '  rendition="line" xml:id="facs_p8_lb2"/>                              <!--3 riga-->
-            <zone points = ' 146,149,142,175,551,172,541,154 '  rendition="line" xml:id="facs_p8_lb3"/>                              <!--4 riga-->
-            <zone points = ' 140,183,140,205,526,198,525,186 '  rendition="line" xml:id="facs_p8_lb4"/>                              <!--5 riga-->
-            <zone points = ' 141,212,526,198,526,226,139,237 '  rendition="line" xml:id="facs_p8_lb5"/>                              <!--6 riga-->
-            <zone points = ' 66,224,118,225,119,240,527,227,520,251,65,252 '  rendition="line" xml:id="facs_p8_lb6"/>  <!--7 riga-->
-            <zone points = ' 147,256,148,303,539,303, 538, 256 '  rendition="line" xml:id="facs_p8_lb7"/>                              <!--8 riga-->
-            <zone points = ' 140,309,535,304,531,324,143,332 '  rendition="line" xml:id="facs_p8_lb8"/>                              <!--9 riga-->
-            <zone points = ' 78,335,78,362,533,346,530,331 '  rendition="line" xml:id="facs_p8_lb9"/>                                   <!--10 riga-->
-            <zone points = ' 146,365,137,390,522,378,522,346 '  rendition="line" xml:id="facs_p8_lb10"/>                              <!--11 riga-->
-            <zone points = ' 140,410,151,389,526,385,538,406 '  rendition="line" xml:id="facs_p8_lb11"/>                              <!--12 riga-->        
+            <zone points = ' 148, 87, 142,113, 556, 113, 557, 91 '  rendition="line" xml:id="facs_p8_lb1"/>                           <!--1 riga, prima parte-->
+            <zone points = ' 139, 114,122,151, 557, 144, 551, 118 '  rendition="line" xml:id="facs_p8_lb2"/>                      <!--2 riga-->
+            <zone points = ' 135, 161, 124,187, 554, 186, 551,155 ' rendition="line" xml:id="facs_p8_lb3"/>                       <!--3 riga-->
+            <zone points = ' 58, 191, 50, 221, 551, 211, 549, 191 '  rendition="line" xml:id="facs_p8_lb4"/>                           <!--4 riga-->
+            <zone points = ' 65, 226, 61, 260 , 552, 244, 546, 214 '  rendition="line" xml:id="facs_p8_lb5"/>                           <!--5 riga-->
+            <zone points = ' 136, 259, 130,281, 548,276 ,545,252 ' rendition="line" xml:id="facs_p8_lb6"/>                       <!--6 riga-->
+            <zone points = ' 135,286,132,310,552,303,543,283 '   rendition="line" xml:id="facs_p8_lb7"/>                     <!--7 riga-->
+            <zone points = ' 137,318,128,348,548,332,551,308 ' rendition="line" xml:id="facs_p8_lb8"/>                       <!--8 riga-->
+            <zone points = ' 143,351,121,384,542,361,543,339 '  rendition="line" xml:id="facs_p8_lb9"/>                      <!--9 riga-->
+            <zone points = ' 142,385,131,406,543,388,543,366 '  rendition="line" xml:id="facs_p8_lb10"/>                    <!--10 riga-->
+            <zone points = ' 137,414 ,134,437, 555,419,546,397 ' rendition="line" xml:id="facs_p8_lb11"/>                     <!--11 riga-->        
+            <zone points = ' 144,438 ,144,467, 527,449 ,522,422 ' rendition="line" xml:id="facs_p8_lb12"/>                     <!--12 riga-->        
+            <zone points = ' 148,474 ,130,503, 547,490 ,540,463 ' rendition="line" xml:id="facs_p8_lb13"/>                     <!--13 riga-->        
+            <zone points = '  154,503 ,138,527, 550,518 ,546,492 ' rendition="line" xml:id="facs_p8_lb14"/>                     <!--14 riga-->        
+            <zone points = ' 53,537, 48,589 ,106,588 ,146,560,538,542,536,522 ' rendition="line" xml:id="facs_p8_lb15"/>                     <!--15 riga-->        
+            <zone points = ' 148,568 ,537,550, 527,568 ,139,598 ' rendition="line" xml:id="facs_p8_lb16"/>                     <!--16 riga-->        
+            <zone points =  ' 142,602 ,140,618 ,527,595, 526,573 '  rendition="line" xml:id="facs_p8_lb17"/>                    <!--17 riga-->        
+            <zone points = ' 145,623 ,135,649 ,528,622, 535,601 '  rendition="line" xml:id="facs_p8_lb18"/>                     <!--18 riga-->        
+            <zone points =  ' 140,653 ,137,678, 532,648, 529,627 ' rendition="line" xml:id="facs_p8_lb19"/>                     <!--19 riga-->        
+            <zone points =  ' 144,680 ,135,703, 543,684, 541,658 '  rendition="line" xml:id="facs_p8_lb20"/>                    <!--20 riga-->
+            <zone points = ' 144,713 ,132,741,523,718 ,519,694 ' rendition="line" xml:id="facs_p8_lb21"/>                      <!--21 riga-->
+            <zone points = ' 142,745 ,142,764, 541,751, 539,724 ' rendition="line" xml:id="facs_p8_lb22"/>                      <!--22 riga-->
+            <zone points = ' 145,770 ,132,798 ,525,783, 527,755 ' rendition="line" xml:id="facs_p8_lb23"/>                      <!--23 riga-->
+            <zone points = ' 144,810 ,139,833, 545,809 ,537,785 ' rendition="line" xml:id="facs_p8_lb24"/>                      <!--24 riga-->
+            <zone points = ' 164,837 ,159,852, 546,843 ,545,817 ' rendition="line" xml:id="facs_p8_lb25"/>                      <!--25 riga-->
 
-            <zone points =  ' 72,55,94,86,64,101,48,74 ' rendition="hotspot" xml:id="facs_HandPageNumber-5" />              <!--Numero 5 sx cerchiato -->
+            <zone points = ' 81,58,52,112,105,112,112,71 ' rendition="hotspot" xml:id="facs_HandPageNumber-8" />              <!--Numero 8 sx cerchiato -->
+
+
+
         </surface>
     </facsimile>
 
@@ -287,40 +304,81 @@
                         <pb n="f1r" xml:id="body_p8" facs="#scan_p8"/>
                         <!--Numeri impaginazione a stampa e a mano-->
                         <ab>
-                            <fw type="pageNum" xml:id="HandPageNumber-5" rend="align(left)" facs="#facs_HandPageNumber-5"> 5 </fw>
+                            <fw type="pageNum" xml:id="HandPageNumber-8" rend="align(left)" facs="#facs_HandPageNumber-8"> 8 </fw>
                         </ab>
                         <div xml:id="div_p8_fr" hand="#h1" type="box_testo">
                             <!--Continuo prima pericope della pagina-->
                             <ab xml:id="pericope_91Aaaa001" n="1" xml:lang="FR" corresp="#it_91Aaaa001 #en_91Aaaa001" facs="#facs_pericope_91Aaaa001"> 
                                 <lb xml:id="lb1_p8" n="1" facs="#facs_p8_lb1"/> 
-                                <subst><add place="above">appéciable</add><del> positive</del></subst> <del rend="strikethrough"><gap reason="cancelled" extent="six or seven letters" atLeast="6" atMost="7" unit="chars"/></del> ou une quantité négligeable <del><pc>,</pc></del><supplied><pc force="strong">.</pc></supplied> -  
-                                <gap quantity="1" unit="char" reason="editorial"/> C<pc force="strong">’</pc>est <!--seconda parte della PRIMA riga, non della seconda, ma il meccanismo di collegamento dei facs si basa su una lb unica-->
-                            </ab>
-                            <!--Fine prima pericope, inizio seconda-->
-                            <ab xml:id="pericope_91aaa002" n="2" xml:lang="fr" corresp="#it_91aaa002 #en_91aaa002" facs="#facs_pericope_91aaa002">
+                                Ici ce présente cette objection <gap reason="editorial" extent="2 words" />
                                 <lb xml:id="lb2_p8" n="2" facs="#facs_p8_lb2"/>
-                                de là <del><pc>,</pc></del><supplied><pc>(</pc></supplied>mais seulement de là<del><pc>,</pc></del><supplied><pc>)</pc></supplied> que <subst><add place="above">peut</add><del> doit</del></subst> dépendre
+                                <gap reason="editorial" extent="1 word"/><add n="str" place="above"><choice n="2"><abbr type="brevigraph" n="abbr2">+</abbr><expan n="exp2"> plus </expan></choice><supplied reason="editorial" >ou moins</supplied> fondée <unclear reason="illegible">selon nous </unclear></add> : vous transformez l’<term ref="#linguistique-N">étude
                                 <lb xml:id="lb3_p8" n="3" facs="#facs_p8_lb3"/>
-                                un<del rend="strikethrough">e</del> <subst><add place="above">jugement équitable</add><del> esacte appreciation</del></subst><add place="above">et </add> <choice><sic>éclaireé</sic><corr> éclairé</corr></choice> <subst><add place="above">sur </add><del>le </del></subst>la valeur
+                                des langues</term>  en l’<term ref="#linguistique-N">étude du langage</term>, <del rend="strikethrough">humain</del>
                                 <lb xml:id="lb4_p8" n="4" facs="#facs_p8_lb4"/>
-                                de l<pc force="inter">’</pc><term ref="#langage1">étude du langage</term> dans la connaissance
+                                <add place="left" facs="add1LX_p8"> du <term ref="#langage1">langage</term></add> considéré comme <term ref="#faculté">faculté de l’homme</term>, comme
                                 <lb xml:id="lb5_p8" n="5" facs="#facs_p8_lb5"/>
-                                générale<pc>;</pc> les rayons de lumière<supplied><pc force="strong">,</pc></supplied> <add place="above">si intenses qu<pc force="inter">’</pc>ils aient été</add> <supplied><pc force="strong">,</pc></supplied>qui ont pu
+                                <add place="left" facs="add2LX_p8"> un des</add> signes distinctifs de son espèce, comme caractère
                                 <lb xml:id="lb6_p8" n="6" facs="#facs_p8_lb6"/>
-                                <subst><add place="above">soudain tomber</add><del rend="strikethrough"><gap reason="cancelled"/></del></subst> <add place="below">de la <term ref="#langue1">langue</term></add> sur d<pc force="inter">’</pc>autres disciplines et sur 
+                                anthropologique ou pour ainsi dire zoologique.   
+                            </ab>
+                            <!--Fine pericope 1 p8 -->
+                            <!--Inizio pericope 2 p8-->
+                            <ab xml:id="pericope_91Aaaa002" n="1" xml:lang="FR" corresp="#it_91Aaaa001 #en_91Aaaa001" facs="#facs_pericope_91Aaaa001">
                                 <lb xml:id="lb7_p8" n="7" facs="#facs_p8_lb7"/>
-                                d<pc force="inter">’</pc>autres <term ref="#objet">objets</term> de recherche<pc force="strong">,</pc> <subst><add place="above">ne sauraient avoir</add><del rend="strikethrough"><gap reason="cancelled"/></del></subst>
+                                Messieurs, c’est ici un point sur lequel il
                                 <lb xml:id="lb8_p8" n="8" facs="#facs_p8_lb8"/>
-                                qu<pc force="inter">’</pc>une importance absolument épisodique et 
+                                me faudrait disposer d’un temps considérable
                                 <lb xml:id="lb9_p8" n="9" facs="#facs_p8_lb9"/>
-                                <subst><add place="left">incidente</add><del> incidente</del></subst> <del><pc>,</pc></del> pour l<pc force="inter">’</pc><term ref="#langage1">étude de la langue</term> elle<pc force="inter">-</pc>même<pc force="strong">,</pc> <del rend="strikethroug"><gap reason="cancelled"/></del>
+                                pour exposer, <add place="above">développer</add> et justifier mon <term ref="#point-de-vue">point de</term>
                                 <lb xml:id="lb10_p8" n="10" facs="#facs_p8_lb10"/>
-                                pour <subst><add place="above">le</add><del rend="strikethrough"><gap reason="cancelled"/></del></subst> développement <del rend="strikethrough"><gap reason="cancelled"/></del> intérieur <add place="above">de cette étude</add> et pour
+                                <term ref="#point-de-vue">vue</term>, qui n’est pas autre que celui de tous
                                 <lb xml:id="lb11_p8" n="11" facs="#facs_p8_lb11"/>
-                                le but vers lequel elle marche<pc force="strong">.</pc>
+                                les <term ref="#linguiste">linguistes</term> actuels : c’est qu’en effet l’<term ref="#linguistique-N">étude</term>
+                                <lb xml:id="lb12_p8" n="12" facs="#facs_p8_lb12"/>
+                                <term ref="#linguistique-N">du langage</term><add place="above"> comme fait </add> humain est tout entier ou
+                                <lb xml:id="lb13_p8" n="13" facs="#facs_p8_lb13"/>                        
+                                presque <choice><abbr type="brevigraph" n="abbr3">tt</abbr><expan n="exp3"> tout </expan></choice> entier contenu dans l’étude <hi rend="underlined">des langues</hi>.
+                            </ab>
+                            <!--Fine pericope 2 p8-->
+                            <!--Inizio pericope 3 p8-->
+                            <ab xml:id="pericope_91Aaaa003" n="3" xml:lang="FR" corresp="#it_91Aaaa001 #en_91Aaaa001" facs="#facs_pericope_91Aaaa001">
+                                <lb xml:id="lb14_p8" n="14" facs="#facs_p8_lb14"/>
+                                Le <term ref="#physiologiste">phsiologiste</term>, <del rend="strikethrough">et</del> le <term ref="#psychologue">psychologue</term> <del rend="strikethrough"><gap reason="cancelled" extent= "1 word"></gap></del>
+                                <lb xml:id="lb15_p8" n="15" facs="#facs_p8_lb15"/>
+                                <add place="left" facs="add3LX_p8">et le <hi rend="underline"><term ref="#logicien">logicien</term> pourront</hi></add> longtemps disserter, le <term ref="#philosophe">philosophe</term>
+                                <lb xml:id="lb16_p8" n="16" facs="#facs_p8_lb16"/>
+                                pourra reprendre ensuite les résultats
+                                <lb xml:id="lb17_p8" n="17" facs="#facs_p8_lb17"/>
+                                combinés de la <term ref="#logique">logique</term>, de la <term ref="#psychologie">psychologie</term> et
+                                <lb xml:id="lb18_p8" n="18" facs="#facs_p8_lb18"/>
+                                de la <term ref="#physiologie">physiologie</term>, jamais, je me permets de
+                                <lb xml:id="lb19_p8" n="19" facs="#facs_p8_lb19"/>
+                                le dire, les plus élémentaires phénomènes du
+                                <lb xml:id="lb20_p8" n="20" facs="#facs_p8_lb20"/>
+                                <term ref="#langage1">langage</term> ne seront soupçonnés, ou clairement
+                                <lb xml:id="lb21_p8" n="21" facs="#facs_p8_lb21"/>
+                                aperçus, classés et compris, si l’on ne
+                                <lb xml:id="lb22_p8" n="22" facs="#facs_p8_lb22"/>
+                                e recourt en <choice><abbr type="brevigraph" n="abbr4">1°</abbr><expan n="exp4"> première </expan></choice> et dernière instance à l’<term ref="#linguistique-N">étude
+                                <lb xml:id="lb23_p8" n="23" facs="#facs_p8_lb23"/>
+                                <hi rend="underlined">des langues</hi></term><ptr target="#n3"/>. 
+                            </ab>
+                            <!--Fine pericope 3 p8-->
+                            <!--Inizio pericope 4 p8-->
+                            <ab xml:id="pericope_91Aaaa004" n="1" xml:lang="FR" corresp="#it_91Aaaa001 #en_91Aaaa001" facs="#facs_pericope_91Aaaa001">
+                                <term ref="#langue1">Langue</term> et <term ref="#langage1">langage</term> ne sont
+                                <lb xml:id="lb24_p8" n="24" facs="#facs_p8_lb24"/>
+                                qu’une même chose ;<del rend="strikethrough"><gap reason="cancelled" extent="1 word"/></del> l’un est la générali--                                
+                                <lb xml:id="lb25_p8" n="25" facs="#facs_p8_lb25"/>
+                                sation de l’autre<ptr target="#n4"/>. 
+                            </ab>
+                            <!--Fine pericope 4 p8-->
+                            <!--Inizio pericope 5 p8-->
+                            <ab xml:id="pericope_91Aaaa005" n="1" xml:lang="FR" corresp="#it_91Aaaa001 #en_91Aaaa001" facs="#facs_pericope_91Aaaa001">
+                                Vouloir étudier le <term ref="#langage1">langage</term>
                             </ab>
                         </div>
-                        <!--fine seconda pericope-->
                     </body>
                 </text>
             </group>  

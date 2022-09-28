@@ -43,7 +43,7 @@
                             <li>Le <sup>parole</sup> in apice sono aggiunte al testo sopra alla riga corrente.</li>
                             <li>Le <sub place="below">parole</sub> in pedice sono aggiunte al testo sotto alla riga corrente.</li>
                             <li>Le <strike>parole</strike> cancellate sono barrate.</li>
-                            <li>I termini evidenziati di azzurro sono riferimenti a: persone, luoghi, enti o termini linguistici. Passandoci il cursore sopra vengono mostrate informazioni e definizioni. Le definizioni dei termini linguistici derivano da <i>Dalle parole ai termini</i> di Giuseppe Cosenza.</li>
+                            <li>I termini evidenziati di azzurro sono riferimenti a: persone, luoghi, enti o termini linguistici. Passandoci il cursore sopra vengono mostrate informazioni e definizioni. Le definizioni dei termini linguistici derivano da <i><a href="https://www.cercleferdinanddesaussure.org/ressources-electroniques/#4">Dalle parole ai termini</a></i> di Giuseppe Cosenza.</li>
                             <li>Ponendo il cursore sopra i termini sottolineati viene mostrata l'abbreviazione sciolta.</li>
                         </div>
                         <div id="box_icone_traduzioni">
@@ -631,6 +631,7 @@
                                     //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/ancestor::tei:entry/tei:form/tei:orth, ': ')"/>
                     <xsl:copy-of select="
                                     //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry[@xml:id=$ref]/tei:sense/tei:def | 
+                                    //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry[@xml:id=$ref]/tei:sense/tei:cit/tei:quote | 
                                     //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry[@xml:id=$ref]/tei:sense/tei:def | 
                                     //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/tei:def |
                                     //tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/tei:def/tei:cit/tei:quote |
