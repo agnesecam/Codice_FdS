@@ -426,9 +426,11 @@
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p2_it" type="box_testo_it">
-                            <ab xml:id="it_91Aaaa003" corresp="#pericope_91Aaaa003" xml:lang="IT">
+                            <ab xml:id="it_91Aaaa002" corresp="#pericope_91Aaaa003" xml:lang="IT" part="F">
                                 <lb/>
                                 la storia della civiltà? – e dovrei 
+                            </ab>
+                            <ab xml:id="it_91Aaaa003" corresp="#pericope_91Aaaa003" xml:lang="IT" part="I">
                                 <lb/>
                                 qui ricordare il nome ginevrino, di cui siamo
                                 <lb/>
@@ -504,30 +506,48 @@
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
                     <body resp="#AC" xml:id="body-inglese">
                         <div xml:id="div_p2_en" type="box_testo_en">
-                            <ab xml:id="en_91Aaaa003" corresp="#pericope_91Aaaa003" xml:lang="EN">
-                                <lb/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                <lb/>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                <lb/>Accumsan sit amet nulla facilisi morbi tempus. Interdum consectetur  
-                                <lb/>id faucibus nisl tincidunt eget. Nisl suscipit adipiscing bibendum est  
-                                <lb/>integer quis auctor. Tortor at auctor urna nunc. Felis donec et odio  
-                                <lb/>diam volutpat commodo. Sapien nec sagittis aliquam malesuada. 
-                                <lb/>Tempus iaculis urna id volutpat lacus laoreet non. Luctus   
-                                <lb/>posuere ac ut. Elementum curabitur vitae nunc sed. Vestibulum  
-                                <lb/>blandit cursus risus at ultrices mi tempus imperdiet. Pulvinar sapien et  
-                                <lb/>ullamcorper malesuada proin libero nunc consequat.
-                            </ab> 
-                            <ab xml:id="en_91Aaaa004" corresp="#pericope_91Aaaa004" xml:lang="EN">
-                                <lb/>Lorem ipsum dolor sit amet, consectetur adipiscing, 
-                                <lb/>sed do eiusmod tempor incididunt ut labore et dolore magna. 
-                                <lb/>Accumsan sit amet nulla facilisi morbi tempus. Interdum consectetur 
-                                <lb/>id faucibus nisl tincidunt eget. Nisl suscipit adipiscing bibendum est  
-                                <lb/>integer quis auctor. Tortor at auctor urna nunc. Felis donec et odio  
-                                <lb/>diam volutpat commodo. Sapien nec sagittis aliquam malesuada. 
-                                <lb/>Tempus iaculis urna id volutpat lacus laoreet non. Luctus accumsan  
-                                <lb/>posuere ac ut. Elementum curabitur vitae nunc sed. Vestibulum  
-                                <lb/>blandit cursus risus at ultrices mi tempus imperdiet. Pulvinar sapien et  
-                                <lb/>ullamcorper malesuada proin libero nunc.
-                            </ab>              
+                            <ab xml:id="en_91Aaaa002" corresp="#pericope_91Aaaa002" xml:lang="EN" part="F">
+                                <lb/>the history of civilization?
+                            </ab>
+                            <ab xml:id="en_91Aaaa003" corresp="#pericope_91Aaaa003" xml:lang="EN" part="I">
+                                <lb/>Let me evoke here the name of a fellow Genevan, 
+                                <lb/>whose country is proud of him 
+                                <lb/>
+                                <lb/>
+                                <lb/>for other reasons also, 
+                                <lb/>that of Adolphe Pictet. Pictet 
+                                <lb/>
+                                <lb/>
+                                <lb/>was the first to study 
+                                <lb/>methodically how language 
+                                <lb/>could bear witness to prehistory, 
+                                <lb/>and, while perhaps placing too much trust 
+                                <lb/>- inevitably, in the first flush 
+                                <lb/>brought on 
+                                <lb/>
+                                <lb/>by the sudden uncovering 
+                                <lb/>of an unsuspected new 
+                                <lb/>world 
+                                <lb/>- in the truth, 
+                                <lb/>the absolute value 
+                                <lb/>of indications that can be inferred from language, he nonetheless
+                                <lb/>became the founder 
+                                <lb/>of a serious branch of studies which has given, and continues to give, 
+                                <lb/>rise to highly intelligent work 
+                                <lb/>from an unbroken line of scholars -
+                                <lb/>next, I would want to highlight 
+                                <lb/>the very specific contribution that 
+                                <lb/>linguistics has made to ethnography,
+                                <lb/>to the point where linguistic data remain the primary proof 
+                                <lb/>for the ethnologist, 
+                                <lb/>at least untile a richer source of information is uncovered. 
+                                <lb/>How, without such data, could the ethnologist 
+                                <lb/>ever have asserted (to take one example among thousands) 
+                                <lb/>that among Hungarians the 
+                                <lb/>Gypsies represent totally a distinct race 
+                                <lb/>from the Magyar, that within the Austrian 
+                                <lb/>Empire the Magyar in turn represents                                           
+                            </ab>
                         </div>                           
                     </body>
                 </text>       
@@ -1181,8 +1201,6 @@
                     <orth>Acte linguistique</orth>
                 </form>
                 <sense n="1">
-                    <def>
-                    </def>
                     <cit type="example">
                         <quote xml:lang="fr">
                             de tous les actes qu’on pourrait mettre en parallèle, l’acte linguistique, si je puis le nommer ainsi, a ce caractère [d’être] le moins réfléchi, 
@@ -3608,7 +3626,7 @@
                 <sense n="1">
                     <sense n="a" xml:id="langage1">1. 
                         [<def>
-                            la totalità dei fatti lingustici
+                            la totalità dei fatti linguistici
                         </def>];
                         <cit type="example">
                             <quote xml:lang="fr">
@@ -3943,7 +3961,7 @@
                             (<citedRange unit="page">p. 160</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="duale">Duale </lbl><xr type="duale">histoire de la langue<ref target="histoire_de_la_langue#linguiste"/>;</xr>
+                    <lbl type="duale">Duale </lbl><xr type="duale">histoire de la langue<ref target="histoire_de_la_langue #linguiste"/>;</xr>
                 </sense>
             </entry>
 
