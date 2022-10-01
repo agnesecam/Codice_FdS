@@ -256,7 +256,7 @@
     </teiHeader>
     
     <facsimile>
-        <!--QUARTA PAGINA-->
+        <!--SETTIMA PAGINA-->
         <surface n="7" xml:id="scan_p7">
             <graphic url='ms_fr_03951_01_1_p007-resized.jpg' width='600px' height='900px'/> 
 
@@ -294,8 +294,8 @@
                             <fw type="pageNum" xml:id="HandPageNumber-7" rend="align(left)" facs="#facs_HandPageNumber-7"> 7 </fw>
                         </ab>
                         <div xml:id="div_p7_fr" hand="#h1" type="box_testo">
-                            <!--Pagina 7, prima pericope-->
-                            <ab xml:id="pericope_91Aaaa001" n="1" xml:lang="FR" corresp="#it_91Aaaa001 #en_91Aaaa001" facs="#facs_pericope_91Aaaa001"> 
+                            <!--Pagina 7-->
+                            <ab xml:id="pericope_91Aaaa0016" n="1" xml:lang="FR" corresp="#it_91Aaaa001 #en_91Aaaa0016" facs="#facs_pericope_91Aaaa0016"> 
                                 <lb xml:id="lb1_p7" n="1" facs="#facs_p7_lb1"/> 
                                 serait peut-être l’<hi rend="underlined">homme</hi>, mais 
                                 <lb xml:id="lb2_p7" n="2" facs="#facs_p7_lb2"/>
@@ -326,10 +326,8 @@
                                 <space facs="#space_4"/><del rend="strikethrough"><gap reason="cancelled"/></del>
                                 <lb xml:id="lb15_p7" n="15" facs="#facs_p7_lb15"/>
                                 <del rend="strikethrough"><gap reason="cancelled"/></del>
-
                             </ab>
                         </div>
-                        <!--fine seconda pericope-->
                     </body>
                 </text>
             </group>  
@@ -338,7 +336,7 @@
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p7_it" hand="#h1" type="box_testo_it">
-                            <ab xml:id="it_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="IT">
+                            <ab xml:id="it_91Aaaa0016" corresp="#pericope_91Aaaa0016" xml:lang="IT">
                                 <lb/>Quel che è chiaro, come mille volte abbiamo ripetuto, è che 
                                 <lb/>l’uomo senza linguaggio sarebbe forse l’uomo, ma 
                                 <lb/>non sarebbe un essere che si avvicina nemmeno 
@@ -359,17 +357,17 @@
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
                     <body resp="#AC" xml:id="body-inglese">
                         <div xml:id="div_p7_en" hand="#h1" type="box_testo_en">
-                            <ab xml:id="en_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="EN">
-                                <lb/>What is clear, as we have repeated a thousand times, is that  
-                                <lb/>the man without language would perhaps be man, but  
-                                <lb/>he would not be a being who even  
-                                <lb/>approximates the man we know  
-                                <lb/>and who we are, because language has been the more  
-                                <lb/>formidable motor of collective action on the one hand,  
-                                <lb/>and of individual education on the other,  
-                                <lb/>an instrument without which the individual or the species  
-                                <lb/>could not even aspire to develop  
-                                <lb/>their innate faculties in any sense.         
+                            <ab xml:id="en_91Aaaa0016" corresp="#pericope_91Aaaa0016" xml:lang="EN">
+                                <lb/>What is clear, as has been repeated countless times, is that  
+                                <lb/>a human being without language might well be human,  
+                                <lb/>but he would in actual fact be very different from 
+                                <lb/>the human being that we know 
+                                <lb/>and that we are, precisely because language has been such a massive  
+                                <lb/>driving force behind collective action on the one hand,  
+                                <lb/>and individual education on the other,  
+                                <lb/>it has in fact been the instrument without which neither the individual nor the species  
+                                <lb/>could have in any way aspired to develop
+                                <lb/>its innate faculties.         
                             </ab> 
                         </div>                         
                     </body>
