@@ -306,7 +306,7 @@
                         </ab>
                         <div xml:id="div_p8_fr" hand="#h1" type="box_testo">
                             <!--Continuo prima pericope della pagina-->
-                            <ab xml:id="pericope_91Aaaa017" n="1" xml:lang="FR" corresp="#it_91Aaaa017 #en_91Aaaa017" facs="#facs_pericope_91Aaaa017"> 
+                            <ab xml:id="pericope_91Aaaa017" n="17" xml:lang="FR" corresp="#it_91Aaaa017 #en_91Aaaa017" facs="#facs_pericope_91Aaaa017"> 
                                 <lb xml:id="lb1_p8" n="1" facs="#facs_p8_lb1"/> 
                                 Ici ce présente cette objection <gap reason="editorial" extent="2 words" />
                                 <lb xml:id="lb2_p8" n="2" facs="#facs_p8_lb2"/>
@@ -322,7 +322,7 @@
                             </ab>
                             <!--Fine pericope 1 p8 -->
                             <!--Inizio pericope 2 p8-->
-                            <ab xml:id="pericope_91Aaaa018" n="1" xml:lang="FR" corresp="#it_91Aaaa018 #en_91Aaaa018" facs="#facs_pericope_91Aaaa018">
+                            <ab xml:id="pericope_91Aaaa018" n="18" xml:lang="FR" corresp="#it_91Aaaa018 #en_91Aaaa018" facs="#facs_pericope_91Aaaa018">
                                 <lb xml:id="lb7_p8" n="7" facs="#facs_p8_lb7"/>
                                 Messieurs, c’est ici un point sur lequel il
                                 <lb xml:id="lb8_p8" n="8" facs="#facs_p8_lb8"/>
@@ -340,7 +340,7 @@
                             </ab>
                             <!--Fine pericope 2 p8-->
                             <!--Inizio pericope 3 p8-->
-                            <ab xml:id="pericope_91Aaaa019" n="3" xml:lang="FR" corresp="#it_91Aaaa019 #en_91Aaaa019" facs="#facs_pericope_91Aaaa019">
+                            <ab xml:id="pericope_91Aaaa019" n="19" xml:lang="FR" corresp="#it_91Aaaa019 #en_91Aaaa019" facs="#facs_pericope_91Aaaa019">
                                 <lb xml:id="lb14_p8" n="14" facs="#facs_p8_lb14"/>
                                 Le <term ref="#physiologiste">phsiologiste</term>, <del rend="strikethrough">et</del> le <term ref="#psychologue">psychologue</term> <del rend="strikethrough"><gap reason="cancelled" extent= "1 word"></gap></del>
                                 <lb xml:id="lb15_p8" n="15" facs="#facs_p8_lb15"/>
@@ -364,7 +364,7 @@
                             </ab>
                             <!--Fine pericope 3 p8-->
                             <!--Inizio pericope 4 p8-->
-                            <ab xml:id="pericope_91Aaaa020" n="1" xml:lang="FR" corresp="#it_91Aaaa0020 #en_91Aaaa020" facs="#facs_pericope_91Aaaa020">
+                            <ab xml:id="pericope_91Aaaa020" n="20" xml:lang="FR" corresp="#it_91Aaaa0020 #en_91Aaaa020" facs="#facs_pericope_91Aaaa020">
                                 <term ref="#langue1">Langue</term> et <term ref="#langage1">langage</term> ne sont
                                 <lb xml:id="lb24_p8" n="24" facs="#facs_p8_lb24"/>
                                 qu’une même chose ;<del rend="strikethrough"><gap reason="cancelled" extent="1 word"/></del> l’un est la générali--                                
@@ -373,7 +373,7 @@
                             </ab>
                             <!--Fine pericope 4 p8-->
                             <!--Inizio pericope 5 p8-->
-                            <ab xml:id="pericope_91Aaaa021" n="1" xml:lang="FR" corresp="#it_91Aaaa021 #en_91Aaaa021" facs="#facs_pericope_91Aaaa021">
+                            <ab xml:id="pericope_91Aaaa021" n="21" xml:lang="FR" corresp="#it_91Aaaa021 #en_91Aaaa021" facs="#facs_pericope_91Aaaa021" part="I">
                                 Vouloir étudier le <term ref="#langage1">langage</term>
                             </ab>
                         </div>
@@ -437,7 +437,7 @@
                                 <lb/>of the species, as an anthropological,
                                 <lb/>or soto speak, zoological characteristic.     
                             </ab> 
-                            <ab xml:id="en_91Aaaa018" corresp="#pericope_91Aaaa017" xml:lang="EN">
+                            <ab xml:id="en_91Aaaa018" corresp="#pericope_91Aaaa018" xml:lang="EN">
                                 <lb/>Gentlemen, 
                                 <lb/>I should need some considerable time 
                                 <lb/>to set out, develop, and justify my view touching this point, 
@@ -446,7 +446,7 @@
                                 <lb/>it is entirely or almost entirely, within the study of languages 
                                 <lb/>that one studies language as a human phenomenon.
                             </ab>                             
-                            <ab xml:id="en_91Aaaa019" corresp="#pericope_91Aaaa017" xml:lang="EN">
+                            <ab xml:id="en_91Aaaa019" corresp="#pericope_91Aaaa019" xml:lang="EN">
                                 <lb/>Physiologists, psychologists, and logicians may hold forth 
                                 <lb/>at length, philosophers may then take up the combined results 
                                 <lb/>of logic, psychology, and 
@@ -456,12 +456,12 @@
                                 <lb/>take as our starting point and our goal the study of individual 
                                 <lb/>languages.
                             </ab>                     
-                            <ab xml:id="en_91Aaaa020" corresp="#pericope_91Aaaa017" xml:lang="EN">
+                            <ab xml:id="en_91Aaaa020" corresp="#pericope_91Aaaa020" xml:lang="EN">
                                 <lb/>The language system (langue) and the language faculty (langage) come back to one 
                                 <lb/>and the same thing; one is the generalization 
                                 <lb/>of the other         
                             </ab>                            
-                            <ab xml:id="en_91Aaaa021" corresp="#pericope_91Aaaa017" xml:lang="EN">
+                            <ab xml:id="en_91Aaaa021" corresp="#pericope_91Aaaa021" xml:lang="EN">
                                 <lb/>To claim to study the phenomenon of language (...)
                             </ab>
 

@@ -283,7 +283,7 @@
                         </ab>
                         <div xml:id="div_p4_fr" hand="#h1" type="box_testo">
                             <!--Inizio 8a pericope-->
-                            <ab xml:id="pericope_91Aaaa008" n="1" xml:lang="FR" corresp="#it_91Aaaa008 #en_91Aaaa008" facs="#facs_pericope_91Aaaa008" part="I"> 
+                            <ab xml:id="pericope_91Aaaa008" n="8" xml:lang="FR" corresp="#it_91Aaaa008 #en_91Aaaa008" facs="#facs_pericope_91Aaaa008" part="I"> 
                                 <lb xml:id="lb21_p4" n="21" facs="#facs_p4_lb21"/> 
                                 Maintenant<pc force="strong">,</pc> estime<pc force="inter">-</pc>t<pc force="inter">-</pc>on 
                                 <lb xml:id="lb22_p4" n="22" facs="#facs_p4_lb22"/>

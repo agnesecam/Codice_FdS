@@ -428,7 +428,7 @@
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p2_it" type="box_testo_it">
-                            <ab xml:id="it_91Aaaa002" corresp="#pericope_91Aaaa003" xml:lang="IT" part="F">
+                            <ab xml:id="it_91Aaaa002" corresp="#pericope_91Aaaa002" xml:lang="IT" part="F">
                                 <lb/>
                                 la storia della civiltà? – e dovrei 
                             </ab>

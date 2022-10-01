@@ -289,13 +289,13 @@
                         </ab>
                         <div xml:id="div_p5_fr" hand="#h1" type="box_testo">
                             
-                            <ab xml:id="pericope_91Aaaa008" n="1" xml:lang="FR" corresp="#it_91Aaaa008 #en_91Aaaa008" facs="#facs_pericope_91Aaaa008" part="F"> 
+                            <ab xml:id="pericope_91Aaaa008" n="8" xml:lang="FR" corresp="#it_91Aaaa008 #en_91Aaaa008" facs="#facs_pericope_91Aaaa008" part="F"> 
                                 <lb xml:id="lb1_p5" n="1" facs="#facs_p5_lb1"/> 
                                 <subst><add place="above">appéciable</add><del> positive</del></subst> <del rend="strikethrough"><gap reason="cancelled" extent="six or seven letters" atLeast="6" atMost="7" unit="chars"/></del> ou une quantité négligeable <del><pc>,</pc></del><supplied><pc force="strong">.</pc></supplied> -  
                                 <gap quantity="1" unit="char" reason="editorial"/> C<pc force="strong">’</pc>est <!--seconda parte della PRIMA riga, non della seconda, ma il meccanismo di collegamento dei facs si basa su una lb unica-->
                             </ab>
                             
-                            <ab xml:id="pericope_91aaa009" n="2" xml:lang="fr" corresp="#it_91aaa009 #en_91aaa009" facs="#facs_pericope_91aaa009">
+                            <ab xml:id="pericope_91aaa009" n="9" xml:lang="fr" corresp="#it_91aaa009 #en_91aaa009" facs="#facs_pericope_91aaa009">
                                 <lb xml:id="lb2_p5" n="2" facs="#facs_p5_lb2"/>
                                 de là <del><pc>,</pc></del><supplied><pc>(</pc></supplied>mais seulement de là<del><pc>,</pc></del><supplied><pc>)</pc></supplied> que <subst><add place="above">peut</add><del> doit</del></subst> dépendre
                                 <lb xml:id="lb3_p5" n="3" facs="#facs_p5_lb3"/>
