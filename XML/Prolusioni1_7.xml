@@ -295,7 +295,7 @@
                         </ab>
                         <div xml:id="div_p7_fr" hand="#h1" type="box_testo">
                             <!--Pagina 7-->
-                            <ab xml:id="pericope_91Aaaa0016" n="1" xml:lang="FR" corresp="#it_91Aaaa001 #en_91Aaaa0016" facs="#facs_pericope_91Aaaa0016"> 
+                            <ab xml:id="pericope_91Aaaa016" n="1" xml:lang="FR" corresp="#it_91Aaaa016 #en_91Aaaa0016" facs="#facs_pericope_91Aaaa016"> 
                                 <lb xml:id="lb1_p7" n="1" facs="#facs_p7_lb1"/> 
                                 serait peut-être l’<hi rend="underlined">homme</hi>, mais 
                                 <lb xml:id="lb2_p7" n="2" facs="#facs_p7_lb2"/>
@@ -336,7 +336,7 @@
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p7_it" hand="#h1" type="box_testo_it">
-                            <ab xml:id="it_91Aaaa0016" corresp="#pericope_91Aaaa0016" xml:lang="IT">
+                            <ab xml:id="it_91Aaaa016" corresp="#pericope_91Aaaa016" xml:lang="IT">
                                 <lb/>Quel che è chiaro, come mille volte abbiamo ripetuto, è che 
                                 <lb/>l’uomo senza linguaggio sarebbe forse l’uomo, ma 
                                 <lb/>non sarebbe un essere che si avvicina nemmeno 
@@ -357,7 +357,7 @@
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
                     <body resp="#AC" xml:id="body-inglese">
                         <div xml:id="div_p7_en" hand="#h1" type="box_testo_en">
-                            <ab xml:id="en_91Aaaa0016" corresp="#pericope_91Aaaa0016" xml:lang="EN">
+                            <ab xml:id="en_91Aaaa016" corresp="#pericope_91Aaaa016" xml:lang="EN">
                                 <lb/>What is clear, as has been repeated countless times, is that  
                                 <lb/>a human being without language might well be human,  
                                 <lb/>but he would in actual fact be very different from 
