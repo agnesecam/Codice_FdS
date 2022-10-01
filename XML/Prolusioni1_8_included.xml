@@ -254,22 +254,22 @@
     </teiHeader>
     
     <facsimile>
-        <!--QUARTA PAGINA-->
+        <!--OTTAVA PAGINA-->
         <surface n="8" xml:id="scan_p8">
             <graphic url="ms_fr_03951_01_1_p008-resized.jpg" width="600px" height="900px"/> 
 
             <!--Righe-->
-            <zone points=" 148, 87, 142,113, 556, 113, 557, 91 " rendition="line" xml:id="facs_p8_lb1"/>                           <!--1 riga, prima parte-->
-            <zone points=" 139, 114,122,151, 557, 144, 551, 118 " rendition="line" xml:id="facs_p8_lb2"/>                      <!--2 riga-->
-            <zone points=" 135, 161, 124,187, 554, 186, 551,155 " rendition="line" xml:id="facs_p8_lb3"/>                       <!--3 riga-->
-            <zone points=" 58, 191, 50, 221, 551, 211, 549, 191 " rendition="line" xml:id="facs_p8_lb4"/>                           <!--4 riga-->
-            <zone points=" 65, 226, 61, 260 , 552, 244, 546, 214 " rendition="line" xml:id="facs_p8_lb5"/>                           <!--5 riga-->
-            <zone points=" 136, 259, 130,281, 548,276 ,545,252 " rendition="line" xml:id="facs_p8_lb6"/>                       <!--6 riga-->
-            <zone points=" 135,286,132,310,552,303,543,283 " rendition="line" xml:id="facs_p8_lb7"/>                     <!--7 riga-->
-            <zone points=" 137,318,128,348,548,332,551,308 " rendition="line" xml:id="facs_p8_lb8"/>                       <!--8 riga-->
-            <zone points=" 143,351,121,384,542,361,543,339 " rendition="line" xml:id="facs_p8_lb9"/>                      <!--9 riga-->
-            <zone points=" 142,385,131,406,543,388,543,366 " rendition="line" xml:id="facs_p8_lb10"/>                    <!--10 riga-->
-            <zone points=" 137,414 ,134,437, 555,419,546,397 " rendition="line" xml:id="facs_p8_lb11"/>                     <!--11 riga-->        
+            <zone points=" 148, 87, 142,113, 556, 113, 557, 91 " rendition="line" xml:id="facs_p8_lb1"/>                            <!--1 riga, prima parte-->
+            <zone points=" 139, 114,122,151, 557, 144, 551, 118 " rendition="line" xml:id="facs_p8_lb2"/>                        <!--2 riga-->
+            <zone points=" 135, 161, 124,187, 554, 186, 551,155 " rendition="line" xml:id="facs_p8_lb3"/>                         <!--3 riga-->
+            <zone points=" 58, 191, 50, 221, 551, 211, 549, 191 " rendition="line" xml:id="facs_p8_lb4"/>                          <!--4 riga-->
+            <zone points=" 65, 226, 61, 260 , 552, 244, 546, 214 " rendition="line" xml:id="facs_p8_lb5"/>                         <!--5 riga-->
+            <zone points=" 136, 259, 130,281, 548,276 ,545,252 " rendition="line" xml:id="facs_p8_lb6"/>                         <!--6 riga-->
+            <zone points=" 135,286,132,310,552,303,543,283 " rendition="line" xml:id="facs_p8_lb7"/>                            <!--7 riga-->
+            <zone points=" 137,318,128,348,548,332,551,308 " rendition="line" xml:id="facs_p8_lb8"/>                              <!--8 riga-->
+            <zone points=" 143,351,121,384,542,361,543,339 " rendition="line" xml:id="facs_p8_lb9"/>                           <!--9 riga-->
+            <zone points=" 142,385,131,406,543,388,543,366 " rendition="line" xml:id="facs_p8_lb10"/>                         <!--10 riga-->
+            <zone points=" 137,414 ,134,437, 555,419,546,397 " rendition="line" xml:id="facs_p8_lb11"/>                       <!--11 riga-->        
             <zone points=" 144,438 ,144,467, 527,449 ,522,422 " rendition="line" xml:id="facs_p8_lb12"/>                     <!--12 riga-->        
             <zone points=" 148,474 ,130,503, 547,490 ,540,463 " rendition="line" xml:id="facs_p8_lb13"/>                     <!--13 riga-->        
             <zone points="  154,503 ,138,527, 550,518 ,546,492 " rendition="line" xml:id="facs_p8_lb14"/>                     <!--14 riga-->        
@@ -286,8 +286,6 @@
             <zone points=" 164,837 ,159,852, 546,843 ,545,817 " rendition="line" xml:id="facs_p8_lb25"/>                      <!--25 riga-->
 
             <zone points=" 81,58,52,112,105,112,112,71 " rendition="hotspot" xml:id="facs_HandPageNumber-8"/>              <!--Numero 8 sx cerchiato -->
-
-
 
         </surface>
     </facsimile>
@@ -306,7 +304,7 @@
                         </ab>
                         <div xml:id="div_p8_fr" hand="#h1" type="box_testo">
                             <!--Continuo prima pericope della pagina-->
-                            <ab xml:id="pericope_91Aaaa001" n="1" xml:lang="FR" corresp="#it_91Aaaa001 #en_91Aaaa001" facs="#facs_pericope_91Aaaa001"> 
+                            <ab xml:id="pericope_91Aaaa017" n="1" xml:lang="FR" corresp="#it_91Aaaa017 #en_91Aaaa017" facs="#facs_pericope_91Aaaa017"> 
                                 <lb xml:id="lb1_p8" n="1" facs="#facs_p8_lb1"/> 
                                 Ici ce présente cette objection <gap reason="editorial" extent="2 words"/>
                                 <lb xml:id="lb2_p8" n="2" facs="#facs_p8_lb2"/>
@@ -322,7 +320,7 @@
                             </ab>
                             <!--Fine pericope 1 p8 -->
                             <!--Inizio pericope 2 p8-->
-                            <ab xml:id="pericope_91Aaaa002" n="1" xml:lang="FR" corresp="#it_91Aaaa001 #en_91Aaaa001" facs="#facs_pericope_91Aaaa001">
+                            <ab xml:id="pericope_91Aaaa018" n="1" xml:lang="FR" corresp="#it_91Aaaa018 #en_91Aaaa018" facs="#facs_pericope_91Aaaa018">
                                 <lb xml:id="lb7_p8" n="7" facs="#facs_p8_lb7"/>
                                 Messieurs, c’est ici un point sur lequel il
                                 <lb xml:id="lb8_p8" n="8" facs="#facs_p8_lb8"/>
@@ -340,7 +338,7 @@
                             </ab>
                             <!--Fine pericope 2 p8-->
                             <!--Inizio pericope 3 p8-->
-                            <ab xml:id="pericope_91Aaaa003" n="3" xml:lang="FR" corresp="#it_91Aaaa001 #en_91Aaaa001" facs="#facs_pericope_91Aaaa001">
+                            <ab xml:id="pericope_91Aaaa019" n="3" xml:lang="FR" corresp="#it_91Aaaa019 #en_91Aaaa019" facs="#facs_pericope_91Aaaa019">
                                 <lb xml:id="lb14_p8" n="14" facs="#facs_p8_lb14"/>
                                 Le <term ref="#physiologiste">phsiologiste</term>, <del rend="strikethrough">et</del> le <term ref="#psychologue">psychologue</term> <del rend="strikethrough"><gap reason="cancelled" extent="1 word"/></del>
                                 <lb xml:id="lb15_p8" n="15" facs="#facs_p8_lb15"/>
@@ -364,7 +362,7 @@
                             </ab>
                             <!--Fine pericope 3 p8-->
                             <!--Inizio pericope 4 p8-->
-                            <ab xml:id="pericope_91Aaaa004" n="1" xml:lang="FR" corresp="#it_91Aaaa001 #en_91Aaaa001" facs="#facs_pericope_91Aaaa001">
+                            <ab xml:id="pericope_91Aaaa020" n="1" xml:lang="FR" corresp="#it_91Aaaa0020 #en_91Aaaa020" facs="#facs_pericope_91Aaaa020">
                                 <term ref="#langue1">Langue</term> et <term ref="#langage1">langage</term> ne sont
                                 <lb xml:id="lb24_p8" n="24" facs="#facs_p8_lb24"/>
                                 qu’une même chose ;<del rend="strikethrough"><gap reason="cancelled" extent="1 word"/></del> l’un est la générali--                                
@@ -373,7 +371,7 @@
                             </ab>
                             <!--Fine pericope 4 p8-->
                             <!--Inizio pericope 5 p8-->
-                            <ab xml:id="pericope_91Aaaa005" n="1" xml:lang="FR" corresp="#it_91Aaaa001 #en_91Aaaa001" facs="#facs_pericope_91Aaaa001">
+                            <ab xml:id="pericope_91Aaaa021" n="1" xml:lang="FR" corresp="#it_91Aaaa021 #en_91Aaaa021" facs="#facs_pericope_91Aaaa021">
                                 Vouloir étudier le <term ref="#langage1">langage</term>
                             </ab>
                         </div>
@@ -385,10 +383,40 @@
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p8_it" hand="#h1" type="box_testo_it">
-                            <ab xml:id="it_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="IT">
-                                <lb/>Ora, il problema è se si ritiene 
-                                <lb/>che il linguaggio sia in tale insieme
-                                <lb/>un fattore degno d'essere preso in conto o un fattore nullo, una quantità 
+                            <ab xml:id="it_91Aaaa017" corresp="#pericope_91Aaaa017" xml:lang="IT">
+                                Qui si presenta quest’obiezione, secondo noi 
+                                più o meno fondata: ma allora tu trasformi lo studio 
+                                delle lingue nello studio del linguaggio considerato 
+                                come facoltà dell’uomo, come uno dei segni 
+                                distintivi della sua specie, come carattere 
+                                antropologico o per così dire zoologico.
+                            </ab>                            
+                            <ab xml:id="it_91Aaaa018" corresp="#pericope_91Aaaa018" xml:lang="IT">
+                                Signori, 
+                                si tratta qui d’un punto sul quale dovrei disporre 
+                                d’un tempo considerevole per esporre, sviluppare e 
+                                giustificare il mio punto di vista, che non è altro che 
+                                quello di tutti i linguisti al giorno d’oggi: e cioè che 
+                                lo studio del linguaggio come fatto umano è tutto o 
+                                quasi tutto ricompreso nello studio delle lingue.
+                            </ab>                            
+                            <ab xml:id="it_91Aaaa019" corresp="#pericope_91Aaaa019" xml:lang="IT">
+                                Il fisiologo, lo psicologo e il logico potranno dissertare 
+                                a lungo, il filosofo potrà poi riprendere i risultati 
+                                combinati della logica, della psicologia e della 
+                                fisiologia: mai, mi permetto di dire, i più elementari 
+                                fenomeni del linguaggio saranno subodorati, o 
+                                chiaramente intuiti, classificati e compresi, se non si 
+                                ricorre in prima e in ultima istanza allo studio delle 
+                                lingue.
+                            </ab>                            
+                            <ab xml:id="it_91Aaaa020" corresp="#pericope_91Aaaa020" xml:lang="IT">
+                                Lingua e linguaggio non sono che una 
+                                medesima cosa; l’uno è la generalizzazione 
+                                dell’altra.
+                            </ab>                            
+                            <ab xml:id="it_91Aaaa021" corresp="#pericope_91Aaaa021" xml:lang="IT">
+                                Voler studiare il linguaggio....
                             </ab>
                         </div>                            
                     </body>
@@ -399,11 +427,42 @@
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
                     <body resp="#AC" xml:id="body-inglese">
                         <div xml:id="div_p8_en" hand="#h1" type="box_testo_en">
-                            <ab xml:id="en_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="EN">
-                                <lb/>Now, the question is whether we believe 
-                                <lb/>that language is in such a whole 
-                                <lb/>a factor worth taking into account, or a null factor, a quantity            
+                            <ab xml:id="en_91Aaaa017" corresp="#pericope_91Aaaa017" xml:lang="EN">
+                                <lb/>This is were the following objection, 
+                                <lb/>more or les well founded in my view, occurs: you are transforming the study 
+                                <lb/>of languages into the study of langage,
+                                <lb/>of langage taken as a human faculty, as one of the distinguishing features
+                                <lb/>of the species, as an anthropological,
+                                <lb/>or soto speak, zoological characteristic.     
                             </ab> 
+                            <ab xml:id="en_91Aaaa018" corresp="#pericope_91Aaaa017" xml:lang="EN">
+                                <lb/>Gentlemen, 
+                                <lb/>I should need some considerable time 
+                                <lb/>to set out, develop, and justify my view touching this point, 
+                                <lb/>which is no different from that 
+                                <lb/>of all linguists today: it is that 
+                                <lb/>it is entirely or almost entirely, within the study of languages 
+                                <lb/>that one studies language as a human phenomenon.
+                            </ab>                             
+                            <ab xml:id="en_91Aaaa019" corresp="#pericope_91Aaaa017" xml:lang="EN">
+                                <lb/>Physiologists, psychologists, and logicians may hold forth 
+                                <lb/>at length, philosophers may then take up the combined results 
+                                <lb/>of logic, psychology, and 
+                                <lb/>physiology; nut I male so bold as to say that the most elementary 
+                                <lb/>phenomena of language will never be glimpsed, 
+                                <lb/>let alone clearly perceived, classified, and understood, unless we 
+                                <lb/>take as our starting point and our goal the study of individual 
+                                <lb/>languages.
+                            </ab>                     
+                            <ab xml:id="en_91Aaaa020" corresp="#pericope_91Aaaa017" xml:lang="EN">
+                                <lb/>The language system (langue) and the language faculty (langage) come back to one 
+                                <lb/>and the same thing; one is the generalization 
+                                <lb/>of the other         
+                            </ab>                            
+                            <ab xml:id="en_91Aaaa021" corresp="#pericope_91Aaaa017" xml:lang="EN">
+                                <lb/>To claim to study the phenomenon of language (...)
+                            </ab>
+
                         </div>                         
                     </body>
                 </text>       

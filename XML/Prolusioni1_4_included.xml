@@ -262,7 +262,7 @@
             <zone points=" 282,779,278,795,528,797,522,773 " rendition="line" xml:id="facs_p4_lb1"/>                          <!--Terzultima riga-->
             <zone points=" 202,806,199,825,530,822,526,801 " rendition="line" xml:id="facs_p4_lb2"/>                          <!--Penultima riga-->
             <zone points=" 49,830,48,851,549,850,548,827 " rendition="line" xml:id="facs_p4_lb3"/>                              <!--Ultima riga-->
-        
+
             <zone points=" 67,59,63,98,104,99,100,59 " rendition="hotspot" xml:id="facs_HandPageNumber-4"/>            <!--Numero 4 sx cerchiato -->
         </surface>
     </facsimile>
@@ -280,8 +280,8 @@
                             <fw type="pageNum" xml:id="HandPageNumber-4" rend="align(left)" facs="#facs_HandPageNumber-4"> 1 </fw>
                         </ab>
                         <div xml:id="div_p4_fr" hand="#h1" type="box_testo">
-                            <!--Inizio 1a pericope-->
-                            <ab xml:id="pericope_91Aaaa001" n="1" xml:lang="FR" corresp="#it_91Aaaa001 #en_91Aaaa001" facs="#facs_pericope_91Aaaa001"> 
+                            <!--Inizio 8a pericope-->
+                            <ab xml:id="pericope_91Aaaa008" n="1" xml:lang="FR" corresp="#it_91Aaaa008 #en_91Aaaa008" facs="#facs_pericope_91Aaaa008" part="I"> 
                                 <lb xml:id="lb21_p4" n="21" facs="#facs_p4_lb21"/> 
                                 Maintenant<pc force="strong">,</pc> estime<pc force="inter">-</pc>t<pc force="inter">-</pc>on 
                                 <lb xml:id="lb22_p4" n="22" facs="#facs_p4_lb22"/>
@@ -290,7 +290,6 @@
                                 un facteur digne d<pc force="inter">’</pc>être aperçu <add place="above">ou</add> un facteur nul<pc force="strong">,</pc> <del rend="strikethrough"><gap reason="cancelled" extent="one or two letters" atLeast="1" atMost="2" unit="chars"/></del> une quantité <del rend="strikethrough">négligeable</del>
                             </ab>
                         </div>
-                        <!--Fine 1a pagina, la pericope continua nella pagina 5, prima riga-->
                     </body>
                 </text>
             </group>  
@@ -299,7 +298,7 @@
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p4_it" hand="#h1" type="box_testo_it">
-                            <ab xml:id="it_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="IT">
+                            <ab xml:id="it_91Aaaa008" corresp="#pericope_91Aaaa008" xml:lang="IT" part="I">
                                 <lb/>Ora, il problema è se si ritiene 
                                 <lb/>che il linguaggio sia in tale insieme
                                 <lb/>un fattore degno d'essere preso in conto o un fattore nullo, una quantità 
@@ -313,10 +312,10 @@
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
                     <body resp="#AC" xml:id="body-inglese">
                         <div xml:id="div_p4_en" hand="#h1" type="box_testo_en">
-                            <ab xml:id="en_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="EN">
-                                <lb/>Now, the question is whether we believe 
-                                <lb/>that language is in such a whole 
-                                <lb/>a factor worth taking into account, or a null factor, a quantity            
+                            <ab xml:id="en_91Aaaa008" corresp="#pericope_91Aaaa008" xml:lang="EN" part="I">
+                                <lb/>So, do we consider 
+                                <lb/>that language is on the whole 
+                                <lb/>a factor worthy of consideration or a factor of no interest, 
                             </ab> 
                         </div>                         
                     </body>
@@ -3731,7 +3730,7 @@
                             (<citedRange unit="page">p. 160</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="duale">Duale </lbl><xr type="duale">histoire de la langue<ref target="histoire_de_la_langue#linguiste"/>;</xr>
+                    <lbl type="duale">Duale </lbl><xr type="duale">histoire de la langue<ref target="histoire_de_la_langue #linguiste"/>;</xr>
                 </sense>
             </entry>
 

@@ -288,14 +288,14 @@
                             <fw type="pageNum" xml:id="HandPageNumber-5" rend="align(left)" facs="#facs_HandPageNumber-5"> 5 </fw>
                         </ab>
                         <div xml:id="div_p5_fr" hand="#h1" type="box_testo">
-                            <!--Continuo prima pericope della pagina-->
-                            <ab xml:id="pericope_91Aaaa001" n="1" xml:lang="FR" corresp="#it_91Aaaa001 #en_91Aaaa001" facs="#facs_pericope_91Aaaa001"> 
+                            
+                            <ab xml:id="pericope_91Aaaa008" n="1" xml:lang="FR" corresp="#it_91Aaaa008 #en_91Aaaa008" facs="#facs_pericope_91Aaaa008" part="F"> 
                                 <lb xml:id="lb1_p5" n="1" facs="#facs_p5_lb1"/> 
                                 <subst><add place="above">appéciable</add><del> positive</del></subst> <del rend="strikethrough"><gap reason="cancelled" extent="six or seven letters" atLeast="6" atMost="7" unit="chars"/></del> ou une quantité négligeable <del><pc>,</pc></del><supplied><pc force="strong">.</pc></supplied> -  
                                 <gap quantity="1" unit="char" reason="editorial"/> C<pc force="strong">’</pc>est <!--seconda parte della PRIMA riga, non della seconda, ma il meccanismo di collegamento dei facs si basa su una lb unica-->
                             </ab>
-                            <!--Fine prima pericope, inizio seconda-->
-                            <ab xml:id="pericope_91aaa002" n="2" xml:lang="fr" corresp="#it_91aaa002 #en_91aaa002" facs="#facs_pericope_91aaa002">
+                            
+                            <ab xml:id="pericope_91aaa009" n="2" xml:lang="fr" corresp="#it_91aaa009 #en_91aaa009" facs="#facs_pericope_91aaa009">
                                 <lb xml:id="lb2_p5" n="2" facs="#facs_p5_lb2"/>
                                 de là <del><pc>,</pc></del><supplied><pc>(</pc></supplied>mais seulement de là<del><pc>,</pc></del><supplied><pc>)</pc></supplied> que <subst><add place="above">peut</add><del> doit</del></subst> dépendre
                                 <lb xml:id="lb3_p5" n="3" facs="#facs_p5_lb3"/>
@@ -318,7 +318,7 @@
                                 le but vers lequel elle marche<pc force="strong">.</pc>
                             </ab>
                         </div>
-                        <!--fine seconda pericope-->
+                        
                     </body>
                 </text>
             </group>  
@@ -327,10 +327,23 @@
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p5_it" hand="#h1" type="box_testo_it">
-                            <ab xml:id="it_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="IT">
-                                <lb/>Ora, il problema è se si ritiene 
-                                <lb/>che il linguaggio sia in tale insieme
-                                <lb/>un fattore degno d'essere preso in conto o un fattore nullo, una quantità 
+                            <ab xml:id="it_91Aaaa008" corresp="#pericope_91Aaaa008" xml:lang="IT" part="F">
+                                <lb/>apprezzabile o una quantità trascurabile.
+                            </ab>
+                            <ab xml:id="it_91Aaaa009" corresp="#pericope_91Aaaa009" xml:lang="IT">
+                                <lb/>da lì (e solo da lì) che può dipendere 
+                                <lb/>un giudizio equo ed illuminato sul valore 
+                                <lb/>dello studio del linguaggio nella conoscenza
+                                <lb/>generale; i raggi di luce, per quanto intensi siano stati, che hanno potuto
+                                <lb/>d'un tratto scendere dalla lingua su altre discipline e su
+                                <lb/>altri oggetti di ricerca, non potrebbero avere  
+                                <lb/>che un'importanza assolutamente episodica e
+                                <lb/>incidentale per lo studio della lingua medesima, 
+                                <lb/>per lo sviluppo interno di questo studio e per 
+                                <lb/>incidentale per lo studio della lingua medesima,                                
+                                <lb/>incidentale per lo studio della lingua medesima,                                
+                                <lb/>per lo sviluppo interno di questo studio e per
+                                <lb/>il traguardo verso il quale essa si muove.
                             </ab>
                         </div>                            
                     </body>
@@ -341,10 +354,18 @@
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
                     <body resp="#AC" xml:id="body-inglese">
                         <div xml:id="div_p5_en" hand="#h1" type="box_testo_en">
-                            <ab xml:id="en_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="EN">
-                                <lb/>Now, the question is whether we believe 
-                                <lb/>that language is in such a whole 
-                                <lb/>a factor worth taking into account, or a null factor, a quantity            
+                            <ab xml:id="en_91Aaaa009" corresp="#pericope_91Aaaa009" xml:lang="EN">
+                                <lb/>something of appreciable or of negligible significance?
+                                <lb/>It is this (and this alone) that can lead to 
+                                <lb/>a balanced and enlightened assessment of the value
+                                <lb/>of the study of language within knowledge 
+                                <lb/>generally. The light, however intense, that may have been shed intense, 
+                                <lb/>that may have been shed recently by language onto other disciplines and other 
+                                <lb/>objects of inquiery, can only have been 
+                                <lb/>of occasional and incidental 
+                                <lb/>importance for the study of language itself, 
+                                <lb/>and for the internal development of this field of study and for 
+                                <lb/>its objectives.
                             </ab> 
                         </div>                         
                     </body>
@@ -3759,7 +3780,7 @@
                             (<citedRange unit="page">p. 160</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="duale">Duale </lbl><xr type="duale">histoire de la langue<ref target="histoire_de_la_langue#linguiste"/>;</xr>
+                    <lbl type="duale">Duale </lbl><xr type="duale">histoire de la langue<ref target="histoire_de_la_langue #linguiste"/>;</xr>
                 </sense>
             </entry>
 
