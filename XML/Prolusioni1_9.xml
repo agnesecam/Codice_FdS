@@ -258,7 +258,7 @@
     <facsimile>
         <!--OTTAVA PAGINA-->
         <surface n="9" xml:id="scan_p9">
-            <graphic url='ms_fr_03951_01_1_p008-resized.jpg' width='600px' height='900px'/> 
+            <graphic url='ms_fr_03951_01_1_p009-resized.jpg' width='600px' height='900px'/> 
 
             <!--Righe-->
             <zone points = ' 148, 87, 142,113, 556, 113, 557, 91 '  rendition="line" xml:id="facs_p9_lb1"/>                            <!--1 riga, prima parte-->
@@ -287,7 +287,7 @@
             <zone points = ' 144,810 ,139,833, 545,809 ,537,785 ' rendition="line" xml:id="facs_p9_lb24"/>                      <!--24 riga-->
             <zone points = ' 164,837 ,159,852, 546,843 ,545,817 ' rendition="line" xml:id="facs_p9_lb25"/>                      <!--25 riga-->
 
-            <zone points = ' 81,58,52,112,105,112,112,71 ' rendition="hotspot" xml:id="facs_HandPageNumber-8" />              <!--Numero 8 sx cerchiato -->
+            <zone points = ' 81,58,52,112,105,112,112,71 ' rendition="hotspot" xml:id="facs_HandPageNumber-9" />              <!--Numero 8 sx cerchiato -->
 
         </surface>
     </facsimile>
@@ -298,83 +298,46 @@
             <group xml:id="fr_Prolusioni"> <!--TESTO FRANCESE DELLE 3 PROLUSIONI-->
                 <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
                     <body xml:lang="fr" source="#Bouquet-Engler2002" xml:id="body-francese">
-                        <!--Quinta pagina-->
+                        <!--Nona pagina-->
                         <pb n="f1r" xml:id="body_p9" facs="#scan_p9"/>
                         <!--Numeri impaginazione a stampa e a mano-->
                         <ab>
                             <fw type="pageNum" xml:id="HandPageNumber-9" rend="align(left)" facs="#facs_HandPageNumber-9"> 9 </fw>
                         </ab>
                         <div xml:id="div_p9_fr" hand="#h1" type="box_testo">
-                            <ab xml:id="pericope_91Aaaa017" n="17" xml:lang="FR" corresp="#it_91Aaaa017 #en_91Aaaa017" facs="#facs_pericope_91Aaaa017"> 
+                            <ab xml:id="pericope_91Aaaa021" n="21" xml:lang="FR" corresp="#it_91Aaaa021 #en_91Aaaa021" facs="#facs_pericope_91Aaaa021"> 
                                 <lb xml:id="lb1_p9" n="1" facs="#facs_p9_lb1"/> 
-                                Ici ce présente cette objection <gap reason="editorial" extent="2 words" />
+                                sans se donner la peine <add place="above" resp="#FdS">d’en étudier
+									les diverses manifestations qu’évidemment sont</add> les
                                 <lb xml:id="lb2_p9" n="2" facs="#facs_p9_lb2"/>
-                                <gap reason="editorial" extent="1 word"/><add n="str" place="above"><choice n="2"><abbr type="brevigraph" n="abbr2">+</abbr><expan n="exp2"> plus </expan></choice><supplied reason="editorial" >ou moins</supplied> fondée <unclear reason="illegible">selon nous </unclear></add> : vous transformez l’<term ref="#linguistique-N">étude
+                                <term ref="#langue1" rend="underline">langues</term> est une entreprise <w>absolu
                                 <lb xml:id="lb3_p9" n="3" facs="#facs_p9_lb3"/>
-                                des langues</term>  en l’<term ref="#linguistique-N">étude du langage</term>, <del rend="strikethrough">humain</del>
+                                ment</w> vaine, <add resp="#FdS">et chimérique;</add> d’un autre côté vouloir étudier les
                                 <lb xml:id="lb4_p9" n="4" facs="#facs_p9_lb4"/>
-                                <add place="left" facs="add1LX_p9"> du <term ref="#langage1">langage</term></add> considéré comme <term ref="#faculté">faculté de l’homme</term>, comme
+                                <gap extent="1 words" reason="deleted" /> en oubliant que ces
                                 <lb xml:id="lb5_p9" n="5" facs="#facs_p9_lb5"/>
-                                <add place="left" facs="add2LX_p9"> un des</add> signes distinctifs de son espèce, comme caractère
+                                <term ref="#langue1">langues</term> sont primordialement régies par
                                 <lb xml:id="lb6_p9" n="6" facs="#facs_p9_lb6"/>
-                                anthropologique ou pour ainsi dire zoologique.   
-                            </ab>
-                            <!--Fine pericope 1 p9 -->
-                            <!--Inizio pericope 2 p9-->
-                            <ab xml:id="pericope_91Aaaa018" n="18" xml:lang="FR" corresp="#it_91Aaaa018 #en_91Aaaa018" facs="#facs_pericope_91Aaaa018">
+                                certains <gap extent="1 words" reason="deleted" /><term ref="#glossa-mancante">principes</term>
+                                <subst><del rend="overstrike" resp="#FdS">humain</del><add place="above" resp="#FdS"><gap extent="1 words" reason="deleted" /></add></subst>
+                                qui<subst><del rend="overstrike" resp="#FdS"><gap extent="1 words" reason="deleted" /></del><add place="above" resp="#FdS">sont</add></subst> résumés
                                 <lb xml:id="lb7_p9" n="7" facs="#facs_p9_lb7"/>
-                                Messieurs, c’est ici un point sur lequel il
+                                dans <del rend="overstrike" resp="#FdS">pour</del> l’idée de <term ref="#langage2" rend="underline">langage</term> est <del rend="overstrike">d'un autre</del>
                                 <lb xml:id="lb8_p9" n="8" facs="#facs_p9_lb8"/>
-                                me faudrait disposer d’un temps considérable
-                                <lb xml:id="lb9_p9" n="9" facs="#facs_p9_lb9"/>
-                                pour exposer, <add place="above">développer</add> et justifier mon <term ref="#point-de-vue">point de</term>
+                                <del rend="overstrike">côté une entreprise denuée de tout in</del>
+                                <lb xml:id="lb9_p9" n="9" facs="#facs_p9_lb9" break="no" rend="double-stroke"/>
+                                <del rend="overstrike"><gap extent="2 words" reason="deleted" /></del> un travail
+                                <choice><abbr resp="#FdS">enc +</abbr><expan>encore plus</expan></choice> dénué
                                 <lb xml:id="lb10_p9" n="10" facs="#facs_p9_lb10"/>
-                                <term ref="#point-de-vue">vue</term>, qui n’est pas autre que celui de tous
+                                de toute signification sérieuse, de toute
                                 <lb xml:id="lb11_p9" n="11" facs="#facs_p9_lb11"/>
-                                les <term ref="#linguiste">linguistes</term> actuels : c’est qu’en effet l’<term ref="#linguistique-N">étude</term>
-                                <lb xml:id="lb12_p9" n="12" facs="#facs_p9_lb12"/>
-                                <term ref="#linguistique-N">du langage</term><add place="above"> comme fait </add> humain est tout entier ou
-                                <lb xml:id="lb13_p9" n="13" facs="#facs_p9_lb13"/>                        
-                                presque <choice><abbr type="brevigraph" n="abbr3">tt</abbr><expan n="exp3"> tout </expan></choice> entier contenu dans l’étude <hi rend="underlined">des langues</hi>.
+                                base <del rend="overstrike" resp="#FdS"><gap extent="1 words" reason="deleted" /></del>
+                                scientifique véritable.
                             </ab>
-                            <!--Fine pericope 2 p9-->
-                            <!--Inizio pericope 3 p9-->
-                            <ab xml:id="pericope_91Aaaa019" n="19" xml:lang="FR" corresp="#it_91Aaaa019 #en_91Aaaa019" facs="#facs_pericope_91Aaaa019">
-                                <lb xml:id="lb14_p9" n="14" facs="#facs_p9_lb14"/>
-                                Le <term ref="#physiologiste">phsiologiste</term>, <del rend="strikethrough">et</del> le <term ref="#psychologue">psychologue</term> <del rend="strikethrough"><gap reason="cancelled" extent= "1 word"></gap></del>
-                                <lb xml:id="lb15_p9" n="15" facs="#facs_p9_lb15"/>
-                                <add place="left" facs="add3LX_p9">et le <hi rend="underline"><term ref="#logicien">logicien</term> pourront</hi></add> longtemps disserter, le <term ref="#philosophe">philosophe</term>
-                                <lb xml:id="lb16_p9" n="16" facs="#facs_p9_lb16"/>
-                                pourra reprendre ensuite les résultats
-                                <lb xml:id="lb17_p9" n="17" facs="#facs_p9_lb17"/>
-                                combinés de la <term ref="#logique">logique</term>, de la <term ref="#psychologie">psychologie</term> et
-                                <lb xml:id="lb18_p9" n="18" facs="#facs_p9_lb18"/>
-                                de la <term ref="#physiologie">physiologie</term>, jamais, je me permets de
-                                <lb xml:id="lb19_p9" n="19" facs="#facs_p9_lb19"/>
-                                le dire, les plus élémentaires phénomènes du
-                                <lb xml:id="lb20_p9" n="20" facs="#facs_p9_lb20"/>
-                                <term ref="#langage1">langage</term> ne seront soupçonnés, ou clairement
-                                <lb xml:id="lb21_p9" n="21" facs="#facs_p9_lb21"/>
-                                aperçus, classés et compris, si l’on ne
-                                <lb xml:id="lb22_p9" n="22" facs="#facs_p9_lb22"/>
-                                e recourt en <choice><abbr type="brevigraph" n="abbr4">1°</abbr><expan n="exp4"> première </expan></choice> et dernière instance à l’<term ref="#linguistique-N">étude
-                                <lb xml:id="lb23_p9" n="23" facs="#facs_p9_lb23"/>
-                                <hi rend="underlined">des langues</hi></term><ptr target="#n3"/>. 
-                            </ab>
-                            <!--Fine pericope 3 p9-->
-                            <!--Inizio pericope 4 p9-->
-                            <ab xml:id="pericope_91Aaaa020" n="20" xml:lang="FR" corresp="#it_91Aaaa0020 #en_91Aaaa020" facs="#facs_pericope_91Aaaa020">
-                                <term ref="#langue1">Langue</term> et <term ref="#langage1">langage</term> ne sont
-                                <lb xml:id="lb24_p9" n="24" facs="#facs_p9_lb24"/>
-                                qu’une même chose ;<del rend="strikethrough"><gap reason="cancelled" extent="1 word"/></del> l’un est la générali--                                
-                                <lb xml:id="lb25_p9" n="25" facs="#facs_p9_lb25"/>
-                                sation de l’autre<ptr target="#n4"/>. 
-                            </ab>
-                            <!--Fine pericope 4 p9-->
-                            <!--Inizio pericope 5 p9-->
-                            <ab xml:id="pericope_91Aaaa021" n="21" xml:lang="FR" corresp="#it_91Aaaa021 #en_91Aaaa021" facs="#facs_pericope_91Aaaa021">
-                                Vouloir étudier le <term ref="#langage1">langage</term>
-                            </ab>
+                            <ab>
+                                <lb xml:id="del_p9" n="12" facs="#facs_p9_del" />
+                                <gap extent="15 lines" reason="deleted" />
+                            </ab>                            
                         </div>
                     </body>
                 </text>
@@ -384,41 +347,19 @@
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p9_it" hand="#h1" type="box_testo_it">
-                            <ab xml:id="it_91Aaaa017" corresp="#pericope_91Aaaa017" xml:lang="IT">
-                                <lb/>Qui si presenta quest’obiezione, secondo noi 
-                                <lb/>più o meno fondata: ma allora tu trasformi lo studio 
-                                <lb/>delle lingue nello studio del linguaggio considerato 
-                                <lb/>come facoltà dell’uomo, come uno dei segni 
-                                <lb/>distintivi della sua specie, come carattere 
-                                <lb/>antropologico o per così dire zoologico.
-                            </ab>                            
-                            <ab xml:id="it_91Aaaa018" corresp="#pericope_91Aaaa018" xml:lang="IT">
-                                <lb/>Signori, 
-                                <lb/>si tratta qui d’un punto sul quale dovrei disporre 
-                                <lb/>d’un tempo considerevole per esporre, sviluppare e 
-                                <lb/>giustificare il mio punto di vista, che non è altro che 
-                                <lb/>quello di tutti i linguisti al giorno d’oggi: e cioè che 
-                                <lb/>lo studio del linguaggio come fatto umano è tutto o 
-                                <lb/>quasi tutto ricompreso nello studio delle lingue.
-                            </ab>                            
-                            <ab xml:id="it_91Aaaa019" corresp="#pericope_91Aaaa019" xml:lang="IT">
-                                <lb/>Il fisiologo, lo psicologo e il logico potranno dissertare 
-                                <lb/>a lungo, il filosofo potrà poi riprendere i risultati 
-                                <lb/>combinati della logica, della psicologia e della 
-                                <lb/>fisiologia: mai, mi permetto di dire, i più elementari 
-                                <lb/>fenomeni del linguaggio saranno subodorati, o 
-                                <lb/>chiaramente intuiti, classificati e compresi, se non si 
-                                <lb/>ricorre in prima e in ultima istanza allo studio delle 
-                                <lb/>lingue.
-                            </ab>                            
-                            <ab xml:id="it_91Aaaa020" corresp="#pericope_91Aaaa020" xml:lang="IT">
-                                <lb/>Lingua e linguaggio non sono che una 
-                                <lb/>medesima cosa; l’uno è la generalizzazione 
-                                <lb/>dell’altra.
-                            </ab>                            
                             <ab xml:id="it_91Aaaa021" corresp="#pericope_91Aaaa021" xml:lang="IT">
-                                <lb/>Voler studiare il linguaggio....
-                            </ab>
+                                <lb/>senza darsi la pena di studiarne le diverse manifestazioni, che, evidentemente, sono le 
+                                <lb/>lingue è un’impresa assolutamente 
+                                <lb/>vana, e chimerica; d’altro canto, voler studiare le 
+                                <lb/>lingue dimenticando che tali 
+                                <lb/>lingue sono rette in modo primordiale da 
+                                <lb/>certi principi che 
+                                <lb/>sono riassunti 
+                                <lb/>nell’idea di linguaggio 
+                                <lb/>è lavoro ancora più spoglio 
+                                <lb/>di ogni significato serio, di ogni reale 
+                                <lb/>base scientifica.
+                            </ab>    
                         </div>                            
                     </body>
                 </text>          
@@ -428,42 +369,19 @@
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
                     <body resp="#AC" xml:id="body-inglese">
                         <div xml:id="div_p9_en" hand="#h1" type="box_testo_en">
-                            <ab xml:id="en_91Aaaa017" corresp="#pericope_91Aaaa017" xml:lang="EN">
-                                <lb/>This is were the following objection, 
-                                <lb/>more or les well founded in my view, occurs: you are transforming the study 
-                                <lb/>of languages into the study of langage,
-                                <lb/>of langage taken as a human faculty, as one of the distinguishing features
-                                <lb/>of the species, as an anthropological,
-                                <lb/>or soto speak, zoological characteristic.     
+                            <ab xml:id="en_91Aaaa017" corresp="#pericope_91Aaaa017" xml:lang="EN"> 
+                                <lb/>without bothering to study 
+                                <lb/>its manifestations in various 
+                                <lb/>languages is an entirely 
+                                <lb/>vain and empty undertaking; on the other hand studying 
+                                <lb/>languages while forgetting that 
+                                <lb/>they are organized according to 
+                                <lb/>certain fundamental principles which male up 
+                                <lb/>the very idea of language is 
+                                <lb/>a task even more 
+                                <lb/>devoid of serious meaning, 
+                                <lb/>or of any true scientific basis. 
                             </ab> 
-                            <ab xml:id="en_91Aaaa018" corresp="#pericope_91Aaaa018" xml:lang="EN">
-                                <lb/>Gentlemen, 
-                                <lb/>I should need some considerable time 
-                                <lb/>to set out, develop, and justify my view touching this point, 
-                                <lb/>which is no different from that 
-                                <lb/>of all linguists today: it is that 
-                                <lb/>it is entirely or almost entirely, within the study of languages 
-                                <lb/>that one studies language as a human phenomenon.
-                            </ab>                             
-                            <ab xml:id="en_91Aaaa019" corresp="#pericope_91Aaaa019" xml:lang="EN">
-                                <lb/>Physiologists, psychologists, and logicians may hold forth 
-                                <lb/>at length, philosophers may then take up the combined results 
-                                <lb/>of logic, psychology, and 
-                                <lb/>physiology; nut I male so bold as to say that the most elementary 
-                                <lb/>phenomena of language will never be glimpsed, 
-                                <lb/>let alone clearly perceived, classified, and understood, unless we 
-                                <lb/>take as our starting point and our goal the study of individual 
-                                <lb/>languages.
-                            </ab>                     
-                            <ab xml:id="en_91Aaaa020" corresp="#pericope_91Aaaa020" xml:lang="EN">
-                                <lb/>The language system (langue) and the language faculty (langage) come back to one 
-                                <lb/>and the same thing; one is the generalization 
-                                <lb/>of the other         
-                            </ab>                            
-                            <ab xml:id="en_91Aaaa021" corresp="#pericope_91Aaaa021" xml:lang="EN">
-                                <lb/>To claim to study the phenomenon of language (...)
-                            </ab>
-
                         </div>                         
                     </body>
                 </text>       
