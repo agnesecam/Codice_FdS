@@ -306,9 +306,6 @@
                             <ab xml:id="pericope_91Aaaa023" n="23" xml:lang="FR" corresp="#it_91Aaaa023 #en_91Aaaa023" facs="#facs_pericope_91Aaaa023"> 
                                 <lb xml:id="lb5_p10" n="5" facs="#facs_p10_lb5"/>
                                 À supposer mèm<w><unclear facs="#pag10_zona4" n="21" reason="faded">e</unclear></w>
-                                <lb xml:id="lb6_p10" n="6" facs="#facs_p10_lb6"/>
-                                que l’<term>exercice de la parole</term><choice facs="#pag10_zona38" n="21"><orig>constituât</orig><reg>constituant</reg></choice>
-                                chez l'<w><choice facs="#pag10_zona5" n="21"><abbr type="brevigraph">ho<am>m̃</am>e</abbr><expan>hom<ex>m</ex>e</expan></choice></w>
                                 <lb xml:id="lb7_p10" n="7" facs="#facs_p10_lb7"/>
                                 que l’<term>exercice de la parole</term><choice facs="#pag10_zona38" n="21"><orig>constituât</orig><reg>constituant</reg></choice>chez l'<w><choice facs="#pag10_zona5" n="21"><abbr type="brevigraph">ho<am>m̃</am>e</abbr><expan>hom<ex>m</ex>e</expan></choice></w>                                
                                 <lb xml:id="lb8_p10" n="8" facs="#facs_p10_lb8"/>
@@ -345,15 +342,17 @@
                                 <lb xml:id="lb22_p10" n="22" facs="#facs_p10_lb22"/>
                                 le profit net qui en <w> <subst facs="#pag10_zona32" n="22"> <del hand="#EF">resulte</del> <add hand="#FDS">résultent</add> </subst> </w> pour notre connaissa<w><damage quantity="1" unit="char"><unclear reason="faded">n</unclear></damage></w><add facs="#pag10_zona33" n="22" quantity="2" unit="char" place="below" hand="#FDS">ce</add>
                                 <lb xml:id="lb23_p10" n="23" facs="#facs_p10_lb23"/>
-                                <gap rend="overstrike" reason="illegible" quantity="1" unit="word" resp="#FDS"/> <w> <del facs="#pag10_zona35" n="22" rend="overstrike" quantity="1" unit="word" resp="#FDS"> de l'ho<am>m̃</am>e. </del> <add facs="#pag10_zona34" n="22" place="supralinear" resp="#FDS"> à la <term>langue</term>. </add> </w> <gap facs="#pag10_zona23" n="22" rend="overstrike" reason="deleted" quantity="4" unit="word" resp="#FDS"/> 
-                            </ab>
-                            <ab xml:id="pericope_91Aaaa025" n="25" xml:lang="FR" corresp="#it_91Aaaa025 #en_91Aaaa025" facs="#facs_pericope_91Aaaa025"> 
-                                Et ceci n’a pas une signifi<pc facs="#pag10_zona25" n="23" force="weak">-</pc>
+                                des opérations possibles <del><gap/></del> <add place="above">de l’instinct humain appliqué à la 
                                 <lb xml:id="lb24_p10" n="24" facs="#facs_p10_lb24"/>
+                                <term ref="#langue1">langue</term></add>.
+                            </ab>. 
+                            <ab xml:id="pericope_91Aaaa025" n="25" xml:lang="FR" corresp="#it_91Aaaa025 #en_91Aaaa025" facs="#facs_pericope_91Aaaa025" part="I"> 
+                                Et ceci n’a pas une signifi<pc facs="#pag10_zona25" n="23" force="weak">-</pc>
+                                <lb xml:id="lb25_p10" n="24" facs="#facs_p10_lb24"/>
                                 <pc facs="#pag10_zona26" n="23" force="weak">=</pc>cation vague et générale: toute personne un peu
-                                <lb xml:id="lb25_p10" n="25" facs="#facs_p10_lb25"/>
+                                <lb xml:id="lb26_p10" n="25" facs="#facs_p10_lb25"/>
                                 versée dans nos études sait avec quelle joie
-                                <lb xml:id="lb26_p10" n="26" facs="#facs_p10_lb26"/>
+                                <lb xml:id="lb27_p10" n="26" facs="#facs_p10_lb26"/>
                                 <add place="below" quantity="7" unit="word" facs="#pag10_zona37" n="23" hand="#FDS">et quel triomphe chaque chercheur signale un</add>
                             </ab>                          
                         </div>
@@ -365,19 +364,34 @@
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p10_it" hand="#h1" type="box_testo_it">
-                            <ab xml:id="it_91Aaaa021" corresp="#pericope_91Aaaa021" xml:lang="IT">
-                                <lb/>senza darsi la pena di studiarne le diverse manifestazioni, che, evidentemente, sono le 
-                                <lb/>lingue è un’impresa assolutamente 
-                                <lb/>vana, e chimerica; d’altro canto, voler studiare le 
-                                <lb/>lingue dimenticando che tali 
-                                <lb/>lingue sono rette in modo primordiale da 
-                                <lb/>certi principi che 
-                                <lb/>sono riassunti 
-                                <lb/>nell’idea di linguaggio 
-                                <lb/>è lavoro ancora più spoglio 
-                                <lb/>di ogni significato serio, di ogni reale 
-                                <lb/>base scientifica.
+                            <ab xml:id="it_91Aaaa022" corresp="#pericope_91Aaaa022" xml:lang="IT">
+                                Senza posa, dunque, lo studio generale 
+                                del linguaggio si alimenta delle osservazioni di ogni sorta 
+                                che saranno state compiute nel campo parti-
+                                =colare di questa o quella lingua.
                             </ab>    
+                            <ab xml:id="it_91Aaaa023" corresp="#pericope_91Aaaa023" xml:lang="IT">
+                                Anche a supporre 
+                                che l’esercizio dell’espressione linguistica [parole] costituisca nell’uomo 
+                                una funzione naturale, 
+                                che è il punto di vista eminentemente falso 
+                                in cui si pongono certe scuole di antropologi 
+                                e di linguisti, bisognerebbe ancora assolutamente 
+                                sostenere che l’esercizio di tale funzione non è 
+                                abbordabile per la scienza che dal lato della 
+                                lingua o dal lato delle lingue esistenti.
+                            </ab>                               
+                            <ab xml:id="it_91Aaaa024" corresp="#pericope_91Aaaa024" xml:lang="IT">
+                                Ma, per converso, lo studio di tali lingue 
+                                esistenti si condannerebbe a rimanere pressoché sterile, e in ogni caso 
+                                a restare sprovvisto sia di metodo che 
+                                di qualsiasi principio direttivo, se esso non tendesse costantemente 
+                                ad illustrare il problema 
+                                generale del linguaggio, se esso non cercasse 
+                                di enucleare da ogni fatto particolare che osserva il senso e 
+                                profitto netto che ne derivano per la nostra conoscenza 
+                                delle operazioni possibili dell’istinto18 umano applicato alla lingua.
+                            </ab>   
                         </div>                            
                     </body>
                 </text>          
