@@ -287,10 +287,10 @@
                         <pb n="f1r" xml:id="body_p10" facs="#scan_p10"/>
                         <!--Numeri impaginazione a stampa e a mano-->
                         <ab>
-                            <fw type="pageNum" xml:id="HandPageNumber-9" rend="align(left)" facs="#facs_HandPageNumber-9"> 9 </fw>
+                            <fw type="pageNum" xml:id="HandPageNumber-9" rend="align(left)" facs="#facs_HandPageNumber-10"> 10 </fw>
                         </ab>
                         <div xml:id="div_p10_fr" hand="#h1" type="box_testo">
-                            <ab xml:id="pericope_91Aaaa021" n="21" xml:lang="FR" corresp="#it_91Aaaa021 #en_91Aaaa021" facs="#facs_pericope_91Aaaa021"> 
+                            <ab xml:id="pericope_91Aaaa022" n="22" xml:lang="FR" corresp="#it_91Aaaa022 #en_91Aaaa022" facs="#facs_pericope_91Aaaa022"> 
                                 <lb xml:id="lb1_p10" n="1" facs="#facs_p10_lb1"/>
                                 <add place="supralinear" hand="#FDS" cert="low" facs="#pag10_zona40" n="20"></add>
                                 Sans cesse par conséquent l'<term>étude générale</term>
@@ -305,7 +305,7 @@
                                 <pc force="weak" facs="#pag10_zona3" n="20">=</pc>ticulier de telle ou telle
                                 <term>langue</term>.      
                             </ab>
-                            <ab xml:id="pericope_91Aaaa022" n="22" xml:lang="FR" corresp="#it_91Aaaa022 #en_91Aaaa022" facs="#facs_pericope_91Aaaa022"> 
+                            <ab xml:id="pericope_91Aaaa023" n="23" xml:lang="FR" corresp="#it_91Aaaa023 #en_91Aaaa023" facs="#facs_pericope_91Aaaa023"> 
                                 <lb xml:id="lb5_p10" n="5" facs="#facs_p10_lb5"/>
                                 À supposer mèm<w><unclear facs="#pag10_zona4" n="21" reason="faded">e</unclear></w>
                                 <lb xml:id="lb6_p10" n="6" facs="#facs_p10_lb6"/>
@@ -328,7 +328,7 @@
                                 <lb xml:id="lb14_p10" n="14" facs="#facs_p10_lb14"/>
                                 la <term>langue</term> ou <subst facs="#pag10_zona11" n="21"> <del rend="overstrike">ou</del> <add place="supralinear" hand="#FDS">par le c&#244;té</add></subst>des<term>langues<hi rend="double underline"><hi rend="italic" facs="#pag10_zona12" n="21">existantes</hi></hi></term>.
                             </ab>
-                            <ab xml:id="pericope_91Aaaa023" n="23" xml:lang="FR" corresp="#it_91Aaaa023 #en_91Aaaa023" facs="#facs_pericope_91Aaaa023"> 
+                            <ab xml:id="pericope_91Aaaa024" n="24" xml:lang="FR" corresp="#it_91Aaaa024 #en_91Aaaa024" facs="#facs_pericope_91Aaaa024"> 
                                 <lb xml:id="lb15_p10" n="15" facs="#facs_p10_lb15"/>
                                 Mais, réciproquement, l’<term>étude de ces langues</term>
                                 <lb xml:id="lb16_p10" n="16" facs="#facs_p10_lb16"/>
@@ -349,7 +349,7 @@
                                 <lb xml:id="lb23_p10" n="23" facs="#facs_p10_lb23"/>
                                 <gap rend="overstrike" reason="illegible" quantity="1" unit="word" resp="#FDS" /> <w> <del facs="#pag10_zona35" n="22" rend="overstrike" quantity="1" unit="word" resp="#FDS"> de l'ho<am>m&#771;</am>e. </del> <add facs="#pag10_zona34" n="22" place="supralinear" resp="#FDS"> à la <term>langue</term>. </add> </w> <gap facs="#pag10_zona23" n="22" rend="overstrike" reason="deleted" quantity="4" unit="word" resp="#FDS"/> 
                             </ab>
-                            <ab xml:id="pericope_91Aaaa024" n="24" xml:lang="FR" corresp="#it_91Aaaa023 #en_91Aaaa023" facs="#facs_pericope_91Aaaa023"> 
+                            <ab xml:id="pericope_91Aaaa025" n="25" xml:lang="FR" corresp="#it_91Aaaa025 #en_91Aaaa025" facs="#facs_pericope_91Aaaa025"> 
                                 Et ceci n’a pas une signifi<pc facs="#pag10_zona25" n="23" force="weak">-</pc>
                                 <lb xml:id="lb24_p10" n="24" facs="#facs_p10_lb24"/>
                                 <pc facs="#pag10_zona26" n="23" force="weak">=</pc>cation vague et générale: toute personne un peu

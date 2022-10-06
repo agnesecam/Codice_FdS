@@ -342,7 +342,7 @@
                             <!--Inizio pericope 3 p8-->
                             <ab xml:id="pericope_91Aaaa019" n="19" xml:lang="FR" corresp="#it_91Aaaa019 #en_91Aaaa019" facs="#facs_pericope_91Aaaa019">
                                 <lb xml:id="lb14_p8" n="14" facs="#facs_p8_lb14"/>
-                                Le <term ref="#physiologiste">phsiologiste</term>, <del rend="strikethrough">et</del> le <term ref="#psychologue">psychologue</term> <del rend="strikethrough"><gap reason="cancelled" extent= "1 word"></gap></del>
+                                Le <term ref="#physiologiste">physiologiste</term>, <del rend="strikethrough">et</del> le <term ref="#psychologue">psychologue</term> <del rend="strikethrough"><gap reason="cancelled" extent= "1 word"></gap></del>
                                 <lb xml:id="lb15_p8" n="15" facs="#facs_p8_lb15"/>
                                 <add place="left" facs="add3LX_p8">et le <hi rend="underline"><term ref="#logicien">logicien</term> pourront</hi></add> longtemps disserter, le <term ref="#philosophe">philosophe</term>
                                 <lb xml:id="lb16_p8" n="16" facs="#facs_p8_lb16"/>
