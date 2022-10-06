@@ -254,39 +254,24 @@
     </teiHeader>
     
     <facsimile>
-        <!--OTTAVA PAGINA-->
+        <!--NONA PAGINA-->
         <surface n="9" xml:id="scan_p9">
             <graphic url="ms_fr_03951_01_1_p009-resized.jpg" width="600px" height="900px"/> 
 
             <!--Righe-->
-            <zone points=" 148, 87, 142,113, 556, 113, 557, 91 " rendition="line" xml:id="facs_p9_lb1"/>                            <!--1 riga, prima parte-->
-            <zone points=" 139, 114,122,151, 557, 144, 551, 118 " rendition="line" xml:id="facs_p9_lb2"/>                        <!--2 riga-->
-            <zone points=" 135, 161, 124,187, 554, 186, 551,155 " rendition="line" xml:id="facs_p9_lb3"/>                         <!--3 riga-->
-            <zone points=" 58, 191, 50, 221, 551, 211, 549, 191 " rendition="line" xml:id="facs_p9_lb4"/>                          <!--4 riga-->
-            <zone points=" 65, 226, 61, 260 , 552, 244, 546, 214 " rendition="line" xml:id="facs_p9_lb5"/>                         <!--5 riga-->
-            <zone points=" 136, 259, 130,281, 548,276 ,545,252 " rendition="line" xml:id="facs_p9_lb6"/>                         <!--6 riga-->
-            <zone points=" 135,286,132,310,552,303,543,283 " rendition="line" xml:id="facs_p9_lb7"/>                            <!--7 riga-->
-            <zone points=" 137,318,128,348,548,332,551,308 " rendition="line" xml:id="facs_p9_lb8"/>                              <!--8 riga-->
-            <zone points=" 143,351,121,384,542,361,543,339 " rendition="line" xml:id="facs_p9_lb9"/>                           <!--9 riga-->
-            <zone points=" 142,385,131,406,543,388,543,366 " rendition="line" xml:id="facs_p9_lb10"/>                         <!--10 riga-->
-            <zone points=" 137,414 ,134,437, 555,419,546,397 " rendition="line" xml:id="facs_p9_lb11"/>                       <!--11 riga-->        
-            <zone points=" 144,438 ,144,467, 527,449 ,522,422 " rendition="line" xml:id="facs_p9_lb12"/>                     <!--12 riga-->        
-            <zone points=" 148,474 ,130,503, 547,490 ,540,463 " rendition="line" xml:id="facs_p9_lb13"/>                     <!--13 riga-->        
-            <zone points="  154,503 ,138,527, 550,518 ,546,492 " rendition="line" xml:id="facs_p9_lb14"/>                     <!--14 riga-->        
-            <zone points=" 53,537, 48,589 ,106,588 ,146,560,538,542,536,522 " rendition="line" xml:id="facs_p9_lb15"/>                     <!--15 riga-->        
-            <zone points=" 148,568 ,537,550, 527,568 ,139,598 " rendition="line" xml:id="facs_p9_lb16"/>                     <!--16 riga-->        
-            <zone points=" 142,602 ,140,618 ,527,595, 526,573 " rendition="line" xml:id="facs_p9_lb17"/>                    <!--17 riga-->        
-            <zone points=" 145,623 ,135,649 ,528,622, 535,601 " rendition="line" xml:id="facs_p9_lb18"/>                     <!--18 riga-->        
-            <zone points=" 140,653 ,137,678, 532,648, 529,627 " rendition="line" xml:id="facs_p9_lb19"/>                     <!--19 riga-->        
-            <zone points=" 144,680 ,135,703, 543,684, 541,658 " rendition="line" xml:id="facs_p9_lb20"/>                    <!--20 riga-->
-            <zone points=" 144,713 ,132,741,523,718 ,519,694 " rendition="line" xml:id="facs_p9_lb21"/>                      <!--21 riga-->
-            <zone points=" 142,745 ,142,764, 541,751, 539,724 " rendition="line" xml:id="facs_p9_lb22"/>                      <!--22 riga-->
-            <zone points=" 145,770 ,132,798 ,525,783, 527,755 " rendition="line" xml:id="facs_p9_lb23"/>                      <!--23 riga-->
-            <zone points=" 144,810 ,139,833, 545,809 ,537,785 " rendition="line" xml:id="facs_p9_lb24"/>                      <!--24 riga-->
-            <zone points=" 164,837 ,159,852, 546,843 ,545,817 " rendition="line" xml:id="facs_p9_lb25"/>                      <!--25 riga-->
-
-            <zone points=" 81,58,52,112,105,112,112,71 " rendition="hotspot" xml:id="facs_HandPageNumber-9"/>              <!--Numero 8 sx cerchiato -->
-
+            <zone points="103,59,128,59, 125,104, 82,105, 84,65" rendition="line" xml:id="facs_HandPageNumber-9"/>     <!--Numero 9 cerchiato in alto a sx-->           
+            <zone points="550,53, 351,53, 344,92, 136,101, 123,120, 532,122 " rendition="line" xml:id="facs_p9_lb1"/>                       
+            <zone points=" 137,128, 535,130, 535,154, 135,146 " rendition="line" xml:id="facs_p9_lb2"/>                       
+            <zone points=" 38,156, 37,202, 523,183, 521,161 " rendition="line" xml:id="facs_p9_lb3"/>
+            <zone points=" 133,188, 124,214, 515,215, 521,191 " rendition="line" xml:id="facs_p9_lb4"/>
+            <zone points=" 131,218, 522,225, 517,247, 130,248 " rendition="line" xml:id="facs_p9_lb5"/>
+            <zone points=" 64,250, 523,256, 526,284, 60,277 " rendition="line" xml:id="facs_p9_lb6"/>
+            <zone points=" 77,279, 76,307, 527,306, 521,287 " rendition="line" xml:id="facs_p9_lb7"/>
+            <zone points=" 125,318, 125,338, 532,332, 529,312 " rendition="line" xml:id="facs_p9_lb8"/>
+            <zone points=" 126,348, 126,364, 528,358, 531,347 " rendition="line" xml:id="facs_p9_lb9"/>
+            <zone points=" 121,372, 123,392, 519,394, 527,363 " rendition="line" xml:id="facs_p9_lb10"/>
+            <zone points=" 59,385 ,52,411, 425,407, 421,395 " rendition="line" xml:id="facs_p9_lb11"/>
+            <zone points=" 131,432 ,550,418 ,546,834 ,126,840 " rendition="line" xml:id="facs_p9_lb12"/>    
         </surface>
     </facsimile>
 
@@ -306,7 +291,7 @@
                             <ab xml:id="pericope_91Aaaa021" n="21" xml:lang="FR" corresp="#it_91Aaaa021 #en_91Aaaa021" facs="#facs_pericope_91Aaaa021"> 
                                 <lb xml:id="lb1_p9" n="1" facs="#facs_p9_lb1"/> 
                                 sans se donner la peine <add place="above" resp="#FdS">d’en étudier
-									les diverses manifestations qu’évidemment sont</add> les
+                                les diverses manifestations qu’évidemment sont</add> les
                                 <lb xml:id="lb2_p9" n="2" facs="#facs_p9_lb2"/>
                                 <term ref="#langue1" rend="underline">langues</term> est une entreprise <w>absolu
                                 <lb xml:id="lb3_p9" n="3" facs="#facs_p9_lb3"/>
@@ -316,9 +301,9 @@
                                 <lb xml:id="lb5_p9" n="5" facs="#facs_p9_lb5"/>
                                 <term ref="#langue1">langues</term> sont primordialement régies par
                                 <lb xml:id="lb6_p9" n="6" facs="#facs_p9_lb6"/>
-                                certains <gap extent="1 words" reason="deleted"/><term ref="#glossa-mancante">principes</term>
+                                certains <gap extent="1 words" reason="deleted"/><term ref="#glossa-mancante"> principes</term>
                                 <subst><del rend="overstrike" resp="#FdS">humain</del><add place="above" resp="#FdS"><gap extent="1 words" reason="deleted"/></add></subst>
-                                qui<subst><del rend="overstrike" resp="#FdS"><gap extent="1 words" reason="deleted"/></del><add place="above" resp="#FdS">sont</add></subst> résumés
+                                qui<subst><del rend="overstrike" resp="#FdS"><gap extent="1 words" reason="deleted"/> </del><add place="above" resp="#FdS">sont</add></subst> résumés
                                 <lb xml:id="lb7_p9" n="7" facs="#facs_p9_lb7"/>
                                 dans <del rend="overstrike" resp="#FdS">pour</del> l’idée de <term ref="#langage2" rend="underline">langage</term> est <del rend="overstrike">d'un autre</del>
                                 <lb xml:id="lb8_p9" n="8" facs="#facs_p9_lb8"/>
