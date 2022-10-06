@@ -256,24 +256,38 @@
     </teiHeader>
     
     <facsimile>
-        <!--NONA PAGINA-->
-        <surface n="9" xml:id="scan_p10">
+        <!--DECIMA PAGINA-->
+        <surface n="10" xml:id="scan_p10">
             <graphic url='ms_fr_03951_01_1_p010-resized.jpg' width='600px' height='900px'/> 
-
             <!--Righe-->
-            <zone points = '103,59,128,59, 125,104, 82,105, 84,65'  rendition="line" xml:id="facs_HandPageNumber-9"/>     <!--Numero 9 cerchiato in alto a sx-->           
-            <zone points = '550,53, 351,53, 344,92, 136,101, 123,120, 532,122 '  rendition="line" xml:id="facs_p10_lb1"/>                       
-            <zone points = ' 137,128, 535,130, 535,154, 135,146 ' rendition="line" xml:id="facs_p10_lb2"/>                       
-            <zone points = ' 38,156, 37,202, 523,183, 521,161 '  rendition="line" xml:id="facs_p10_lb3"/>
-            <zone points = ' 133,188, 124,214, 515,215, 521,191 '  rendition="line" xml:id="facs_p10_lb4"/>
-            <zone points = ' 131,218, 522,225, 517,247, 130,248 ' rendition="line" xml:id="facs_p10_lb5"/>
-            <zone points = ' 64,250, 523,256, 526,284, 60,277 '   rendition="line" xml:id="facs_p10_lb6"/>
-            <zone points = ' 77,279, 76,307, 527,306, 521,287 ' rendition="line" xml:id="facs_p10_lb7"/>
-            <zone points = ' 125,318, 125,338, 532,332, 529,312 '  rendition="line" xml:id="facs_p10_lb8"/>
-            <zone points = ' 126,348, 126,364, 528,358, 531,347 '  rendition="line" xml:id="facs_p10_lb9"/>
-            <zone points = ' 121,372, 123,392, 519,394, 527,363 ' rendition="line" xml:id="facs_p10_lb10"/>
-            <zone points = ' 59,385 ,52,411, 425,407, 421,395 ' rendition="line" xml:id="facs_p10_lb11"/>
-            <zone points = ' 131,432 ,550,418 ,546,834 ,126,840 ' rendition="line" xml:id="facs_p10_lb12"/>    
+            <zone points = ' 147,86,153,120,555,126,547,101  ' rendition="line" xml:id="facs_p10_lb1"/>                       
+            <zone points = ' 140,126, 135,149, 557,154, 560,133 '  rendition="line" xml:id="facs_p10_lb2"/>                       
+            <zone points = ' 146,158, 146,180, 549,182, 553,167  '  rendition="line" xml:id="facs_p10_lb3"/>
+            <zone points = ' 139,186 ,133,204, 557,209, 555,194 '  rendition="line" xml:id="facs_p10_lb4"/>
+            <zone points = ' 145,218, 145,242, 561,248 ,559,235 ' rendition="line" xml:id="facs_p10_lb5"/>
+            <zone points = ' 40,241, 38,276, 547,277 ,550,255  '   rendition="line" xml:id="facs_p10_lb6"/>
+            <zone points = ' 136,281, 139,297, 539,303, 540,283 ' rendition="line" xml:id="facs_p10_lb7"/>
+            <zone points = ' 142,307, 137,333, 557,334 ,556,314 '  rendition="line" xml:id="facs_p10_lb8"/>
+            <zone points = '145,341, 136,357, 556,364 ,551,348 '  rendition="line" xml:id="facs_p10_lb9"/>
+            <zone points = ' 146,364, 142,390, 559,391, 564,372 ' rendition="line" xml:id="facs_p10_lb10"/>
+            <zone points = ' 145,399, 146,426 ,558,422, 559,395  ' rendition="line" xml:id="facs_p10_lb11"/>
+            <zone points = '  149,426 ,143,447, 462,450, 457,426' rendition="line" xml:id="facs_p10_lb12"/>    
+            <zone points = ' 177,460,177,477, 545,482, 541,465 '  rendition="line" xml:id="facs_p10_lb13"/>    
+            <zone points = ' 39,487, 33,509, 559,510 ,558,488 '  rendition="line" xml:id="facs_p10_lb14"/>    
+            <zone points = '  140,520, 135,539, 554,541, 548,515' rendition="line" xml:id="facs_p10_lb15"/>    
+            <zone points = '  142,548 ,143,579, 553,570 ,550,549' rendition="line" xml:id="facs_p10_lb16"/>    
+            <zone points = '   150,581, 141,596, 542,595, 532,580' rendition="line" xml:id="facs_p10_lb17"/>    
+            <zone points = '  148,611, 147,640, 565,628, 563,610 ' rendition="line" xml:id="facs_p10_lb18"/>    
+            <zone points = '  151,639, 147,664, 542,659 ,536,633' rendition="line" xml:id="facs_p10_lb19"/>    
+            <zone points = '  151,663, 152,687, 559,698, 563,667' rendition="line" xml:id="facs_p10_lb20"/>    
+            <zone points = ' 151,690, 142,713, 559,721, 562,687' rendition="line" xml:id="facs_p10_lb21"/>    
+            <zone points = '  53,719 ,44,755, 540,749, 543,719' rendition="line" xml:id="facs_p10_lb22"/>    
+            <zone points = '  151,760 ,150,781, 557,783, 548,761' rendition="line" xml:id="facs_p10_lb23"/>    
+            <zone points = '  154,787 ,148,803, 542,805, 539,787' rendition="line" xml:id="facs_p10_lb24"/>    
+            <zone points = '  152,818, 146,841, 541,835, 541,820' rendition="line" xml:id="facs_p10_lb25"/>    
+
+            <zone points = ' 67,64, 95,66 ,99,97, 68,103 '  rendition="line" xml:id="facs_HandPageNumber-10"/>     <!--Numero 910cerchiato in alto a sx-->           
+
         </surface>
     </facsimile>
 
@@ -287,32 +301,28 @@
                         <pb n="f1r" xml:id="body_p10" facs="#scan_p10"/>
                         <!--Numeri impaginazione a stampa e a mano-->
                         <ab>
-                            <fw type="pageNum" xml:id="HandPageNumber-9" rend="align(left)" facs="#facs_HandPageNumber-10"> 10 </fw>
+                            <fw type="pageNum" xml:id="HandPageNumber-10" rend="align(left)" facs="#facs_HandPageNumber-10"> 10 </fw>
                         </ab>
                         <div xml:id="div_p10_fr" hand="#h1" type="box_testo">
                             <ab xml:id="pericope_91Aaaa022" n="22" xml:lang="FR" corresp="#it_91Aaaa022 #en_91Aaaa022" facs="#facs_pericope_91Aaaa022"> 
                                 <lb xml:id="lb1_p10" n="1" facs="#facs_p10_lb1"/>
-                                <add place="supralinear" hand="#FDS" cert="low" facs="#pag10_zona40" n="20"></add>
-                                Sans cesse par conséquent l'<term>étude générale</term>
+                                <add place="above" hand="#FDS" cert="low" facs="#pag10_zona40" n="20"></add>
+                                Sans cesse par conséquent l'<term ref="#linguistique-N">étude générale</term>
                                 <lb xml:id="lb2_p10" n="2" facs="#facs_p10_lb2"/>
-                                <term>du langage</term>
-                                s'<w><subst facs="#pag10_zona30" n="20"><del hand="">alimentera</del><add>alimente</add></subst></w>
-                                des observations de
-                                <w>t<subst facs="#pag10_zona1" n="20"><del rend="overtype">t</del><add hand="#FDS">o</add></subst>u<unclear reason="faded">te</unclear></w>
+                                <term ref="#linguistique-N">du langage</term>
+                                s'alimentera des observations de toute
                                 <lb xml:id="lb3_p10" n="3" facs="#facs_p10_lb3"/>
-                                sorte qui auront été <choice facs="#pag10_zona39" n="20"><sic resp="#EF">laites</sic><corr>faites</corr></choice> dans le champ par<pc force="weak" facs="#pag10_zona2" n="20">-</pc>
+                                sorte qui auront été faites dans le champ par<pc force="weak" facs="#pag10_zona2" n="20">-</pc>
                                 <lb xml:id="lb4_p10" n="4" facs="#facs_p10_lb4"/>
-                                <pc force="weak" facs="#pag10_zona3" n="20">=</pc>ticulier de telle ou telle
-                                <term>langue</term>.      
+                                <pc force="weak" facs="#pag10_zona3" n="20">=</pc>ticulier de telle ou telle <term ref="#langue1">langue</term>.      
                             </ab>
                             <ab xml:id="pericope_91Aaaa023" n="23" xml:lang="FR" corresp="#it_91Aaaa023 #en_91Aaaa023" facs="#facs_pericope_91Aaaa023"> 
-                                <lb xml:id="lb5_p10" n="5" facs="#facs_p10_lb5"/>
                                 À supposer mèm<w><unclear facs="#pag10_zona4" n="21" reason="faded">e</unclear></w>
-                                <lb xml:id="lb7_p10" n="7" facs="#facs_p10_lb7"/>
-                                que l’<term>exercice de la parole</term><choice facs="#pag10_zona38" n="21"><orig>constituât</orig><reg>constituant</reg></choice>chez l'<w><choice facs="#pag10_zona5" n="21"><abbr type="brevigraph">ho<am>m&#771;</am>e</abbr><expan>hom<ex>m</ex>e</expan></choice></w>                                
-                                <lb xml:id="lb8_p10" n="8" facs="#facs_p10_lb8"/>
+                                <lb xml:id="lb5_p10" n="5" facs="#facs_p10_lb5"/>
+                                que l’<term ref="#parole">exercice de la parole</term> <choice facs="#pag10_zona38" n="21"><orig>constituât</orig><reg>constituant</reg></choice>chez l'<w><choice facs="#pag10_zona5" n="21"><abbr type="brevigraph">ho<am>m&#771;</am>e</abbr><expan>hom<ex>m</ex>e</expan></choice></w>                                
+                                <lb xml:id="lb6_p10" n="6" facs="#facs_p10_lb6"/>
                                 <w><subst facs="#pag10_zona6" n="21"><del rend="overstrike" quantity="6" unit="word">une faculté naturelle, native au naturelle</del><add place="margin" facs="#pag10_zona31" n="21" hand="#FDS">une<term>fonction naturelle</term>,</add></subst></w>                                
-                                <lb xml:id="lb9_p10" n="9" facs="#facs_p10_lb9" break="no" rend="double-stroke"/>
+                                <lb xml:id="lb7_p10" n="7" facs="#facs_p10_lb7" break="no" rend="double-stroke"/>
                                 ce qui est le<term>point de vue</term>éminemment fau<damage facs="#pag10_zona9" n="21" quantity="1" unit="char" agent="rubbing" degree="low">x</damage>
                                 <lb xml:id="lb10_p10" n="10" facs="#facs_p10_lb10"/>
                                 où se placent certaines<orgName type="institution">écoles d’anthropologistes</orgName>
@@ -332,9 +342,9 @@
                                     - <w><add place="margin" hand="#FDS"/><damage facs="#pag10_zona15" n="22" quantity="3" unit="char"><unclear reason="ink blot" agent="ink">exi</unclear>s</damage><sic>tt</sic><corr resp="#EF">t</corr>ant<sic>s</sic><corr resp="#EF">es</corr></w>
                                     - <w><subst facs="#pag10_zona13" n="22"><del rend="overwrite">s</del><add place="inline" hand="#FDS">S</add></subst>e condamnerait à rester presque stérile, à rester</w>                                                          
                                 <lb xml:id="lb17_p10" n="17" facs="#facs_p10_lb17"/>
-                                en tout cas dépourvue <add facs="#pag10_zona27" n="22" place="supralinear" hand="#FDS">à la fois</add> de <term>méthode</term> et 
+                                en tout cas dépourvue <add facs="#pag10_zona27" n="22" place="supralinear" hand="#FDS">à la fois</add> de <term>méthode</term> et de tout 
                                 <lb xml:id="lb18_p10" n="18" facs="#facs_p10_lb18"/>
-                                de tout <term>principe</term> directeur, si elle ne tendait constam<pc facs="#pag10_zona16" n="22" force="weak">-</pc>
+                                <term>principe</term> directeur, si elle ne tendait constam<pc facs="#pag10_zona16" n="22" force="weak">-</pc>
                                 <lb xml:id="lb19_p10" n="19" facs="#facs_p10_lb19"/>
                                 <pc facs="#pag10_zona17" n="22" force="weak">=</pc>ment à venir <gap facs="#pag10_zona14" n="22" rend="double stroke" reason="deleted" quantity="1" unit="word" resp="#FDS"/>i<w><damage facs="#pag10_zona18" n="22" quantity="2" unit="char"><unclear reason="ink blot" agent="ink">ll</unclear></damage></w>ustrer le<term>problème</term>
                                 <lb xml:id="lb20_p10" n="20" facs="#facs_p10_lb20"/>
@@ -346,8 +356,8 @@
                                 <lb xml:id="lb23_p10" n="23" facs="#facs_p10_lb23"/>
                                 des opérations possibles <del><gap/></del> <add place="above">de l’instinct humain appliqué à la 
                                 <lb xml:id="lb24_p10" n="24" facs="#facs_p10_lb24"/>
-                                <term ref="#langue1">langue</term></add>.
-                            </ab>. 
+                                <del><gap/></del><term ref="#langue1">langue</term></add>.
+                            </ab>.
                             <ab xml:id="pericope_91Aaaa025" n="25" xml:lang="FR" corresp="#it_91Aaaa025 #en_91Aaaa025" facs="#facs_pericope_91Aaaa025" part="I"> 
                                 Et ceci n’a pas une signifi<pc facs="#pag10_zona25" n="23" force="weak">-</pc>
                                 <lb xml:id="lb25_p10" n="24" facs="#facs_p10_lb24"/>

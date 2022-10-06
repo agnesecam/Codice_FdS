@@ -292,6 +292,7 @@ function gestoreEvidenzia(name){
     try {
         //Se non c'è nessun numero evidenziato, e se non c'è nemmeno nessuna riga evidenziata
         if (document.getElementsByClassName("dot").length == 0) {
+            console.log(name);
             /*HandPageNumber*/
             if (name.substring(0, 20) == "facs_HandPageNumber-") {
                 HandPageNumber = name.substring(5);
@@ -306,11 +307,19 @@ function gestoreEvidenzia(name){
             /* Righe normali */
             } else {
                 //Evidenzio il numero di riga corrispondente alla <lb> selezionata
+                
+
                 last_number = name.substring(name.indexOf('_lb')+3);
-                page = name.substring(6,7);
+                console.log(last_number);
+                page = name.substring(
+                    name.indexOf("p") + 1, 
+                    name.lastIndexOf("_")
+                );
+                console.log(page);
                 lineNumberID = ("line".concat(last_number, "_p", page));
                 lineNumber = document.getElementById(lineNumberID);
                 lineNumber.setAttribute("class", "dot");
+
             }
         //Se è stata già evidenziata una riga o un numero di pagina
         } else {
@@ -334,7 +343,10 @@ function gestoreEvidenzia(name){
             } else {
                 //Evidenzio il numero di riga corrispondente alla <lb> selezionata
                 last_number = name.substring(name.indexOf('_lb')+3);
-                page = name.substring(6,7);
+                page = name.substring(
+                    name.indexOf("p") + 1, 
+                    name.lastIndexOf("_")
+                );
                 lineNumberID = ("line".concat(last_number, "_p", page));
                 lineNumber = document.getElementById(lineNumberID);
                 lineNumber.setAttribute("class", "dot");
