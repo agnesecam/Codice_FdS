@@ -254,37 +254,37 @@
     </teiHeader>
     
     <facsimile>
-        <!--DECIMA PAGINA-->
-        <surface n="10" xml:id="scan_p10">
-            <graphic url="ms_fr_03951_01_1_p010-resized.jpg" width="600px" height="900px"/> 
+        <!--UNDICESIMA PAGINA-->
+        <surface n="10" xml:id="scan_p11">
+            <graphic url="ms_fr_03951_01_1_p011-resized.jpg" width="600px" height="900px"/> 
             <!--Righe-->
-            <zone points=" 147,86,153,120,555,126,547,101  " rendition="line" xml:id="facs_p10_lb1"/>                       
-            <zone points=" 140,126, 135,149, 557,154, 560,133 " rendition="line" xml:id="facs_p10_lb2"/>                       
-            <zone points=" 146,158, 146,180, 549,182, 553,167  " rendition="line" xml:id="facs_p10_lb3"/>
-            <zone points=" 139,186 ,133,204, 557,209, 555,194 " rendition="line" xml:id="facs_p10_lb4"/>
-            <zone points=" 145,218, 145,242, 561,248 ,559,235 " rendition="line" xml:id="facs_p10_lb5"/>
-            <zone points=" 40,241, 38,276, 547,277 ,550,255  " rendition="line" xml:id="facs_p10_lb6"/>
-            <zone points=" 136,281, 139,297, 539,303, 540,283 " rendition="line" xml:id="facs_p10_lb7"/>
-            <zone points=" 142,307, 137,333, 557,334 ,556,314 " rendition="line" xml:id="facs_p10_lb8"/>
-            <zone points="145,341, 136,357, 556,364 ,551,348 " rendition="line" xml:id="facs_p10_lb9"/>
-            <zone points=" 146,364, 142,390, 559,391, 564,372 " rendition="line" xml:id="facs_p10_lb10"/>
-            <zone points=" 145,399, 146,426 ,558,422, 559,395  " rendition="line" xml:id="facs_p10_lb11"/>
-            <zone points="  149,426 ,143,447, 462,450, 457,426" rendition="line" xml:id="facs_p10_lb12"/>    
-            <zone points=" 177,460,177,477, 545,482, 541,465 " rendition="line" xml:id="facs_p10_lb13"/>    
-            <zone points=" 39,487, 33,509, 559,510 ,558,488 " rendition="line" xml:id="facs_p10_lb14"/>    
-            <zone points="  140,520, 135,539, 554,541, 548,515" rendition="line" xml:id="facs_p10_lb15"/>    
-            <zone points="  142,548 ,143,579, 553,570 ,550,549" rendition="line" xml:id="facs_p10_lb16"/>    
-            <zone points="   150,581, 141,596, 542,595, 532,580" rendition="line" xml:id="facs_p10_lb17"/>    
-            <zone points="  148,611, 147,640, 565,628, 563,610 " rendition="line" xml:id="facs_p10_lb18"/>    
-            <zone points="  151,639, 147,664, 542,659 ,536,633" rendition="line" xml:id="facs_p10_lb19"/>    
-            <zone points="  151,663, 152,687, 559,698, 563,667" rendition="line" xml:id="facs_p10_lb20"/>    
-            <zone points=" 151,690, 142,713, 559,721, 562,687" rendition="line" xml:id="facs_p10_lb21"/>    
-            <zone points="  53,719 ,44,755, 540,749, 543,719" rendition="line" xml:id="facs_p10_lb22"/>    
-            <zone points="  151,760 ,150,781, 557,783, 548,761" rendition="line" xml:id="facs_p10_lb23"/>    
-            <zone points="  154,787 ,148,803, 542,805, 539,787" rendition="line" xml:id="facs_p10_lb24"/>    
-            <zone points="  152,818, 146,841, 541,835, 541,820" rendition="line" xml:id="facs_p10_lb25"/>    
+            <zone points=" 147,86,153,120,555,126,547,101  " rendition="line" xml:id="facs_p11_lb1"/>                       
+            <zone points=" 140,126, 135,149, 557,154, 560,133 " rendition="line" xml:id="facs_p11_lb2"/>                       
+            <zone points=" 146,158, 146,180, 549,182, 553,167  " rendition="line" xml:id="facs_p11_lb3"/>
+            <zone points=" 139,186 ,133,204, 557,209, 555,194 " rendition="line" xml:id="facs_p11_lb4"/>
+            <zone points=" 145,218, 145,242, 561,248 ,559,235 " rendition="line" xml:id="facs_p11_lb5"/>
+            <zone points=" 40,241, 38,276, 547,277 ,550,255  " rendition="line" xml:id="facs_p11_lb6"/>
+            <zone points=" 136,281, 139,297, 539,303, 540,283 " rendition="line" xml:id="facs_p11_lb7"/>
+            <zone points=" 142,307, 137,333, 557,334 ,556,314 " rendition="line" xml:id="facs_p11_lb8"/>
+            <zone points="145,341, 136,357, 556,364 ,551,348 " rendition="line" xml:id="facs_p11_lb9"/>
+            <zone points=" 146,364, 142,390, 559,391, 564,372 " rendition="line" xml:id="facs_p11_lb10"/>
+            <zone points=" 145,399, 146,426 ,558,422, 559,395  " rendition="line" xml:id="facs_p11_lb11"/>
+            <zone points="  149,426 ,143,447, 462,450, 457,426" rendition="line" xml:id="facs_p11_lb12"/>    
+            <zone points=" 177,460,177,477, 545,482, 541,465 " rendition="line" xml:id="facs_p11_lb13"/>    
+            <zone points=" 39,487, 33,509, 559,510 ,558,488 " rendition="line" xml:id="facs_p11_lb14"/>    
+            <zone points="  140,520, 135,539, 554,541, 548,515" rendition="line" xml:id="facs_p11_lb15"/>    
+            <zone points="  142,548 ,143,579, 553,570 ,550,549" rendition="line" xml:id="facs_p11_lb16"/>    
+            <zone points="   150,581, 141,596, 542,595, 532,580" rendition="line" xml:id="facs_p11_lb17"/>    
+            <zone points="  148,611, 147,640, 565,628, 563,610 " rendition="line" xml:id="facs_p11_lb18"/>    
+            <zone points="  151,639, 147,664, 542,659 ,536,633" rendition="line" xml:id="facs_p11_lb19"/>    
+            <zone points="  151,663, 152,687, 559,698, 563,667" rendition="line" xml:id="facs_p11_lb20"/>    
+            <zone points=" 151,690, 142,713, 559,721, 562,687" rendition="line" xml:id="facs_p11_lb21"/>    
+            <zone points="  53,719 ,44,755, 540,749, 543,719" rendition="line" xml:id="facs_p11_lb22"/>    
+            <zone points="  151,760 ,150,781, 557,783, 548,761" rendition="line" xml:id="facs_p11_lb23"/>    
+            <zone points="  154,787 ,148,803, 542,805, 539,787" rendition="line" xml:id="facs_p11_lb24"/>    
+            <zone points="  152,818, 146,841, 541,835, 541,820" rendition="line" xml:id="facs_p11_lb25"/>    
 
-            <zone points=" 67,64, 95,66 ,99,97, 68,103 " rendition="line" xml:id="facs_HandPageNumber-10"/>     <!--Numero 910cerchiato in alto a sx-->           
+            <zone points=" 67,64, 95,66 ,99,97, 68,103 " rendition="line" xml:id="facs_HandPageNumber-11"/>     <!--Numero 11 cerchiato in alto a sx-->           
 
         </surface>
     </facsimile>
@@ -296,75 +296,82 @@
                 <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
                     <body xml:lang="fr" source="#Bouquet-Engler2002" xml:id="body-francese">
                         <!--Nona pagina-->
-                        <pb n="f1r" xml:id="body_p10" facs="#scan_p10"/>
+                        <pb n="f1r" xml:id="body_p11" facs="#scan_p11"/>
                         <!--Numeri impaginazione a stampa e a mano-->
                         <ab>
-                            <fw type="pageNum" xml:id="HandPageNumber-10" rend="align(left)" facs="#facs_HandPageNumber-10"> 10 </fw>
+                            <fw type="pageNum" xml:id="HandPageNumber-11" rend="align(left)" facs="#facs_HandPageNumber-11"> 11 </fw>
                         </ab>
-                        <div xml:id="div_p10_fr" hand="#h1" type="box_testo">
-                            <ab xml:id="pericope_91Aaaa022" n="22" xml:lang="FR" corresp="#it_91Aaaa022 #en_91Aaaa022" facs="#facs_pericope_91Aaaa022"> 
-                                <lb xml:id="lb1_p10" n="1" facs="#facs_p10_lb1"/>
-                                <add place="above" hand="#FdS" cert="low" facs="#pag10_zona40" n="20"/>
-                                Sans cesse par conséquent l'<term ref="#linguistique-N">étude générale</term>
-                                <lb xml:id="lb2_p10" n="2" facs="#facs_p10_lb2"/>
-                                <term ref="#linguistique-N">du langage</term>
-                                s'alimentera des observations de toute
-                                <lb xml:id="lb3_p10" n="3" facs="#facs_p10_lb3"/>
-                                sorte qui auront été faites dans le champ par<pc force="weak" facs="#pag10_zona2" n="20">-</pc>
-                                <lb xml:id="lb4_p10" n="4" facs="#facs_p10_lb4"/>
-                                <pc force="weak" facs="#pag10_zona3" n="20">=</pc>ticulier de telle ou telle <term ref="#langue1">langue</term>.      
+                        <div xml:id="div_p11_fr" hand="#h1" type="box_testo">
+                            <ab xml:id="pericope_91Aaaa025" n="25" xml:lang="FR" corresp="#it_91Aaaa025 #en_91Aaaa025" facs="#facs_pericope_91Aaaa025"> 
+                                <lb xml:id="lb1_p11" n="1" facs="#facs_p11_lb1"/>
+                                cas théorique nouveau, il le rencontre
+                                <lb xml:id="lb2_p11" n="2" facs="#facs_p11_lb2"/>
+                                n’importe où, dans le dernier de nos <term type="glossa-mancante">patois</term>,
+                                <lb xml:id="lb3_p11" n="3" facs="#facs_p11_lb3"/>
+                                ou dans le plus infime <term type="elemento terminologico">idiome</term> polynésien.
                             </ab>
-                            <ab xml:id="pericope_91Aaaa023" n="23" xml:lang="FR" corresp="#it_91Aaaa023 #en_91Aaaa023" facs="#facs_pericope_91Aaaa023"> 
-                                À supposer mèm<w><unclear facs="#pag10_zona4" n="21" reason="faded">e</unclear></w>
-                                <lb xml:id="lb5_p10" n="5" facs="#facs_p10_lb5"/>
-                                que l’<term ref="#parole">exercice de la parole</term> constituant chez l'<w><choice facs="#pag10_zona5" n="21"><abbr type="brevigraph">ho<am>m̃</am>e</abbr><expan>hom<ex>m</ex>e</expan></choice></w>                                
-                                <lb xml:id="lb6_p10" n="6" facs="#facs_p10_lb6"/>
-                                <w><subst facs="#pag10_zona6" n="21"><del rend="overstrike" quantity="6" unit="word">une faculté naturelle, native au naturelle</del> <add place="margin" facs="#pag10_zona31" n="21" hand="#FdS">une <term ref="#fonction_naturel">fonction naturelle</term>,</add></subst></w>                                
-                                <lb xml:id="lb7_p10" n="7" facs="#facs_p10_lb7" break="no" rend="double-stroke"/>
-                                ce qui est le <term ref="#point-de-vue">point de vue</term> éminemment fau <damage facs="#pag10_zona9" n="21" quantity="1" unit="char" agent="rubbing" degree="low">x</damage>
-                                <lb xml:id="lb8_p10" n="8" facs="#facs_p10_lb8"/>
-                                où se placent certaines écoles d’anthropologistes
-                                <lb xml:id="lb9_p10" n="9" facs="#facs_p10_lb9"/>
-                                et de linguistes, il faudrait encore absolumen<damage facs="#pag10_zona10" n="21" quantity="1" unit="char" agent="rubbing" degree="low"><supplied>t</supplied></damage>
-                                <lb xml:id="lb10_p10" n="10" facs="#facs_p10_lb10"/>
-                                <del rend="double stroke" quantity="4" unit="word">mains</del><add place="above">ou</add>tenir que l’exercice de cette fonction n’est
-                                <lb xml:id="lb11_p10" n="11" facs="#facs_p10_lb11"/>
-                                <w><subst facs="#pag10_zona8" n="21"><del rend="overwrite">A</del><add place="inline" hand="#FdS">ab</add></subst>ordable pour la science que par le côté de</w>
-                                <lb xml:id="lb12_p10" n="12" facs="#facs_p10_lb13"/>
-                                la <term ref="#langue1">langue</term> ou <subst facs="#pag10_zona11" n="21"> <del rend="overstrike">ou</del> <add place="above" hand="#FdS">par le côté</add> </subst>des <term ref="#langue1">langues <hi rend="double underline"><hi rend="italic" facs="#pag10_zona12" n="21">existantes</hi></hi></term>.
+                            <ab xml:id="pericope_91Aaaa026" n="26" xml:lang="FR" corresp="#it_91Aaaa026 #en_91Aaaa026" facs="#facs_pericope_91Aaaa026"> 
+                                <lb xml:id="lb4_p11" n="4" facs="#facs_p11_lb4"/>
+                                C’est une pierre qu’il apporte à l’édifice
+                                <lb xml:id="lb5_p11" n="5" facs="#facs_p11_lb5"/>
+                                et qui ne sera pas détruite.
                             </ab>
-                            <ab xml:id="pericope_91Aaaa024" n="24" xml:lang="FR" corresp="#it_91Aaaa024 #en_91Aaaa024" facs="#facs_pericope_91Aaaa024"> 
-                                <lb xml:id="lb13_p10" n="13" facs="#facs_p10_lb13"/>
-                                Mais, réciproquement, l’étude de ces <term ref="#langue1">langues</term>
-                                <lb xml:id="lb14_p10" n="14" facs="#facs_p10_lb14"/>
-                                    - <w><add place="margin" hand="#FdS"/><damage facs="#pag10_zona15" n="22" quantity="3" unit="char"><unclear reason="ink blot" agent="ink">exi</unclear>s</damage><sic>tt</sic><corr resp="#EF">t</corr>ant<sic>s</sic><corr resp="#EF">es</corr></w>
-                                    - <w><subst facs="#pag10_zona13" n="22"><del rend="overwrite">s</del><add place="inline" hand="#FdS">S</add></subst>e condamnerait à rester presque stérile, à rester</w>                                                          
-                                <lb xml:id="lb15_p10" n="15" facs="#facs_p10_lb15"/>
-                                en tout cas dépourvue <add facs="#pag10_zona27" n="22" place="above" hand="#FdS">à la fois</add> de méthode et de tout 
-                                <lb xml:id="lb16_p10" n="16" facs="#facs_p10_lb16"/>
-                                principe directeur, si elle ne tendait constam<pc facs="#pag10_zona16" n="22" force="weak">-</pc>
-                                <lb xml:id="lb17_p10" n="17" facs="#facs_p10_lb17"/>
-                                <pc facs="#pag10_zona17" n="22" force="weak">=</pc>ment à venir <gap facs="#pag10_zona14" n="22" rend="double stroke" reason="deleted" quantity="1" unit="word" resp="#FdS"/> i<w><damage facs="#pag10_zona18" n="22" quantity="2" unit="char"><unclear reason="ink blot" agent="ink">ll</unclear></damage></w>ustrer le problème                                
-                                <lb xml:id="lb18_p10" n="18" facs="#facs_p10_lb18"/>
-                                <term ref="#général">général</term> du <term ref="#langage1">langage</term> <pc force="weak" facs="#pag10_zona36" n="22">-</pc> , si elle ne <gap facs="#pag10_zona20" n="22" rend="double stroke" reason="illegible" quantity="2" unit="word" resp="#FDN"/> cherchai<w><damage facs="#pag10_zona21" n="22" agent="rubbing" degree="low" quantity="1" unit="char">t</damage></w>                                
-                                <lb xml:id="lb19_p10" n="19" facs="#facs_p10_lb19"/>
-                                à dégager de chaque fait particulier <add facs="#pag10_zona28" n="22" place="above" hand="#FdS">qu’elle observe</add> le sens et 
-                                <lb xml:id="lb20_p10" n="20" facs="#facs_p10_lb20"/>
-                                le profit net qui en <w> <subst facs="#pag10_zona32" n="22"> <del hand="#EF">resulte</del> <add hand="#FdS">résultent</add> </subst> </w> pour notre connaissa<w><damage quantity="1" unit="char"><unclear reason="faded">n</unclear></damage></w><add facs="#pag10_zona33" n="22" quantity="2" unit="char" place="below" hand="#FdS">ce</add>
-                                <lb xml:id="lb21_p10" n="21" facs="#facs_p10_lb21"/>
-                                des opérations possibles <del><gap/></del> <add place="above">de l’instinct humain appliqué à la 
-                                <lb xml:id="lb22_p10" n="22" facs="#facs_p10_lb22"/>
-                                <del><gap/></del> <term ref="#langue1">langue</term></add>.
+                            <ab xml:id="pericope_91Aaaa027" n="27" xml:lang="FR" corresp="#it_91Aaaa027 #en_91Aaaa027" facs="#facs_pericope_91Aaaa027"> 
+                                <lb xml:id="lb6_p11" n="6"/>
+                                À tout instant, dans
+                                <lb xml:id="lb7_p11" n="7"/>
+                                <choice><abbr>tte</abbr><expan>t<ex>ou</ex>te</expan></choice> branche de la <term ref="#science_du_langage">science<del rend="overstrike"> <gap reason="illegible" quantity="1" unit="char"/></del> des langues</term>, <subst facs="#pag11_zona9" n="26"><del rend="overstrike"><unclear>ou</unclear></del></subst>
+                                <lb xml:id="lb8_p11" n="8"/>
+                                <subst facs="#pag11_zona3" n="26">
+                                    <add place="left" hand="#FDS">
+                                        <choice xml:lang="fr" facs="#pag11_zona41" n="26">
+                                            <abbr>tt</abbr>
+                                            <expan>t<ex>ou</ex>t</expan>
+                                        </choice>
+
+                                        le monde
+
+                                        <subst facs="#pag11_zona5" n="26">
+                                            <del rend="overstrike">
+                                                <gap reason="illegible" quantity="2" unit="word"/>
+                                            </del>
+                                        </subst>
+
+                                        <subst facs="#pag11_zona4" n="26">
+                                            <del rend="overstrike">
+                                                <damage agent="ink blot" quantity="1" unit="char"/>
+                                            </del>
+                                        </subst>
+
+                                        e<unclear facs="#pag11_zona37" n="26">st</unclear>
+
+                                        par-dessus
+                                    </add>
+                                </subst>
+                                tout
+                                <subst facs="#pag11_zona7" n="26">
+                                    <add place="above" hand="#FDS">anxieux actuellement</add>
+                                </subst>
+
+                                <subst facs="#pag11_zona6" n="26">
+                                    <del rend="overstrike">
+                                        <gap reason="illegible" quantity="1" unit="char"/>
+                                    </del>
+                                </subst>
+                                <unclear facs="#pag11_zona10" n="26">de</unclear>
+                                mettre en lumière ce qui peut
+
+                                <lb xml:id="Pagina11_Riga8" n="8"/>
+                                intéresser le
+                                <term type="elemento terminologico">langage</term>, en
+                                <term type="elemento terminologico">général</term>.
+
+                                <subst facs="#pag11_zona11" n="26">
+                                    <del rend="overstrike">
+                                        <gap reason="illegible" quantity="3" unit="char"/>
+                                    </del>
+                                </subst>
                             </ab>
-                            <ab xml:id="pericope_91Aaaa025" n="25" xml:lang="FR" corresp="#it_91Aaaa025 #en_91Aaaa025" facs="#facs_pericope_91Aaaa025" part="I"> 
-                                Et ceci n’a pas une signifi<pc facs="#pag10_zona25" n="23" force="weak">-</pc>
-                                <lb xml:id="lb23_p10" n="23" facs="#facs_p10_lb23"/>
-                                <pc facs="#pag10_zona26" n="23" force="weak">=</pc>cation vague et générale: toute personne un peu
-                                <lb xml:id="lb24_p10" n="24" facs="#facs_p10_lb24"/>
-                                versée dans nos études sait avec quelle joie
-                                <lb xml:id="lb25_p10" n="25" facs="#facs_p10_lb25"/>
-                                <add place="below" quantity="7" unit="word" facs="#pag10_zona37" n="23" hand="#FdS">et quel triomphe chaque chercheur signale un</add>
-                            </ab>                          
                         </div>
                     </body>
                 </text>
@@ -373,7 +380,7 @@
             <group xml:id="it_Prolusioni" xml:lang="IT"> <!--TRADUZIONI ITALIANO DELLE 3 PROLUSIONI-->
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
-                        <div xml:id="div_p10_it" hand="#h1" type="box_testo_it">
+                        <div xml:id="div_p11_it" hand="#h1" type="box_testo_it">
                             <ab xml:id="it_91Aaaa022" corresp="#pericope_91Aaaa022" xml:lang="IT">
                                 <lb/>Senza posa, dunque, lo studio generale 
                                 <lb/>del linguaggio si alimenta delle osservazioni di ogni sorta 
@@ -410,7 +417,7 @@
             <group xml:id="en_Prolusioni" xml:lang="EN"> <!--TRADUZIONI INGLESE DELLE 3 PROLUSIONI-->
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
                     <body resp="#AC" xml:id="body-inglese">
-                        <div xml:id="div_p10_en" hand="#h1" type="box_testo_en">
+                        <div xml:id="div_p11_en" hand="#h1" type="box_testo_en">
                             <ab xml:id="en_91Aaaa022" corresp="#pericope_91Aaaa022" xml:lang="IT">
                                 <lb/>The general study of language is thus
                                 <lb/> ceaselessly enriched by all kinds of 
