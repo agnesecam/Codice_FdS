@@ -18,18 +18,27 @@
                 <listOrg>
                     <head>Organizzazioni</head>
                     
-                    <!--Faculté des lettres Genève-->
+                    <!--Facoltà di Lettere-->
                     <org xml:id="FacLettres">
-                        <orgName ref="https://www.unige.ch/lettres/fr/">Faculté des lettres de l'Université de Genève</orgName>
-                        <placeName ref="#GE">Genève</placeName>
+                        <orgName ref="https://www.unige.ch/lettres/fr/">Facoltà di Lettere dell'Università di Ginevra</orgName>
+                        <placeName ref="#GE">Ginevra</placeName>
                     </org>
 
-                    <!--University of Geneva-->
+                    <!--Università di Ginevra-->
                     <org xml:id="UniGeneve">
-                        <orgName ref="https://en.wikipedia.org/wiki/University_of_Geneva>">University of Geneva</orgName>
-                            <placeName ref="#GE">Genève</placeName>
+                        <orgName ref="https://en.wikipedia.org/wiki/University_of_Geneva>">Università di Ginevra</orgName>
+                        <placeName ref="#GE">Ginevra</placeName>
                         <desc>
-                            The University of Geneva (French: Université de Genève) is a public research university located in Geneva, Switzerland.
+                            L'Università di Ginevra è stata fondata nel 1559 per iniziativa del riformatore Giovanni Calvino. Con oltre 17'000 studenti, è la seconda università più grande della Svizzera
+                        </desc>
+                    </org>                    
+                    
+                    <!--Università di Vienna-->
+                    <org xml:id="UniVienne">
+                        <orgName ref="https://en.wikipedia.org/wiki/Università_di_Vienna>">Università di Vienna</orgName>
+                        <placeName>Vienna</placeName>
+                        <desc>
+                            L'Università di Vienna (tedesco: Universität Wien) è un'università pubblica di Vienna. 
                         </desc>
                     </org>
         

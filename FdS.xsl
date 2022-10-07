@@ -625,7 +625,8 @@
                 <xsl:variable name="ref">
                     <xsl:value-of select="substring-after(current()/@ref, '#')"/>
                 </xsl:variable>
-                <xsl:copy-of select="concat(//tei:listOrg/tei:org[@xml:id=$ref]/tei:orgName, ' ')"/>
+                <xsl:copy-of select="concat(//tei:listOrg/tei:org[@xml:id=$ref]/tei:orgName, ': ')"/>
+                <xsl:copy-of select="concat(//tei:listOrg/tei:org[@xml:id=$ref]/tei:desc, ' ')"/>
                 <xsl:copy-of select="concat('(',//tei:listOrg/tei:org[@xml:id=$ref]/tei:placeName, ')')"/>
             </xsl:variable>        
             <xsl:attribute name="class">hovertext</xsl:attribute>

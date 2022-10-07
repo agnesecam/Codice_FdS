@@ -306,72 +306,78 @@
                                 <lb xml:id="lb1_p11" n="1" facs="#facs_p11_lb1"/>
                                 cas théorique nouveau, il le rencontre
                                 <lb xml:id="lb2_p11" n="2" facs="#facs_p11_lb2"/>
-                                n’importe où, dans le dernier de nos <term type="glossa-mancante">patois</term>,
+                                n’importe où, dans le dernier de nos <term ref="#glossa-mancante">patois</term>,
                                 <lb xml:id="lb3_p11" n="3" facs="#facs_p11_lb3"/>
-                                ou dans le plus infime <term type="elemento terminologico">idiome</term> polynésien.
+                                ou dans le plus infime <term ref="#glossa-mancante">idiome</term> polynésien.
                             </ab>
                             <ab xml:id="pericope_91Aaaa026" n="26" xml:lang="FR" corresp="#it_91Aaaa026 #en_91Aaaa026" facs="#facs_pericope_91Aaaa026"> 
                                 <lb xml:id="lb4_p11" n="4" facs="#facs_p11_lb4"/>
                                 C’est une pierre qu’il apporte à l’édifice
                                 <lb xml:id="lb5_p11" n="5" facs="#facs_p11_lb5"/>
-                                et qui ne sera pas détruite.
+                                <add place="left">et</add> qui ne sera pas détruite.
                             </ab>
                             <ab xml:id="pericope_91Aaaa027" n="27" xml:lang="FR" corresp="#it_91Aaaa027 #en_91Aaaa027" facs="#facs_pericope_91Aaaa027"> 
                                 <lb xml:id="lb6_p11" n="6"/>
                                 À tout instant, dans
                                 <lb xml:id="lb7_p11" n="7"/>
-                                <choice><abbr>tte</abbr><expan>t<ex>ou</ex>te</expan></choice> branche de la <term ref="#science_du_langage">science<del rend="overstrike"> <gap reason="illegible" quantity="1" unit="char"/></del> des langues</term>, <subst facs="#pag11_zona9" n="26"><del rend="overstrike"><unclear>ou</unclear></del></subst>
+                                <choice><abbr>tte</abbr><expan>t<ex>ou</ex>te</expan></choice> branche de la <term ref="#science_du_langage">science<del rend="overstrike"> <gap reason="illegible" quantity="1" unit="char"/></del> des langues</term>, <subst><del rend="overstrike"><unclear>ou</unclear></del></subst>
                                 <lb xml:id="lb8_p11" n="8"/>
-                                <subst facs="#pag11_zona3" n="26">
-                                    <add place="left" hand="#FDS">
-                                        <choice xml:lang="fr" facs="#pag11_zona41" n="26">
-                                            <abbr>tt</abbr>
-                                            <expan>t<ex>ou</ex>t</expan>
-                                        </choice>
-
-                                        le monde
-
-                                        <subst facs="#pag11_zona5" n="26">
-                                            <del rend="overstrike">
-                                                <gap reason="illegible" quantity="2" unit="word"/>
-                                            </del>
-                                        </subst>
-
-                                        <subst facs="#pag11_zona4" n="26">
-                                            <del rend="overstrike">
-                                                <damage agent="ink blot" quantity="1" unit="char"/>
-                                            </del>
-                                        </subst>
-
-                                        e<unclear facs="#pag11_zona37" n="26">st</unclear>
-
-                                        par-dessus
-                                    </add>
-                                </subst>
-                                tout
-                                <subst facs="#pag11_zona7" n="26">
-                                    <add place="above" hand="#FDS">anxieux actuellement</add>
-                                </subst>
-
-                                <subst facs="#pag11_zona6" n="26">
-                                    <del rend="overstrike">
-                                        <gap reason="illegible" quantity="1" unit="char"/>
-                                    </del>
-                                </subst>
-                                <unclear facs="#pag11_zona10" n="26">de</unclear>
-                                mettre en lumière ce qui peut
-
-                                <lb xml:id="Pagina11_Riga8" n="8"/>
-                                intéresser le
-                                <term type="elemento terminologico">langage</term>, en
-                                <term type="elemento terminologico">général</term>.
-
-                                <subst facs="#pag11_zona11" n="26">
-                                    <del rend="overstrike">
-                                        <gap reason="illegible" quantity="3" unit="char"/>
-                                    </del>
-                                </subst>
+                                <subst><add place="left" hand="#FdS"><choice xml:lang="fr"><abbr>tt</abbr><expan>t<ex>ou</ex>t</expan></choice> le monde <subst><del rend="overstrike"><gap reason="illegible" quantity="2" unit="word"/></del></subst><subst><del rend="overstrike"><damage agent="ink blot" quantity="1" unit="char"/></del></subst> e<unclear>st</unclear> par-dessus</add></subst> tout <subst><add place="above" hand="#FdS">anxieux actuellement</add></subst> <subst><del rend="overstrike"><gap reason="illegible" quantity="1" unit="char"/></del></subst> <unclear>de</unclear>mettre en lumière ce qui peut
+                                <lb xml:id="lb9_p11" n="9"/>
+                                intéresser le <term ref="#langage1">langage</term>, en <term ref="#général">général</term>. <subst><del rend="overstrike"> <gap reason="illegible" quantity="3" unit="char"/> </del></subst>
                             </ab>
+                            <ab xml:id="pericope_91Aaaa028" n="28" xml:lang="FR" corresp="#it_91Aaaa028 #en_91Aaaa028" facs="#facs_pericope_91Aaaa028">
+                                <lb xml:id="lb10_p11" n="10"/>
+                                <subst><add place="left" hand="#FdS">Et, phénomène remarquable,</add></subst> <subst><del rend="overstrike"><gap reason="illegible" quantity="1" unit="char"/></del></subst> <pc force="weak">-</pc> <unclear>les</unclear> observations <add place="above" hand="#FdS">théoriques</add> qu’apportent ceux
+                                <lb xml:id="lb11_p11" n="11"/>
+                                qui ont concentré leur étude sur telle ou telle
+                                <lb xml:id="lb12_p11" n="12"/>
+                                branche <subst> <add place="above" hand="#FdS"> spéciale <choice xml:lang="fr" n="27"> <abbr>co<am>m̃</am>e</abbr> <expan>co<ex>m</ex>me</expan> </choice> le germanique, le roman, </add> </subst><unclear>s</unclear>ont <subst> <del rend="overstrike"> <gap reason="illegible" quantity="1" unit="char"/></del></subst> beaucoup plus appréciées 
+                                <lb xml:id="lb13_p11" n="13"/>
+                                <subst><add place="left" hand="#FdS">et considérées</add> <add place="above" hand="#FdS">encore</add></subst> <subst><del rend="overstrike"><gap reason="illegible" extent="9 words"/></del></subst>
+                                <lb xml:id="lb14_p11" n="14"/>
+                                que les observations des linguistes embrassant
+                                <lb xml:id="lb15_p11" n="15"/>
+                                une plus grande série de langues.
+                            </ab>       
+                            <ab xml:id="pericope_91Aaaa029" n="29" xml:lang="FR" corresp="#it_91Aaaa029 #en_91Aaaa029" facs="#facs_pericope_91Aaaa029">
+                                On se rend
+                                <lb xml:id="lb16_p11" n="16"/>
+                                compte que <del rend="overstrike"><unclear reason="illegible">ce</unclear></del> c’est <subst><del rend="overstrike"><damage agent="ink blot" quantity="1" unit="char"/></del></subst> le détail ultime <subst><del rend="overstrike"><unclear reason="illegible">qu'est aussi</unclear></del></subst>
+                                <lb xml:id="lb17_p11" n="17"/>
+                                <subst><del rend="overstrike"><unclear reason="illegible">la raison ultime</unclear></del></subst> des phénomènes <damage agent="ink blot">qui est aussi</damage>
+                                <lb xml:id="lb18_p11" n="18"/>
+                                leur raison ultime, et qu’ainsi l’extrême spécia<pc force="weak">-</pc>
+                                <lb xml:id="lb19_p11" n="19"/>
+                                <pc force="weak">=</pc> lisation peut seule servir <subst><add place="below" hand="#FdS">efficacement</add></subst> l’extrême <term ref="#général">générali<damage agent="ripped"><unclear>sation</unclear></damage></term>.  
+                            </ab>
+                            <ab xml:id="pericope_91Aaaa030" n="30" xml:lang="FR" corresp="#it_91Aaaa030 #en_91Aaaa030" facs="#facs_pericope_91Aaaa030">
+                                <lb xml:id="lb20_p11" n="20"/>
+                                Ce ne sont pas des <term ref="#linguiste">linguistes</term> <choice xml:lang="fr"><abbr>co<am>m̃</am>e</abbr><expan>co<ex>m</ex>me</expan></choice> <persName ref="#FM">Friedrich Mü<damage agent="handwriting"><unclear>ller</unclear></damage></persName>,
+                                <lb xml:id="lb21_p11" n="21"/>
+                                <subst><add place="left" hand="#FdS">de l’<orgName ref="#UniVienne">Université de Vienne</orgName></add></subst>, qui <subst><del rend="overstrike">coñaissance</del><add place="above" hand="#FdS">embrassent</add></subst> à peu près <unclear>tous</unclear> les <term ref="#glossa-mancante">idiomes</term> du 
+                                <lb xml:id="lb22_p11" n="22"/>
+                                globe, qui ont jamais fait faire un pas à la
+                                <lb xml:id="lb23_p11" n="23"/>
+                                <choice xml:lang="fr"><abbr>co<am>ñ</am>aissance</abbr> <expan>co<ex>n</ex>naissance</expan></choice> du <term ref="#langage1">langage</term>; mais <subst><del rend="overstrike"> <gap reason="illegible" extent="1 word"/></del></subst> les 
+                                <lb xml:id="lb24_p11" n="24"/>
+                                noms qu’on aurait à citer <expan>dans ce</expan> sens seraient 
+                                <lb xml:id="lb25_p11" n="25"/>
+                                des noms de romanistes comme <persName ref="#MGParis">M. Gaston Paris</persName>,
+                                <lb xml:id="lb26_p11" n="26"/>
+                                <persName ref="MPMeyer">M. Paul Meyer</persName>, <subst> <add place="above" hand="#FdS"> <persName ref="#MS">M. Schuchardt</persName></add></subst>, des noms de germanistes comme
+                                <lb xml:id="lb27_p11" n="27"/>
+                                <persName ref="#MHPaul">M. Hermann Paul</persName>, des noms de <orgName ref="#EcoleRusse">l’école russe</orgName> s’occupant spécia<pc force="weak">-</pc> 
+                                
+                                <pb xml:id="pagina12" n="12"/>
+                                
+                                <lb xml:id="lb28_p11" n="28" break="no"/>
+                                <pc force="weak">=</pc>lement
+                                
+                                <!-- abbiamo codificato fino alla fine della pericope però facendo parte della pagina 12 l'abbiamo commentata -->
+                                <!-- du russe et du slave, comme <name type="Antroponimo">M. N. Baudouin de Courtenay</name>, <name type="Antroponimo">M. Kruszewski</name>. -->                            
+                            </ab>                            
+
                         </div>
                     </body>
                 </text>
@@ -855,18 +861,27 @@
                 <listOrg>
                     <head>Organizzazioni</head>
                     
-                    <!--Faculté des lettres Genève-->
+                    <!--Facoltà di Lettere-->
                     <org xml:id="FacLettres">
-                        <orgName ref="https://www.unige.ch/lettres/fr/">Faculté des lettres de l'Université de Genève</orgName>
-                        <placeName ref="#GE">Genève</placeName>
+                        <orgName ref="https://www.unige.ch/lettres/fr/">Facoltà di Lettere dell'Università di Ginevra</orgName>
+                        <placeName ref="#GE">Ginevra</placeName>
                     </org>
 
-                    <!--University of Geneva-->
+                    <!--Università di Ginevra-->
                     <org xml:id="UniGeneve">
-                        <orgName ref="https://en.wikipedia.org/wiki/University_of_Geneva&gt;">University of Geneva</orgName>
-                            <placeName ref="#GE">Genève</placeName>
+                        <orgName ref="https://en.wikipedia.org/wiki/University_of_Geneva&gt;">Università di Ginevra</orgName>
+                        <placeName ref="#GE">Ginevra</placeName>
                         <desc>
-                            The University of Geneva (French: Université de Genève) is a public research university located in Geneva, Switzerland.
+                            L'Università di Ginevra è stata fondata nel 1559 per iniziativa del riformatore Giovanni Calvino. Con oltre 17'000 studenti, è la seconda università più grande della Svizzera
+                        </desc>
+                    </org>                    
+                    
+                    <!--Università di Vienna-->
+                    <org xml:id="UniVienne">
+                        <orgName ref="https://en.wikipedia.org/wiki/Università_di_Vienna&gt;">Università di Vienna</orgName>
+                        <placeName>Vienna</placeName>
+                        <desc>
+                            L'Università di Vienna (tedesco: Universität Wien) è un'università pubblica di Vienna. 
                         </desc>
                     </org>
         
