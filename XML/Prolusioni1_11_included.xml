@@ -258,33 +258,36 @@
         <surface n="10" xml:id="scan_p11">
             <graphic url="ms_fr_03951_01_1_p011-resized.jpg" width="600px" height="900px"/> 
             <!--Righe-->
-            <zone points=" 147,86,153,120,555,126,547,101  " rendition="line" xml:id="facs_p11_lb1"/>                       
-            <zone points=" 140,126, 135,149, 557,154, 560,133 " rendition="line" xml:id="facs_p11_lb2"/>                       
-            <zone points=" 146,158, 146,180, 549,182, 553,167  " rendition="line" xml:id="facs_p11_lb3"/>
-            <zone points=" 139,186 ,133,204, 557,209, 555,194 " rendition="line" xml:id="facs_p11_lb4"/>
-            <zone points=" 145,218, 145,242, 561,248 ,559,235 " rendition="line" xml:id="facs_p11_lb5"/>
-            <zone points=" 40,241, 38,276, 547,277 ,550,255  " rendition="line" xml:id="facs_p11_lb6"/>
-            <zone points=" 136,281, 139,297, 539,303, 540,283 " rendition="line" xml:id="facs_p11_lb7"/>
+            <zone points=" 153,118, 147,131, 547,134, 541,117  " rendition="line" xml:id="facs_p11_lb1"/>                       
+            <zone points=" 151,142, 148,160, 543,165, 543,146 " rendition="line" xml:id="facs_p11_lb2"/>                       
+            <zone points=" 156,177, 153,187, 522,192, 516,175  " rendition="line" xml:id="facs_p11_lb3"/>
+            <zone points=" 157,199 ,153,214 ,528,222 ,527,205" rendition="line" xml:id="facs_p11_lb4"/>
+            <zone points=" 126,229, 120,251, 537,251, 539,239" rendition="line" xml:id="facs_p11_lb5"/>
+            <zone points=" 145,258, 150,279, 542,280, 533,262  " rendition="line" xml:id="facs_p11_lb6"/>
+            <zone points=" 30,275, 84,268, 105,285, 543,285, 535,308, 41,317 " rendition="line" xml:id="facs_p11_lb7"/>
             <zone points=" 142,307, 137,333, 557,334 ,556,314 " rendition="line" xml:id="facs_p11_lb8"/>
-            <zone points="145,341, 136,357, 556,364 ,551,348 " rendition="line" xml:id="facs_p11_lb9"/>
+            <zone points=" 36,342,538,347, 536,372 ,150,376 ,38,393 " rendition="line" xml:id="facs_p11_lb9"/>
             <zone points=" 146,364, 142,390, 559,391, 564,372 " rendition="line" xml:id="facs_p11_lb10"/>
             <zone points=" 145,399, 146,426 ,558,422, 559,395  " rendition="line" xml:id="facs_p11_lb11"/>
-            <zone points="  149,426 ,143,447, 462,450, 457,426" rendition="line" xml:id="facs_p11_lb12"/>    
-            <zone points=" 177,460,177,477, 545,482, 541,465 " rendition="line" xml:id="facs_p11_lb13"/>    
-            <zone points=" 39,487, 33,509, 559,510 ,558,488 " rendition="line" xml:id="facs_p11_lb14"/>    
-            <zone points="  140,520, 135,539, 554,541, 548,515" rendition="line" xml:id="facs_p11_lb15"/>    
-            <zone points="  142,548 ,143,579, 553,570 ,550,549" rendition="line" xml:id="facs_p11_lb16"/>    
-            <zone points="   150,581, 141,596, 542,595, 532,580" rendition="line" xml:id="facs_p11_lb17"/>    
-            <zone points="  148,611, 147,640, 565,628, 563,610 " rendition="line" xml:id="facs_p11_lb18"/>    
-            <zone points="  151,639, 147,664, 542,659 ,536,633" rendition="line" xml:id="facs_p11_lb19"/>    
-            <zone points="  151,663, 152,687, 559,698, 563,667" rendition="line" xml:id="facs_p11_lb20"/>    
-            <zone points=" 151,690, 142,713, 559,721, 562,687" rendition="line" xml:id="facs_p11_lb21"/>    
-            <zone points="  53,719 ,44,755, 540,749, 543,719" rendition="line" xml:id="facs_p11_lb22"/>    
-            <zone points="  151,760 ,150,781, 557,783, 548,761" rendition="line" xml:id="facs_p11_lb23"/>    
-            <zone points="  154,787 ,148,803, 542,805, 539,787" rendition="line" xml:id="facs_p11_lb24"/>    
-            <zone points="  152,818, 146,841, 541,835, 541,820" rendition="line" xml:id="facs_p11_lb25"/>    
 
-            <zone points=" 67,64, 95,66 ,99,97, 68,103 " rendition="line" xml:id="facs_HandPageNumber-11"/>     <!--Numero 11 cerchiato in alto a sx-->           
+            <zone points="  43,434, 38,459, 543,456, 545,429" rendition="line" xml:id="facs_p11_lb12"/>    
+
+            <zone points="  145,465 ,150,488 ,533,478, 535,457  " rendition="line" xml:id="facs_p11_lb13"/>    
+            <zone points=" 156,494, 153,514, 524,506, 529,479 " rendition="line" xml:id="facs_p11_lb14"/>    
+            <zone points="  151,519, 151,540, 542,528, 546,509" rendition="line" xml:id="facs_p11_lb15"/>    
+            <zone points="  152,548, 154,568, 552,558, 549,528" rendition="line" xml:id="facs_p11_lb16"/>    
+            <zone points="   160,572, 153,599, 548,582, 550,561 " rendition="line" xml:id="facs_p11_lb17"/>    
+            <zone points="  161,597, 158,621, 561,627, 558,585 " rendition="line" xml:id="facs_p11_lb18"/>    
+            <zone points=" 174,634, 168,660, 559,652 ,552,626" rendition="line" xml:id="facs_p11_lb19"/>    
+            <zone points="  47,667, 48,690, 552,683, 544,656" rendition="line" xml:id="facs_p11_lb20"/>    
+            <zone points=" 174,698 ,169,727, 549,717, 543,687" rendition="line" xml:id="facs_p11_lb21"/>    
+            <zone points="  180,727 ,170,749, 538,744, 535,719" rendition="line" xml:id="facs_p11_lb22"/>    
+            <zone points="  182,751 ,178,777, 534,772 ,526,746" rendition="line" xml:id="facs_p11_lb23"/>    
+            <zone points="  179,784 ,178,804, 543,800 ,535,772" rendition="line" xml:id="facs_p11_lb24"/>    
+            <zone points="  170,810 ,171,834 ,554,819, 542,804" rendition="line" xml:id="facs_p11_lb25"/>    
+            <zone points="  122,833, 117,856 ,545,847, 538,830" rendition="line" xml:id="facs_p11_lb26"/>    
+
+            <zone points=" 57,71, 54,117, 106,117, 100,65 " rendition="line" xml:id="facs_HandPageNumber-11"/>     <!--Numero 11 cerchiato in alto a sx-->           
 
         </surface>
     </facsimile>
@@ -316,66 +319,57 @@
                                 <lb xml:id="lb5_p11" n="5" facs="#facs_p11_lb5"/>
                                 <add place="left">et</add> qui ne sera pas détruite.
                             </ab>
-                            <ab xml:id="pericope_91Aaaa027" n="27" xml:lang="FR" corresp="#it_91Aaaa027 #en_91Aaaa027" facs="#facs_pericope_91Aaaa027"> 
-                                <lb xml:id="lb6_p11" n="6"/>
+                            <ab xml:id="pericope_91Aaaa027" n="27" xml:lang="FR" corresp="#it_91Aaaa027 #en_91Aaaa027" facs="#facs_pericope_91Aaaa027">                                 
                                 À tout instant, dans
-                                <lb xml:id="lb7_p11" n="7"/>
+                                <lb xml:id="lb6_p11" n="6"/>
                                 <choice><abbr>tte</abbr><expan>t<ex>ou</ex>te</expan></choice> branche de la <term ref="#science_du_langage">science<del rend="overstrike"> <gap reason="illegible" quantity="1" unit="char"/></del> des langues</term>, <subst><del rend="overstrike"><unclear>ou</unclear></del></subst>
-                                <lb xml:id="lb8_p11" n="8"/>
+                                <lb xml:id="lb7_p11" n="7"/>
                                 <subst><add place="left" hand="#FdS"><choice xml:lang="fr"><abbr>tt</abbr><expan>t<ex>ou</ex>t</expan></choice> le monde <subst><del rend="overstrike"><gap reason="illegible" quantity="2" unit="word"/></del></subst><subst><del rend="overstrike"><damage agent="ink blot" quantity="1" unit="char"/></del></subst> e<unclear>st</unclear> par-dessus</add></subst> tout <subst><add place="above" hand="#FdS">anxieux actuellement</add></subst> <subst><del rend="overstrike"><gap reason="illegible" quantity="1" unit="char"/></del></subst> <unclear>de</unclear>mettre en lumière ce qui peut
-                                <lb xml:id="lb9_p11" n="9"/>
+                                <lb xml:id="lb8_p11" n="8"/>
                                 intéresser le <term ref="#langage1">langage</term>, en <term ref="#général">général</term>. <subst><del rend="overstrike"> <gap reason="illegible" quantity="3" unit="char"/> </del></subst>
                             </ab>
                             <ab xml:id="pericope_91Aaaa028" n="28" xml:lang="FR" corresp="#it_91Aaaa028 #en_91Aaaa028" facs="#facs_pericope_91Aaaa028">
-                                <lb xml:id="lb10_p11" n="10"/>
+                                <lb xml:id="lb9_p11" n="9"/>
                                 <subst><add place="left" hand="#FdS">Et, phénomène remarquable,</add></subst> <subst><del rend="overstrike"><gap reason="illegible" quantity="1" unit="char"/></del></subst> <pc force="weak">-</pc> <unclear>les</unclear> observations <add place="above" hand="#FdS">théoriques</add> qu’apportent ceux
-                                <lb xml:id="lb11_p11" n="11"/>
+                                <lb xml:id="lb10_p11" n="10"/>
                                 qui ont concentré leur étude sur telle ou telle
-                                <lb xml:id="lb12_p11" n="12"/>
+                                <lb xml:id="lb11_p11" n="11"/>
                                 branche <subst> <add place="above" hand="#FdS"> spéciale <choice xml:lang="fr" n="27"> <abbr>co<am>m̃</am>e</abbr> <expan>co<ex>m</ex>me</expan> </choice> le germanique, le roman, </add> </subst><unclear>s</unclear>ont <subst> <del rend="overstrike"> <gap reason="illegible" quantity="1" unit="char"/></del></subst> beaucoup plus appréciées 
-                                <lb xml:id="lb13_p11" n="13"/>
+                                <lb xml:id="lb12_p11" n="12"/>
                                 <subst><add place="left" hand="#FdS">et considérées</add> <add place="above" hand="#FdS">encore</add></subst> <subst><del rend="overstrike"><gap reason="illegible" extent="9 words"/></del></subst>
-                                <lb xml:id="lb14_p11" n="14"/>
+                                <lb xml:id="lb13_p11" n="13"/>
                                 que les observations des linguistes embrassant
-                                <lb xml:id="lb15_p11" n="15"/>
+                                <lb xml:id="lb14_p11" n="14"/>
                                 une plus grande série de langues.
-                            </ab>       
+                            </ab>      
                             <ab xml:id="pericope_91Aaaa029" n="29" xml:lang="FR" corresp="#it_91Aaaa029 #en_91Aaaa029" facs="#facs_pericope_91Aaaa029">
                                 On se rend
-                                <lb xml:id="lb16_p11" n="16"/>
+                                <lb xml:id="lb15_p11" n="15"/>
                                 compte que <del rend="overstrike"><unclear reason="illegible">ce</unclear></del> c’est <subst><del rend="overstrike"><damage agent="ink blot" quantity="1" unit="char"/></del></subst> le détail ultime <subst><del rend="overstrike"><unclear reason="illegible">qu'est aussi</unclear></del></subst>
-                                <lb xml:id="lb17_p11" n="17"/>
+                                <lb xml:id="lb16_p11" n="16"/>
                                 <subst><del rend="overstrike"><unclear reason="illegible">la raison ultime</unclear></del></subst> des phénomènes <damage agent="ink blot">qui est aussi</damage>
-                                <lb xml:id="lb18_p11" n="18"/>
+                                <lb xml:id="lb17_p11" n="17"/>
                                 leur raison ultime, et qu’ainsi l’extrême spécia<pc force="weak">-</pc>
-                                <lb xml:id="lb19_p11" n="19"/>
+                                <lb xml:id="lb18_p11" n="18"/>
                                 <pc force="weak">=</pc> lisation peut seule servir <subst><add place="below" hand="#FdS">efficacement</add></subst> l’extrême <term ref="#général">générali<damage agent="ripped"><unclear>sation</unclear></damage></term>.  
                             </ab>
                             <ab xml:id="pericope_91Aaaa030" n="30" xml:lang="FR" corresp="#it_91Aaaa030 #en_91Aaaa030" facs="#facs_pericope_91Aaaa030">
-                                <lb xml:id="lb20_p11" n="20"/>
+                                <lb xml:id="lb19_p11" n="19"/>
                                 Ce ne sont pas des <term ref="#linguiste">linguistes</term> <choice xml:lang="fr"><abbr>co<am>m̃</am>e</abbr><expan>co<ex>m</ex>me</expan></choice> <persName ref="#FM">Friedrich Mü<damage agent="handwriting"><unclear>ller</unclear></damage></persName>,
-                                <lb xml:id="lb21_p11" n="21"/>
+                                <lb xml:id="lb20_p11" n="20"/>
                                 <subst><add place="left" hand="#FdS">de l’<orgName ref="#UniVienne">Université de Vienne</orgName></add></subst>, qui <subst><del rend="overstrike">coñaissance</del><add place="above" hand="#FdS">embrassent</add></subst> à peu près <unclear>tous</unclear> les <term ref="#glossa-mancante">idiomes</term> du 
-                                <lb xml:id="lb22_p11" n="22"/>
+                                <lb xml:id="lb21_p11" n="21"/>
                                 globe, qui ont jamais fait faire un pas à la
-                                <lb xml:id="lb23_p11" n="23"/>
+                                <lb xml:id="lb22_p11" n="22"/>
                                 <choice xml:lang="fr"><abbr>co<am>ñ</am>aissance</abbr> <expan>co<ex>n</ex>naissance</expan></choice> du <term ref="#langage1">langage</term>; mais <subst><del rend="overstrike"> <gap reason="illegible" extent="1 word"/></del></subst> les 
-                                <lb xml:id="lb24_p11" n="24"/>
+                                <lb xml:id="lb23_p11" n="23"/>
                                 noms qu’on aurait à citer <expan>dans ce</expan> sens seraient 
-                                <lb xml:id="lb25_p11" n="25"/>
+                                <lb xml:id="lb24_p11" n="24"/>
                                 des noms de romanistes comme <persName ref="#MGParis">M. Gaston Paris</persName>,
-                                <lb xml:id="lb26_p11" n="26"/>
+                                <lb xml:id="lb25_p11" n="25"/>
                                 <persName ref="#MPMeyer">M. Paul Meyer</persName>, <subst> <add place="above" hand="#FdS"> <persName ref="#MS">M. Schuchardt</persName></add></subst>, des noms de germanistes comme
-                                <lb xml:id="lb27_p11" n="27"/>
-                                <persName ref="#MHPaul">M. Hermann Paul</persName>, des noms de <orgName ref="#EcoleRusse">l’école russe</orgName> s’occupant spécia<pc force="weak">-</pc> 
-                                
-                                <pb xml:id="pagina12" n="12"/>
-                                
-                                <lb xml:id="lb28_p11" n="28" break="no"/>
-                                <pc force="weak">=</pc>lement
-                                
-                                <!-- abbiamo codificato fino alla fine della pericope però facendo parte della pagina 12 l'abbiamo commentata -->
-                                <!-- du russe et du slave, comme <name type="Antroponimo">M. N. Baudouin de Courtenay</name>, <name type="Antroponimo">M. Kruszewski</name>. -->                            
+                                <lb xml:id="lb26_p11" n="26"/>
+                                <persName ref="#MHPaul">M. Hermann Paul</persName>, des noms de l’école russe s’occupant spécia<pc force="weak">-</pc>                      
                             </ab>                            
 
                         </div>
