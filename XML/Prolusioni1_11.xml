@@ -383,33 +383,48 @@
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p11_it" hand="#h1" type="box_testo_it">
-                            <ab xml:id="it_91Aaaa022" corresp="#pericope_91Aaaa022" xml:lang="IT">
-                                <lb/>Senza posa, dunque, lo studio generale 
-                                <lb/>del linguaggio si alimenta delle osservazioni di ogni sorta 
-                                <lb/>che saranno state compiute nel campo parti-
-                                <lb/>=colare di questa o quella lingua.
+                            <ab xml:id="it_91Aaaa025" corresp="#pericope_91Aaaa025" xml:lang="IT">
+                                <lb/>un caso teorico nuovo, allorché lo ritrova 
+                                <lb/>da qualche parte, nell’ultimo dei nostri dialetti,
+                                <lb/>o nel più sparuto idioma polinesiano.
                             </ab>    
-                            <ab xml:id="it_91Aaaa023" corresp="#pericope_91Aaaa023" xml:lang="IT">
-                                <lb/>Anche a supporre 
-                                <lb/>che l’esercizio dell’espressione linguistica [parole] costituisca nell’uomo 
-                                <lb/>una funzione naturale, 
-                                <lb/>che è il punto di vista eminentemente falso 
-                                <lb/>in cui si pongono certe scuole di antropologi 
-                                <lb/>e di linguisti, bisognerebbe ancora assolutamente 
-                                <lb/>sostenere che l’esercizio di tale funzione non è 
-                                <lb/>abbordabile per la scienza che dal lato della 
-                                <lb/>lingua o dal lato delle lingue esistenti.
-                            </ab>                               
-                            <ab xml:id="it_91Aaaa024" corresp="#pericope_91Aaaa024" xml:lang="IT">
-                                <lb/>Ma, per converso, lo studio di tali lingue 
-                                <lb/>esistenti si condannerebbe a rimanere pressoché sterile, e in ogni caso 
-                                <lb/>a restare sprovvisto sia di metodo che 
-                                <lb/>di qualsiasi principio direttivo, se esso non tendesse costantemente 
-                                <lb/>ad illustrare il problema 
-                                <lb/>generale del linguaggio, se esso non cercasse 
-                                <lb/>di enucleare da ogni fatto particolare che osserva il senso e 
-                                <lb/>profitto netto che ne derivano per la nostra conoscenza 
-                                <lb/>delle operazioni possibili dell’istinto umano applicato alla lingua.
+                            <ab xml:id="it_91Aaaa026" corresp="#pericope_91Aaaa026" xml:lang="IT">
+                                <lb/>In ogni momento, in ogni branca della scienza delle lingue, chiunque al giorno d’oggi è ansioso
+                                <lb/>soprattutto di mettere in luce ciò che può interessare il linguaggio, in generale.
+                            </ab>            
+                            <ab xml:id="it_91Aaaa027" corresp="#pericope_91Aaaa027" xml:lang="IT">
+                                <lb/>È una pietra che aggiunge all’edificio, 
+                                <lb/>e che non sarà distrutta.               
+                            </ab>
+                            <ab xml:id="it_91Aaaa028" corresp="#pericope_91Aaaa028" xml:lang="IT">
+                                In ogni momento, in
+                                <lb/>ogni branca della scienza delle lingue, 
+                                <lb/>chiunque al giorno d’oggi è ansioso soprattutto di mettere in luce ciò che può 
+                                <lb/>interessare il linguaggio, in generale.
+                            </ab>                            
+                            <ab xml:id="it_91Aaaa029" corresp="#pericope_91Aaaa029" xml:lang="IT">
+                                <lb/>E – fenomeno notevole – le osservazioni teoriche che offrono coloro 
+                                <lb/>che hanno concentrato il proprio studio su questa o quella 
+                                <lb/>branca specialistica come il germanico, il romanzo, sono molto apprezzate
+                                <lb/>e considerate, ancor 
+                                <lb/>più delle osservazioni dei linguisti che si occupano
+                                <lb/>d’un insieme più vasto di lingue.
+                            </ab>                              
+                            <ab xml:id="it_91Aaaa030" corresp="#pericope_91Aaaa030" xml:lang="IT">
+                                Finiamo per accorgerci 
+                                <lb/>che è il dettaglio ultimo 
+                                <lb/>dei fenomeni ciò che è anche 
+                                <lb/>la loro ultima ragione, sicché solamente l’estrema specializ-
+                                <lb/>-zazione può servire al meglio l’estrema generalizzazione.
+                            </ab>                                
+                            <ab xml:id="it_91Aaaa031" corresp="#pericope_91Aaaa031" xml:lang="IT">
+                                <lb/>Non sono linguisti come Friedrich Müller, dell’Università di Vienna, che abbracciano più o meno tutti gli idiomi 
+                                <lb/>della terra, che abbiano mai fatto fare un passo in avanti alla 
+                                <lb/>conoscenza del linguaggio;
+                                <lb/>ma i nomi che si dovrebbero citare in questo senso sarebbero  
+                                <lb/>nomi di romanisti, come Gaston Paris,
+                                <lb/>Paul Meyer, Schuchardt, nomi di germanisti come  
+                                <lb/>Hermann Paul, nomi della scuola russa che s’occupa in maniera peculiare 
                             </ab>   
                         </div>                            
                     </body>
@@ -420,13 +435,13 @@
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
                     <body resp="#AC" xml:id="body-inglese">
                         <div xml:id="div_p11_en" hand="#h1" type="box_testo_en">
-                            <ab xml:id="en_91Aaaa022" corresp="#pericope_91Aaaa022" xml:lang="IT">
+                            <ab xml:id="en_91Aaaa025" corresp="#pericope_91Aaaa025" xml:lang="IT">
                                 <lb/>The general study of language is thus
                                 <lb/> ceaselessly enriched by all kinds of 
                                 <lb/>observations culled from the particular
                                 <lb/>field of specific languages. Even if we supposed 
                             </ab>    
-                            <ab xml:id="en_91Aaaa023" corresp="#pericope_91Aaaa023" xml:lang="IT">
+                            <ab xml:id="en_91Aaaa026" corresp="#pericope_91Aaaa026" xml:lang="IT">
                                 that the use of speech constituted a 
                                 <lb/>natural human function, 
                                 <lb/>an eminently flase viewpoint 
@@ -436,7 +451,7 @@
                                 <lb/>can only be scientifically apprehended 
                                 <lb/>via the language system or via existing languages.
                             </ab>                               
-                            <ab xml:id="en_91Aaaa024" corresp="#pericope_91Aaaa024" xml:lang="IT">
+                            <ab xml:id="en_91Aaaa027" corresp="#pericope_91Aaaa027" xml:lang="IT">
                                 <lb/>But, reciprocally, the study of these existing
                                 <lb/>languages would be condemned to near sterility, or at least 
                                 <lb/>to a lack both of method and 
@@ -448,7 +463,7 @@
                                 <lb/>of the workings of human instinct applied 
                                 <lb/>to language. 
                             </ab>   
-                            <ab xml:id="en_91Aaaa025" corresp="#pericope_91Aaaa025" xml:lang="IT">
+                            <ab xml:id="en_91Aaaa028" corresp="#pericope_91Aaaa028" xml:lang="IT">
                                 And this does not have a vague, 
                                 <lb/>general meaning: anybody with an idea of
                                 <lb/>our field knows the joy and triumph a researcher feels 
