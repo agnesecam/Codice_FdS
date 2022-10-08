@@ -385,22 +385,18 @@
                                 <lb/>un caso teorico nuovo, allorché lo ritrova 
                                 <lb/>da qualche parte, nell’ultimo dei nostri dialetti,
                                 <lb/>o nel più sparuto idioma polinesiano.
-                            </ab>    
+                            </ab>             
                             <ab xml:id="it_91Aaaa026" corresp="#pericope_91Aaaa026" xml:lang="IT">
-                                <lb/>In ogni momento, in ogni branca della scienza delle lingue, chiunque al giorno d’oggi è ansioso
-                                <lb/>soprattutto di mettere in luce ciò che può interessare il linguaggio, in generale.
-                            </ab>            
-                            <ab xml:id="it_91Aaaa027" corresp="#pericope_91Aaaa027" xml:lang="IT">
                                 <lb/>È una pietra che aggiunge all’edificio, 
                                 <lb/>e che non sarà distrutta.               
                             </ab>
-                            <ab xml:id="it_91Aaaa028" corresp="#pericope_91Aaaa028" xml:lang="IT">
+                            <ab xml:id="it_91Aaaa027" corresp="#pericope_91Aaaa027" xml:lang="IT">
                                 In ogni momento, in
                                 <lb/>ogni branca della scienza delle lingue, 
                                 <lb/>chiunque al giorno d’oggi è ansioso soprattutto di mettere in luce ciò che può 
                                 <lb/>interessare il linguaggio, in generale.
                             </ab>                            
-                            <ab xml:id="it_91Aaaa029" corresp="#pericope_91Aaaa029" xml:lang="IT">
+                            <ab xml:id="it_91Aaaa028" corresp="#pericope_91Aaaa028" xml:lang="IT">
                                 <lb/>E – fenomeno notevole – le osservazioni teoriche che offrono coloro 
                                 <lb/>che hanno concentrato il proprio studio su questa o quella 
                                 <lb/>branca specialistica come il germanico, il romanzo, sono molto apprezzate
@@ -408,14 +404,14 @@
                                 <lb/>più delle osservazioni dei linguisti che si occupano
                                 <lb/>d’un insieme più vasto di lingue.
                             </ab>                              
-                            <ab xml:id="it_91Aaaa030" corresp="#pericope_91Aaaa030" xml:lang="IT">
+                            <ab xml:id="it_91Aaaa029" corresp="#pericope_91Aaaa029" xml:lang="IT">
                                 Finiamo per accorgerci 
                                 <lb/>che è il dettaglio ultimo 
                                 <lb/>dei fenomeni ciò che è anche 
                                 <lb/>la loro ultima ragione, sicché solamente l’estrema specializ-
                                 <lb/>-zazione può servire al meglio l’estrema generalizzazione.
                             </ab>                                
-                            <ab xml:id="it_91Aaaa031" corresp="#pericope_91Aaaa031" xml:lang="IT">
+                            <ab xml:id="it_91Aaaa030" corresp="#pericope_91Aaaa030" xml:lang="IT">
                                 <lb/>Non sono linguisti come Friedrich Müller, dell’Università di Vienna, che abbracciano più o meno tutti gli idiomi 
                                 <lb/>della terra, che abbiano mai fatto fare un passo in avanti alla 
                                 <lb/>conoscenza del linguaggio;
@@ -434,38 +430,47 @@
                     <body resp="#AC" xml:id="body-inglese">
                         <div xml:id="div_p11_en" hand="#h1" type="box_testo_en">
                             <ab xml:id="en_91Aaaa025" corresp="#pericope_91Aaaa025" xml:lang="IT">
-                                <lb/>The general study of language is thus
-                                <lb/> ceaselessly enriched by all kinds of 
-                                <lb/>observations culled from the particular
-                                <lb/>field of specific languages. Even if we supposed 
+                                <lb/>a new theoretical finding, wherever they may have discovered it, 
+                                <lb/>be it the obscurest French dialect,  
+                                <lb/>or the most marginal Polynesian idiom.
                             </ab>    
                             <ab xml:id="en_91Aaaa026" corresp="#pericope_91Aaaa026" xml:lang="IT">
-                                that the use of speech constituted a 
-                                <lb/>natural human function, 
-                                <lb/>an eminently flase viewpoint 
-                                <lb/>held in some anthropological 
-                                <lb/>and linguistic schools, it would remain absolutely 
-                                <lb/>imperative to uphold that the exercise of this function 
-                                <lb/>can only be scientifically apprehended 
-                                <lb/>via the language system or via existing languages.
+                                <lb/>Each is an enduring 
+                                <lb/>stone added to the edifice.
                             </ab>                               
                             <ab xml:id="en_91Aaaa027" corresp="#pericope_91Aaaa027" xml:lang="IT">
-                                <lb/>But, reciprocally, the study of these existing
-                                <lb/>languages would be condemned to near sterility, or at least 
-                                <lb/>to a lack both of method and 
-                                <lb/>of all guiding principles, if it did not tend constantly
-                                <lb/>to provide illustrations of the general problem 
-                                <lb/>of language, and if it did not seek 
-                                <lb/>to extract from each particular observation the meaning 
-                                <lb/>and the net advantage to be had for our knowledge 
-                                <lb/>of the workings of human instinct applied 
-                                <lb/>to language. 
-                            </ab>   
+                                The whole time, 
+                                <lb/>in all branches of the language sciences, 
+                                <lb/>everyone is at present primarily concerned to throw light on what might 
+                                <lb/>be salient for language in general. 
+                            </ab>  
                             <ab xml:id="en_91Aaaa028" corresp="#pericope_91Aaaa028" xml:lang="IT">
-                                And this does not have a vague, 
-                                <lb/>general meaning: anybody with an idea of
-                                <lb/>our field knows the joy and triumph a researcher feels 
+                                <lb/>And, remarkably, the theoretical observations of those who
+                                <lb/>concentrate 
+                                <lb/>on special branches such as Germanic or Romance, occasion far more appreciation 
+                                <lb/>and interest 
+                                <lb/>than observations of linguists 
+                                <lb/>who take on a wider series of languages.
+                            </ab>
+                            <ab xml:id="en_91Aaaa029" corresp="#pericope_91Aaaa029" xml:lang="IT">
+                                It appears 
+                                <lb/>that the smallest detail 
+                                <lb/>concerning a phenomenon is also 
+                                <lb/>its greatest rationalization, and hence extreme specialization
+                                <lb/>alone may be usefully exploited in extreme generalization.
                             </ab>   
+                            <ab xml:id="en_91Aaaa030" corresp="#pericope_91Aaaa030" xml:lang="IT">
+                                <lb/>It is not linguists like Friedrich
+                                <lb/>Muller, of the University of Vienna, who 
+                                <lb/>take in more or less all the languages of
+                                <lb/>the world, who have ever contributed to 
+                                <lb/>what we know about language itself; 
+                                <lb/>rather, the names to mention in this respect are 
+                                <lb/>those of Romanists such as Messrs Gaston Paris, 
+                                <lb/>Paul Meyer, or Schuchardt, Germanists such as
+                                <lb/>M. Hermann Paul, and Slavicist from the Russian school 
+                                <lb/>(such as M. N. Baudouin de Courtenay and M. Kruszewski.)
+                            </ab>                               
                         </div>                         
                     </body>
                 </text>       

@@ -78,15 +78,8 @@ input {
 #box_testo_fr, #box_testo_it, #box_testo_en {
     display: inline-block;
     float: right;
-    margin-right: 80px;
     font-size: 90%;
-}
-#box_testo_it, #box_testo_en {
-    width: 500px;
-    margin-right: 150px;
-}
-
-.box_testo {
+    width: 50%;
     padding-top: 95px;
 }
 
