@@ -819,7 +819,135 @@
                             <country key="CH">Switzerland</country>
                         </placeName>                        
                     </death> 
+                </person>    
+
+                <!--Friedrich Müller-->
+                <person xml:id="FM" sameAs="http://worldcat.org/identities/np-muller,%20friedrich/"> 
+                    <persName role="author"> 
+                        <forename>Friedrich</forename>
+                        <surname>Müller</surname>
+                    </persName>
+                    <occupation>linguista</occupation>
+                    <birth>
+                        <date when="1834-03-06">06 Marzo 1834</date>
+                        <placeName>
+                            <settlement type="municipality">Jemnice</settlement>
+                            <settlement type="regione">Vysočina</settlement>
+                            <settlement type="distretto" key="Třebíč">Třebíč</settlement>
+                            <country key="CS">Repubblica Ceca</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1875-12-20">25 Maggio 1898</date>
+                        <placeName>
+                            <settlement type="municipality">Vienna</settlement>
+                            <settlement type="department" key="Vienna">Vienna</settlement>
+                            <country key="G">Austria</country>
+                        </placeName>                        
+                    </death> 
                 </person>          
+
+                <!--M. Gaston Paris-->
+                <person xml:id="MGParis" sameAs="https://www.treccani.it/enciclopedia/gaston-paris/"> 
+                    <persName role="author"> 
+                        <forename>Gaston</forename>
+                        <surname>Paris</surname>
+                    </persName>
+                    <occupation>linguista</occupation>
+                    <birth>
+                        <date when="1839">1839</date>
+                        <placeName>
+                            <settlement type="municipality">Avenay</settlement>
+                            <settlement type="department" key="GE">Marna</settlement>
+                            <country key="FR">Francia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1903">1903</date>
+                        <placeName>
+                            <settlement type="municipality">Cannes</settlement>
+                            <country key="FR">Francia</country>
+                        </placeName>                        
+                    </death> 
+                </person>
+
+                <!--M. Paul Meyer-->
+                <person xml:id="MPMeyer" sameAs="http://worldcat.org/identities/lccn-n81040595/"> 
+                    <persName role="author"> 
+                        <forename>Paul</forename>
+                        <surname>Meyer</surname>
+                    </persName>
+                    <occupation>linguista</occupation>
+                    <birth>
+                        <date when="1840-01-17">17 gennaio 1840</date>
+                        <placeName ref="#P">
+                            <settlement type="municipality">Lancy</settlement>
+                            <settlement type="department" key="GE">Genève</settlement>
+                            <country key="CH">Switzerland</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1917-09-07">7 settembre 1917</date>
+                        <placeName>
+                            <settlement type="municipality">Paris</settlement>
+                            <country key="FR">Francia</country>
+                        </placeName>                            
+                    </death> 
+                </person>
+
+                <!--M. Schuchardt-->
+                <person xml:id="MS" sameAs="http://worldcat.org/identities/lccn-n79065470/"> 
+                    <persName role="author"> 
+                        <forename>Hugo</forename>
+                        <forename>Ernst</forename>
+                        <forename>Mario</forename>
+                        <surname>Schuchardt</surname>
+                    </persName>
+                    <occupation>linguista</occupation>
+                    <birth>
+                        <date when="1842-02-04">4 febbraio 1842</date>
+                        <placeName>
+                            <settlement type="municipality">Gotha</settlement>
+                            <settlement type="land">Turingia</settlement>
+                            <country key="DE">Germania</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1927-04-21">21 aprile 1927</date>
+                        <placeName>
+                            <settlement type="municipality">Graz</settlement>
+                            <settlement type="land">Stiria</settlement>
+                            <country key="G">Austria</country>
+                        </placeName>                        
+                    </death> 
+                </person>
+
+                <!--M. Hermann Paul-->
+                <person xml:id="MHPaul" sameAs="http://worldcat.org/identities/lccn-n90720615/"> 
+                    <persName role="author"> 
+                        <forename>Adolphe</forename>
+                        <surname>Pictet</surname>
+                    </persName>
+                    <occupation>linguista</occupation>
+                    <birth>
+                        <date when="1846-08-07">7 agosto 1846</date>
+                        <placeName>
+                            <settlement type="municipality">Magdeburgo</settlement>
+                            <settlement type="land">Sassonia-Anhalt</settlement>
+                            <country key="DE">Germania</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1921-12-29">29 dicembre 1921</date>
+                        <placeName>
+                            <settlement type="municipality">Monaco di Baviera</settlement>
+                            <settlement type="land">Baviera</settlement>
+                            <country key="DE">Germania</country>
+                        </placeName>                        
+                    </death> 
+                </person>
+
+
             </listPerson>                
 
             </sourceDesc>
@@ -848,18 +976,27 @@
                 <listOrg>
                     <head>Organizzazioni</head>
                     
-                    <!--Faculté des lettres Genève-->
+                    <!--Facoltà di Lettere-->
                     <org xml:id="FacLettres">
-                        <orgName ref="https://www.unige.ch/lettres/fr/">Faculté des lettres de l'Université de Genève</orgName>
-                        <placeName ref="#GE">Genève</placeName>
+                        <orgName ref="https://www.unige.ch/lettres/fr/">Facoltà di Lettere dell'Università di Ginevra</orgName>
+                        <placeName ref="#GE">Ginevra</placeName>
                     </org>
 
-                    <!--University of Geneva-->
+                    <!--Università di Ginevra-->
                     <org xml:id="UniGeneve">
-                        <orgName ref="https://en.wikipedia.org/wiki/University_of_Geneva&gt;">University of Geneva</orgName>
-                            <placeName ref="#GE">Genève</placeName>
+                        <orgName ref="https://en.wikipedia.org/wiki/University_of_Geneva&gt;">Università di Ginevra</orgName>
+                        <placeName ref="#GE">Ginevra</placeName>
                         <desc>
-                            The University of Geneva (French: Université de Genève) is a public research university located in Geneva, Switzerland.
+                            L'Università di Ginevra è stata fondata nel 1559 per iniziativa del riformatore Giovanni Calvino. Con oltre 17'000 studenti, è la seconda università più grande della Svizzera
+                        </desc>
+                    </org>                    
+                    
+                    <!--Università di Vienna-->
+                    <org xml:id="UniVienne">
+                        <orgName ref="https://en.wikipedia.org/wiki/Università_di_Vienna&gt;">Università di Vienna</orgName>
+                        <placeName>Vienna</placeName>
+                        <desc>
+                            L'Università di Vienna (tedesco: Universität Wien) è un'università pubblica di Vienna. 
                         </desc>
                     </org>
         
