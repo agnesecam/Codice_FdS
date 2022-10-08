@@ -255,7 +255,7 @@
     
     <facsimile>
         <!--UNDICESIMA PAGINA-->
-        <surface n="10" xml:id="scan_p11">
+        <surface n="11" xml:id="scan_p11">
             <graphic url="ms_fr_03951_01_1_p011-resized.jpg" width="600px" height="900px"/> 
             <!--Righe-->
             <zone points=" 153,118, 147,131, 547,134, 541,117  " rendition="line" xml:id="facs_p11_lb1"/>                       
