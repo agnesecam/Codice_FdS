@@ -301,9 +301,7 @@
                 <!--M. Schuchardt-->
                 <person xml:id="MS" sameAs="http://worldcat.org/identities/lccn-n79065470/"> 
                     <persName role="author"> 
-                        <forename>Hugo</forename>
-                        <forename>Ernst</forename>
-                        <forename>Mario</forename>
+                        <forename>Hugo Ernst Mario</forename>
                         <surname>Schuchardt</surname>
                     </persName>
                     <occupation>linguista</occupation>
@@ -328,8 +326,8 @@
                 <!--M. Hermann Paul-->
                 <person xml:id="MHPaul" sameAs="http://worldcat.org/identities/lccn-n90720615/"> 
                     <persName role="author"> 
-                        <forename>Adolphe</forename>
-                        <surname>Pictet</surname>
+                        <forename>Hermann</forename>
+                        <surname>Paul</surname>
                     </persName>
                     <occupation>linguista</occupation>
                     <birth>
