@@ -11,10 +11,10 @@
                 <author ref="#FdS" role="author">Ferdinand de Saussure</author>
                 <respStmt>
 					<resp>Responsability of:</resp>
-					<name ref="#AMDG">Angelo Mario Del Grosso</name>
-					<name ref="#AC">Agnese Camici</name>
-					<name ref="#SP">Silvia Piccini</name>
-					<name ref="#GC">Giuseppe Cosenza</name>
+					<persName ref="#AMDG">Angelo Mario Del Grosso</persName>
+					<persName ref="#AC">Agnese Camici</persName>
+					<persName ref="#SP">Silvia Piccini</persName>
+					<persName ref="#GC">Giuseppe Cosenza</persName>
 				</respStmt>
             </titleStmt>
             
@@ -24,20 +24,20 @@
                 </edition>
                 <respStmt>
                     <resp>Digital edition project coordinated by</resp> 
-                    <name ref="#AMDG">Angelo Mario Del Grosso</name>
-                    <name ref="#AC">Agnese Camici</name>
-                    <name ref="#SP">Silvia Piccini</name>
-                    <name ref="#EF">Emanuele Fadda</name>
-                    <name ref="#DG">Daniele Gambarara</name>
-                    <name ref="#GC">Giuseppe Cosenza</name>
-                    <name ref="#GD">Giuseppe D'Ottavi</name>
+                    <persName ref="#AMDG">Angelo Mario Del Grosso</persName>
+                    <persName ref="#AC">Agnese Camici</persName>
+                    <persName ref="#SP">Silvia Piccini</persName>
+                    <persName ref="#EF">Emanuele Fadda</persName>
+                    <persName ref="#DG">Daniele Gambarara</persName>
+                    <persName ref="#GC">Giuseppe Cosenza</persName>
+                    <persName ref="#GD">Giuseppe D'Ottavi</persName>
                 </respStmt>
                 <respStmt>
                     <resp>Encoding by</resp>
-                    <name ref="#AMDG">Angelo Mario Del Grosso</name>
-                    <name ref="#AC">Agnese Camici</name>
-                    <name ref="#SP">Silvia Piccini</name>
-                    <name ref="#GC">Giuseppe Cosenza</name>
+                    <persName ref="#AMDG">Angelo Mario Del Grosso</persName>
+                    <persName ref="#AC">Agnese Camici</persName>
+                    <persName ref="#SP">Silvia Piccini</persName>
+                    <persName ref="#GC">Giuseppe Cosenza</persName>
                 </respStmt>        
             </editionStmt>
 
@@ -273,21 +273,20 @@
             <zone points = ' 160,372, 124,390, 535,377, 533,355 ' rendition="line" xml:id="facs_p12_lb10"/>
             <zone points = ' 137,396, 126,419, 520,404 ,514,389  ' rendition="line" xml:id="facs_p12_lb11"/>
             <zone points = '  138,427, 132,446, 532,434 ,529,406' rendition="line" xml:id="facs_p12_lb12"/>    
-
-            <zone points = '  145,465 ,150,488 ,533,478, 535,457  '  rendition="line" xml:id="facs_p12_lb13"/>    
-            <zone points = ' 156,494, 153,514, 524,506, 529,479 '  rendition="line" xml:id="facs_p12_lb14"/>    
-            <zone points = '  151,519, 151,540, 542,528, 546,509' rendition="line" xml:id="facs_p12_lb15"/>    
-            <zone points = '  152,548, 154,568, 552,558, 549,528' rendition="line" xml:id="facs_p12_lb16"/>    
-            <zone points = '   160,572, 153,599, 548,582, 550,561 ' rendition="line" xml:id="facs_p12_lb17"/>    
-            <zone points = '  161,597, 158,621, 561,627, 558,585 ' rendition="line" xml:id="facs_p12_lb18"/>    
-            <zone points = ' 174,634, 168,660, 559,652 ,552,626' rendition="line" xml:id="facs_p12_lb19"/>    
-            <zone points = '  47,667, 48,690, 552,683, 544,656' rendition="line" xml:id="facs_p12_lb20"/>    
-            <zone points = ' 174,698 ,169,727, 549,717, 543,687' rendition="line" xml:id="facs_p12_lb21"/>    
-            <zone points = '  180,727 ,170,749, 538,744, 535,719' rendition="line" xml:id="facs_p12_lb22"/>    
-            <zone points = '  182,751 ,178,777, 534,772 ,526,746' rendition="line" xml:id="facs_p12_lb23"/>    
-            <zone points = '  179,784 ,178,804, 543,800 ,535,772' rendition="line" xml:id="facs_p12_lb24"/>    
-            <zone points = '  170,810 ,171,834 ,554,819, 542,804' rendition="line" xml:id="facs_p12_lb25"/>    
-            <zone points = '  122,833, 117,856 ,545,847, 538,830' rendition="line" xml:id="facs_p12_lb26"/>    
+            <zone points = ' 129,456, 530,432, 538,458, 129,483  '  rendition="line" xml:id="facs_p12_lb13"/>    
+            <zone points = ' 128,487, 535,462, 541,491, 128,510'  rendition="line" xml:id="facs_p12_lb14"/>    
+            <zone points = ' 37,517, 36,546, 536,516, 536,493' rendition="line" xml:id="facs_p12_lb15"/>    
+            <zone points = ' 132,547, 536,526, 534,551, 134,569' rendition="line" xml:id="facs_p12_lb16"/>    
+            <zone points = ' 130,573, 545,557, 546,583 ,132,591 ' rendition="line" xml:id="facs_p12_lb17"/>    
+            <zone points = ' 133,592 ,133,630 ,538,606 ,529,581' rendition="line" xml:id="facs_p12_lb18"/>    
+            <zone points = ' 128,636, 128,671, 547,627 ,517,610' rendition="line" xml:id="facs_p12_lb19"/>    
+            <zone points = ' 137,667 ,139,698, 552,675 ,544,655' rendition="line" xml:id="facs_p12_lb20"/>    
+            <zone points = ' 136,697 ,547,676, 547,699, 136,718' rendition="line" xml:id="facs_p12_lb21"/>    
+            <zone points = ' 28,735, 542,703, 549,738, 157,753 61,782' rendition="line" xml:id="facs_p12_lb22"/>    
+            <zone points = ' 138,761, 542,738, 542,769 ,134,782' rendition="line" xml:id="facs_p12_lb23"/>    
+            <zone points = ' 141,789 ,536,774, 544,795, 136,804' rendition="line" xml:id="facs_p12_lb24"/>    
+            <zone points = ' 34,806, 540,797, 540,822, 34,841' rendition="line" xml:id="facs_p12_lb25"/>    
+            <zone points = ' 133,842, 538,823, 537,843, 150,856' rendition="line" xml:id="facs_p12_lb26"/>    
 
             <zone points = ' 50,70, 93,67, 89,99, 49,97 '  rendition="line" xml:id="facs_HandPageNumber-12"/>     <!--Numero 12 cerchiato in alto a sx-->           
 
@@ -300,7 +299,7 @@
             <group xml:id="fr_Prolusioni"> <!--TESTO FRANCESE DELLE 3 PROLUSIONI-->
                 <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
                     <body xml:lang="fr" source="#Bouquet-Engler2002" xml:id="body-francese">
-                        <!--Nona pagina-->
+                        <!--Dodicesima pagina-->
                         <pb n="f1r" xml:id="body_p12" facs="#scan_p12"/>
                         <!--Numeri impaginazione a stampa e a mano-->
                         <ab>
@@ -309,9 +308,9 @@
                         <div xml:id="div_p12_fr" hand="#h1" type="box_testo" part="f">
                             <ab xml:id="pericope_91Aaaa030" n="30" xml:lang="FR" corresp="#it_91Aaaa030 #en_91Aaaa030" facs="#facs_pericope_91Aaaa030"> 
                                 <lb xml:id="lb1_p12" n="1" facs="#facs_p12_lb1"/>
-                                =lement du russe et du slave, comme M. <name type="person" n="1">N. Baudouin
+                                =lement du russe et du slave, comme <persName ref="#NBC">M.  N. Baudouin
                                 <lb xml:id="lb2_p12" n="2" facs="#facs_p12_lb2"/>
-                                de Courtenay</name>, M.<name type="person" n="2">Kruszewski</name>.
+                                de Courtenay</persName>, <persName  ref="#MK">M. Kruszewski</persName>.
                                 <del rend="overstrike" hand="#FdS"><gap quantity="1" unit="words" reason="illegible"></gap></del>
                             </ab>
                             <ab xml:id="pericope_91Aaaa031" n="31" xml:lang="FR" corresp="#it_91Aaaa031 #en_91Aaaa031" facs="#facs_pericope_91Aaaa031"> 
@@ -326,7 +325,7 @@
                                 <lb xml:id="lb7_p12" n="7" facs="#facs_p12_lb7"/>
                                 pas de sèparation entre l'<term ref="#linguistique-N">ètude du langage</term>
                                 <lb xml:id="lb8_p12" n="8" facs="#facs_p12_lb8"/>
-                                et l'<term ref="#linguistique-N">ètude des langues</term>,
+                                et l'<term ref="#linguistique-N">ètude <del><gap/></del> des langues</term>, <del><gap/></del>
                                 <lb xml:id="lb9_p12" n="9" facs="#facs_p12_lb9"/>
                                 ou l'ètude de telle ou telle <term ref="#langue1">langue</term><del rend="overstrike" hand="#FdS"><gap quantity="5" unit="words" reason="illegible"></gap></del><add place="left-margin"> ou <term ref="#glossa-mancante">famille de langues</term></add> mais que d'un autre c&#244;tè chaque 
                                 <lb xml:id="lb10_p12" n="10" facs="#facs_p12_lb10"/>
@@ -334,34 +333,42 @@
                                 <lb xml:id="lb11_p12" n="11" facs="#facs_p12_lb11"/>
                                 document nouveau, et intèressant au mème 
                                 <lb xml:id="lb12_p12" n="12" facs="#facs_p12_lb12"/>
-                                titre que tout autre, pour le fait universel du <term ref="#langage-N">lan-</term>
+                                titre que tout autre, pour le fait universel du <term ref="#langage1">lan-</term>
                                 <lb xml:id="lb13_p12" n="13" facs="#facs_p12_lb13"/>
-                                <term ref="#langage-N">gage</term>.</ab>
-
-                                <!--NON C'È CAMBIO DI RIGA!!!!-->
-                                <ab xml:id="pericope_91Aaaa032" n="32" xml:lang="FR" corresp="#it_91Aaaa032 #en_91Aaaa032" facs="#facs_pericope_91Aaaa032"> <p xml:id="pericope3">L'<name type="org">Universitè de Genève</name><lb n='11'> a tenu dès le premier jour,  et à <del rend="overstrike" hand="#FdS"><gap quantity="2" unit="words" reason="illegible"></gap></del><add hand="#FdS" place="sopralinea"> bon droit</add>, 
-                                à donner une place <gap quantity="1" unit="symbol" reason="symbol"></gap> à la </lb> <term ref="TERM10">science du langage</term><lb n='12'> ; elle l'a fait en crèant le </lb> <name type="org" n='2'>cours de Linguistique</name>
-                                <lb n='13' > et a rèsumè ainsi sous un nom très juste l'ensemble des ètudes relatives au </lb> <term ref="TERM11">parler humain</term>.&gt;</p>                 
-                                <p xml:id="pericope4"> &lt; <lb n='14'>Il est presque inutile de dire que cet enseignement, </lb> <date xml:id="date1" from="15 ans">donnè depuis quinze ans</date><lb n='15'>, avec une èrudition,
-                                une expèrience <del rend="overstrike" hand="#FdS"><gap quantity="1" unit="words" reason="illegible"></gap></del> que vous ne vous attendez pas un seul instant à retrouver dans ces confèrences,</lb>
-                                <lb n='16'>-que cet enseignement n'</lb><lb n='17'>a jamais rien eu dans son programme qui pùt exclure tel corps d'ètudes
-                                particulier comme celui qui se rapporte aux</lb> <term ref="TERM12"> langues romanes</term>, ou aux <term ref="TERM13">langues germaniques</term>, ou aux
-                                <term ref="TERM14">langues indo-européennes</term>, ou aux <term ref="TERM15">langues sémitiques</term>, etc.&gt;</p> 
-                                <p xml:id="pericope5">&lt; <lb n='18'>Au contraire, il appelle autour de lui ces études particulières,
-                                et le témoignage le plus autorisé, en même temps que le </lb><lb n='19'> plus agréable que j’en puisse apporter,</lb>
-                                c’est que le nouveau <name n='3' type="org">cours de langues indo-européennes</name> créé par le <name n ='4' type="org">Département de l’Instruction
-                                Publique</name><lb n='20'> l’a été en pleine conformité de vues avec </lb> <name n='5' type="person">l’éminent titulaire de la chaire de linguistique&#178;</name><!--apice a nota (il 2)-->.</p>
-                                <p xml:id="pericope6"><lb n='21'>Plus on aura dans un même centre <add place="sopralinea">académique</add> de <del rend="overstrike" hand="#FdS"><gap quantity="3" unit="words" reason="illegible"></gap></del></lb><lb n='22'>spécialités linguistiques vouées à 
-                                l’étude d'un</lb> <del hand="#FdS"></del><add hand="#FdS" place="sopralinea"> d’un certain</add> <term ref="TERM16">groupe de langues</term><lb n='23'>, plus aussi</lb><lb n='24'> l’ensemble de ces études prendront de consistance par 
-                                leur appui mutuel, et plus on apercevra</lb> <term ref="TERM17"> les traits générauxde </term><lb n='25'> la discipline, qui sont comme brisés et 
-                                morcelés là où cessent</lb><lb n='26'> tout à coup l’information, l’intérêt, et la vie par</lb><lb n='27'> l’absence de disciples ou de 
-                                maîtres.<del rend="overstrike"><gap reason="indecifrabile"></gap></del></lb></p>
-                                <p xml:id="pericope7">Comme <term ref="TERM18"> linguiste</term><lb n='28'>, on sera certainement porté à souhaiter le développement 
-                                indéfinides chaires de linguistique (<del rend="overstrike" hand="#FdS"></del><add hand="#FdS" place="sopralinea">j’avoue toutefois que ce développement</add> indéfini pourrait avoir
-                                des inconvénients inquiétants à la longue pour tout le monde).</lb></p>
-                            
+                                <term ref="#langage1">gage</term>.
+                            </ab>
+                            <ab xml:id="pericope_91Aaaa032" n="32" xml:lang="FR" corresp="#it_91Aaaa032 #en_91Aaaa032" facs="#facs_pericope_91Aaaa032">
+                                L'<orgName ref="#UniGeneve">Universitè de Genève</orgName> a tenu dès <del><gap/></del>
+                                <lb xml:id="lb14_p12" n="14" facs="#facs_p12_lb14"/>
+                                le premier jour,  et à <del rend="overstrike" hand="#FdS"><gap quantity="2" unit="words" reason="illegible"></gap></del><add hand="#FdS" place="sopralinea"> bon droit</add>, à donner
+                                <lb xml:id="lb15_p12" n="15" facs="#facs_p12_lb15"/>
+                                <del><gap/></del>une place <gap quantity="1" unit="symbol" reason="symbol"></gap> à la <term ref="#linguistique-N">science du langage</term> ; elle l'a fait 
+                                <lb xml:id="lb16_p12" n="16" facs="#facs_p12_lb16"/>
+                                en crèant le  cours de Linguistique<del><gap/></del>
+                                <lb xml:id="lb17_p12" n="17" facs="#facs_p12_lb17"/>
+                                <del><gap/></del>et a rèsumè ainsi sous un nom
+                                <lb xml:id="lb18_p12" n="18" facs="#facs_p12_lb18"/>
+                                très juste l'ensemble des ètudes relatives au 
+                                <lb xml:id="lb19_p12" n="19" facs="#facs_p12_lb19"/>
+                                <term ref="#parler_humain">parler humain</term>.
+                            </ab>       
+                            <ab xml:id="pericope_91Aaaa033" n="33" xml:lang="FR" corresp="#it_91Aaaa033 #en_91Aaaa033" facs="#facs_pericope_91Aaaa033" part="i">                                         
+                                Il est presque inutile de dire 
+                                <lb xml:id="lb20_p12" n="20" facs="#facs_p12_lb20"/>
+                                que cet enseignement, <date xml:id="date1" from="15 ans">donnè depuis quinze ans</date>, avec 
+                                <lb xml:id="lb21_p12" n="21" facs="#facs_p12_lb21"/>
+                                une èrudition, une expèrience <del rend="overstrike" hand="#FdS"><gap quantity="1" unit="words" reason="illegible"></gap></del>
+                                <lb xml:id="lb22_p12" n="22" facs="#facs_p12_lb22"/>
+                                <del><gap/></del><del><add><gap/></add></del>que vous ne vous attendez 
+                                <lb xml:id="lb23_p12" n="23" facs="#facs_p12_lb23"/>
+                                pas un seul instant à retrouver dans ces confèrences,
+                                <lb xml:id="lb24_p12" n="24" facs="#facs_p12_lb24"/>
+                                -que cet enseignement n'a jamais <del><gap/></del>
+                                <lb xml:id="lb25_p12" n="25" facs="#facs_p12_lb25"/>
+                                <add place="left">rien eu dans son programme</add><del><gap/></del> <add place="above">qui pùt exclure</add> tel corps d'ètudes
+                                <lb xml:id="lb26_p12" n="26" facs="#facs_p12_lb26"/>
+                                particulier comme celui qui se rapporte aux langue
                             </ab>                            
-
                         </div>
                     </body>
                 </text>
@@ -371,45 +378,42 @@
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p12_it" hand="#h1" type="box_testo_it">
-                            <ab xml:id="it_91Aaaa025" corresp="#pericope_91Aaaa025" xml:lang="IT">
-                                <lb/>un caso teorico nuovo, allorché lo ritrova 
-                                <lb/>da qualche parte, nell’ultimo dei nostri dialetti,
-                                <lb/>o nel più sparuto idioma polinesiano.
-                            </ab>             
-                            <ab xml:id="it_91Aaaa026" corresp="#pericope_91Aaaa026" xml:lang="IT">
-                                <lb/>È una pietra che aggiunge all’edificio, 
-                                <lb/>e che non sarà distrutta.               
-                            </ab>
-                            <ab xml:id="it_91Aaaa027" corresp="#pericope_91Aaaa027" xml:lang="IT">
-                                In ogni momento, in
-                                <lb/>ogni branca della scienza delle lingue, 
-                                <lb/>chiunque al giorno d’oggi è ansioso soprattutto di mettere in luce ciò che può 
-                                <lb/>interessare il linguaggio, in generale.
-                            </ab>                            
-                            <ab xml:id="it_91Aaaa028" corresp="#pericope_91Aaaa028" xml:lang="IT">
-                                <lb/>E – fenomeno notevole – le osservazioni teoriche che offrono coloro 
-                                <lb/>che hanno concentrato il proprio studio su questa o quella 
-                                <lb/>branca specialistica come il germanico, il romanzo, sono molto apprezzate
-                                <lb/>e considerate, ancor 
-                                <lb/>più delle osservazioni dei linguisti che si occupano
-                                <lb/>d’un insieme più vasto di lingue.
-                            </ab>                              
-                            <ab xml:id="it_91Aaaa029" corresp="#pericope_91Aaaa029" xml:lang="IT">
-                                Finiamo per accorgerci 
-                                <lb/>che è il dettaglio ultimo 
-                                <lb/>dei fenomeni ciò che è anche 
-                                <lb/>la loro ultima ragione, sicché solamente l’estrema specializ-
-                                <lb/>-zazione può servire al meglio l’estrema generalizzazione.
-                            </ab>                                
                             <ab xml:id="it_91Aaaa030" corresp="#pericope_91Aaaa030" xml:lang="IT">
-                                <lb/>Non sono linguisti come Friedrich Müller, dell’Università di Vienna, che abbracciano più o meno tutti gli idiomi 
-                                <lb/>della terra, che abbiano mai fatto fare un passo in avanti alla 
-                                <lb/>conoscenza del linguaggio;
-                                <lb/>ma i nomi che si dovrebbero citare in questo senso sarebbero  
-                                <lb/>nomi di romanisti, come Gaston Paris,
-                                <lb/>Paul Meyer, Schuchardt, nomi di germanisti come  
-                                <lb/>Hermann Paul, nomi della scuola russa che s’occupa in maniera peculiare 
-                            </ab>   
+                                <lb/>peculiare del russo e dello slavo, come N. Baudouin
+                                <lb/>de Courtenay e Kruszewski.
+                            </ab>             
+                            <ab xml:id="it_91Aaaa031" corresp="#pericope_91Aaaa031" xml:lang="IT">
+                                <lb/>Il punto di vista al quale siamo giunti, 
+                                <lb/>Signori, e che è semplicemente il punto di vista 
+                                <lb/>cui s’ispira, senza eccezione, lo studio delle lingue, in ogni 
+                                <lb/>sua branca, mostra molto chiaramente che non c’è 
+                                <lb/>separazione tra lo studio del linguaggio 
+                                <lb/>e lo studio delle lingue, 
+                                <lb/>o lo studio di questa o quella famiglia di lingue; ma che d’altro canto ogni 
+                                <lb/>divisione e suddivisione di lingua rappresenta un 
+                                <lb/>documento nuovo, e interessante allo stesso 
+                                <lb/>titolo di qualunque altro, per il fatto universale del linguag-
+                                <lb/>gio.                                
+                            </ab>
+                            <ab xml:id="it_91Aaaa032" corresp="#pericope_91Aaaa032" xml:lang="IT">
+                                L’Università di Ginevra ha tenuto dal 
+                                <lb/>primo giorno, e a giusto titolo, a offrire 
+                                <lb/>un posto alla scienza del linguaggio; l’ha fatto 
+                                <lb/>creando il corso di Linguistica 
+                                <lb/>e ha così ricompreso sotto un nome 
+                                <lb/>più che adeguato l’insieme degli studi relativi 
+                                <lb/>al parlare umano.             
+                            </ab>
+                            <ab xml:id="it_91Aaaa033" corresp="#pericope_91Aaaa033" xml:lang="IT">
+                                <lb/>È quasi inutile dire 
+                                <lb/>che questo insegnamento, professato da quindici anni, con 
+                                <lb/>un’erudizione, un’esperienza 
+                                <lb/>che voi non vi potrete mai aspettare 
+                                <lb/>da queste conferenze, 
+                                <lb/>– che questo insegnamento non ha mai avuto 
+                                <lb/>nulla nel suo programma che potesse escludere qualche corpo di studi
+                                <lb/>particolari come quello che si riferisce alle lingue 
+                            </ab>                            
                         </div>                            
                     </body>
                 </text>          
@@ -419,48 +423,41 @@
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
                     <body resp="#AC" xml:id="body-inglese">
                         <div xml:id="div_p12_en" hand="#h1" type="box_testo_en">
-                            <ab xml:id="en_91Aaaa025" corresp="#pericope_91Aaaa025" xml:lang="IT">
-                                <lb/>a new theoretical finding, wherever they may have discovered it, 
-                                <lb/>be it the obscurest French dialect,  
-                                <lb/>or the most marginal Polynesian idiom.
-                            </ab>    
-                            <ab xml:id="en_91Aaaa026" corresp="#pericope_91Aaaa026" xml:lang="IT">
-                                <lb/>Each is an enduring 
-                                <lb/>stone added to the edifice.
-                            </ab>                               
-                            <ab xml:id="en_91Aaaa027" corresp="#pericope_91Aaaa027" xml:lang="IT">
-                                The whole time, 
-                                <lb/>in all branches of the language sciences, 
-                                <lb/>everyone is at present primarily concerned to throw light on what might 
-                                <lb/>be salient for language in general. 
-                            </ab>  
-                            <ab xml:id="en_91Aaaa028" corresp="#pericope_91Aaaa028" xml:lang="IT">
-                                <lb/>And, remarkably, the theoretical observations of those who
-                                <lb/>concentrate 
-                                <lb/>on special branches such as Germanic or Romance, occasion far more appreciation 
-                                <lb/>and interest 
-                                <lb/>than observations of linguists 
-                                <lb/>who take on a wider series of languages.
+                            <ab xml:id="en_91Aaaa030" corresp="#pericope_91Aaaa030" xml:lang="en">
+                                <lb/>and Slavicist from the Russian school such as M. N. Baudouin 
+                                <lb/>de Courtenay and M. Kruszewski.
+                            </ab>             
+                            <ab xml:id="en_91Aaaa031" corresp="#pericope_91Aaaa031" xml:lang="en">
+                                <lb/>We have arrived, gentlemen, at a position 
+                                <lb/>which quite simply inspires
+                                <lb/>every branch of language study 
+                                <lb/>without exception, and makes it clear that 
+                                <lb/>there is no separation between the study of language 
+                                <lb/>in general and the study of languages, 
+                                <lb/>or of a given language or family of languages. But it also means 
+                                <lb/>that each division and subdivision of language represents a
+                                <lb/>new piece of data, which is as interesting as 
+                                <lb/>any other as far as the universal phenomenon of language is concerned.                                
                             </ab>
-                            <ab xml:id="en_91Aaaa029" corresp="#pericope_91Aaaa029" xml:lang="IT">
-                                It appears 
-                                <lb/>that the smallest detail 
-                                <lb/>concerning a phenomenon is also 
-                                <lb/>its greatest rationalization, and hence extreme specialization
-                                <lb/>alone may be usefully exploited in extreme generalization.
+                            <ab xml:id="en_91Aaaa032" corresp="#pericope_91Aaaa032" xml:lang="en">
+                                L’Università di Ginevra ha tenuto dal 
+                                <lb/>primo giorno, e a giusto titolo, a offrire 
+                                <lb/>un posto alla scienza del linguaggio; l’ha fatto 
+                                <lb/>creando il corso di Linguistica 
+                                <lb/>e ha così ricompreso sotto un nome 
+                                <lb/>più che adeguato l’insieme degli studi relativi 
+                                <lb/>al parlare umano.             
+                            </ab>
+                            <ab xml:id="en_91Aaaa033" corresp="#pericope_91Aaaa033" xml:lang="en">
+                                <lb/>È quasi inutile dire 
+                                <lb/>che questo insegnamento, professato da quindici anni, con 
+                                <lb/>un’erudizione, un’esperienza 
+                                <lb/>che voi non vi potrete mai aspettare 
+                                <lb/>da queste conferenze, 
+                                <lb/>– che questo insegnamento non ha mai avuto 
+                                <lb/>nulla nel suo programma che potesse escludere qualche corpo di studi
+                                <lb/>particolari come quello che si riferisce alle lingue 
                             </ab>   
-                            <ab xml:id="en_91Aaaa030" corresp="#pericope_91Aaaa030" xml:lang="IT">
-                                <lb/>It is not linguists like Friedrich
-                                <lb/>Muller, of the University of Vienna, who 
-                                <lb/>take in more or less all the languages of
-                                <lb/>the world, who have ever contributed to 
-                                <lb/>what we know about language itself; 
-                                <lb/>rather, the names to mention in this respect are 
-                                <lb/>those of Romanists such as Messrs Gaston Paris, 
-                                <lb/>Paul Meyer, or Schuchardt, Germanists such as
-                                <lb/>M. Hermann Paul, and Slavicist from the Russian school 
-                                <lb/>(such as M. N. Baudouin de Courtenay and M. Kruszewski.)
-                            </ab>                               
                         </div>                         
                     </body>
                 </text>       

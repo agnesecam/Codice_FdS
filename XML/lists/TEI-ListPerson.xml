@@ -346,7 +346,62 @@
                             <country key="DE">Germania</country>
                         </placeName>                        
                     </death> 
+                </person>        
+                
+                <!--N. Baudouin de Courtenay-->
+                <person xml:id="NBC" sameAs="http://worldcat.org/identities/lccn-n81080652/"> 
+                    <persName role="author"> 
+                        <forename>N. Baudouin</forename>
+                        <surname> de Courtenay</surname>
+                    </persName>
+                    <occupation>linguista</occupation>
+                    <birth>
+                        <date when="1845-03-13">13 marzo 1845</date>
+                        <placeName>
+                            <settlement type="municipality">Radzymin</settlement>
+                            <settlement type="voivodato">Masovia</settlement>
+                            <settlement type="distretto">Wołomin</settlement>
+                            <country key="PL">Polonia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1929-11-03">3 novembre 1929</date>
+                        <placeName>
+                            <settlement type="municipality">Varsavia</settlement>
+                            <settlement type="voivodato">Masovia</settlement>
+                            <country key="PL">Polonia</country>
+                        </placeName>                        
+                    </death> 
+                </person>       
+                
+                <!--M. Kruszewski-->
+                <person xml:id="MK" sameAs="http://worldcat.org/identities/lccn-n85121920/"> 
+                    <persName role="author"> 
+                        <forename>Mikołaj Habdank</forename>
+                        <surname>Kruszewski</surname>
+                    </persName>
+                    <occupation>linguista</occupation>
+                    <birth>
+                        <date when="1851-12-18">18 dicembre 1851</date>
+                        <placeName>
+                            <settlement type="municipality">Lutsk</settlement>
+                            <settlement type="oblast">Volyn Oblast</settlement>
+                            <country key="UK">Ucraina</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1929-11-03">12 novembre 1887</date>
+                        <placeName>
+                            <settlement type="municipality">Kazan</settlement>
+                            <settlement type="voivodato">Masovia</settlement>
+                            <country key="PL">Polonia</country>
+                        </placeName>                        
+                    </death> 
                 </person>
+
+
+
+
 
 
             </listPerson>                
