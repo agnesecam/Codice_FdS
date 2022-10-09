@@ -41,6 +41,15 @@
                             L'Università di Vienna (tedesco: Universität Wien) è un'università pubblica di Vienna. 
                         </desc>
                     </org>
+
+                    <!--Département de l’Instruction Publique-->
+                    <org xml:id="DepIstr">
+                        <orgName ref="https://en.wikipedia.org/wiki/Università_di_Vienna>">Dipartimento di Pubblica Istruzione, Formazione e Gioventù</orgName>
+                        <placeName>Ginevra</placeName>
+                        <desc>
+                            Il dipartimento garantisce a tutti i bambini del cantone l'accesso a un sistema di istruzione pubblica gratuito. La missione fondamentale delle scuole pubbliche è fornire agli studenti i mezzi per acquisire le migliori conoscenze e competenze per le loro vite future.
+                        </desc>
+                    </org>
         
                 </listOrg>
 
