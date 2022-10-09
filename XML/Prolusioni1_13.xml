@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE TEI SYSTEM "tei-all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Trois premières conférences à l'Université</title> <!--Titolo preso dalla BGE-->
+                <title type="sub">(cours d'ouverture, <date when="1891-11">novembre 1891</date>)</title>
+                <author ref="#FdS" role="author">Ferdinand de Saussure</author>
+                <respStmt>
+					<resp>Responsability of:</resp>
+					<persName ref="#AMDG">Angelo Mario Del Grosso</persName>
+					<persName ref="#AC">Agnese Camici</persName>
+					<persName ref="#SP">Silvia Piccini</persName>
+					<persName ref="#GC">Giuseppe Cosenza</persName>
+				</respStmt>
+            </titleStmt>
+            
+            <editionStmt>   
+                <edition n="DigitalEdition">Digital edition
+                    <date when="2022">2022</date>
+                </edition>
+                <respStmt>
+                    <resp>Digital edition project coordinated by</resp> 
+                    <persName ref="#AMDG">Angelo Mario Del Grosso</persName>
+                    <persName ref="#AC">Agnese Camici</persName>
+                    <persName ref="#SP">Silvia Piccini</persName>
+                    <persName ref="#EF">Emanuele Fadda</persName>
+                    <persName ref="#DG">Daniele Gambarara</persName>
+                    <persName ref="#GC">Giuseppe Cosenza</persName>
+                    <persName ref="#GD">Giuseppe D'Ottavi</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding by</resp>
+                    <persName ref="#AMDG">Angelo Mario Del Grosso</persName>
+                    <persName ref="#AC">Agnese Camici</persName>
+                    <persName ref="#SP">Silvia Piccini</persName>
+                    <persName ref="#GC">Giuseppe Cosenza</persName>
+                </respStmt>        
+            </editionStmt>
+
+            <publicationStmt> 
+				<publisher> CNR Pisa - Unical </publisher>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY SA 4.0 </licence>
+                    <!-- DA DECIDERE: almeno CC BY Share Alike poi valutiamo Non Derivaty e Non commercial-->
+				</availability>
+                <date when="2022">2022</date>
+			</publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Svizzera</country>    
+                        <settlement>Ginevra</settlement>
+                        <institution>Bibliothèque de Genève</institution>
+                        <repository role="library" ref="#http://institutions.ville-geneve.ch/fr/bge/"><choice><abbr>BGE</abbr><expan>Bibliothèque de Genève</expan></choice></repository>
+                        <collection>Archives Ferdinand de Saussure</collection>
+                        <idno type="inventory">Ms. fr. 3951/1</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
+                            <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
+                            <title type="sub">Première conférence</title>
+                            <note>
+                                <date notAfter="1891-11-06" evidence="external" source="#Journal_de_Genève #Le_Genevois">06/11/1891</date>
+                            </note>
+                            <textLang mainLang="fr">French</textLang>
+                        </msItem>
+                        <msItem>
+                            <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
+                            <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
+                            <title type="sub">Deuxième conférence</title>
+                            <note>
+                                <date notAfter="1891-11-10" evidence="external" source="#Journal_de_Genève #Le_Genevois">10/11/1891</date>
+                            </note>
+                            <textLang mainLang="fr">French</textLang>                           
+                        </msItem>
+                        <msItem>
+                            <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
+                            <title xml:lang="fr">Trois premières conférences à l'Université</title>
+                            <title type="sub">Troisième conférence</title>
+                            <note>                            
+                                <date notAfter="1891-11-13" confidence="" evidence="external" source="#Journal_de_Genève #Le_Genevois">13/11/1891</date>
+                                <date notAfter="1891-11-17" confidence="" evidence="external" source="#Journal_de_Genève #Le_Genevois">17/11/1891</date> <!--La seconda ipotesi di Chid. è 17/11/1891-->
+                            </note>
+                            <textLang mainLang="fr">French</textLang>
+                        </msItem>                        
+                    </msContents>                    
+                    <physDesc>
+                        <objectDesc form="folio">
+                            <supportDesc resp="#AC" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef">
+                                <support>
+                                    <material>Carta sottile quadrettata</material>
+                                </support>
+                                <extent>
+                                    <measureGrp type="notebook" unit="page" source="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef"> 
+                                        <measure quantity="30">30 pagine</measure> +
+                                        <measure quantity="15">15 pagine</measure> +
+                                        <measure quantity="22">22 pagine</measure>
+                                    </measureGrp>
+                                    <dimensions type="leaves" unit="mm"><height unit="mm" quantity="211">211</height><width unit="mm" quantity="136">136</width></dimensions>
+                                </extent>
+                                <collation>La pagina è inserita in un quaderno. Ogni pagina costituisce un folio.</collation>
+                                <condition>Il quaderno si trova in buone condizioni, ben conservato. Alcune pagine presentano strappi o lacerazioni nei bordi o agli angoli.</condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote xml:id="h1">Il corpo principale del manoscritto è interamente scritto da <persName ref="#FdS">Ferdinand de Saussure</persName></handNote>.
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin ana="#pag1_note2">
+                            Première conférence <origDate when="1891-11-06" cert="high">06/11/1891</origDate>
+                            Deuxième conférence <origDate when="1891-11-10" cert="high">10/11/1891</origDate>
+                            Troisième conférence <origDate when="1891-11-13" cert="low" source="#Bouquet-Engler2002">13/11/1891</origDate>
+                            <origPlace>Ginevra</origPlace>
+                        </origin>
+                    </history>
+                    <additional>
+                        <surrogates>
+                            <ptr target="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef"/>
+                            <!-- *** Ho spostato <altIdentifier type="inventory"><idno>17786/vtae78f994bf3242bef</idno></altIdentifier> dall'<msIdentifier> nei <surrogates>. Come è corretto inserire questo identificativo secondario?-->
+                        </surrogates>
+                    </additional>                    
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl> <!--Parole chiave che verranno usate in <profileDesc>textClass per definire gli argomenti-->
+                <taxonomy xml:id="schemaKeywords">
+                    <category>
+                        <catDesc> linguistics </catDesc>
+                    </category>
+                    <category xml:id="university">
+                        <catDesc> university </catDesc>
+                    </category>
+                    <category xml:id="teaching">
+                        <catDesc> teaching </catDesc>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <editorialDecl> <!--SCHEMA PERICOPI: codice, testo FR, descrizione-->
+                <segmentation>
+                    <p>
+                        <list>
+                            <!--PERICOPE 1-->
+                            <label>
+                                <idno type="ID-pericope">91Aaaa001</idno> <!--*10* uniformare codici con Morfologia se possibile, anche a discapito della logica dell'idno-->
+                            </label>
+                            <item corresp="#pericope_91Aaaa001" facs="#facs_Pericope1">
+                                <!--Testo per. 1-->
+                                <seg type="incipit-pericope"> <!--*9* attributo per indicare che è l'inizio del corpo della pericope-->
+                                    Si la chaire que j’ai en ce moment l’honneur [...]
+                                </seg>
+                                <!--Descr. per. 1-->
+                                <desc>
+                                    Ferdinand de Saussure introduces his new role as a Sanskrit and Indo-European 
+                                    lecturer at the Faculty of Letters at the University of Geneva, 
+                                    trying to show himself humbly unsure of being able to measure up.
+                                </desc>
+                            </item>
+                            <!--PERICOPE 2-->
+                            <label>
+                                <idno type="ID-pericope">91Aaaa002</idno>
+                            </label>
+                            <item corresp="#pericope_91Aaaa002" facs="#facs_Pericope2">
+                                <!--Testo per. 2-->
+                                <seg type="incipit-pericope">
+                                    Sans exalter outre mesure les mérites [...]
+                                </seg>
+                                <!--Descr. per. 2-->
+                                <desc>
+                                    De Saussure asks what benefit linguistics brings to studies such as classical erudition, 
+                                    the Greek, Latin and French languages, or the interest that history or 
+                                    the history of civilization may have for the same science
+                                </desc>
+                            </item>      
+                            <!--PERICOPE 3--> <!--Inizio 2a pagina--> <!--Ho marcato solo le prime 2 pericopi, dalla terza riporto solo questo schema-->
+                            <label>
+                                <idno type="ID-pericope">91Aaaa003</idno>
+                            </label>
+                            <item corresp="#pericope_91Aaaa003">
+                                <!--Testo per. 3-->
+                                <seg type="incipit-pericope">
+                                    – et j’aurais ici à rappeler le nom genevois, [...]
+                                </seg>
+                                <!--Descr. per. 3-->
+                                <desc>
+                                    ...
+                                </desc>
+                            </item>
+                            <!--PERICOPE 4-->
+                            <label>
+                                <idno type="ID-pericope">91Aaaa004</idno>
+                            </label>
+                            <item corresp="#pericope_91Aaaa004">
+                                <!--Testo per. 4-->
+                                <seg type="incipit-pericope">
+                                    C’est une exigence à laquelle j’ai commencé [...]
+                                </seg>
+                                <!--Descr. per. 4-->
+                                <desc>
+                                    ...
+                                </desc>
+                            </item>
+                            <!--PERICOPE 5-->
+                            <label>
+                                <idno type="ID-pericope">91Aaaa005</idno>
+                            </label>
+                            <item corresp="#pericope_91Aaaa005">
+                                <!--Testo per. 5-->
+                                <seg type="incipit-pericope">
+                                    À quelle science pose-t-on cette condition [...]
+                                </seg>
+                                <!--Descr. per. 5-->
+                                <desc>
+                                    ...
+                                </desc>
+                            </item> 
+                        </list>
+                    </p>
+                </segmentation>
+            </editorialDecl>
+        </encodingDesc>
+
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#schemaKeywords"> <!-- questa tassonomia schemaKeywords va dichiarata nell'encodingDesc dentro classDecl -->
+                    <term resp="#AC" ref="#linguistique-N"> linguistics </term>
+                    <term resp="#AC"> university </term>
+                    <term resp="#AC"> teaching </term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="fr">French</language>
+            </langUsage>
+            <creation><!--*11* interpretazione-->
+                <listChange ordered="true">
+                    <change xml:id="CHG-1">First stage, written in ink by Ferdinand de Saussure</change>
+                    <change xml:id="CHG-2">
+                        Second stage, written in ink by Ferdinand de Saussure during the writing of CHG-1, adding or deliting informations to the text he had written previously. 
+                        Additions are made by inserting text above the line, erasures are made by horizontal lines over the words.
+                    </change>
+                    <change xml:id="CHG-3">Corrections made revising a paragraph or a page, not at the same time of the first stage</change>
+                    <change xml:id="CHG-4">Bold text written on the left margin, replacing deletions on the main block</change>
+                    <change xml:id="CHG-5">Additions and erasures to the left margin text</change>
+                    <change xml:id="CHG-6">Thin light ink, 3 lines at the bottom of the page</change>
+                </listChange>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <!--UNDICESIMA PAGINA-->
+        <surface n="12" xml:id="scan_p13">
+            <graphic url='ms_fr_03951_01_1_p013-resized.jpg' width='600px' height='900px'/> 
+            <!--Righe-->
+            <zone points = ' 140,97, 138,125, 555,116, 550,92  ' rendition="line" xml:id="facs_p13_lb1"/>                       
+            <zone points = ' 140,129, 131,150, 521,147, 513,121 '  rendition="line" xml:id="facs_p13_lb2"/>            
+
+            <zone points = ' 197,163, 187,193 ,548,191, 546,161   '  rendition="line" xml:id="facs_p13_lb3"/>
+            <zone points = ' 137,202, 130,227, 548,211, 536,195'  rendition="line" xml:id="facs_p13_lb4"/>
+            <zone points = ' 133,237 ,128,259, 537,236, 537,216' rendition="line" xml:id="facs_p13_lb5"/>
+            <zone points = ' 134,260 ,132,279, 528,264, 530,242  '   rendition="line" xml:id="facs_p13_lb6"/>
+            <zone points = '132,288, 122,319 ,538,291, 530,275 ' rendition="line" xml:id="facs_p13_lb7"/>
+            <zone points = ' 132,318, 122,338, 520,324, 519,293 '  rendition="line" xml:id="facs_p13_lb8"/>
+            <zone points = ' 30,342, 28,415, 134,389, 163,365 ,525,347, 517,329, 113,351, 108,331 '  rendition="line" xml:id="facs_p13_lb9"/>
+            <zone points = ' 160,372, 124,390, 535,377, 533,355 ' rendition="line" xml:id="facs_p13_lb10"/>
+            <zone points = ' 137,396, 126,419, 520,404 ,514,389  ' rendition="line" xml:id="facs_p13_lb11"/>
+            <zone points = '  138,427, 132,446, 532,434 ,529,406' rendition="line" xml:id="facs_p13_lb12"/>    
+            <zone points = ' 129,456, 530,432, 538,458, 129,483  '  rendition="line" xml:id="facs_p13_lb13"/>    
+            <zone points = ' 128,487, 535,462, 541,491, 128,510'  rendition="line" xml:id="facs_p13_lb14"/>    
+            <zone points = ' 37,517, 36,546, 536,516, 536,493' rendition="line" xml:id="facs_p13_lb15"/>    
+            <zone points = ' 132,547, 536,526, 534,551, 134,569' rendition="line" xml:id="facs_p13_lb16"/>    
+            <zone points = ' 130,573, 545,557, 546,583 ,132,591 ' rendition="line" xml:id="facs_p13_lb17"/>    
+            <zone points = ' 133,592 ,133,630 ,538,606 ,529,581' rendition="line" xml:id="facs_p13_lb18"/>    
+            <zone points = ' 128,636, 128,671, 547,627 ,517,610' rendition="line" xml:id="facs_p13_lb19"/>    
+            <zone points = ' 137,667 ,139,698, 552,675 ,544,655' rendition="line" xml:id="facs_p13_lb20"/>    
+            <zone points = ' 136,697 ,547,676, 547,699, 136,718' rendition="line" xml:id="facs_p13_lb21"/>    
+            <zone points = ' 28,735, 542,703, 549,738, 157,753 61,782' rendition="line" xml:id="facs_p13_lb22"/>    
+            <zone points = ' 138,761, 542,738, 542,769 ,134,782' rendition="line" xml:id="facs_p13_lb23"/>    
+            <zone points = ' 141,789 ,536,774, 544,795, 136,804' rendition="line" xml:id="facs_p13_lb24"/>    
+            <zone points = ' 34,806, 540,797, 540,822, 34,841' rendition="line" xml:id="facs_p13_lb25"/>    
+            <zone points = ' 133,842, 538,823, 537,843, 150,856' rendition="line" xml:id="facs_p13_lb26"/>    
+
+            <zone points = ' 50,70, 93,67, 89,99, 49,97 '  rendition="line" xml:id="facs_HandPageNumber-13"/>     <!--Numero 12 cerchiato in alto a sx-->           
+
+        </surface>
+    </facsimile>
+
+    <!--Text contiene: group con testi nelle 3 lingue per ogni text, e back con note-->
+    <text type="" xml:id="lezione1" subtype="manuscript" n="lezione1">
+        <group> <!--Testo e traduzione delle 3 prolusioni-->
+            <group xml:id="fr_Prolusioni"> <!--TESTO FRANCESE DELLE 3 PROLUSIONI-->
+                <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
+                    <body xml:lang="fr" source="#Bouquet-Engler2002" xml:id="body-francese">
+                        <!--Dodicesima pagina-->
+                        <pb n="f1r" xml:id="body_p13" facs="#scan_p13"/>
+                        <!--Numeri impaginazione a stampa e a mano-->
+                        <ab>
+                            <fw type="pageNum" xml:id="HandPageNumber-13" rend="align(left)" facs="#facs_HandPageNumber-13"> 13 </fw>
+                        </ab>
+                        <div xml:id="div_p13_fr" hand="#h1" type="box_testo" part="f">
+                            <ab xml:id="pericope_91Aaaa030" n="30" xml:lang="FR" corresp="#it_91Aaaa030 #en_91Aaaa030" facs="#facs_pericope_91Aaaa030"> 
+                                <lb xml:id="lb1_p13" n="1" facs="#facs_p13_lb1"/>
+                                =lement du russe et du slave, comme <persName ref="#NBC">M.  N. Baudouin
+                                <lb xml:id="lb2_p13" n="2" facs="#facs_p13_lb2"/>
+                                de Courtenay</persName>, <persName  ref="#MK">M. Kruszewski</persName>.
+                                <del rend="overstrike" hand="#FdS"><gap quantity="1" unit="words" reason="illegible"></gap></del>
+                            </ab>
+                            <ab xml:id="pericope_91Aaaa031" n="31" xml:lang="FR" corresp="#it_91Aaaa031 #en_91Aaaa031" facs="#facs_pericope_91Aaaa031"> 
+                                <lb xml:id="lb3_p13" n="3" facs="#facs_p13_lb3"/>
+                                Le <term ref="#point-de-vue">point de vue</term> auquel nous sommes arrivès, 
+                                <lb xml:id="lb4_p13" n="4" facs="#facs_p13_lb4"/>
+                                Messieurs, et qui est simplement le <term ref="#point-de-vue">point de vue</term>
+                                <lb xml:id="lb5_p13" n="5" facs="#facs_p13_lb5"/>
+                                <del rend="overstrike" hand="#FdS"><gap quantity="1" unit="words" reason="illegible"></gap></del>dont s'inspire<add place="above"> sans exception l'</add><term ref="#linguistique-N"> ètude de langues</term> en toutes 
+                                <lb xml:id="lb6_p13" n="6" facs="#facs_p13_lb6"/>
+                                ses branches, fait voir très clairement qu'il n'y a 
+                                <lb xml:id="lb7_p13" n="7" facs="#facs_p13_lb7"/>
+                                pas de sèparation entre l'<term ref="#linguistique-N">ètude du langage</term>
+                                <lb xml:id="lb8_p13" n="8" facs="#facs_p13_lb8"/>
+                                et l'<term ref="#linguistique-N">ètude <del><gap/></del> des langues</term>, <del><gap/></del>
+                                <lb xml:id="lb9_p13" n="9" facs="#facs_p13_lb9"/>
+                                ou l'ètude de telle ou telle <term ref="#langue1">langue</term><del rend="overstrike" hand="#FdS"><gap quantity="5" unit="words" reason="illegible"></gap></del><add place="left-margin"> ou <term ref="#glossa-mancante">famille de langues</term></add> mais que d'un autre c&#244;tè chaque 
+                                <lb xml:id="lb10_p13" n="10" facs="#facs_p13_lb10"/>
+                                <gap quantity="1" unit="words" reason="illegible"></gap>division et subdivision de <term ref="#langue1">langue</term> reprèsente un
+                                <lb xml:id="lb11_p13" n="11" facs="#facs_p13_lb11"/>
+                                document nouveau, et intèressant au mème 
+                                <lb xml:id="lb12_p13" n="12" facs="#facs_p13_lb12"/>
+                                titre que tout autre, pour le fait universel du <term ref="#langage1">lan-</term>
+                                <lb xml:id="lb13_p13" n="13" facs="#facs_p13_lb13"/>
+                                <term ref="#langage1">gage</term>.
+                            </ab>
+                            <ab xml:id="pericope_91Aaaa032" n="32" xml:lang="FR" corresp="#it_91Aaaa032 #en_91Aaaa032" facs="#facs_pericope_91Aaaa032">
+                                L'<orgName ref="#UniGeneve">Universitè de Genève</orgName> a tenu dès <del><gap/></del>
+                                <lb xml:id="lb14_p13" n="14" facs="#facs_p13_lb14"/>
+                                le premier jour,  et à <del rend="overstrike" hand="#FdS"><gap quantity="2" unit="words" reason="illegible"></gap></del><add hand="#FdS" place="sopralinea"> bon droit</add>, à donner
+                                <lb xml:id="lb15_p13" n="15" facs="#facs_p13_lb15"/>
+                                <del><gap/></del>une place <gap quantity="1" unit="symbol" reason="symbol"></gap> à la <term ref="#linguistique-N">science du langage</term> ; elle l'a fait 
+                                <lb xml:id="lb16_p13" n="16" facs="#facs_p13_lb16"/>
+                                en crèant le  cours de Linguistique<del><gap/></del>
+                                <lb xml:id="lb17_p13" n="17" facs="#facs_p13_lb17"/>
+                                <del><gap/></del>et a rèsumè ainsi sous un nom
+                                <lb xml:id="lb18_p13" n="18" facs="#facs_p13_lb18"/>
+                                très juste l'ensemble des ètudes relatives au 
+                                <lb xml:id="lb19_p13" n="19" facs="#facs_p13_lb19"/>
+                                <term ref="#parler_humain">parler humain</term>.
+                            </ab>       
+                            <ab xml:id="pericope_91Aaaa033" n="33" xml:lang="FR" corresp="#it_91Aaaa033 #en_91Aaaa033" facs="#facs_pericope_91Aaaa033" part="i">                                         
+                                Il est presque inutile de dire 
+                                <lb xml:id="lb20_p13" n="20" facs="#facs_p13_lb20"/>
+                                que cet enseignement, <date xml:id="date1" from="15 ans">donnè depuis quinze ans</date>, avec 
+                                <lb xml:id="lb21_p13" n="21" facs="#facs_p13_lb21"/>
+                                une èrudition, une expèrience <del rend="overstrike" hand="#FdS"><gap quantity="1" unit="words" reason="illegible"></gap></del>
+                                <lb xml:id="lb22_p13" n="22" facs="#facs_p13_lb22"/>
+                                <del><gap/></del><del><add><gap/></add></del>que vous ne vous attendez 
+                                <lb xml:id="lb23_p13" n="23" facs="#facs_p13_lb23"/>
+                                pas un seul instant à retrouver dans ces confèrences,
+                                <lb xml:id="lb24_p13" n="24" facs="#facs_p13_lb24"/>
+                                -que cet enseignement n'a jamais <del><gap/></del>
+                                <lb xml:id="lb25_p13" n="25" facs="#facs_p13_lb25"/>
+                                <add place="left">rien eu dans son programme</add><del><gap/></del> <add place="above">qui pùt exclure</add> tel corps d'ètudes
+                                <lb xml:id="lb26_p13" n="26" facs="#facs_p13_lb26"/>
+                                particulier comme celui qui se rapporte aux langue
+                            </ab>                            
+                        </div>
+                    </body>
+                </text>
+            </group>  
+            
+            <group xml:id="it_Prolusioni" xml:lang="IT"> <!--TRADUZIONI ITALIANO DELLE 3 PROLUSIONI-->
+                <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
+                    <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
+                        <div xml:id="div_p13_it" hand="#h1" type="box_testo_it">
+                            <ab xml:id="it_91Aaaa030" corresp="#pericope_91Aaaa030" xml:lang="IT">
+                                <lb/>peculiare del russo e dello slavo, come N. Baudouin
+                                <lb/>de Courtenay e Kruszewski.
+                            </ab>             
+                            <ab xml:id="it_91Aaaa031" corresp="#pericope_91Aaaa031" xml:lang="IT">
+                                <lb/>Il punto di vista al quale siamo giunti, 
+                                <lb/>Signori, e che è semplicemente il punto di vista 
+                                <lb/>cui s’ispira, senza eccezione, lo studio delle lingue, in ogni 
+                                <lb/>sua branca, mostra molto chiaramente che non c’è 
+                                <lb/>separazione tra lo studio del linguaggio 
+                                <lb/>e lo studio delle lingue, 
+                                <lb/>o lo studio di questa o quella famiglia di lingue; ma che d’altro canto ogni 
+                                <lb/>divisione e suddivisione di lingua rappresenta un 
+                                <lb/>documento nuovo, e interessante allo stesso 
+                                <lb/>titolo di qualunque altro, per il fatto universale del linguag-
+                                <lb/>gio.                                
+                            </ab>
+                            <ab xml:id="it_91Aaaa032" corresp="#pericope_91Aaaa032" xml:lang="IT">
+                                L’Università di Ginevra ha tenuto dal 
+                                <lb/>primo giorno, e a giusto titolo, a offrire 
+                                <lb/>un posto alla scienza del linguaggio; l’ha fatto 
+                                <lb/>creando il corso di Linguistica 
+                                <lb/>e ha così ricompreso sotto un nome 
+                                <lb/>più che adeguato l’insieme degli studi relativi 
+                                <lb/>al parlare umano.             
+                            </ab>
+                            <ab xml:id="it_91Aaaa033" corresp="#pericope_91Aaaa033" xml:lang="IT">
+                                <lb/>È quasi inutile dire 
+                                <lb/>che questo insegnamento, professato da quindici anni, con 
+                                <lb/>un’erudizione, un’esperienza 
+                                <lb/>che voi non vi potrete mai aspettare 
+                                <lb/>da queste conferenze, 
+                                <lb/>– che questo insegnamento non ha mai avuto 
+                                <lb/>nulla nel suo programma che potesse escludere qualche corpo di studi
+                                <lb/>particolari come quello che si riferisce alle lingue 
+                            </ab>                            
+                        </div>                            
+                    </body>
+                </text>          
+            </group>
+
+            <group xml:id="en_Prolusioni" xml:lang="EN" > <!--TRADUZIONI INGLESE DELLE 3 PROLUSIONI-->
+                <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
+                    <body resp="#AC" xml:id="body-inglese">
+                        <div xml:id="div_p13_en" hand="#h1" type="box_testo_en">
+                            <ab xml:id="en_91Aaaa030" corresp="#pericope_91Aaaa030" xml:lang="en">
+                                <lb/>and Slavicist from the Russian school such as M. N. Baudouin 
+                                <lb/>de Courtenay and M. Kruszewski.
+                            </ab>             
+                            <ab xml:id="en_91Aaaa031" corresp="#pericope_91Aaaa031" xml:lang="en">
+                                <lb/>We have arrived, gentlemen, at a position 
+                                <lb/>which quite simply inspires
+                                <lb/>every branch of language study 
+                                <lb/>without exception, and makes it clear that 
+                                <lb/>there is no separation between the study of language 
+                                <lb/>in general and the study of languages, 
+                                <lb/>or of a given language or family of languages. But it also means 
+                                <lb/>that each division and subdivision of language represents a
+                                <lb/>new piece of data, which is as interesting as 
+                                <lb/>any other as far as the universal phenomenon of language is concerned.                                
+                            </ab>
+                            <ab xml:id="en_91Aaaa032" corresp="#pericope_91Aaaa032" xml:lang="en">
+                                L’Università di Ginevra ha tenuto dal 
+                                <lb/>primo giorno, e a giusto titolo, a offrire 
+                                <lb/>un posto alla scienza del linguaggio; l’ha fatto 
+                                <lb/>creando il corso di Linguistica 
+                                <lb/>e ha così ricompreso sotto un nome 
+                                <lb/>più che adeguato l’insieme degli studi relativi 
+                                <lb/>al parlare umano.             
+                            </ab>
+                            <ab xml:id="en_91Aaaa033" corresp="#pericope_91Aaaa033" xml:lang="en">
+                                <lb/>È quasi inutile dire 
+                                <lb/>che questo insegnamento, professato da quindici anni, con 
+                                <lb/>un’erudizione, un’esperienza 
+                                <lb/>che voi non vi potrete mai aspettare 
+                                <lb/>da queste conferenze, 
+                                <lb/>– che questo insegnamento non ha mai avuto 
+                                <lb/>nulla nel suo programma che potesse escludere qualche corpo di studi
+                                <lb/>particolari come quello che si riferisce alle lingue 
+                            </ab>   
+                        </div>                         
+                    </body>
+                </text>       
+            </group>
+        </group>
+
+
+        <!--Note, bibliografia, listPerson, listPlace, glossario, listOrganizations-->
+        <back>
+            <div type="addList">
+            <!--Metti una div per le entità nominate, una per la bibl, e una per la terminologia-->
+
+                <!--ListBibl-->
+                <xi:include href="lists/TEI-ListBibl.xml"/>
+                <xi:include href="lists/TEI-ListPerson.xml"/>
+                <xi:include href="lists/TEI-ListOrg.xml"/>
+                <xi:include href="lists/TEI-ListPlace.xml"/>
+                <xi:include href="07._1891_Prolusioni_ginevrine.xml"/>
+
+                <!-- NOTE -->
+                <list type="notes">
+                    <!--1-->
+                    <item n="1" xml:id="pag1_note1" resp="#AC">
+                        <p>
+                            Scilicet “Université de Genève”, it. “Università di Ginevra”
+                        </p>
+                    </item>
+                    <!--2-->
+                    <item n="2" xml:id="pag1_note2" resp="#AC">
+                        <p>
+                            Alessandro Chidichimo's provided each lessons date in his article appearing in Cahiers Ferdinand de Saussure. He provides the dates of the three FdS conferences at the University of Geneva: the certainty of the first two is high, comparing them with the information in the "Journal de Genève" and in "Le Genevois". Chidichimo puts forward two hypotheses for the third conference: Friday 13 November or Tuesday 17.
+                        </p>
+                    </item>
+                </list> 
+
+                <!--Il glossario è 07._1891_Prolusioni_ginevrine.xml-->
+            </div>
+        </back>
+    </text>
+</TEI>
