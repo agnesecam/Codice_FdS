@@ -585,6 +585,9 @@
                     <xsl:copy-of select="concat(//tei:listPerson/tei:person[@xml:id=$ref]/tei:death/tei:date, ' ')"/> 
                     <xsl:copy-of select="concat('(', //tei:listPerson/tei:person[@xml:id=$ref]/tei:death/tei:placeName/tei:settlement[@type='municipality'], ') ')"/>
                 </xsl:if>
+                <xsl:if test="//tei:listPerson/tei:person[@xml:id=$ref]/tei:note">
+                    <xsl:copy-of select="//tei:listPerson/tei:person[@xml:id=$ref]/tei:note"/> 
+                </xsl:if>
             </xsl:variable>        
             <xsl:attribute name="class">hovertext</xsl:attribute>
             <xsl:attribute name="data-hover">

@@ -326,17 +326,17 @@
                                 <lb xml:id="lb9_p13" n="9" facs="#facs_p13_lb9"/>
                                 <orgName ref="#DepIstr">de l’Instruction Publique</orgName> l’a été en pleine confor-
                                 <lb xml:id="lb10_p13" n="10" facs="#facs_p13_lb10"/>
-                                -mité de vues avec <persName ref="#?">l’éminent titulaire de</persName>
+                                -mité de vues avec <persName ref="#entità-mancante">l’éminent titulaire de</persName>
                                 <lb xml:id="lb11_p13" n="11" facs="#facs_p13_lb11"/>
-                                <persName>la chaire de linguistique</persName>.
+                                <persName ref="#entità-mancante">la chaire de linguistique</persName>.
                             </ab>
                             <ab xml:id="pericope_91Aaaa035" n="35" xml:lang="FR" corresp="#it_91Aaaa035 #en_91Aaaa035" facs="#facs_pericope_91Aaaa035">
                                 <lb xml:id="lb12_p13" n="12" facs="#facs_p13_lb12"/>
                                 Plus on aura dans un même centre <add place="above">académique</add> de
                                 <lb xml:id="lb13_p13" n="13" facs="#facs_p13_lb13"/>
-                                <del rend="overstrike" hand="FdS"><gap quantity="3" unit="words" reason="illegible"></gap></del>spécialités linguistiques
+                                <del rend="overstrike" hand="#FdS"><gap quantity="3" unit="words" reason="illegible"></gap></del>spécialités linguistiques
                                 <lb xml:id="lb14_p13" n="14" facs="#facs_p13_lb14"/>
-                                vouées à l’étude d'un <del hand="FdS"></del><add hand="FdS" place="above"> d’un certain</add> <term xml:id="TERM16">groupe de langues</term>,
+                                vouées à l’étude d'un <del hand="#FdS"></del><add hand="#FdS" place="above"> d’un certain</add> <term >groupe de langues</term>,
                                 <lb xml:id="lb15_p13" n="15" facs="#facs_p13_lb15"/>
                                 plus <add place="above">aussi</add> l’ensemble de ces
                                 <lb xml:id="lb16_p13" n="16" facs="#facs_p13_lb16"/>
@@ -358,7 +358,7 @@
                                 <lb xml:id="lb23_p13" n="23" facs="#facs_p13_lb23"/>
                                 indéfinides chaires de linguistique
                                 <lb xml:id="lb24_p13" n="24" facs="#facs_p13_lb24"/>
-                                (<add hand="FdS" place="above">j’avoue toutefois que ce développement</add> indéfini 
+                                (<add hand="#FdS" place="above">j’avoue toutefois que ce développement</add> indéfini 
                                 pourrait avoir des inconvénients
                                 <lb xml:id="lb25_p13" n="25" facs="#facs_p13_lb25"/>
                                 inquiétants à la longue, pour tout le monde).

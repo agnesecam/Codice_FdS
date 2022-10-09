@@ -399,7 +399,13 @@
                     </death> 
                 </person>
 
-
+                    <!--Entità mancante-->
+                    <person xml:id="entità-mancante">
+                        <persName><forename>Entità mancante</forename></persName>
+                        <note>
+                            L'entrata relativa a questa entità è in fase di completamento.
+                        </note>
+                    </person>
 
 
 
