@@ -260,35 +260,33 @@
         <surface n="12" xml:id="scan_p13">
             <graphic url='ms_fr_03951_01_1_p013-resized.jpg' width='600px' height='900px'/> 
             <!--Righe-->
-            <zone points = ' 140,97, 138,125, 555,116, 550,92  ' rendition="line" xml:id="facs_p13_lb1"/>                       
-            <zone points = ' 140,129, 131,150, 521,147, 513,121 '  rendition="line" xml:id="facs_p13_lb2"/>            
+            <zone points = '  116,106 111,122 527,124 526,107  ' rendition="line" xml:id="facs_p13_lb1"/>                       
+            <zone points = ' 114,133 109,155 541,153 540,133 '  rendition="line" xml:id="facs_p13_lb2"/>            
+            <zone points = ' 119,157 100,183 547,181 538,158   '  rendition="line" xml:id="facs_p13_lb3"/>
+            <zone points = ' 120,193 107,222 538,212 541,192'  rendition="line" xml:id="facs_p13_lb4"/>
+            <zone points = ' 116,223 117,244 513,245 510,221' rendition="line" xml:id="facs_p13_lb5"/>
+            <zone points = ' 123,252 105,282 524,272 518,251 '   rendition="line" xml:id="facs_p13_lb6"/>
+            <zone points = '125,282 114,300 536,297 532,274 ' rendition="line" xml:id="facs_p13_lb7"/>
+            <zone points = ' 120,304 108,325 546,326 541,308 '  rendition="line" xml:id="facs_p13_lb8"/>
+            <zone points = ' 119,332 112,359 542,356 529,335'  rendition="line" xml:id="facs_p13_lb9"/>
+            <zone points = ' 119,370 119,393 353,390 355,369  ' rendition="line" xml:id="facs_p13_lb10"/>
+            <zone points = ' 173,394 155,420 542,418 533,380 463,380 455,396  ' rendition="line" xml:id="facs_p13_lb11"/>
+            <zone points = '  128,425 120,457 143,446 537,444 542,425' rendition="line" xml:id="facs_p13_lb12"/>    
+            <zone points = ' 143,450 130,467 545,469 532,450  '  rendition="line" xml:id="facs_p13_lb13"/>    
+            <zone points = ' 140,476 120,512 539,495 530,482'  rendition="line" xml:id="facs_p13_lb14"/>    
+            <zone points = ' 137,515 131,527 528,526 514,502' rendition="line" xml:id="facs_p13_lb15"/>    
+            <zone points = ' 135,541 140,567 547,557 544,529' rendition="line" xml:id="facs_p13_lb16"/>    
+            <zone points = ' 140,567 131,599 540,582 534,561 ' rendition="line" xml:id="facs_p13_lb17"/>    
+            <zone points = ' 146,597 142,622 531,605 524,580' rendition="line" xml:id="facs_p13_lb18"/>    
+            <zone points = ' 144,626 138,654 540,634 528,611' rendition="line" xml:id="facs_p13_lb19"/>    
+            <zone points = ' 142,658 135,678 517,656 510,640' rendition="line" xml:id="facs_p13_lb20"/>    
+            <zone points = ' 1152,682 138,707 534,683 526,658' rendition="line" xml:id="facs_p13_lb21"/>    
+            <zone points = ' 139,713 129,728 524,713 515,687' rendition="line" xml:id="facs_p13_lb22"/>    
+            <zone points = ' 46,723 46,770 538,743 525,719' rendition="line" xml:id="facs_p13_lb23"/>    
+            <zone points = ' 59,767 62,786 521,762 509,743' rendition="line" xml:id="facs_p13_lb24"/>    
+            <zone points = ' 87,787 82,795 364,791 356,768' rendition="line" xml:id="facs_p13_lb25"/>    
 
-            <zone points = ' 197,163, 187,193 ,548,191, 546,161   '  rendition="line" xml:id="facs_p13_lb3"/>
-            <zone points = ' 137,202, 130,227, 548,211, 536,195'  rendition="line" xml:id="facs_p13_lb4"/>
-            <zone points = ' 133,237 ,128,259, 537,236, 537,216' rendition="line" xml:id="facs_p13_lb5"/>
-            <zone points = ' 134,260 ,132,279, 528,264, 530,242  '   rendition="line" xml:id="facs_p13_lb6"/>
-            <zone points = '132,288, 122,319 ,538,291, 530,275 ' rendition="line" xml:id="facs_p13_lb7"/>
-            <zone points = ' 132,318, 122,338, 520,324, 519,293 '  rendition="line" xml:id="facs_p13_lb8"/>
-            <zone points = ' 30,342, 28,415, 134,389, 163,365 ,525,347, 517,329, 113,351, 108,331 '  rendition="line" xml:id="facs_p13_lb9"/>
-            <zone points = ' 160,372, 124,390, 535,377, 533,355 ' rendition="line" xml:id="facs_p13_lb10"/>
-            <zone points = ' 137,396, 126,419, 520,404 ,514,389  ' rendition="line" xml:id="facs_p13_lb11"/>
-            <zone points = '  138,427, 132,446, 532,434 ,529,406' rendition="line" xml:id="facs_p13_lb12"/>    
-            <zone points = ' 129,456, 530,432, 538,458, 129,483  '  rendition="line" xml:id="facs_p13_lb13"/>    
-            <zone points = ' 128,487, 535,462, 541,491, 128,510'  rendition="line" xml:id="facs_p13_lb14"/>    
-            <zone points = ' 37,517, 36,546, 536,516, 536,493' rendition="line" xml:id="facs_p13_lb15"/>    
-            <zone points = ' 132,547, 536,526, 534,551, 134,569' rendition="line" xml:id="facs_p13_lb16"/>    
-            <zone points = ' 130,573, 545,557, 546,583 ,132,591 ' rendition="line" xml:id="facs_p13_lb17"/>    
-            <zone points = ' 133,592 ,133,630 ,538,606 ,529,581' rendition="line" xml:id="facs_p13_lb18"/>    
-            <zone points = ' 128,636, 128,671, 547,627 ,517,610' rendition="line" xml:id="facs_p13_lb19"/>    
-            <zone points = ' 137,667 ,139,698, 552,675 ,544,655' rendition="line" xml:id="facs_p13_lb20"/>    
-            <zone points = ' 136,697 ,547,676, 547,699, 136,718' rendition="line" xml:id="facs_p13_lb21"/>    
-            <zone points = ' 28,735, 542,703, 549,738, 157,753 61,782' rendition="line" xml:id="facs_p13_lb22"/>    
-            <zone points = ' 138,761, 542,738, 542,769 ,134,782' rendition="line" xml:id="facs_p13_lb23"/>    
-            <zone points = ' 141,789 ,536,774, 544,795, 136,804' rendition="line" xml:id="facs_p13_lb24"/>    
-            <zone points = ' 34,806, 540,797, 540,822, 34,841' rendition="line" xml:id="facs_p13_lb25"/>    
-            <zone points = ' 133,842, 538,823, 537,843, 150,856' rendition="line" xml:id="facs_p13_lb26"/>    
-
-            <zone points = ' 50,70, 93,67, 89,99, 49,97 '  rendition="line" xml:id="facs_HandPageNumber-13"/>     <!--Numero 12 cerchiato in alto a sx-->           
+            <zone points = '49,66,51,99, 92,97, 94,68 '  rendition="line" xml:id="facs_HandPageNumber-13"/>     <!--Numero 13 cerchiato in alto a sx-->           
 
         </surface>
     </facsimile>
@@ -305,69 +303,65 @@
                         <ab>
                             <fw type="pageNum" xml:id="HandPageNumber-13" rend="align(left)" facs="#facs_HandPageNumber-13"> 13 </fw>
                         </ab>
-                        <div xml:id="div_p13_fr" hand="#h1" type="box_testo" part="f">
-                            <ab xml:id="pericope_91Aaaa030" n="30" xml:lang="FR" corresp="#it_91Aaaa030 #en_91Aaaa030" facs="#facs_pericope_91Aaaa030"> 
+                        <div xml:id="div_p13_fr" hand="#h1" type="box_testo" >
+                            <ab xml:id="pericope_91Aaaa033" n="33" xml:lang="FR" corresp="#it_91Aaaa033 #en_91Aaaa033" facs="#facs_pericope_91Aaaa033" part="f"> 
                                 <lb xml:id="lb1_p13" n="1" facs="#facs_p13_lb1"/>
-                                =lement du russe et du slave, comme <persName ref="#NBC">M.  N. Baudouin
+                                romanes, ou aux langues germaniques, ou aux
                                 <lb xml:id="lb2_p13" n="2" facs="#facs_p13_lb2"/>
-                                de Courtenay</persName>, <persName  ref="#MK">M. Kruszewski</persName>.
-                                <del rend="overstrike" hand="#FdS"><gap quantity="1" unit="words" reason="illegible"></gap></del>
+                                langues indo-européennes, ou aux langues sémitiques, etc.
                             </ab>
-                            <ab xml:id="pericope_91Aaaa031" n="31" xml:lang="FR" corresp="#it_91Aaaa031 #en_91Aaaa031" facs="#facs_pericope_91Aaaa031"> 
-                                <lb xml:id="lb3_p13" n="3" facs="#facs_p13_lb3"/>
-                                Le <term ref="#point-de-vue">point de vue</term> auquel nous sommes arrivès, 
+                            <ab xml:id="pericope_91Aaaa034" n="34" xml:lang="FR" corresp="#it_91Aaaa034 #en_91Aaaa034" facs="#facs_pericope_91Aaaa034">
+                                <lb xml:id="lb3_p13" n="2" facs="#facs_p13_lb3"/>
+                                Au contraire, il appelle autour de lui ces études 
                                 <lb xml:id="lb4_p13" n="4" facs="#facs_p13_lb4"/>
-                                Messieurs, et qui est simplement le <term ref="#point-de-vue">point de vue</term>
+                                particulières, et le témoignage le plus autorisé,
                                 <lb xml:id="lb5_p13" n="5" facs="#facs_p13_lb5"/>
-                                <del rend="overstrike" hand="#FdS"><gap quantity="1" unit="words" reason="illegible"></gap></del>dont s'inspire<add place="above"> sans exception l'</add><term ref="#linguistique-N"> ètude de langues</term> en toutes 
+                                en même temps que le plus agréable que j’en 
                                 <lb xml:id="lb6_p13" n="6" facs="#facs_p13_lb6"/>
-                                ses branches, fait voir très clairement qu'il n'y a 
+                                puisse apporter,
                                 <lb xml:id="lb7_p13" n="7" facs="#facs_p13_lb7"/>
-                                pas de sèparation entre l'<term ref="#linguistique-N">ètude du langage</term>
+                                c’est que le nouveau cours de
                                 <lb xml:id="lb8_p13" n="8" facs="#facs_p13_lb8"/>
-                                et l'<term ref="#linguistique-N">ètude <del><gap/></del> des langues</term>, <del><gap/></del>
+                                langues indo-européennes créé par le <orgName ref="#DepIstr">Département </orgName>
                                 <lb xml:id="lb9_p13" n="9" facs="#facs_p13_lb9"/>
-                                ou l'ètude de telle ou telle <term ref="#langue1">langue</term><del rend="overstrike" hand="#FdS"><gap quantity="5" unit="words" reason="illegible"></gap></del><add place="left-margin"> ou <term ref="#glossa-mancante">famille de langues</term></add> mais que d'un autre c&#244;tè chaque 
+                                <orgName ref="#DepIstr">de l’Instruction Publique</orgName> l’a été en pleine confor-
                                 <lb xml:id="lb10_p13" n="10" facs="#facs_p13_lb10"/>
-                                <gap quantity="1" unit="words" reason="illegible"></gap>division et subdivision de <term ref="#langue1">langue</term> reprèsente un
+                                -mité de vues avec <persName ref="#?">l’éminent titulaire de</persName>
                                 <lb xml:id="lb11_p13" n="11" facs="#facs_p13_lb11"/>
-                                document nouveau, et intèressant au mème 
-                                <lb xml:id="lb12_p13" n="12" facs="#facs_p13_lb12"/>
-                                titre que tout autre, pour le fait universel du <term ref="#langage1">lan-</term>
-                                <lb xml:id="lb13_p13" n="13" facs="#facs_p13_lb13"/>
-                                <term ref="#langage1">gage</term>.
+                                <persName>la chaire de linguistique</persName>.
                             </ab>
-                            <ab xml:id="pericope_91Aaaa032" n="32" xml:lang="FR" corresp="#it_91Aaaa032 #en_91Aaaa032" facs="#facs_pericope_91Aaaa032">
-                                L'<orgName ref="#UniGeneve">Universitè de Genève</orgName> a tenu dès <del><gap/></del>
+                            <ab xml:id="pericope_91Aaaa035" n="35" xml:lang="FR" corresp="#it_91Aaaa035 #en_91Aaaa035" facs="#facs_pericope_91Aaaa035">
+                                <lb xml:id="lb12_p13" n="12" facs="#facs_p13_lb12"/>
+                                Plus on aura dans un même centre <add place="above">académique</add> de
+                                <lb xml:id="lb13_p13" n="13" facs="#facs_p13_lb13"/>
+                                <del rend="overstrike" hand="FdS"><gap quantity="3" unit="words" reason="illegible"></gap></del>spécialités linguistiques
                                 <lb xml:id="lb14_p13" n="14" facs="#facs_p13_lb14"/>
-                                le premier jour,  et à <del rend="overstrike" hand="#FdS"><gap quantity="2" unit="words" reason="illegible"></gap></del><add hand="#FdS" place="sopralinea"> bon droit</add>, à donner
+                                vouées à l’étude d'un <del hand="FdS"></del><add hand="FdS" place="above"> d’un certain</add> <term xml:id="TERM16">groupe de langues</term>,
                                 <lb xml:id="lb15_p13" n="15" facs="#facs_p13_lb15"/>
-                                <del><gap/></del>une place <gap quantity="1" unit="symbol" reason="symbol"></gap> à la <term ref="#linguistique-N">science du langage</term> ; elle l'a fait 
+                                plus <add place="above">aussi</add> l’ensemble de ces
                                 <lb xml:id="lb16_p13" n="16" facs="#facs_p13_lb16"/>
-                                en crèant le  cours de Linguistique<del><gap/></del>
+                                études prendront de consistance par leur appui mutuel, et plus on
                                 <lb xml:id="lb17_p13" n="17" facs="#facs_p13_lb17"/>
-                                <del><gap/></del>et a rèsumè ainsi sous un nom
+                                apercevra <term xml:id="TERM17"> les traits générauxde </term><l n='25'> la discipline,
                                 <lb xml:id="lb18_p13" n="18" facs="#facs_p13_lb18"/>
-                                très juste l'ensemble des ètudes relatives au 
+                                qui sont comme brisés et morcelés là où cessent
                                 <lb xml:id="lb19_p13" n="19" facs="#facs_p13_lb19"/>
-                                <term ref="#parler_humain">parler humain</term>.
-                            </ab>       
-                            <ab xml:id="pericope_91Aaaa033" n="33" xml:lang="FR" corresp="#it_91Aaaa033 #en_91Aaaa033" facs="#facs_pericope_91Aaaa033" part="i">                                         
-                                Il est presque inutile de dire 
+                                tout à coup l’information, l’intérêt, et la vie
                                 <lb xml:id="lb20_p13" n="20" facs="#facs_p13_lb20"/>
-                                que cet enseignement, <date xml:id="date1" from="15 ans">donnè depuis quinze ans</date>, avec 
+                                pa l’absence de disciples ou de maîtres.<del rend="overstrike"><gap reason="indecifrabile"></gap></del>
+                            </ab>
+                            <ab xml:id="pericope_91Aaaa036" n="36" xml:lang="FR" corresp="#it_91Aaaa036 #en_91Aaaa036" facs="#facs_pericope_91Aaaa036">
                                 <lb xml:id="lb21_p13" n="21" facs="#facs_p13_lb21"/>
-                                une èrudition, une expèrience <del rend="overstrike" hand="#FdS"><gap quantity="1" unit="words" reason="illegible"></gap></del>
+                                <del><gap/></del>Comme <term xml:id="TERM18"> linguiste</term>, on
                                 <lb xml:id="lb22_p13" n="22" facs="#facs_p13_lb22"/>
-                                <del><gap/></del><del><add><gap/></add></del>que vous ne vous attendez 
+                                sera certainement porté à souhaiter le développement
                                 <lb xml:id="lb23_p13" n="23" facs="#facs_p13_lb23"/>
-                                pas un seul instant à retrouver dans ces confèrences,
+                                indéfinides chaires de linguistique
                                 <lb xml:id="lb24_p13" n="24" facs="#facs_p13_lb24"/>
-                                -que cet enseignement n'a jamais <del><gap/></del>
+                                (<add hand="FdS" place="above">j’avoue toutefois que ce développement</add> indéfini 
+                                pourrait avoir des inconvénients
                                 <lb xml:id="lb25_p13" n="25" facs="#facs_p13_lb25"/>
-                                <add place="left">rien eu dans son programme</add><del><gap/></del> <add place="above">qui pùt exclure</add> tel corps d'ètudes
-                                <lb xml:id="lb26_p13" n="26" facs="#facs_p13_lb26"/>
-                                particulier comme celui qui se rapporte aux langue
+                                inquiétants à la longue, pour tout le monde).
                             </ab>                            
                         </div>
                     </body>
@@ -378,41 +372,17 @@
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p13_it" hand="#h1" type="box_testo_it">
-                            <ab xml:id="it_91Aaaa030" corresp="#pericope_91Aaaa030" xml:lang="IT">
+                            <ab xml:id="it_91Aaaa034" corresp="#pericope_91Aaaa034" xml:lang="IT">
                                 <lb/>peculiare del russo e dello slavo, come N. Baudouin
                                 <lb/>de Courtenay e Kruszewski.
                             </ab>             
-                            <ab xml:id="it_91Aaaa031" corresp="#pericope_91Aaaa031" xml:lang="IT">
-                                <lb/>Il punto di vista al quale siamo giunti, 
-                                <lb/>Signori, e che è semplicemente il punto di vista 
-                                <lb/>cui s’ispira, senza eccezione, lo studio delle lingue, in ogni 
-                                <lb/>sua branca, mostra molto chiaramente che non c’è 
-                                <lb/>separazione tra lo studio del linguaggio 
-                                <lb/>e lo studio delle lingue, 
-                                <lb/>o lo studio di questa o quella famiglia di lingue; ma che d’altro canto ogni 
-                                <lb/>divisione e suddivisione di lingua rappresenta un 
-                                <lb/>documento nuovo, e interessante allo stesso 
-                                <lb/>titolo di qualunque altro, per il fatto universale del linguag-
-                                <lb/>gio.                                
+                            <ab xml:id="it_91Aaaa035" corresp="#pericope_91Aaaa035" xml:lang="IT">
+                                <lb/>...        
                             </ab>
-                            <ab xml:id="it_91Aaaa032" corresp="#pericope_91Aaaa032" xml:lang="IT">
-                                L’Università di Ginevra ha tenuto dal 
-                                <lb/>primo giorno, e a giusto titolo, a offrire 
-                                <lb/>un posto alla scienza del linguaggio; l’ha fatto 
-                                <lb/>creando il corso di Linguistica 
-                                <lb/>e ha così ricompreso sotto un nome 
-                                <lb/>più che adeguato l’insieme degli studi relativi 
-                                <lb/>al parlare umano.             
-                            </ab>
-                            <ab xml:id="it_91Aaaa033" corresp="#pericope_91Aaaa033" xml:lang="IT">
-                                <lb/>È quasi inutile dire 
-                                <lb/>che questo insegnamento, professato da quindici anni, con 
-                                <lb/>un’erudizione, un’esperienza 
-                                <lb/>che voi non vi potrete mai aspettare 
-                                <lb/>da queste conferenze, 
-                                <lb/>– che questo insegnamento non ha mai avuto 
-                                <lb/>nulla nel suo programma che potesse escludere qualche corpo di studi
-                                <lb/>particolari come quello che si riferisce alle lingue 
+                            <ab xml:id="it_91Aaaa036" corresp="#pericope_91Aaaa036" xml:lang="IT">
+                                <lb/>...
+                            <ab xml:id="it_91Aaaa037" corresp="#pericope_91Aaaa037" xml:lang="IT">
+                                <lb/>...
                             </ab>                            
                         </div>                            
                     </body>
@@ -423,40 +393,17 @@
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
                     <body resp="#AC" xml:id="body-inglese">
                         <div xml:id="div_p13_en" hand="#h1" type="box_testo_en">
-                            <ab xml:id="en_91Aaaa030" corresp="#pericope_91Aaaa030" xml:lang="en">
-                                <lb/>and Slavicist from the Russian school such as M. N. Baudouin 
-                                <lb/>de Courtenay and M. Kruszewski.
+                            <ab xml:id="en_91Aaaa034" corresp="#pericope_91Aaaa034" xml:lang="en">
+                                <lb/>...
                             </ab>             
-                            <ab xml:id="en_91Aaaa031" corresp="#pericope_91Aaaa031" xml:lang="en">
-                                <lb/>We have arrived, gentlemen, at a position 
-                                <lb/>which quite simply inspires
-                                <lb/>every branch of language study 
-                                <lb/>without exception, and makes it clear that 
-                                <lb/>there is no separation between the study of language 
-                                <lb/>in general and the study of languages, 
-                                <lb/>or of a given language or family of languages. But it also means 
-                                <lb/>that each division and subdivision of language represents a
-                                <lb/>new piece of data, which is as interesting as 
-                                <lb/>any other as far as the universal phenomenon of language is concerned.                                
+                            <ab xml:id="en_91Aaaa035" corresp="#pericope_91Aaaa035" xml:lang="en">
+                                <lb/>...                                
                             </ab>
-                            <ab xml:id="en_91Aaaa032" corresp="#pericope_91Aaaa032" xml:lang="en">
-                                L’Università di Ginevra ha tenuto dal 
-                                <lb/>primo giorno, e a giusto titolo, a offrire 
-                                <lb/>un posto alla scienza del linguaggio; l’ha fatto 
-                                <lb/>creando il corso di Linguistica 
-                                <lb/>e ha così ricompreso sotto un nome 
-                                <lb/>più che adeguato l’insieme degli studi relativi 
-                                <lb/>al parlare umano.             
+                            <ab xml:id="en_91Aaaa036" corresp="#pericope_91Aaaa036" xml:lang="en">
+                                <lb/>...             
                             </ab>
-                            <ab xml:id="en_91Aaaa033" corresp="#pericope_91Aaaa033" xml:lang="en">
-                                <lb/>È quasi inutile dire 
-                                <lb/>che questo insegnamento, professato da quindici anni, con 
-                                <lb/>un’erudizione, un’esperienza 
-                                <lb/>che voi non vi potrete mai aspettare 
-                                <lb/>da queste conferenze, 
-                                <lb/>– che questo insegnamento non ha mai avuto 
-                                <lb/>nulla nel suo programma che potesse escludere qualche corpo di studi
-                                <lb/>particolari come quello che si riferisce alle lingue 
+                            <ab xml:id="en_91Aaaa037" corresp="#pericope_91Aaaa037" xml:lang="en">
+                                <lb/>...
                             </ab>   
                         </div>                         
                     </body>
