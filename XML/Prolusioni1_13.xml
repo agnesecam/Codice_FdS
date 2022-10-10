@@ -414,38 +414,35 @@
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
                     <body resp="#AC" xml:id="body-inglese">
                         <div xml:id="div_p13_en" hand="#h1" type="box_testo_en">
-                            <ab xml:id="en_91Aaaa034" corresp="#pericope_91Aaaa034" xml:lang="EN">
-                                <lb/>lingue romanze, o alle lingue germaniche, o
-                                <lb/>alle lingue indoeuropee, o alle lingue semitiche, ecc.
+                            <ab xml:id="en_91Aaaa033" corresp="#pericope_91Aaaa033" xml:lang="EN">
+                                <lb/>to Romance languages, or Germanic, 
+                                <lb/>Indo-European, or Semitic languages, etc.                                
                             </ab>             
+                            <ab xml:id="en_91Aaaa034" coresp="#pericope_91Aaaa034" xml:lang="EN">
+                                <lb/>On the contrary, it has attracted these 
+                                <lb/> specific fields, and the most authoritative proof 
+                                <lb/>of this, as well as the most pleasant, that 
+                                <lb/>I can muster, 
+                                <lb/>is the fact that the Department of Public Education's new course 
+                                <lb/>in Indo-European languages was drawn up in total agreement 
+                                <lb/>with the views of the eminent holder 
+                                <lb/>of the Chair of Linguistics.                                
+                            </ab>
                             <ab xml:id="en_91Aaaa035" corresp="#pericope_91Aaaa035" xml:lang="EN">
-                                <lb/>Al contrario, esso favorisce l’insorgere di tali studi 
-                                <lb/>particolari, e la testimonianza più autorizzata, 
-                                <lb/>e allo stesso tempo la più gradevole che ne 
-                                <lb/>posso dare, 
-                                <lb/>è data dal fatto che il nuovo corso di 
-                                <lb/>lingue indoeuropee creato dal Dipartimento 
-                                <lb/>d’Istruzione Pubblica è stato fatto in piena confor-                                
-                                <lb/>mità di vedute con l’eminente titolare 
-                                <lb/>della cattedra di linguistica.
+                                <lb/>The more individual centres of learning 
+                                <lb/>encourage linguistic specialization 
+                                <lb/>in the study of certain group of languages, 
+                                <lb/>and the more such studies take shape and support each other, 
+                                <lb/>the more we shall be able to discern the outlines of this broad discipline, 
+                                <lb/>which appear broken and discrete in places 
+                                <lb/>where a sudden interruption of information, interest, and activity 
+                                <lb/>may be attributed to the absence of followers, or of masters.
                             </ab>
                             <ab xml:id="en_91Aaaa036" corresp="#pericope_91Aaaa036" xml:lang="EN">
-                                <lb/>Più si avrà, in uno stesso centro accademico, 
-                                <lb/>una molteplicità di specializzazioni linguistiche 
-                                <lb/>votate allo studio di un certo gruppo di lingue, 
-                                <lb/>più a loro volta tali 
-                                <lb/>studi assumeranno consistenza appoggiandosi l’uno all’altro, e più 
-                                <lb/>si comprenderanno i tratti generali della disciplina, 
-                                <lb/>che sono come rotti e spezzettati 
-                                <lb/>là ove d’un tratto vengono meno l’informazione, l’interesse e la vita 
-                                <lb/>per l’assenza di discepoli o di maestri.
-                            </ab>
-                            <ab xml:id="en_91Aaaa037" corresp="#pericope_91Aaaa037" xml:lang="EN">
-                                <lb/>Come linguisti, si 
-                                <lb/>sarà certamente portati ad augurarsi lo sviluppo 
-                                <lb/>indefinito delle cattedre di linguistica 
-                                <lb/>(confesso tuttavia che tale sviluppo indefinito potrebbe avere degli inconvenienti 
-                                <lb/>inquietanti, nel lungo periodo, per tutti).
+                                <lb/>As linguists, 
+                                <lb/>we can only wish for the endless creation of professorships in linguistics 
+                                <lb/>(though I admit that this endless creation might eventually lead to worrying problems 
+                                <lb/>for all concerned).
                             </ab>    
                         </div>                         
                     </body>
