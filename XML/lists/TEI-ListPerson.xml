@@ -401,9 +401,9 @@
 
                     <!--Entità mancante-->
                     <person xml:id="entità-mancante">
-                        <persName><forename>Entità mancante</forename></persName>
+                        <persName><forename>Entità</forename><surname>mancante</surname></persName>
                         <note>
-                            L'entrata relativa a questa entità è in fase di completamento.
+                            l'entrata relativa a questa entità è in fase di completamento.
                         </note>
                     </person>
 
