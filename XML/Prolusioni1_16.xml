@@ -257,34 +257,34 @@
     
     <facsimile>
         <!--QUINDICESIMA PAGINA-->
-        <surface n="15" xml:id="scan_p15">
-            <graphic url='ms_fr_03951_01_1_p015-resized.jpg' width='600px' height='900px'/> 
+        <surface n="15" xml:id="scan_p16">
+            <graphic url='ms_fr_03951_01_1_p016-resized.jpg' width='600px' height='900px'/> 
             <!--Righe-->
-            <zone points = '  142,80, 139,101, 512,98, 511,81  ' rendition="line" xml:id="facs_p15_lb1"/>                       
-            <zone points = ' 142,120 ,142,139, 480,134, 477,115 '  rendition="line" xml:id="facs_p15_lb2"/>            
-            <zone points = ' 151,155 ,145,178, 522,170, 522,149   '  rendition="line" xml:id="facs_p15_lb3"/>
-            <zone points = ' 150,190 ,147,210, 504,201, 504,184'  rendition="line" xml:id="facs_p15_lb4"/>
-            <zone points = ' 141,227 ,140,247, 504,240, 508,221' rendition="line" xml:id="facs_p15_lb5"/>
-            <zone points = '147,261, 149,284, 514,268, 514,250 '   rendition="line" xml:id="facs_p15_lb6"/>
-            <zone points = '144,298, 146,322, 527,310, 529,288 ' rendition="line" xml:id="facs_p15_lb7"/>
-            <zone points = ' 148,333, 151,353, 517,346, 520,328 '  rendition="line" xml:id="facs_p15_lb8"/>
-            <zone points = ' 147,366, 150,385, 507,373, 505,357'  rendition="line" xml:id="facs_p15_lb9"/>
-            <zone points = ' 148,400, 146,419, 489,397, 483,382  ' rendition="line" xml:id="facs_p15_lb10"/>
-            <zone points = ' 153,434, 149,455, 519,426, 524,406  ' rendition="line" xml:id="facs_p15_lb11"/>
-            <zone points = '  156,466 ,149,493, 531,455, 525,444' rendition="line" xml:id="facs_p15_lb12"/>    
-            <zone points = ' 151,498 ,157,517, 527,490, 527,467  '  rendition="line" xml:id="facs_p15_lb13"/>    
-            <zone points = ' 156,529, 153,539, 523,516, 524,508'  rendition="line" xml:id="facs_p15_lb14"/>    
-            <zone points = ' 155,555, 150,583, 530,553, 531,532' rendition="line" xml:id="facs_p15_lb15"/>    
-            <zone points = ' 157,586, 164,603, 534,586, 532,565' rendition="line" xml:id="facs_p15_lb16"/>    
-            <zone points = ' 67,628, 82,648, 534,611, 531,594 ' rendition="line" xml:id="facs_p15_lb17"/>    
-            <zone points = ' 92,659, 96,685, 522,636, 521,615' rendition="line" xml:id="facs_p15_lb18"/>    
-            <zone points = ' 161,678, 160,706, 542,669, 538,652' rendition="line" xml:id="facs_p15_lb19"/>    
-            <zone points = ' 159,713 ,153,733, 535,702, 529,683' rendition="line" xml:id="facs_p15_lb20"/>    
-            <zone points = ' 201,735, 196,757, 538,745, 535,719' rendition="line" xml:id="facs_p15_lb21"/>    
-            <zone points = ' 148,765 ,146,792, 537,769 ,532,750' rendition="line" xml:id="facs_p15_lb22"/>    
-            <zone points = ' 147,799 ,145,825, 542,797, 534,769' rendition="line" xml:id="facs_p15_lb23"/>    
+            <zone points = '  142,80, 139,101, 512,98, 511,81  ' rendition="line" xml:id="facs_p16_lb1"/>                       
+            <zone points = ' 142,120 ,142,139, 480,134, 477,115 '  rendition="line" xml:id="facs_p16_lb2"/>            
+            <zone points = ' 151,155 ,145,178, 522,170, 522,149   '  rendition="line" xml:id="facs_p16_lb3"/>
+            <zone points = ' 150,190 ,147,210, 504,201, 504,184'  rendition="line" xml:id="facs_p16_lb4"/>
+            <zone points = ' 141,227 ,140,247, 504,240, 508,221' rendition="line" xml:id="facs_p16_lb5"/>
+            <zone points = '147,261, 149,284, 514,268, 514,250 '   rendition="line" xml:id="facs_p16_lb6"/>
+            <zone points = '144,298, 146,322, 527,310, 529,288 ' rendition="line" xml:id="facs_p16_lb7"/>
+            <zone points = ' 148,333, 151,353, 517,346, 520,328 '  rendition="line" xml:id="facs_p16_lb8"/>
+            <zone points = ' 147,366, 150,385, 507,373, 505,357'  rendition="line" xml:id="facs_p16_lb9"/>
+            <zone points = ' 148,400, 146,419, 489,397, 483,382  ' rendition="line" xml:id="facs_p16_lb10"/>
+            <zone points = ' 153,434, 149,455, 519,426, 524,406  ' rendition="line" xml:id="facs_p16_lb11"/>
+            <zone points = '  156,466 ,149,493, 531,455, 525,444' rendition="line" xml:id="facs_p16_lb12"/>    
+            <zone points = ' 151,498 ,157,517, 527,490, 527,467  '  rendition="line" xml:id="facs_p16_lb13"/>    
+            <zone points = ' 156,529, 153,539, 523,516, 524,508'  rendition="line" xml:id="facs_p16_lb14"/>    
+            <zone points = ' 155,555, 150,583, 530,553, 531,532' rendition="line" xml:id="facs_p16_lb15"/>    
+            <zone points = ' 157,586, 164,603, 534,586, 532,565' rendition="line" xml:id="facs_p16_lb16"/>    
+            <zone points = ' 67,628, 82,648, 534,611, 531,594 ' rendition="line" xml:id="facs_p16_lb17"/>    
+            <zone points = ' 92,659, 96,685, 522,636, 521,615' rendition="line" xml:id="facs_p16_lb18"/>    
+            <zone points = ' 161,678, 160,706, 542,669, 538,652' rendition="line" xml:id="facs_p16_lb19"/>    
+            <zone points = ' 159,713 ,153,733, 535,702, 529,683' rendition="line" xml:id="facs_p16_lb20"/>    
+            <zone points = ' 201,735, 196,757, 538,745, 535,719' rendition="line" xml:id="facs_p16_lb21"/>    
+            <zone points = ' 148,765 ,146,792, 537,769 ,532,750' rendition="line" xml:id="facs_p16_lb22"/>    
+            <zone points = ' 147,799 ,145,825, 542,797, 534,769' rendition="line" xml:id="facs_p16_lb23"/>    
 
-            <zone points = '62,53,59,102,104,98 ,104,57 '  rendition="line" xml:id="facs_HandPageNumber-15"/>     <!--Numero 15 cerchiato in alto a sx-->           
+            <zone points = '62,53,59,102,104,98 ,104,57 '  rendition="line" xml:id="facs_HandPageNumber-16"/>     <!--Numero 15 cerchiato in alto a sx-->           
 
         </surface>
     </facsimile>
@@ -295,67 +295,67 @@
             <group xml:id="fr_Prolusioni"> <!--TESTO FRANCESE DELLE 3 PROLUSIONI-->
                 <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
                     <body xml:lang="fr" source="#Bouquet-Engler2002" xml:id="body-francese">
-                        <!--Quindicesima pagina-->
-                        <pb n="f1r" xml:id="body_p15" facs="#scan_p15"/>
+                        <!--Sedicesima pagina-->
+                        <pb n="f1r" xml:id="body_p16" facs="#scan_p16"/>
                         <!--Numeri impaginazione a stampa e a mano-->
                         <ab>
-                            <fw type="pageNum" xml:id="HandPageNumber-15" rend="align(left)" facs="#facs_HandPageNumber-15"> 15 </fw>
+                            <fw type="pageNum" xml:id="HandPageNumber-16" rend="align(left)" facs="#facs_HandPageNumber-16"> 16 </fw>
                         </ab>
-                        <div xml:id="div_p15_fr" hand="#h1" type="box_testo" >
-                            <ab xml:id="pericope_91Aaaa040" n="40" xml:lang="FR" corresp="#it_91Aaaa040 #en_91Aaaa040" facs="#facs_pericope_91Aaaa040"> 
-                                <lb xml:id="lb1_p15" n="1" facs="#facs_p15_lb1"/>
+                        <div xml:id="div_p16_fr" hand="#h1" type="box_testo" >
+                            <ab xml:id="pericope_91Aaaa044" n="44" xml:lang="FR" corresp="#it_91Aaaa044 #en_91Aaaa044" facs="#facs_pericope_91Aaaa044"> 
+                                <lb xml:id="lb1_p16" n="1" facs="#facs_p16_lb1"/>
                                 C’est de cette qualité de <term ref="#science_historique">science historique</term>
-                                <lb xml:id="lb2_p15" n="2" facs="#facs_p15_lb2"/>
+                                <lb xml:id="lb2_p16" n="2" facs="#facs_p16_lb2"/>
                                 que se réclamera <choice><abbr>tte</abbr><expan>toute</expan></choice> espèce d’études
-                                <lb xml:id="lb3_p15" n="3" facs="#facs_p15_lb3"/>
+                                <lb xml:id="lb3_p16" n="3" facs="#facs_p16_lb3"/>
                                 linguistiques pour figurer <choice><abbr>d.</abbr><expan>dans une</expan></choice> <orgName ref="#FacLettres">Faculté des</orgName>
-                                <lb xml:id="lb4_p15" n="4" facs="#facs_p15_lb4"/>
+                                <lb xml:id="lb4_p16" n="4" facs="#facs_p16_lb4"/>
                                 <orgName ref="#FacLettres">Lettres.</orgName>
                             </ab>
-                            <ab xml:id="pericope_91Aaaa041" n="41" xml:lang="FR" corresp="#it_91Aaaa041 #en_91Aaaa041" facs="#facs_pericope_91Aaaa041">
+                            <ab xml:id="pericope_91Aaaa045" n="45" xml:lang="FR" corresp="#it_91Aaaa045 #en_91Aaaa045" facs="#facs_pericope_91Aaaa045">
                                 Comme c’est particulièrement aussi
-                                <lb xml:id="lb5_p15" n="5" facs="#facs_p15_lb5"/>
+                                <lb xml:id="lb5_p16" n="5" facs="#facs_p16_lb5"/>
                                 sur cette idée d’histoire <del rend="overline">qué insis</del> qu’il
-                                <lb xml:id="lb6_p15" n="6" facs="#facs_p15_lb6"/>
+                                <lb xml:id="lb6_p16" n="6" facs="#facs_p16_lb6"/>
                                 est insisté <choice><abbr>d</abbr><expan>dans</expan></choice> le titre de ce cours – alors                                                        
-                                <lb xml:id="lb7_p15" n="7" facs="#facs_p15_lb7"/>
+                                <lb xml:id="lb7_p16" n="7" facs="#facs_p16_lb7"/>
                                 que d’autres dénominations <w rend="overline">comme</w> <choice> <abbr rend="underline">gr.</abbr><expan>Grammaire</expan></choice> comparée
-                                <lb xml:id="lb8_p15" n="8" facs="#facs_p15_lb8"/>
+                                <lb xml:id="lb8_p16" n="8" facs="#facs_p16_lb8"/>
                                 sont plus usitées – je crois devoir essayer
-                                <lb xml:id="lb9_p15" n="9" facs="#facs_p15_lb9"/>
+                                <lb xml:id="lb9_p16" n="9" facs="#facs_p16_lb9"/>
                                 de faire <del rend="line-through">un</del> le commentaire, nécessairement
-                                <lb xml:id="lb10_p15" n="10" facs="#facs_p15_lb10"/>
+                                <lb xml:id="lb10_p16" n="10" facs="#facs_p16_lb10"/>
                                 très abrégé et incomplet, du sens qu’a ce
-                                <lb xml:id="lb11_p15" n="11" facs="#facs_p15_lb11"/>
+                                <lb xml:id="lb11_p16" n="11" facs="#facs_p16_lb11"/>
                                 mot <term ref="#histoire">histoire</term> pour le <term ref="#linguiste">linguiste.</term>
                             </ab>
-                            <ab xml:id="pericope_91Aaaa042" n="42" xml:lang="FR" corresp="#it_91Aaaa042 #en_91Aaaa042" facs="#facs_pericope_91Aaaa042">
+                            <ab xml:id="pericope_91Aaaa046" n="46" xml:lang="FR" corresp="#it_91Aaaa046 #en_91Aaaa046" facs="#facs_pericope_91Aaaa046">
                                 C’est sur ce sujet
-                                <lb xml:id="lb12_p15" n="12" facs="#facs_p15_lb12"/>
+                                <lb xml:id="lb12_p16" n="12" facs="#facs_p16_lb12"/>
                                 que j’aurais voulu solliciter votre attention presque
-                                <lb xml:id="lb13_p15" n="13" facs="#facs_p15_lb13"/>
+                                <lb xml:id="lb13_p16" n="13" facs="#facs_p16_lb13"/>
                                 <choice><abbr><unclear reason="illegible">sl</unclear></abbr> <expan>sans</expan></choice> autre préambule, car il contient tout : plus
-                                <lb xml:id="lb14_p15" n="14" facs="#facs_p15_lb14"/>
+                                <lb xml:id="lb14_p16" n="14" facs="#facs_p16_lb14"/>
                                 on étudie la <term ref="#langue1">langue</term>, plus on arrive à <del rend="line-through"> <unclear reason="illegible"> mieux </unclear> </del> se
-                                <lb xml:id="lb15_p15" n="15" facs="#facs_p15_lb15"/>
+                                <lb xml:id="lb15_p16" n="15" facs="#facs_p16_lb15"/>
                                 pénétrer <del rend="line-through"><gap atLeast="4" atMost="6" unit="chars" reason="illegible" /></del> de ce fait que <w rend="underline">tout</w> dans la <term ref="#langue1">langue</term>
-                                <lb xml:id="lb16_p15" n="16" facs="#facs_p15_lb16"/>
+                                <lb xml:id="lb16_p16" n="16" facs="#facs_p16_lb16"/>
                                 est <term  ref="#histoire" rend="underline">histoire</term>, <choice> <abbr>c.à.d.</abbr> <expan>c’est-à-dire</expan> </choice> qu’elle est un <term ref="#glossa-mancante">objet</term> <del rend="line-through"> <unclear reason="illegible">de consi-</unclear></del>
-                                <lb xml:id="lb17_p15" n="17" facs="#facs_p15_lb17"/>
+                                <lb xml:id="lb17_p16" n="17" facs="#facs_p16_lb17"/>
                                 <del rend="line-through">=dèration</del> <term ref="#analyse">d’analyse</term> <term ref="#histoire">historique</term>, et non <del rend="line-through">de consideration</del>
-                                <lb xml:id="lb18_p15" n="18" facs="#facs_p15_lb18"/>
+                                <lb xml:id="lb18_p16" n="18" facs="#facs_p16_lb18"/>
                                 d’<term ref="#analyse">analyse</term> <term ref="#glossa-mancante">abstraite</term>, qu’elle se compose de <term ref="#fait" rend="underline">faits</term>, et non de
-                                <lb xml:id="lb19_p15" n="19" facs="#facs_p15_lb19"/>
+                                <lb xml:id="lb19_p16" n="19" facs="#facs_p16_lb19"/>
                                 <term ref="#loi" rend="underline">lois</term>, que <choice><abbr>tt</abbr><expan>tout</expan></choice> ce qui semble <term ref="#organique" rend="underline">organique</term> <choice><abbr>d</abbr><expan>dans</expan></choice> le <term ref="#langage1">langage</term>
-                                <lb xml:id="lb20_p15" n="20" facs="#facs_p15_lb20"/>
+                                <lb xml:id="lb20_p16" n="20" facs="#facs_p16_lb20"/>
                                 est en réalité <w rend="underline"><term ref="#contingent">contingent</term></w> et complètement <term ref="#accidentel">accidentel</term>.
                             </ab> 
-                            <ab xml:id="pericope_91Aaaa043" n="43" xml:lang="FR" corresp="#it_91Aaaa043 #en_91Aaaa043" facs="#facs_pericope_91Aaaa043">
-                                <lb xml:id="lb21_p15" n="21" facs="#facs_p15_lb21"/>
+                            <ab xml:id="pericope_91Aaaa047" n="47" xml:lang="FR" corresp="#it_91Aaaa047 #en_91Aaaa047" facs="#facs_pericope_91Aaaa047">
+                                <lb xml:id="lb21_p16" n="21" facs="#facs_p16_lb21"/>
                                 Il y a une <num type="ordinal" value="1">1°</num> manière un peu superficielle
-                                <lb xml:id="lb22_p15" n="22" facs="#facs_p15_lb22"/>
+                                <lb xml:id="lb22_p16" n="22" facs="#facs_p16_lb22"/>
                                 d'entendre que la <del rend="overstrike">scien</del> <choice><abbr>linguisti.</abbr><expan>linguistique</expan></choice> est <choice><abbr><num>1</num></abbr><expan>une</expan></choice> <term ref="#science_historique">science his-</term>
-                                <lb xml:id="lb23_p15" n="23" facs="#facs_p15_lb23"/>
+                                <lb xml:id="lb23_p16" n="23" facs="#facs_p16_lb23"/>
                                 <term ref="#science_historique">=torique</term>, c'est celle qui consiste à observer <del rend="line-through"> <unclear reason="illegible"> puélla </unclear> </del>
                             </ab>
                         </div>
@@ -366,42 +366,18 @@
             <group xml:id="it_Prolusioni" xml:lang="IT"> <!--TRADUZIONI ITALIANO DELLE 3 PROLUSIONI-->
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
-                        <div xml:id="div_p15_it" hand="#h1" type="box_testo_it">
-                            <ab xml:id="it_91Aaaa040" corresp="#pericope_91Aaaa040" xml:lang="IT">
-                                <lb/>È a tale qualità di scienza storica 
-                                <lb/>che farà riferimento ogni specie di studio
-                                <lb/>linguistico per figurare in una Facoltà di 
-                                <lb/>Lettere.
+                        <div xml:id="div_p16_it" hand="#h1" type="box_testo_it">
+                            <ab xml:id="it_91Aaaa044" corresp="#pericope_91Aaaa044" xml:lang="IT">
+                                <lb/>che non si conosce completamente un popolo senza conoscerne la lingua, o almeno averne un’idea; che la lingua è una parte importante del bagaglio delle nazioni e contribuisce a caratterizzare un’epoca, una società.]
                             </ab>
-                            <ab xml:id="it_91Aaaa041" corresp="#pericope_91Aaaa041" xml:lang="IT">
-                                Giacché è su quest’idea di storia che 
-                                <lb/>s’insiste particolarmente 
-                                <lb/>nell’intitolazione di questo corso – sebbene 
-                                <lb/>altre denominazioni, come Grammatica comparata, 
-                                <lb/>siano più usate – credo di dover provare 
-                                <lb/>a fare un commento, necessariamente 
-                                <lb/>molto risicato e incompleto, sul senso che ha 
-                                <lb/>questa parola, ‘storia’, per il linguista. 
+                            <ab xml:id="it_91Aaaa045" corresp="#pericope_91Aaaa045" xml:lang="IT">
+                                <lb/>...
                             </ab>       
-                            <ab xml:id="it_91Aaaa042" corresp="#pericope_91Aaaa042" xml:lang="IT">
-                                <lb/>È su questo argomento 
-                                <lb/>che avrei voluto sollecitare la vostra attenzione, senza 
-                                <lb/>quasi altro preambolo, perché esso ricomprende tutto: più 
-                                <lb/>si studia la lingua, più si arriva a 
-                                <lb/>prendere coscienza del fatto che tutto nella lingua 
-                                <lb/>è storia, cioè che essa è un oggetto 
-                                <lb/>di analisi storica, e non 
-                                <lb/>di analisi astratta, che si compone di fatti, e non di 
-                                <lb/>leggi, che tutto ciò che sembra organico nel linguaggio 
-                                <lb/>è in realtà contingente e completamente accidentale.
+                            <ab xml:id="it_91Aaaa046" corresp="#pericope_91Aaaa046" xml:lang="IT">
+                                <lb/>...
                             </ab>                                
-                            <ab xml:id="it_91Aaaa043" corresp="#pericope_91Aaaa043" xml:lang="IT">
-                                <lb/>C’è un primo modo, un po’ superficiale, 
-                                <lb/>d’intendere l’idea che la linguistica sia una scienza 
-                                <lb/>storica, ed è quello che consiste nell’osservare 
-                                
-                                
-                                <lb/>[che non si conosce completamente un popolo senza conoscerne la lingua, o almeno averne un’idea; che la lingua è una parte importante del bagaglio delle nazioni e contribuisce a caratterizzare un’epoca, una società.]
+                            <ab xml:id="it_91Aaaa047" corresp="#pericope_91Aaaa047" xml:lang="IT">
+                                <lb/>...
                             </ab>                            
                         </div>                            
                     </body>
@@ -411,39 +387,18 @@
             <group xml:id="en_Prolusioni" xml:lang="EN" > <!--TRADUZIONI INGLESE DELLE 3 PROLUSIONI-->
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
                     <body resp="#AC" xml:id="body-inglese">
-                        <div xml:id="div_p15_en" hand="#h1" type="box_testo_en">
-                            <ab xml:id="en_91Aaaa040" corresp="#pericope_91Aaaa040" xml:lang="EN">
-                                <lb/>It is this characteristic of being a historical science 
-                                <lb/>that will be invoked to justify the presence of 
-                                <lb/>various aspects of linguistic study in Arts                                 
-                                <lb/>Faculty.                        
+                        <div xml:id="div_p16_en" hand="#h1" type="box_testo_en">
+                            <ab xml:id="en_91Aaaa044" corresp="#pericope_91Aaaa044" xml:lang="EN">
+                                <lb/>the idea that to know a people thoroughly one has to know, or have some idea of their language; that a language is an important part of a nation's attributes and goes towards charazterizing an era, a society.
                             </ab>             
-                            <ab xml:id="en_91Aaaa041" coresp="#pericope_91Aaaa041" xml:lang="EN">
-                                As the notion of history
-                                <lb/>is also stressed in the title of this course - 
-                                <lb/>although other names such as Comparative grammar 
-                                <lb/>are more usual - I think I should
-                                <lb/>try to give a commentary, 
-                                <lb/>albeit very brief and incomplete, of the meaning 
-                                <lb/>that this word history has for the linguist.
+                            <ab xml:id="en_91Aaaa045" coresp="#pericope_91Aaaa045" xml:lang="EN">
+                                <lb/>...
                             </ab>
-                            <ab xml:id="en_91Aaaa042" corresp="#pericope_91Aaaa042" xml:lang="EN">
-                                I could almost have started with this, 
-                                <lb/>as it is the heart of the matter: 
-                                <lb/>the more one studies language, the more 
-                                <lb/>thoroughly one appreciates the fact that 
-                                <lb/>everything in language is history, 
-                                <lb/>in other words that it is an object 
-                                <lb/>for historical analysis, and not 
-                                <lb/>abstract analysis, that it is made up of facts, and not laws, 
-                                <lb/>and that everything that seems organic in language 
-                                <lb/>is in reality contingent and wholly accidental.
+                            <ab xml:id="en_91Aaaa046" corresp="#pericope_91Aaaa046" xml:lang="EN">
+                                <lb/>...
                             </ab>
-                            <ab xml:id="en_91Aaaa043" corresp="#pericope_91Aaaa043" xml:lang="EN">
-                                <lb/>A first, rather superficial way 
-                                <lb/>of understanding the position of linguistics as a historical science 
-                                <lb/>is the one based on 
-                                <lb/>[the idea that to know a people thoroughly one has to know, or have some idea of their language; that a language is an important part of a nation's attributes and goes towards charazterizing an era, a society.]
+                            <ab xml:id="en_91Aaaa047" corresp="#pericope_91Aaaa047" xml:lang="EN">
+                                <lb/>...
                             </ab>    
                         </div>                         
                     </body>
