@@ -258,31 +258,35 @@
         <surface n="15" xml:id="scan_p16">
             <graphic url="ms_fr_03951_01_1_p016-resized.jpg" width="600px" height="900px"/> 
             <!--Righe-->
-            <zone points="  142,80, 139,101, 512,98, 511,81  " rendition="line" xml:id="facs_p16_lb1"/>                       
-            <zone points=" 142,120 ,142,139, 480,134, 477,115 " rendition="line" xml:id="facs_p16_lb2"/>            
-            <zone points=" 151,155 ,145,178, 522,170, 522,149   " rendition="line" xml:id="facs_p16_lb3"/>
-            <zone points=" 150,190 ,147,210, 504,201, 504,184" rendition="line" xml:id="facs_p16_lb4"/>
-            <zone points=" 141,227 ,140,247, 504,240, 508,221" rendition="line" xml:id="facs_p16_lb5"/>
-            <zone points="147,261, 149,284, 514,268, 514,250 " rendition="line" xml:id="facs_p16_lb6"/>
-            <zone points="144,298, 146,322, 527,310, 529,288 " rendition="line" xml:id="facs_p16_lb7"/>
-            <zone points=" 148,333, 151,353, 517,346, 520,328 " rendition="line" xml:id="facs_p16_lb8"/>
-            <zone points=" 147,366, 150,385, 507,373, 505,357" rendition="line" xml:id="facs_p16_lb9"/>
-            <zone points=" 148,400, 146,419, 489,397, 483,382  " rendition="line" xml:id="facs_p16_lb10"/>
-            <zone points=" 153,434, 149,455, 519,426, 524,406  " rendition="line" xml:id="facs_p16_lb11"/>
-            <zone points="  156,466 ,149,493, 531,455, 525,444" rendition="line" xml:id="facs_p16_lb12"/>    
-            <zone points=" 151,498 ,157,517, 527,490, 527,467  " rendition="line" xml:id="facs_p16_lb13"/>    
-            <zone points=" 156,529, 153,539, 523,516, 524,508" rendition="line" xml:id="facs_p16_lb14"/>    
-            <zone points=" 155,555, 150,583, 530,553, 531,532" rendition="line" xml:id="facs_p16_lb15"/>    
-            <zone points=" 157,586, 164,603, 534,586, 532,565" rendition="line" xml:id="facs_p16_lb16"/>    
-            <zone points=" 67,628, 82,648, 534,611, 531,594 " rendition="line" xml:id="facs_p16_lb17"/>    
-            <zone points=" 92,659, 96,685, 522,636, 521,615" rendition="line" xml:id="facs_p16_lb18"/>    
-            <zone points=" 161,678, 160,706, 542,669, 538,652" rendition="line" xml:id="facs_p16_lb19"/>    
-            <zone points=" 159,713 ,153,733, 535,702, 529,683" rendition="line" xml:id="facs_p16_lb20"/>    
-            <zone points=" 201,735, 196,757, 538,745, 535,719" rendition="line" xml:id="facs_p16_lb21"/>    
-            <zone points=" 148,765 ,146,792, 537,769 ,532,750" rendition="line" xml:id="facs_p16_lb22"/>    
-            <zone points=" 147,799 ,145,825, 542,797, 534,769" rendition="line" xml:id="facs_p16_lb23"/>    
+            <zone points=" 125,87, 125,119, 533,100, 531,78  " rendition="line" xml:id="facs_p16_lb1"/>                       
+            <zone points=" 131,119, 129,135, 518,138, 521,113  " rendition="line" xml:id="facs_p16_lb2"/>                       
+            <zone points=" 135,149, 136,169, 534,165, 532,144 " rendition="line" xml:id="facs_p16_lb3"/>            
+            <zone points=" 136,178 ,136,198, 535,200, 530,179" rendition="line" xml:id="facs_p16_lb4"/>
+            <zone points=" 134,205, 141,224, 519,226, 519,211" rendition="line" xml:id="facs_p16_lb5"/>
+            <zone points="144,235, 139,257, 518,246, 515,232 " rendition="line" xml:id="facs_p16_lb6"/>
+            <zone points=" 139,262, 137,284, 504,275, 498,252  " rendition="line" xml:id="facs_p16_lb7"/>
+            <zone points=" 141,291, 136,311, 502,297, 506,279 " rendition="line" xml:id="facs_p16_lb8"/>
+            <zone points=" 137,316, 140,355, 518,322, 516,303 " rendition="line" xml:id="facs_p16_lb9"/>
+            <zone points=" 153,349, 150,366, 522,353, 516,330  " rendition="line" xml:id="facs_p16_lb10"/>
+            <zone points=" 145,376, 148,400, 524,381, 527,361  " rendition="line" xml:id="facs_p16_lb11"/>
+            <zone points="  145,405, 139,428, 532,412, 527,393" rendition="line" xml:id="facs_p16_lb12"/>    
+            <zone points=" 139,435 ,140,460, 527,444, 522,423  " rendition="line" xml:id="facs_p16_lb13"/>    
+            <zone points=" 134,467, 139,492, 523,475, 521,452" rendition="line" xml:id="facs_p16_lb14"/>    
+            <zone points=" 149,493, 145,519, 524,506, 529,479" rendition="line" xml:id="facs_p16_lb15"/>    
+            <zone points=" 151,528, 147,551, 521,533, 519,511" rendition="line" xml:id="facs_p16_lb16"/>    
+            <zone points=" 149,559, 151,583, 532,556, 531,538 " rendition="line" xml:id="facs_p16_lb17"/>    
+            <zone points=" 148,586, 151,605, 517,576, 514,558" rendition="line" xml:id="facs_p16_lb18"/>    
+            <zone points=" 148,610 ,153,628, 522,594, 512,583" rendition="line" xml:id="facs_p16_lb19"/>    
+            <zone points=" 150,625, 153,651, 537,633, 528,600" rendition="line" xml:id="facs_p16_lb20"/>    
+            <zone points=" 156,657, 152,685, 509,657, 511,634" rendition="line" xml:id="facs_p16_lb21"/>    
+            <zone points=" 161,688 ,157,705, 524,685, 518,665" rendition="line" xml:id="facs_p16_lb22"/>    
+            <zone points=" 159,711, 155,735, 495,705 ,485,691" rendition="line" xml:id="facs_p16_lb23"/>              
+            <zone points=" 158,735 ,163,755 ,527,735, 522,711" rendition="line" xml:id="facs_p16_lb24"/>    
+            <zone points=" 162,764 ,161,785, 517,762, 514,737" rendition="line" xml:id="facs_p16_lb25"/>    
+            <zone points=" 161,787, 162,802, 519,787, 516,765" rendition="line" xml:id="facs_p16_lb26"/>    
+            <zone points=" 49,812, 48,837, 540,828, 536,788" rendition="line" xml:id="facs_p16_lb27"/>    
 
-            <zone points="62,53,59,102,104,98 ,104,57 " rendition="line" xml:id="facs_HandPageNumber-16"/>     <!--Numero 15 cerchiato in alto a sx-->           
+            <zone points="60,54,113,55,111,89,59,94" rendition="line" xml:id="facs_HandPageNumber-16"/>     <!--Numero 15 cerchiato in alto a sx-->           
 
         </surface>
     </facsimile>
