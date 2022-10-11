@@ -258,33 +258,33 @@
         <surface n="15" xml:id="scan_p15">
             <graphic url="ms_fr_03951_01_1_p015-resized.jpg" width="600px" height="900px"/> 
             <!--Righe-->
-            <zone points="  116,106, 111,122 ,527,124, 526,107  " rendition="line" xml:id="facs_p15_lb1"/>                       
-            <zone points=" 114,133, 109,155, 541,153, 540,133 " rendition="line" xml:id="facs_p15_lb2"/>            
-            <zone points=" 119,157, 100,183, 547,181, 538,158   " rendition="line" xml:id="facs_p15_lb3"/>
-            <zone points=" 120,193, 107,222, 538,212, 541,192" rendition="line" xml:id="facs_p15_lb4"/>
-            <zone points=" 116,223, 117,244, 513,245, 510,221" rendition="line" xml:id="facs_p15_lb5"/>
-            <zone points=" 123,252, 105,282, 524,272, 518,251 " rendition="line" xml:id="facs_p15_lb6"/>
-            <zone points="125,282 ,114,300, 536,297, 532,274 " rendition="line" xml:id="facs_p15_lb7"/>
-            <zone points=" 120,304, 108,325, 546,326, 541,308 " rendition="line" xml:id="facs_p15_lb8"/>
-            <zone points=" 119,332, 112,359, 542,356, 529,335" rendition="line" xml:id="facs_p15_lb9"/>
-            <zone points=" 119,370, 119,393, 353,390, 355,369  " rendition="line" xml:id="facs_p15_lb10"/>
-            <zone points=" 173,394, 155,420, 542,418, 533,380 463,380 455,396  " rendition="line" xml:id="facs_p15_lb11"/>
-            <zone points="  128,425, 120,457, 143,446, 537,444, 542,425" rendition="line" xml:id="facs_p15_lb12"/>    
-            <zone points=" 143,450 ,130,467, 545,469 ,532,450  " rendition="line" xml:id="facs_p15_lb13"/>    
-            <zone points=" 140,476 ,120,512, 539,495, 530,482" rendition="line" xml:id="facs_p15_lb14"/>    
-            <zone points=" 137,515, 131,527, 528,526 ,514,502" rendition="line" xml:id="facs_p15_lb15"/>    
-            <zone points=" 135,541, 140,567 ,547,557, 544,529" rendition="line" xml:id="facs_p15_lb16"/>    
-            <zone points=" 140,567, 131,599, 540,582, 534,561 " rendition="line" xml:id="facs_p15_lb17"/>    
-            <zone points=" 146,597, 142,622, 531,605 ,524,580" rendition="line" xml:id="facs_p15_lb18"/>    
-            <zone points=" 144,626, 138,654, 540,634, 528,611" rendition="line" xml:id="facs_p15_lb19"/>    
-            <zone points=" 142,658, 135,678, 517,656, 510,640" rendition="line" xml:id="facs_p15_lb20"/>    
-            <zone points=" 152,682, 138,707, 534,683, 526,658" rendition="line" xml:id="facs_p15_lb21"/>    
+            <zone points="  142,80, 139,101, 512,98, 511,81  " rendition="line" xml:id="facs_p15_lb1"/>                       
+            <zone points=" 142,120 ,142,139, 480,134, 477,115 " rendition="line" xml:id="facs_p15_lb2"/>            
+            <zone points=" 151,155 ,145,178, 522,170, 522,149   " rendition="line" xml:id="facs_p15_lb3"/>
+            <zone points=" 150,190 ,147,210, 504,201, 504,184" rendition="line" xml:id="facs_p15_lb4"/>
+            <zone points=" 141,227 ,140,247, 504,240, 508,221" rendition="line" xml:id="facs_p15_lb5"/>
+            <zone points="147,261, 149,284, 514,268, 514,250 " rendition="line" xml:id="facs_p15_lb6"/>
+            <zone points="144,298, 146,322, 527,310, 529,288 " rendition="line" xml:id="facs_p15_lb7"/>
+            <zone points=" 148,333, 151,353, 517,346, 520,328 " rendition="line" xml:id="facs_p15_lb8"/>
+            <zone points=" 147,366, 150,385, 507,373, 505,357" rendition="line" xml:id="facs_p15_lb9"/>
+            <zone points=" 148,400, 146,419, 489,397, 483,382  " rendition="line" xml:id="facs_p15_lb10"/>
+            <zone points=" 153,434, 149,455, 519,426, 524,406  " rendition="line" xml:id="facs_p15_lb11"/>
+            <zone points="  156,466 ,149,493, 531,455, 525,444" rendition="line" xml:id="facs_p15_lb12"/>    
+            <zone points=" 151,498 ,157,517, 527,490, 527,467  " rendition="line" xml:id="facs_p15_lb13"/>    
+            <zone points=" 156,529, 153,539, 523,516, 524,508" rendition="line" xml:id="facs_p15_lb14"/>    
+            <zone points=" 155,555, 150,583, 530,553, 531,532" rendition="line" xml:id="facs_p15_lb15"/>    
+            <zone points=" 157,586, 164,603, 534,586, 532,565" rendition="line" xml:id="facs_p15_lb16"/>    
+            <zone points=" 67,628, 82,648, 534,611, 531,594 " rendition="line" xml:id="facs_p15_lb17"/>    
+            <zone points=" 92,659, 96,685, 522,636, 521,615" rendition="line" xml:id="facs_p15_lb18"/>    
+            <zone points=" 161,678, 160,706, 542,669, 538,652" rendition="line" xml:id="facs_p15_lb19"/>    
+            <zone points=" 159,713 ,153,733, 535,702, 529,683" rendition="line" xml:id="facs_p15_lb20"/>    
+            <zone points=" 201,735, 196,757, 538,745, 535,719" rendition="line" xml:id="facs_p15_lb21"/>    
             <zone points=" 139,713, 129,728, 524,713 ,515,687" rendition="line" xml:id="facs_p15_lb22"/>    
             <zone points=" 46,723, 46,770 ,538,743, 525,719" rendition="line" xml:id="facs_p15_lb23"/>    
-            <zone points=" 59,767, 62,786, 521,762, 509,743" rendition="line" xml:id="facs_p15_lb24"/>    
-            <zone points=" 87,787, 82,795, 364,791, 356,768" rendition="line" xml:id="facs_p15_lb25"/>    
+            <zone points=" 148,765 ,146,792, 537,769 ,532,750" rendition="line" xml:id="facs_p15_lb24"/>    
+            <zone points=" 147,799 ,145,825, 542,797, 534,769" rendition="line" xml:id="facs_p15_lb25"/>    
 
-            <zone points="49,66,51,99, 92,97, 94,68 " rendition="line" xml:id="facs_HandPageNumber-13"/>     <!--Numero 13 cerchiato in alto a sx-->           
+            <zone points="62,53,59,102,104,98 ,104,57 " rendition="line" xml:id="facs_HandPageNumber-13"/>     <!--Numero 13 cerchiato in alto a sx-->           
 
         </surface>
     </facsimile>
@@ -370,37 +370,19 @@
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p15_it" hand="#h1" type="box_testo_it">
                             <ab xml:id="it_91Aaaa037" corresp="#pericope_91Aaaa037" xml:lang="IT">
-                                <lb/>romanze, o alle lingue germaniche, o
-                                <lb/>alle lingue indoeuropee, o alle lingue semitiche, ecc.
+                                <lb/>
                             </ab>             
                             <ab xml:id="it_91Aaaa038" corresp="#pericope_91Aaaa038" xml:lang="IT">
-                                <lb/>Al contrario, esso favorisce l’insorgere di tali studi 
-                                <lb/>particolari, e la testimonianza più autorizzata, 
-                                <lb/>e allo stesso tempo la più gradevole che ne 
-                                <lb/>posso dare, 
-                                <lb/>è data dal fatto che il nuovo corso di 
-                                <lb/>lingue indoeuropee creato dal Dipartimento 
-                                <lb/>d’Istruzione Pubblica è stato fatto in piena confor-                                
-                                <lb/>mità di vedute con l’eminente titolare 
-                                <lb/>della cattedra di linguistica.
+                                <lb/>
                             </ab>
                             <ab xml:id="it_91Aaaa039" corresp="#pericope_91Aaaa039" xml:lang="IT">
-                                <lb/>Più si avrà, in uno stesso centro accademico, 
-                                <lb/>una molteplicità di specializzazioni linguistiche 
-                                <lb/>votate allo studio di un certo gruppo di lingue, 
-                                <lb/>più a loro volta tali 
-                                <lb/>studi assumeranno consistenza appoggiandosi l’uno all’altro, e più 
-                                <lb/>si comprenderanno i tratti generali della disciplina, 
-                                <lb/>che sono come rotti e spezzettati 
-                                <lb/>là ove d’un tratto vengono meno l’informazione, l’interesse e la vita 
-                                <lb/>per l’assenza di discepoli o di maestri.
+                                <lb/>
                             </ab>
                             <ab xml:id="it_91Aaaa040" corresp="#pericope_91Aaaa040" xml:lang="IT">
-                                <lb/>Come linguisti, si 
-                                <lb/>sarà certamente portati ad augurarsi lo sviluppo 
-                                <lb/>indefinito delle cattedre di linguistica 
-                                <lb/>(confesso tuttavia che tale sviluppo indefinito potrebbe avere degli inconvenienti 
-                                <lb/>inquietanti, nel lungo periodo, per tutti).
+                                <lb/>
+                            </ab>                                
+                            <ab xml:id="it_91Aaaa041" corresp="#pericope_91Aaaa041" xml:lang="IT">
+                                <lb/>
                             </ab>                            
                         </div>                            
                     </body>
