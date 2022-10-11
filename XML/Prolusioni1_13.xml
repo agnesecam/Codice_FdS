@@ -11,10 +11,10 @@
                 <author ref="#FdS" role="author">Ferdinand de Saussure</author>
                 <respStmt>
 					<resp>Responsability of:</resp>
-					<persName ref="#AMDG">Angelo Mario Del Grosso</persName>
-					<persName ref="#AC">Agnese Camici</persName>
-					<persName ref="#SP">Silvia Piccini</persName>
-					<persName ref="#GC">Giuseppe Cosenza</persName>
+					<name ref="#AMDG">Angelo Mario Del Grosso</name>
+					<name ref="#AC">Agnese Camici</name>
+					<name ref="#SP">Silvia Piccini</name>
+					<name ref="#GC">Giuseppe Cosenza</name>
 				</respStmt>
             </titleStmt>
             
@@ -24,20 +24,20 @@
                 </edition>
                 <respStmt>
                     <resp>Digital edition project coordinated by</resp> 
-                    <persName ref="#AMDG">Angelo Mario Del Grosso</persName>
-                    <persName ref="#AC">Agnese Camici</persName>
-                    <persName ref="#SP">Silvia Piccini</persName>
-                    <persName ref="#EF">Emanuele Fadda</persName>
-                    <persName ref="#DG">Daniele Gambarara</persName>
-                    <persName ref="#GC">Giuseppe Cosenza</persName>
-                    <persName ref="#GD">Giuseppe D'Ottavi</persName>
+                    <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                    <name ref="#AC">Agnese Camici</name>
+                    <name ref="#SP">Silvia Piccini</name>
+                    <name ref="#EF">Emanuele Fadda</name>
+                    <name ref="#DG">Daniele Gambarara</name>
+                    <name ref="#GC">Giuseppe Cosenza</name>
+                    <name ref="#GD">Giuseppe D'Ottavi</name>
                 </respStmt>
                 <respStmt>
                     <resp>Encoding by</resp>
-                    <persName ref="#AMDG">Angelo Mario Del Grosso</persName>
-                    <persName ref="#AC">Agnese Camici</persName>
-                    <persName ref="#SP">Silvia Piccini</persName>
-                    <persName ref="#GC">Giuseppe Cosenza</persName>
+                    <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                    <name ref="#AC">Agnese Camici</name>
+                    <name ref="#SP">Silvia Piccini</name>
+                    <name ref="#GC">Giuseppe Cosenza</name>
                 </respStmt>        
             </editionStmt>
 
