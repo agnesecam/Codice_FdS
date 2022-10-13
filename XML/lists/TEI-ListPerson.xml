@@ -399,13 +399,67 @@
                     </death> 
                 </person>
 
-                    <!--Entità mancante-->
-                    <person xml:id="entità-mancante">
-                        <persName><forename>Entità</forename><surname>mancante</surname></persName>
-                        <note>
-                            l'entrata relativa a questa entità è in fase di completamento.
-                        </note>
-                    </person>
+                <!--Charlemagne / Carlomagno-->
+                <person xml:id="Charlemagne">
+                    <persName>
+                        <forename>Carlo I </forename>
+                        <roleName>Magno</roleName>
+                    </persName>
+                    <birth when="742-04-02">
+                        <date>02 aprile 742</date>
+                        <placeName>
+                            <settlement type="municipality">Aquisgrana</settlement>
+                        </placeName>
+                    </birth>
+                    <death when="814-01-28">
+                        <date>28 gennaio 814</date>
+                        <placeName>
+                            <settlement type="municipality">Aquisgrana</settlement>
+                        </placeName>
+                    </death>
+                    <sex>M</sex>
+                    <note>
+                        Fu re dei Franchi dal 768, re dei Longobardi e primo
+                        Imperatore dei Romani.
+                        L'appellativo Magno gli fu attribuito dal suo biografo Eginardo.
+                    </note>
+                </person>
+
+                <!--Attila-->
+                <person xml:id="Attila">
+                    <persName>
+                        <forename>Attila</forename>
+                        <roleName>flagello di Dio</roleName>
+                    </persName>
+                    <birth when="395">
+                        <date>395</date>
+                        <placeName>
+                            <settlement type="municipality">Caucaso</settlement>
+                        </placeName>
+                    </birth>
+                    <death when="453">
+                        <date>453</date>
+                        <placeName>
+                            <settlement type="municipality">Pannonia</settlement>
+                        </placeName>
+                    </death>
+                    <sex>M</sex>
+                    <note>
+                        Fu un condottiero e sovrano unno dal 434 fino alla morte.
+                        Durante il suo regno divenne il più irriducibile nemico
+                        dell'Impero Romano.
+                        Nonostante il suo impero si fosse disgregato alla sua morte,
+                        è diventato una figura leggendaria nella storia europea.
+                    </note>
+                </person>
+
+                <!--Entità mancante-->
+                <person xml:id="entità-mancante">
+                    <persName><forename>Entità</forename><surname>mancante</surname></persName>
+                    <note>
+                        l'entrata relativa a questa entità è in fase di completamento.
+                    </note>
+                </person>
 
 
 

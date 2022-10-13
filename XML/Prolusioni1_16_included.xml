@@ -304,61 +304,82 @@
                             <fw type="pageNum" xml:id="HandPageNumber-16" rend="align(left)" facs="#facs_HandPageNumber-16"> 16 </fw>
                         </ab>
                         <div xml:id="div_p16_fr" hand="#h1" type="box_testo">
-                            <ab xml:id="pericope_91Aaaa044" n="44" xml:lang="FR" corresp="#it_91Aaaa044 #en_91Aaaa044" facs="#facs_pericope_91Aaaa044"> 
+                            <ab xml:id="pericope_91Aaaa043" n="43" xml:lang="FR" corresp="#it_91Aaaa044 #en_91Aaaa043" facs="#facs_pericope_91Aaaa043" part="f">
                                 <lb xml:id="lb1_p16" n="1" facs="#facs_p16_lb1"/>
-                                C’est de cette qualité de <term ref="#science_historique">science historique</term>
+                                qu'on ne connaît pas complètement un peuple
                                 <lb xml:id="lb2_p16" n="2" facs="#facs_p16_lb2"/>
-                                que se réclamera <choice><abbr>tte</abbr><expan>toute</expan></choice> espèce d’études
+                                sans connaître sa <term ref="#langue1">langue</term> ou en avoir une idée;
                                 <lb xml:id="lb3_p16" n="3" facs="#facs_p16_lb3"/>
-                                linguistiques pour figurer <choice><abbr>d.</abbr><expan>dans une</expan></choice> <orgName ref="#FacLettres">Faculté des</orgName>
+                                que la <term ref="#langue1">langue</term> est une partie <choice><sic>importte</sic> <corr>importante</corr></choice> du bagage
                                 <lb xml:id="lb4_p16" n="4" facs="#facs_p16_lb4"/>
-                                <orgName ref="#FacLettres">Lettres.</orgName>
+                                des nations et contribue à caractériser une <term ref="#epoque" rend="underline">époque</term>,
+                                <lb xml:id="lb5_p16" n="5" facs="#facs_p16_lb5"/>
+                                une <w rend="underline">société</w>.
+                            </ab>                           
+                            <ab xml:id="pericope_91Aaaa044" n="44" xml:lang="FR" corresp="#it_91Aaaa044 #en_91Aaaa044" facs="#facs_pericope_91Aaaa044"> 
+                                <del rend="line-through"> L'histoire ne peut s'interesse a</del>
+                                <lb xml:id="lb6_p16" n="6" facs="#facs_p16_lb2"/>
+                                <del>c'est</del> La présence d'<term ref="#glossa-mancante">idiomes</term> celtiques en <placeName ref="#Gaule">Gaule</placeName>,
+                                <lb xml:id="lb7_p16" n="7" facs="#facs_p16_lb3"/>
+                                et leur disparition lente sous l'influence de la
+                                <lb xml:id="lb8_p16" n="8" facs="#facs_p16_lb4"/>
+                                <date from="58" to="51">domination romaine</date> <del rend="line-through">en</del> constituent <choice><abbr>p. ex.</abbr><expan>par exemple</expan></choice> de
+                                <lb xml:id="lb9_p16" n="9" facs="#facs_p16_lb5"/>
+                                grands <term ref="#fait" rend="underline">faits</term> historiques.
                             </ab>
                             <ab xml:id="pericope_91Aaaa045" n="45" xml:lang="FR" corresp="#it_91Aaaa045 #en_91Aaaa045" facs="#facs_pericope_91Aaaa045">
-                                Comme c’est particulièrement aussi
-                                <lb xml:id="lb5_p16" n="5" facs="#facs_p16_lb5"/>
-                                sur cette idée d’histoire <del rend="overline">qué insis</del> qu’il
-                                <lb xml:id="lb6_p16" n="6" facs="#facs_p16_lb6"/>
-                                est insisté <choice><abbr>d</abbr><expan>dans</expan></choice> le titre de ce cours – alors                                                        
-                                <lb xml:id="lb7_p16" n="7" facs="#facs_p16_lb7"/>
-                                que d’autres dénominations <w rend="overline">comme</w> <choice> <abbr rend="underline">gr.</abbr><expan>Grammaire</expan></choice> comparée
-                                <lb xml:id="lb8_p16" n="8" facs="#facs_p16_lb8"/>
-                                sont plus usitées – je crois devoir essayer
-                                <lb xml:id="lb9_p16" n="9" facs="#facs_p16_lb9"/>
-                                de faire <del rend="line-through">un</del> le commentaire, nécessairement
+                                C'est là le <term ref="#point-de-vue">point de vue</term> de
                                 <lb xml:id="lb10_p16" n="10" facs="#facs_p16_lb10"/>
-                                très abrégé et incomplet, du sens qu’a ce
+                                la <term ref="#langue1" rend="underline">Langue</term> <w rend="underline">dans</w> l'<term ref="#histoire" rend="underline">Histoire</term>, mais ce
                                 <lb xml:id="lb11_p16" n="11" facs="#facs_p16_lb11"/>
-                                mot <term ref="#histoire">histoire</term> pour le <term ref="#linguiste">linguiste.</term>
+                                n'est pas le<term ref="#point-de-vue"> point de vue</term> de l'<term ref="#histoire_de_la_langue" rend="underline">histoire de la langue</term>.
                             </ab>
                             <ab xml:id="pericope_91Aaaa046" n="46" xml:lang="FR" corresp="#it_91Aaaa046 #en_91Aaaa046" facs="#facs_pericope_91Aaaa046">
-                                C’est sur ce sujet
                                 <lb xml:id="lb12_p16" n="12" facs="#facs_p16_lb12"/>
-                                que j’aurais voulu solliciter votre attention presque
+                                Il est évident que par mille <term ref="#fait">faits</term> la <term ref="#langue1">langue</term> in=
                                 <lb xml:id="lb13_p16" n="13" facs="#facs_p16_lb13"/>
-                                <choice><abbr><unclear reason="illegible">sl</unclear></abbr> <expan>sans</expan></choice> autre préambule, car il contient tout : plus
-                                <lb xml:id="lb14_p16" n="14" facs="#facs_p16_lb14"/>
-                                on étudie la <term ref="#langue1">langue</term>, plus on arrive à <del rend="line-through"> <unclear reason="illegible"> mieux </unclear> </del> se
-                                <lb xml:id="lb15_p16" n="15" facs="#facs_p16_lb15"/>
-                                pénétrer <del rend="line-through"><gap atLeast="4" atMost="6" unit="chars" reason="illegible"/></del> de ce fait que <w rend="underline">tout</w> dans la <term ref="#langue1">langue</term>
-                                <lb xml:id="lb16_p16" n="16" facs="#facs_p16_lb16"/>
-                                est <term ref="#histoire" rend="underline">histoire</term>, <choice> <abbr>c.à.d.</abbr> <expan>c’est-à-dire</expan> </choice> qu’elle est un <term ref="#glossa-mancante">objet</term> <del rend="line-through"> <unclear reason="illegible">de consi-</unclear></del>
-                                <lb xml:id="lb17_p16" n="17" facs="#facs_p16_lb17"/>
-                                <del rend="line-through">=dèration</del> <term ref="#analyse">d’analyse</term> <term ref="#histoire">historique</term>, et non <del rend="line-through">de consideration</del>
-                                <lb xml:id="lb18_p16" n="18" facs="#facs_p16_lb18"/>
-                                d’<term ref="#analyse">analyse</term> <term ref="#glossa-mancante">abstraite</term>, qu’elle se compose de <term ref="#fait" rend="underline">faits</term>, et non de
-                                <lb xml:id="lb19_p16" n="19" facs="#facs_p16_lb19"/>
-                                <term ref="#loi" rend="underline">lois</term>, que <choice><abbr>tt</abbr><expan>tout</expan></choice> ce qui semble <term ref="#organique" rend="underline">organique</term> <choice><abbr>d</abbr><expan>dans</expan></choice> le <term ref="#langage1">langage</term>
-                                <lb xml:id="lb20_p16" n="20" facs="#facs_p16_lb20"/>
-                                est en réalité <w rend="underline"><term ref="#contingent">contingent</term></w> et complètement <term ref="#accidentel">accidentel</term>.
+                                =téressera l'<term ref="#historien">historien</term>; j'ajoute même que l'<term ref="#historien">histo-</term>
+                                <lb xml:id="lb14_p16" n="10" facs="#facs_p16_lb14"/>
+                                <term ref="#historien">=rien</term> ne s'y intéresse <choice><abbr>pt. être </abbr><expan>peut-être </expan></choice> pas toujours assez.
                             </ab> 
                             <ab xml:id="pericope_91Aaaa047" n="47" xml:lang="FR" corresp="#it_91Aaaa047 #en_91Aaaa047" facs="#facs_pericope_91Aaaa047">
+                                <lb xml:id="lb15_p16" n="15" facs="#facs_p16_lb15"/>
+                                Il y a très peu de personnes <add place="above"> en <placeName ref="#France">France</placeName> </add> qui <del rend="line-through"><unclear reason="illegible">demander</unclear><choice><abbr>p. ex. </abbr><expan>par example</expan></choice></del>
+                                <lb xml:id="lb16_p16" n="16" facs="#facs_p16_lb16"/>
+                                <del><unclear reason="illegible">a.</unclear></del> songent <choice><abbr>p. ex. </abbr><expan>par example </expan></choice> à se demander quelle <term ref="#langue1">langue</term> on 
+                                <lb xml:id="lb17_p16" n="17" facs="#facs_p16_lb17"/>
+                                parlait à <date from="25-12-800" to="28-01-814">la cour de <persName ref="#Charlemagne">Charlemagne</persName> </date> - était-ce du roman <lb/>
+                                <lb xml:id="lb18_p16" n="18" facs="#facs_p16_lb18"/>
+                                ou de l'allemand - et, si c'était l'allemand, était-ce <del rend="line-through"> la</del>
+                                <lb xml:id="lb19_p16" n="19" facs="#facs_p16_lb19"/>
+                                <del>dialecte <unclear reason="illegible">de P.</unclear></del> un <term ref="#dialecte">dialecte</term> dispare ou l'un des <term ref="#dialecte">dia-</term>
+                                <lb xml:id="lb20_p16" n="20" facs="#facs_p16_lb20"/>
+                                <term ref="#dialecte">=lectes</term> qui se perpétuent aujourd'hui?                                
+                            </ab>
+                            <ab xml:id="pericope_91Aaaa048" n="48" xml:lang="FR" corresp="#it_91Aaaa048 #en_91Aaaa048" facs="#facs_pericope_91Aaaa048">
+                                Il y a très peu d'<term ref="#historien">historiens</term> 
                                 <lb xml:id="lb21_p16" n="21" facs="#facs_p16_lb21"/>
-                                Il y a une <num type="ordinal" value="1">1°</num> manière un peu superficielle
+                                qui remarquent que les noms des chefs Huns, 
                                 <lb xml:id="lb22_p16" n="22" facs="#facs_p16_lb22"/>
-                                d'entendre que la <del rend="overstrike">scien</del> <choice><abbr>linguisti.</abbr><expan>linguistique</expan></choice> est <choice><abbr><num>1</num></abbr><expan>une</expan></choice> <term ref="#science_historique">science his-</term>
+                                comme <persName ref="#Attila">Attila</persName>, ne sont pas des noms Huns, mais des 
                                 <lb xml:id="lb23_p16" n="23" facs="#facs_p16_lb23"/>
-                                <term ref="#science_historique">=torique</term>, c'est celle qui consiste à observer <del rend="line-through"> <unclear reason="illegible"> puélla </unclear> </del>
+                                noms germaniques, - ce qui est la preuve <del rend="line-through">d'une </del>
+                                <lb xml:id="lb24_p16" n="24" facs="#facs_p16_lb24"/> 
+                                de tout un <term ref="#glossa-mancante">état de choses</term> fort intéressant ;
+                            </ab>
+                            <ab xml:id="pericope_91Aaaa049" n="49" xml:lang="FR" corresp="#it_91Aaaa049 #en_91Aaaa049" facs="#facs_pericope_91Aaaa049">
+                                et 
+                                <lb xml:id="lb25_p16" n="25" facs="#facs_p16_lb25"/>
+                                <del rend="line-through"><unclear reason="unclear">pa</unclear></del> en <num type="ordinal" value="2">2˚</num> lieu que ces noms germaniques. <del rend="line-through"><unclear reason="unclear">sant spé-
+                                <lb xml:id="lb26_p16" n="26" facs="#facs_p16_lb26"/>
+                                :cialut </unclear> </del> ne sont pas du <num type="ordinal" value="1">1°</num> <term ref="#dialecte">dialecte</term> venu, <del rend="line-through">mais</del>
+                                <lb xml:id="lb27_p16" n="27" facs="#facs_p16_lb28"/>
+                                <add place="left-margin"> ne <choice> <abbr>sˇ</abbr> <expan>sont</expan> </choice> pas saxons ou Scandinaves, mais </add> sont clairement gothiques.
+                            </ab>
+                            <ab xml:id="pericope_91Aaaa050" n="50" xml:lang="FR" corresp="#it_91Aaaa050 #en_91Aaaa050" facs="#facs_pericope_91Aaaa050">
+                                Mais tous ces <term ref="#fait">faits</term>, grands
+                                <lb xml:id="lb28_p16" n="28" facs="#facs_p16_lb28"/>
+                                <add place="below">ou petits,</add>
                             </ab>
                         </div>
                     </body> 
@@ -954,13 +975,67 @@
                     </death> 
                 </person>
 
-                    <!--Entità mancante-->
-                    <person xml:id="entità-mancante">
-                        <persName><forename>Entità</forename><surname>mancante</surname></persName>
-                        <note>
-                            l'entrata relativa a questa entità è in fase di completamento.
-                        </note>
-                    </person>
+                <!--Charlemagne / Carlomagno-->
+                <person xml:id="Charlemagne">
+                    <persName>
+                        <forename>Carlo I </forename>
+                        <roleName>Magno</roleName>
+                    </persName>
+                    <birth when="742-04-02">
+                        <date>02 aprile 742</date>
+                        <placeName>
+                            <settlement type="municipality">Aquisgrana</settlement>
+                        </placeName>
+                    </birth>
+                    <death when="814-01-28">
+                        <date>28 gennaio 814</date>
+                        <placeName>
+                            <settlement type="municipality">Aquisgrana</settlement>
+                        </placeName>
+                    </death>
+                    <sex>M</sex>
+                    <note>
+                        Fu re dei Franchi dal 768, re dei Longobardi e primo
+                        Imperatore dei Romani.
+                        L'appellativo Magno gli fu attribuito dal suo biografo Eginardo.
+                    </note>
+                </person>
+
+                <!--Attila-->
+                <person xml:id="Attila">
+                    <persName>
+                        <forename>Attila</forename>
+                        <roleName>flagello di Dio</roleName>
+                    </persName>
+                    <birth when="395">
+                        <date>395</date>
+                        <placeName>
+                            <settlement type="municipality">Caucaso</settlement>
+                        </placeName>
+                    </birth>
+                    <death when="453">
+                        <date>453</date>
+                        <placeName>
+                            <settlement type="municipality">Pannonia</settlement>
+                        </placeName>
+                    </death>
+                    <sex>M</sex>
+                    <note>
+                        Fu un condottiero e sovrano unno dal 434 fino alla morte.
+                        Durante il suo regno divenne il più irriducibile nemico
+                        dell'Impero Romano.
+                        Nonostante il suo impero si fosse disgregato alla sua morte,
+                        è diventato una figura leggendaria nella storia europea.
+                    </note>
+                </person>
+
+                <!--Entità mancante-->
+                <person xml:id="entità-mancante">
+                    <persName><forename>Entità</forename><surname>mancante</surname></persName>
+                    <note>
+                        l'entrata relativa a questa entità è in fase di completamento.
+                    </note>
+                </person>
 
 
 
@@ -1112,6 +1187,33 @@
                         <settlement key="VD">Morges</settlement>
                         <country key="CH">Switzerland</country>                        
                     </place>    
+
+                    <!--Gaule-->
+                    <place xml:id="Gaule">
+                        <placeName notAfter="451">Gallia</placeName>
+                        <location>
+                            <country key="FR"/>
+                            <bloc>EU</bloc>
+                        </location>
+                        <note>
+                            La terra dei Galli, termine che identificava, nel lessico latino,
+                            un ampio insieme di popolazioni celtiche continentali.
+                        </note>
+                    </place>
+
+                    <!--France-->
+                    <place xml:id="France">
+                        <placeName>Francia</placeName>
+                        <location>
+                            <country key="FR"/>
+                            <bloc>EU</bloc>
+                        </location>
+                        <note>
+                            Uno stato principalmente situato nell'Europa occidentale, ma che
+                            possiede ugualmente territori disseminati su più oceani e altri
+                            continenti.
+                        </note>
+                    </place>
 
                     <listRelation>
                         <!--Luogo di nascita di una persona-->
@@ -3367,7 +3469,7 @@
                 </xr>
             </entry>
 
-            <entry xml:id="historein">
+            <entry xml:id="historien">
                 <form>
                     <orth>Historien</orth>
                 </form>

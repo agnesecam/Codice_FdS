@@ -69,6 +69,33 @@
                         <country key="CH">Switzerland</country>                        
                     </place>    
 
+                    <!--Gaule-->
+                    <place xml:id="Gaule">
+                        <placeName notAfter="451">Gallia</placeName>
+                        <location>
+                            <country key="FR"/>
+                            <bloc>EU</bloc>
+                        </location>
+                        <note>
+                            La terra dei Galli, termine che identificava, nel lessico latino,
+                            un ampio insieme di popolazioni celtiche continentali.
+                        </note>
+                    </place>
+
+                    <!--France-->
+                    <place xml:id="France">
+                        <placeName>Francia</placeName>
+                        <location>
+                            <country key="FR"/>
+                            <bloc>EU</bloc>
+                        </location>
+                        <note>
+                            Uno stato principalmente situato nell'Europa occidentale, ma che
+                            possiede ugualmente territori disseminati su più oceani e altri
+                            continenti.
+                        </note>
+                    </place>
+
                     <listRelation>
                         <!--Luogo di nascita di una persona-->
                         <relation name="birth_place-FdS" active="#FdS" passive="#GE"/>                <!--Ferdinand de Saussure-->
