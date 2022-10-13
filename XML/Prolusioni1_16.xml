@@ -350,7 +350,7 @@
                                 <lb xml:id="lb16_p16" n="16" facs="#facs_p16_lb16"/>
                                 <del><unclear reason="illegible">a.</unclear></del> songent <choice><abbr>p. ex. </abbr><expan>par example </expan></choice> à se demander quelle <term ref="#langue1">langue</term> on 
                                 <lb xml:id="lb17_p16" n="17" facs="#facs_p16_lb17"/>
-                                parlait à <date from="25-12-800" to="28-01-814">la cour de <persName ref="#Charlemagne">Charlemagne</persName> </date> - était-ce du roman <lb/>
+                                parlait à <date from="25-12-800" to="28-01-814">la cour de <persName ref="#Charlemagne">Charlemagne</persName> </date> - était-ce du roman
                                 <lb xml:id="lb18_p16" n="18" facs="#facs_p16_lb18"/>
                                 ou de l'allemand - et, si c'était l'allemand, était-ce <del rend="line-through"> la</del>
                                 <lb xml:id="lb19_p16" n="19" facs="#facs_p16_lb19"/>
@@ -372,16 +372,14 @@
                             <ab xml:id="pericope_91Aaaa049" n="49" xml:lang="FR" corresp="#it_91Aaaa049 #en_91Aaaa049" facs="#facs_pericope_91Aaaa049">
                                 et 
                                 <lb xml:id="lb25_p16" n="25" facs="#facs_p16_lb25"/>
-                                <del rend="line-through"><unclear reason="unclear">pa</unclear></del> en <num type="ordinal" value="2">2˚</num> lieu que ces noms germaniques. <del rend="line-through"><unclear reason="unclear">sant spé-
+                                <del rend="line-through"><unclear reason="unclear">pa</unclear></del> en <num type="ordinal" value="2">2˚</num> lieu que ces noms germaniques. <del rend="line-through"><unclear reason="unclear">sant spé-</unclear></del>
                                 <lb xml:id="lb26_p16" n="26" facs="#facs_p16_lb26"/>
-                                :cialut </unclear> </del> ne sont pas du <num type="ordinal" value="1">1°</num> <term ref="#dialecte">dialecte</term> venu, <del rend="line-through">mais</del>
+                                <del><unclear>:cialut </unclear> </del> ne sont pas du <num type="ordinal" value="1">1°</num> <term ref="#dialecte">dialecte</term> venu, <del rend="line-through">mais</del>
                                 <lb xml:id="lb27_p16" n="27" facs="#facs_p16_lb28"/>
                                 <add place="left-margin"> ne <choice> <abbr>sˇ</abbr> <expan>sont</expan> </choice> pas saxons ou Scandinaves, mais </add> sont clairement gothiques.
                             </ab>
                             <ab xml:id="pericope_91Aaaa050" n="50" xml:lang="FR" corresp="#it_91Aaaa050 #en_91Aaaa050" facs="#facs_pericope_91Aaaa050">
-                                Mais tous ces <term ref="#fait">faits</term>, grands
-                                <lb xml:id="lb28_p16" n="28" facs="#facs_p16_lb28"/>
-                                <add place="below">ou petits,</add>
+                                Mais tous ces <term ref="#fait">faits</term>, grands <add place="below">ou petits,</add>
                             </ab>
                         </div>
                     </body> 
@@ -392,17 +390,53 @@
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p16_it" hand="#h1" type="box_testo_it">
-                            <ab xml:id="it_91Aaaa044" corresp="#pericope_91Aaaa044" xml:lang="IT">
-                                <lb/>che non si conosce completamente un popolo senza conoscerne la lingua, o almeno averne un’idea; che la lingua è una parte importante del bagaglio delle nazioni e contribuisce a caratterizzare un’epoca, una società
+                            <ab xml:id="it_91Aaaa043" corresp="#pericope_91Aaaa043" xml:lang="IT" part="f">
+                                <lb/>che non si conosce completamente un popolo 
+                                <lb/>senza conoscerne la lingua, o almeno averne un’idea; 
+                                <lb/>che la lingua è una parte importante del bagaglio 
+                                <lb/>delle nazioni e contribuisce a caratterizzare un’epoca, 
+                                <lb/>una società.
                             </ab>
-                            <ab xml:id="it_91Aaaa045" corresp="#pericope_91Aaaa045" xml:lang="IT">
-                                <lb/>La presenza di idiomi celtici in Gallia, e la loro lenta sparizione sotto l’influenza della dominazione romana costituiscono, per esempio, grandi fatti storici
+                            <ab xml:id="it_91Aaaa044" corresp="#pericope_91Aaaa044" xml:lang="IT">
+                                <lb/>La presenza di idiomi celtici in Gallia, 
+                                <lb/>e la loro lenta sparizione sotto l’influenza della 
+                                <lb/>dominazione romana costituiscono, per esempio, 
+                                <lb/>grandi fatti storici
                             </ab>       
-                            <ab xml:id="it_91Aaaa046" corresp="#pericope_91Aaaa046" xml:lang="IT">
-                                <lb/>...
+                            <ab xml:id="it_91Aaaa045" corresp="#pericope_91Aaaa045" xml:lang="IT">
+                                <lb/>Quello è il punto di vista della 
+                                <lb/>Lingua nella Storia, ma non
+                                <lb/>è il punto di vista della Storia della lingua.
                             </ab>                                
+                            <ab xml:id="it_91Aaaa046" corresp="#pericope_91Aaaa046" xml:lang="IT">
+                                <lb/>È evidente che per mille fatti 
+                                <lb/>la lingua interesserà 
+                                <lb/>lo storico; e aggiungo pure che forse lo storico
+                                <lb/>non se ne interessa sempre quanto dovrebbe.
+                            </ab>                                   
                             <ab xml:id="it_91Aaaa047" corresp="#pericope_91Aaaa047" xml:lang="IT">
-                                <lb/>...
+                                <lb/>Ci sono pochissime persone in Francia, che 
+                                <lb/>badino, per esempio, a chiedersi quale lingua si 
+                                <lb/>parlasse alla corte di Carlo Magno – se fosse romanzo 
+                                <lb/>o germanico – e, se fosse germanico, se era 
+                                <lb/>un dialetto sparito o uno dei 
+                                <lb/>dialetti che si perpetuano ancora oggi?
+                            </ab>                               
+                            <ab xml:id="it_91Aaaa048" corresp="#pericope_91Aaaa048" xml:lang="IT">
+                                <lb/>Ci sono pochissimi storici
+                                <lb/>che notino che i nomi dei capi Unni, 
+                                <lb/>come Attila, non sono nomi unni, ma 
+                                <lb/>germanici, – il che è la prova di 
+                                <lb/>tutto uno stato di cose parecchio interessante;
+                            </ab>                               
+                            <ab xml:id="it_91Aaaa049" corresp="#pericope_91Aaaa049" xml:lang="IT">
+                                e 
+                                <lb/>in secondo luogo che questi nomi germanici 
+                                <lb/>non sono del primo dialetto, 
+                                <lb/>non sono sassoni o scandinavi, ma sono chiaramente gotici.
+                            </ab>                               
+                            <ab xml:id="it_91Aaaa050" corresp="#pericope_91Aaaa050" xml:lang="IT">
+                                Ma tutti questi fatti, grandi o piccoli,                                 
                             </ab>                            
                         </div>                            
                     </body>
@@ -413,18 +447,52 @@
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
                     <body resp="#AC" xml:id="body-inglese">
                         <div xml:id="div_p16_en" hand="#h1" type="box_testo_en">
+                            <ab xml:id="en_91Aaaa043" corresp="#pericope_91Aaaa043" xml:lang="EN">
+                                <lb/>the idea that to know a people thoroughly one has to know, 
+                                <lb/>or have some idea of their language; 
+                                <lb/>that a language is an important part of a nation's attributes 
+                                <lb/>and goes towards charazterizing an era, 
+                                <lb/>a society.
+                            </ab>                         
                             <ab xml:id="en_91Aaaa044" corresp="#pericope_91Aaaa044" xml:lang="EN">
-                                <lb/>the idea that to know a people thoroughly one has to know, or have some idea of their language; that a language is an important part of a nation's attributes and goes towards charazterizing an era, a society.
+                                <lb/>The presence of Celtic languages in Gaul, 
+                                <lb/>and their slow disappearance under the influence of 
+                                <lb/>Roman domination constitute 
+                                <lb/>for example important historical data.
                             </ab>             
                             <ab xml:id="en_91Aaaa045" coresp="#pericope_91Aaaa045" xml:lang="EN">
-                                <lb/>...
+                                <lb/>This viewpoint of a Language in History, 
+                                <lb/>but it is not the viewpoint of the history of language.
                             </ab>
                             <ab xml:id="en_91Aaaa046" corresp="#pericope_91Aaaa046" xml:lang="EN">
-                                <lb/>...
+                                <lb/>Clearly, countless facts 
+                                <lb/>about language may interest 
+                                <lb/>the historian - in fact, historians 
+                                <lb/>do not always demonstrate sufficient interest in them.                                 
                             </ab>
                             <ab xml:id="en_91Aaaa047" corresp="#pericope_91Aaaa047" xml:lang="EN">
-                                <lb/>...
-                            </ab>    
+                                <lb/>Few in France 
+                                <lb/>would ponder which language was  
+                                <lb/>spoken at Charlemagne's court - was it Roman  
+                                <lb/>or German - and, if it was German, was  
+                                <lb/>it a dialect now dead or one  
+                                <lb/>extant today?                                  
+                            </ab>
+                            <ab xml:id="en_91Aaaa048" corresp="#pericope_91Aaaa048" xml:lang="EN">
+                                Few historians 
+                                <lb/>notice that names of Hun chiefs, 
+                                <lb/>such as Attila, are not Hun names, but 
+                                <lb/>Germanic names, - which itself demonstrates 
+                                <lb/>an entire situation of some considerable interest; and
+                            </ab>
+                            <ab xml:id="en_91Aaaa049" corresp="#pericope_91Aaaa049" xml:lang="EN">
+                                <lb/>secondly that these Germanic 
+                                <lb/>names do not come from any old dialect 
+                                <lb/>- Saxon, or Scandinavian - but are clearly Gothic. 
+                            </ab>
+                            <ab xml:id="en_91Aaaa050" corresp="#pericope_91Aaaa050" xml:lang="EN">    
+                                <lb/>But all these facts, large or small,
+                            </ab>                               
                         </div>                         
                     </body>
                 </text>       

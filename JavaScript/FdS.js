@@ -185,7 +185,7 @@ function gestoreMostraGap() {
             nodoTastoGap.setAttribute("value", "Mostra gap");
         }
     } catch (e) {
-        alert("gestoreAbbreviazioni"+e);
+        alert("gestoreMostraGap"+e);
     }
 }
 function gestoreMostraDel() {
@@ -211,9 +211,44 @@ function gestoreMostraDel() {
             nodoTastoDel.setAttribute("value", "Mostra del");
         }
     } catch (e) {
-        alert("gestoreAbbreviazioni"+e);
+        alert("gestoreMostraDel"+e);
     }
 }
+
+//Gestore SIC/CORR
+function gestoreSicCorr() {
+    try {        
+        nodoTastoSic = document.getElementById("icona_sic_corr");
+        nodiSic = document.getElementsByTagName("sic");
+        nodiCorr = document.getElementsByTagName("corr");
+        nodiHovertext = document.getElementsByClassName("hovertext");
+        nodoValoreValue = nodoTastoSic.getAttribute("value");
+        //Scorro sia le correzioni che gli errori con un unico ciclo perché sono a coppie (a nodiCorr[3] corrisponde un nodiSic[3])
+        for (let i = 0; i < nodiSic.length; i++) {
+            //Se i nodiCorr hanno l'attributo "style = 'display:none;'" allora lo elimino per renderli visibili (sciogliere le abbreviazioni) 
+            //A questo punto, nascondo le abbreviazioni contratte settando l'attributo "style = 'display:none;'"           
+            if (nodiCorr[i].hasAttribute("style")) {     
+                nodiCorr[i].removeAttribute("style");
+                nodiSic[i].setAttribute("style", "display:none;");     
+            }         
+            //Se i nodiCorr non hanno l'attributo "style = 'display:none;'" allora lo metto per nascondere gli scioglimenti delle abbreviazioni
+            //A questo punto, mostro le abbreviazioni contratte eliminando il loro attributo "style = 'display:none;'"            
+            else {
+                nodiCorr[i].setAttribute("style", "display:none;");
+                nodiSic[i].removeAttribute("style");
+            }
+        }
+        if (nodoValoreValue == "Ometti le correzioni") {
+            nodoTastoSic.setAttribute("value", "Mostra le correzioni");
+        }
+        else if (nodoValoreValue == "Mostra le correzioni") {
+            nodoTastoSic.setAttribute("value", "Ometti le correzioni");
+        }
+    } catch (e) {
+        alert("gestoreSicCorr"+e);
+    }
+}
+
 
 //Gestori traduzioni FR - IT - EN
 function gestoreMostraTrascrizioneFR() {
@@ -236,7 +271,7 @@ function gestoreMostraTrascrizioneFR() {
         nodoTastoEN.removeAttribute("class");
     
     } catch (e) {
-        alert("gestoreAbbreviazioni"+e);
+        alert("gestoreMostraTrascrizioneFR"+e);
     }
 }
 function gestoreMostraTraduzioneIT() {
@@ -259,7 +294,7 @@ function gestoreMostraTraduzioneIT() {
         nodoTastoEN.removeAttribute("class");
         
     } catch (e) {
-        alert("gestoreAbbreviazioni"+e);
+        alert("gestoreMostraTraduzioneIT"+e);
     }
 }
 function gestoreMostraTraduzioneEN() {
@@ -282,7 +317,7 @@ function gestoreMostraTraduzioneEN() {
         nodoTastoFR.removeAttribute("class");        
     
     } catch (e) {
-        alert("gestoreAbbreviazioni"+e);
+        alert("gestoreMostraTraduzioneEN"+e);
     }
 }
 

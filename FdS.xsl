@@ -57,6 +57,8 @@
                             <input id="icona_gap" type="button" class="" alt="Clicca per nascondere i gap nel testo" onclick="gestoreMostraGap()" value="Nascondi gap"/>
                             <br/>
                             <input id="icona_del" type="button" class="" alt="Clicca per nascondere i del nel testo" onclick="gestoreMostraDel()" value="Nascondi del"/>
+                            <br/>
+                            <input id="icona_sic_corr" type="button" class="" alt="Clicca per visualizzare o omettere le correzioni" onclick="gestoreSicCorr()" value="Mostra le correzioni"/>
                         </div>                    
                     </div>
             </div>
@@ -535,6 +537,80 @@
             </xsl:element> 
         </xsl:if>
     </xsl:template>
+
+    <!--SIC-->
+    <xsl:template match="//tei:sic">
+        <xsl:element name="sic">
+            <xsl:attribute name="title">
+                <xsl:value-of select="current()/following-sibling::tei:corr"/>
+            </xsl:attribute>
+            <xsl:value-of select="current()" />
+        </xsl:element>
+    </xsl:template>
+
+    <!--CORR-->
+    <xsl:template match="//tei:corr">
+        <!--Se <choice> non è figlio di <term>-->
+        <xsl:if test="not(current()/parent::tei:choice/parent::tei:term)">
+            <xsl:element name="corr">            
+                <xsl:attribute name="style">display:none;</xsl:attribute>
+                <xsl:value-of select="current()" />
+            </xsl:element>
+        </xsl:if>
+        <!--Se <choice> è figlio di <term>-->
+        <xsl:if test="current()/parent::tei:choice/parent::tei:term">
+            <xsl:element name="span"> 
+                <xsl:variable name="testo-hover">
+                    <xsl:variable name="ref">
+                        <xsl:value-of select="substring-after(current()/@ref, '#')"/>
+                    </xsl:variable>
+                    <!--orth-->
+                    <xsl:choose>
+                        <xsl:when test="//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry[@xml:id=$ref]">
+                            <xsl:copy-of select="concat(//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry[@xml:id=$ref]/tei:form/tei:orth, ': ')"/>
+                        </xsl:when>
+                        <xsl:when test="//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry[@xml:id=$ref]">
+                            <xsl:copy-of select="concat(//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry[@xml:id=$ref]/tei:form/tei:orth, ': ')"/>
+                        </xsl:when>                        
+                        <xsl:when test="//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry/tei:sense/tei:sense[@xml:id=$ref]">
+                            <xsl:copy-of select="concat(//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/ancestor::tei:entry/tei:form/tei:orth, ': ')"/>
+                        </xsl:when>                        
+                        <xsl:when test="//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry/tei:sense/tei:sense[@xml:id=$ref]">
+                            <xsl:copy-of select="concat(//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/ancestor::tei:entry/tei:form/tei:orth, ': ')"/>
+                        </xsl:when>                                                  
+                    </xsl:choose>
+                    <!--def-->   
+                    <xsl:choose>                     
+                        <xsl:when test="//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry[@xml:id=$ref]/tei:sense/tei:def">
+                            <xsl:copy-of select="//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry[@xml:id=$ref]/tei:sense/tei:def"/>
+                        </xsl:when>
+                        <xsl:when test="//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry[@xml:id=$ref]/tei:sense/tei:cit/tei:quote">
+                            <xsl:copy-of select="//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry[@xml:id=$ref]/tei:sense/tei:cit/tei:quote"/>
+                        </xsl:when>                        
+                        <xsl:when test="//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry[@xml:id=$ref]/tei:sense/tei:def">
+                            <xsl:copy-of select="//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry[@xml:id=$ref]/tei:sense/tei:def"/>
+                        </xsl:when>                        
+                        <xsl:when test="//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/tei:def">
+                            <xsl:copy-of select="//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/tei:def"/>
+                        </xsl:when>                        
+                        <xsl:when test="//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/tei:def/tei:cit/tei:quote">
+                            <xsl:copy-of select="//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/tei:def/tei:cit/tei:quote"/>
+                        </xsl:when>                            
+                        <xsl:when test="//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/tei:def">
+                            <xsl:copy-of select="//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry/tei:sense/tei:sense[@xml:id=$ref]/tei:def"/>
+                        </xsl:when>                        
+                    </xsl:choose>
+                </xsl:variable>        
+                <xsl:attribute name="class">hovertext</xsl:attribute>
+                <xsl:attribute name="data-hover">
+                    <xsl:value-of select="$testo-hover"/>
+                </xsl:attribute>
+                <xsl:value-of select="current()" />
+            </xsl:element> 
+        </xsl:if>
+    </xsl:template>
+
+
 
     <!--ADD place=above-->
     <xsl:template match="//tei:add[@place='above']">
