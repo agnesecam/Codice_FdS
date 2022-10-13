@@ -378,7 +378,7 @@
                                 <lb xml:id="lb27_p16" n="27" facs="#facs_p16_lb28"/>
                                 <add place="left-margin"> ne <choice> <abbr>sˇ</abbr> <expan>sont</expan> </choice> pas saxons ou Scandinaves, mais </add> sont clairement gothiques.
                             </ab>
-                            <ab xml:id="pericope_91Aaaa050" n="50" xml:lang="FR" corresp="#it_91Aaaa050 #en_91Aaaa050" facs="#facs_pericope_91Aaaa050">
+                            <ab xml:id="pericope_91Aaaa050" n="50" xml:lang="FR" corresp="#it_91Aaaa050 #en_91Aaaa050" facs="#facs_pericope_91Aaaa050" part="i">
                                 Mais tous ces <term ref="#fait">faits</term>, grands <add place="below">ou petits,</add>
                             </ab>
                         </div>
