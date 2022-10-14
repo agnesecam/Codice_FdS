@@ -302,7 +302,7 @@
                         <div xml:id="div_p18_fr" hand="#h1" type="box_testo">
                             <ab xml:id="pericope_91Aaaa056" n="56" xml:lang="FR" corresp="#it_91Aaaa056 #en_91Aaaa056" facs="#facs_pericope_91Aaaa056" part="f">
                                 <lb xml:id="lb1_p18" n="1" facs="#facs_p18_lb1"/> 
-                                il ne suit pas que la <choice cert="high"><abbr type="suspension">geolog<am>.</am></abbr><expan>géolog<ex>ie</ex></expan></choice> soit une <term ref="#science_historique" rend="underline">science</term>
+                                il ne suit pas que la <choice cert="high"><abbr>geolog<am>.</am></abbr><expan>géolog<ex>ie</ex></expan></choice> soit une <term ref="#science_historique" rend="underline">science</term>
                                 <lb xml:id="lb2_p18" n="2" facs="#facs_p18_lb2"/> 
                                 <term ref="#science_historique">historique</term>, au moins au sens étroit et précis
                                 <lb xml:id="lb3_p18" n="3" facs="#facs_p18_lb3"/>
@@ -312,9 +312,9 @@
                                 <lb xml:id="lb4_p18" n="4" facs="#facs_p18_lb4"/> 
                                 <choice cert="medium"><abbr>2a</abbr><expan>seconde</expan></choice> condition<unclear reason="illegible"><del rend="overstrike"/></unclear> impliquée par le <term ref="#mot">mot</term> de <term ref="#science_historique">science</term>
                                 <lb xml:id="lb5_p18" n="5" facs="#facs_p18_lb5"/>
-                                <choice cert="high"><abbr type="suspension">historiq<am>.</am></abbr><expan>historiq<ex>ue</ex></expan></choice><supplied reason="omitted-in-original"><pc type="interrogative">?</pc></supplied> <pc type="dash">-</pc> C'est que l'<term ref="#objet">objet</term> qui fait la <term ref="#matière">matière</term> de 
+                                <choice cert="high"><abbr>historiq<am>.</am></abbr><expan>historiq<ex>ue</ex></expan></choice><supplied reason="omitted-in-original"><pc type="interrogative">?</pc></supplied> <pc type="dash">-</pc> C'est que l'<term ref="#objet">objet</term> qui fait la <term ref="#matière">matière</term> de 
                                 <lb xml:id="lb6_p18" n="6" facs="#facs_p18_lb6"/>
-                                l'<term ref="#histoire">histoire</term><add place="margin" xml:id="aggiunta4" facs="#add4" resp="#ADS"> -<expan xml:id="expan6" facs="#abbrev6">par exemple</expan> l'art, la religion, le costume, etc. - </add>représente, dans un <term ref="#glossa-mancante">sens</term> quelconque, des                                
+                                l'<term ref="#histoire">histoire</term><add place="margin" xml:id="aggiunta4" facs="#add4" resp="#ADS"> - <choice><abbr>p. ex.</abbr><expan xml:id="expan6" facs="#abbrev6">par exemple</expan></choice> l'art, la religion, le costume, etc. - </add>représente, dans un <term ref="#glossa-mancante">sens</term> quelconque, des                                
                                 <lb xml:id="lb7_p18" n="7" facs="#facs_p18_lb7"/>
                                 <term ref="#acte_humain" rend="underline">actes humains</term>, régis par la <term ref="#volonté">volonté</term> et l'<term ref="#intelligence">intelligence</term>
                                 <lb xml:id="lb8_p18" n="8" facs="#facs_p18_lb8"/>
