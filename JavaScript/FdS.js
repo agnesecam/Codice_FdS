@@ -63,6 +63,42 @@ function select_pages(){
             case '17':
                 add_p = '17';
                 break;   
+            case '18':
+                add_p = "18";
+                break;
+            case '19':
+                add_p = "19";
+                break;
+            case '20':
+                add_p = "20";
+                break;
+            case '21':
+                add_p = "21";
+                break;
+            case '22':
+                add_p = "22";
+                break;
+            case '23':
+                add_p = "23";
+                break;
+            case '24':
+                add_p = "24";
+                break;
+            case '25':
+                add_p = "25";            
+            case '26':
+                add_p = "26";
+                break;
+            case '27':
+                add_p = "27";
+                break;
+            case '28':
+                add_p = "28";            
+            case '29':
+                add_p = "29";
+                break;
+            case '30':
+                add_p = "30";
             default:
                 add_p = "1";
         }

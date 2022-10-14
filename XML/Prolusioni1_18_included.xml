@@ -258,35 +258,31 @@
         <surface n="15" xml:id="scan_p18">
             <graphic url="ms_fr_03951_01_1_p018-resized.jpg" width="600px" height="900px"/> 
             <!--Righe-->
-            <zone points=" 125,87, 125,119, 533,100, 531,78  " rendition="line" xml:id="facs_p18_lb1"/>                       
-            <zone points=" 131,119, 129,135, 518,138, 521,113  " rendition="line" xml:id="facs_p18_lb2"/>                       
-            <zone points=" 135,149, 136,169, 534,165, 532,144 " rendition="line" xml:id="facs_p18_lb3"/>            
-            <zone points=" 136,178 ,136,198, 535,200, 530,179" rendition="line" xml:id="facs_p18_lb4"/>
-            <zone points=" 134,205, 141,224, 519,226, 519,211" rendition="line" xml:id="facs_p18_lb5"/>
-            <zone points="144,235, 139,257, 518,246, 515,232 " rendition="line" xml:id="facs_p18_lb6"/>
-            <zone points=" 139,262, 137,284, 504,275, 498,252  " rendition="line" xml:id="facs_p18_lb7"/>
-            <zone points=" 141,291, 136,311, 502,297, 506,279 " rendition="line" xml:id="facs_p18_lb8"/>
-            <zone points=" 137,316, 140,355, 518,322, 516,303 " rendition="line" xml:id="facs_p18_lb9"/>
-            <zone points=" 153,349, 150,366, 522,353, 516,330  " rendition="line" xml:id="facs_p18_lb10"/>
-            <zone points=" 145,376, 148,400, 524,381, 527,361  " rendition="line" xml:id="facs_p18_lb11"/>
-            <zone points="  145,405, 139,428, 532,412, 527,393" rendition="line" xml:id="facs_p18_lb12"/>    
-            <zone points=" 139,435 ,140,460, 527,444, 522,423  " rendition="line" xml:id="facs_p18_lb13"/>    
-            <zone points=" 134,467, 139,492, 523,475, 521,452" rendition="line" xml:id="facs_p18_lb14"/>    
-            <zone points=" 149,493, 145,519, 524,506, 529,479" rendition="line" xml:id="facs_p18_lb15"/>    
-            <zone points=" 151,528, 147,551, 521,533, 519,511" rendition="line" xml:id="facs_p18_lb16"/>    
-            <zone points=" 149,559, 151,583, 532,556, 531,538 " rendition="line" xml:id="facs_p18_lb17"/>    
-            <zone points=" 148,586, 151,605, 517,576, 514,558" rendition="line" xml:id="facs_p18_lb18"/>    
-            <zone points=" 148,610 ,153,628, 522,594, 512,583" rendition="line" xml:id="facs_p18_lb19"/>    
-            <zone points=" 150,625, 153,651, 537,633, 528,600" rendition="line" xml:id="facs_p18_lb20"/>    
-            <zone points=" 156,657, 152,685, 509,657, 511,634" rendition="line" xml:id="facs_p18_lb21"/>    
-            <zone points=" 161,688 ,157,705, 524,685, 518,665" rendition="line" xml:id="facs_p18_lb22"/>    
-            <zone points=" 159,711, 155,735, 495,705 ,485,691" rendition="line" xml:id="facs_p18_lb23"/>              
-            <zone points=" 158,735 ,163,755 ,527,735, 522,711" rendition="line" xml:id="facs_p18_lb24"/>    
-            <zone points=" 162,764 ,161,785, 517,762, 514,737" rendition="line" xml:id="facs_p18_lb25"/>    
-            <zone points=" 161,787, 162,802, 519,787, 516,765" rendition="line" xml:id="facs_p18_lb26"/>    
-            <zone points=" 49,812, 48,837, 540,828, 536,788" rendition="line" xml:id="facs_p18_lb27"/>    
+            <zone points=" 142,89, 136,111, 510,109, 513,92 " rendition="line" xml:id="facs_p18_lb1"/>                       
+            <zone points=" 145,122, 140,145, 505,135, 504,120  " rendition="line" xml:id="facs_p18_lb2"/>                       
+            <zone points=" 149,162, 138,180 ,499,161, 496,145 " rendition="line" xml:id="facs_p18_lb3"/>            
+            <zone points=" 149,183, 144,200 ,510,189, 507,175" rendition="line" xml:id="facs_p18_lb4"/>
+            <zone points=" 150,211, 142,235, 507,215, 507,201" rendition="line" xml:id="facs_p18_lb5"/>
+            <zone points="62,248, 496,228, 495,248, 133,262, 102,347, 60,324 " rendition="line" xml:id="facs_p18_lb6"/>
+            <zone points=" 148,273, 149,295, 495,277, 492,259 " rendition="line" xml:id="facs_p18_lb7"/>
+            <zone points=" 150,297, 147,319, 495,303, 494,282  " rendition="line" xml:id="facs_p18_lb8"/>
+            <zone points=" 136,332, 142,351, 500,329, 497,314 " rendition="line" xml:id="facs_p18_lb9"/>
+            <zone points=" 124,355, 120,384, 298,369, 293,352  " rendition="line" xml:id="facs_p18_lb10"/>
+            <zone points="203,385 ,186,409, 513,393 ,511,381 " rendition="line" xml:id="facs_p18_lb11"/>
+            <zone points="  133,415, 130,451, 487,423, 484,404" rendition="line" xml:id="facs_p18_lb12"/>    
+            <zone points=" 139,452, 133,470, 489,445, 486,425  " rendition="line" xml:id="facs_p18_lb13"/>    
+            <zone points=" 139,478, 141,496, 495,476 ,490,452" rendition="line" xml:id="facs_p18_lb14"/>    
+            <zone points="  60,504 ,507,479, 511,513 ,130,528, 124,641, 66,654" rendition="line" xml:id="facs_p18_lb15"/>    
+            <zone points=" 143,529, 138,553, 480,533, 476,518" rendition="line" xml:id="facs_p18_lb16"/>    
+            <zone points=" 144,560 ,147,580, 488,561, 549,553 ,552,536 " rendition="line" xml:id="facs_p18_lb17"/>    
+            <zone points=" 145,583 ,503,571, 515,593, 152,617" rendition="line" xml:id="facs_p18_lb18"/>    
+            <zone points=" 154,626, 499,606 ,503,623, 161,644" rendition="line" xml:id="facs_p18_lb19"/>    
+            <zone points=" 159,653, 161,677 ,512,644, 507,631" rendition="line" xml:id="facs_p18_lb20"/>    
+            <zone points=" 163,678 ,162,703, 523,673, 520,655" rendition="line" xml:id="facs_p18_lb21"/>    
+            <zone points=" 159,704 ,516,685 ,522,706 ,164,727 " rendition="line" xml:id="facs_p18_lb22"/>    
+            <zone points=" 167,730, 168,752, 532,732, 528,710" rendition="line" xml:id="facs_p18_lb23"/>                
 
-            <zone points="60,54,113,55,111,89,59,94" rendition="line" xml:id="facs_HandPageNumber-18"/>     <!--Numero 18 cerchiato in alto a sx-->           
+            <zone points="71,68, 99,59, 112,78, 97,98, 66,95" rendition="line" xml:id="facs_HandPageNumber-18"/>     <!--Numero 18 cerchiato in alto a sx-->           
 
         </surface>
     </facsimile>
@@ -330,35 +326,37 @@
                             </ab>
                             <ab xml:id="pericope_91Aaaa058" n="58" xml:lang="FR" corresp="#it_91Aaaa058 #en_91Aaaa058" facs="#facs_pericope_91Aaaa058">
                                 <lb xml:id="lb11_p18" n="11" facs="#facs_p18_lb11"/>
+                                Les faits linguistiques peuvent-ils passer
+                                <lb xml:id="lb12_p18" n="12" facs="#facs_p18_lb11"/>
                                 pour être le résultat d'actes <del rend="overstrike"/>
-                                <lb xml:id="lb12_p18" n="12" facs="#facs_p18_lb12"/> 
+                                <lb xml:id="lb13_p18" n="13" facs="#facs_p18_lb12"/> 
                                 de notre volonté<pc type="interrogative">?</pc> Telle est donc la question. La 
-                                <lb xml:id="lb13_p18" n="13" facs="#facs_p18_lb13"/> 
+                                <lb xml:id="lb14_p18" n="14" facs="#facs_p18_lb13"/> 
                                 <term ref="#science_du_langage">science du langage</term>, actuelle, yrépond affirmativement.                                
                             </ab>
                             <ab xml:id="pericope_91Aaaa059" n="59" xml:lang="FR" corresp="#it_91Aaaa059 #en_91Aaaa059" facs="#facs_pericope_91Aaaa059">
-                                <lb xml:id="lb14_p18" n="14" facs="#facs_p18_lb14"/>
+                                <lb xml:id="lb15_p18" n="15" facs="#facs_p18_lb14"/>
                                 Seulement il faut ajouter aussitôt 
                                 <add place="margin">qu'il y a beaucoup de <term ref="#glossa-mancante">degrés</term> connus, comme nous savons, dans la <term ref="#volonté">volonté</term> <term ref="#conscience">consciente</term> ou <term ref="#inconscience">inconsciente<supplied reason="omitted-in-original"><pc type="semicolon">;</pc></supplied></term></add>
                                 <subst><del rend="overstrike"/><add> or</add></subst><supplied reason="omitted-in-original">,</supplied> de tous 
-                                <lb xml:id="lb15_p18" n="15" facs="#facs_p18_lb15"/>
+                                <lb xml:id="lb16_p18" n="16" facs="#facs_p18_lb15"/>
                                 les actes qu'on pourrait mettre en parallèle, 
-                                <lb xml:id="lb16_p18" n="16" facs="#facs_p18_lb16"/> 
+                                <lb xml:id="lb17_p18" n="17" facs="#facs_p18_lb16"/> 
                                 l'<term ref="#acte_linguistique">acte linguistique</term>, si je puis le nommer ainsi, <subst><del/><add place="above">a ce caractère d'être</add></subst>  
-                                <lb xml:id="lb17_p18" n="17" facs="#facs_p18_lb17"/> 
+                                <lb xml:id="lb18_p18" n="18" facs="#facs_p18_lb17"/> 
                                 le moins <ref ref="#reflechi">réfléchi</ref>, le moins prémédité, <unclear reason="illegible" cert="medium"><del rend="overstrike" cert="medium">le</del></unclear>
-                                <lb xml:id="lb18_p18" n="17" facs="#facs_p18_lb18"/>
+                                <lb xml:id="lb19_p18" n="19" facs="#facs_p18_lb18"/>
                                 <unclear><del>plus machinal, en mir temps que le</del></unclear>en même
-                                <lb xml:id="lb19_p18" n="18" facs="#facs_p18_lb19"/>
+                                <lb xml:id="lb20_p18" n="20" facs="#facs_p18_lb19"/>
                                 temps que le plus impersonnel de tous.
                             </ab> 
                             <ab xml:id="pericope_91Aaaa060" n="60" xml:lang="FR" corresp="#it_91Aaaa060 #en_91Aaaa060" facs="#facs_pericope_91Aaaa060">
                                 Il y a 
-                                <lb xml:id="lb20_p18" n="20" facs="#facs_p18_lb20"/>
+                                <lb xml:id="lb21_p18" n="21" facs="#facs_p18_lb20"/>
                                 là une <term ref="#différence1">différence de degré</term>, qui va si loin qu'elle
-                                <lb xml:id="lb21_p18" n="21" facs="#facs_p18_lb21"/> 
+                                <lb xml:id="lb22_p18" n="22" facs="#facs_p18_lb21"/> 
                                 a longtemps donné l'illusion d'<choice cert="high"><abbr>1</abbr><expan>une</expan></choice> <term ref="#différence1">différence es<pc force="weak">-</pc></term>
-                                <lb xml:id="lb22_p18" n="22" facs="#facs_p18_lb22"/>
+                                <lb xml:id="lb23_p18" n="23" facs="#facs_p18_lb22"/>
                                 <pc>-</pc><term ref="#différence1">sentielle</term>, mais qui n'est en réalité qu'<choice cert="high"><abbr>1</abbr><expan>une</expan></choice> <choice><abbr>diff<am>.</am></abbr><expan>diff<ex>érence</ex></expan></choice> de degrés.                                                            
                             </ab>
                         </div>
