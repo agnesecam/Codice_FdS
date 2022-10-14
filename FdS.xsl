@@ -211,6 +211,22 @@
                                 </xsl:element>
                                 <xsl:text>, </xsl:text>
                             </xsl:for-each>
+                            <!--Traduttore-editor-->
+                            <xsl:if test="current()//tei:editor">
+                                <xsl:for-each select="current()//tei:editor">
+                                    <xsl:element name="span">
+                                        <xsl:attribute name="class">bEdith</xsl:attribute>
+                                        <xsl:for-each select="current()//tei:surname">
+                                            <xsl:copy-of select="current()"/>
+                                        </xsl:for-each>
+                                        <xsl:text> </xsl:text> <!--spazio divide cognome da iniziale-->
+                                        <xsl:for-each select="current()//tei:forename">
+                                            <xsl:value-of select="concat(substring(current(), 1, 1), '.')" />
+                                        </xsl:for-each>
+                                    </xsl:element>
+                                    <xsl:text>, </xsl:text>
+                                </xsl:for-each>
+                            </xsl:if>
                             <!--Titolo-->
                             <xsl:element name="span">
                                 <xsl:attribute name="class">bTitle</xsl:attribute>
