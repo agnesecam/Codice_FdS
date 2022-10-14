@@ -681,6 +681,7 @@
                         </note>
                     </bibl>
 
+                    <!--Dalle parole ai termini-->
                     <bibl xml:id="Prolusioni_Ginevrine">
                         <title type="main">Dalle parole ai termini</title>
                         <title type="sub">I percorsi di pensiero di F. de Saussure</title>
@@ -695,6 +696,55 @@
                         <pubPlace>Alessandria</pubPlace>
                         <idno type="ISBN">978-88-6274-728-8</idno>
                         
+                    <!--Writings in General Linguistics-->
+                    <bibl xml:id="WGL"> 
+                        <title>Writings in General Linguistics</title>
+                        <author>
+                            <persName ref="#FdS">
+                                <forename>Ferdinand</forename> 
+                                <surname>De Saussure</surname>
+                            </persName>
+                        </author>
+                        <editor role="translator">
+                            <persName>
+                                <forename>Carol</forename> 
+                                <surname>Sanders</surname>
+                            </persName>
+                        </editor>
+                        <editor role="translator">
+                            <persName>
+                                <forename>Matthew</forename> 
+                                <surname>Pires</surname>
+                            </persName>
+                        </editor>                        
+                        <editor role="translator">
+                            <persName>
+                                <forename>Peter</forename> 
+                                <surname>Figueroa</surname>
+                            </persName>
+                        </editor>
+                        <date when="2006">2006</date>
+                        <publisher>Oxford University Press - University of Oxford</publisher>
+                        <pubPlace>Great Clarendon Street, Oxford, OX2 6DP</pubPlace>
+                        <idno type="ISBN">978-0-19-926144-4</idno>
+                        <citedRange unit="page" from="X" to="X">X-X</citedRange>
+                        <relatedItem type="translatedFrom">
+                            <bibl>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <author>Antoinette Weil</author>
+                                <title>Écrits de linguistique générale</title>.
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                            </bibl>
+                        </relatedItem>
+                        <note>
+                            Traduzione inglese del manoscritto.
+                        </note>
+                    </bibl>
+
+
+
                     </bibl>
 
                 </listBibl>
@@ -923,7 +973,248 @@
                             <country key="CH">Switzerland</country>
                         </placeName>                        
                     </death> 
+                </person>    
+
+                <!--Friedrich Müller-->
+                <person xml:id="FM" sameAs="http://worldcat.org/identities/np-muller,%20friedrich/"> 
+                    <persName role="author"> 
+                        <forename>Friedrich</forename>
+                        <surname>Müller</surname>
+                    </persName>
+                    <occupation>linguista</occupation>
+                    <birth>
+                        <date when="1834-03-06">06 Marzo 1834</date>
+                        <placeName>
+                            <settlement type="municipality">Jemnice</settlement>
+                            <settlement type="regione">Vysočina</settlement>
+                            <settlement type="distretto" key="Třebíč">Třebíč</settlement>
+                            <country key="CS">Repubblica Ceca</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1875-12-20">25 Maggio 1898</date>
+                        <placeName>
+                            <settlement type="municipality">Vienna</settlement>
+                            <settlement type="department" key="Vienna">Vienna</settlement>
+                            <country key="G">Austria</country>
+                        </placeName>                        
+                    </death> 
                 </person>          
+
+                <!--M. Gaston Paris-->
+                <person xml:id="MGParis" sameAs="https://www.treccani.it/enciclopedia/gaston-paris/"> 
+                    <persName role="author"> 
+                        <forename>Gaston</forename>
+                        <surname>Paris</surname>
+                    </persName>
+                    <occupation>linguista</occupation>
+                    <birth>
+                        <date when="1839">1839</date>
+                        <placeName>
+                            <settlement type="municipality">Avenay</settlement>
+                            <settlement type="department" key="GE">Marna</settlement>
+                            <country key="FR">Francia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1903">1903</date>
+                        <placeName>
+                            <settlement type="municipality">Cannes</settlement>
+                            <country key="FR">Francia</country>
+                        </placeName>                        
+                    </death> 
+                </person>
+
+                <!--M. Paul Meyer-->
+                <person xml:id="MPMeyer" sameAs="http://worldcat.org/identities/lccn-n81040595/"> 
+                    <persName role="author"> 
+                        <forename>Paul</forename>
+                        <surname>Meyer</surname>
+                    </persName>
+                    <occupation>linguista</occupation>
+                    <birth>
+                        <date when="1840-01-17">17 gennaio 1840</date>
+                        <placeName ref="#P">
+                            <settlement type="municipality">Lancy</settlement>
+                            <settlement type="department" key="GE">Genève</settlement>
+                            <country key="CH">Switzerland</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1917-09-07">7 settembre 1917</date>
+                        <placeName>
+                            <settlement type="municipality">Paris</settlement>
+                            <country key="FR">Francia</country>
+                        </placeName>                            
+                    </death> 
+                </person>
+
+                <!--M. Schuchardt-->
+                <person xml:id="MS" sameAs="http://worldcat.org/identities/lccn-n79065470/"> 
+                    <persName role="author"> 
+                        <forename>Hugo Ernst Mario</forename>
+                        <surname>Schuchardt</surname>
+                    </persName>
+                    <occupation>linguista</occupation>
+                    <birth>
+                        <date when="1842-02-04">4 febbraio 1842</date>
+                        <placeName>
+                            <settlement type="municipality">Gotha</settlement>
+                            <settlement type="land">Turingia</settlement>
+                            <country key="DE">Germania</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1927-04-21">21 aprile 1927</date>
+                        <placeName>
+                            <settlement type="municipality">Graz</settlement>
+                            <settlement type="land">Stiria</settlement>
+                            <country key="G">Austria</country>
+                        </placeName>                        
+                    </death> 
+                </person>
+
+                <!--M. Hermann Paul-->
+                <person xml:id="MHPaul" sameAs="http://worldcat.org/identities/lccn-n90720615/"> 
+                    <persName role="author"> 
+                        <forename>Hermann</forename>
+                        <surname>Paul</surname>
+                    </persName>
+                    <occupation>linguista</occupation>
+                    <birth>
+                        <date when="1846-08-07">7 agosto 1846</date>
+                        <placeName>
+                            <settlement type="municipality">Magdeburgo</settlement>
+                            <settlement type="land">Sassonia-Anhalt</settlement>
+                            <country key="DE">Germania</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1921-12-29">29 dicembre 1921</date>
+                        <placeName>
+                            <settlement type="municipality">Monaco di Baviera</settlement>
+                            <settlement type="land">Baviera</settlement>
+                            <country key="DE">Germania</country>
+                        </placeName>                        
+                    </death> 
+                </person>        
+                
+                <!--N. Baudouin de Courtenay-->
+                <person xml:id="NBC" sameAs="http://worldcat.org/identities/lccn-n81080652/"> 
+                    <persName role="author"> 
+                        <forename>N. Baudouin</forename>
+                        <surname> de Courtenay</surname>
+                    </persName>
+                    <occupation>linguista</occupation>
+                    <birth>
+                        <date when="1845-03-13">13 marzo 1845</date>
+                        <placeName>
+                            <settlement type="municipality">Radzymin</settlement>
+                            <settlement type="voivodato">Masovia</settlement>
+                            <settlement type="distretto">Wołomin</settlement>
+                            <country key="PL">Polonia</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1929-11-03">3 novembre 1929</date>
+                        <placeName>
+                            <settlement type="municipality">Varsavia</settlement>
+                            <settlement type="voivodato">Masovia</settlement>
+                            <country key="PL">Polonia</country>
+                        </placeName>                        
+                    </death> 
+                </person>       
+                
+                <!--M. Kruszewski-->
+                <person xml:id="MK" sameAs="http://worldcat.org/identities/lccn-n85121920/"> 
+                    <persName role="author"> 
+                        <forename>Mikołaj Habdank</forename>
+                        <surname>Kruszewski</surname>
+                    </persName>
+                    <occupation>linguista</occupation>
+                    <birth>
+                        <date when="1851-12-18">18 dicembre 1851</date>
+                        <placeName>
+                            <settlement type="municipality">Lutsk</settlement>
+                            <settlement type="oblast">Volyn Oblast</settlement>
+                            <country key="UK">Ucraina</country>
+                        </placeName>
+                    </birth>
+                    <death>
+                        <date when="1929-11-03">12 novembre 1887</date>
+                        <placeName>
+                            <settlement type="municipality">Kazan</settlement>
+                            <settlement type="voivodato">Masovia</settlement>
+                            <country key="PL">Polonia</country>
+                        </placeName>                        
+                    </death> 
+                </person>
+
+                <!--Charlemagne / Carlomagno-->
+                <person xml:id="Charlemagne">
+                    <persName>
+                        <forename>Carlo I </forename>
+                        <roleName>Magno</roleName>
+                    </persName>
+                    <birth when="742-04-02">
+                        <date>02 aprile 742</date>
+                        <placeName>
+                            <settlement type="municipality">Aquisgrana</settlement>
+                        </placeName>
+                    </birth>
+                    <death when="814-01-28">
+                        <date>28 gennaio 814</date>
+                        <placeName>
+                            <settlement type="municipality">Aquisgrana</settlement>
+                        </placeName>
+                    </death>
+                    <sex>M</sex>
+                    <note>
+                        Fu re dei Franchi dal 768, re dei Longobardi e primo
+                        Imperatore dei Romani.
+                        L'appellativo Magno gli fu attribuito dal suo biografo Eginardo.
+                    </note>
+                </person>
+
+                <!--Attila-->
+                <person xml:id="Attila">
+                    <persName>
+                        <forename>Attila</forename>
+                        <roleName>flagello di Dio</roleName>
+                    </persName>
+                    <birth when="395">
+                        <date>395</date>
+                        <placeName>
+                            <settlement type="municipality">Caucaso</settlement>
+                        </placeName>
+                    </birth>
+                    <death when="453">
+                        <date>453</date>
+                        <placeName>
+                            <settlement type="municipality">Pannonia</settlement>
+                        </placeName>
+                    </death>
+                    <sex>M</sex>
+                    <note>
+                        Fu un condottiero e sovrano unno dal 434 fino alla morte.
+                        Durante il suo regno divenne il più irriducibile nemico
+                        dell'Impero Romano.
+                        Nonostante il suo impero si fosse disgregato alla sua morte,
+                        è diventato una figura leggendaria nella storia europea.
+                    </note>
+                </person>
+
+                <!--Entità mancante-->
+                <person xml:id="entità-mancante">
+                    <persName><forename>Entità</forename><surname>mancante</surname></persName>
+                    <note>
+                        l'entrata relativa a questa entità è in fase di completamento.
+                    </note>
+                </person>
+
+
+
+
             </listPerson>                
 
             </sourceDesc>
@@ -952,18 +1243,44 @@
                 <listOrg>
                     <head>Organizzazioni</head>
                     
-                    <!--Faculté des lettres Genève-->
+                    <!--Facoltà di Lettere-->
                     <org xml:id="FacLettres">
-                        <orgName ref="https://www.unige.ch/lettres/fr/">Faculté des lettres de l'Université de Genève</orgName>
-                        <placeName ref="#GE">Genève</placeName>
+                        <orgName ref="https://www.unige.ch/lettres/fr/">Facoltà di Lettere dell'Università di Ginevra</orgName>
+                        <placeName ref="#GE">Ginevra</placeName>
                     </org>
 
-                    <!--University of Geneva-->
+                    <!--Università di Ginevra-->
                     <org xml:id="UniGeneve">
-                        <orgName ref="https://en.wikipedia.org/wiki/University_of_Geneva&gt;">University of Geneva</orgName>
-                            <placeName ref="#GE">Genève</placeName>
+                        <orgName ref="https://en.wikipedia.org/wiki/University_of_Geneva&gt;">Università di Ginevra</orgName>
+                        <placeName ref="#GE">Ginevra</placeName>
                         <desc>
-                            The University of Geneva (French: Université de Genève) is a public research university located in Geneva, Switzerland.
+                            L'Università di Ginevra è stata fondata nel 1559 per iniziativa del riformatore Giovanni Calvino. Con oltre 17'000 studenti, è la seconda università più grande della Svizzera
+                        </desc>
+                    </org>                    
+                    
+                    <!--Università di Vienna-->
+                    <org xml:id="UniVienne">
+                        <orgName ref="https://en.wikipedia.org/wiki/Università_di_Vienna&gt;">Università di Vienna</orgName>
+                        <placeName>Vienna</placeName>
+                        <desc>
+                            L'Università di Vienna (tedesco: Universität Wien) è un'università pubblica di Vienna. 
+                        </desc>
+                    </org>
+
+                    <!--Département de l’Instruction Publique-->
+                    <org xml:id="DepIstr">
+                        <orgName ref="https://en.wikipedia.org/wiki/Università_di_Vienna&gt;">Dipartimento di Pubblica Istruzione, Formazione e Gioventù</orgName>
+                        <placeName>Ginevra</placeName>
+                        <desc>
+                            Il dipartimento garantisce a tutti i bambini del cantone l'accesso a un sistema di istruzione pubblica gratuito. La missione fondamentale delle scuole pubbliche è fornire agli studenti i mezzi per acquisire le migliori conoscenze e competenze per le loro vite future.
+                        </desc>
+                    </org>
+
+                    <!--Entità mancante-->
+                    <org xml:id="entità-mancante">
+                        <orgName>Entità mancante</orgName>
+                        <desc>
+                            L'entrata relativa a questa entità è in fase di completamento.
                         </desc>
                     </org>
         
@@ -1045,6 +1362,33 @@
                         <settlement key="VD">Morges</settlement>
                         <country key="CH">Switzerland</country>                        
                     </place>    
+
+                    <!--Gaule-->
+                    <place xml:id="Gaule">
+                        <placeName notAfter="451">Gallia</placeName>
+                        <location>
+                            <country key="FR"/>
+                            <bloc>EU</bloc>
+                        </location>
+                        <note>
+                            La terra dei Galli, termine che identificava, nel lessico latino,
+                            un ampio insieme di popolazioni celtiche continentali.
+                        </note>
+                    </place>
+
+                    <!--France-->
+                    <place xml:id="France">
+                        <placeName>Francia</placeName>
+                        <location>
+                            <country key="FR"/>
+                            <bloc>EU</bloc>
+                        </location>
+                        <note>
+                            Uno stato principalmente situato nell'Europa occidentale, ma che
+                            possiede ugualmente territori disseminati su più oceani e altri
+                            continenti.
+                        </note>
+                    </place>
 
                     <listRelation>
                         <!--Luogo di nascita di una persona-->
@@ -3300,7 +3644,7 @@
                 </xr>
             </entry>
 
-            <entry xml:id="historein">
+            <entry xml:id="historien">
                 <form>
                     <orth>Historien</orth>
                 </form>
@@ -6093,7 +6437,6 @@
             <entry xml:id="vie_de_la_langue">
                 <form>
                     <orth>Vie de la langue</orth>
-                    <orth>Vie du langage</orth>
                 </form>
                 <sense n="1">
                     [<def>

@@ -121,6 +121,7 @@
                         </note>
                     </bibl>
 
+                    <!--Dalle parole ai termini-->
                     <bibl xml:id="Prolusioni_Ginevrine">
                         <title type="main">Dalle parole ai termini</title>
                         <title type="sub">I percorsi di pensiero di F. de Saussure</title>
@@ -135,6 +136,55 @@
                         <pubPlace>Alessandria</pubPlace>
                         <idno type="ISBN">978-88-6274-728-8</idno>
                         
+                    <!--Writings in General Linguistics-->
+                    <bibl xml:id="WGL"> 
+                        <title>Writings in General Linguistics</title>
+                        <author>
+                            <persName ref="#FdS">
+                                <forename>Ferdinand</forename> 
+                                <surname>De Saussure</surname>
+                            </persName>
+                        </author>
+                        <editor role="translator">
+                            <persName>
+                                <forename>Carol</forename> 
+                                <surname>Sanders</surname>
+                            </persName>
+                        </editor>
+                        <editor role="translator">
+                            <persName>
+                                <forename>Matthew</forename> 
+                                <surname>Pires</surname>
+                            </persName>
+                        </editor>                        
+                        <editor role="translator">
+                            <persName>
+                                <forename>Peter</forename> 
+                                <surname>Figueroa</surname>
+                            </persName>
+                        </editor>
+                        <date when="2006">2006</date>
+                        <publisher>Oxford University Press - University of Oxford</publisher>
+                        <pubPlace>Great Clarendon Street, Oxford, OX2 6DP</pubPlace>
+                        <idno type="ISBN">978-0-19-926144-4</idno>
+                        <citedRange unit="page" from="X" to="X">X-X</citedRange>
+                        <relatedItem type="translatedFrom">
+                            <bibl>
+                                <author>Simon Bouquet</author>
+                                <author>Rudolf Engler</author>
+                                <author>Antoinette Weil</author>
+                                <title>Écrits de linguistique générale</title>.
+                                <publisher>Gallimard</publisher>
+                                <date>2002</date>
+                            </bibl>
+                        </relatedItem>
+                        <note>
+                            Traduzione inglese del manoscritto.
+                        </note>
+                    </bibl>
+
+
+
                     </bibl>
 
                 </listBibl>
