@@ -306,81 +306,68 @@
                             <fw type="pageNum" xml:id="HandPageNumber-18" rend="align(left)" facs="#facs_HandPageNumber-18"> 18 </fw>
                         </ab>
                         <div xml:id="div_p18_fr" hand="#h1" type="box_testo" >
-                            <ab xml:id="pericope_91Aaaa050" n="50" xml:lang="FR" corresp="#it_91Aaaa050 #en_91Aaaa050" facs="#facs_pericope_91Aaaa050" part="f" >
+                            <ab xml:id="pericope_91Aaaa056" n="56" xml:lang="FR" corresp="#it_91Aaaa056 #en_91Aaaa056" facs="#facs_pericope_91Aaaa056" part="f" >
                                 <lb xml:id="lb1_p18" n="1" facs="#facs_p18_lb1"/> 
-                                par où la <term ref="#langue1">langue</term> se trouve mêlée <unclear reason="illegible"><del rend="overstrike"></del></unclear> à la
+                                il ne suit pas que la <choice cert="high"><abbr type="suspension">geolog<am>.</am></abbr><expan>géolog<ex>ie</ex></expan></choice> soit une <term ref="#science_historique" rend="underline">science</term>
                                 <lb xml:id="lb2_p18" n="2" facs="#facs_p18_lb2"/> 
-                                vie des peuples, <subst><del rend="overstrike"></del><add place="supralinear">à la vie <choice cert="high"><abbr type="suspension">politiq<am>.</am></abbr><expan>politiq<ex>ue</ex></expan></choice>, sociale, <choice><abbr>litt<am>.</am></abbr><expan>litt<ex>éraire</ex></expan></choice></add></subst>, ne sont pas<supplied reason="omitted-in-original" >,</supplied> je le 
-                                <lb xml:id="lb3_p18" n="3" facs="#facs_p18_lb3"/> 
-                                répète <supplied reason="omitted-in-original" >,</supplied> ou ne sont que de temps à autre ce qu'on 
-                                <lb xml:id="lb4_p18" n="4" facs="#facs_p18_lb4"/> 
-                                peut appeler la <term ref="#vie_de_la_langue">vie de la langue</term> elle-même.
+                                <term ref="#science_historique">historique</term>, au moins au sens étroit et précis
+                                <lb xml:id="lb3_p18" n="3" facs="#facs_p18_lb3"/>
+                                que nous donnons à ce <term ref="#terme1">terme</term>.                            
                             </ab>                           
-                            <ab xml:id="pericope_91Aaaa051" n="51" xml:lang="FR" corresp="#it_91Aaaa051 #en_91Aaaa051" facs="#facs_pericope_91Aaaa051"> 
-                                <lb xml:id="lb5_p18" n="5" facs="#facs_p18_lb5"/> 
-                                <space dim="horizontal" xml:id="spazio1" facs="#space1"></space>C'est à <choice cert="high"><abbr type="brevigraph">1</abbr><expan>un</expan></choice> autre <term ref="#point-de-vue">point de vue</term> par conséquent que la
-                                <lb xml:id="lb6_p18" n="6" facs="#facs_p18_lb6"/> 
-                                <term ref="#science_du_langage">science du langage</term> revendique le titre de <term ref="#science_historique">science</term> 
-                                <lb xml:id="lb7_p18" n="7" facs="#facs_p18_lb7"/> 
-                                <choice cert="high"><abbr type="suspension">historiq<am>.</am></abbr><expan>historiq<ex>ue</ex></expan></choice>.
+                            <ab xml:id="pericope_91Aaaa057" n="57" xml:lang="FR" corresp="#it_91Aaaa057 #en_91Aaaa057" facs="#facs_pericope_91Aaaa057"> 
+                                <lb xml:id="lb4_p18" n="4" facs="#facs_p18_lb4"/> 
+                                <choice cert="medium"><abbr>2a</abbr><expan>seconde</expan></choice> condition<unclear reason="illegible"><del rend="overstrike"></del></unclear> impliquée par le <term ref="#mot">mot</term> de <term ref="#science_historique">science</term>
+                                <lb xml:id="lb5_p18" n="5" facs="#facs_p18_lb5"/>
+                                <choice cert="high"><abbr type="suspension">historiq<am>.</am></abbr><expan>historiq<ex>ue</ex></expan></choice><supplied reason="omitted-in-original" ><pc type="interrogative">?</pc></supplied> <pc type="dash">-</pc> C'est que l'<term ref="#objet">objet</term> qui fait la <term ref="#matière">matière</term> de 
+                                <lb xml:id="lb6_p18" n="6" facs="#facs_p18_lb6"/>
+                                l'<term ref="#histoire">histoire</term><add place="margin" xml:id="aggiunta4" facs="#add4" resp="#ADS"> -<expan xml:id="expan6" facs="#abbrev6">par exemple</expan> l'art, la religion, le costume, etc. - </add>représente, dans un <term ref="#glossa-mancante">sens</term> quelconque, des                                
+                                <lb xml:id="lb7_p18" n="7" facs="#facs_p18_lb7"/>
+                                <term ref="#acte_humain" rend ="underline">actes humains</term>, régis par la <term ref="#volonté">volonté</term> et l'<term ref="#intelligence">intelligence</term>
+                                <lb xml:id="lb8_p18" n="8" facs="#facs_p18_lb8"/>
+                                humaines, <pc type="dash">-</pc> et qui d'ailleurs doivent être tels
+                                <lb xml:id="lb9_p18" n="9" facs="#facs_p18_lb9"/>
+                                qu'ils <add place="overline" >n'</add>intéressent pas seulement l'<term ref="#glossa-mancante">individu</term> mais <del rend="overstrike" cert="medium">une</del>
+                                <lb xml:id="lb10_p18" n="10" facs="#facs_p18_lb10"/>
+                                la <term ref="#glossa-mancante">collectivité</term>.<unclear reason="illegible"><del rend="overstrike"><gap/></del></unclear>                                                                
                             </ab>
-                            <ab xml:id="pericope_91Aaaa052" n="52" xml:lang="FR" corresp="#it_91Aaaa052 #en_91Aaaa052" facs="#facs_pericope_91Aaaa052">
-                                <pc type="dash">-</pc>C'est que <choice><abbr>tte</abbr><expan>toute</expan> </choice> <term ref="#langue">langue</term> <del rend="overstrike" xml:id="canc2" facs="#del2" cert="high">a une histoire</del>, en 
-                                <lb xml:id="lb8_p18" n="8" facs="#facs_p18_lb8"/> 
-                                elle-même a une <term ref="#histoire">histoire</term> qui se déroule <w>perpé<pc force="weak">-</pc>
-                                <lb xml:id="lb9_p18" n="9" facs="#facs_p18_lb9"/> 
-                                tuellement</w>, qui est faite d'une succession d'événements
-                                <lb xml:id="lb10_p18" n="10" facs="#facs_p18_lb10"/> 
-                                <term rend="underline" ref="#linguistique">linguistiques</term>, <unclear reason="illegible"><subst xml:id="sost2" facs="#subst2"><del rend="overstrike"></del><add place="supralinear">lesquels</add></subst></unclear> n'ont point eu de <w>reten<pc force="weak">-</pc>
-                                <lb xml:id="lb11_p18" n="11" facs="#facs_p18_lb11"/> 
-                                tissement</w> au-dehors <unclear reason="illegible" cert="medium"><del rend="overstrike" xml:id="canc3" cert="medium">de même qu'ils sout</del>
+                            <ab xml:id="pericope_91Aaaa058" n="58" xml:lang="FR" corresp="#it_91Aaaa058 #en_91Aaaa058" facs="#facs_pericope_91Aaaa058">
+                                <lb xml:id="lb11_p18" n="11" facs="#facs_p18_lb11"/>
+                                pour être le résultat d'actes <del rend="overstrike" ></del>
                                 <lb xml:id="lb12_p18" n="12" facs="#facs_p18_lb12"/> 
-                                <del>complètement independants</del></unclear> et n'ont jamais été
+                                de notre volonté<pc type="interrogative">?</pc> Telle est donc la question. La 
                                 <lb xml:id="lb13_p18" n="13" facs="#facs_p18_lb13"/> 
-                                inscrits par le célèbre burin de l'<term ref="#histoire">histoire</term> <pc type="semicolon">;</pc>
+                                <term ref="#science_du_langage">science du langage</term>, actuelle, yrépond affirmativement.                                
                             </ab>
-                            <ab xml:id="pericope_91Aaaa053" n="53" xml:lang="FR" corresp="#it_91Aaaa053 #en_91Aaaa053" facs="#facs_pericope_91Aaaa053">
-                                de même 
-                                <lb xml:id="lb14_p18" n="14" facs="#facs_p18_lb14"/> 
-                                qu'à leur tour ils sont complètement indépendants 
-                                <lb xml:id="lb15_p18" n="15" facs="#facs_p18_lb15"/> 
-                                en général de ce qui se passe au-dehors.
-                            </ab> 
-                            <ab xml:id="pericope_91Aaaa054" n="54" xml:lang="FR" corresp="#it_91Aaaa054 #en_91Aaaa054" facs="#facs_pericope_91Aaaa054">
-                                <choice><abbr>Tte.</abbr><expan>Toute</expan></choice> <term ref="#langue1">langue</term>
+                            <ab xml:id="pericope_91Aaaa059" n="59" xml:lang="FR" corresp="#it_91Aaaa059 #en_91Aaaa059" facs="#facs_pericope_91Aaaa059">
+                                <lb xml:id="lb14_p18" n="14" facs="#facs_p18_lb14"/>
+                                Seulement il faut ajouter aussitôt 
+                                <add place="margin">qu'il y a beaucoup de <term ref="#glossa-mancante">degrés</term> connus, comme nous savons, dans la <term ref="#volonté">volonté</term> <term ref="#conscience">consciente</term> ou <term ref="#inconscience">inconsciente<supplied reason="omitted-in-original"><pc type="semicolon">;</pc></supplied></term></add>
+                                <subst><del rend="overstrike"></del><add> or</add></subst><supplied reason="omitted-in-original">,</supplied> de tous 
+                                <lb xml:id="lb15_p18" n="15" facs="#facs_p18_lb15"/>
+                                les actes qu'on pourrait mettre en parallèle, 
                                 <lb xml:id="lb16_p18" n="16" facs="#facs_p18_lb16"/> 
-                                présente, <add place="margin">un peu comme ces grandes moraines qu'on voit au bas de nos glaciers</add><supplied reason="omitted-in-original" >,</supplied> le tableau <unclear reason="illegible"><del rend="overstrike"></del></unclear>
-                                d'un <unclear reason="illegible"><del rend="overstrike"></del></unclear>prodigieux amas de choses charriées
+                                l'<term ref="#acte_linguistique">acte linguistique</term>, si je puis le nommer ainsi, <subst><del></del><add place="above">a ce caractère d'être</add></subst>  
                                 <lb xml:id="lb17_p18" n="17" facs="#facs_p18_lb17"/> 
-                                à travers les siècles <supplied reason="omitted-in-original" >,</supplied> mais de <del rend="overstrike"><hi rend="underline">date tres differente</hi></del>,
-                                <lb xml:id="lb18_p18" n="18" facs="#facs_p18_lb18"/> 
-                                <del>de même insistos sur en puiut, de même choses qui</del>
-                                <lb xml:id="lb19_p18" n="19" facs="#facs_p18_lb19"/> 
-                                choses qui <hi rend="underline">ont une date</hi>, et <hi rend="underline">des dates très <term ref="#différence1">différentes</term></hi>, 
-                                <lb xml:id="lb20_p18" n="20" facs="#facs_p18_lb20"/> 
-                                de même que l'on peut reconnaître dans les dépôts <subst><del rend="overstrike"></del>
+                                le moins <ref ref="#reflechi">réfléchi</ref>, le moins prémédité, <unclear reason ="illegible" cert="medium"><del rend="overstrike" cert="medium">le</del></unclear>
+                                <lb xml:id="lb18_p18" n="17" facs="#facs_p18_lb18"/>
+                                <unclear><del>plus machinal, en mir temps que le</del></unclear>en même
+                                <lb xml:id="lb19_p18" n="18" facs="#facs_p18_lb19"/>
+                                temps que le plus impersonnel de tous.
+                            </ab> 
+                            <ab xml:id="pericope_91Aaaa060" n="60" xml:lang="FR" corresp="#it_91Aaaa060 #en_91Aaaa060" facs="#facs_pericope_91Aaaa060">
+                                Il y a 
+                                <lb xml:id="lb20_p18" n="20" facs="#facs_p18_lb20"/>
+                                là une <term>différence de degré</term>, qui va si loin qu'elle
                                 <lb xml:id="lb21_p18" n="21" facs="#facs_p18_lb21"/> 
-                                <add place="margin">glaciaires</add></subst> que je comparais que tel morceau de granit 
-                                <lb xml:id="lb22_p18" n="22" facs="#facs_p18_lb22"/> 
-                                <del rend="overstrike" ></del> vient d'<choice ><abbr type="brevigraph" cert="high">1</abbr><expan>une</expan></choice> <choice cert="high"><abbr type="suspension">dist<am>.</am></abbr><expan>dist<ex>ance</ex></expan></choice> de <w><choice cert="medium"><abbr type="brevigraph">+</abbr><expan>plu</expan></choice> si<pc force="weak">-</pc>
-                                <lb xml:id="lb23_p18" n="23" facs="#facs_p18_lb23"/> 
-                                eurs</w> lieues <add place="margin">des <choice><abbr type="brevigraph" cert="medium">+</abbr><expan>plus</expan></choice> hauts sommets de la chaîne,</add> pendant que tel bloc de <unclear reason="illegible"><subst><del rend="overstrike"></del><add place="supralinear"><choice cert="medium"><abbr>IV</abbr><expan>quartz?</expan></choice></add></subst></unclear> remonte
-                                <lb xml:id="lb24_p18" n="24" facs="#facs_p18_lb24"/> 
-                                à peine aux <choice cert="medium"><abbr rend="underline" type="brevigraph">1er</abbr><expan>premiers</expan></choice> contreforts de la montagne<pc type="suspension points">...</pc>
+                                a longtemps donné l'illusion d'<choice cert="high"><abbr>1</abbr><expan>une</expan></choice> <term ref="#différence1">différence es<pc force="weak">-</pc></term>
+                                <lb xml:id="lb22_p18" n="22" facs="#facs_p18_lb22"/>
+                                <pc>-</pc><term ref="#différence1">sentielle</term>, mais qui n'est en réalité qu'<choice cert="high"><abbr>1</abbr><expan>une</expan></choice> <choice><abbr>diff<am>.</am></abbr><expan>diff<ex>érence</ex></expan></choice> de degrés.                                
                             </ab>
-                            <ab xml:id="pericope_91Aaaa055" n="55" xml:lang="FR" corresp="#it_91Aaaa055 #en_91Aaaa055" facs="#facs_pericope_91Aaaa055">
-                                Donc <hi rend="underline">la <term ref="#langue1">langue</term></hi>
-                                <lb xml:id="lb25_p18" n="25" facs="#facs_p18_lb25"/>
-                                <hi>a une <term ref="#histoire">histoire</term></hi>, c'est un caractère constant.<unclear reason="illegible"><del rend="understrike"></del></unclear>Est-il 
-                                <lb xml:id="lb26_p18" n="26" facs="#facs_p18_lb26"/>
-                                décisif <add place="margin">à lui seul</add> pour ranger la <term ref="#science_du_langage">science du langage</term> <choice><abbr>ds</abbr><expan>dans</expan></choice> les <term ref="#science_historique">sciences</term>
-                                <lb xml:id="lb27_p18" n="27" facs="#facs_p18_lb27"/>
-                                <choice cert="high"><abbr type="suspension">historiq<am>.</am></abbr><expan>historiq<ex>ues</ex></expan></choice> <del rend="overstrike" cert="high"> <supplied reason="omitted-in-original" > <pc type="interrogative">?</pc></supplied>Non</del> Assurément non.
+                            <ab xml:id="pericope_91Aaaa061" n="61" xml:lang="FR" corresp="#it_91Aaaa061 #en_91Aaaa061" facs="#facs_pericope_91Aaaa061">
+                    
                             </ab>
-                            <ab xml:id="pericope_91Aaaa056" n="56" xml:lang="FR" corresp="#it_91Aaaa056 #en_91Aaaa056" facs="#facs_pericope_91Aaaa056">
-                                La Terre par <choice><abbr>ex.</abbr><expan>exemple</expan></choice> a une 
-                                <lb xml:id="lb28_p18" n="28" facs="#facs_p18_lb28"/>
-                                <term ref="#histoire">histoire</term>, qui est racontée par la géologie, d'où
+                            <ab xml:id="pericope_91Aaaa062" n="62" xml:lang="FR" corresp="#it_91Aaaa062 #en_91Aaaa062" facs="#facs_pericope_91Aaaa062">
+                            
                             </ab>
                         </div>
                     </body> 
@@ -391,51 +378,28 @@
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p18_it" hand="#h1" type="box_testo_it">
-                            <ab xml:id="it_91Aaaa050" corresp="#pericope_91Aaaa050" xml:lang="IT" part="f">
-                                <lb/>per cui la lingua si trova frammischiata alla 
-                                <lb/>vita delle popolazioni, alla vita politica, sociale, letteraria, non sono, lo 
-                                <lb/>ripeto, o non sono che di tanto in tanto ciò 
-                                <lb/>che si può chiamare la vita della lingua medesima.                            
-                            </ab>
-                            <ab xml:id="it_91Aaaa051" corresp="#pericope_91Aaaa050" xml:lang="IT" part="f">
-                                <lb/>Di conseguenza, è da un altro punto di vista che la 
-                                <lb/>scienza del linguaggio rivendica il titolo di 
-                                <lb/>scienza storica.
-                            </ab>
-                            <ab xml:id="it_91Aaaa052" corresp="#pericope_91Aaaa052" xml:lang="IT">
-                                Il fatto è che ogni lingua in 
-                                <lb/>sé ha una storia che si snoda 
-                                <lb/>eternamente, la quale è fatta d’una successione di avvenimenti 
-                                <lb/>linguistici, che non hanno avuto alcuna risonanza esterna, 
-                                <lb/>e non sono mai stati 
-                                <lb/>incisi dal famoso bulino della storia;                            
-                            </ab>       
-                            <ab xml:id="it_91Aaaa053" corresp="#pericope_91Aaaa053" xml:lang="IT">
-                                e a loro volta 
-                                <lb/>sono ugualmente indipendenti, 
-                                <lb/>in generale, da ciò che succede all’esterno.
-                            </ab>                               
-                            <ab xml:id="it_91Aaaa054" corresp="#pericope_91Aaaa054" xml:lang="IT">
-                                Ogni lingua 
-                                <lb/>presenta, un po’ come quelle grandi morene che si vedono al di sotto ai nostri ghiacciai, l’immagine di un prodigioso ammasso di cose trasportate
-                                <lb/>attraverso i secoli, ma di 
-                                <lb/>cose che hanno una data, e date molto diverse, 
-                                <lb/>così come si può riconoscere nei depositi 
-                                <lb/>dei ghiacciai con cui facevo il paragone che quel tal pezzo di granito 
-                                <lb/>viene da una distanza di 
-                                <lb/>molte leghe, 
-                                <lb/>dalle cime più alte della catena, mentre quel tale blocco di quarzo 
-                                <lb/>si è staccato da quelli che sono appena i primi contrafforti della montagna…
-                            </ab>                                  
-                            <ab xml:id="it_91Aaaa055" corresp="#pericope_91Aaaa055" xml:lang="IT">
-                                Dunque la lingua 
-                                <lb/>ha una storia, è un carattere costante. 
-                                <lb/>È decisivo, da solo, per poter classificare la scienza del linguaggio nel novero delle scienze 
-                                <lb/>storiche? Sicuramente no.
-                            </ab>                               
-                            <ab xml:id="it_91Aaaa056" corresp="#pericope_91Aaaa056" xml:lang="IT">
+                            <ab xml:id="it_91Aaaa056" corresp="#pericope_91Aaaa056" xml:lang="IT" part="f">
                                 La Terra, per esempio, ha una 
-                                <lb/>storia, che è raccontata dalla geologia, dal 
+                                <lb/>storia, che è raccontata dalla geologia, dal
+                                <lb/>che non segue però che la geologia sia una scienza storica, per lo meno nel senso stretto e preciso che noi conferiamo a questo termine                      
+                            </ab>
+                            <ab xml:id="it_91Aaaa057" corresp="#pericope_91Aaaa057" xml:lang="IT" part="f">
+                                <lb/>Qual è dunque la seconda condizione implicata dall’espressione ‘scienza storica’? Si tratta del fatto che l’oggetto che fa la materia della storia – per esempio l’arte, la religione, l’abbigliamento, ecc. – rappresenta, in un senso qualsiasi, degli atti umani, governati dalla volontà e dall’intelligenza umane – e che d’altronde devono essere tali da non interessare solo l’individuo, ma la collettività.
+                            </ab>
+                            <ab xml:id="it_91Aaaa058" corresp="#pericope_91Aaaa058" xml:lang="IT">
+                                I fatti linguistici possono passare per essere il risultato di atti della nostra volontà? Questa è dunque la questione. La scienza del linguaggio attuale vi risponde affermativamente.                          
+                            </ab>       
+                            <ab xml:id="it_91Aaaa059" corresp="#pericope_91Aaaa059" xml:lang="IT">
+                                Soltanto, bisogna aggiungere anche che ci sono molti gradi conosciuti, come sappiamo, nella volontà cosciente e incosciente; ora, di tutti gli atti che si potrebbero mettere in parallelo, l’atto linguistico, se posso chiamarlo così, ha questo carattere d’essere il meno riflessivo, il meno premeditato, e al contempo il più impersonale di tutti.
+                            </ab>                               
+                            <ab xml:id="it_91Aaaa060" corresp="#pericope_91Aaaa060" xml:lang="IT">
+                                C’è una differenza di grado, così spinta da aver dato l’illusione d’una differenza essenziale, ma che in realtà è solo una differenza di gradi.
+                            </ab>                                  
+                            <ab xml:id="it_91Aaaa061" corresp="#pericope_91Aaaa061" xml:lang="IT">
+                                Stringiamo ora un po’ più vicino, Signori, ciò che è contenuto in questa parola e in questa visione della Storia applicata alla lingua. Quasi subito si presenterà la necessità di classificare le nostre idee sotto due polarità.
+                            </ab>                               
+                            <ab xml:id="it_91Aaaa062" corresp="#pericope_91Aaaa062" xml:lang="IT">
+                                La lingua si differenzia nel tempo, e allo stesso tempo si differenzia o si diversifica nello spazio
                             </ab>                                                                           
                         </div>                            
                     </body>
@@ -446,29 +410,29 @@
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
                     <body resp="#AC" xml:id="body-inglese">
                         <div xml:id="div_p18_en" hand="#h1" type="box_testo_en">
-                            <ab xml:id="en_91Aaaa050" corresp="#pericope_91Aaaa050" xml:lang="EN">
+                            <ab xml:id="en_91Aaaa056" corresp="#pericope_91Aaaa056" xml:lang="EN">
                                 <lb/>in which language is entwined with 
                                 <lb/>the life of a people, with their political, social, or literary life, are not, 
                                 <lb/>I repeat, or are only rarely, 
                                 <lb/>what one might call the life of language itself.                           
                             </ab>
-                            <ab xml:id="en_91Aaaa051" corresp="#pericope_91Aaaa051" xml:lang="EN">
+                            <ab xml:id="en_91Aaaa057" corresp="#pericope_91Aaaa057" xml:lang="EN">
                                 <lb/>It is, then, from another point of view that
                                 <lb/>the science of language has in itself a history 
                             </ab>        
-                            <ab xml:id="en_91Aaaa052" coresp="#pericope_91Aaaa052" xml:lang="EN">
+                            <ab xml:id="en_91Aaaa058" coresp="#pericope_91Aaaa058" xml:lang="EN">
                                 <lb/>which unfolds ceaselessly, 
                                 <lb/>made up of a succession of linguistic events, 
                                 <lb/>which have had no external echo, 
                                 <lb/>nor have ever been 
                                 <lb/>engraved in the annals of history;                         
                             </ab>    
-                            <ab xml:id="en_91Aaaa053" corresp="#pericope_91Aaaa053" xml:lang="EN">
+                            <ab xml:id="en_91Aaaa059" corresp="#pericope_91Aaaa059" xml:lang="EN">
                                 and by the same token 
                                 <lb/>they are themselves also quite independent 
                                 <lb/>in general of external events.
                             </ab>
-                            <ab xml:id="en_91Aaaa054" corresp="#pericope_91Aaaa054" xml:lang="EN">
+                            <ab xml:id="en_91Aaaa060" corresp="#pericope_91Aaaa060" xml:lang="EN">
                                 Rather like the great moraines visible at the foot of glaciers, all languages bear the marks of a huge collection of things carried 
                                 <lb/>along down the centuries, but these 
                                 <lb/>things have dates, and very different dates, 
@@ -479,13 +443,13 @@
                                 <lb/>from the highest peaks of the mountain range, while another block of quartz 
                                 <lb/>is from scarcely further than its first foothills...
                             </ab>    
-                            <ab xml:id="en_91Aaaa055" corresp="#pericope_91Aaaa055" xml:lang="EN">
+                            <ab xml:id="en_91Aaaa061" corresp="#pericope_91Aaaa061" xml:lang="EN">
                                 So language 
                                 <lb/>has a history: that is a constant characteristic. 
                                 <lb/>Is this fact alone sufficient to classify the science of language within the historical sciences? 
                                 <lb/>Certainly not.
                             </ab> 
-                            <ab xml:id="en_91Aaaa056" corresp="#pericope_91Aaaa056" xml:lang="EN">
+                            <ab xml:id="en_91Aaaa062" corresp="#pericope_91Aaaa062" xml:lang="EN">
                                 The Earth, for instance, has a 
                                 <lb/>history, recounted by geology; from
                             </ab>                                

@@ -5148,7 +5148,7 @@
                     <orth>Volonté</orth>
                 </form>
                 <sense n="1">
-                    <xr type="see"><ref target="#conscience">v. conscience</ref>);</xr> <xr type="see"><ref target="#intelligence">intelligence</ref>)</xr>
+                    <def><ref target="#conscience">v. conscience</ref>; <ref target="#intelligence">intelligence</ref></def>
                 </sense>
                 <xr type="other_dictonaries">
                     {<listRef>
