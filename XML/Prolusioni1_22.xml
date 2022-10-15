@@ -388,17 +388,47 @@
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p22_it" hand="#h1" type="box_testo_it">
                             <ab xml:id="it_91Aaaa071" corresp="#pericope_91Aaaa071" xml:lang="IT" part="f">
-                                <lb/>
+                                <lb/>=piti in un primo momento dalla grande 
+                                <lb/>distanza che li separa, 
+                                <lb/>e siamo, mi affretto ad aggiungerlo, 
+                                <lb/>colpiti ancora di più dalla denominazione 
+                                <lb/>differente che si è convenuto 
+                                <lb/>di dargli, chiamando questo 
+                                <lb/>latino e quello francese.
                             </ab>
-                            <ab xml:id="it_91Aaaa072" corresp="#pericope_91Aaaa072" xml:lang="IT" part="f">
-                                <lb/>
+                            <ab xml:id="it_91Aaaa072" corresp="#pericope_91Aaaa072" xml:lang="IT">
+                                Allora ci figuriamo 
+                                <lb/>abbastanza volentieri 
+                                <lb/>che vi sono due cose, 
+                                <lb/>di cui l’una ha assunto 
+                                <lb/>la successione dell’altra.
                             </ab>
                             <ab xml:id="it_91Aaaa073" corresp="#pericope_91Aaaa073" xml:lang="IT">
-                                <lb/>
-                            </ab>       
+                                Ora, che ci sia 
+                                <lb/>successione, questo è indubitabile ed evidente, 
+                                <lb/>ma che ci siano due cose in questa successione, ecco ciò 
+                                <lb/>che è falso, radicalmente falso, e pericolosamente falso, dal punto di vista di tutte le concezioni che ne seguono.
+                            </ab>
                             <ab xml:id="it_91Aaaa074" corresp="#pericope_91Aaaa074" xml:lang="IT">
-                                <lb/>
-                            </ab>                                                                                                                         
+                                <lb/>Basta rifletterci un 
+                                <lb/>istante, 
+                                <lb/>perché tutto è contenuto 
+                                <lb/>nella seguente, semplice osservazione: ogni 
+                                <lb/>individuo usa l’indomani la stessa 
+                                <lb/>lingua che parlava il giorno prima, e questo è 
+                                <lb/>ciò che abbiamo sempre visto.
+                            </ab>            
+                            <ab xml:id="it_91Aaaa075" corresp="#pericope_91Aaaa075" xml:lang="IT">
+                                Non è 
+                                <lb/>mai capitato che le genti di Francia si siano svegliate, 
+                                <lb/>dicendosi buongiorno in francese, 
+                                <lb/>dopo essersi addormentati il giorno 
+                                <lb/>prima dicendosi buonanotte in latino.
+                            </ab>
+                            <ab xml:id="it_91Aaaa076" corresp="#pericope_91Aaaa076" xml:lang="IT">
+                                <lb/>Non c’è nessun 
+                                <lb/>oggetto che sia davvero 
+                            </ab>                                                                                                    
                         </div>                            
                     </body>
                 </text>          
@@ -409,22 +439,49 @@
                     <body resp="#AC" xml:id="body-inglese">
                         <div xml:id="div_p22_en" hand="#h1" type="box_testo_en">
                             <ab xml:id="en_91Aaaa071" corresp="#pericope_91Aaaa071" xml:lang="EN">
-                                <lb/>
+                                <lb/>struck by the great 
+                                <lb/>distance which separates them, 
+                                <lb/>and we are - and I emphasize this point 
+                                <lb/>- even more struck by the different names 
+                                <lb/>which have been settled on 
+                                <lb/>to refer to them, 
+                                <lb/>one being 
+                                <lb/>Latin and the other French.
                             </ab>
                             <ab xml:id="en_91Aaaa06972" corresp="#pericope_91Aaaa072" xml:lang="EN">
-                                <lb/>
+                                From this we 
+                                <lb/>happily conclude 
+                                <lb/>the existence of two things, 
+                                <lb/>one of which succeeded 
+                                <lb/>the other. 
                             </ab>        
                             <ab xml:id="en_91Aaaa073" coresp="#pericope_91Aaaa073" xml:lang="EN">
-                                <lb/>
+                                The idea of succession 
+                                <lb/>is unquestionable and self-evident, but
+                                <lb/>the idea of there being two things in this succession 
+                                <lb/>in wrong, radically wrong, and perni-ciously wrong, because of all the misapprehensions which follow. 
                             </ab>    
                             <ab xml:id="en_91Aaaa074" corresp="#pericope_91Aaaa074" xml:lang="EN">                                
-                                <lb/>
+                                <lb/>One has only to pause 
+                                <lb/>a moment to consider 
+                                <lb/>this simple observation: everybody 
+                                <lb/>uses the same idiom the following day that
+                                <lb/>they employed on the previous day, 
+                                <lb/>and this has always been true.
                             </ab>                            
                             <ab xml:id="en_91Aaaa075" corresp="#pericope_91Aaaa075" xml:lang="EN">                                
-                                <lb/>
+                                <lb/>It follows that on no given day could 
+                                <lb/>one have drawn up the death certificate 
+                                <lb/>of the Latin language, and similarly 
+                                <lb/>on no day could one have registered 
+                                <lb/>the birth of the French language.
                             </ab>                            
                             <ab xml:id="en_91Aaaa076" corresp="#pericope_91Aaaa076" xml:lang="EN">                                
-                                <lb/>
+                                The people of France
+                                <lb/>have never woken up
+                                <lb/>and said bonjour in French, 
+                                <lb/>where they went to bed the previous evening 
+                                <lb/>saying "good night" in Latin.
                             </ab>
                         </div>   
                     </body>
