@@ -305,7 +305,7 @@
                         <pb n="f1r" xml:id="body_p22" facs="#scan_p22"/>
                         <!--Numeri impaginazione a stampa e a mano-->
                         <ab>
-                            <fw type="pageNum" xml:id="HandPageNumber-22" rend="align(left)" facs="#facs_HandPageNumber-22"> 21 </fw>
+                            <fw type="pageNum" xml:id="HandPageNumber-22" rend="align(left)" facs="#facs_HandPageNumber-22"> 22 </fw>
                         </ab>
                         <div xml:id="div_p22_fr" hand="#h1" type="box_testo" >
                             <ab xml:id="pericope_91Aaaa068" n="68" xml:lang="FR" corresp="#it_91Aaaa068 #en_91Aaaa068" facs="#facs_pericope_91Aaaa068" part="f" >
