@@ -260,37 +260,35 @@
         <surface n="15" xml:id="scan_p22">
             <graphic url='ms_fr_03951_01_1_p022-resized.jpg' width='600px' height='900px'/> 
             <!--Righe-->
-            <zone points = ' 137,70,125,100,522,105,519,61 ' rendition="line" xml:id="facs_p22_lb1"/>                       
-            <zone points = ' 122,108,114,127,527,122,526,102' rendition="line" xml:id="facs_p22_lb2"/>  
-            <zone points = ' 133,127,125,152,519,147,509,128' rendition="line" xml:id="facs_p22_lb3"/>  
-            <zone points = ' 127,156,124,173,517,166,519,151 '  rendition="line" xml:id="facs_p22_lb4"/>            
-            <zone points = ' 133,180,126,205,518,194,515,173'  rendition="line" xml:id="facs_p22_lb5"/>
-            <zone points = ' 127,207,127,230,531,225,524,199' rendition="line" xml:id="facs_p22_lb6"/>
-            <zone points = '128,232,124,251,536,251,539,215 '   rendition="line" xml:id="facs_p22_lb7"/>
-            <zone points = ' 68,252,75,283,541,274,539,246 ' rendition="line" xml:id="facs_p22_lb8"/>
-            <zone points = ' 123,283,120,309,522,302,515,273  '  rendition="line" xml:id="facs_p22_lb9"/>
-            <zone points = ' 61,429,94,421,109,341,540,328,539,305,66,318 '  rendition="line" xml:id="facs_p22_lb10"/>
-            <zone points = ' 131,341,134,359,530,357,526,335 ' rendition="line" xml:id="facs_p22_lb11"/>
-            <zone points = '117,356,111,383,534,377,529,355' rendition="line" xml:id="facs_p22_lb12"/>
-            <zone points = '  128,383,131,413,538,404,527,381' rendition="line" xml:id="facs_p22_lb13"/>    
-            <zone points = ' 126,416,128,463,540,452,542,408  '  rendition="line" xml:id="facs_p22_lb14"/>    
-            <zone points = ' 131,468,127,491,543,490,541,457'  rendition="line" xml:id="facs_p22_lb16"/>    
-            <zone points = '  137,497,133,516,448,510,444,495' rendition="line" xml:id="facs_p22_lb17"/>    
-            <zone points = ' 138,530,133,560,541,554,536,521' rendition="line" xml:id="facs_p22_lb18"/>    
-            <zone points = ' 139,554,139,582,245,580,367,577,438,571,506,569,507,552 ' rendition="line" xml:id="facs_p22_lb19"/>    
-            <zone points = ' 147,579,160,596,300,595,388,589,437,584,434,571' rendition="line" xml:id="facs_p22_lb20"/>    
-            <zone points = ' 71,606,75,634,536,623,546,577' rendition="line" xml:id="facs_p22_lb21"/>    
-            <zone points = ' 69,639,72,682,133,664,149,645,540,644,539,625' rendition="line" xml:id="facs_p22_lb22"/>    
-            <zone points = ' 148,649,145,672,521,670,520,650' rendition="line" xml:id="facs_p22_lb23"/>    
-            <zone points = ' 153,681,151,707,520,694,520,694,528,671 ' rendition="line" xml:id="facs_p22_lb24"/>    
-            <zone points = ' 152,714,147,738,384,741,381,704' rendition="line" xml:id="facs_p22_lb25"/>           
-            <zone points = ' 65,759,144,743,155,772,71,819' rendition="line" xml:id="facs_p22_lb26"/>        
-            <zone points = ' 192,753,178,777,519,773,519,773,517,747' rendition="line" xml:id="facs_p22_lb27"/>                
-            <zone points = ' 155,783,143,803,533,797,530,775' rendition="line" xml:id="facs_p22_lb28"/>                
-            <zone points = '145,813,137,829,523,823,520,801' rendition="line" xml:id="facs_p22_lb29"/>                
-            <zone points = '109,829,90,851,546,844,543,822' rendition="line" xml:id="facs_p22_lb30"/>                
+            <zone points = ' 151,98,151,119,500,120,494,93 ' rendition="line" xml:id="facs_p22_lb1"/>                       
+            <zone points = ' 150,126,485,125,485,143,156,143' rendition="line" xml:id="facs_p22_lb2"/>  
+            <zone points = ' 160,156,160,175,529,176,524,156' rendition="line" xml:id="facs_p22_lb3"/>  
+            <zone points = ' 151,179,518,177,518,200,144,212 '  rendition="line" xml:id="facs_p22_lb4"/>            
+            <zone points = ' 146,216,502,210,502,226,152,232'  rendition="line" xml:id="facs_p22_lb5"/>
+            <zone points = ' 144,239,504,231,504,252,145,265' rendition="line" xml:id="facs_p22_lb6"/>
+            <zone points = '153,272,510,258,510,277,155,293 '   rendition="line" xml:id="facs_p22_lb7"/>
+            <zone points = ' 154,300,504,285,502,310,144,320' rendition="line" xml:id="facs_p22_lb8"/>
+            <zone points = ' 153,331,150,352,514,339,514,319 '  rendition="line" xml:id="facs_p22_lb9"/>
+            <zone points = ' 157,358,499,342,498,370,153,378 '  rendition="line" xml:id="facs_p22_lb10"/>
+            <zone points = ' 100,379,509,370,509,392,100,413' rendition="line" xml:id="facs_p22_lb11"/>
+            <zone points = '146,413,510,394,510,419,147,438' rendition="line" xml:id="facs_p22_lb12"/>
+            <zone points = '  66,466,186,439,529,425,523,453,184,472,112,564,61,575' rendition="line" xml:id="facs_p22_lb13"/>    
+            <zone points = ' 178,485,499,469,499,498,166,504 '  rendition="line" xml:id="facs_p22_lb14"/>    
+            <zone points = ' 168,513,507,502,512,523,164,532'  rendition="line" xml:id="facs_p22_lb15"/>    
+            <zone points = '  154,540,514,526,520,547,162,570' rendition="line" xml:id="facs_p22_lb16"/>    
+            <zone points = ' 81,593,116,562,166,574,531,559,531,588' rendition="line" xml:id="facs_p22_lb17"/>    
+            <zone points = ' 158,600,515,590,518,618,155,625 ' rendition="line" xml:id="facs_p22_lb18"/>    
+            <zone points = ' 162,631,540,619,549,645,159,657' rendition="line" xml:id="facs_p22_lb19"/>    
+            <zone points = ' 92,660,92,693,542,671,536,644' rendition="line" xml:id="facs_p22_lb20"/>    
+            <zone points = ' 160,690,158,709,502,695,502,676' rendition="line" xml:id="facs_p22_lb21"/>    
+            <zone points = ' 158,714,539,708,541,727,159,747' rendition="line" xml:id="facs_p22_lb22"/>    
+            <zone points = ' 164,764,164,743,535,737,524,758' rendition="line" xml:id="facs_p22_lb23"/>    
+            <zone points = ' 172,775,529,760,529,781,173,796' rendition="line" xml:id="facs_p22_lb24"/>           
+            <zone points = ' 168,803,520,790,531,816,169,832' rendition="line" xml:id="facs_p22_lb25"/>        
+            <zone points = ' 171,833,524,817,524,843,172,858' rendition="line" xml:id="facs_p22_lb26"/>                
+        
 
-            <zone points = ' 82,54,62,84,93,94,107,61'  rendition="line" xml:id="facs_HandPageNumber-22"/>     <!--Numero 18 cerchiato in alto a sx-->           
+            <zone points = '67,63,110,63,96,101,70,110,57,93'  rendition="line" xml:id="facs_HandPageNumber-22"/>     <!--Numero 122cerchiato in alto a sx-->           
 
         </surface>
     </facsimile>
@@ -310,46 +308,75 @@
                         <div xml:id="div_p22_fr" hand="#h1" type="box_testo" >
                             <ab xml:id="pericope_91Aaaa071" n="71" xml:lang="FR" corresp="#it_91Aaaa071 #en_91Aaaa071" facs="#facs_pericope_91Aaaa071" part="f" >
                                 <lb xml:id="lb1_p22" n="1" facs="#facs_p22_lb1"/>
+                                <pc force="weak">=</pc>pes au premier moment par la grande
                                 <lb xml:id="lb2_p22" n="2" facs="#facs_p22_lb2"/>
+                                <del><gap reason="deleted" extent="1 word" /></del> <term ref="#glossa-mancante">distance</term> qui les sépare,
                                 <lb xml:id="lb3_p22" n="3" facs="#facs_p22_lb3"/>
+                                et nous sommes, je <add place="above" resp="#FdS">m'empresse de </add>l'ajouter, beaucoup                                
                                 <lb xml:id="lb4_p22" n="4" facs="#facs_p22_lb4"/> 
+                                plus frappés encore par la dénomina<pc force="weak">-</pc>
                                 <lb xml:id="lb5_p22" n="5" facs="#facs_p22_lb5"/>
+                                <pc force="weak">=</pc>tion <term ref="#différence1">différente</term> qu'on est convenu
                                 <lb xml:id="lb6_p22" n="6" facs="#facs_p22_lb6"/>
+                                de leur donner en appelant ceci
                                 <lb xml:id="lb7_p22" n="7" facs="#facs_p22_lb7"/>
+                                <hi rend="underline">latin</hi> et cela <hi rend="underline">français</hi>.
                             </ab>                           
                             <ab xml:id="pericope_91Aaaa072" n="72" xml:lang="FR" corresp="#it_91Aaaa072 #en_91Aaaa072" facs="#facs_pericope_91Aaaa072"> 
+                                Nous nous 
                                 <lb xml:id="lb8_p22" n="8" facs="#facs_p22_lb8"/>
+                                figurons alors assez volontiers qu'il
                                 <lb xml:id="lb9_p22" n="9" facs="#facs_p22_lb9"/>
+                                y a deux choses, dont l'une a pris
                                 <lb xml:id="lb10_p22" n="10" facs="#facs_p22_lb10"/>
-                                <lb xml:id="lb11_p22" n="11" facs="#facs_p22_lb11"/>
-                                <lb xml:id="lb12_p22" n="12" facs="#facs_p22_lb12"/>
-                                <lb xml:id="lb13_p22" n="13" facs="#facs_p22_lb13"/>
-                                <lb xml:id="lb14_p22" n="14" facs="#facs_p22_lb14"/>
-                                <lb xml:id="lb16_p22" n="16" facs="#facs_p22_lb16"/>
+                                la <term ref="#succession">succession</term> de l'autre.
                             </ab>
                             <ab xml:id="pericope_91Aaaa073" n="73" xml:lang="FR" corresp="#it_91Aaaa073 #en_91Aaaa073" facs="#facs_pericope_91Aaaa073">
-                                <lb xml:id="lb17_p22" n="17" facs="#facs_p22_lb17"/>
-                                <lb xml:id="lb18_p22" n="18" facs="#facs_p22_lb18"/>
-                                <lb xml:id="lb19_p22" n="19" facs="#facs_p22_lb19"/>
-                                <lb xml:id="lb20_p22" n="20" facs="#facs_p22_lb20"/>
-                                <lb xml:id="lb21_p22" n="21" facs="#facs_p22_lb21"/>
-                                <lb xml:id="lb22_p22" n="22" facs="#facs_p22_lb22"/>
-                                <lb xml:id="lb23_p22" n="23" facs="#facs_p22_lb23"/>
-                                <lb xml:id="lb24_p22" n="24" facs="#facs_p22_lb24"/>
-                                <lb xml:id="lb25_p22" n="25" facs="#facs_p22_lb25"/>
-                                <lb xml:id="lb26_p22" n="26" facs="#facs_p22_lb26"/>
+                                <add place="above" resp="#FdS">Or</add> qu'il y ait                                 
+                                <lb xml:id="lb11_p22" n="11" facs="#facs_p22_lb11"/>
+                                <del rend="overstrike" resp="#FdS">une</del> <hi rend="underline"><term ref="#succession">succession</term></hi>, c'est là ce qui  est <add place="above" resp="#FdS"><gap atLeast="1" atMost="2" unit="words" reason="illegible" /> </add>indubitable et évident,
+                                <lb xml:id="lb12_p22" n="12" facs="#facs_p22_lb12"/>
+                                mais qu'il y ait deux choses <add place="above" resp="#FdS"> dans cette <term ref="#succession">succession</term>,</add> c'est ce qui
+                                <lb xml:id="lb13_p22" n="13" facs="#facs_p22_lb13"/>
+                                est <subst><del rend="overstrike" resp="#FdS"><gap extent="3 words" reason="deleted" /></del> <add place="above" resp="#FdS">faux,</add></subst>
+                                <subst><del rend="overstrike" resp="#FdS"><gap extent="1 word" reason="deleted" /></del> <add place="above" resp="#FdS">radicalement</add></subst> 
+                                <add place="below" resp="#FdS"><gap extent="1 word" reason="deleted" /></add>
+                                faux, et <add place="left" resp="#FdS">dangereusement faux, du <term ref="#point-de-vue">point de vue</term> de toutes les conceptions qui s'ensuivent.</add>                                
                             </ab>
                             <ab xml:id="pericope_91Aaaa074" n="74" xml:lang="FR" corresp="#it_91Aaaa074 #en_91Aaaa074" facs="#facs_pericope_91Aaaa074">
-                                <lb xml:id="lb27_p22" n="27" facs="#facs_p22_lb27"/>
-                                <lb xml:id="lb28_p22" n="28" facs="#facs_p22_lb28"/>
-                                <lb xml:id="lb29_p22" n="29" facs="#facs_p22_lb29"/>
-                                <lb xml:id="lb30_p22" n="30" facs="#facs_p22_lb30"/>
+                                <lb xml:id="lb14_p22" n="14" facs="#facs_p22_lb14"/>
+                                Il suffit <gap extent="2 words" reason="deleted" /> d'y réfléchir un
+                                <lb xml:id="lb15_p22" n="15" facs="#facs_p22_lb15"/>
+                                instant, <gap extent="8 words" reason="deleted" />
+                                <lb xml:id="lb16_p22" n="16" facs="#facs_p22_lb16"/>
+                                <gap extent="1 line" reason="deleted" />
+                                <lb xml:id="lb17_p22" n="17" facs="#facs_p22_lb17"/>
+                                <add place="left" resp="#FdS"><subst><del rend="overstrike" resp="#FdS"><gap extent="1 word" reason="deleted" /></del> <add place="above" resp="#FdS">puisque</add></subst></add>
+                                <gap extent="5 words" reason="deleted" /> tout est contenu                                
+                                <lb xml:id="lb18_p22" n="18" facs="#facs_p22_lb18"/>
+                                dans cette simple observation: chaque
+                                <lb xml:id="lb19_p22" n="19" facs="#facs_p22_lb19"/>
+                                individu <subst><del rend="overstrike" resp="#FdS"><gap extent="1 word" reason="deleted" /></del><add place="above"> emploie </add></subst> le lendemain le même
+                                <lb xml:id="lb20_p22" n="20" facs="#facs_p22_lb20"/>
+                                <subst><del rend="overstrike" resp="#FdS"><gap extent="1 word" reason="deleted" /></del> <add place="left"><term ref="#glossa-mancante">idiome</term></add></subst> qu'il parlait la veille <add place="above" resp="#FdS">et cela s'est toujours vu</add>.
                             </ab>                             
                             <ab xml:id="pericope_91Aaaa075" n="75" xml:lang="FR" corresp="#it_91Aaaa075 #en_91Aaaa075" facs="#facs_pericope_91Aaaa075">
-
+                                l n'y 
+                                <lb xml:id="lb21_p22" n="21" facs="#facs_p22_lb21"/>
+                                a <add place="above" resp="#FdS">donc</add> eu aucun jour où on ait pu
+                                <lb xml:id="lb22_p22" n="22" facs="#facs_p22_lb22"/>
+                                dresser l'acte de décès de la <term ref="#langue1">langue</term> latine,
+                                <lb xml:id="lb23_p22" n="23" facs="#facs_p22_lb23"/>
+                                et il n'y a eu <gap extent="1 word" reason="deleted" /> également aucun jour
+                                <lb xml:id="lb24_p22" n="24" facs="#facs_p22_lb24"/>
+                                où on ait pu enregistrer la naissance
+                                <lb xml:id="lb25_p22" n="25" facs="#facs_p22_lb25"/>
+                                de la <term ref="#langue1">langue</term> française.
                             </ab>                             
-                            <ab xml:id="pericope_91Aaaa076" n="76" xml:lang="FR" corresp="#it_91Aaaa076 #en_91Aaaa076" facs="#facs_pericope_91Aaaa076">
-
+                            <ab xml:id="pericope_91Aaaa076" n="76" xml:lang="FR" corresp="#it_91Aaaa076 #en_91Aaaa076" facs="#facs_pericope_91Aaaa076">                                
+                                Il n'est jamais 
+                                <lb xml:id="lb26_p22" n="26" facs="#facs_p22_lb26"/>
+                                arrivé que les <gap extent="3 words" reason="deleted" />
                             </ab> 
                         </div>
                     </body> 
