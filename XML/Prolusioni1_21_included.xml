@@ -258,29 +258,35 @@
         <surface n="15" xml:id="scan_p21">
             <graphic url="ms_fr_03951_01_1_p021-resized.jpg" width="600px" height="900px"/> 
             <!--Righe-->
-            <zone points=" 142,89, 136,111, 510,109, 513,92 " rendition="line" xml:id="facs_p21_lb1"/>                       
-            <zone points=" 145,122, 140,145, 505,135, 504,120  " rendition="line" xml:id="facs_p21_lb2"/>                       
-            <zone points=" 149,162, 138,180 ,499,161, 496,145 " rendition="line" xml:id="facs_p21_lb3"/>            
-            <zone points=" 149,183, 144,200 ,510,189, 507,175" rendition="line" xml:id="facs_p21_lb4"/>
-            <zone points=" 150,211, 142,235, 507,215, 507,201" rendition="line" xml:id="facs_p21_lb5"/>
-            <zone points="62,248, 496,228, 495,248, 133,262, 102,347, 60,324 " rendition="line" xml:id="facs_p21_lb6"/>
-            <zone points=" 148,273, 149,295, 495,277, 492,259 " rendition="line" xml:id="facs_p21_lb7"/>
-            <zone points=" 150,297, 147,319, 495,303, 494,282  " rendition="line" xml:id="facs_p21_lb8"/>
-            <zone points=" 136,332, 142,351, 500,329, 497,314 " rendition="line" xml:id="facs_p21_lb9"/>
-            <zone points=" 124,355, 120,384, 298,369, 293,352  " rendition="line" xml:id="facs_p21_lb10"/>
-            <zone points="203,385 ,186,409, 513,393 ,511,381 " rendition="line" xml:id="facs_p21_lb11"/>
-            <zone points="  133,415, 130,451, 487,423, 484,404" rendition="line" xml:id="facs_p21_lb12"/>    
-            <zone points=" 139,452, 133,470, 489,445, 486,425  " rendition="line" xml:id="facs_p21_lb13"/>    
-            <zone points=" 139,478, 141,496, 495,476 ,490,452" rendition="line" xml:id="facs_p21_lb14"/>    
-            <zone points="  60,504 ,507,479, 511,513 ,130,528, 124,641, 66,654" rendition="line" xml:id="facs_p21_lb15"/>    
-            <zone points=" 143,529, 138,553, 480,533, 476,518" rendition="line" xml:id="facs_p21_lb16"/>    
-            <zone points=" 144,560 ,147,580, 488,561, 549,553 ,552,536 " rendition="line" xml:id="facs_p21_lb17"/>    
-            <zone points=" 145,583 ,503,571, 515,593, 152,617" rendition="line" xml:id="facs_p21_lb18"/>    
-            <zone points=" 154,626, 499,606 ,503,623, 161,644" rendition="line" xml:id="facs_p21_lb19"/>    
-            <zone points=" 159,653, 161,677 ,512,644, 507,631" rendition="line" xml:id="facs_p21_lb20"/>    
-            <zone points=" 163,678 ,162,703, 523,673, 520,655" rendition="line" xml:id="facs_p21_lb21"/>    
-            <zone points=" 159,704 ,516,685 ,522,706 ,164,727 " rendition="line" xml:id="facs_p21_lb22"/>    
-            <zone points=" 167,730, 168,752, 532,732, 528,710" rendition="line" xml:id="facs_p21_lb23"/>                
+            <zone points=" 137,70,125,100,522,105,519,61 " rendition="line" xml:id="facs_p21_lb1"/>                       
+            <zone points=" 122,108,114,127,527,122,526,102" rendition="line" xml:id="facs_p21_lb2"/>  
+            <zone points=" 133,127,125,152,519,147,509,128" rendition="line" xml:id="facs_p21_lb3"/>  
+            <zone points=" 127,156,124,173,517,166,519,151 " rendition="line" xml:id="facs_p21_lb4"/>            
+            <zone points=" 133,180,126,205,518,194,515,173" rendition="line" xml:id="facs_p21_lb5"/>
+            <zone points=" 127,207,127,230,531,225,524,199" rendition="line" xml:id="facs_p21_lb6"/>
+            <zone points="128,232,124,251,536,251,539,215 " rendition="line" xml:id="facs_p21_lb7"/>
+            <zone points=" 68,252,75,283,541,274,539,246 " rendition="line" xml:id="facs_p21_lb8"/>
+            <zone points=" 123,283,120,309,522,302,515,273  " rendition="line" xml:id="facs_p21_lb9"/>
+            <zone points=" 61,429,94,421,109,341,540,328,539,305,66,318 " rendition="line" xml:id="facs_p21_lb10"/>
+            <zone points=" 131,341,134,359,530,357,526,335 " rendition="line" xml:id="facs_p21_lb11"/>
+            <zone points="117,356,111,383,534,377,529,355" rendition="line" xml:id="facs_p21_lb12"/>
+            <zone points="  128,383,131,413,538,404,527,381" rendition="line" xml:id="facs_p21_lb13"/>    
+            <zone points=" 126,416,128,463,540,452,542,408  " rendition="line" xml:id="facs_p21_lb14"/>    
+            <zone points=" 131,468,127,491,543,490,541,457" rendition="line" xml:id="facs_p21_lb16"/>    
+            <zone points="  137,497,133,516,448,510,444,495" rendition="line" xml:id="facs_p21_lb17"/>    
+            <zone points=" 138,530,133,560,541,554,536,521" rendition="line" xml:id="facs_p21_lb18"/>    
+            <zone points=" 139,554,139,582,245,580,367,577,438,571,506,569,507,552 " rendition="line" xml:id="facs_p21_lb19"/>    
+            <zone points=" 147,579,160,596,300,595,388,589,437,584,434,571" rendition="line" xml:id="facs_p21_lb20"/>    
+            <zone points=" 71,606,75,634,536,623,546,577" rendition="line" xml:id="facs_p21_lb21"/>    
+            <zone points=" 69,639,72,682,133,664,149,645,540,644,539,625" rendition="line" xml:id="facs_p21_lb22"/>    
+            <zone points=" 148,649,145,672,521,670,520,650" rendition="line" xml:id="facs_p21_lb23"/>    
+            <zone points=" 153,681,151,707,520,694,520,694,528,671 " rendition="line" xml:id="facs_p21_lb24"/>    
+            <zone points=" 152,714,147,738,384,741,381,704" rendition="line" xml:id="facs_p21_lb25"/>           
+            <zone points=" 65,759,144,743,155,772,71,819" rendition="line" xml:id="facs_p21_lb26"/>        
+            <zone points=" 192,753,178,777,519,773,519,773,517,747" rendition="line" xml:id="facs_p21_lb27"/>                
+            <zone points=" 155,783,143,803,533,797,530,775" rendition="line" xml:id="facs_p21_lb28"/>                
+            <zone points="145,813,137,829,523,823,520,801" rendition="line" xml:id="facs_p21_lb29"/>                
+            <zone points="109,829,90,851,546,844,543,822" rendition="line" xml:id="facs_p21_lb30"/>                
 
             <zone points=" 82,54,62,84,93,94,107,61" rendition="line" xml:id="facs_HandPageNumber-21"/>     <!--Numero 18 cerchiato in alto a sx-->           
 
@@ -308,9 +314,9 @@
                                 <lb xml:id="lb3_p21" n="3" facs="#facs_p21_lb3"/>
                                 de la <term ref="#langue1">langue</term> ou la première chose qui <hi rend="underline">fait</hi> que la
                                 <lb xml:id="lb4_p21" n="4" facs="#facs_p21_lb4"/> 
-                                <term ref="#langue1">langue</term> a une <term ref="#histoire">histoire</term>, c'est le <term ref="#fait">fait <del rend="overstrike">de sa</del>
+                                <term ref="#langue1">langue</term> a une <term ref="#histoire">histoire</term>, c'est le <term ref="#fait">fait <del rend="overstrike">de sa</del></term>
                                 <lb xml:id="lb5_p21" n="5" facs="#facs_p21_lb5"/>
-                                <del rend="overstrike">continui</del>fondamental</term> de sa <hi rend="underline"><term ref="#continuité1">continuité</term></hi>
+                                <del rend="overstrike">continui</del> fondamental de sa <hi rend="underline"><term ref="#continuité1">continuité</term></hi>
                                 <lb xml:id="lb6_p21" n="6" facs="#facs_p21_lb6"/>
                                 <hi rend="underline">dans le <term ref="#temps">temps</term>; </hi> - je ne dis pas, veuillez le remarquer,
                                 <lb xml:id="lb7_p21" n="7" facs="#facs_p21_lb7"/>
@@ -380,16 +386,41 @@
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p21_it" hand="#h1" type="box_testo_it">
                             <ab xml:id="it_91Aaaa068" corresp="#pericope_91Aaaa068" xml:lang="IT" part="f">
-                                In effetti, il primo aspetto sotto il quale deve essere vista l’idea di Storia quando si tratta della lingua, o la prima cosa che fa sì che la lingua abbia una storia, è il fatto fondamentale della sua continuità nel tempo; non dico, vogliatelo notare, della sua fissità, di cui parleremo tra pochissimo, ma della sua continuità.
+                                <lb/>In effetti, il primo aspetto sotto il quale 
+                                <lb/>deve essere vista l’idea di Storia quando si tratta 
+                                <lb/>della lingua, o la prima cosa che fa sì 
+                                <lb/>che la lingua abbia una storia, è il fatto 
+                                <lb/>fondamentale della sua continuità 
+                                <lb/>nel tempo; non dico, vogliatelo notare, 
+                                <lb/>della sua fissità, di cui parleremo tra pochissimo, ma della sua continuità.
                             </ab>
                             <ab xml:id="it_91Aaaa069" corresp="#pericope_91Aaaa069" xml:lang="IT" part="f">
-                                Vale la pena di fermarci un istante davanti a questo principio, elementare ed essenziale, della continuità o dell’ininterruzione forzata che è il primo carattere o la prima legge della trasmissione del parlare umano, e ciò quali che siano, intorno alla lingua, le rivoluzioni e le scosse di ogni genere che possono cambiare tutte le condizioni [ ].
+                                Vale la pena 
+                                <lb/>di fermarci un istante davanti a questo principio, elementare ed essenziale, della 
+                                <lb/>continuità o dell’ininterruzione forzata 
+                                <lb/>che è il primo carattere o la prima legge 
+                                <lb/>della trasmissione del parlare umano, 
+                                <lb/>e ciò quali che siano, intorno alla lingua, le 
+                                <lb/>rivoluzioni e le scosse di ogni genere che possono 
+                                <lb/>cambiare tutte le condizioni [ ].
                             </ab>
                             <ab xml:id="it_91Aaaa070" corresp="#pericope_91Aaaa070" xml:lang="IT">
-                                Per quanto un popolo viva pacifico in fondo a una valle ritirata, o sia un popolo agricoltore, guerriero, nomade, o cambi d’un tratto religione, idee, stato sociale e civiltà, o cambi patria e clima, e infine cambi anche lingua, – giacché in tal caso non farà che continuare, adottandola, quella di un altro popolo – mai e da nessuna parte si conosce storicamente una rottura nella trama continua del linguaggio, e non si può logicamente e a priori concepire che ciò possa mai o da qualche parte accadere.
+                                Per quanto un popolo 
+                                <lb/>viva pacifico in fondo a una valle ritirata, 
+                                <lb/>o sia un popolo agricoltore, guerriero, nomade, o 
+                                <lb/>cambi d’un tratto religione, idee, stato sociale e 
+                                <lb/>civiltà, o cambi patria e clima, e infine 
+                                <lb/>cambi anche lingua, 
+                                <lb/>– giacché in tal caso non farà che continuare, adottandola, quella di un altro popolo – mai e da nessuna parte si conosce storicamente una rottura 
+                                <lb/>nella trama continua del linguaggio, 
+                                <lb/>e non si può logicamente e a priori concepire che ciò 
+                                <lb/>possa mai o da qualche parte accadere.
                             </ab>       
                             <ab xml:id="it_91Aaaa071" corresp="#pericope_91Aaaa071" xml:lang="IT">
-                                Quando consideriamo un certo stato di lingua come il francese del XIX secolo, e uno stato di lingua anteriore, come per esempio il latino del secolo d’Augusto, siamo colpiti in un primo momento dalla grande distanza che li separa, e siamo, mi affretto ad aggiungerlo, colpiti ancora di più dalla denominazione differente che si è convenuto di dargli, chiamando questo latino e quello francese.
+                                <lb/>Quando consideriamo un certo 
+                                <lb/>stato di lingua come il francese del XIX secolo, 
+                                <lb/>e uno stato di lingua anteriore, come 
+                                <lb/>per esempio il latino del secolo d’Augusto, siamo colp=
                             </ab>                                                                                                                         
                         </div>                            
                     </body>
@@ -401,16 +432,41 @@
                     <body resp="#AC" xml:id="body-inglese">
                         <div xml:id="div_p21_en" hand="#h1" type="box_testo_en">
                             <ab xml:id="en_91Aaaa068" corresp="#pericope_91Aaaa068" xml:lang="EN">
-                                The first perspective from which to approach the idea of History with regard to language or with regard to the basic which gives language a history, is the fundamental fact of its continuity in time; - note that I am not referring to fixedness, which we will come back to shortly, but to continuity.
+                                <lb/>The first perspective from which 
+                                <lb/>to approach the idea of History with regard 
+                                <lb/>to language or with regard to the basic which gives 
+                                <lb/>language a history, is the fundamental fact of its continuity 
+                                <lb/>in time; - note that I am not referring to fixedness, 
+                                <lb/>which we will come back to shortly, but to continuity.
                             </ab>
                             <ab xml:id="en_91Aaaa069" corresp="#pericope_91Aaaa069" xml:lang="EN">
-                                It is worth reflecting a moment on this elementary and essential principle of continuity or necessary uninterruptedness which is the first characteristic or first law of the transmission of human speech, valid whatever various revolutions and up-heavals might come to transform conditions... arounf the language.
+                                It is worth 
+                                <lb/>reflecting a moment on this elementary and essential principle 
+                                <lb/>of continuity or necessary uninterruptedness 
+                                <lb/>which is the first characteristic or first law 
+                                <lb/>of the transmission of human speech, 
+                                <lb/>valid whatever various 
+                                <lb/>revolutions and up-heavals might come to 
+                                <lb/>transform conditions... around the language.
                             </ab>        
                             <ab xml:id="en_91Aaaa070" coresp="#pericope_91Aaaa070" xml:lang="EN">
-                                Whether a people lives peacefully in a secluded valley, wheter it be a farming, warring, or nomadic people, which suddendly changes religion, ideas, social situation, and civilization, wheter it changes homeland and climate, or even language - for it would in that case merely perpetuate by adoption the language of another people - at no time or place has a historical case of the suspension of continuous line of language been known to exist, and one cannot a priori and logically imagine that it might occur in any time or place.
+                                Whether a people 
+                                <lb/>lives peacefully in a secluded valley, 
+                                <lb/>wheter it be a farming, warring, or nomadic people, 
+                                <lb/>which suddendly changes religion, ideas, social situation, 
+                                <lb/>and civilization, wheter it changes homeland and climate, or even 
+                                <lb/>language - 
+                                <lb/>for it would in that case merely perpetuate by adoption the language of another people - at no time or place has a historical case of the suspension 
+                                <lb/>of continuous line of language 
+                                <lb/>been known to exist, and one 
+                                <lb/>cannot a priori and logically imagine that 
+                                <lb/>it might occur in any time or place.
                             </ab>    
                             <ab xml:id="en_91Aaaa071" corresp="#pericope_91Aaaa071" xml:lang="EN">                                
-                            When we consider a certain état de langue such as nineteenth-century French, and another prior état de langue, such as Latin under the Emperor Augustus, we are initially struck by the great distance which separates them, and we are - and I emphasize this point - even more struck by the different names which have been settled on to refer to them, one being Latin and the other French.
+                                <lb/>When we consider a certain
+                                <lb/>état de langue such as nineteenth-century French, 
+                                <lb/>and another prior état de langue, such as 
+                                <lb/>Latin under the Emperor Augustus, we are initial-
                             </ab>
                         </div>   
                     </body>
