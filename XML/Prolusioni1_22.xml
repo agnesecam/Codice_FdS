@@ -301,82 +301,55 @@
             <group xml:id="fr_Prolusioni"> <!--TESTO FRANCESE DELLE 3 PROLUSIONI-->
                 <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
                     <body xml:lang="fr" source="#Bouquet-Engler2002" xml:id="body-francese">
-                        <!--Sedicesima pagina-->
+                        <!--Ventiduesima pagina-->
                         <pb n="f1r" xml:id="body_p22" facs="#scan_p22"/>
                         <!--Numeri impaginazione a stampa e a mano-->
                         <ab>
                             <fw type="pageNum" xml:id="HandPageNumber-22" rend="align(left)" facs="#facs_HandPageNumber-22"> 22 </fw>
                         </ab>
                         <div xml:id="div_p22_fr" hand="#h1" type="box_testo" >
-                            <ab xml:id="pericope_91Aaaa068" n="68" xml:lang="FR" corresp="#it_91Aaaa068 #en_91Aaaa068" facs="#facs_pericope_91Aaaa068" part="f" >
+                            <ab xml:id="pericope_91Aaaa071" n="71" xml:lang="FR" corresp="#it_91Aaaa071 #en_91Aaaa071" facs="#facs_pericope_91Aaaa071" part="f" >
                                 <lb xml:id="lb1_p22" n="1" facs="#facs_p22_lb1"/>
-                                Le <hi rend="underline">premier aspect</hi> <add place="above" resp="#FdS"> en effet </add>sous lequel <subst><del rend="overstrike">se présente l’idée</del><add place="above"><del rend="overstrike">doit être</del></add></subst>
                                 <lb xml:id="lb2_p22" n="2" facs="#facs_p22_lb2"/>
-                                doit être envisagée l’<term ref="#glossa-mancante">idée</term> d'<hi rend="underline"><term ref="#histoire">Histoire</term></hi> quand il s'agit
                                 <lb xml:id="lb3_p22" n="3" facs="#facs_p22_lb3"/>
-                                de la <term ref="#langue1">langue</term> ou la première chose qui <hi rend="underline">fait</hi> que la
                                 <lb xml:id="lb4_p22" n="4" facs="#facs_p22_lb4"/> 
-                                <term ref="#langue1">langue</term> a une <term ref="#histoire">histoire</term>, c'est le <term ref="#fait">fait <del rend="overstrike">de sa</del></term>
                                 <lb xml:id="lb5_p22" n="5" facs="#facs_p22_lb5"/>
-                                <del rend="overstrike">continui</del> fondamental de sa <hi rend="underline"><term ref="#continuité1">continuité</term></hi>
                                 <lb xml:id="lb6_p22" n="6" facs="#facs_p22_lb6"/>
-                                <hi rend="underline">dans le <term ref="#temps">temps</term>; </hi> - je ne dis pas, veuillez le remarquer,
                                 <lb xml:id="lb7_p22" n="7" facs="#facs_p22_lb7"/>
-                                de sa <hi rend="underline"><term ref="#fixité">fixité</term></hi>, dont nous parlerons tout à l'heure, <hi rend="underline">mais</hi> de sa <hi rend="underline"><term ref="#continuité1">continuité</term></hi>.
                             </ab>                           
-                            <ab xml:id="pericope_91Aaaa069" n="69" xml:lang="FR" corresp="#it_91Aaaa069 #en_91Aaaa069" facs="#facs_pericope_91Aaaa069"> 
-                                <subst><del rend="overstrike" resp="#FdS"><gap extent="1 word" reason="deleted" /></del> <add place="above" resp="#FdS">Il vaut la </add></subst>
+                            <ab xml:id="pericope_91Aaaa072" n="72" xml:lang="FR" corresp="#it_91Aaaa072 #en_91Aaaa072" facs="#facs_pericope_91Aaaa072"> 
                                 <lb xml:id="lb8_p22" n="8" facs="#facs_p22_lb8"/>
-                                <add place="left" resp="#FdS">peine<add place="above" resp="#FdS"> de</add></add> nous <add place="above" resp="#FdS">arrêter</add> un instant <subst><del rend="overstrike">à</del> <add place="above" resp="#FdS">devant</add></subst> ce <term ref="#glossa-mancante">principe</term>, <subst><del rend="overstrike" resp="#FdS"><gap extent="1 word" reason="deleted" /></del> <add place="above" resp="#FdS">élémentaire et essentiel</add></subst> de la
                                 <lb xml:id="lb9_p22" n="9" facs="#facs_p22_lb9"/>
-                                <hi rend="underline"><term ref="#continuité1">continuité</term></hi> ou de <hi rend="underline">l’<term ref="#ininterruption">ininterruption</term></hi> forcée <gap extent="1 word" reason="deleted" />
                                 <lb xml:id="lb10_p22" n="10" facs="#facs_p22_lb10"/>
-                                qui <subst><del rend="overstrike" resp="#FdS"><gap extent="1 word" reason="deleted" /></del><add place="above"><gap extent="2 words" reason="deleted" /></add></subst>
-                                <add place="above" resp="#FdS">est</add> <add place="left" resp="#FdS">le <term ref="#glossa-mancante">premier</term> <term ref="#glossa-mancante">caractère</term> ou la <term ref="#glossa-mancante">première</term> <term ref="#loi1">loi</term></add> 
-                                de la <term ref="#glossa-mancante">transmission</term> du <add place="above" resp="#FdS"><gap extent="1 word" reason="deleted" /></add><term ref="#parler_humain">parler humain</term>
                                 <lb xml:id="lb11_p22" n="11" facs="#facs_p22_lb11"/>
-                                <del><gap extent="1" unity="line"/></del>
                                 <lb xml:id="lb12_p22" n="12" facs="#facs_p22_lb12"/>
-                                <add place="above" resp="#FdS">et cela</add> quelles que soient, autour de la <term ref="#langue1">langue</term>, les révolu<pc force="weak">-</pc>
                                 <lb xml:id="lb13_p22" n="13" facs="#facs_p22_lb13"/>
-                                <pc force="weak">=</pc>tions <add place="above" resp="#FdS">et les secousses</add> de tout genre qui peuvent <!-- spazio cancellato -->
                                 <lb xml:id="lb14_p22" n="14" facs="#facs_p22_lb14"/>
-                                <del><gap extent="2 lines" reason="deleted" /></del>
                                 <lb xml:id="lb16_p22" n="16" facs="#facs_p22_lb16"/>
-                                changer <subst><del rend="overstrike" resp="#FdS"><gap extent="1 word" reason="deleted" /></del><add place="above" resp="#FdS">toutes les</add></subst> conditions. 
                             </ab>
-                            <ab xml:id="pericope_91Aaaa070" n="70" xml:lang="FR" corresp="#it_91Aaaa070 #en_91Aaaa070" facs="#facs_pericope_91Aaaa070">
-                                Qu<del rend="overstrike">e</del>'un peuple 
+                            <ab xml:id="pericope_91Aaaa073" n="73" xml:lang="FR" corresp="#it_91Aaaa073 #en_91Aaaa073" facs="#facs_pericope_91Aaaa073">
                                 <lb xml:id="lb17_p22" n="17" facs="#facs_p22_lb17"/>
-                                vive paisible au fond d'une vallée retirée,
                                 <lb xml:id="lb18_p22" n="18" facs="#facs_p22_lb18"/>
-                                qu'il soit <subst><del rend="overstrike" resp="#FdS"><gap extent="3 words" reason="deleted" /></del> <add place="above" resp="#FdS">un peuple agriculteur, guerrier, nomade</add></subst>, qu'il
                                 <lb xml:id="lb19_p22" n="19" facs="#facs_p22_lb19"/>
-                                <gap extent="1 words" reason="deleted" />change <add place="above" resp="#FdS">subitement</add> de <subst><del rend="overstrike" resp="#FdS"><gap extent="3 words" reason="deleted" /></del><add place="above" resp="#FdS">religion, d<del rend="overstrike">e</del>'<term ref="#glossa-mancante">idées</term>,</add></subst> d'état <term ref="#glossa-mancante">social</term> et
                                 <lb xml:id="lb20_p22" n="20" facs="#facs_p22_lb20"/>
-                                de civilisation, qu'il change de patrie et de climat, 
                                 <lb xml:id="lb21_p22" n="21" facs="#facs_p22_lb21"/>
-                                qu'il change même de <hi rend="underline"><term ref="#langue1">langue</term></hi>, - car alors il <subst><del rend="overstrike" resp="#FdS"><gap extent="1 word" reason="deleted" /></del><add place="above" resp="#FdS"> ne fera que continuer en l'adoptant </add></subst>celle d'un autre peuple-
                                 <lb xml:id="lb22_p22" n="22" facs="#facs_p22_lb22"/>
-                                <hi rend="underline">jamais et nulle part</hi> <gap extent="2 words" reason="deleted" /> on ne connaît pas <term ref="#histoire">historiquement</term> de rupture
                                 <lb xml:id="lb23_p22" n="23" facs="#facs_p22_lb23"/>
-                                dans la trame <subst><del rend="overstrike" resp="#FdS"><gap extent="2 words" reason="deleted" /></del><add place="above" resp="#FdS">continue du</add></subst> <term ref="#langage1">langage</term>, et on ne
                                 <lb xml:id="lb24_p22" n="24" facs="#facs_p22_lb24"/>
-                                peut logiquement et <hi rend="underline">a priori</hi> concevoir qu'il
                                 <lb xml:id="lb25_p22" n="25" facs="#facs_p22_lb25"/>
-                                puisse jamais <add place="below" resp="#FdS">et nulle part</add> s'en produire.
                                 <lb xml:id="lb26_p22" n="26" facs="#facs_p22_lb26"/>
-                                <abbr>T.H.V.P.</abbr>
                             </ab>
-                            <ab xml:id="pericope_91Aaaa071" n="71" xml:lang="FR" corresp="#it_91Aaaa071 #en_91Aaaa071" facs="#facs_pericope_91Aaaa071">
+                            <ab xml:id="pericope_91Aaaa074" n="74" xml:lang="FR" corresp="#it_91Aaaa074 #en_91Aaaa074" facs="#facs_pericope_91Aaaa074">
                                 <lb xml:id="lb27_p22" n="27" facs="#facs_p22_lb27"/>
-                                Lorsque nous considérons un certain
                                 <lb xml:id="lb28_p22" n="28" facs="#facs_p22_lb28"/>
-                                <term ref="#état_de_langue">état de langue</term> comme le français du XIXe siècle,
                                 <lb xml:id="lb29_p22" n="29" facs="#facs_p22_lb29"/>
-                                et un certain état de langue antérieur, comme
                                 <lb xml:id="lb30_p22" n="30" facs="#facs_p22_lb30"/>
-                                <choice><abbr resp="#FdS">p.ex</abbr><expan>par exemple</expan></choice> le latin du siècle d'Auguste, nous sommes frap<pc force="weak">=</pc>
+                            </ab>                             
+                            <ab xml:id="pericope_91Aaaa075" n="75" xml:lang="FR" corresp="#it_91Aaaa075 #en_91Aaaa075" facs="#facs_pericope_91Aaaa075">
+
+                            </ab>                             
+                            <ab xml:id="pericope_91Aaaa076" n="76" xml:lang="FR" corresp="#it_91Aaaa076 #en_91Aaaa076" facs="#facs_pericope_91Aaaa076">
+
                             </ab> 
                         </div>
                     </body> 
@@ -387,42 +360,17 @@
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p22_it" hand="#h1" type="box_testo_it">
-                            <ab xml:id="it_91Aaaa068" corresp="#pericope_91Aaaa068" xml:lang="IT" part="f">
-                                <lb/>In effetti, il primo aspetto sotto il quale 
-                                <lb/>deve essere vista l’idea di Storia quando si tratta 
-                                <lb/>della lingua, o la prima cosa che fa sì 
-                                <lb/>che la lingua abbia una storia, è il fatto 
-                                <lb/>fondamentale della sua continuità 
-                                <lb/>nel tempo; non dico, vogliatelo notare, 
-                                <lb/>della sua fissità, di cui parleremo tra pochissimo, ma della sua continuità.
+                            <ab xml:id="it_91Aaaa071" corresp="#pericope_91Aaaa071" xml:lang="IT" part="f">
+                                <lb/>
                             </ab>
-                            <ab xml:id="it_91Aaaa069" corresp="#pericope_91Aaaa069" xml:lang="IT" part="f">
-                                Vale la pena 
-                                <lb/>di fermarci un istante davanti a questo principio, elementare ed essenziale, della 
-                                <lb/>continuità o dell’ininterruzione forzata 
-                                <lb/>che è il primo carattere o la prima legge 
-                                <lb/>della trasmissione del parlare umano, 
-                                <lb/>e ciò quali che siano, intorno alla lingua, le 
-                                <lb/>rivoluzioni e le scosse di ogni genere che possono 
-                                <lb/>cambiare tutte le condizioni [ ].
+                            <ab xml:id="it_91Aaaa072" corresp="#pericope_91Aaaa072" xml:lang="IT" part="f">
+                                <lb/>
                             </ab>
-                            <ab xml:id="it_91Aaaa070" corresp="#pericope_91Aaaa070" xml:lang="IT">
-                                Per quanto un popolo 
-                                <lb/>viva pacifico in fondo a una valle ritirata, 
-                                <lb/>o sia un popolo agricoltore, guerriero, nomade, o 
-                                <lb/>cambi d’un tratto religione, idee, stato sociale e 
-                                <lb/>civiltà, o cambi patria e clima, e infine 
-                                <lb/>cambi anche lingua, 
-                                <lb/>– giacché in tal caso non farà che continuare, adottandola, quella di un altro popolo – mai e da nessuna parte si conosce storicamente una rottura 
-                                <lb/>nella trama continua del linguaggio, 
-                                <lb/>e non si può logicamente e a priori concepire che ciò 
-                                <lb/>possa mai o da qualche parte accadere.
+                            <ab xml:id="it_91Aaaa073" corresp="#pericope_91Aaaa073" xml:lang="IT">
+                                <lb/>
                             </ab>       
-                            <ab xml:id="it_91Aaaa071" corresp="#pericope_91Aaaa071" xml:lang="IT">
-                                <lb/>Quando consideriamo un certo 
-                                <lb/>stato di lingua come il francese del XIX secolo, 
-                                <lb/>e uno stato di lingua anteriore, come 
-                                <lb/>per esempio il latino del secolo d’Augusto, siamo colp=
+                            <ab xml:id="it_91Aaaa074" corresp="#pericope_91Aaaa074" xml:lang="IT">
+                                <lb/>
                             </ab>                                                                                                                         
                         </div>                            
                     </body>
@@ -433,42 +381,23 @@
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
                     <body resp="#AC" xml:id="body-inglese">
                         <div xml:id="div_p22_en" hand="#h1" type="box_testo_en">
-                            <ab xml:id="en_91Aaaa068" corresp="#pericope_91Aaaa068" xml:lang="EN">
-                                <lb/>The first perspective from which 
-                                <lb/>to approach the idea of History with regard 
-                                <lb/>to language or with regard to the basic which gives 
-                                <lb/>language a history, is the fundamental fact of its continuity 
-                                <lb/>in time; - note that I am not referring to fixedness, 
-                                <lb/>which we will come back to shortly, but to continuity.
+                            <ab xml:id="en_91Aaaa071" corresp="#pericope_91Aaaa071" xml:lang="EN">
+                                <lb/>
                             </ab>
-                            <ab xml:id="en_91Aaaa069" corresp="#pericope_91Aaaa069" xml:lang="EN">
-                                It is worth 
-                                <lb/>reflecting a moment on this elementary and essential principle 
-                                <lb/>of continuity or necessary uninterruptedness 
-                                <lb/>which is the first characteristic or first law 
-                                <lb/>of the transmission of human speech, 
-                                <lb/>valid whatever various 
-                                <lb/>revolutions and up-heavals might come to 
-                                <lb/>transform conditions... around the language.
+                            <ab xml:id="en_91Aaaa06972" corresp="#pericope_91Aaaa072" xml:lang="EN">
+                                <lb/>
                             </ab>        
-                            <ab xml:id="en_91Aaaa070" coresp="#pericope_91Aaaa070" xml:lang="EN">
-                                Whether a people 
-                                <lb/>lives peacefully in a secluded valley, 
-                                <lb/>wheter it be a farming, warring, or nomadic people, 
-                                <lb/>which suddendly changes religion, ideas, social situation, 
-                                <lb/>and civilization, wheter it changes homeland and climate, or even 
-                                <lb/>language - 
-                                <lb/>for it would in that case merely perpetuate by adoption the language of another people - at no time or place has a historical case of the suspension 
-                                <lb/>of continuous line of language 
-                                <lb/>been known to exist, and one 
-                                <lb/>cannot a priori and logically imagine that 
-                                <lb/>it might occur in any time or place.
+                            <ab xml:id="en_91Aaaa073" coresp="#pericope_91Aaaa073" xml:lang="EN">
+                                <lb/>
                             </ab>    
-                            <ab xml:id="en_91Aaaa071" corresp="#pericope_91Aaaa071" xml:lang="EN">                                
-                                <lb/>When we consider a certain
-                                <lb/>état de langue such as nineteenth-century French, 
-                                <lb/>and another prior état de langue, such as 
-                                <lb/>Latin under the Emperor Augustus, we are initial-
+                            <ab xml:id="en_91Aaaa074" corresp="#pericope_91Aaaa074" xml:lang="EN">                                
+                                <lb/>
+                            </ab>                            
+                            <ab xml:id="en_91Aaaa075" corresp="#pericope_91Aaaa075" xml:lang="EN">                                
+                                <lb/>
+                            </ab>                            
+                            <ab xml:id="en_91Aaaa076" corresp="#pericope_91Aaaa076" xml:lang="EN">                                
+                                <lb/>
                             </ab>
                         </div>   
                     </body>
