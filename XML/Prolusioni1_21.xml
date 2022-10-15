@@ -239,7 +239,7 @@
             <langUsage>
                 <language ident="fr">French</language>
             </langUsage>
-            <creation><!--*11* interpretazione-->
+            <creation>
                 <listChange ordered="true">
                     <change xml:id="CHG-1">First stage, written in ink by Ferdinand de Saussure</change>
                     <change xml:id="CHG-2">
@@ -284,7 +284,7 @@
             <zone points = ' 159,704 ,516,685 ,522,706 ,164,727 ' rendition="line" xml:id="facs_p21_lb22"/>    
             <zone points = ' 167,730, 168,752, 532,732, 528,710' rendition="line" xml:id="facs_p21_lb23"/>                
 
-            <zone points = '71,68, 99,59, 112,78, 97,98, 66,95'  rendition="line" xml:id="facs_HandPageNumber-21"/>     <!--Numero 18 cerchiato in alto a sx-->           
+            <zone points = ' 82,54,62,84,93,94,107,61'  rendition="line" xml:id="facs_HandPageNumber-21"/>     <!--Numero 18 cerchiato in alto a sx-->           
 
         </surface>
     </facsimile>
@@ -299,68 +299,37 @@
                         <pb n="f1r" xml:id="body_p21" facs="#scan_p21"/>
                         <!--Numeri impaginazione a stampa e a mano-->
                         <ab>
-                            <fw type="pageNum" xml:id="HandPageNumber-21" rend="align(left)" facs="#facs_HandPageNumber-21"> 18 </fw>
+                            <fw type="pageNum" xml:id="HandPageNumber-21" rend="align(left)" facs="#facs_HandPageNumber-21"> 21 </fw>
                         </ab>
                         <div xml:id="div_p21_fr" hand="#h1" type="box_testo" >
-                            <ab xml:id="pericope_91Aaaa056" n="56" xml:lang="FR" corresp="#it_91Aaaa056 #en_91Aaaa056" facs="#facs_pericope_91Aaaa056" part="f" >
+                            <ab xml:id="pericope_91Aaaa068" n="68" xml:lang="FR" corresp="#it_91Aaaa068 #en_91Aaaa068" facs="#facs_pericope_91Aaaa068" part="f" >
                                 <lb xml:id="lb1_p21" n="1" facs="#facs_p21_lb1"/> 
-                                il ne suit pas que la <choice cert="high"><abbr>geolog<am>.</am></abbr><expan>géolog<ex>ie</ex></expan></choice> soit une <term ref="#science_historique" rend="underline">science</term>
                                 <lb xml:id="lb2_p21" n="2" facs="#facs_p21_lb2"/> 
-                                <term ref="#science_historique">historique</term>, au moins au sens étroit et précis
                                 <lb xml:id="lb3_p21" n="3" facs="#facs_p21_lb3"/>
-                                que nous donnons à ce <term ref="#terme1">terme</term>.                            
                             </ab>                           
-                            <ab xml:id="pericope_91Aaaa057" n="57" xml:lang="FR" corresp="#it_91Aaaa057 #en_91Aaaa057" facs="#facs_pericope_91Aaaa057"> 
+                            <ab xml:id="pericope_91Aaaa069" n="69" xml:lang="FR" corresp="#it_91Aaaa069 #en_91Aaaa069" facs="#facs_pericope_91Aaaa069"> 
                                 <lb xml:id="lb4_p21" n="4" facs="#facs_p21_lb4"/> 
-                                <choice cert="medium"><abbr>2a</abbr><expan>seconde</expan></choice> condition<unclear reason="illegible"><del rend="overstrike"></del></unclear> impliquée par le <term ref="#mot">mot</term> de <term ref="#science_historique">science</term>
                                 <lb xml:id="lb5_p21" n="5" facs="#facs_p21_lb5"/>
-                                <choice cert="high"><abbr >historiq<am>.</am></abbr><expan>historiq<ex>ue</ex></expan></choice><supplied reason="omitted-in-original" ><pc type="interrogative">?</pc></supplied> <pc type="dash">-</pc> C'est que l'<term ref="#objet">objet</term> qui fait la <term ref="#matière">matière</term> de 
                                 <lb xml:id="lb6_p21" n="6" facs="#facs_p21_lb6"/>
-                                l'<term ref="#histoire">histoire</term><add place="margin" xml:id="aggiunta4" facs="#add4" resp="#ADS"> - <choice><abbr>p. ex.</abbr><expan xml:id="expan6" facs="#abbrev6">par exemple</expan></choice> l'art, la religion, le costume, etc. - </add>représente, dans un <term ref="#glossa-mancante">sens</term> quelconque, des                                
                                 <lb xml:id="lb7_p21" n="7" facs="#facs_p21_lb7"/>
-                                <term ref="#acte_humain" rend ="underline">actes humains</term>, régis par la <term ref="#volonté">volonté</term> et l'<term ref="#intelligence">intelligence</term>
                                 <lb xml:id="lb8_p21" n="8" facs="#facs_p21_lb8"/>
-                                humaines, <pc type="dash">-</pc> et qui d'ailleurs doivent être tels
                                 <lb xml:id="lb9_p21" n="9" facs="#facs_p21_lb9"/>
-                                qu'ils <add place="overline" >n'</add>intéressent pas seulement l'<term ref="#glossa-mancante">individu</term> mais <del rend="overstrike" cert="medium">une</del>
                                 <lb xml:id="lb10_p21" n="10" facs="#facs_p21_lb10"/>
-                                la <term ref="#glossa-mancante">collectivité</term>.<unclear reason="illegible"><del rend="overstrike"><gap/></del></unclear>                                                                
                             </ab>
-                            <ab xml:id="pericope_91Aaaa058" n="58" xml:lang="FR" corresp="#it_91Aaaa058 #en_91Aaaa058" facs="#facs_pericope_91Aaaa058">
+                            <ab xml:id="pericope_91Aaaa070" n="70" xml:lang="FR" corresp="#it_91Aaaa070 #en_91Aaaa070" facs="#facs_pericope_91Aaaa070">
                                 <lb xml:id="lb11_p21" n="11" facs="#facs_p21_lb11"/>
-                                Les faits linguistiques peuvent-ils passer
                                 <lb xml:id="lb12_p21" n="12" facs="#facs_p21_lb11"/>
-                                pour être le résultat d'actes <del rend="overstrike" ></del>
                                 <lb xml:id="lb13_p21" n="13" facs="#facs_p21_lb12"/> 
-                                de notre volonté<pc type="interrogative">?</pc> Telle est donc la question. La 
                                 <lb xml:id="lb14_p21" n="14" facs="#facs_p21_lb13"/> 
-                                <term ref="#science_du_langage">science du langage</term>, actuelle, yrépond affirmativement.                                
                             </ab>
-                            <ab xml:id="pericope_91Aaaa059" n="59" xml:lang="FR" corresp="#it_91Aaaa059 #en_91Aaaa059" facs="#facs_pericope_91Aaaa059">
+                            <ab xml:id="pericope_91Aaaa071" n="71" xml:lang="FR" corresp="#it_91Aaaa071 #en_91Aaaa071" facs="#facs_pericope_91Aaaa071">
                                 <lb xml:id="lb15_p21" n="15" facs="#facs_p21_lb14"/>
-                                Seulement il faut ajouter aussitôt 
-                                <add place="margin">qu'il y a beaucoup de <term ref="#glossa-mancante">degrés</term> connus, comme nous savons, dans la <term ref="#volonté">volonté</term> <term ref="#conscience">consciente</term> ou <term ref="#inconscience">inconsciente<supplied reason="omitted-in-original"><pc type="semicolon">;</pc></supplied></term></add>
-                                <subst><del rend="overstrike"></del><add> or</add></subst><supplied reason="omitted-in-original">,</supplied> de tous 
                                 <lb xml:id="lb16_p21" n="16" facs="#facs_p21_lb15"/>
-                                les actes qu'on pourrait mettre en parallèle, 
                                 <lb xml:id="lb17_p21" n="17" facs="#facs_p21_lb16"/> 
-                                l'<term ref="#acte_linguistique">acte linguistique</term>, si je puis le nommer ainsi, <subst><del></del><add place="above">a ce caractère d'être</add></subst>  
                                 <lb xml:id="lb18_p21" n="18" facs="#facs_p21_lb17"/> 
-                                le moins <ref ref="#reflechi">réfléchi</ref>, le moins prémédité, <unclear reason ="illegible" cert="medium"><del rend="overstrike" cert="medium">le</del></unclear>
                                 <lb xml:id="lb19_p21" n="19" facs="#facs_p21_lb18"/>
-                                <unclear><del>plus machinal, en mir temps que le</del></unclear>en même
                                 <lb xml:id="lb20_p21" n="20" facs="#facs_p21_lb19"/>
-                                temps que le plus impersonnel de tous.
                             </ab> 
-                            <ab xml:id="pericope_91Aaaa060" n="60" xml:lang="FR" corresp="#it_91Aaaa060 #en_91Aaaa060" facs="#facs_pericope_91Aaaa060">
-                                Il y a 
-                                <lb xml:id="lb21_p21" n="21" facs="#facs_p21_lb20"/>
-                                là une <term ref="#différence1">différence de degré</term>, qui va si loin qu'elle
-                                <lb xml:id="lb22_p21" n="22" facs="#facs_p21_lb21"/> 
-                                a longtemps donné l'illusion d'<choice cert="high"><abbr>1</abbr><expan>une</expan></choice> <term ref="#différence1">différence es<pc force="weak">-</pc></term>
-                                <lb xml:id="lb23_p21" n="23" facs="#facs_p21_lb22"/>
-                                <pc>-</pc><term ref="#différence1">sentielle</term>, mais qui n'est en réalité qu'<choice cert="high"><abbr>1</abbr><expan>une</expan></choice> <choice><abbr>diff<am>.</am></abbr><expan>diff<ex>érence</ex></expan></choice> de degrés.                                                            
-                            </ab>
                         </div>
                     </body> 
                 </text>
@@ -370,38 +339,18 @@
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p21_it" hand="#h1" type="box_testo_it">
-                            <ab xml:id="it_91Aaaa056" corresp="#pericope_91Aaaa056" xml:lang="IT" part="f">
-                                <lb/>che non segue però che la geologia 
-                                <lb/>sia una scienza storica, per lo meno nel senso stretto e preciso  
-                                <lb/>che noi conferiamo a questo termine.                      
+                            <ab xml:id="it_91Aaaa068" corresp="#pericope_91Aaaa068" xml:lang="IT" part="f">
+                                In effetti, il primo aspetto sotto il quale deve essere vista l’idea di Storia quando si tratta della lingua, o la prima cosa che fa sì che la lingua abbia una storia, è il fatto fondamentale della sua continuità nel tempo; non dico, vogliatelo notare, della sua fissità, di cui parleremo tra pochissimo, ma della sua continuità.
                             </ab>
-                            <ab xml:id="it_91Aaaa057" corresp="#pericope_91Aaaa057" xml:lang="IT" part="f">
-                                <lb/>Qual è dunque la seconda condizione implicata dall’espressione ‘scienza  
-                                <lb/>storica’? - Si tratta del fatto che l’oggetto che fa la materia  
-                                <lb/>della storia – per esempio l’arte, la religione, l’abbigliamento, ecc. – rappresenta, in un senso qualsiasi,  
-                                <lb/>degli atti umani, governati dalla volontà e dall’intelligenza  
-                                <lb/>umane – e che d’altronde devono essere tali  
-                                <lb/>da non interessare solo l’individuo,  
-                                <lb/>ma la collettività.
+                            <ab xml:id="it_91Aaaa069" corresp="#pericope_91Aaaa069" xml:lang="IT" part="f">
+                                Vale la pena di fermarci un istante davanti a questo principio, elementare ed essenziale, della continuità o dell’ininterruzione forzata che è il primo carattere o la prima legge della trasmissione del parlare umano, e ciò quali che siano, intorno alla lingua, le rivoluzioni e le scosse di ogni genere che possono cambiare tutte le condizioni [ ].
                             </ab>
-                            <ab xml:id="it_91Aaaa058" corresp="#pericope_91Aaaa058" xml:lang="IT">
-                                I fatti linguistici possono passare per essere il risultato di atti  
-                                <lb/>della nostra volontà? Questa è dunque la questione. La  
-                                <lb/>scienza del linguaggio attuale vi risponde affermativamente.                          
+                            <ab xml:id="it_91Aaaa070" corresp="#pericope_91Aaaa070" xml:lang="IT">
+                                Per quanto un popolo viva pacifico in fondo a una valle ritirata, o sia un popolo agricoltore, guerriero, nomade, o cambi d’un tratto religione, idee, stato sociale e civiltà, o cambi patria e clima, e infine cambi anche lingua, – giacché in tal caso non farà che continuare, adottandola, quella di un altro popolo – mai e da nessuna parte si conosce storicamente una rottura nella trama continua del linguaggio, e non si può logicamente e a priori concepire che ciò possa mai o da qualche parte accadere.
                             </ab>       
-                            <ab xml:id="it_91Aaaa059" corresp="#pericope_91Aaaa059" xml:lang="IT">
-                                <lb/>Soltanto, bisogna aggiungere anche che ci sono molti gradi conosciuti, come sappiamo, nella volontà cosciente e incosciente; ora, di tutti
-                                <lb/>gli atti che si potrebbero mettere in parallelo,  
-                                <lb/>l’atto linguistico, se posso chiamarlo così, ha questo carattere d’essere  
-                                <lb/>il meno riflessivo, il meno premeditato,  
-                                <lb/>e al contempo il più impersonale di tutti.
-                            </ab>                               
-                            <ab xml:id="it_91Aaaa060" corresp="#pericope_91Aaaa060" xml:lang="IT">
-                                C’è  
-                                <lb/>una differenza di grado, così spinta  
-                                <lb/>da aver dato l’illusione d’una differenza  
-                                <lb/>essenziale, ma che in realtà è solo una differenza di gradi.
-                            </ab>                                                                                               
+                            <ab xml:id="it_91Aaaa071" corresp="#pericope_91Aaaa071" xml:lang="IT">
+                                Quando consideriamo un certo stato di lingua come il francese del XIX secolo, e uno stato di lingua anteriore, come per esempio il latino del secolo d’Augusto, siamo colpiti in un primo momento dalla grande distanza che li separa, e siamo, mi affretto ad aggiungerlo, colpiti ancora di più dalla denominazione differente che si è convenuto di dargli, chiamando questo latino e quello francese.
+                            </ab>                                                                                                                         
                         </div>                            
                     </body>
                 </text>          
@@ -411,37 +360,17 @@
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
                     <body resp="#AC" xml:id="body-inglese">
                         <div xml:id="div_p21_en" hand="#h1" type="box_testo_en">
-                            <ab xml:id="en_91Aaaa056" corresp="#pericope_91Aaaa056" xml:lang="EN">
-                                <lb/>from this it does not follow that geology 
-                                <lb/>is a historical science, at least not in the narrow, precise sense 
-                                <lb/>we are giving this term.
+                            <ab xml:id="en_91Aaaa068" corresp="#pericope_91Aaaa068" xml:lang="EN">
+                                The first perspective from which to approach the idea of History with regard to language or with regard to the basic which gives language a history, is the fundamental fact of its continuity in time; - note that I am not referring to fixedness, which we will come back to shortly, but to continuity.
                             </ab>
-                            <ab xml:id="en_91Aaaa057" corresp="#pericope_91Aaaa057" xml:lang="EN">
-                                <lb/>What then is the second condition that the term historical science 
-                                <lb/>implies? It is that the object which makes up the stuff of history
-                                <lb/>- for example art, religion, costume, etc. - stands in any of its senses, 
-                                <lb/>for human actions, dependent on human intelligence and will -
-                                <lb/>and, moreover, necessarily 
-                                <lb/>interests not only the individual
-                                <lb/>but the community.
+                            <ab xml:id="en_91Aaaa069" corresp="#pericope_91Aaaa069" xml:lang="EN">
+                                It is worth reflecting a moment on this elementary and essential principle of continuity or necessary uninterruptedness which is the first characteristic or first law of the transmission of human speech, valid whatever various revolutions and up-heavals might come to transform conditions... arounf the language.
                             </ab>        
-                            <ab xml:id="en_91Aaaa058" coresp="#pericope_91Aaaa058" xml:lang="EN">
-                                Can linguistic facts be said to be the result 
-                                <lb/>of acts of will? That is the question. The 
-                                <lb/>current science of language gives a positive answer.                        
+                            <ab xml:id="en_91Aaaa070" coresp="#pericope_91Aaaa070" xml:lang="EN">
+                                Whether a people lives peacefully in a secluded valley, wheter it be a farming, warring, or nomadic people, which suddendly changes religion, ideas, social situation, and civilization, wheter it changes homeland and climate, or even language - for it would in that case merely perpetuate by adoption the language of another people - at no time or place has a historical case of the suspension of continuous line of language been known to exist, and one cannot a priori and logically imagine that it might occur in any time or place.
                             </ab>    
-                            <ab xml:id="en_91Aaaa059" corresp="#pericope_91Aaaa059" xml:lang="EN">                                
-                                <lb/>However, one should add immediately that there are many degrees of conscious or unconscious will; furthermore, of all 
-                                <lb/>the acts which can be compared, 
-                                <lb/>the linguistic act, if I might call it that, is characterized as being 
-                                <lb/>the least reflected on, the least premeditated, 
-                                <lb/>as well as the most impersonal of all.
-                            </ab>
-                            <ab xml:id="en_91Aaaa060" corresp="#pericope_91Aaaa060" xml:lang="EN">
-                                That 
-                                <lb/>constitutes a difference of degree, which is so far-reaching 
-                                <lb/>as to have long appeared a fundamental difference 
-                                <lb/>of degree, even though it is but a difference of degree.
+                            <ab xml:id="en_91Aaaa071" corresp="#pericope_91Aaaa071" xml:lang="EN">                                
+                            When we consider a certain état de langue such as nineteenth-century French, and another prior état de langue, such as Latin under the Emperor Augustus, we are initially struck by the great distance which separates them, and we are - and I emphasize this point - even more struck by the different names which have been settled on to refer to them, one being Latin and the other French.
                             </ab>
                         </div>   
                     </body>
