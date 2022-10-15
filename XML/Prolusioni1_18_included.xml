@@ -327,36 +327,36 @@
                             <ab xml:id="pericope_91Aaaa058" n="58" xml:lang="FR" corresp="#it_91Aaaa058 #en_91Aaaa058" facs="#facs_pericope_91Aaaa058">
                                 <lb xml:id="lb11_p18" n="11" facs="#facs_p18_lb11"/>
                                 Les faits linguistiques peuvent-ils passer
-                                <lb xml:id="lb12_p18" n="12" facs="#facs_p18_lb11"/>
+                                <lb xml:id="lb12_p18" n="12" facs="#facs_p18_lb12"/>
                                 pour être le résultat d'actes <del rend="overstrike"/>
-                                <lb xml:id="lb13_p18" n="13" facs="#facs_p18_lb12"/> 
+                                <lb xml:id="lb13_p18" n="13" facs="#facs_p18_lb13"/> 
                                 de notre volonté<pc type="interrogative">?</pc> Telle est donc la question. La 
-                                <lb xml:id="lb14_p18" n="14" facs="#facs_p18_lb13"/> 
+                                <lb xml:id="lb14_p18" n="14" facs="#facs_p18_lb14"/> 
                                 <term ref="#science_du_langage">science du langage</term>, actuelle, yrépond affirmativement.                                
                             </ab>
                             <ab xml:id="pericope_91Aaaa059" n="59" xml:lang="FR" corresp="#it_91Aaaa059 #en_91Aaaa059" facs="#facs_pericope_91Aaaa059">
-                                <lb xml:id="lb15_p18" n="15" facs="#facs_p18_lb14"/>
+                                <lb xml:id="lb15_p18" n="15" facs="#facs_p18_lb15"/>
                                 Seulement il faut ajouter aussitôt 
                                 <add place="margin">qu'il y a beaucoup de <term ref="#glossa-mancante">degrés</term> connus, comme nous savons, dans la <term ref="#volonté">volonté</term> <term ref="#conscience">consciente</term> ou <term ref="#inconscience">inconsciente<supplied reason="omitted-in-original"><pc type="semicolon">;</pc></supplied></term></add>
                                 <subst><del rend="overstrike"/><add> or</add></subst><supplied reason="omitted-in-original">,</supplied> de tous 
-                                <lb xml:id="lb16_p18" n="16" facs="#facs_p18_lb15"/>
+                                <lb xml:id="lb16_p18" n="16" facs="#facs_p18_lb16"/>
                                 les actes qu'on pourrait mettre en parallèle, 
-                                <lb xml:id="lb17_p18" n="17" facs="#facs_p18_lb16"/> 
+                                <lb xml:id="lb17_p18" n="17" facs="#facs_p18_lb17"/> 
                                 l'<term ref="#acte_linguistique">acte linguistique</term>, si je puis le nommer ainsi, <subst><del/><add place="above">a ce caractère d'être</add></subst>  
-                                <lb xml:id="lb18_p18" n="18" facs="#facs_p18_lb17"/> 
+                                <lb xml:id="lb18_p18" n="18" facs="#facs_p18_lb18"/> 
                                 le moins <ref ref="#reflechi">réfléchi</ref>, le moins prémédité, <unclear reason="illegible" cert="medium"><del rend="overstrike" cert="medium">le</del></unclear>
-                                <lb xml:id="lb19_p18" n="19" facs="#facs_p18_lb18"/>
+                                <lb xml:id="lb19_p18" n="19" facs="#facs_p18_lb19"/>
                                 <unclear><del>plus machinal, en mir temps que le</del></unclear>en même
-                                <lb xml:id="lb20_p18" n="20" facs="#facs_p18_lb19"/>
+                                <lb xml:id="lb20_p18" n="20" facs="#facs_p18_lb20"/>
                                 temps que le plus impersonnel de tous.
                             </ab> 
                             <ab xml:id="pericope_91Aaaa060" n="60" xml:lang="FR" corresp="#it_91Aaaa060 #en_91Aaaa060" facs="#facs_pericope_91Aaaa060">
                                 Il y a 
-                                <lb xml:id="lb21_p18" n="21" facs="#facs_p18_lb20"/>
+                                <lb xml:id="lb21_p18" n="21" facs="#facs_p18_lb21"/>
                                 là une <term ref="#différence1">différence de degré</term>, qui va si loin qu'elle
-                                <lb xml:id="lb22_p18" n="22" facs="#facs_p18_lb21"/> 
+                                <lb xml:id="lb22_p18" n="22" facs="#facs_p18_lb22"/> 
                                 a longtemps donné l'illusion d'<choice cert="high"><abbr>1</abbr><expan>une</expan></choice> <term ref="#différence1">différence es<pc force="weak">-</pc></term>
-                                <lb xml:id="lb23_p18" n="23" facs="#facs_p18_lb22"/>
+                                <lb xml:id="lb23_p18" n="23" facs="#facs_p18_lb23"/>
                                 <pc>-</pc><term ref="#différence1">sentielle</term>, mais qui n'est en réalité qu'<choice cert="high"><abbr>1</abbr><expan>une</expan></choice> <choice><abbr>diff<am>.</am></abbr><expan>diff<ex>érence</ex></expan></choice> de degrés.                                                            
                             </ab>
                         </div>

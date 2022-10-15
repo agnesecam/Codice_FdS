@@ -303,32 +303,74 @@
                         </ab>
                         <div xml:id="div_p21_fr" hand="#h1" type="box_testo" >
                             <ab xml:id="pericope_91Aaaa068" n="68" xml:lang="FR" corresp="#it_91Aaaa068 #en_91Aaaa068" facs="#facs_pericope_91Aaaa068" part="f" >
-                                <lb xml:id="lb1_p21" n="1" facs="#facs_p21_lb1"/> 
-                                <lb xml:id="lb2_p21" n="2" facs="#facs_p21_lb2"/> 
+                                <lb xml:id="lb1_p21" n="1" facs="#facs_p21_lb1"/>
+                                Le <hi rend="underline">premier aspect</hi> <add place="above" resp="#FdS"> en effet </add>sous lequel <subst><del rend="overstrike">se présente l’idée</del><add place="above"><del rend="overstrike">doit être</del></add></subst>
+                                <lb xml:id="lb2_p21" n="2" facs="#facs_p21_lb2"/>
+                                doit être envisagée l’<term ref="#glossa-mancante">idée</term> d'<hi rend="underline"><term ref="#histoire">Histoire</term></hi> quand il s'agit
                                 <lb xml:id="lb3_p21" n="3" facs="#facs_p21_lb3"/>
+                                de la <term ref="#langue1">langue</term> ou la première chose qui <hi rend="underline">fait</hi> que la
+                                <lb xml:id="lb4_p21" n="4" facs="#facs_p21_lb4"/> 
+                                <term ref="#langue1">langue</term> a une <term ref="#histoire">histoire</term>, c'est le <term ref="#fait">fait <del rend="overstrike">de sa</del>
+                                <lb xml:id="lb5_p21" n="5" facs="#facs_p21_lb5"/>
+                                <del rend="overstrike">continui</del>fondamental</term> de sa <hi rend="underline"><term ref="#continuité1">continuité</term></hi>
+                                <lb xml:id="lb6_p21" n="6" facs="#facs_p21_lb6"/>
+                                <hi rend="underline">dans le <term ref="#temps">temps</term>; </hi> - je ne dis pas, veuillez le remarquer,
+                                <lb xml:id="lb7_p21" n="7" facs="#facs_p21_lb7"/>
+                                de sa <hi rend="underline"><term ref="#fixité">fixité</term></hi>, dont nous parlerons tout à l'heure, <hi rend="underline">mais</hi> de sa <hi rend="underline"><term ref="#continuité1">continuité</term></hi>.
                             </ab>                           
                             <ab xml:id="pericope_91Aaaa069" n="69" xml:lang="FR" corresp="#it_91Aaaa069 #en_91Aaaa069" facs="#facs_pericope_91Aaaa069"> 
-                                <lb xml:id="lb4_p21" n="4" facs="#facs_p21_lb4"/> 
-                                <lb xml:id="lb5_p21" n="5" facs="#facs_p21_lb5"/>
-                                <lb xml:id="lb6_p21" n="6" facs="#facs_p21_lb6"/>
-                                <lb xml:id="lb7_p21" n="7" facs="#facs_p21_lb7"/>
+                                <subst><del rend="overstrike" resp="#FdS"><gap extent="1 word" reason="deleted" /></del> <add place="above" resp="#FdS">Il vaut la </add></subst>
                                 <lb xml:id="lb8_p21" n="8" facs="#facs_p21_lb8"/>
+                                <add place="left" resp="#FdS">peine<add place="above" resp="#FdS"> de</add></add> nous <add place="above" resp="#FdS">arrêter</add> un instant <subst><del rend="overstrike">à</del> <add place="above" resp="#FdS">devant</add></subst> ce <term ref="#glossa-mancante">principe</term>, <subst><del rend="overstrike" resp="#FdS"><gap extent="1 word" reason="deleted" /></del> <add place="above" resp="#FdS">élémentaire et essentiel</add></subst> de la
                                 <lb xml:id="lb9_p21" n="9" facs="#facs_p21_lb9"/>
+                                <hi rend="underline"><term ref="#continuité1">continuité</term></hi> ou de <hi rend="underline">l’<term ref="#ininterruption">ininterruption</term></hi> forcée <gap extent="1 word" reason="deleted" />
                                 <lb xml:id="lb10_p21" n="10" facs="#facs_p21_lb10"/>
+                                qui <subst><del rend="overstrike" resp="#FdS"><gap extent="1 word" reason="deleted" /></del><add place="above"><gap extent="2 words" reason="deleted" /></add></subst>
+                                <add place="above" resp="#FdS">est</add> <add place="left" resp="#FdS">le <term ref="#glossa-mancante">premier</term> <term ref="#glossa-mancante">caractère</term> ou la <term ref="#glossa-mancante">première</term> <term ref="#loi1">loi</term></add> 
+                                de la <term ref="#glossa-mancante">transmission</term> du <add place="above" resp="#FdS"><gap extent="1 word" reason="deleted" /></add><term ref="#parler_humain">parler humain</term>
+                                <lb xml:id="lb11_p21" n="11" facs="#facs_p21_lb11"/>
+                                <del><gap extent="1" unity="line"/></del>
+                                <lb xml:id="lb12_p21" n="12" facs="#facs_p21_lb12"/>
+                                <add place="above" resp="#FdS">et cela</add> quelles que soient, autour de la <term ref="#langue1">langue</term>, les révolu<pc force="weak">-</pc>
+                                <lb xml:id="lb13_p21" n="13" facs="#facs_p21_lb13"/>
+                                <pc force="weak">=</pc>tions <add place="above" resp="#FdS">et les secousses</add> de tout genre qui peuvent <!-- spazio cancellato -->
+                                <lb xml:id="lb14_p21" n="14" facs="#facs_p21_lb14"/>
+                                <del><gap extent="2 lines" reason="deleted" /></del>
+                                <lb xml:id="lb16_p21" n="16" facs="#facs_p21_lb16"/>
+                                changer <subst><del rend="overstrike" resp="#FdS"><gap extent="1 word" reason="deleted" /></del><add place="above" resp="#FdS">toutes les</add></subst> conditions. 
                             </ab>
                             <ab xml:id="pericope_91Aaaa070" n="70" xml:lang="FR" corresp="#it_91Aaaa070 #en_91Aaaa070" facs="#facs_pericope_91Aaaa070">
-                                <lb xml:id="lb11_p21" n="11" facs="#facs_p21_lb11"/>
-                                <lb xml:id="lb12_p21" n="12" facs="#facs_p21_lb11"/>
-                                <lb xml:id="lb13_p21" n="13" facs="#facs_p21_lb12"/> 
-                                <lb xml:id="lb14_p21" n="14" facs="#facs_p21_lb13"/> 
+                                Qu<del rend="overstrike">e</del>'un peuple 
+                                <lb xml:id="lb17_p21" n="17" facs="#facs_p21_lb17"/>
+                                vive paisible au fond d'une vallée retirée,
+                                <lb xml:id="lb18_p21" n="18" facs="#facs_p21_lb18"/>
+                                qu'il soit <subst><del rend="overstrike" resp="#FdS"><gap extent="3 words" reason="deleted" /></del> <add place="above" resp="#FdS">un peuple agriculteur, guerrier, nomade</add></subst>, qu'il
+                                <lb xml:id="lb19_p21" n="19" facs="#facs_p21_lb19"/>
+                                <gap extent="1 words" reason="deleted" />change <add place="above" resp="#FdS">subitement</add> de <subst><del rend="overstrike" resp="#FdS"><gap extent="3 words" reason="deleted" /></del><add place="above" resp="#FdS">religion, d<del rend="overstrike">e</del>'<term ref="#glossa-mancante">idées</term>,</add></subst> d'état <term ref="#glossa-mancante">social</term> et
+                                <lb xml:id="lb20_p21" n="20" facs="#facs_p21_lb20"/>
+                                de civilisation, qu'il change de patrie et de climat, 
+                                <lb xml:id="lb21_p21" n="21" facs="#facs_p21_lb21"/>
+                                qu'il change même de <hi rend="underline"><term ref="#langue1">langue</term></hi>, - car alors il <subst><del rend="overstrike" resp="#FdS"><gap extent="1 word" reason="deleted" /></del><add place="above" resp="#FdS"> ne fera que continuer en l'adoptant </add></subst>celle d'un autre peuple-
+                                <lb xml:id="lb22_p21" n="22" facs="#facs_p21_lb22"/>
+                                <hi rend="underline">jamais et nulle part</hi> <gap extent="2 words" reason="deleted" /> on ne connaît pas <term ref="#histoire">historiquement</term> de rupture
+                                <lb xml:id="lb23_p21" n="23" facs="#facs_p21_lb23"/>
+                                dans la trame <subst><del rend="overstrike" resp="#FdS"><gap extent="2 words" reason="deleted" /></del><add place="above" resp="#FdS">continue du</add></subst> <term ref="#langage1">langage</term>, et on ne
+                                <lb xml:id="lb24_p21" n="24" facs="#facs_p21_lb24"/>
+                                peut logiquement et <hi rend="underline">a priori</hi> concevoir qu'il
+                                <lb xml:id="lb25_p21" n="25" facs="#facs_p21_lb25"/>
+                                puisse jamais <add place="below" resp="#FdS">et nulle part</add> s'en produire.
+                                <lb xml:id="lb26_p21" n="26" facs="#facs_p21_lb26"/>
+                                <abbr>T.H.V.P.</abbr>
                             </ab>
                             <ab xml:id="pericope_91Aaaa071" n="71" xml:lang="FR" corresp="#it_91Aaaa071 #en_91Aaaa071" facs="#facs_pericope_91Aaaa071">
-                                <lb xml:id="lb15_p21" n="15" facs="#facs_p21_lb14"/>
-                                <lb xml:id="lb16_p21" n="16" facs="#facs_p21_lb15"/>
-                                <lb xml:id="lb17_p21" n="17" facs="#facs_p21_lb16"/> 
-                                <lb xml:id="lb18_p21" n="18" facs="#facs_p21_lb17"/> 
-                                <lb xml:id="lb19_p21" n="19" facs="#facs_p21_lb18"/>
-                                <lb xml:id="lb20_p21" n="20" facs="#facs_p21_lb19"/>
+                                <lb xml:id="lb27_p21" n="27" facs="#facs_p21_lb27"/>
+                                Lorsque nous considérons un certain
+                                <lb xml:id="lb28_p21" n="28" facs="#facs_p21_lb28"/>
+                                <term ref="#état_de_langue">état de langue</term> comme le français du XIXe siècle,
+                                <lb xml:id="lb29_p21" n="29" facs="#facs_p21_lb29"/>
+                                et un certain état de langue antérieur, comme
+                                <lb xml:id="lb30_p21" n="30" facs="#facs_p21_lb30"/>
+                                <choice><abbr resp="#FdS">p.ex</abbr><expan>par exemple</expan></choice> le latin du siècle d'Auguste, nous sommes frap<pc force="weak">=</pc>
                             </ab> 
                         </div>
                     </body> 
