@@ -256,40 +256,40 @@
     </teiHeader>
     
     <facsimile>
-        <!--VENTISETTESIMA PAGINA-->
-        <surface n="15" xml:id="scan_p27">
-            <graphic url='ms_fr_03951_01_1_p027-resized.jpg' width='600px' height='900px'/> 
+        <!--VENTOTTESIMA PAGINA-->
+        <surface n="15" xml:id="scan_p28">
+            <graphic url='ms_fr_03951_01_1_p028-resized.jpg' width='600px' height='900px'/> 
             <!--Righe-->
-            <zone points = ' 117,88,556,98,548,116,122,112 ' rendition="line" xml:id="facs_p27_lb1"/>                       
-            <zone points = ' 119,120,554,124,547,147,121,142' rendition="line" xml:id="facs_p27_lb2"/>  
-            <zone points = ' 123,155,524,158,523,176,123,178' rendition="line" xml:id="facs_p27_lb3"/>  
-            <zone points = ' 124,185,524,179,520,201,124,205'  rendition="line" xml:id="facs_p27_lb4"/>            
-            <zone points = ' 124,213,520,203,520,227,124,230'  rendition="line" xml:id="facs_p27_lb5"/>
-            <zone points = ' 124,240,553,232,548,262,126,263' rendition="line" xml:id="facs_p27_lb6"/>
-            <zone points = '128,266,537,266,532,286,131,290'   rendition="line" xml:id="facs_p27_lb7"/>
-            <zone points = ' 126,291,368,285,358,301,123,315' rendition="line" xml:id="facs_p27_lb8"/>
-            <zone points = ' 181,316,358,301,522,314,521,332,182,338'  rendition="line" xml:id="facs_p27_lb9"/>
-            <zone points = ' 140,341,540,333,544,357,137,367'  rendition="line" xml:id="facs_p27_lb10"/>
-            <zone points = ' 52,369,540,356,540,373,58,393' rendition="line" xml:id="facs_p27_lb11"/>
-            <zone points = ' 130,401,389,391,389,374,554,378,549,408,139,418 ' rendition="line" xml:id="facs_p27_lb12"/>
-            <zone points = '  34,424,26,454,534,435,523,410' rendition="line" xml:id="facs_p27_lb13"/>    
-            <zone points = '135,454,554,440,552,473,140,477'  rendition="line" xml:id="facs_p27_lb14"/>    
-            <zone points = '139,478,540,473,536,491,139,505'  rendition="line" xml:id="facs_p27_lb15"/>    
-            <zone points = ' 142,509,541,494,542,516,139,532' rendition="line" xml:id="facs_p27_lb16"/>    
-            <zone points = ' 139,541,521,522,521,543,142,568' rendition="line" xml:id="facs_p27_lb17"/>    
-            <zone points = '141,569,552,546,549,573,143,586' rendition="line" xml:id="facs_p27_lb18"/>    
-            <zone points = ' 145,587,552,579,545,595,141,615 ' rendition="line" xml:id="facs_p27_lb19"/>    
-            <zone points = ' 147,618,545,600,543,620,137,638' rendition="line" xml:id="facs_p27_lb20"/>    
-            <zone points = ' 145,643,538,625,545,648,144,664' rendition="line" xml:id="facs_p27_lb21"/>    
-            <zone points = ' 149,673,549,655,554,678,147,690' rendition="line" xml:id="facs_p27_lb22"/>    
-            <zone points = ' 107,695,537,685,544,709,111,723' rendition="line" xml:id="facs_p27_lb23"/>    
-            <zone points = ' 145,724,141,747,439,736,433,714' rendition="line" xml:id="facs_p27_lb24"/>    
-            <zone points = ' 210,753,205,790,513,766,515,747' rendition="line" xml:id="facs_p27_lb25"/>           
-            <zone points = ' 157,787,154,817,515,793,512,774' rendition="line" xml:id="facs_p27_lb26"/>        
-            <zone points = ' 161,815,159,840,535,821,527,801' rendition="line" xml:id="facs_p27_lb27"/>                
-            <zone points = ' 322,829,558,822, 561,848 ,326,844' rendition="line" xml:id="facs_p27_lb28"/>                
+            <zone points = ' 117,88,556,98,548,116,122,112 ' rendition="line" xml:id="facs_p28_lb1"/>                       
+            <zone points = ' 119,120,554,124,547,147,121,142' rendition="line" xml:id="facs_p28_lb2"/>  
+            <zone points = ' 123,155,524,158,523,176,123,178' rendition="line" xml:id="facs_p28_lb3"/>  
+            <zone points = ' 124,185,524,179,520,201,124,205'  rendition="line" xml:id="facs_p28_lb4"/>            
+            <zone points = ' 124,213,520,203,520,227,124,230'  rendition="line" xml:id="facs_p28_lb5"/>
+            <zone points = ' 124,240,553,232,548,262,126,263' rendition="line" xml:id="facs_p28_lb6"/>
+            <zone points = '128,266,537,266,532,286,131,290'   rendition="line" xml:id="facs_p28_lb7"/>
+            <zone points = ' 126,291,368,285,358,301,123,315' rendition="line" xml:id="facs_p28_lb8"/>
+            <zone points = ' 181,316,358,301,522,314,521,332,182,338'  rendition="line" xml:id="facs_p28_lb9"/>
+            <zone points = ' 140,341,540,333,544,357,137,367'  rendition="line" xml:id="facs_p28_lb10"/>
+            <zone points = ' 52,369,540,356,540,373,58,393' rendition="line" xml:id="facs_p28_lb11"/>
+            <zone points = ' 130,401,389,391,389,374,554,378,549,408,139,418 ' rendition="line" xml:id="facs_p28_lb12"/>
+            <zone points = '  34,424,26,454,534,435,523,410' rendition="line" xml:id="facs_p28_lb13"/>    
+            <zone points = '135,454,554,440,552,473,140,477'  rendition="line" xml:id="facs_p28_lb14"/>    
+            <zone points = '139,478,540,473,536,491,139,505'  rendition="line" xml:id="facs_p28_lb15"/>    
+            <zone points = ' 142,509,541,494,542,516,139,532' rendition="line" xml:id="facs_p28_lb16"/>    
+            <zone points = ' 139,541,521,522,521,543,142,568' rendition="line" xml:id="facs_p28_lb17"/>    
+            <zone points = '141,569,552,546,549,573,143,586' rendition="line" xml:id="facs_p28_lb18"/>    
+            <zone points = ' 145,587,552,579,545,595,141,615 ' rendition="line" xml:id="facs_p28_lb19"/>    
+            <zone points = ' 147,618,545,600,543,620,137,638' rendition="line" xml:id="facs_p28_lb20"/>    
+            <zone points = ' 145,643,538,625,545,648,144,664' rendition="line" xml:id="facs_p28_lb21"/>    
+            <zone points = ' 149,673,549,655,554,678,147,690' rendition="line" xml:id="facs_p28_lb22"/>    
+            <zone points = ' 107,695,537,685,544,709,111,723' rendition="line" xml:id="facs_p28_lb23"/>    
+            <zone points = ' 145,724,141,747,439,736,433,714' rendition="line" xml:id="facs_p28_lb24"/>    
+            <zone points = ' 210,753,205,790,513,766,515,747' rendition="line" xml:id="facs_p28_lb25"/>           
+            <zone points = ' 157,787,154,817,515,793,512,774' rendition="line" xml:id="facs_p28_lb26"/>        
+            <zone points = ' 161,815,159,840,535,821,527,801' rendition="line" xml:id="facs_p28_lb27"/>                
+            <zone points = ' 322,829,558,822, 561,848 ,326,844' rendition="line" xml:id="facs_p28_lb28"/>                
     
-            <zone points = '42,85,37,53,98,62'  rendition="line" xml:id="facs_HandPageNumber-27"/>     <!--Numero 27 cerchiato in alto a sx-->           
+            <zone points = '42,85,37,53,98,62'  rendition="line" xml:id="facs_HandPageNumber-28"/>     <!--Numero 28 cerchiato in alto a sx-->           
 
         </surface>
     </facsimile>
@@ -300,85 +300,85 @@
             <group xml:id="fr_Prolusioni"> <!--TESTO FRANCESE DELLE 3 PROLUSIONI-->
                 <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
                     <body xml:lang="fr" source="#Bouquet-Engler2002" xml:id="body-francese">
-                        <!--Ventisettesima pagina-->
-                        <pb n="f1r" xml:id="body_p27" facs="#scan_p27"/>
+                        <!--Ventottesima pagina-->
+                        <pb n="f1r" xml:id="body_p28" facs="#scan_p28"/>
                         <!--Numeri impaginazione a stampa e a mano-->
                         <ab>
-                            <fw type="pageNum" xml:id="HandPageNumber-27" rend="align(left)" facs="#facs_HandPageNumber-27"> 27 </fw>
+                            <fw type="pageNum" xml:id="HandPageNumber-28" rend="align(left)" facs="#facs_HandPageNumber-28"> 28 </fw>
                         </ab>
-                        <div xml:id="div_p27_fr" hand="#h1" type="box_testo" >
-                            <ab xml:id="pericope_91Aaaa087" n="87" xml:lang="FR" corresp="#it_91Aaaa087 #en_91Aaaa087" facs="#facs_pericope_91Aaaa087" part="f" >
-                                <lb xml:id="lb1_p27" n="1" facs="#facs_p27_lb1"/>
+                        <div xml:id="div_p28_fr" hand="#h1" type="box_testo" >
+                            <ab xml:id="pericope_91Aaaa093" n="93" xml:lang="FR" corresp="#it_91Aaaa093 #en_91Aaaa093" facs="#facs_pericope_91Aaaa093" part="f" >
+                                <lb xml:id="lb1_p28" n="1" facs="#facs_p28_lb1"/>
                                 ce ne sont pas lé des causes<emph rend="italics"> <term ref="#linguistique-A1">linguistiques</term></emph>.
                             </ab>                           
-                            <ab xml:id="pericope_91Aaaa088" n="88" xml:lang="FR" corresp="#it_91Aaaa088 #en_91Aaaa088" facs="#facs_pericope_91Aaaa088">                                 
+                            <ab xml:id="pericope_91Aaaa094" n="94" xml:lang="FR" corresp="#it_91Aaaa094 #en_91Aaaa094" facs="#facs_pericope_91Aaaa094">                                 
                                 Il n'<w>ar<pc force="weak">=</pc>
-                                <lb xml:id="lb2_p27" n="2" facs="#facs_p27_lb2"/>                                
+                                <lb xml:id="lb2_p28" n="2" facs="#facs_p28_lb2"/>                                
                                 <pc force="weak">=</pc>rive</w> jamais qu'une <term ref="#langue1">langue</term> meure d'épuisement
-                                <lb xml:id="lb3_p27" n="3" facs="#facs_p27_lb3"/>
+                                <lb xml:id="lb3_p28" n="3" facs="#facs_p28_lb3"/>
                                 intérieur,<del rend="overstrike"><gap reason="illegible" unit="word" quantity="5"/></del> après avoir
-                                <lb xml:id="lb4_p27" n="4" facs="#facs_p27_lb4"/>
+                                <lb xml:id="lb4_p28" n="4" facs="#facs_p28_lb4"/>
                                 achevé sa carrière qui lui était donnée. En elle_
-                                <lb xml:id="lb5_p27" n="5" facs="#facs_p27_lb5"/>
+                                <lb xml:id="lb5_p28" n="5" facs="#facs_p28_lb5"/>
                                 même elle est impérissable, <choice><abbr>c.a.d.</abbr><expan>c'est é dire</expan></choice> qu'il n'y
-                                <lb xml:id="lb6_p27" n="6" facs="#facs_p27_lb6"/>
+                                <lb xml:id="lb6_p28" n="6" facs="#facs_p28_lb6"/>
                                 a aucune raison pour que sa <term ref="#glossa-mancante">transmission</term> s'arrête
-                                <lb xml:id="lb7_p27" n="7" facs="#facs_p27_lb7"/>
+                                <lb xml:id="lb7_p28" n="7" facs="#facs_p28_lb7"/>
                                 <del rend="overstrike"><gap reason="illegible" unit="word" quantity="4"/></del> pour une cause tenant é<del rend="overstrike"><gap reason="illegible" unit="word" quantity="2" /></del>
-                                <lb xml:id="lb8_p27" n="8" facs="#facs_p27_lb8"/>
+                                <lb xml:id="lb8_p28" n="8" facs="#facs_p28_lb8"/>
                                 l'organisation de cette <term ref="#langue1">langue</term>.
                             </ab>
-                            <ab xml:id="pericope_91Aaaa089" n="89" xml:lang="FR" corresp="#it_91Aaaa089 #en_91Aaaa089" facs="#facs_pericope_91Aaaa089">
-                                <lb xml:id="lb9_p27" n="9" facs="#facs_p27_lb9"/>
+                            <ab xml:id="pericope_91Aaaa095" n="95" xml:lang="FR" corresp="#it_91Aaaa095 #en_91Aaaa095" facs="#facs_pericope_91Aaaa095">
+                                <lb xml:id="lb9_p28" n="9" facs="#facs_p28_lb9"/>
                                 On lit presque <subst><del rend="overstrike"><gap reason="illegible" unit="word" quantity="2"/></del><add place="above">é la <choice><abbr>p°</abbr><expan>premère</expan></choice> page</add></subst> d'un ouvrage
-                                <lb xml:id="lb10_p27" n="10" facs="#facs_p27_lb10"/>       
+                                <lb xml:id="lb10_p28" n="10" facs="#facs_p28_lb10"/>       
                                 de <persName ref="#Hovelacque">M. Hovelacque</persName> sur la <term ref="#linguistique-N">linguistique</term>: <del rend="overstrike"><gap reason="illegible" unit="word" quantity="2" /></del>
-                                <lb xml:id="lb11_p27" n="11" facs="#facs_p27_lb11"/>
+                                <lb xml:id="lb11_p28" n="11" facs="#facs_p28_lb11"/>
                                 <del rend="align(left) overstrike">cette sentence</del><subst><del rend="overstrike"><gap reason="illegible" unit="word" quantity="3" /></del><add place="above"><gap reason="illegible" unit="word" quantity="2" /></add></subst><q> La <term ref="#langue1">langue</term> naît, croît, dépérit 
-                                <lb xml:id="lb12_p27" n="12" facs="#facs_p27_lb12"/>
+                                <lb xml:id="lb12_p28" n="12" facs="#facs_p28_lb12"/>
                                 et meurt comme tout être organisé.</q>                                
                             </ab>
-                            <ab xml:id="pericope_91Aaaa090" n="90" xml:lang="FR" corresp="#it_91Aaaa090 #en_91Aaaa090" facs="#facs_pericope_91Aaaa090">
+                            <ab xml:id="pericope_91Aaaa096" n="96" xml:lang="FR" corresp="#it_91Aaaa096 #en_91Aaaa096" facs="#facs_pericope_91Aaaa096">
                             <subst><del rend="overstrike"><gap reason="illegible" /></del><add place="above">Cette phrase est <choice><abbr>absol.</abbr><expan>absolument</expan></choice> typique</add></subst> de la conception
-                            <lb xml:id="lb13_p27" n="13" facs="#facs_p27_lb13"/>
+                            <lb xml:id="lb13_p28" n="13" facs="#facs_p28_lb13"/>
                             <subst><del rend=" align(left) overstrike"><gap reason="illegible" unit="word" quantity="3"/></del><del rend="underline overstrike"><gap reason="illegible" unit="word" quantity="1" /></del><add place="above">si répandue même chez les <term ref="#linguiste">linguistes</term>,</add></subst> qu'on s'épuise é combattre, et qui a
-                            <lb xml:id="lb14_p27" n="14" facs="#facs_p27_lb14"/>
+                            <lb xml:id="lb14_p28" n="14" facs="#facs_p28_lb14"/>
                             mené directement é faire de la<del rend="overstrike"> langue une</del> <term ref="#linguistique-N">linguistique</term>
-                            <lb xml:id="lb15_p27" n="15" facs="#facs_p27_lb15"/>
+                            <lb xml:id="lb15_p28" n="15" facs="#facs_p28_lb15"/>
                             une <term ref="#science_naturelle">science naturelle</term>.
                             </ab>                             
-                            <ab xml:id="pericope_91Aaaa091" n="91" xml:lang="FR" corresp="#it_91Aaaa091 #en_91Aaaa091" facs="#facs_pericope_91Aaaa091">
+                            <ab xml:id="pericope_91Aaaa097" n="97" xml:lang="FR" corresp="#it_91Aaaa097 #en_91Aaaa097" facs="#facs_pericope_91Aaaa097">
                                 Non, la <term ref="#langue1">langue</term> n'est pas
-                                <lb xml:id="lb16_p27" n="16" facs="#facs_p27_lb16"/>
+                                <lb xml:id="lb16_p28" n="16" facs="#facs_p28_lb16"/>
                                 un organisme, elle n'est pas une végétation
-                                <lb xml:id="lb17_p27" n="17" facs="#facs_p27_lb17"/>
+                                <lb xml:id="lb17_p28" n="17" facs="#facs_p28_lb17"/>
                                 qui existe <term ref="#glossa-mancante">indépendamment</term> de l'<term ref="#glossa-mancante">homme</term>, elle<del rend="overstrike"><gap reason="unclear" unit="word" atLeast="2" atMost="3"/></del>
-                                <lb xml:id="lb18_p27" n="18" facs="#facs_p27_lb18"/>
+                                <lb xml:id="lb18_p28" n="18" facs="#facs_p28_lb18"/>
                                 n'a pas une <term ref="#glossa-mancante">vie</term> é elle<del rend="overstrike">: elle ne</del> entraînant une
-                                <lb xml:id="lb19_p27" n="19" facs="#facs_p27_lb19"/>
+                                <lb xml:id="lb19_p28" n="19" facs="#facs_p28_lb19"/>
                                 naissance et une mort.
                             </ab>                             
-                            <ab xml:id="pericope_91Aaaa092" n="92" xml:lang="FR" corresp="#it_91Aaaa092 #en_91Aaaa092" facs="#facs_pericope_91Aaaa092">                                
+                            <ab xml:id="pericope_91Aaaa098" n="98" xml:lang="FR" corresp="#it_91Aaaa098 #en_91Aaaa098" facs="#facs_pericope_91Aaaa098">                                
                                 Tout est faux dans la phrase
-                                <lb xml:id="lb20_p27" n="20" facs="#facs_p27_lb20"/>
+                                <lb xml:id="lb20_p28" n="20" facs="#facs_p28_lb20"/>
                                 que j'ai lue: la <term ref="#langue1">langue</term> n'est pas un être organisé, elle
-                                <lb xml:id="lb21_p27" n="21" facs="#facs_p27_lb21"/>
+                                <lb xml:id="lb21_p28" n="21" facs="#facs_p28_lb21"/>
                                 ne meurt pas d'elle-même, elle ne dépérit pas, elle
-                                <lb xml:id="lb22_p27" n="22" facs="#facs_p27_lb22"/>
+                                <lb xml:id="lb22_p28" n="22" facs="#facs_p28_lb22"/>
                                 ne croît pas, en ce sens qu'elle n'a pas <subst><del rend="overstrike"><gap reason="illegible" unit="word" quantity="1"/></del><add place="below">plus</add></subst>
-                                <lb xml:id="lb23_p27" n="23" facs="#facs_p27_lb23"/>
+                                <lb xml:id="lb23_p28" n="23" facs="#facs_p28_lb23"/>
                                 une <subst><del rend="overstrike">jeunesse</del> <add place="above"> enfance</add></subst> qu'un âge mûr ou une vieillesse, et enfin elle
-                                <lb xml:id="lb24_p27" n="24" facs="#facs_p27_lb24"/>
+                                <lb xml:id="lb24_p28" n="24" facs="#facs_p28_lb24"/>
                                 ne naît pas comme <choice><abbr>ns</abbr><expan>nous</expan></choice> allons le voir.                                
                             </ab>                            
-                            <ab xml:id="pericope_91Aaaa093" n="93" xml:lang="FR" corresp="#it_91Aaaa093 #en_91Aaaa093" facs="#facs_pericope_91Aaaa093" part="i">                                
-                                <lb xml:id="lb25_p27" n="25" facs="#facs_p27_lb25"/>
+                            <ab xml:id="pericope_91Aaaa099" n="99" xml:lang="FR" corresp="#it_91Aaaa099 #en_91Aaaa099" facs="#facs_pericope_91Aaaa099" part="i">                                
+                                <lb xml:id="lb25_p28" n="25" facs="#facs_p28_lb25"/>
                                 Jamais on n'a signalé en effet sur
-                                <lb xml:id="lb26_p27" n="26" facs="#facs_p27_lb26"/>
+                                <lb xml:id="lb26_p28" n="26" facs="#facs_p28_lb26"/>
                                 le globe la naissance d'une <term ref="#langue1">langue</term> nouvelle. On a
-                                <lb xml:id="lb27_p27" n="27" facs="#facs_p27_lb27"/>  
+                                <lb xml:id="lb27_p28" n="27" facs="#facs_p28_lb27"/>  
                                 vu des astres nouveaux<del rend="overstrike"><gap reason="illegible" unit="word" quantity="1" /></del> apparaître subitement
-                                <lb xml:id="lb28_p27" n="28" facs="#facs_p27_lb28"/>  
+                                <lb xml:id="lb28_p28" n="28" facs="#facs_p28_lb28"/>  
                                 au milieu des constellations connues du ciel,
                             </ab> 
                         </div>
@@ -389,7 +389,7 @@
             <group xml:id="it_Prolusioni" xml:lang="IT"> <!--TRADUZIONI ITALIANO DELLE 3 PROLUSIONI-->
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
-                        <div xml:id="div_p27_it" hand="#h1" type="box_testo_it">
+                        <div xml:id="div_p28_it" hand="#h1" type="box_testo_it">
                             <ab xml:id="it_91Aaaa093" corresp="#pericope_91Aaaa093" xml:lang="IT" part="f">
                                 <lb/>Ma queste non sono cause linguistiche.
                             </ab>
@@ -444,11 +444,11 @@
             <group xml:id="en_Prolusioni" xml:lang="EN" > <!--TRADUZIONI INGLESE DELLE 3 PROLUSIONI-->
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
                     <body resp="#AC" xml:id="body-inglese">
-                        <div xml:id="div_p27_en" hand="#h1" type="box_testo_en">
-                            <ab xml:id="en_91Aaaa087" corresp="#pericope_91Aaaa087" xml:lang="EN">
+                        <div xml:id="div_p28_en" hand="#h1" type="box_testo_en">
+                            <ab xml:id="en_91Aaaa093" corresp="#pericope_91Aaaa093" xml:lang="EN">
                                 <lb/>But these are not linguistic outcomes.
                             </ab>
-                            <ab xml:id="en_91Aaaa06988" corresp="#pericope_91Aaaa088" xml:lang="EN">
+                            <ab xml:id="en_91Aaaa06994" corresp="#pericope_91Aaaa094" xml:lang="EN">
                                 A lan-
                                 <lb/>guage never dies of inner 
                                 <lb/>exhaustion, after having completed 
@@ -458,25 +458,25 @@
                                 <lb/>of the language itself 
                                 <lb/>that causes its transmission to cease.
                             </ab>        
-                            <ab xml:id="en_91Aaaa089" coresp="#pericope_91Aaaa089" xml:lang="EN">
+                            <ab xml:id="en_91Aaaa095" coresp="#pericope_91Aaaa095" xml:lang="EN">
                                 Near the beginning of his work 
                                 <lb/>on linguistics, M. Hovelacque 
                                 <lb/>says: 'A language is born, grows, weakens and dies like any organic being'.
                             </ab>    
-                            <ab xml:id="en_91Aaaa090" corresp="#pericope_91Aaaa090" xml:lang="EN">                                
+                            <ab xml:id="en_91Aaaa096" corresp="#pericope_91Aaaa096" xml:lang="EN">                                
                                 This sentence is absolutely typical of the conception, 
                                 <lb/>so widespread when among linguists that one wearies of fighting it, 
                                 <lb/>which leads directly to a definition of linguistics 
                                 <lb/>as a natural science.
                             </ab>                            
-                            <ab xml:id="en_91Aaaa091" corresp="#pericope_91Aaaa091" xml:lang="EN">                                
+                            <ab xml:id="en_91Aaaa097" corresp="#pericope_91Aaaa097" xml:lang="EN">                                
                                 No, a language is not 
                                 <lb/>an organism, it is not a plant 
                                 <lb/>with an existence independent of humankind,
                                 <lb/>it does not have a life of its own 
                                 <lb/>which leads to birth and death.
                             </ab>                            
-                            <ab xml:id="en_91Aaaa092" corresp="#pericope_91Aaaa092" xml:lang="EN">                                
+                            <ab xml:id="en_91Aaaa098" corresp="#pericope_91Aaaa098" xml:lang="EN">                                
                                 Everything in the sentence 
                                 <lb/>that I quoted is wrong: a language is not an organic being, 
                                 <lb/>it does not of itself die, weaken, 
@@ -484,7 +484,7 @@
                                 <lb/>childhood than middle or old age, 
                                 <lb/>and is not even born, as we shall see.
                             </ab>                            
-                            <ab xml:id="en_91Aaaa093" corresp="#pericope_91Aaaa093" xml:lang="EN">                                
+                            <ab xml:id="en_91Aaaa099" corresp="#pericope_91Aaaa099" xml:lang="EN">                                
                                 <lb/>The actual birth of a new language 
                                 <lb/>has never been reported anywhere in the world. We 
                                 <lb/>have seen new stars appear suddendly 
