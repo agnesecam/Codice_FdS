@@ -260,36 +260,39 @@
         <surface n="15" xml:id="scan_p28">
             <graphic url='ms_fr_03951_01_1_p028-resized.jpg' width='600px' height='900px'/> 
             <!--Righe-->
-            <zone points = ' 117,88,556,98,548,116,122,112 ' rendition="line" xml:id="facs_p28_lb1"/>                       
-            <zone points = ' 119,120,554,124,547,147,121,142' rendition="line" xml:id="facs_p28_lb2"/>  
-            <zone points = ' 123,155,524,158,523,176,123,178' rendition="line" xml:id="facs_p28_lb3"/>  
-            <zone points = ' 124,185,524,179,520,201,124,205'  rendition="line" xml:id="facs_p28_lb4"/>            
-            <zone points = ' 124,213,520,203,520,227,124,230'  rendition="line" xml:id="facs_p28_lb5"/>
-            <zone points = ' 124,240,553,232,548,262,126,263' rendition="line" xml:id="facs_p28_lb6"/>
-            <zone points = '128,266,537,266,532,286,131,290'   rendition="line" xml:id="facs_p28_lb7"/>
-            <zone points = ' 126,291,368,285,358,301,123,315' rendition="line" xml:id="facs_p28_lb8"/>
-            <zone points = ' 181,316,358,301,522,314,521,332,182,338'  rendition="line" xml:id="facs_p28_lb9"/>
-            <zone points = ' 140,341,540,333,544,357,137,367'  rendition="line" xml:id="facs_p28_lb10"/>
-            <zone points = ' 52,369,540,356,540,373,58,393' rendition="line" xml:id="facs_p28_lb11"/>
-            <zone points = ' 130,401,389,391,389,374,554,378,549,408,139,418 ' rendition="line" xml:id="facs_p28_lb12"/>
-            <zone points = '  34,424,26,454,534,435,523,410' rendition="line" xml:id="facs_p28_lb13"/>    
-            <zone points = '135,454,554,440,552,473,140,477'  rendition="line" xml:id="facs_p28_lb14"/>    
-            <zone points = '139,478,540,473,536,491,139,505'  rendition="line" xml:id="facs_p28_lb15"/>    
-            <zone points = ' 142,509,541,494,542,516,139,532' rendition="line" xml:id="facs_p28_lb16"/>    
-            <zone points = ' 139,541,521,522,521,543,142,568' rendition="line" xml:id="facs_p28_lb17"/>    
-            <zone points = '141,569,552,546,549,573,143,586' rendition="line" xml:id="facs_p28_lb18"/>    
-            <zone points = ' 145,587,552,579,545,595,141,615 ' rendition="line" xml:id="facs_p28_lb19"/>    
-            <zone points = ' 147,618,545,600,543,620,137,638' rendition="line" xml:id="facs_p28_lb20"/>    
-            <zone points = ' 145,643,538,625,545,648,144,664' rendition="line" xml:id="facs_p28_lb21"/>    
-            <zone points = ' 149,673,549,655,554,678,147,690' rendition="line" xml:id="facs_p28_lb22"/>    
-            <zone points = ' 107,695,537,685,544,709,111,723' rendition="line" xml:id="facs_p28_lb23"/>    
-            <zone points = ' 145,724,141,747,439,736,433,714' rendition="line" xml:id="facs_p28_lb24"/>    
-            <zone points = ' 210,753,205,790,513,766,515,747' rendition="line" xml:id="facs_p28_lb25"/>           
-            <zone points = ' 157,787,154,817,515,793,512,774' rendition="line" xml:id="facs_p28_lb26"/>        
-            <zone points = ' 161,815,159,840,535,821,527,801' rendition="line" xml:id="facs_p28_lb27"/>                
-            <zone points = ' 322,829,558,822, 561,848 ,326,844' rendition="line" xml:id="facs_p28_lb28"/>                
+            <zone points = ' 129,88,528,92,532,107,136,114 ' rendition="line" xml:id="facs_p28_lb1"/>                       
+            <zone points = ' 142,128,524,123,521,137,146,147' rendition="line" xml:id="facs_p28_lb2"/>  
+            <zone points = '140,158,548,157,547,170,140,174' rendition="line" xml:id="facs_p28_lb3"/>  
+            <zone points = ' 71,187,543,172,550,200,77,217'  rendition="line" xml:id="facs_p28_lb4"/>            
+            <zone points = ' 81,219,391,205,389,223,79,237'  rendition="line" xml:id="facs_p28_lb5"/>
+            <zone points = ' 148,243,534,227,535,251,146,269' rendition="line" xml:id="facs_p28_lb6"/>
+            <zone points = '159,267,154,285,518,271,517,254'   rendition="line" xml:id="facs_p28_lb7"/>
+            <zone points = ' 158,291,541,271,540,292,165,314' rendition="line" xml:id="facs_p28_lb8"/>
+            <zone points = ' 158,320,536,291,540,319,159,345'  rendition="line" xml:id="facs_p28_lb9"/>
+            <zone points = ' 156,345,509,325,510,346,149,369'  rendition="line" xml:id="facs_p28_lb10"/>
+
+            <zone points = '34,375,528,349,538,376,143,406,110,470,37,490' rendition="line" xml:id="facs_p28_lb11"/>
+            
+            <zone points = ' 154,407,522,389,525,404,164,422 ' rendition="line" xml:id="facs_p28_lb12"/>
+            <zone points = '  170,432,522,421,531,441,166,453' rendition="line" xml:id="facs_p28_lb13"/>    
+            <zone points = '168,464,505,446,514,461,165,483'  rendition="line" xml:id="facs_p28_lb14"/>    
+            <zone points = '167,492,506,471,515,488,168,512'  rendition="line" xml:id="facs_p28_lb15"/>    
+            <zone points = ' 169,522,494,493,502,515,168,537' rendition="line" xml:id="facs_p28_lb16"/>    
+            <zone points = ' 169,550,523,520,540,542,170,562' rendition="line" xml:id="facs_p28_lb17"/>    
+            <zone points = '166,576,439,551,529,556,534,571,162,596' rendition="line" xml:id="facs_p28_lb18"/>    
+
+            <zone points = ' 39,618,535,572,534,598,144,633,144,673,52,695 ' rendition="line" xml:id="facs_p28_lb19"/>    
+
+            <zone points = ' 165,630,162,649,524,621,521,599' rendition="line" xml:id="facs_p28_lb20"/>    
+            <zone points = ' 162,657,530,626,543,650,169,680' rendition="line" xml:id="facs_p28_lb21"/>    
+            <zone points = ' 168,679,171,713,328,685,328,667' rendition="line" xml:id="facs_p28_lb22"/>    
+            <zone points = ' 217,706,213,733,535,715,527,694,380,680' rendition="line" xml:id="facs_p28_lb23"/>    
+            <zone points = ' 171,737,166,758,523,744,529,721' rendition="line" xml:id="facs_p28_lb24"/>        
+            <zone points = ' 79,763,541,739,569,775,74,804' rendition="line" xml:id="facs_p28_lb25"/>                
+            <zone points = ' 56,810,252,784,553,791,549,810,53,835' rendition="line" xml:id="facs_p28_lb26"/>
+            <zone points = ' 175,826,171,846,537,832,535,807' rendition="line" xml:id="facs_p28_lb27"/>
     
-            <zone points = '42,85,37,53,98,62'  rendition="line" xml:id="facs_HandPageNumber-28"/>     <!--Numero 28 cerchiato in alto a sx-->           
+            <zone points = '49,62,54,89,91,71,80,54'  rendition="line" xml:id="facs_HandPageNumber-28"/>     <!--Numero 28 cerchiato in alto a sx-->           
 
         </surface>
     </facsimile>
