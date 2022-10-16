@@ -311,12 +311,59 @@
                         </ab>
                         <div xml:id="div_p28_fr" hand="#h1" type="box_testo" >
                             <ab xml:id="pericope_91Aaaa093" n="93" xml:lang="FR" corresp="#it_91Aaaa093 #en_91Aaaa093" facs="#facs_pericope_91Aaaa093" part="f" >
-                                <lb xml:id="lb1_p28" n="1" facs="#facs_p28_lb1"/>
-
+                                et on a vu des terres nouvelles surgir un
+                                jour à la surface de quelques mers, mais on
+                                n'a pas connaissance d'une <term ref="#langue">langue</term> qui ne fût pas
+                                <del rend="overstrike"> parlée la même la veille</del><del></gap></del>
+                                <del rend="ovetstrike"><gap reason="illegible" unit="word" atLeast="12" atMost="14" /></del>
+                                parlée la veille ou qui ne fût pas <term>parlée</term> 
+                                sous la même forme la veille.<!--continua riga-->
                             </ab>                           
-                            <ab xml:id="pericope_91Aaaa094" n="94" xml:lang="FR" corresp="#it_91Aaaa094 #en_91Aaaa094" facs="#facs_pericope_91Aaaa094">                                 
-                                <lb xml:id="lb2_p28" n="2" facs="#facs_p28_lb2"/>                  
+                            <ab xml:id="pericope_91Aaaa094" n="94" xml:lang="FR" corresp="#it_91Aaaa094 #en_91Aaaa094" facs="#facs_pericope_91Aaaa094">                                                 
+                                On citera le 
+                                volapük. J'allais en <term>parler</term>. Car précisément 
+                                le volapük <subst><del unit="word" quantity="1" rend="overstrike">est</del> <add place="above"> et  <emph rend="italics">les autres <choice><abbr><gap reason="illegible" unit="word" quantity="1"/></abbr><expan><term ref="#langue">langues </term></expan></choice></emph></add></subst><emph rend="italics"><add place="inline" hand="#SB"> [artificielles]</add></emph> sont un exemple excellent pour
+                                se rendre compte de ce qui empêche qu'il ne
+                                naisse une <term ref="#langue">langue</term>
+                                <!--aggiunta sinistra--><add xml:id="addendum1" place="margin left" resp="#SB"> ou de ce qui assure la <term><w>trans<pc force="weak">=</pc><lb xml:id="taglio2" break="no" rend="double-stroke"/><pc force="weak">=</pc>mission</w></term> de celles qui existent</add>: <!--fine add sx-->
+                            </ab>
+                            <ab xml:id="pericope_91Aaaa095" n="95" xml:lang="FR" corresp="#it_91Aaaa095 #en_91Aaaa095" facs="#facs_pericope_91Aaaa095">
+                                il y a <choice><abbr>2</abbr><expan>deux</expan></choice> facteurs, le <choice><abbr>1°</abbr><expan>premier</expan></choice> 
+                                est l'absence de toute initiative, car chaque
+                                population est fort contente de son <term ref="#idiome">idiome</term>
+                                maternel;   <!--continua riga-->                     
+                            </ab>
+                            <ab xml:id="pericope_91Aaaa096" n="96" xml:lang="FR" corresp="#it_91Aaaa096 #en_91Aaaa096" facs="#facs_pericope_91Aaaa096">
+                                le <choice><abbr>2°</abbr><expan>second</expan></choice> est que, même si une
+                                initiative se produisait, <del rend="overstrike"><gap reason="illegible" unit="word" quantity="1"/></del>ce qui suppose
+                                un ensemble de circonstances <choice><abbr>tt</abbr><expan>tout</expan></choice> à fait
+                                exceptionnel et notamment l'emploi de l'<term ref="#ecriture">écriture</term>,
+                                cette initiative se heurterait à la résistance invincible
+                                de la <term>masse</term> 
+                                <!--2a aggiunta sx--><add xml:id="addendum2" place="margin left" resp="#SB">qui ne renoncera pas à son <choice><abbr>id</abbr><expan><term ref="#idiome">idiome</term></expan></choice> accoutumé</add>.<!--fine add sx-->
+                            </ab>                             
+                            <ab xml:id="pericope_91Aaaa097" n="97" xml:lang="FR" corresp="#it_91Aaaa097 #en_91Aaaa097" facs="#facs_pericope_91Aaaa097">
+                                Le volapük, qui ne prétendait <w>dé<pc force="weak">=</pc>
+                                <pc force="weak">=</pc>trôner</w> aucune <term ref="#langue">langue</term> existante, n'a pu, malgré les
+                                conditions favorables où il se présentait,<del rend="overstrike"><gap reason="illegible" unit="word" quantity="1" /></del> faire
+                                fortune <choice><abbr>d</abbr><expan>dans</expan></choice> ce monde.         <!--a capo-->                       
+                            </ab>                             
+                            <ab xml:id="pericope_91Aaaa098" n="98" xml:lang="FR" corresp="#it_91Aaaa098 #en_91Aaaa098" facs="#facs_pericope_91Aaaa098">                                
+                                On dira que nier <add place="above"><choice><abbr><gap reason="illegible" unit="letter" quantity="1"/></abbr><expan>dans</expan></choice> ce sens</add> qu'aucune <term ref="#langue">langue </term>
+                                <del rend="overstrike">ne</del> soit <emph rend="underline">née</emph>, c'est <del rend="overstrike"><gap reason="deleted" unit="word" quantity="1" /></del> jouer sur les <term ref="#mot">mots</term>,
+                                <add place="left">et qu'</add><del rend="overstrike"><gap reason="illegible" unit="word" quantity="4" /></del><subst><del rend="overstrike"><gap reason="illegible" unit="word" quantity="9" /></del><add place="above">il suffit de définir ce qu'on entend par</add></subst> la naissance
+                                <add place="left"> pour ne pouvoir nier la naissance ou le</add><del rend="overstrike"><gap reason="illegible" unit="word" quantity="2" /></del> développement progressif<del rend="overstrike"><gap reason="illegible" unit="word" quantity="1" /> formes de langue <gap reason="illegible" unit="word" quantity="1" /></del><choice><abbr>d'</abbr><expan>d'une</expan></choice> <term ref="#langue"> langue</term> comme l'allemand, le fran&#xE7;ais. <del rend="overstrike"><gap reason="illegible" unit="word" atLeast="1" atMost="2"/></del>
+                                                            
 
+                            
+                            </ab>                            
+                            <ab xml:id="pericope_91Aaaa099" n="99" xml:lang="FR" corresp="#it_91Aaaa099 #en_91Aaaa099" facs="#facs_pericope_91Aaaa099" part="i">                                
+                                Je réponds que dans ce cas l'on joue sur un autre mot qui est le mot langue ;
+                                
+                                <lb xml:id="lb1_p28" n="1" facs="#facs_p28_lb1"/>  
+
+                                <lb xml:id="lb2_p28" n="2" facs="#facs_p28_lb2"/>                                  
+                                
                                 <lb xml:id="lb3_p28" n="3" facs="#facs_p28_lb3"/>
 
                                 <lb xml:id="lb4_p28" n="4" facs="#facs_p28_lb4"/>
@@ -329,8 +376,6 @@
                                 
                                 <lb xml:id="lb8_p28" n="8" facs="#facs_p28_lb8"/>
                                 
-                            </ab>
-                            <ab xml:id="pericope_91Aaaa095" n="95" xml:lang="FR" corresp="#it_91Aaaa095 #en_91Aaaa095" facs="#facs_pericope_91Aaaa095">
                                 <lb xml:id="lb9_p28" n="9" facs="#facs_p28_lb9"/>
                                 
                                 <lb xml:id="lb10_p28" n="10" facs="#facs_p28_lb10"/>       
@@ -339,18 +384,12 @@
                                 
                                 <lb xml:id="lb12_p28" n="12" facs="#facs_p28_lb12"/>
                                 
-                            </ab>
-                            <ab xml:id="pericope_91Aaaa096" n="96" xml:lang="FR" corresp="#it_91Aaaa096 #en_91Aaaa096" facs="#facs_pericope_91Aaaa096">
-
                                 <lb xml:id="lb13_p28" n="13" facs="#facs_p28_lb13"/>
 
                                 <lb xml:id="lb14_p28" n="14" facs="#facs_p28_lb14"/>
 
                                 <lb xml:id="lb15_p28" n="15" facs="#facs_p28_lb15"/>
-
-                            </ab>                             
-                            <ab xml:id="pericope_91Aaaa097" n="97" xml:lang="FR" corresp="#it_91Aaaa097 #en_91Aaaa097" facs="#facs_pericope_91Aaaa097">
-                            
+                                
                                 <lb xml:id="lb16_p28" n="16" facs="#facs_p28_lb16"/>
                             
                                 <lb xml:id="lb17_p28" n="17" facs="#facs_p28_lb17"/>
@@ -358,9 +397,6 @@
                                 <lb xml:id="lb18_p28" n="18" facs="#facs_p28_lb18"/>
                                 
                                 <lb xml:id="lb19_p28" n="19" facs="#facs_p28_lb19"/>
-                                
-                            </ab>                             
-                            <ab xml:id="pericope_91Aaaa098" n="98" xml:lang="FR" corresp="#it_91Aaaa098 #en_91Aaaa098" facs="#facs_pericope_91Aaaa098">                                
                                 
                                 <lb xml:id="lb20_p28" n="20" facs="#facs_p28_lb20"/>
                                 
@@ -371,9 +407,7 @@
                                 <lb xml:id="lb23_p28" n="23" facs="#facs_p28_lb23"/>
                                 
                                 <lb xml:id="lb24_p28" n="24" facs="#facs_p28_lb24"/>
-                            
-                            </ab>                            
-                            <ab xml:id="pericope_91Aaaa099" n="99" xml:lang="FR" corresp="#it_91Aaaa099 #en_91Aaaa099" facs="#facs_pericope_91Aaaa099" part="i">                                
+                                
                                 <lb xml:id="lb25_p28" n="25" facs="#facs_p28_lb25"/>
                             
                                 <lb xml:id="lb26_p28" n="26" facs="#facs_p28_lb26"/>
