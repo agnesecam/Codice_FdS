@@ -260,39 +260,35 @@
         <surface n="15" xml:id="scan_p29">
             <graphic url='ms_fr_03951_01_1_p029-resized.jpg' width='600px' height='900px'/> 
             <!--Righe-->
-            <zone points = ' 129,88,528,92,532,107,136,114 ' rendition="line" xml:id="facs_p29_lb1"/>                       
-            <zone points = ' 142,128,524,123,521,137,146,147' rendition="line" xml:id="facs_p29_lb2"/>  
-            <zone points = '140,158,548,157,547,170,140,174' rendition="line" xml:id="facs_p29_lb3"/>  
-            <zone points = ' 71,187,543,172,550,200,77,217'  rendition="line" xml:id="facs_p29_lb4"/>            
-            <zone points = ' 81,219,391,205,389,223,79,237'  rendition="line" xml:id="facs_p29_lb5"/>
-            <zone points = ' 148,243,534,227,535,251,146,269' rendition="line" xml:id="facs_p29_lb6"/>
-            <zone points = '159,267,154,285,518,271,517,254'   rendition="line" xml:id="facs_p29_lb7"/>
-            <zone points = ' 158,291,541,271,540,292,165,314' rendition="line" xml:id="facs_p29_lb8"/>
-            <zone points = ' 158,320,536,291,540,319,159,345'  rendition="line" xml:id="facs_p29_lb9"/>
-            <zone points = ' 156,345,509,325,510,346,149,369'  rendition="line" xml:id="facs_p29_lb10"/>
-
-            <zone points = '34,375,528,349,538,376,143,406,110,470,37,490' rendition="line" xml:id="facs_p29_lb11"/>
-            
-            <zone points = ' 154,407,522,389,525,404,164,422 ' rendition="line" xml:id="facs_p29_lb12"/>
-            <zone points = '  170,432,522,421,531,441,166,453' rendition="line" xml:id="facs_p29_lb13"/>    
-            <zone points = '168,464,505,446,514,461,165,483'  rendition="line" xml:id="facs_p29_lb14"/>    
-            <zone points = '167,492,506,471,515,488,168,512'  rendition="line" xml:id="facs_p29_lb15"/>    
-            <zone points = ' 169,522,494,493,502,515,168,537' rendition="line" xml:id="facs_p29_lb16"/>    
-            <zone points = ' 169,550,523,520,540,542,170,562' rendition="line" xml:id="facs_p29_lb17"/>    
-            <zone points = '166,576,439,551,529,556,534,571,162,596' rendition="line" xml:id="facs_p29_lb18"/>    
-
-            <zone points = ' 39,618,535,572,534,598,144,633,144,673,52,695 ' rendition="line" xml:id="facs_p29_lb19"/>    
-
-            <zone points = ' 165,630,162,649,524,621,521,599' rendition="line" xml:id="facs_p29_lb20"/>    
-            <zone points = ' 162,657,530,626,543,650,169,680' rendition="line" xml:id="facs_p29_lb21"/>    
-            <zone points = ' 168,679,171,713,328,685,328,667' rendition="line" xml:id="facs_p29_lb22"/>    
-            <zone points = ' 217,706,213,733,535,715,527,694,380,680' rendition="line" xml:id="facs_p29_lb23"/>    
-            <zone points = ' 171,737,166,758,523,744,529,721' rendition="line" xml:id="facs_p29_lb24"/>        
-            <zone points = ' 79,763,541,739,569,775,74,804' rendition="line" xml:id="facs_p29_lb25"/>                
-            <zone points = ' 56,810,252,784,553,791,549,810,53,835' rendition="line" xml:id="facs_p29_lb26"/>
-            <zone points = ' 175,826,171,846,537,832,535,807' rendition="line" xml:id="facs_p29_lb27"/>
+            <zone points = ' 134,92,548,94,550,115,130,120 ' rendition="line" xml:id="facs_p29_lb1"/>                       
+            <zone points = ' 130,128,530,125,539,143,130,145' rendition="line" xml:id="facs_p29_lb2"/>  
+            <zone points = '135,152,538,151,539,179,128,181' rendition="line" xml:id="facs_p29_lb3"/>  
+            <zone points = ' 142,186,536,186,548,206,139,208'  rendition="line" xml:id="facs_p29_lb4"/>            
+            <zone points = ' 148,208,557,224,551,239,134,246'  rendition="line" xml:id="facs_p29_lb5"/>
+            <zone points = ' 138,247,541,245,544,269,140,269' rendition="line" xml:id="facs_p29_lb6"/>
+            <zone points = '275,279,278,301,141,301,118,324,112,459,55,486,45,317,113,301,141,275'   rendition="line" xml:id="facs_p29_lb7"/>
+            <zone points = ' 147,301,142,325,528,324,520,301' rendition="line" xml:id="facs_p29_lb8"/>
+            <zone points = ' 145,329,524,325,532,352,140,355'  rendition="line" xml:id="facs_p29_lb9"/>
+            <zone points = ' 150,355,133,388,413,374,403,351'  rendition="line" xml:id="facs_p29_lb10"/>
+            <zone points = '197,393,184,423,553,416,545,395' rendition="line" xml:id="facs_p29_lb11"/>
+            <zone points = ' 152,421,524,417,538,442,150,454 ' rendition="line" xml:id="facs_p29_lb12"/>
+            <zone points = '  155,453,148,487,535,462,529,442' rendition="line" xml:id="facs_p29_lb13"/>    
+            <zone points = '151,486,152,506,546,486,536,466'  rendition="line" xml:id="facs_p29_lb14"/>    
+            <zone points = '55,516,42,578,154,538,545,511,539,489,154,512,120,500'  rendition="line" xml:id="facs_p29_lb15"/>    
+            <zone points = ' 166,539,161,559,561,546,550,513' rendition="line" xml:id="facs_p29_lb16"/>    
+            <zone points = ' 167,562,158,588,534,564,534,547' rendition="line" xml:id="facs_p29_lb17"/>    
+            <zone points = '162,594,157,623,541,593,536,570' rendition="line" xml:id="facs_p29_lb18"/>    
+            <zone points = ' 170,625,160,650,540,620,531,600 ' rendition="line" xml:id="facs_p29_lb19"/>    
+            <zone points = ' 161,656,166,676,541,647,532,626' rendition="line" xml:id="facs_p29_lb20"/>    
+            <zone points = ' 171,679,164,707,546,676,543,649' rendition="line" xml:id="facs_p29_lb21"/>    
+            <zone points = ' 171,704,165,730,535,703,523,690' rendition="line" xml:id="facs_p29_lb22"/>    
+            <zone points = ' 169,733,172,761,545,731,534,707' rendition="line" xml:id="facs_p29_lb23"/>    
+            <zone points = ' 176,762,177,789,546,766,535,746' rendition="line" xml:id="facs_p29_lb24"/>        
+            <zone points = ' 175,788,177,817,542,792,535,770' rendition="line" xml:id="facs_p29_lb25"/>                
+            <zone points = ' 182,815,177,844,559,820,543,799' rendition="line" xml:id="facs_p29_lb26"/>
+            <zone points = ' 264,842,263,858,553,848,543,830' rendition="line" xml:id="facs_p29_lb27"/>
     
-            <zone points = '49,62,54,89,91,71,80,54'  rendition="line" xml:id="facs_HandPageNumber-29"/>     <!--Numero 29 cerchiato in alto a sx-->           
+            <zone points = '48,60, 44,112, 127,57'  rendition="line" xml:id="facs_HandPageNumber-29"/>     <!--Numero 29 cerchiato in alto a sx-->           
 
         </surface>
     </facsimile>
@@ -310,82 +306,94 @@
                             <fw type="pageNum" xml:id="HandPageNumber-29" rend="align(left)" facs="#facs_HandPageNumber-29"> 29 </fw>
                         </ab>
                         <div xml:id="div_p29_fr" hand="#h1" type="box_testo" >
-                            <ab xml:id="pericope_91Aaaa093" n="93" xml:lang="FR" corresp="#it_91Aaaa093 #en_91Aaaa093" facs="#facs_pericope_91Aaaa093" part="f" >
+                            <ab xml:id="pericope_91Aaaa099" n="99" xml:lang="FR" corresp="#it_91Aaaa099 #en_91Aaaa099" facs="#facs_pericope_91Aaaa099" >
                                 <lb xml:id="lb1_p29" n="1" facs="#facs_p29_lb1"/>  
-                                et on a vu des terres nouvelles surgir un
+                                Je réponds que <choice><abbr>d<am rend="sup">s</am></abbr><expan resp="#BE" cert="high">dans</expan></choice> ce cas l'on joue sur un autre 
                                 <lb xml:id="lb2_p29" n="2" facs="#facs_p29_lb2"/>       
-                                jour à la surface de quelques mers, mais on
-                                <lb xml:id="lb3_p29" n="3" facs="#facs_p29_lb3"/>
-                                n'a pas connaissance d'une <term ref="#langue1">langue</term> qui ne fût pas
-                                <lb xml:id="lb4_p29" n="4" facs="#facs_p29_lb4"/>
-                                <del rend="overstrike"> parlée la même la veille</del><del><gap/></del>
-                                <lb xml:id="lb5_p29" n="5" facs="#facs_p29_lb5"/>
-                                <del rend="ovetstrike"><gap reason="illegible" unit="word" atLeast="12" atMost="14" /></del>
-                                <lb xml:id="lb6_p29" n="6" facs="#facs_p29_lb6"/>
-                                parlée la veille ou qui ne fût pas <term ref="#glossa-mancante">parlée</term> 
-                                <lb xml:id="lb7_p29" n="7" facs="#facs_p29_lb7"/>
-                                sous la même forme la veille.<!--continua riga-->
+                                <term target="#g1">mot</term> qui est le mot <hi rend="underline"><term target="#g2">langue</term></hi> ;                                
                             </ab>                           
-                            <ab xml:id="pericope_91Aaaa094" n="94" xml:lang="FR" corresp="#it_91Aaaa094 #en_91Aaaa094" facs="#facs_pericope_91Aaaa094">                                                 
-                                On citera le 
-                                <lb xml:id="lb8_p29" n="8" facs="#facs_p29_lb8"/>
-                                volapük. J'allais en <term ref="#glossa-mancante">parler</term>. Car précisément 
-                                <lb xml:id="lb9_p29" n="9" facs="#facs_p29_lb9"/>
-                                le volapük <subst><del unit="word" quantity="1" rend="overstrike">est</del> <add place="above"> et  <emph rend="italics">les autres <choice><abbr><gap reason="illegible" unit="word" quantity="1"/></abbr><expan><term ref="#langue1">langues </term></expan></choice></emph></add></subst><emph rend="italics"><add place="inline" hand="#SB"> [artificielles]</add></emph> sont un exemple excellent pour
-                                <lb xml:id="lb10_p29" n="10" facs="#facs_p29_lb10"/>
-                                se rendre compte de ce qui empêche qu'il ne
-                                <lb xml:id="lb11_p29" n="11" facs="#facs_p29_lb11"/>                                
-                                naisse une <term ref="#langue1">langue</term>
-                                <!--aggiunta sinistra--><add xml:id="addendum1" place="margin left" resp="#SB"> ou de ce qui assure la <term ref="#glossa-mancante">transmission</term> de celles qui existent</add>: <!--fine add sx-->
+                            <ab xml:id="pericope_91Aaaa0100" n="100" xml:lang="FR" corresp="#it_91Aaaa0100 #en_91Aaaa0100" facs="#facs_pericope_91Aaaa0100">                                                 
+                                en réalité <del rend="overstrike" unit="word" quantity="4" instant="true"><gap reason="cancelled" unit="word" quantity="2"/>
+                                <lb xml:id="lb3_p29" n="3" facs="#facs_p29_lb3"/>       
+                                <gap reason="cancelled" unit="word" quantity="2"/></del> la <term target="#g2">langue</term> n'est pas un être défini et 
+                                <lb xml:id="lb4_p29" n="4" facs="#facs_p29_lb4"/> 
+                                délimité dans le <term target="#g3">temps</term> ; 
                             </ab>
-                            <ab xml:id="pericope_91Aaaa095" n="95" xml:lang="FR" corresp="#it_91Aaaa095 #en_91Aaaa095" facs="#facs_pericope_91Aaaa095">
-                                il y a <choice><abbr>2</abbr><expan>deux</expan></choice> facteurs, le <choice><abbr>1°</abbr><expan>premier</expan></choice> 
-                                <lb xml:id="lb12_p29" n="12" facs="#facs_p29_lb12"/>
-                                est l'absence de toute initiative, car chaque
-                                <lb xml:id="lb13_p29" n="13" facs="#facs_p29_lb13"/>
-                                population est fort contente de son <term ref="#glossa-mancante">idiome</term>
-                                <lb xml:id="lb14_p29" n="14" facs="#facs_p29_lb14"/>
-                                maternel;   <!--continua riga-->                     
+                            <ab xml:id="pericope_91Aaaa0101" n="101" xml:lang="FR" corresp="#it_91Aaaa0101 #en_91Aaaa0101" facs="#facs_pericope_91Aaaa0101">
+                                on distingue la <term target="#g2">langue</term> 
+                                <lb xml:id="lb5_p29" n="5" facs="#facs_p29_lb5"/> 
+                                française et la <term target="#g2">langue</term> latine, <del rend="overstrike" unit="word" quantity="3" instant="true"><gap reason="cancelled" unit="word" quantity="3"/></del> 
+                                <lb xml:id="lb6_p29" n="6" facs="#facs_p29_lb6"/> 
+                                l'allemand moderne et le germain d'<name type="person" ref="#Arminius">Arminius</name> 
+                                <lb xml:id="lb7_p29" n="7" facs="#facs_p29_lb7"/> 
+                                comme on <term target="#g4">distingue</term> <gap reason="missing" extent="rest of the line"/> <add place="margin left" instant="false" hand="#FdS" unit="word" quantity="17" rend="side column">et alors on <del rend="overstrike" unit="word" quantity="2" instant="true"><gap reason="cancelled" unit="word" quantity="2"/></del> admet que l'un <choice><abbr>co<am rend="overline">m</am>ence</abbr><expan resp="#BE" cert="high">commence</expan></choice> et que l'autre finit <choice><abbr>qqe</abbr><expan resp="#BE" cert="high">quelque</expan></choice> part ce qui est <term target="#g5 #nota1"><choice><abbr>arbitr<am>.</am></abbr><expan resp="#BE" cert="high">arbitraire</expan></choice></term></add>
                             </ab>
-                            <ab xml:id="pericope_91Aaaa096" n="96" xml:lang="FR" corresp="#it_91Aaaa096 #en_91Aaaa096" facs="#facs_pericope_91Aaaa096">
-                                le <choice><abbr>2°</abbr><expan>second</expan></choice> est que, même si une
-                                <lb xml:id="lb15_p29" n="15" facs="#facs_p29_lb15"/>
-                                initiative se produisait, <del rend="overstrike"><gap reason="illegible" unit="word" quantity="1"/></del>ce qui suppose
-                                <lb xml:id="lb16_p29" n="16" facs="#facs_p29_lb16"/>
-                                un ensemble de circonstances <choice><abbr>tt</abbr><expan>tout</expan></choice> à fait
-                                <lb xml:id="lb17_p29" n="17" facs="#facs_p29_lb17"/>
-                                exceptionnel et notamment l'emploi de l'<term ref="#écriture">écriture</term>,
-                                <lb xml:id="lb18_p29" n="18" facs="#facs_p29_lb18"/>
-                                cette initiative se heurterait à la résistance invincible
-                                <lb xml:id="lb19_p29" n="19" facs="#facs_p29_lb19"/>
-                                de la <term ref="#glossa-mancante">masse</term> 
-                                <!--2a aggiunta sx--><add xml:id="addendum2" place="margin left" resp="#SB">qui ne renoncera pas à son <choice><abbr>id</abbr><expan><term ref="#glossa-mancante">idiome</term></expan></choice> accoutumé</add>.<!--fine add sx-->
+                            <ab xml:id="pericope_91Aaaa0102" n="102" xml:lang="FR" corresp="#it_91Aaaa0102 #en_91Aaaa0102" facs="#facs_pericope_91Aaaa0102">
+                                <lb xml:id="lb8_p29" n="8" facs="#facs_p29_lb8"/> 
+                                Toutefois <del rend="overstrike" unit="word" quantity="2" instant="false"><gap reason="cancelled" unit="word" quantity="2"/></del> il y a un côté de cette question 
+                                <lb xml:id="lb9_p29" n="9" facs="#facs_p29_lb9"/> 
+                                qui touche à la <term target="#g6">différenciation</term> <term target="#g7">géographique</term> 
+                                <lb xml:id="lb10_p29" n="10" facs="#facs_p29_lb10"/> 
+                                des <term target="#g2">langues</term> et que je n'aborde pas.
                             </ab>                             
-                            <ab xml:id="pericope_91Aaaa097" n="97" xml:lang="FR" corresp="#it_91Aaaa097 #en_91Aaaa097" facs="#facs_pericope_91Aaaa097">
-                                Le volapük, qui ne prétendait <w>dé<pc force="weak">=</pc>
-                                <lb xml:id="lb20_p29" n="20" facs="#facs_p29_lb20"/>
-                                <pc force="weak">=</pc>trôner</w> aucune <term ref="#langue1">langue</term> existante, n'a pu, malgré les
-                                <lb xml:id="lb21_p29" n="21" facs="#facs_p29_lb21"/>
-                                conditions favorables où il se présentait,<del rend="overstrike"><gap reason="illegible" unit="word" quantity="1" /></del> faire
-                                <lb xml:id="lb22_p29" n="22" facs="#facs_p29_lb22"/>
-                                fortune <choice><abbr>d</abbr><expan>dans</expan></choice> ce monde.         <!--a capo-->                       
+                            <ab xml:id="pericope_91Aaaa0103" n="103" xml:lang="FR" corresp="#it_91Aaaa0103 #en_91Aaaa0103" facs="#facs_pericope_91Aaaa0103">
+                                <lb xml:id="lb11_p29" n="11" facs="#facs_p29_lb11"/> 
+                                Du moment qu'on ne peut faire naître nulle 
+                                <lb xml:id="lb12_p29" n="12" facs="#facs_p29_lb12"/> 
+                                part une <term target="#g2">langue</term>, on demande quel est donc 
+                                <lb xml:id="lb13_p29" n="13" facs="#facs_p29_lb13"/> 
+                                <subst><del rend="overstrike" unit="word" quantity="3" instant="false" seq="1">l'âge de passé</del><add place="supralinear" seq="2">l'âge</add></subst> qu'on assigne à cha<ex resp="#BE" cert="high">cu</ex>n<ex resp="#BE" cert="high">e</ex> d'elles.
                             </ab>                             
-                            <ab xml:id="pericope_91Aaaa098" n="98" xml:lang="FR" corresp="#it_91Aaaa098 #en_91Aaaa098" facs="#facs_pericope_91Aaaa098">                                
-                                <lb xml:id="lb23_p29" n="23" facs="#facs_p29_lb23"/>
-                                On dira que nier <add place="above"><choice><abbr><gap reason="illegible" unit="letter" quantity="1"/></abbr><expan>dans</expan></choice> ce sens</add> qu'aucune <term ref="#langue1">langue </term>
-                                <lb xml:id="lb24_p29" n="24" facs="#facs_p29_lb24"/>
-                                <del rend="overstrike">ne</del> soit <emph rend="underline">née</emph>, c'est <del rend="overstrike"><gap reason="deleted" unit="word" quantity="1" /></del> jouer sur les <term ref="#mot">mots</term>,
-                                <lb xml:id="lb25_p29" n="25" facs="#facs_p29_lb25"/>
-                                <add place="left">et qu'</add><del rend="overstrike"><gap reason="illegible" unit="word" quantity="4" /></del><subst><del rend="overstrike"><gap reason="illegible" unit="word" quantity="9" /></del><add place="above">il suffit de définir ce qu'on entend par</add></subst> la naissance
-                                <lb xml:id="lb26_p29" n="26" facs="#facs_p29_lb26"/>
-                                <add place="left"> pour ne pouvoir nier la naissance ou le</add><del rend="overstrike"><gap reason="illegible" unit="word" quantity="2" /></del> développement progressif<del rend="overstrike"><gap reason="illegible" unit="word" quantity="1" /> formes de langue <gap reason="illegible" unit="word" quantity="1" /></del>
-                                <lb xml:id="lb27_p29" n="27" facs="#facs_p29_lb27"/>
-                                <choice><abbr>d'</abbr><expan>d'une</expan></choice> <term ref="#langue1"> langue</term> comme l'allemand, le français. <del rend="overstrike"><gap reason="illegible" unit="word" atLeast="1" atMost="2"/></del>
+                            <ab xml:id="pericope_91Aaaa0104" n="104" xml:lang="FR" corresp="#it_91Aaaa0104 #en_91Aaaa0104" facs="#facs_pericope_91Aaaa0104">                                
+                                Ici 
+                                <lb xml:id="lb14_p29" n="14" facs="#facs_p29_lb14"/> 
+                                encore il faut s'entendre sur les <term target="#g1">mots</term>, <del rend="overstrike" unit="word" quantity="2" instant="true">le mot</del> 
+                                <lb xml:id="lb15_p29" n="15" facs="#facs_p29_lb15"/> 
+                                <add place="margin left" instant="false" hand="#FdS" unit="word" quantity="7" rend="side column">il se fait <subst><del rend="overstrike" unit="char" quantity="2" instant="false" seq="1">un</del><add place="supralinear" seq="2">de</add></subst> <choice><abbr>sing<am>.</am></abbr><expan resp="#BE" cert="high">singulières</expan></choice> <subst><del rend="overstrike" unit="word" quantity="1" instant="false" seq="1"></del> <add place="below" seq="2">confusions</add></subst> du mot</add> 
+                                <lb xml:id="lb16_p29" n="16" facs="#facs_p29_lb16"/> 
+                                <hi rend="underline">vieux</hi> en parlant des <term target="#g2"><choice><abbr>lges</abbr><expan resp="#BE" cert="high">langues</expan></choice></term>.
                             </ab>                            
-                            <ab xml:id="pericope_91Aaaa099" n="99" xml:lang="FR" corresp="#it_91Aaaa099 #en_91Aaaa099" facs="#facs_pericope_91Aaaa099" part="i">                                
-
-                                
+                            <ab xml:id="pericope_91Aaaa0105" n="105" xml:lang="FR" corresp="#it_91Aaaa0105 #en_91Aaaa0105" facs="#facs_pericope_91Aaaa0105" part="i">                                
+                                Il y a <choice><abbr><am>3</am></abbr><expan resp="#BE" cert="high">trois</expan></choice> manières pour 
+                                <lb xml:id="lb17_p29" n="17" facs="#facs_p29_lb17"/> 
+                                <choice><abbr><am>1</am></abbr><expan resp="#BE" cert="high">un</expan></choice> <choice><abbr>ho<am rend="overline">m</am>e</abbr><expan resp="#BE" cert="high">homme</expan></choice> d'être <choice><abbr><am>+</am></abbr><expan resp="#BE" cert="high">plus</expan></choice> <hi rend="underline">vieux</hi> ou <choice><abbr><am>+</am></abbr><expan resp="#BE" cert="high">plus</expan></choice> <term target="#nota2"><hi rend="underline">anci<ex resp="#BE" cert="high">en</ex></hi></term> qu'un autre. 
+                                <lb xml:id="lb18_p29" n="18" facs="#facs_p29_lb18"/> 
                             </ab> 
+                            <ab xml:id="pericope_91Aaaa0106" n="106" xml:lang="FR" corresp="#it_91Aaaa0106 #en_91Aaaa0106" facs="#facs_pericope_91Aaaa0106" part="i">                                
+                                La <choice><abbr><am>1</am><c rend="sup">e</c></abbr><expan resp="#BE" cert="high">première</expan></choice>, qui n'est pas <choice><abbr>tj<am>.</am></abbr><expan resp="#BE" cert="high">toujours</expan></choice> agréable, est d'être né 
+                                <lb n="19" break="yes"/>
+                                <choice><abbr>avt</abbr><expan resp="#BE" cert="high">avant</expan></choice> lui.
+                            </ab>                            
+                            <ab xml:id="pericope_91Aaaa0107" n="107" xml:lang="FR" corresp="#it_91Aaaa0107 #en_91Aaaa0107" facs="#facs_pericope_91Aaaa0107" part="i">                                
+                                La <choice><abbr><am>2</am><w rend="sup">de</w></abbr><expan resp="#BE" cert="high">seconde</expan></choice>, qui l'est encore moins, est d'être 
+                                <lb n="20" break="yes"/>
+                                mort <choice><abbr>avt</abbr><expan resp="#BE" cert="high">avant</expan></choice> lui : on <term target="#g8">parle</term> des vieux <add place="above">anci<ex resp="#BE" cert="high">ens</ex></add> camarades qui 
+                                <lb n="21" break="yes"/>
+                                ne sont plus.
+                            </ab> 
+                            <ab xml:id="pericope_91Aaaa0108" n="108" xml:lang="FR" corresp="#it_91Aaaa0108 #en_91Aaaa0108" facs="#facs_pericope_91Aaaa0108" part="i">                                
+                                La <choice><abbr><am>3</am><c rend="sup">e</c></abbr><expan resp="#BE" cert="high">troisième</expan></choice>, qui est la pire, est d'être <choice><abbr>co<am rend="overline">m</am>e</abbr><expan resp="#BE" cert="high">comme</expan></choice> 
+                                <lb n="22" break="yes"/>
+                                <choice><abbr>ns</abbr><expan resp="#BE" cert="high">nous</expan></choice> disons <choice><abbr>famil<am>.</am></abbr><expan resp="#BE" cert="high">familièrement</expan></choice> <hi rend="underline">moins bien c<ex resp="#BE" cert="high">on</ex>servé</hi> que lui.
+                            </ab>                            
+                            <ab xml:id="pericope_91Aaaa0109" n="109" xml:lang="FR" corresp="#it_91Aaaa0109 #en_91Aaaa0109" facs="#facs_pericope_91Aaaa0109" part="i">                                
+                                Eh bien, 
+                                <lb n="23" break="yes"/>
+                                de ces <choice><abbr><am>3</am> man<am>.</am></abbr><expan resp="#BE" cert="high">trois manières</expan></choice>, la <choice><abbr><am>1</am><c rend="sup">e</c></abbr><expan resp="#BE" cert="high">première</expan></choice> n'existe pas <choice><abbr>pr</abbr><expan resp="#BE" cert="high">pour</expan></choice> les <term target="#g2">langues</term>.
+                                <lb n="24" break="yes"/>
+                                <choice><abbr>T<am rend="place(sup) highlighting(underline)">ts</am></abbr><expan resp="#BE" cert="high">Toutes</expan></choice> les langues se <term target="#g8">parlant</term> à la mêm<ex resp="#BE" cert="high">e</ex> <term target="#g9"><choice><abbr>époq<am>.</am></abbr><expan resp="#BE" cert="high">époque</expan></choice></term> sont de 
+                                <lb n="25" break="yes"/>
+                                même âge; en ce sens qu'elles remontent à un 
+                                <lb n="26" break="yes"/>
+                                passé égal.
+                            </ab>                            
+                            <ab xml:id="pericope_91Aaaa0110" n="110" xml:lang="FR" corresp="#it_91Aaaa0110 #en_91Aaaa0110" facs="#facs_pericope_91Aaaa0110" part="i">                                
+                                Il n'est pas nécessaire de déterminer la 
+                                <lb n="27" break="yes"/>
+                                long<ex resp="#BE" cert="high">ueu</ex>r de ce passé. Si l'on veut, c'est l'<choice><abbr>orig<am>.</am></abbr><expan resp="#BE" cert="high">origine</expan></choice> Du <term target="#g10">langage</term>, 
+                                <lb n="28" break="yes"/>
+                                mais sans remonter aux périodes <choice><abbr>inacces<am>.</am></abbr><expan resp="#BE" cert="high">inaccessibles</expan></choice><supplied reason="omitted-in-original" resp="#BE">.</supplied>
+                            </ab>
                         </div>
                     </body> 
                 </text>
