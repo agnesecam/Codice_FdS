@@ -308,91 +308,90 @@
                         <div xml:id="div_p29_fr" hand="#h1" type="box_testo" >
                             <ab xml:id="pericope_91Aaaa099" n="99" xml:lang="FR" corresp="#it_91Aaaa099 #en_91Aaaa099" facs="#facs_pericope_91Aaaa099" >
                                 <lb xml:id="lb1_p29" n="1" facs="#facs_p29_lb1"/>  
-                                Je réponds que <choice><abbr>d<am rend="sup">s</am></abbr><expan resp="#BE" cert="high">dans</expan></choice> ce cas l'on joue sur un autre 
+                                Je réponds que <choice><abbr>d<am rend="sup">s</am></abbr><expan cert="high">dans</expan></choice> ce cas l'on joue sur un autre 
                                 <lb xml:id="lb2_p29" n="2" facs="#facs_p29_lb2"/>       
-                                <term target="#g1">mot</term> qui est le mot <hi rend="underline"><term target="#g2">langue</term></hi> ;                                
+                                <term ref="#mot">mot</term> qui est le mot <hi rend="underline"><term ref="#langue1">langue</term></hi>;                                
                             </ab>                           
                             <ab xml:id="pericope_91Aaaa0100" n="100" xml:lang="FR" corresp="#it_91Aaaa0100 #en_91Aaaa0100" facs="#facs_pericope_91Aaaa0100">                                                 
-                                en réalité <del rend="overstrike" unit="word" quantity="4" instant="true"><gap reason="cancelled" unit="word" quantity="2"/>
+                                en réalité <del rend="overstrike" unit="word" quantity="4" instant="true"><gap reason="cancelled" unit="word" quantity="2"/></del>
                                 <lb xml:id="lb3_p29" n="3" facs="#facs_p29_lb3"/>       
-                                <gap reason="cancelled" unit="word" quantity="2"/></del> la <term target="#g2">langue</term> n'est pas un être défini et 
+                                <del><gap reason="cancelled" unit="word" quantity="2"/></del> la <term ref="#langue1">langue</term> n'est pas un être défini et 
                                 <lb xml:id="lb4_p29" n="4" facs="#facs_p29_lb4"/> 
-                                délimité dans le <term target="#g3">temps</term> ; 
+                                délimité dans le  <term ref="#temps">temps</term> ; 
                             </ab>
                             <ab xml:id="pericope_91Aaaa0101" n="101" xml:lang="FR" corresp="#it_91Aaaa0101 #en_91Aaaa0101" facs="#facs_pericope_91Aaaa0101">
-                                on distingue la <term target="#g2">langue</term> 
+                                on distingue la  <term ref="#langue1">langue</term> 
                                 <lb xml:id="lb5_p29" n="5" facs="#facs_p29_lb5"/> 
-                                française et la <term target="#g2">langue</term> latine, <del rend="overstrike" unit="word" quantity="3" instant="true"><gap reason="cancelled" unit="word" quantity="3"/></del> 
+                                française et la  <term ref="#langue1">langue</term> latine, <del rend="overstrike" unit="word" quantity="3" instant="true"><gap reason="cancelled" unit="word" quantity="3"/></del> 
                                 <lb xml:id="lb6_p29" n="6" facs="#facs_p29_lb6"/> 
-                                l'allemand moderne et le germain d'<name type="person" ref="#Arminius">Arminius</name> 
+                                l'allemand moderne et le germain d'<persName type="person" ref="#entità-mancante">Arminius</persName> 
                                 <lb xml:id="lb7_p29" n="7" facs="#facs_p29_lb7"/> 
-                                comme on <term target="#g4">distingue</term> <gap reason="missing" extent="rest of the line"/> <add place="margin left" instant="false" hand="#FdS" unit="word" quantity="17" rend="side column">et alors on <del rend="overstrike" unit="word" quantity="2" instant="true"><gap reason="cancelled" unit="word" quantity="2"/></del> admet que l'un <choice><abbr>co<am rend="overline">m</am>ence</abbr><expan resp="#BE" cert="high">commence</expan></choice> et que l'autre finit <choice><abbr>qqe</abbr><expan resp="#BE" cert="high">quelque</expan></choice> part ce qui est <term target="#g5 #nota1"><choice><abbr>arbitr<am>.</am></abbr><expan resp="#BE" cert="high">arbitraire</expan></choice></term></add>
+                                comme on <term ref="#glossa-mancante">distingue</term> <gap reason="missing" extent="rest of the line"/> <add place="margin left" instant="false" hand="#FdS" unit="word" quantity="17" rend="side column">et alors on <del rend="overstrike" unit="word" quantity="2" instant="true"><gap reason="cancelled" unit="word" quantity="2"/></del> admet que l'un <choice><abbr>co<am rend="overline">m</am>ence</abbr><expan cert="high">commence</expan></choice> et que l'autre finit <choice><abbr>qqe</abbr><expan cert="high">quelque</expan></choice> part ce qui est <choice><abbr>arbitr<am>.</am></abbr><expan cert="high">arbitraire</expan></choice></add>
                             </ab>
                             <ab xml:id="pericope_91Aaaa0102" n="102" xml:lang="FR" corresp="#it_91Aaaa0102 #en_91Aaaa0102" facs="#facs_pericope_91Aaaa0102">
                                 <lb xml:id="lb8_p29" n="8" facs="#facs_p29_lb8"/> 
                                 Toutefois <del rend="overstrike" unit="word" quantity="2" instant="false"><gap reason="cancelled" unit="word" quantity="2"/></del> il y a un côté de cette question 
                                 <lb xml:id="lb9_p29" n="9" facs="#facs_p29_lb9"/> 
-                                qui touche à la <term target="#g6">différenciation</term> <term target="#g7">géographique</term> 
+                                qui touche à la <term ref="#différenciation">différenciation</term> <term ref="#géographique">géographique</term> 
                                 <lb xml:id="lb10_p29" n="10" facs="#facs_p29_lb10"/> 
-                                des <term target="#g2">langues</term> et que je n'aborde pas.
+                                des  <term ref="#langue1">langues</term> et que je n'aborde pas.
                             </ab>                             
                             <ab xml:id="pericope_91Aaaa0103" n="103" xml:lang="FR" corresp="#it_91Aaaa0103 #en_91Aaaa0103" facs="#facs_pericope_91Aaaa0103">
                                 <lb xml:id="lb11_p29" n="11" facs="#facs_p29_lb11"/> 
                                 Du moment qu'on ne peut faire naître nulle 
                                 <lb xml:id="lb12_p29" n="12" facs="#facs_p29_lb12"/> 
-                                part une <term target="#g2">langue</term>, on demande quel est donc 
+                                part une  <term ref="#langue1">langue</term>, on demande quel est donc 
                                 <lb xml:id="lb13_p29" n="13" facs="#facs_p29_lb13"/> 
-                                <subst><del rend="overstrike" unit="word" quantity="3" instant="false" seq="1">l'âge de passé</del><add place="supralinear" seq="2">l'âge</add></subst> qu'on assigne à cha<ex resp="#BE" cert="high">cu</ex>n<ex resp="#BE" cert="high">e</ex> d'elles.
+                                <subst><del rend="overstrike" unit="word" quantity="3" instant="false" seq="1">l'âge de passé</del><add place="supralinear" seq="2">l'âge</add></subst> qu'on assigne à cha<ex cert="high">cu</ex>n<ex cert="high">e</ex> d'elles.
                             </ab>                             
                             <ab xml:id="pericope_91Aaaa0104" n="104" xml:lang="FR" corresp="#it_91Aaaa0104 #en_91Aaaa0104" facs="#facs_pericope_91Aaaa0104">                                
                                 Ici 
                                 <lb xml:id="lb14_p29" n="14" facs="#facs_p29_lb14"/> 
-                                encore il faut s'entendre sur les <term target="#g1">mots</term>, <del rend="overstrike" unit="word" quantity="2" instant="true">le mot</del> 
+                                encore il faut s'entendre sur les  <term ref="#mots">mots</term>, <del rend="overstrike" unit="word" quantity="2" instant="true">le mot</del> 
                                 <lb xml:id="lb15_p29" n="15" facs="#facs_p29_lb15"/> 
-                                <add place="margin left" instant="false" hand="#FdS" unit="word" quantity="7" rend="side column">il se fait <subst><del rend="overstrike" unit="char" quantity="2" instant="false" seq="1">un</del><add place="supralinear" seq="2">de</add></subst> <choice><abbr>sing<am>.</am></abbr><expan resp="#BE" cert="high">singulières</expan></choice> <subst><del rend="overstrike" unit="word" quantity="1" instant="false" seq="1"></del> <add place="below" seq="2">confusions</add></subst> du mot</add> 
-                                <lb xml:id="lb16_p29" n="16" facs="#facs_p29_lb16"/> 
-                                <hi rend="underline">vieux</hi> en parlant des <term target="#g2"><choice><abbr>lges</abbr><expan resp="#BE" cert="high">langues</expan></choice></term>.
+                                <add place="margin left" instant="false" hand="#FdS" unit="word" quantity="7" rend="side column">il se fait <subst><del rend="overstrike" unit="char" quantity="2" instant="false" seq="1">un</del><add place="supralinear" seq="2">de</add></subst> <choice><abbr>sing<am>.</am></abbr><expan cert="high">singulières</expan></choice> <subst><del rend="overstrike" unit="word" quantity="1" instant="false" seq="1"></del> <add place="below" seq="2">confusions</add></subst> du mot</add> 
+                                <hi rend="underline">vieux</hi> en parlant des  <choice><abbr>lges</abbr><expan cert="high">langues</expan></choice>.
                             </ab>                            
                             <ab xml:id="pericope_91Aaaa0105" n="105" xml:lang="FR" corresp="#it_91Aaaa0105 #en_91Aaaa0105" facs="#facs_pericope_91Aaaa0105" part="i">                                
-                                Il y a <choice><abbr><am>3</am></abbr><expan resp="#BE" cert="high">trois</expan></choice> manières pour 
+                                Il y a <choice><abbr><am>3</am></abbr><expan cert="high">trois</expan></choice> manières pour 
+                                <lb xml:id="lb16_p29" n="16" facs="#facs_p29_lb16"/> 
+                                <choice><abbr><am>1</am></abbr><expan cert="high">un</expan></choice> <choice><abbr>ho<am rend="overline">m</am>e</abbr><expan cert="high">homme</expan></choice> d'être <choice><abbr><am>+</am></abbr><expan cert="high">plus</expan></choice> <hi rend="underline">vieux</hi> ou <choice><abbr><am>+</am></abbr><expan cert="high">plus</expan></choice>  <term ref="#nota2"><hi rend="underline">anci<ex cert="high">en</ex></hi></term> qu'un autre. 
                                 <lb xml:id="lb17_p29" n="17" facs="#facs_p29_lb17"/> 
-                                <choice><abbr><am>1</am></abbr><expan resp="#BE" cert="high">un</expan></choice> <choice><abbr>ho<am rend="overline">m</am>e</abbr><expan resp="#BE" cert="high">homme</expan></choice> d'être <choice><abbr><am>+</am></abbr><expan resp="#BE" cert="high">plus</expan></choice> <hi rend="underline">vieux</hi> ou <choice><abbr><am>+</am></abbr><expan resp="#BE" cert="high">plus</expan></choice> <term target="#nota2"><hi rend="underline">anci<ex resp="#BE" cert="high">en</ex></hi></term> qu'un autre. 
-                                <lb xml:id="lb18_p29" n="18" facs="#facs_p29_lb18"/> 
                             </ab> 
                             <ab xml:id="pericope_91Aaaa0106" n="106" xml:lang="FR" corresp="#it_91Aaaa0106 #en_91Aaaa0106" facs="#facs_pericope_91Aaaa0106" part="i">                                
-                                La <choice><abbr><am>1</am><c rend="sup">e</c></abbr><expan resp="#BE" cert="high">première</expan></choice>, qui n'est pas <choice><abbr>tj<am>.</am></abbr><expan resp="#BE" cert="high">toujours</expan></choice> agréable, est d'être né 
-                                <lb n="19" break="yes"/>
-                                <choice><abbr>avt</abbr><expan resp="#BE" cert="high">avant</expan></choice> lui.
+                                La <choice><abbr><am>1</am><c rend="sup">e</c></abbr><expan cert="high">première</expan></choice>, qui n'est pas <choice><abbr>tj<am>.</am></abbr><expan cert="high">toujours</expan></choice> agréable, est d'être né 
+                                <lb xml:id="lb18_p29" n="18" facs="#facs_p29_lb18"/> 
+                                <choice><abbr>avt</abbr><expan cert="high">avant</expan></choice> lui.
                             </ab>                            
                             <ab xml:id="pericope_91Aaaa0107" n="107" xml:lang="FR" corresp="#it_91Aaaa0107 #en_91Aaaa0107" facs="#facs_pericope_91Aaaa0107" part="i">                                
-                                La <choice><abbr><am>2</am><w rend="sup">de</w></abbr><expan resp="#BE" cert="high">seconde</expan></choice>, qui l'est encore moins, est d'être 
-                                <lb n="20" break="yes"/>
-                                mort <choice><abbr>avt</abbr><expan resp="#BE" cert="high">avant</expan></choice> lui : on <term target="#g8">parle</term> des vieux <add place="above">anci<ex resp="#BE" cert="high">ens</ex></add> camarades qui 
-                                <lb n="21" break="yes"/>
+                                La <choice><abbr><am>2</am><w rend="sup">de</w></abbr><expan cert="high">seconde</expan></choice>, qui l'est encore moins, est d'être 
+                                <lb xml:id="lb19_p29" n="19" facs="#facs_p29_lb19"/> 
+                                mort <choice><abbr>avt</abbr><expan cert="high">avant</expan></choice> lui: on  <term ref="#glossa-mancante">parle</term> des vieux <add place="above">anci<ex cert="high">ens</ex></add> camarades qui 
+                                <lb xml:id="lb20_p29" n="20" facs="#facs_p29_lb20"/> 
                                 ne sont plus.
                             </ab> 
                             <ab xml:id="pericope_91Aaaa0108" n="108" xml:lang="FR" corresp="#it_91Aaaa0108 #en_91Aaaa0108" facs="#facs_pericope_91Aaaa0108" part="i">                                
-                                La <choice><abbr><am>3</am><c rend="sup">e</c></abbr><expan resp="#BE" cert="high">troisième</expan></choice>, qui est la pire, est d'être <choice><abbr>co<am rend="overline">m</am>e</abbr><expan resp="#BE" cert="high">comme</expan></choice> 
-                                <lb n="22" break="yes"/>
-                                <choice><abbr>ns</abbr><expan resp="#BE" cert="high">nous</expan></choice> disons <choice><abbr>famil<am>.</am></abbr><expan resp="#BE" cert="high">familièrement</expan></choice> <hi rend="underline">moins bien c<ex resp="#BE" cert="high">on</ex>servé</hi> que lui.
+                                La <choice><abbr><am>3</am><c rend="sup">e</c></abbr><expan cert="high">troisième</expan></choice>, qui est la pire, est d'être <choice><abbr>co<am rend="overline">m</am>e</abbr><expan cert="high">comme</expan></choice> 
+                                <lb xml:id="lb21_p29" n="21" facs="#facs_p29_lb21"/> 
+                                <choice><abbr>ns</abbr><expan cert="high">nous</expan></choice> disons <choice><abbr>famil<am>.</am></abbr><expan cert="high">familièrement</expan></choice> <hi rend="underline">moins bien c<ex cert="high">on</ex>servé</hi> que lui.
                             </ab>                            
                             <ab xml:id="pericope_91Aaaa0109" n="109" xml:lang="FR" corresp="#it_91Aaaa0109 #en_91Aaaa0109" facs="#facs_pericope_91Aaaa0109" part="i">                                
                                 Eh bien, 
-                                <lb n="23" break="yes"/>
-                                de ces <choice><abbr><am>3</am> man<am>.</am></abbr><expan resp="#BE" cert="high">trois manières</expan></choice>, la <choice><abbr><am>1</am><c rend="sup">e</c></abbr><expan resp="#BE" cert="high">première</expan></choice> n'existe pas <choice><abbr>pr</abbr><expan resp="#BE" cert="high">pour</expan></choice> les <term target="#g2">langues</term>.
-                                <lb n="24" break="yes"/>
-                                <choice><abbr>T<am rend="place(sup) highlighting(underline)">ts</am></abbr><expan resp="#BE" cert="high">Toutes</expan></choice> les langues se <term target="#g8">parlant</term> à la mêm<ex resp="#BE" cert="high">e</ex> <term target="#g9"><choice><abbr>époq<am>.</am></abbr><expan resp="#BE" cert="high">époque</expan></choice></term> sont de 
-                                <lb n="25" break="yes"/>
+                                <lb xml:id="lb22_p29" n="22" facs="#facs_p29_lb22"/> 
+                                de ces <choice><abbr><am>3</am> man<am>.</am></abbr><expan cert="high">trois manières</expan></choice>, la <choice><abbr><am>1</am><c rend="sup">e</c></abbr><expan cert="high">première</expan></choice> n'existe pas <choice><abbr>pr</abbr><expan cert="high">pour</expan></choice> les  <term ref="#langue1">langues</term>.
+                                <lb xml:id="lb23_p29" n="23" facs="#facs_p29_lb23"/> 
+                                <choice><abbr>T<am rend="place(sup) highlighting(underline)">ts</am></abbr><expan cert="high">Toutes</expan></choice> les langues se  <term ref="#glossa-mancante">parlant</term> à la mêm<ex cert="high">e</ex>  <choice><abbr>époq<am>.</am></abbr><expan cert="high">époque</expan></choice> sont de 
+                                <lb xml:id="lb24_p29" n="24" facs="#facs_p29_lb24"/> 
                                 même âge; en ce sens qu'elles remontent à un 
-                                <lb n="26" break="yes"/>
+                                <lb xml:id="lb25_p29" n="25" facs="#facs_p29_lb25"/> 
                                 passé égal.
                             </ab>                            
                             <ab xml:id="pericope_91Aaaa0110" n="110" xml:lang="FR" corresp="#it_91Aaaa0110 #en_91Aaaa0110" facs="#facs_pericope_91Aaaa0110" part="i">                                
                                 Il n'est pas nécessaire de déterminer la 
-                                <lb n="27" break="yes"/>
-                                long<ex resp="#BE" cert="high">ueu</ex>r de ce passé. Si l'on veut, c'est l'<choice><abbr>orig<am>.</am></abbr><expan resp="#BE" cert="high">origine</expan></choice> Du <term target="#g10">langage</term>, 
-                                <lb n="28" break="yes"/>
-                                mais sans remonter aux périodes <choice><abbr>inacces<am>.</am></abbr><expan resp="#BE" cert="high">inaccessibles</expan></choice><supplied reason="omitted-in-original" resp="#BE">.</supplied>
+                                <lb xml:id="lb26_p29" n="26" facs="#facs_p29_lb26"/> 
+                                long<ex cert="high">ueu</ex>r de ce passé. Si l'on veut, c'est l'<choice><abbr>orig<am>.</am></abbr><expan cert="high">origine</expan></choice> Du  <term ref="#langage-N">langage</term>, 
+                                <lb xml:id="lb27_p29" n="27" facs="#facs_p29_lb27"/> 
+                                mais sans remonter aux périodes <choice><abbr>inacces<am>.</am></abbr><expan cert="high">inaccessibles</expan></choice><supplied reason="omitted-in-original" resp="#BE">.</supplied>
                             </ab>
                         </div>
                     </body> 
@@ -403,47 +402,71 @@
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p29_it" hand="#h1" type="box_testo_it">
-                            <ab xml:id="it_91Aaaa093" corresp="#pericope_91Aaaa093" xml:lang="IT" part="f">
-                                <lb/>e si sono viste terre nuove affiorare 
-                                <lb/>un giorno alla superficie di qualche mare, ma non
-                                <lb/>si ha conoscenza di una lingua che non fosse 
-                                <lb/>parlata il giorno prima o che non fosse parlata 
-                                <lb/>il giorno prima sotto la stessa forma.
+                            <ab xml:id="it_91Aaaa099" corresp="#pericope_91Aaaa099" xml:lang="IT" part="f">
+                                <lb/>Rispondo che in questo caso invece si gioca su un’altra 
+                                <lb/>parola, che è la parola lingua;
                             </ab>
-                            <ab xml:id="it_91Aaaa094" corresp="#pericope_91Aaaa094" xml:lang="IT">
-                                Si citerà il 
-                                <lb/>Volapük. Stavo per parlarne. Perché proprio 
-                                <lb/>il Volapük e le altre lingue [artificiali] sono un esempio eccellente per 
-                                <lb/>rendersi conto di ciò che impedisce che 
-                                <lb/>nasca una lingua o di ciò che assicura la trasmissione di quelle che esistono:
+                            <ab xml:id="it_91Aaaa100" corresp="#pericope_91Aaaa100" xml:lang="IT">
+                                in realtà 
+                                <lb/>la lingua non è affatto un essere delimitato e definito
+                                <lb/>nel tempo;
                             </ab>
-                            <ab xml:id="it_91Aaaa095" corresp="#pericope_91Aaaa095" xml:lang="IT">
-                                <lb/>ci sono due fattori, il primo 
-                                <lb/>è l’assenza di ogni iniziativa, perché ogni 
-                                <lb/>popolazione è assai contenta del suo idioma 
-                                <lb/>materno;
+                            <ab xml:id="it_91Aaaa101" corresp="#pericope_91Aaaa101" xml:lang="IT">
+                                si distinguono la lingua francese 
+                                <lb/>e la lingua latina, il tedesco moderno e 
+                                <lb/>il germanico di Arminio come si distingue [ ] e allora si ammette che 
+                                <lb/>l’uno comincia e che l’altro finisce da qualche parte, il che è arbitrario.
                             </ab>
-                            <ab xml:id="it_91Aaaa096" corresp="#pericope_91Aaaa096" xml:lang="IT">
-                                <lb/>il secondo è che, anche se 
-                                <lb/>un’iniziativa effettivamente si producesse, 
-                                <lb/>il che suppone 
-                                <lb/>un insieme di circostanze affatto 
-                                <lb/>eccezionali e in particolare l’uso della scrittura, 
-                                <lb/>tale iniziativa si scontrerebbe con la resistenza invincibile 
-                                <lb/>della massa che non rinuncerà all’idioma cui è abituata.
+                            <ab xml:id="it_91Aaaa102" corresp="#pericope_91Aaaa102" xml:lang="IT">
+                                <lb/>Tuttavia c’è un aspetto di tale questione 
+                                <lb/>che riguarda la differenziazione geografica 
+                                <lb/>delle lingue, 
+                                <lb/>e che io non affronto ora.
                             </ab>            
-                            <ab xml:id="it_91Aaaa097" corresp="#pericope_91Aaaa097" xml:lang="IT">
-                                <lb/>Il Volapük, che non pretendeva 
-                                <lb/>di detronizzare alcuna lingua esistente, non ha potuto, malgrado le 
-                                <lb/>condizioni favorevoli sotto cui si presentava, fare 
-                                <lb/>fortuna in questo mondo.
+                            <ab xml:id="it_91Aaaa103" corresp="#pericope_91Aaaa103" xml:lang="IT">
+                                <lb/>Dal momento che non si può fare nascere 
+                                <lb/>una lingua da nessuna parte, ci chiediamo 
+                                <lb/>qual è dunque l’età che 
+                                <lb/>si assegna a ciascuna di esse.
                             </ab>
-                            <ab xml:id="it_91Aaaa098" corresp="#pericope_91Aaaa098" xml:lang="IT">
-                                <lb/>Si dirà che negare che in questo senso sia mai 
-                                <lb/>nata alcuna lingua è giocare con le parole, 
-                                <lb/>e che basta definire ciò che si intende per nascita 
-                                <lb/>per non poter negare la nascita o lo sviluppo progressivo 
-                                <lb/>di una lingua come il tedesco, il francese.
+                            <ab xml:id="it_91Aaaa104" corresp="#pericope_91Aaaa104" xml:lang="IT">
+                                Qui, ancora una volta, 
+                                <lb/>bisogna intendersi sulle parole. 
+                                <lb/>Si fanno confusioni singolari 
+                                <lb/>sulla parola vecchio parlando delle lingue.
+                            </ab>                            
+                            <ab xml:id="it_91Aaaa105" corresp="#pericope_91Aaaa105" xml:lang="IT">
+                                Ci sono tre maniere 
+                                <lb/>per un uomo di essere più vecchio 
+                                <lb/>o più anziano [ancien] di un altro.
+                            </ab>
+                            <ab xml:id="it_91Aaaa106" corresp="#pericope_91Aaaa106" xml:lang="IT">
+                                <lb/>La prima, che non è sempre piacevole, è 
+                                <lb/>d’essere nato prima di lui.
+                            </ab>
+                            <ab xml:id="it_91Aaaa107" corresp="#pericope_91Aaaa107" xml:lang="IT">
+                                La seconda, 
+                                <lb/>ancora meno piacevole, 
+                                <lb/>è d’essere morto prima di lui: si parlerà 
+                                <lb/>dei vecchi compagni 
+                                <lb/>che non ci sono più.
+                            </ab>
+                            <ab xml:id="it_91Aaaa108" corresp="#pericope_91Aaaa108" xml:lang="IT">
+                                La terza, 
+                                <lb/>che è la peggiore, è d’essere – come diciamo 
+                                <lb/>familiarmente – peggio conservato di lui.
+                            </ab>            
+                            <ab xml:id="it_91Aaaa109" corresp="#pericope_91Aaaa109" xml:lang="IT">
+                                Ebbene, 
+                                <lb/>di queste tre maniere la prima non esiste per le lingue. 
+                                <lb/>Tutte le lingue che si parlano 
+                                <lb/>a una stessa epoca hanno la stessa età; 
+                                <lb/>nel senso che esse risalgono a un uguale passato.
+                            </ab>
+                            <ab xml:id="it_91Aaaa110" corresp="#pericope_91Aaaa110" xml:lang="IT">
+                                Non è necessario determinare la 
+                                <lb/>lunghezza di tale passato. Se vogliamo, è l’origine del linguaggio, 
+                                <lb/>ma senza risalire a periodi inaccessibili.
                             </ab>                                                                                                                      
                         </div>                            
                     </body>
@@ -454,49 +477,67 @@
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
                     <body resp="#AC" xml:id="body-inglese">
                         <div xml:id="div_p29_en" hand="#h1" type="box_testo_en">
-                            <ab xml:id="en_91Aaaa093" corresp="#pericope_91Aaaa093" xml:lang="EN">
-                                <lb/>and we have seen new islands rise up one 
-                                <lb/>day from the surgace of some sea, but we 
-                                <lb/>have never known of a language which was not 
-                                <lb/>spoken the day before or which was not spoken 
-                                <lb/>in the same way the day before. 
+                            <ab xml:id="en_91Aaaa099" corresp="#pericope_91Aaaa099" xml:lang="EN">
+                                <lb/>I would answer that this is to play on another 
+                                <lb/>word which is the word language; 
                             </ab>
-                            <ab xml:id="en_91Aaaa06994" corresp="#pericope_91Aaaa094" xml:lang="EN">
-                                One might refer here to Volapük. 
-                                <lb/>I was going to evoke it myself. For in truth 
-                                <lb/>Volapük and the other [artificial] languages are an excellent example which 
-                                <lb/>shows what prevents a 
-                                <lb/>langage from being born or what insures the transmission of those which exist: 
+                            <ab xml:id="en_91Aaaa0100" corresp="#pericope_91Aaaa100" xml:lang="EN">
+                                <lb/>in truth 
+                                <lb/>languge is not an entity defined 
+                                <lb/>and delimited in time; 
                             </ab>        
-                            <ab xml:id="en_91Aaaa095" coresp="#pericope_91Aaaa095" xml:lang="EN">
-                                <lb/>there are two factors, the first 
-                                <lb/>of which is the absence of initiative, 
-                                <lb/>each and every 
-                                <lb/>population being perfectly happy with its mother 
-                                <lb/>tongue; 
+                            <ab xml:id="en_91Aaaa101" coresp="#pericope_91Aaaa101" xml:lang="EN">
+                                <lb/>the French language 
+                                <lb/>and the Latin language can be distinguished, 
+                                <lb/>modern German and the Germanic of Arminius, 
+                                <lb/>just as we distinguish..., which is to admit that 
+                                <lb/>one begins and the other finishes somewhere, which is arbitrary.
                             </ab>    
-                            <ab xml:id="en_91Aaaa096" corresp="#pericope_91Aaaa096" xml:lang="EN">                                
-                                <lb/>and the second being that, 
-                                <lb/>even if an initiative came about, 
-                                <lb/>which in itself presupposes
-                                <lb/>a whole cluster of quite exceptional circumstances, 
-                                <lb/>notably writing, 
-                                <lb/>this initiative would come up against the impenetrable resistance 
-                                <lb/>of the mass of speaker, who would not give up their customary idiom.
+                            <ab xml:id="en_91Aaaa102" corresp="#pericope_91Aaaa102" xml:lang="EN">                                
+                                <lb/>There is however one side to this question 
+                                <lb/>which concerns the geographic 
+                                <lb/>differentiation of languages, 
+                                <lb/>which I am not going to cover here.
                             </ab>                            
-                            <ab xml:id="en_91Aaaa097" corresp="#pericope_91Aaaa097" xml:lang="EN">                                
-                                <lb/>Volapük, which did not seek 
-                                <lb/>to unseat any existing language, 
-                                <lb/>has not, despite the favourable conditions 
-                                <lb/>in which it found itself, met 
-                                <lb/>witch great success in this world.
+                            <ab xml:id="en_91Aaaa103" corresp="#pericope_91Aaaa103" xml:lang="EN">                                
+                                <lb/>Since a language can in no way be born, 
+                                <lb/>what age should be assigned to each of them? 
                             </ab>                            
-                            <ab xml:id="en_91Aaaa098" corresp="#pericope_91Aaaa098" xml:lang="EN">                                
-                                <lb/>It may be said that to deny in this sense that any                                
-                                <lb/>language is born is to play with words,                                
-                                <lb/>and that one needs only to define what is meant by birth                                
-                                <lb/>in order not to deny the birth or the progressive                                
-                                <lb/>development of a language like German, or French. 
+                            <ab xml:id="en_91Aaaa104" corresp="#pericope_91Aaaa104" xml:lang="EN">                                
+                                Here again, 
+                                <lb/>it is necessary to define terms. 
+                                <lb/>Some ghastly misunderstandings surround 
+                                <lb/>the application of the word old to languages. 
+                            </ab>      
+                            <ab xml:id="en_91Aaaa0105" corresp="#pericope_91Aaaa105" xml:lang="EN">
+                                There are three ways 
+                                <lb/>a person can be older than another.
+                            </ab>        
+                            <ab xml:id="en_91Aaaa106" coresp="#pericope_91Aaaa106" xml:lang="EN">
+                                <lb/>The first, which is not always pleasant, is to 
+                                <lb/>be born first.
+                            </ab>    
+                            <ab xml:id="en_91Aaaa107" corresp="#pericope_91Aaaa107" xml:lang="EN">                                
+                                The second, 
+                                <lb/>even less so, is 
+                                <lb/>to die first.
+                            </ab>                            
+                            <ab xml:id="en_91Aaaa108" corresp="#pericope_91Aaaa108" xml:lang="EN">                                
+                                The third, 
+                                <lb/>and worst, is to be as we say 
+                                <lb/>colloquially, less well preserved.
+                            </ab>                            
+                            <ab xml:id="en_91Aaaa109" corresp="#pericope_91Aaaa109" xml:lang="EN">                                
+                                Now, 
+                                <lb/>of these three ways, the first does not exist for languages. 
+                                <lb/>All languages which are spoken at 
+                                <lb/>the same period are of the same age, 
+                                <lb/>in that they all date back to an equal past.
+                            </ab>                            
+                            <ab xml:id="en_91Aaaa110" corresp="#pericope_91Aaaa110" xml:lang="EN">                                
+                                There is no need to define the 
+                                <lb/>length of this past. If one wishes, it is the origin of language, 
+                                <lb/>but without going back to inaccessible periods.
                             </ab>                            
                         </div>   
                     </body>

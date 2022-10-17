@@ -743,7 +743,7 @@
                     <!--orth-->
                     <xsl:choose>
                         <xsl:when test="//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry[@xml:id=$ref]">
-                            <xsl:copy-of select="concat(//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry[@xml:id=$ref]/tei:form/tei:orth, ': ')"/>
+                            <xsl:copy-of select="concat(//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:entry[@xml:id=$ref]/tei:form/tei:orth[1], ': ')"/>
                         </xsl:when>
                         <xsl:when test="//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry[@xml:id=$ref]">
                             <xsl:copy-of select="concat(//tei:TEI[@xml:id='glossario']/tei:text/tei:body/tei:superEntry/tei:entry[@xml:id=$ref]/tei:form/tei:orth, ': ')"/>
