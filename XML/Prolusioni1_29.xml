@@ -256,7 +256,7 @@
     </teiHeader>
     
     <facsimile>
-        <!--VENTOTTESIMA PAGINA-->
+        <!--VENTINOVESIMA PAGINA-->
         <surface n="15" xml:id="scan_p29">
             <graphic url='ms_fr_03951_01_1_p029-resized.jpg' width='600px' height='900px'/> 
             <!--Righe-->
@@ -292,7 +292,7 @@
             <zone points = ' 56,810,252,784,553,791,549,810,53,835' rendition="line" xml:id="facs_p29_lb26"/>
             <zone points = ' 175,826,171,846,537,832,535,807' rendition="line" xml:id="facs_p29_lb27"/>
     
-            <zone points = '49,62,54,89,91,71,80,54'  rendition="line" xml:id="facs_HandPageNumber-29"/>     <!--Numero 28 cerchiato in alto a sx-->           
+            <zone points = '49,62,54,89,91,71,80,54'  rendition="line" xml:id="facs_HandPageNumber-29"/>     <!--Numero 29 cerchiato in alto a sx-->           
 
         </surface>
     </facsimile>
@@ -303,7 +303,7 @@
             <group xml:id="fr_Prolusioni"> <!--TESTO FRANCESE DELLE 3 PROLUSIONI-->
                 <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
                     <body xml:lang="fr" source="#Bouquet-Engler2002" xml:id="body-francese">
-                        <!--Ventottesima pagina-->
+                        <!--Ventinovesima pagina-->
                         <pb n="f1r" xml:id="body_p29" facs="#scan_p29"/>
                         <!--Numeri impaginazione a stampa e a mano-->
                         <ab>
