@@ -336,8 +336,7 @@
                                 se rendre compte de ce qui empêche qu'il ne
                                 <lb xml:id="lb11_p28" n="11" facs="#facs_p28_lb11"/>                                
                                 naisse une <term ref="#langue1">langue</term>
-                                <!--aggiunta sinistra--><add xml:id="addendum1" place="margin left" resp="#SB"> ou de ce qui assure la <term ref="#glossa-mancante">trans
-                                mission</term> de celles qui existent</add>: <!--fine add sx-->
+                                <!--aggiunta sinistra--><add xml:id="addendum1" place="margin left" resp="#SB"> ou de ce qui assure la <term ref="#glossa-mancante">transmission</term> de celles qui existent</add>: <!--fine add sx-->
                             </ab>
                             <ab xml:id="pericope_91Aaaa095" n="95" xml:lang="FR" corresp="#it_91Aaaa095 #en_91Aaaa095" facs="#facs_pericope_91Aaaa095">
                                 il y a <choice><abbr>2</abbr><expan>deux</expan></choice> facteurs, le <choice><abbr>1°</abbr><expan>premier</expan></choice> 
@@ -397,26 +396,47 @@
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p28_it" hand="#h1" type="box_testo_it">
                             <ab xml:id="it_91Aaaa093" corresp="#pericope_91Aaaa093" xml:lang="IT" part="f">
-                                <lb/>e si sono viste terre nuove affiorare un giorno alla superficie di qualche mare, ma non si ha conoscenza di una lingua che non fosse parlata il giorno prima o che non fosse parlata il giorno prima sotto la stessa forma.
+                                <lb/>e si sono viste terre nuove affiorare 
+                                <lb/>un giorno alla superficie di qualche mare, ma non
+                                <lb/>si ha conoscenza di una lingua che non fosse 
+                                <lb/>parlata il giorno prima o che non fosse parlata 
+                                <lb/>il giorno prima sotto la stessa forma.
                             </ab>
                             <ab xml:id="it_91Aaaa094" corresp="#pericope_91Aaaa094" xml:lang="IT">
-                                <lb/>Si citerà il Volapük. Stavo per parlarne. Perché proprio il Volapük e le altre lingue [artificiali] sono un esempio eccellente per rendersi conto di ciò che impedisce che nasca una lingua o di ciò che assicura la trasmissione di quelle che esistono:
+                                Si citerà il 
+                                <lb/>Volapük. Stavo per parlarne. Perché proprio 
+                                <lb/>il Volapük e le altre lingue [artificiali] sono un esempio eccellente per 
+                                <lb/>rendersi conto di ciò che impedisce che 
+                                <lb/>nasca una lingua o di ciò che assicura la trasmissione di quelle che esistono:
                             </ab>
                             <ab xml:id="it_91Aaaa095" corresp="#pericope_91Aaaa095" xml:lang="IT">
-                                <lb/>ci sono due fattori, il primo è l’assenza di ogni iniziativa, perché ogni popolazione è assai contenta del suo idioma materno;
+                                <lb/>ci sono due fattori, il primo 
+                                <lb/>è l’assenza di ogni iniziativa, perché ogni 
+                                <lb/>popolazione è assai contenta del suo idioma 
+                                <lb/>materno;
                             </ab>
                             <ab xml:id="it_91Aaaa096" corresp="#pericope_91Aaaa096" xml:lang="IT">
-                                <lb/>il secondo è che, anche se un’iniziativa effettivamente si producesse, il che suppone un insieme di circostanze affatto eccezionali e in particolare l’uso della scrittura, tale iniziativa si scontrerebbe con la resistenza invincibile della massa che non rinuncerà all’idioma cui è abituata.
+                                <lb/>il secondo è che, anche se 
+                                <lb/>un’iniziativa effettivamente si producesse, 
+                                <lb/>il che suppone 
+                                <lb/>un insieme di circostanze affatto 
+                                <lb/>eccezionali e in particolare l’uso della scrittura, 
+                                <lb/>tale iniziativa si scontrerebbe con la resistenza invincibile 
+                                <lb/>della massa che non rinuncerà all’idioma cui è abituata.
                             </ab>            
                             <ab xml:id="it_91Aaaa097" corresp="#pericope_91Aaaa097" xml:lang="IT">
-                                <lb/>Il Volapük, che non pretendeva di detronizzare alcuna lingua esistente, non ha potuto, malgrado le condizioni favorevoli sotto cui si presentava, fare fortuna in questo mondo.
+                                <lb/>Il Volapük, che non pretendeva 
+                                <lb/>di detronizzare alcuna lingua esistente, non ha potuto, malgrado le 
+                                <lb/>condizioni favorevoli sotto cui si presentava, fare 
+                                <lb/>fortuna in questo mondo.
                             </ab>
                             <ab xml:id="it_91Aaaa098" corresp="#pericope_91Aaaa098" xml:lang="IT">
-                                <lb/>Si dirà che negare che in questo senso sia mai nata alcuna lingua è giocare con le parole, e che basta definire ciò che si intende per nascita per non poter negare la nascita o lo sviluppo progressivo di una lingua come il tedesco, il francese.
-                            </ab>                               
-                            <ab xml:id="it_91Aaaa099" corresp="#pericope_91Aaaa099" xml:lang="IT">
-                                <lb/>Rispondo che in questo caso invece si gioca su un’altra parola, che è la parola lingua;
-                            </ab>                                                                                                    
+                                <lb/>Si dirà che negare che in questo senso sia mai 
+                                <lb/>nata alcuna lingua è giocare con le parole, 
+                                <lb/>e che basta definire ciò che si intende per nascita 
+                                <lb/>per non poter negare la nascita o lo sviluppo progressivo 
+                                <lb/>di una lingua come il tedesco, il francese.
+                            </ab>                                                                                                                      
                         </div>                            
                     </body>
                 </text>          
@@ -427,26 +447,49 @@
                     <body resp="#AC" xml:id="body-inglese">
                         <div xml:id="div_p28_en" hand="#h1" type="box_testo_en">
                             <ab xml:id="en_91Aaaa093" corresp="#pericope_91Aaaa093" xml:lang="EN">
-                                <lb/>and we have seen new islands rise up one day from the surgace of some sea, but we have never known of a language which was not spoken the day before or which was not spoken in the same way the day before. 
+                                <lb/>and we have seen new islands rise up one 
+                                <lb/>day from the surgace of some sea, but we 
+                                <lb/>have never known of a language which was not 
+                                <lb/>spoken the day before or which was not spoken 
+                                <lb/>in the same way the day before. 
                             </ab>
                             <ab xml:id="en_91Aaaa06994" corresp="#pericope_91Aaaa094" xml:lang="EN">
-                                <lb/>One might refer here to Volapük. I was going to evoke it myself. For in truth Volapük and the other artificial languages are an excellent example which shows what prevents a langage from being born or what insures the transmission of those which exist: 
+                                One might refer here to Volapük. 
+                                <lb/>I was going to evoke it myself. For in truth 
+                                <lb/>Volapük and the other [artificial] languages are an excellent example which 
+                                <lb/>shows what prevents a 
+                                <lb/>langage from being born or what insures the transmission of those which exist: 
                             </ab>        
                             <ab xml:id="en_91Aaaa095" coresp="#pericope_91Aaaa095" xml:lang="EN">
-                                <lb/>there are two factors, the first of which is the absence of initiative, each and every population being perfectly happy with the absence of initiative, each and every population being perfectly happy with its mother tongue; 
+                                <lb/>there are two factors, the first 
+                                <lb/>of which is the absence of initiative, 
+                                <lb/>each and every 
+                                <lb/>population being perfectly happy with its mother 
+                                <lb/>tongue; 
                             </ab>    
                             <ab xml:id="en_91Aaaa096" corresp="#pericope_91Aaaa096" xml:lang="EN">                                
-                                <lb/>and the second being that, even if an initiative came about, which in itself presupposes a whole cluster of quite exceptional circumstances, notably writing, this initiative would come up against the impenetrable resistance of the mass of speaker, who would not give up their customary idiom.
+                                <lb/>and the second being that, 
+                                <lb/>even if an initiative came about, 
+                                <lb/>which in itself presupposes
+                                <lb/>a whole cluster of quite exceptional circumstances, 
+                                <lb/>notably writing, 
+                                <lb/>this initiative would come up against the impenetrable resistance 
+                                <lb/>of the mass of speaker, who would not give up their customary idiom.
                             </ab>                            
                             <ab xml:id="en_91Aaaa097" corresp="#pericope_91Aaaa097" xml:lang="EN">                                
-                                <lb/>Volapük, which did not seek to unseat any existing language, has not, despite the favourable conditions in which it found itself, met witch great success in this world.
+                                <lb/>Volapük, which did not seek 
+                                <lb/>to unseat any existing language, 
+                                <lb/>has not, despite the favourable conditions 
+                                <lb/>in which it found itself, met 
+                                <lb/>witch great success in this world.
                             </ab>                            
                             <ab xml:id="en_91Aaaa098" corresp="#pericope_91Aaaa098" xml:lang="EN">                                
-                                <lb/>It may be said that to deny in this sense that any language is born is to play with words, and that one needs only to define what is meant by birth in order not to deny the birth or the progressive development of a language like German, or French. 
+                                <lb/>It may be said that to deny in this sense that any                                
+                                <lb/>language is born is to play with words,                                
+                                <lb/>and that one needs only to define what is meant by birth                                
+                                <lb/>in order not to deny the birth or the progressive                                
+                                <lb/>development of a language like German, or French. 
                             </ab>                            
-                            <ab xml:id="en_91Aaaa099" corresp="#pericope_91Aaaa099" xml:lang="EN">                                
-                                <lb/>I would answer that this is to play on another word which is the word language;
-                            </ab>
                         </div>   
                     </body>
                 </text>       
