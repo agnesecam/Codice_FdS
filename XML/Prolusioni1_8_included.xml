@@ -43,7 +43,7 @@
 				<publisher> CNR Pisa - Unical </publisher>
 				<availability>
 					<licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY SA 4.0 </licence>
-                    <!-- DA DECIDERE: almeno CC BY Share Alike poi valutiamo Non Derivaty e Non commercial-->
+                    
 				</availability>
                 <date when="2022">2022</date>
 			</publicationStmt>
@@ -1364,7 +1364,7 @@
                 <date when="2022">2022</date>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY SA 4.0 </licence>
-                    <!-- DA DECIDERE: almeno CC BY Share Alike poi valutiamo Non Derivaty e Non commercial-->
+                    
                 </availability>
             </publicationStmt>
 
