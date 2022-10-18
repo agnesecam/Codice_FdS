@@ -308,63 +308,63 @@
                         <div xml:id="div_p30_fr" hand="#h1" type="box_testo" >
                             <ab xml:id="pericope_91Aaaa111" n="111" xml:lang="FR" corresp="#it_91Aaaa0111 #en_91Aaaa0111" facs="#facs_pericope_91Aaaa111" >
                                 <lb xml:id="lb1_p30" n="1" facs="#facs_p30_lb1"/> 
-                                <del rend="overstrike" unit="char" quantity="3" instant="true"><gap reason="cancelled" unit="char" quantity="3"/></del> en s'arrêt<ex resp="#BE" cert="high">an</ex>t à la période accessible, il est 
+                                <del rend="overstrike" unit="char" quantity="3" instant="true"><gap reason="cancelled" unit="char" quantity="3"/></del> en s'arrêt<ex cert="high">an</ex>t à la période accessible, il est 
                                 <lb xml:id="lb2_p30" n="2" facs="#facs_p30_lb2"/>
-                                clair que chaque <term target="#g2">langue</term> <term target="#g11"><choice><abbr>indo-eur<am>.</am></abbr><expan resp="#BE" cert="high">indo-européenne</expan></choice></term> actuelle<ex resp="#BE" cert="high">me</ex>nt 
+                                clair que chaque <term ref="#langue1">langue</term> <choice><abbr>indo-eur<am>.</am></abbr><expan cert="high">indo-européenne</expan></choice> actuelle<ex cert="high">me</ex>nt 
                                 <lb xml:id="lb3_p30" n="3" facs="#facs_p30_lb3"/>
-                                <term target="#g8">parlée</term> a exacte<ex resp="#BE" cert="high">me</ex>nt le mêm<ex resp="#BE" cert="high">e</ex> âge par rapport 
+                                <term ref="#glossa-mancante">parlée</term> a exacte<ex cert="high">me</ex>nt le mêm<ex cert="high">e</ex> âge par rapport 
                                 <lb xml:id="lb4_p30" n="4" facs="#facs_p30_lb4"/>
-                                au temps où se <term target="#g8">parlait</term> l'<term target="#g11 #nota3"><choice><abbr>indo-eur<am>.</am></abbr><expan resp="#BE" cert="high">indo-européen</expan></choice></term> primitif.
+                                au temps où se <term ref="#glossa-mancante">parlait</term> l'<choice><abbr>indo-eur<am>.</am></abbr><expan cert="high">indo-européen</expan></choice> primitif.
                             </ab>                           
                             <ab xml:id="pericope_91Aaaa0112" n="112" xml:lang="FR" corresp="#it_91Aaaa0112 #en_91Aaaa0112" facs="#facs_pericope_91Aaaa0112">                                                 
                                 <lb xml:id="lb5_p30" n="5" facs="#facs_p30_lb5"/>
                                 <del rend="overstrike" unit="word" atLeast="9" instant="true"><gap reason="cancelled" unit="word" atLeast="8"/>
-                                <gap reason="cancelled" unit="word" quantity="1"/></del>Je ne m'arrête pas <del rend="overstrike" unit="word" quantity="2" instant="true">à la</del> au <choice><abbr><am>2</am><c rend="sup">d</c></abbr><expan resp="#BE" cert="high">second</expan></choice> sens 
+                                <gap reason="cancelled" unit="word" quantity="1"/></del> Je ne m'arrête pas <del rend="overstrike" unit="word" quantity="2" instant="true">à la</del> au <choice><abbr><am>2</am><c rend="sup">d</c></abbr><expan cert="high">second</expan></choice> sens 
                                 <lb xml:id="lb6_p30" n="6" facs="#facs_p30_lb6"/>
-                                où <choice><abbr><am>1</am></abbr><expan resp="#BE" cert="high">une</expan></choice> <term target="#g2">l<ex resp="#BE" cert="high">an</ex>gue</term> serait <choice><abbr><am>+</am></abbr><expan resp="#BE" cert="high">plus</expan></choice> <choice><sic>veille</sic><corr resp="#VPVG" cert="high">vieille</corr></choice><!-- vigilia-vecchio--> qu'une autre, <del rend="overstrike" unit="char" quantity="2" instant="true">en</del> 
+                                où <choice><abbr><am>1</am></abbr><expan cert="high">une</expan></choice> <term ref="#langue1">l<ex cert="high">an</ex>gue</term> serait <choice><abbr><am>+</am></abbr><expan cert="high">plus</expan></choice> <choice><sic>veille</sic><corr cert="high">vieille</corr></choice> qu'une autre, <del rend="overstrike" unit="char" quantity="2" instant="true">en</del> 
                                 <lb xml:id="lb7_p30" n="7" facs="#facs_p30_lb7"/>
-                                <del rend="overtyped" unit="char" atLeast="1" instant="true">ce</del>et qui n'a pas <choice><abbr>g<am rend="place(sup) highlighting(underline)">de</am></abbr><expan resp="#BE" cert="high">grande</expan></choice> importance ; il y a des 
+                                <del rend="overtyped" unit="char" atLeast="1" instant="true">ce</del> et qui n'a pas <choice><abbr>g<am rend="place(sup) highlighting(underline)">de</am></abbr><expan cert="high">grande</expan></choice> importance ; il y a des 
                                 <lb xml:id="lb8_p30" n="8" facs="#facs_p30_lb8"/> 
-                                <term target="#g2">langues</term> mortes et par <choice><abbr>conseqt</abbr><expan resp="#BE" cert="high">conséquent</expan></choice> qu'on peut appeler 
+                                <term ref="#langue1">langues</term> mortes et par <choice><abbr>conseqt</abbr><expan cert="high">conséquent</expan></choice> qu'on peut appeler 
                                 <lb xml:id="lb9_p30" n="9" facs="#facs_p30_lb9"/> 
-                                <choice><abbr><hi rend="underline">anci</hi>e<am rend="overline">n</am></abbr><expan resp="#BE" cert="high">anciennes</expan></choice>, par <choice><abbr>ex<am>.</am></abbr><expan resp="#BE" cert="high">exemple</expan></choice> le gaulois, le phénicien, 
+                                <choice><abbr><hi rend="underline">anci</hi>e<am rend="overline">n</am></abbr><expan cert="high">anciennes</expan></choice>, par <choice><abbr>ex<am>.</am></abbr><expan cert="high">exemple</expan></choice> le gaulois, le phénicien, 
                                 <lb xml:id="lb10_p30" n="10" facs="#facs_p30_lb10"/>
-                                <choice><abbr>etc<am>.</am></abbr><expan resp="#VPVG" cert="high">et cetera</expan></choice> qui ont été extirpés.
+                                <choice><abbr>etc<am>.</am></abbr><expan cert="high">et cetera</expan></choice> qui ont été extirpés.
                             </ab>
                             <ab xml:id="pericope_91Aaaa0113" n="113" xml:lang="FR" corresp="#it_91Aaaa0113 #en_91Aaaa0113" facs="#facs_pericope_91Aaaa0113">
                                 <lb xml:id="lb11_p30" n="11" facs="#facs_p30_lb11"/> 
-                                Enfin <del rend="overstrike" unit="char" atLeast="2" instant="true">les</del> il est à remarquer que <choice><abbr>d<am rend="sup">s</am></abbr><expan resp="#BE" cert="high">dans</expan></choice> le <choice><abbr><am>3</am><c rend="sup">e</c></abbr><expan resp="#BE" cert="high">troisième</expan></choice> 
+                                Enfin <del rend="overstrike" unit="char" atLeast="2" instant="true">les</del> il est à remarquer que <choice><abbr>d<am rend="sup">s</am></abbr><expan cert="high">dans</expan></choice> le <choice><abbr><am>3</am><c rend="sup">e</c></abbr><expan cert="high">troisième</expan></choice> 
                                 <lb xml:id="lb12_p30" n="12" facs="#facs_p30_lb12"/> 
-                                sens on peut dire qu'<choice><abbr><am>1</am></abbr><expan resp="#BE" cert="high">une</expan></choice> <term target="#g2">l<ex resp="#BE" cert="high">an</ex>gue</term> est <choice><abbr><am>+</am></abbr><expan resp="#BE" cert="high">plus</expan></choice> vieille 
+                                sens on peut dire qu'<choice><abbr><am>1</am></abbr><expan cert="high">une</expan></choice> <term ref="#langue1">l<ex cert="high">an</ex>gue</term> est <choice><abbr><am>+</am></abbr><expan cert="high">plus</expan></choice> vieille 
                                 <lb xml:id="lb13_p30" n="13" facs="#facs_p30_lb13"/> 
-                                qu'une autre, <del rend="overstrike" unit="word" atLeast="3" instant="true"><gap reason="cancelled" unit="word" atLeast="3"/></del> mais chose as<ex resp="#VPVG" cert="high">s</ex>ez 
+                                qu'une autre, <del rend="overstrike" unit="word" atLeast="3" instant="true"><gap reason="cancelled" unit="word" atLeast="3"/></del> mais chose as<ex cert="high">s</ex>ez 
                                 <lb xml:id="lb14_p30" n="14" facs="#facs_p30_lb14"/> 
-                                bizarre, <choice><abbr>pr</abbr><expan resp="#BE" cert="high">pour</expan></choice> les <term target="#g2">langues</term> c'est le contraire <add place="supralinear">de ce qui se passe</add>, c'est-à-<lb n="43" break="no"/>dire que ce sont les <term target="#g2">l<ex resp="#BE" cert="high">an</ex>gues</term> les mieux conservées 
+                                bizarre, <choice><abbr>pr</abbr><expan cert="high">pour</expan></choice> les <term ref="#langue1">langues</term> c'est le contraire <add place="supralinear">de ce qui se passe</add>, c'est-à-<lb n="43" break="no"/>dire que ce sont les <term ref="#langue1">l<ex cert="high">an</ex>gues</term> les mieux conservées 
                                 <lb xml:id="lb15_p30" n="15" facs="#facs_p30_lb15"/> 
                                 qu'on appelle vieilles.
                             </ab>
                             <ab xml:id="pericope_91Aaaa0114" n="114" xml:lang="FR" corresp="#it_91Aaaa0114 #en_91Aaaa0114" facs="#facs_pericope_91Aaaa0114">
-                                <choice><abbr>D<am rend="sup">s</am></abbr><expan resp="#BE" cert="high">Dans</expan></choice> ce <term target="#g12">sens</term>, par <choice><abbr>ex<am>.</am></abbr><expan resp="#BE" cert="high">exemple</expan></choice>, <del rend="overstrike" unit="word" atLeast="6" instant="true"><gap reason="cancelled" unit="word" quantity="1"/>
+                                <choice><abbr>D<am rend="sup">s</am></abbr><expan cert="high">Dans</expan></choice> ce <term ref="#g12">sens</term>, par <choice><abbr>ex<am>.</am></abbr><expan cert="high">exemple</expan></choice>, <del rend="overstrike" unit="word" atLeast="6" instant="true"><gap reason="cancelled" unit="word" quantity="1"/>
                                 <lb xml:id="lb16_p30" n="16" facs="#facs_p30_lb16"/> 
                                 <gap reason="cancelled" unit="word" atLeast="5"/></del> le grec est 
                                 <lb xml:id="lb17_p30" n="17" facs="#facs_p30_lb17"/>
-                                une langue <choice><abbr><am>+</am></abbr><expan resp="#BE" cert="high">plus</expan></choice> vieille que le latin pris à la 
+                                une langue <choice><abbr><am>+</am></abbr><expan cert="high">plus</expan></choice> vieille que le latin pris à la 
                                 <lb xml:id="lb18_p30" n="18" facs="#facs_p30_lb18"/> 
-                                même <term target="#g9"><choice><abbr>époq<am>.</am></abbr><expan resp="#BE" cert="high">époque</expan></choice></term> - elle s'est moins éloignée du type 
+                                même <choice><abbr>époq<am>.</am></abbr><expan cert="high">époque</expan></choice> - elle s'est moins éloignée du type 
                                 <lb xml:id="lb19_p30" n="19" facs="#facs_p30_lb19"/> 
-                                primitif <term target="#g11"><choice><abbr>indo-eur<am>.</am></abbr><expan resp="#BE" cert="high">indo-européen</expan></choice></term>. Le sanscrit est <choice><abbr><am>+</am></abbr><expan resp="#BE" cert="high">plus</expan></choice> vieux, 
+                                primitif <choice><abbr>indo-eur<am>.</am></abbr><expan>indo-eur<ex>opéen</ex></expan></choice>. Le sanscrit est <choice><abbr><am>+</am></abbr><expan cert="high">plus</expan></choice> vieux, 
                                 <lb xml:id="lb20_p30" n="20" facs="#facs_p30_lb20"/> 
-                                mieux préservé, que cert<ex resp="#BE" cert="high">ai</ex><hi rend="underline">nes</hi> au<ex resp="#BE" cert="high">tres</ex>.
+                                mieux préservé, que cert<ex cert="high">ai</ex><hi rend="underline">nes</hi> au<ex cert="high">tres</ex>.
                             </ab>                             
                             <ab xml:id="pericope_91Aaaa0115" n="115" xml:lang="FR" corresp="#it_91Aaaa0115 #en_91Aaaa0115" facs="#facs_pericope_91Aaaa0115">
                                 <lb xml:id="lb21_p30" n="21" facs="#facs_p30_lb21"/> 
-                                En opposant <choice><abbr>d<am rend="sup">s</am></abbr><expan resp="#BE" cert="high">dans</expan></choice> <event type="conference" notBefore="1891-11-13">notre prochain<ex resp="#BE" cert="high">e</ex> séance</event> 
+                                En opposant <choice><abbr>d<am rend="sup">s</am></abbr><expan cert="high">dans</expan></choice> <event type="conference" notBefore="1891-11-13">notre prochain<ex cert="high">e</ex> séance</event> 
                                 <lb xml:id="lb22_p30" n="22" facs="#facs_p30_lb22"/> 
-                                le principe de <term target="#g13">mouvement</term> au principe d'<term target="#g14 #nota4">inertie</term> 
+                                le principe de <term ref="#mouvement">mouvement</term> au principe d'<term ref="#glossa-mancante">inertie</term> 
                                 <lb xml:id="lb23_p30" n="23" facs="#facs_p30_lb23"/> 
                                 que <gap reason="missing" extent="rest of the line"/> 
                                 <lb xml:id="lb24_p30" n="24" facs="#facs_p30_lb24"/> 
-                                <choice><abbr>ns</abbr><expan resp="#BE" cert="high">nous</expan></choice> aurons <gap reason="missing" extent="rest of the line"/>
+                                <choice><abbr>ns</abbr><expan cert="high">nous</expan></choice> aurons <gap reason="missing" extent="rest of the line"/>
                             </ab>  
                         </div>
                     </body> 
