@@ -6,7 +6,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">Trois premières conférences à l'Université</title> <!--Titolo preso dalla BGE-->
+                <title type="main">Trois premières conférences à l'Université</title> 
                 <title type="sub">(cours d'ouverture, <date when="1891-11">novembre 1891</date>)</title>
                 <author ref="#FdS" role="author">Ferdinand de Saussure</author>
                 <respStmt>
@@ -256,7 +256,7 @@
     </teiHeader>
     
     <facsimile>
-        <!--VENTINOVESIMA PAGINA-->
+        <!--TRENTESIMA PAGINA-->
         <surface n="15" xml:id="scan_p30">
             <graphic url='ms_fr_03951_01_1_p030-resized.jpg' width='600px' height='900px'/> 
             <!--Righe-->
@@ -298,7 +298,7 @@
             <group xml:id="fr_Prolusioni"> <!--TESTO FRANCESE DELLE 3 PROLUSIONI-->
                 <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
                     <body xml:lang="fr" source="#Bouquet-Engler2002" xml:id="body-francese">
-                        <!--Ventinovesima pagina-->
+                        <!--Trentesima pagina-->
                         <pb n="f1r" xml:id="body_p30" facs="#scan_p30"/>
                         <!--Numeri impaginazione a stampa e a mano-->
                         <ab>
@@ -347,9 +347,9 @@
                                 qu'on appelle vieilles.
                             </ab>
                             <ab xml:id="pericope_91Aaaa0114" n="114" xml:lang="FR" corresp="#it_91Aaaa0114 #en_91Aaaa0114" facs="#facs_pericope_91Aaaa0114">
-                                <choice><abbr>D<am rend="sup">s</am></abbr><expan cert="high">Dans</expan></choice> ce <term ref="#g12">sens</term>, par <choice><abbr>ex<am>.</am></abbr><expan cert="high">exemple</expan></choice>, <del rend="overstrike" unit="word" atLeast="6" instant="true"><gap reason="cancelled" unit="word" quantity="1"/>
+                                <choice><abbr>D<am rend="sup">s</am></abbr><expan cert="high">Dans</expan></choice> ce <term ref="#g12">sens</term>, par <choice><abbr>ex<am>.</am></abbr><expan cert="high">exemple</expan></choice>, <del rend="overstrike" unit="word" atLeast="6" instant="true"><gap reason="cancelled" unit="word" quantity="1"/></del>
                                 <lb xml:id="lb18_p30" n="18" facs="#facs_p30_lb18"/> 
-                                <gap reason="cancelled" unit="word" atLeast="5"/></del> le grec est 
+                                <del><gap reason="cancelled" unit="word" atLeast="5"/></del> le grec est 
                                 <lb xml:id="lb19_p30" n="19" facs="#facs_p30_lb19"/>
                                 une langue <choice><abbr><am>+</am></abbr><expan cert="high">plus</expan></choice> vieille que le latin pris à la 
                                 <lb xml:id="lb20_p30" n="20" facs="#facs_p30_lb20"/> 
