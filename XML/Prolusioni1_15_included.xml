@@ -638,7 +638,22 @@
                         <publisher>Edizioni dell'Orso</publisher>
                         <pubPlace>Alessandria</pubPlace>
                         <idno type="ISBN">978-88-6274-728-8</idno>
-                    </bibl>                                                
+                    </bibl>
+
+                    <!--La linguistique - Hovelacque, Abel-->
+                    <bibl xml:id="LL-Hovelacque">
+                        <title type="main">La linguistique</title>
+                        <author role="author">
+                            <persName>
+                                <forename>Abel</forename>
+                                <surname>Hovelacque</surname>
+                            </persName>
+                        </author>
+                        <date when="1911">1911</date>
+                        <publisher>Schleicher</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <idno type="OCLC">797026595</idno>
+                    </bibl>                    
                 </listBibl>
             </div>
         </back>
@@ -2887,7 +2902,7 @@
                 </xr>        
             </entry>
 
-            <entry xml:id="etat_de_langue">
+            <entry xml:id="état_de_langue">
                 <form>
                     <orth>Etat de langue</orth>
                 </form>
@@ -6449,7 +6464,7 @@
                     <orth>Volonté</orth>
                 </form>
                 <sense n="1">
-                    <xr type="see"><ref target="#conscience">v. conscience</ref>);</xr> <xr type="see"><ref target="#intelligence">intelligence</ref>)</xr>
+                    <def><ref target="#conscience">v. conscience</ref>; <ref target="#intelligence">intelligence</ref></def>
                 </sense>
                 <xr type="other_dictonaries">
                     {<listRef>
