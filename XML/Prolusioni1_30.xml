@@ -376,19 +376,39 @@
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p30_it" hand="#h1" type="box_testo_it">
                             <ab xml:id="it_91Aaaa111" corresp="#pericope_91Aaaa111" xml:lang="IT" part="f">
-                                Fermandosi al periodo accessibile, è chiaro che ogni lingua indoeuropea parlata attualmente ha esattamente la stessa età in rapporto al tempo in cui si parlava l’indoeuropeo.
+                                <lb/>fermandosi al periodo accessibile, è 
+                                <lb/>chiaro che ogni lingua indoeuropea parlata attualmente 
+                                <lb/>ha esattamente la stessa età in rapporto 
+                                <lb/>al tempo in cui si parlava l’indoeuropeo.
                             </ab>
-                            <ab xml:id="it_91Aaaa112" corresp="#pericope_91Aaaa112" xml:lang="IT">
-                                Non mi soffermo sul secondo senso in cui una lingua sarebbe più vecchia di un’altra, che non ha grande importanza; vi sono lingue morte e che di conseguenza si possono chiamare antiche, per esempio il gallo, il fenicio, ecc., che sono state estirpate.
+                            <ab xml:id="it_91Aaaa112" corresp="#pericope_91Aaaa112" xml:lang="IT">                            
+                                <lb/>Non mi soffermo sul secondo senso 
+                                <lb/>in cui una lingua sarebbe più vecchia di un’altra, 
+                                <lb/>che non ha grande importanza; vi sono 
+                                <lb/>lingue morte e che di conseguenza si possono chiamare 
+                                <lb/>antiche, per esempio il gallo, il fenicio, 
+                                <lb/>ecc., che sono state estirpate.
                             </ab>
                             <ab xml:id="it_91Aaaa113" corresp="#pericope_91Aaaa113" xml:lang="IT">
-                                Infine bisogna notare che nel terzo senso si può dire che una lingua è più vecchia di un’altra ma, cosa assai bizzarra, per le lingue accade il contrario: sono le lingue meglio conservate che vengono chiamate vecchie.
+                                <lb/>Infine bisogna notare che nel terzo 
+                                <lb/>senso si può dire che una lingua è più vecchia 
+                                <lb/>di un’altra ma, cosa assai 
+                                <lb/>bizzarra, per le lingue accade il contrario: 
+                                <lb/>sono le lingue meglio conservate 
+                                <lb/>che vengono chiamate vecchie.
                             </ab>
                             <ab xml:id="it_91Aaaa114" corresp="#pericope_91Aaaa114" xml:lang="IT">
-                                In questo senso, per esempio, il greco è una lingua più vecchia del latino preso alla stessa epoca, si è allontanata meno dal tipo primitivo dell’indoeuropeo. Il sanscrito è più vecchio, meglio preservato, di certe altre lingue.
+                                In questo senso, per esempio, 
+                                <lb/>il greco è 
+                                <lb/>una lingua più vecchia del latino preso alla 
+                                <lb/>stessa epoca, si è allontanata meno dal tipo 
+                                <lb/>primitivo dell’indoeuropeo. Il sanscrito è più vecchio, 
+                                <lb/>meglio preservato, di certe altre lingue.
                             </ab>                                  
                             <ab xml:id="it_91Aaaa115" corresp="#pericope_91Aaaa115" xml:lang="IT">
-                                Nella nostra prossima seduta, opponendo il principio di movimento al principio di inerzia che [ ] avremo [ ].
+                                <lb/>Nella nostra prossima seduta, 
+                                <lb/>opponendo il principio di movimento al principio di inerzia 
+                                <lb/>che [ ] avremo [ ].
                             </ab>
                         </div>                            
                     </body>
@@ -400,19 +420,39 @@
                     <body resp="#AC" xml:id="body-inglese">
                         <div xml:id="div_p30_en" hand="#h1" type="box_testo_en">
                             <ab xml:id="en_91Aaaa111" corresp="#pericope_91Aaaa111" xml:lang="EN">
-                                <lb/>If one wishes, it is the origin of language, but without going back to inaccessible periods. If we stop at the period which remains accessible, it is clear that each Indo-European language currently spoken has exactly the same age compared to the time when early Indo-European was spoken.
+                                <lb/>If we stop at the period which remains accessible, 
+                                <lb/>it is clear that each Indo-European language currently spoken 
+                                <lb/>has exactly the same age compared to 
+                                <lb/>the time when early Indo-European was spoken.
                             </ab>        
                             <ab xml:id="en_91Aaaa112" coresp="#pericope_91Aaaa112" xml:lang="EN">
-                                <lb/>The second way in which a language may be older than another will not delay me, for it is of little importance; there exist dead languages which may therefore be called 'old' languages, such as Gaulish, Phoenician, etc., languages which have been wiped out.
+                                <lb/>The second way 
+                                <lb/>in which a language may be older than another 
+                                <lb/>will not delay me, for it is 
+                                <lb/>of little importance; there exist 
+                                <lb/>dead languages which may therefore be called 
+                                <lb/>'old' languages, such as Gaulish, Phoenician, 
+                                <lb/>etc., languages which have been wiped out.
                             </ab>    
                             <ab xml:id="en_91Aaaa113" corresp="#pericope_91Aaaa113" xml:lang="EN">                                
-                                <lb/>Finally, one should note that fot third definition, a language may be said to be older than another, but, strangely, for languages the defition is inverted, i.e. the best-preserved languages are called out.
+                                <lb/>Finally, one should note that fot third definition, 
+                                <lb/>a language may be said to be older than 
+                                <lb/>another, but, 
+                                <lb/>strangely, for languages the defition is inverted, 
+                                <lb/>i.e. the best-preserved languages are called out.
                             </ab>                            
                             <ab xml:id="en_91Aaaa114" corresp="#pericope_91Aaaa114" xml:lang="EN">                                
-                                <lb/>With this definition, for example, Greek is an older language than the Latin of the same period, as it has distanced itself less from early Indo-European. Sanskrit is older, and better preserved, than some others.
+                                With this definition, for example, 
+                                <lb/>Greek is 
+                                <lb/>an older language than the Latin of 
+                                <lb/>the same period, as it has distanced itself less from 
+                                <lb/>early Indo-European. Sanskrit is older, 
+                                <lb/>and better preserved, than some others.
                             </ab>                            
                             <ab xml:id="en_91Aaaa115" corresp="#pericope_91Aaaa115" xml:lang="EN">                                
-                            <lb/>By comparing in our next lecture the principle of movement with the principle on inertia which ..., we shall have ...
+                            <lb/>By comparing in our next lecture 
+                                <lb/>the principle of movement with the principle on inertia 
+                                <lb/>which ..., we shall have ...
                             </ab>  
                         </div>   
                     </body>
