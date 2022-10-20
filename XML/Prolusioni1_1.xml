@@ -10,7 +10,7 @@
                 <title type="sub">(cours d'ouverture, <date when="1891-11">novembre 1891</date>)</title>
                 <author ref="#FdS" role="author">Ferdinand de Saussure</author>
                 <respStmt>
-					<resp>Responsability of:</resp>
+					<resp>Responsabilità di:</resp>
 					<name ref="#AMDG">Angelo Mario Del Grosso</name>
 					<name ref="#AC">Agnese Camici</name>
 					<name ref="#SP">Silvia Piccini</name>
@@ -19,11 +19,11 @@
             </titleStmt>
             
             <editionStmt>   
-                <edition n="DigitalEdition">Digital edition
+                <edition n="DigitalEdition">Edizione digitale
                     <date when="2022">2022</date>
                 </edition>
                 <respStmt>
-                    <resp>Digital edition project coordinated by</resp> 
+                    <resp>Progetto edizione digitale coordinato da:</resp> 
                     <name ref="#AMDG">Angelo Mario Del Grosso</name>
                     <name ref="#AC">Agnese Camici</name>
                     <name ref="#SP">Silvia Piccini</name>
@@ -33,7 +33,7 @@
                     <name ref="#GD">Giuseppe D'Ottavi</name>
                 </respStmt>
                 <respStmt>
-                    <resp>Encoding by</resp>
+                    <resp>Responsabilità della codifica:</resp>
                     <name ref="#AMDG">Angelo Mario Del Grosso</name>
                     <name ref="#AC">Agnese Camici</name>
                     <name ref="#SP">Silvia Piccini</name>
@@ -68,7 +68,7 @@
                             <note>
                                 <date notAfter="1891-11-06" evidence="external" source="#Journal_de_Genève #Le_Genevois">06/11/1891</date>
                             </note>
-                            <textLang mainLang="fr">French</textLang>
+                            <textLang mainLang="fr">Francese</textLang>
                         </msItem>
                         <msItem>
                             <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
@@ -77,7 +77,7 @@
                             <note>
                                 <date notAfter="1891-11-10" evidence="external" source="#Journal_de_Genève #Le_Genevois">10/11/1891</date>
                             </note>
-                            <textLang mainLang="fr">French</textLang>                           
+                            <textLang mainLang="fr">Francese</textLang>                           
                         </msItem>
                         <msItem>
                             <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
@@ -85,9 +85,9 @@
                             <title type="sub">Troisième conférence</title>
                             <note>                            
                                 <date notAfter="1891-11-13" confidence="" evidence="external" source="#Journal_de_Genève #Le_Genevois">13/11/1891</date>
-                                <date notAfter="1891-11-17" confidence="" evidence="external" source="#Journal_de_Genève #Le_Genevois">17/11/1891</date> <!--La seconda ipotesi di Chid. è 17/11/1891-->
+                                <date notAfter="1891-11-17" confidence="" evidence="external" source="#Journal_de_Genève #Le_Genevois">17/11/1891</date>
                             </note>
-                            <textLang mainLang="fr">French</textLang>
+                            <textLang mainLang="fr">Francese</textLang>
                         </msItem>                        
                     </msContents>                    
                     <physDesc>
@@ -124,7 +124,7 @@
                     <additional>
                         <surrogates>
                             <ptr target="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef"/>
-                            <!-- *** Ho spostato <altIdentifier type="inventory"><idno>17786/vtae78f994bf3242bef</idno></altIdentifier> dall'<msIdentifier> nei <surrogates>. Come è corretto inserire questo identificativo secondario?-->
+                            
                         </surrogates>
                     </additional>                    
                 </msDesc>
@@ -160,9 +160,7 @@
                                 </seg>
                                 <!--Descr. per. 1-->
                                 <desc>
-                                    Ferdinand de Saussure introduces his new role as a Sanskrit and Indo-European 
-                                    lecturer at the Faculty of Letters at the University of Geneva, 
-                                    trying to show himself humbly unsure of being able to measure up.
+                                    Ferdinand de Saussure introduce il suo nuovo ruolo come professore del corso di sanscrito e indo-europeo nella Facoltà di Lettere all'Università di Ginevra.
                                 </desc>
                             </item>
                             <!--PERICOPE 2-->
@@ -176,12 +174,10 @@
                                 </seg>
                                 <!--Descr. per. 2-->
                                 <desc>
-                                    De Saussure asks what benefit linguistics brings to studies such as classical erudition, 
-                                    the Greek, Latin and French languages, or the interest that history or 
-                                    the history of civilization may have for the same science
+                                    De Saussure si interroga su quali benefici porti la linguistica agli studi classici, come la lingua latina, greca o francese, o l'interesse che la storia o la storia della civilizzazione possa avere per la scienza stessa.
                                 </desc>
                             </item>      
-                            <!--PERICOPE 3--> <!--Inizio 2a pagina--> <!--Ho marcato solo le prime 2 pericopi, dalla terza riporto solo questo schema-->
+                            <!--PERICOPE 3--> 
                             <label>
                                 <idno type="ID-pericope">91Aaaa003</idno>
                             </label>
@@ -240,7 +236,7 @@
             <langUsage>
                 <language ident="fr">French</language>
             </langUsage>
-            <creation><!--*11* interpretazione-->
+            <creation>
                 <listChange ordered="true">
                     <change xml:id="CHG-1">First stage, written in ink by Ferdinand de Saussure</change>
                     <change xml:id="CHG-2">
@@ -416,7 +412,7 @@
                                 <metamark function="sequence">    <!--THVP-->  <!--Manteniamo <metamark> e non usiamo <label> ma andrebbe chiarito con saussuriani. "sequence" non penso sia il più adatto--><!--Elimina nel caso THVP faccia parte del testo...-->
                                     <choice>
                                         <abbr>T.H.V.P.</abbr>
-                                        <expan><!--T<am>.</am>H<am>.</am>V<am>.</am>P<am>.</am>--></expan> <!--Non essendo a conoscenza del significato dell'acronimo nella sua completezza, lascio lo scioglimento <expan> vuoto-->
+                                        <expan></expan>
                                     </choice>
                                 </metamark>
                             </ab>
@@ -536,11 +532,11 @@
             <!--Metti una div per le entità nominate, una per la bibl, e una per la terminologia-->
 
                 <!--ListBibl-->
-                <xi:include href="lists/TEI-ListBibl.xml"/>
-                <xi:include href="lists/TEI-ListPerson.xml"/>
-                <xi:include href="lists/TEI-ListOrg.xml"/>
-                <xi:include href="lists/TEI-ListPlace.xml"/>
-                <xi:include href="07._1891_Prolusioni_ginevrine.xml"/>
+                <div type="list"><xi:include href="lists/TEI-ListBibl.xml"/></div>
+                <div type="list"><xi:include href="lists/TEI-ListPerson.xml"/></div>
+                <div type="list"><xi:include href="lists/TEI-ListOrg.xml"/></div>
+                <div type="list"><xi:include href="lists/TEI-ListPlace.xml"/></div>
+                <div type="list"><xi:include href="07._1891_Prolusioni_ginevrine.xml"/></div>
 
                 <!-- NOTE -->
                 <list type="notes">
@@ -553,7 +549,9 @@
                     <!--2-->
                     <item n="2" xml:id="pag1_note2" resp="#AC">
                         <p>
-                            Alessandro Chidichimo's provided each lessons date in his article appearing in Cahiers Ferdinand de Saussure. He provides the dates of the three FdS conferences at the University of Geneva: the certainty of the first two is high, comparing them with the information in the "Journal de Genève" and in "Le Genevois". Chidichimo puts forward two hypotheses for the third conference: Friday 13 November or Tuesday 17.
+                            Alessandro Chidichimo propone la data di ciascuna lezione nel suo articolo sui Cahiers Ferdinand de Saussure.
+                            Fornisce con certezza alta le date delle prime due lezioni, confrontandole con le informazioni presenti nel Journal de Genève e nel Le Genevois.
+                            Per quanto riguarda la terza lezione, avanza due ipotesi: venerdì 13 novembre oppure martedì 17.
                         </p>
                     </item>
                 </list> 

@@ -68,7 +68,7 @@
                             <note>
                                 <date notAfter="1891-11-06" evidence="external" source="#Journal_de_Genève #Le_Genevois">06/11/1891</date>
                             </note>
-                            <textLang mainLang="fr">French</textLang>
+                            <textLang mainLang="fr">Francese</textLang>
                         </msItem>
                         <msItem>
                             <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
@@ -77,7 +77,7 @@
                             <note>
                                 <date notAfter="1891-11-10" evidence="external" source="#Journal_de_Genève #Le_Genevois">10/11/1891</date>
                             </note>
-                            <textLang mainLang="fr">French</textLang>                           
+                            <textLang mainLang="fr">Francese</textLang>                           
                         </msItem>
                         <msItem>
                             <author xml:lang="fr" ref="#FdS">Ferdinand de Saussure</author>
@@ -87,7 +87,7 @@
                                 <date notAfter="1891-11-13" confidence="" evidence="external" source="#Journal_de_Genève #Le_Genevois">13/11/1891</date>
                                 <date notAfter="1891-11-17" confidence="" evidence="external" source="#Journal_de_Genève #Le_Genevois">17/11/1891</date> <!--La seconda ipotesi di Chid. è 17/11/1891-->
                             </note>
-                            <textLang mainLang="fr">French</textLang>
+                            <textLang mainLang="fr">Francese</textLang>
                         </msItem>                        
                     </msContents>                    
                     <physDesc>
@@ -123,7 +123,7 @@
                     <additional>
                         <surrogates>
                             <ptr target="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef"/>
-                            <!-- *** Ho spostato <altIdentifier type="inventory"><idno>17786/vtae78f994bf3242bef</idno></altIdentifier> dall'<msIdentifier> nei <surrogates>. Come è corretto inserire questo identificativo secondario?-->
+                            
                         </surrogates>
                     </additional>                    
                 </msDesc>
