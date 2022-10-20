@@ -275,7 +275,7 @@
             <div id="div_respStmt">
                 <p>
                     <b>
-                        <xsl:copy-of select="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:editionStmt/tei:respStmt[1]/tei:resp"/>:<br/>
+                        <xsl:copy-of select="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:editionStmt/tei:respStmt[1]/tei:resp"/><br/>
                     </b>
                     <xsl:for-each select="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:editionStmt/tei:respStmt[1]/tei:name">
                         <xsl:choose>
@@ -296,7 +296,7 @@
                 </p>
                 <p>
                     <b>
-                        <xsl:copy-of select="//tei:editionStmt/tei:respStmt[2]/tei:resp"/>:<br/>
+                        <xsl:copy-of select="//tei:editionStmt/tei:respStmt[2]/tei:resp"/><br/>
                     </b>
                     <xsl:for-each select="//tei:editionStmt/tei:respStmt[2]/tei:name">
                         <xsl:choose>
