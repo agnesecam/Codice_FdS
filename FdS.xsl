@@ -288,10 +288,6 @@
                                 <xsl:text>, </xsl:text>
                             </xsl:otherwise>
                         </xsl:choose>
-                        <!--Per avere un elenco di nomi-->
-                        <!--<ul>
-                            <li> <xsl:copy-of select="."/></li>
-                        </ul>-->
                     </xsl:for-each>
                 </p>
                 <p>
@@ -786,7 +782,7 @@
             </xsl:element>
         </xsl:if>
     </xsl:template>
- 
+
     <!--Numeri scritti a mano-->
     <xsl:template match="//tei:group[@xml:id='fr_Prolusioni']/tei:text[1]/tei:body/tei:ab/tei:fw | //tei:group[@xml:id='fr_Prolusioni']/tei:text[1]/tei:body/tei:div/tei:fw">
         <xsl:element name="span">            
@@ -807,7 +803,5 @@
             <xsl:value-of select="current()" />
         </xsl:element>
     </xsl:template>    
-<!--getResource e xPathEvalueate - documentation di Saxonica-->
-<!--getResource per passare il contextItem in xpath.evaluate-->
-<!--Per bibl-->
+
 </xsl:stylesheet>
