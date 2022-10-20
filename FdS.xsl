@@ -74,7 +74,7 @@
                     <div id="div_select_pages">
                         <xsl:variable name="default" select="6"/>
                         <xsl:variable name="N" select="30"/>
-                        <xsl:variable name="pages" select="'1', '2', '4', '5', '7', '8', '9', '10', '11', '12', '13', '15', '16', '17', '18', '19', '20', '21', '22', '25', '26', '27', '28', '29', '30'"/>
+                        <xsl:variable name="pages" select="'1', '2', '4', '5', '7', '8', '9', '10', '11', '12', '13', '15', '16', '17', '18', '21', '22', '27', '28', '29', '30'"/>
                         <select id="select_pages" onchange="select_pages()">
                             <option value="">Pagine da visualizzare:</option>
                             <xsl:for-each select="$pages">
@@ -448,7 +448,8 @@
     <xsl:template match="//tei:TEI[not(@xml:id='glossario')]/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc">
         <div id="supporto">
             <b>SUPPORTO FISICO</b><br/>
-            <b>Materiale </b><xsl:apply-templates select="current()//tei:support" /><br/>
+            <b>Materiale </b><xsl:apply-templates select="current()//tei:support/tei:material" /><br/>
+            <b>Filigrana </b><xsl:apply-templates select="current()//tei:support/tei:watermark" /><br/>
             <b>Estensione </b><xsl:apply-templates select="current()//tei:extent/tei:measureGrp" /><br/>
             <b>Dimensioni </b> Altezza: <xsl:apply-templates select="current()//tei:extent/tei:dimensions/tei:height" /> cm - larghezza: <xsl:apply-templates select="current()//tei:extent/tei:dimensions/tei:width" /> cm<br/>
             <b>Layout </b><xsl:apply-templates select="current()//tei:collation" /><br/>

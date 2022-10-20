@@ -254,7 +254,7 @@
     </teiHeader>
     
     <facsimile>
-        <!--VENTINOVESIMA PAGINA-->
+        <!--TRENTESIMA PAGINA-->
         <surface n="15" xml:id="scan_p30">
             <graphic url="ms_fr_03951_01_1_p030-resized.jpg" width="600px" height="900px"/> 
             <!--Righe-->
@@ -296,7 +296,7 @@
             <group xml:id="fr_Prolusioni"> <!--TESTO FRANCESE DELLE 3 PROLUSIONI-->
                 <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
                     <body xml:lang="fr" source="#Bouquet-Engler2002" xml:id="body-francese">
-                        <!--Ventinovesima pagina-->
+                        <!--Trentesima pagina-->
                         <pb n="f1r" xml:id="body_p30" facs="#scan_p30"/>
                         <!--Numeri impaginazione a stampa e a mano-->
                         <ab>
@@ -619,7 +619,7 @@
                             Fonte utilizzata da Chidichimo nel suo articolo all'interno dei Cahiers Ferdinand de Saussure.
                         </note>
                         <note>
-                            Disponibile online al link <ptr href="https://www.letempsarchives.ch/"/> www.letempsarchives.ch.
+                            Disponibile online al link <ptr href="https://www.letempsarchives.ch/page/JDG_1931_05_07/1"/> https://www.letempsarchives.ch/page/JDG_1931_05_07/1
                         </note>
                     </bibl>
 
