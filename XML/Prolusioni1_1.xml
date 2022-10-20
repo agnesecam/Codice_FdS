@@ -534,7 +534,7 @@
                 <div type="list"><xi:include href="lists/TEI-ListPerson.xml"/></div>
                 <div type="list"><xi:include href="lists/TEI-ListOrg.xml"/></div>
                 <div type="list"><xi:include href="lists/TEI-ListPlace.xml"/></div>
-                <div type="list"><xi:include href="07._1891_Prolusioni_ginevrine.xml"/></div>
+                <div type="list"><xi:include href="glossario_Prolusioni.xml"/></div>
 
                 <!-- NOTE -->
                 <list type="notes">

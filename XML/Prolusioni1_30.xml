@@ -472,7 +472,7 @@
                 <xi:include href="lists/TEI-ListPerson.xml"/>
                 <xi:include href="lists/TEI-ListOrg.xml"/>
                 <xi:include href="lists/TEI-ListPlace.xml"/>
-                <xi:include href="07._1891_Prolusioni_ginevrine.xml"/>
+                <xi:include href="glossario_Prolusioni.xml"/>
 
                 <!-- NOTE -->
                 <list type="notes">
@@ -490,7 +490,7 @@
                     </item>
                 </list> 
 
-                <!--Il glossario è 07._1891_Prolusioni_ginevrine.xml-->
+                <!--Il glossario è glossario_Prolusioni.xml-->
             </div>
         </back>
     </text>
