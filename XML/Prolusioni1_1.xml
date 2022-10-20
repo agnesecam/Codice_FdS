@@ -151,11 +151,11 @@
                         <list>
                             <!--PERICOPE 1-->
                             <label>
-                                <idno type="ID-pericope">91Aaaa001</idno> <!--*10* uniformare codici con Morfologia se possibile, anche a discapito della logica dell'idno-->
+                                <idno type="ID-pericope">91Aaaa001</idno> 
                             </label>
                             <item corresp="#pericope_91Aaaa001" facs="#facs_Pericope1">
                                 <!--Testo per. 1-->
-                                <seg type="incipit-pericope"> <!--*9* attributo per indicare che è l'inizio del corpo della pericope-->
+                                <seg type="incipit-pericope">
                                     Si la chaire que j’ai en ce moment l’honneur [...]
                                 </seg>
                                 <!--Descr. per. 1-->
@@ -406,10 +406,10 @@
                                 des <term subtype="linguistics-term" ref="#langue1">langues</term> grecque, latine et française; 
                                 <lb xml:id="lb41_p1" n="39" facs="#facs_p1_lb39"/>
                                 <add change="#CHG-3" place="left margin" facs="facs_eutelle-p1r39">eût-elle un but simplement</add> l’intérêt 
-                                <term subtype="linguistics-term" facs="#facs_litteraire-p1r39" ref="#glossa-mancante">littéraire</term>, que peut avoir ensuite la même <!--Manca glossa-->
+                                <term subtype="linguistics-term" facs="#facs_litteraire-p1r39" ref="#glossa-mancante">littéraire</term>, que peut avoir ensuite la même
                                 <lb xml:id="lb43_p1" n="40" facs="#facs_p1_lb40"/>
                                 étude pour <del rend="overstrike" facs="#facs_del1-p1r40">l'<gap reason="illegible" extent="3" unit="chars"/></del> l’<term subtype="?" ref="#histoire" facs="#facs_histoire-p1r40">histoire</term> ou pour 
-                                <metamark function="sequence">    <!--THVP-->  <!--Manteniamo <metamark> e non usiamo <label> ma andrebbe chiarito con saussuriani. "sequence" non penso sia il più adatto--><!--Elimina nel caso THVP faccia parte del testo...-->
+                                <metamark function="sequence">
                                     <choice>
                                         <abbr>T.H.V.P.</abbr>
                                         <expan></expan>
@@ -422,8 +422,8 @@
                 </text>
             </group>  
             
-            <group xml:id="it_Prolusioni" xml:lang="IT"> <!--TRADUZIONI ITALIANO DELLE 3 PROLUSIONI-->
-                <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
+            <group xml:id="it_Prolusioni" xml:lang="IT">        <!--TRADUZIONI ITALIANO DELLE 3 PROLUSIONI-->
+                <text xml:id="it_Prolusione-1">                              <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p1_it" hand="#h1" type="box_testo_it">
                             <ab xml:id="it_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="IT">
@@ -529,8 +529,6 @@
         <!--Note, bibliografia, listPerson, listPlace, glossario, listOrganizations-->
         <back>
             <div type="addList">
-            <!--Metti una div per le entità nominate, una per la bibl, e una per la terminologia-->
-
                 <!--ListBibl-->
                 <div type="list"><xi:include href="lists/TEI-ListBibl.xml"/></div>
                 <div type="list"><xi:include href="lists/TEI-ListPerson.xml"/></div>
@@ -555,8 +553,6 @@
                         </p>
                     </item>
                 </list> 
-
-                <!--Il glossario è 07._1891_Prolusioni_ginevrine.xml-->
             </div>
         </back>
     </text>
