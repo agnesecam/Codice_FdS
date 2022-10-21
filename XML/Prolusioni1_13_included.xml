@@ -604,7 +604,7 @@
                             Fonte utilizzata da Chidichimo nel suo articolo all'interno dei Cahiers Ferdinand de Saussure.
                         </note>
                         <note>
-                            Disponibile online al link <ptr href="https://www.letempsarchives.ch/page/JDG_1931_05_07/1"/> https://www.letempsarchives.ch/page/JDG_1931_05_07/1
+                            Disponibile online al link <ptr target="https://www.letempsarchives.ch/page/JDG_1931_05_07/1"/> https://www.letempsarchives.ch/page/JDG_1931_05_07/1
                         </note>
                     </bibl>
 
@@ -1109,7 +1109,7 @@
                 </person>
 
                 <!--Entità mancante-->
-                <person xml:id="entità-mancante">
+                <person xml:id="entità-mancante-pers">
                     <persName><forename>Entità</forename><surname>mancante</surname></persName>
                     <note>
                         l'entrata relativa a questa entità è in fase di completamento.
@@ -1181,7 +1181,7 @@
                     </org>
 
                     <!--Entità mancante-->
-                    <org xml:id="entità-mancante">
+                    <org xml:id="entità-mancante-org">
                         <orgName>Entità mancante</orgName>
                         <desc>
                             L'entrata relativa a questa entità è in fase di completamento.
@@ -6491,7 +6491,7 @@
                 <item><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/01.%20Area%20terminologica%20A%20altri%20saperi%20specialistici.pdf#page=17">Minéralogiste</ref></item>  
                 <item><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/01.%20Area%20terminologica%20A%20altri%20saperi%20specialistici.pdf#page=18">Principe</ref></item>  
                 <item><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/01.%20Area%20terminologica%20A%20altri%20saperi%20specialistici.pdf#page=27">Zoologiste</ref></item>             
-            </list></div>
+            </list>
 
             <list type="gloss">
                 <head>Termini appartenenti all’<ref type="see" target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/02.%20Area%20terminologica%20B%20linguistica%20Storico-comparativa%20grammatica%20classica.pdf">area B</ref> presenti nelle Prolusioni</head>

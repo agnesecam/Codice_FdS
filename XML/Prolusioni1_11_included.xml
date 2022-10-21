@@ -479,8 +479,6 @@
         <!--Note, bibliografia, listPerson, listPlace, glossario, listOrganizations-->
         <back>
             <div type="addList">
-            <!--Metti una div per le entità nominate, una per la bibl, e una per la terminologia-->
-
                 <!--ListBibl-->
                 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="lists/TEI-ListBibl.xml">
     <teiHeader>
@@ -633,7 +631,7 @@
                             Fonte utilizzata da Chidichimo nel suo articolo all'interno dei Cahiers Ferdinand de Saussure.
                         </note>
                         <note>
-                            Disponibile online al link <ptr href="https://www.letempsarchives.ch/page/JDG_1931_05_07/1"/> https://www.letempsarchives.ch/page/JDG_1931_05_07/1
+                            Disponibile online al link <ptr target="https://www.letempsarchives.ch/page/JDG_1931_05_07/1"/> https://www.letempsarchives.ch/page/JDG_1931_05_07/1
                         </note>
                     </bibl>
 
@@ -1138,7 +1136,7 @@
                 </person>
 
                 <!--Entità mancante-->
-                <person xml:id="entità-mancante">
+                <person xml:id="entità-mancante-pers">
                     <persName><forename>Entità</forename><surname>mancante</surname></persName>
                     <note>
                         l'entrata relativa a questa entità è in fase di completamento.
@@ -1210,7 +1208,7 @@
                     </org>
 
                     <!--Entità mancante-->
-                    <org xml:id="entità-mancante">
+                    <org xml:id="entità-mancante-org">
                         <orgName>Entità mancante</orgName>
                         <desc>
                             L'entrata relativa a questa entità è in fase di completamento.
@@ -6550,7 +6548,7 @@
                             Alessandro Chidichimo's provided each lessons date in his article appearing in Cahiers Ferdinand de Saussure. He provides the dates of the three FdS conferences at the University of Geneva: the certainty of the first two is high, comparing them with the information in the "Journal de Genève" and in "Le Genevois". Chidichimo puts forward two hypotheses for the third conference: Friday 13 November or Tuesday 17.
                         </p>
                     </item>
-                </list> 
+                </list></div> 
 
                 <!--Il glossario è glossario_Prolusioni.xml-->
             </div>

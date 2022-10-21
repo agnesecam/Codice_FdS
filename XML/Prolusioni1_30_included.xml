@@ -357,7 +357,7 @@
                             </ab>                            
                             <ab xml:id="pericope_91Aaaa0115" n="115" xml:lang="FR" corresp="#it_91Aaaa0115 #en_91Aaaa0115" facs="#facs_pericope_91Aaaa0115">
                                 <lb xml:id="lb23_p30" n="23" facs="#facs_p30_lb23"/> 
-                                En opposant <choice><abbr>d<am rend="sup">s</am></abbr><expan cert="high">dans</expan></choice> <event type="conference" notBefore="1891-11-13">notre prochain<ex cert="high">e</ex> séance</event> 
+                                En opposant <choice><abbr>d<am rend="sup">s</am></abbr><expan cert="high">dans</expan></choice> notre prochaine séance 
                                 <lb xml:id="lb24_p30" n="24" facs="#facs_p30_lb24"/> 
                                 le principe de <term ref="#mouvement">mouvement</term> au principe d'<term ref="#glossa-mancante">inertie</term> 
                                 <lb xml:id="lb25_p30" n="25" facs="#facs_p30_lb25"/> 
@@ -617,7 +617,7 @@
                             Fonte utilizzata da Chidichimo nel suo articolo all'interno dei Cahiers Ferdinand de Saussure.
                         </note>
                         <note>
-                            Disponibile online al link <ptr href="https://www.letempsarchives.ch/page/JDG_1931_05_07/1"/> https://www.letempsarchives.ch/page/JDG_1931_05_07/1
+                            Disponibile online al link <ptr target="https://www.letempsarchives.ch/page/JDG_1931_05_07/1"/> https://www.letempsarchives.ch/page/JDG_1931_05_07/1
                         </note>
                     </bibl>
 
@@ -1122,7 +1122,7 @@
                 </person>
 
                 <!--Entità mancante-->
-                <person xml:id="entità-mancante">
+                <person xml:id="entità-mancante-pers">
                     <persName><forename>Entità</forename><surname>mancante</surname></persName>
                     <note>
                         l'entrata relativa a questa entità è in fase di completamento.
@@ -1194,7 +1194,7 @@
                     </org>
 
                     <!--Entità mancante-->
-                    <org xml:id="entità-mancante">
+                    <org xml:id="entità-mancante-org">
                         <orgName>Entità mancante</orgName>
                         <desc>
                             L'entrata relativa a questa entità è in fase di completamento.
@@ -6534,7 +6534,7 @@
                             Alessandro Chidichimo's provided each lessons date in his article appearing in Cahiers Ferdinand de Saussure. He provides the dates of the three FdS conferences at the University of Geneva: the certainty of the first two is high, comparing them with the information in the "Journal de Genève" and in "Le Genevois". Chidichimo puts forward two hypotheses for the third conference: Friday 13 November or Tuesday 17.
                         </p>
                     </item>
-                </list> 
+                </list></div> 
 
                 <!--Il glossario è glossario_Prolusioni.xml-->
             </div>

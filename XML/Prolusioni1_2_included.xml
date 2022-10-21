@@ -391,11 +391,11 @@
                                 <lb xml:id="lb30_p2" n="30" facs="#p2_lb30"/>
                                 par une série ininterrompue de savants
                                 <lb xml:id="lb31_p2" n="31" facs="#p2_lb31"/>
-                                – <persPronouns value="je">j</persPronouns>’insisterais après cela sur la portée
+                                – j’insisterais après cela sur la portée
                                 <lb xml:id="lb32_p2" n="32" facs="#p2_lb32"/>
                                 <choice><abbr>singulière</abbr><expan>singulièrement</expan></choice> précise qu’a prise pour <w>l’ethno – 
                                 <lb xml:id="lb33_p2" n="33" facs="#p2_lb33" break="no" rend="stroke"/>
-                                graphie</w><gap reason="omitted" quantity="1" unit="word"><space dim="horizontal"/></gap>, tellement que la
+                                graphie</w><gap reason="omitted" quantity="1" unit="word"/>, tellement que la
                                 <lb xml:id="lb34_p2" n="34" facs="#p2_lb34"/>
                                 donnée <term ref="#linguistique-A1">linguistique</term> est toujours jusqu’à
                                 <lb xml:id="lb35_p2" n="35" facs="#p2_lb35"/>
@@ -556,8 +556,6 @@
         <!--Note, bibliografia, listPerson, listPlace, glossario, listOrganizations-->
         <back>
             <div type="addList">
-            <!--Metti una div per le entità nominate, una per la bibl, e una per la terminologia-->
-
                 <!--ListBibl-->
                 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="lists/TEI-ListBibl.xml">
     <teiHeader>
@@ -710,7 +708,7 @@
                             Fonte utilizzata da Chidichimo nel suo articolo all'interno dei Cahiers Ferdinand de Saussure.
                         </note>
                         <note>
-                            Disponibile online al link <ptr href="https://www.letempsarchives.ch/page/JDG_1931_05_07/1"/> https://www.letempsarchives.ch/page/JDG_1931_05_07/1
+                            Disponibile online al link <ptr target="https://www.letempsarchives.ch/page/JDG_1931_05_07/1"/> https://www.letempsarchives.ch/page/JDG_1931_05_07/1
                         </note>
                     </bibl>
 
@@ -1215,7 +1213,7 @@
                 </person>
 
                 <!--Entità mancante-->
-                <person xml:id="entità-mancante">
+                <person xml:id="entità-mancante-pers">
                     <persName><forename>Entità</forename><surname>mancante</surname></persName>
                     <note>
                         l'entrata relativa a questa entità è in fase di completamento.
@@ -1287,7 +1285,7 @@
                     </org>
 
                     <!--Entità mancante-->
-                    <org xml:id="entità-mancante">
+                    <org xml:id="entità-mancante-org">
                         <orgName>Entità mancante</orgName>
                         <desc>
                             L'entrata relativa a questa entità è in fase di completamento.
@@ -6614,20 +6612,22 @@
 </TEI>
 
                 <!-- NOTE -->
-                <div><list type="notes">
-                    <!--1-->
-                    <item n="1" xml:id="pag1_note1" resp="#AC">
-                        <p>
-                            Scilicet “Université de Genève”, it. “Università di Ginevra”
-                        </p>
-                    </item>
-                    <!--2-->
-                    <item n="2" xml:id="pag1_note2" resp="#AC">
-                        <p>
-                            Alessandro Chidichimo's provided each lessons date in his article appearing in Cahiers Ferdinand de Saussure. He provides the dates of the three FdS conferences at the University of Geneva: the certainty of the first two is high, comparing them with the information in the "Journal de Genève" and in "Le Genevois". Chidichimo puts forward two hypotheses for the third conference: Friday 13 November or Tuesday 17.
-                        </p>
-                    </item>
-                </list> 
+                <div>
+                    <list type="notes">
+                        <!--1-->
+                        <item n="1" xml:id="pag1_note1" resp="#AC">
+                            <p>
+                                Scilicet “Université de Genève”, it. “Università di Ginevra”
+                            </p>
+                        </item>
+                        <!--2-->
+                        <item n="2" xml:id="pag1_note2" resp="#AC">
+                            <p>
+                                Alessandro Chidichimo's provided each lessons date in his article appearing in Cahiers Ferdinand de Saussure. He provides the dates of the three FdS conferences at the University of Geneva: the certainty of the first two is high, comparing them with the information in the "Journal de Genève" and in "Le Genevois". Chidichimo puts forward two hypotheses for the third conference: Friday 13 November or Tuesday 17.
+                            </p>
+                        </item>
+                    </list>
+                </div>
 
                 <!--Il glossario è glossario_Prolusioni.xml-->
             </div>

@@ -679,7 +679,7 @@
                             Fonte utilizzata da Chidichimo nel suo articolo all'interno dei Cahiers Ferdinand de Saussure.
                         </note>
                         <note>
-                            Disponibile online al link <ptr href="https://www.letempsarchives.ch/page/JDG_1931_05_07/1"/> https://www.letempsarchives.ch/page/JDG_1931_05_07/1
+                            Disponibile online al link <ptr target="https://www.letempsarchives.ch/page/JDG_1931_05_07/1"/> https://www.letempsarchives.ch/page/JDG_1931_05_07/1
                         </note>
                     </bibl>
 
@@ -1184,7 +1184,7 @@
                 </person>
 
                 <!--Entità mancante-->
-                <person xml:id="entità-mancante">
+                <person xml:id="entità-mancante-pers">
                     <persName><forename>Entità</forename><surname>mancante</surname></persName>
                     <note>
                         l'entrata relativa a questa entità è in fase di completamento.
@@ -1256,7 +1256,7 @@
                     </org>
 
                     <!--Entità mancante-->
-                    <org xml:id="entità-mancante">
+                    <org xml:id="entità-mancante-org">
                         <orgName>Entità mancante</orgName>
                         <desc>
                             L'entrata relativa a questa entità è in fase di completamento.
@@ -6583,22 +6583,24 @@
 </TEI></div>
 
                 <!-- NOTE -->
-                <div><list type="notes">
-                    <!--1-->
-                    <item n="1" xml:id="pag1_note1" resp="#AC">
-                        <p>
-                            Scilicet “Université de Genève”, it. “Università di Ginevra”
-                        </p>
-                    </item>
-                    <!--2-->
-                    <item n="2" xml:id="pag1_note2" resp="#AC">
-                        <p>
-                            Alessandro Chidichimo propone la data di ciascuna lezione nel suo articolo sui Cahiers Ferdinand de Saussure.
-                            Fornisce con certezza alta le date delle prime due lezioni, confrontandole con le informazioni presenti nel Journal de Genève e nel Le Genevois.
-                            Per quanto riguarda la terza lezione, avanza due ipotesi: venerdì 13 novembre oppure martedì 17.
-                        </p>
-                    </item>
-                </list> 
+                <div>
+                    <list type="notes">
+                        <!--1-->
+                        <item n="1" xml:id="pag1_note1" resp="#AC">
+                            <p>
+                                Scilicet “Université de Genève”, it. “Università di Ginevra”
+                            </p>
+                        </item>
+                        <!--2-->
+                        <item n="2" xml:id="pag1_note2" resp="#AC">
+                            <p>
+                                Alessandro Chidichimo propone la data di ciascuna lezione nel suo articolo sui Cahiers Ferdinand de Saussure.
+                                Fornisce con certezza alta le date delle prime due lezioni, confrontandole con le informazioni presenti nel Journal de Genève e nel Le Genevois.
+                                Per quanto riguarda la terza lezione, avanza due ipotesi: venerdì 13 novembre oppure martedì 17.
+                            </p>
+                        </item>
+                    </list>
+                </div>
             </div>
         </back>
     </text>
