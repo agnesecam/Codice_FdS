@@ -304,7 +304,7 @@
                             <fw type="pageNum" xml:id="HandPageNumber-22" rend="align(left)" facs="#facs_HandPageNumber-22"> 22 </fw>
                         </ab>
                         <div xml:id="div_p22_fr" hand="#h1" type="box_testo" >
-                            <ab xml:id="pericope_91Aaaa071" n="71" xml:lang="FR" corresp="#it_91Aaaa071 #en_91Aaaa071" facs="#facs_pericope_91Aaaa071" part="f" >
+                            <ab xml:id="pericope_91Aaaa071" n="71" xml:lang="FR" corresp="#it_91Aaaa071 #en_91Aaaa071" facs="#facs_pericope_91Aaaa071" part="F" >
                                 <lb xml:id="lb1_p22" n="1" facs="#facs_p22_lb1"/>
                                 <pc force="weak">=</pc>pes au premier moment par la grande
                                 <lb xml:id="lb2_p22" n="2" facs="#facs_p22_lb2"/>
@@ -385,7 +385,7 @@
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p22_it" hand="#h1" type="box_testo_it">
-                            <ab xml:id="it_91Aaaa071" corresp="#pericope_91Aaaa071" xml:lang="IT" part="f">
+                            <ab xml:id="it_91Aaaa071" corresp="#pericope_91Aaaa071" xml:lang="IT" part="F">
                                 <lb/>=piti in un primo momento dalla grande 
                                 <lb/>distanza che li separa, 
                                 <lb/>e siamo, mi affretto ad aggiungerlo, 
@@ -453,7 +453,7 @@
                                 <lb/>one of which succeeded 
                                 <lb/>the other. 
                             </ab>        
-                            <ab xml:id="en_91Aaaa073" coresp="#pericope_91Aaaa073" xml:lang="EN">
+                            <ab xml:id="en_91Aaaa073" corresp="#pericope_91Aaaa073" xml:lang="EN">
                                 The idea of succession 
                                 <lb/>is unquestionable and self-evident, but
                                 <lb/>the idea of there being two things in this succession 

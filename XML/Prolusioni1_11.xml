@@ -353,7 +353,7 @@
                                 <lb xml:id="lb18_p11" n="18"/>
                                 <pc force="weak">=</pc> lisation peut seule servir <subst><add place="below" hand="#FdS">efficacement</add></subst> l’extrême <term ref="#général">générali<damage agent="ripped"><unclear>sation</unclear></damage></term>.  
                             </ab>
-                            <ab xml:id="pericope_91Aaaa030" n="30" xml:lang="FR" corresp="#it_91Aaaa030 #en_91Aaaa030" facs="#facs_pericope_91Aaaa030" part="i">
+                            <ab xml:id="pericope_91Aaaa030" n="30" xml:lang="FR" corresp="#it_91Aaaa030 #en_91Aaaa030" facs="#facs_pericope_91Aaaa030" part="I">
                                 <lb xml:id="lb19_p11" n="19"/>
                                 Ce ne sont pas des <term ref="#linguiste">linguistes</term> <choice xml:lang="fr"><abbr>co<am>m&#771;</am>e</abbr><expan>co<ex>m</ex>me</expan></choice> <persName ref="#FM">Friedrich Mü<damage agent="handwriting"><unclear>ller</unclear></damage></persName>,
                                 <lb xml:id="lb20_p11" n="20"/>
@@ -481,8 +481,6 @@
         <!--Note, bibliografia, listPerson, listPlace, glossario, listOrganizations-->
         <back>
             <div type="addList">
-            <!--Metti una div per le entità nominate, una per la bibl, e una per la terminologia-->
-
                 <!--ListBibl-->
                 <xi:include href="lists/TEI-ListBibl.xml"/>
                 <xi:include href="lists/TEI-ListPerson.xml"/>

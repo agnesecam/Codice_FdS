@@ -305,7 +305,7 @@
                             <fw type="pageNum" xml:id="HandPageNumber-27" rend="align(left)" facs="#facs_HandPageNumber-27"> 27 </fw>
                         </ab>
                         <div xml:id="div_p27_fr" hand="#h1" type="box_testo" >
-                            <ab xml:id="pericope_91Aaaa087" n="87" xml:lang="FR" corresp="#it_91Aaaa087 #en_91Aaaa087" facs="#facs_pericope_91Aaaa087" part="f" >
+                            <ab xml:id="pericope_91Aaaa087" n="87" xml:lang="FR" corresp="#it_91Aaaa087 #en_91Aaaa087" facs="#facs_pericope_91Aaaa087" part="F" >
                                 <lb xml:id="lb1_p27" n="1" facs="#facs_p27_lb1"/>
                                 ce ne sont pas lé des causes<emph rend="italics"> <term ref="#linguistique-A1">linguistiques</term></emph>.
                             </ab>                           
@@ -369,7 +369,7 @@
                                 <lb xml:id="lb24_p27" n="24" facs="#facs_p27_lb24"/>
                                 ne naît pas comme <choice><abbr>ns</abbr><expan>nous</expan></choice> allons le voir.                                
                             </ab>                            
-                            <ab xml:id="pericope_91Aaaa093" n="93" xml:lang="FR" corresp="#it_91Aaaa093 #en_91Aaaa093" facs="#facs_pericope_91Aaaa093" part="i">                                
+                            <ab xml:id="pericope_91Aaaa093" n="93" xml:lang="FR" corresp="#it_91Aaaa093 #en_91Aaaa093" facs="#facs_pericope_91Aaaa093" part="I">                                
                                 <lb xml:id="lb25_p27" n="25" facs="#facs_p27_lb25"/>
                                 Jamais on n'a signalé en effet sur
                                 <lb xml:id="lb26_p27" n="26" facs="#facs_p27_lb26"/>
@@ -388,7 +388,7 @@
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p27_it" hand="#h1" type="box_testo_it">
-                            <ab xml:id="it_91Aaaa093" corresp="#pericope_91Aaaa093" xml:lang="IT" part="f">
+                            <ab xml:id="it_91Aaaa093" corresp="#pericope_91Aaaa093" xml:lang="IT" part="F">
                                 <lb/>Ma queste non sono cause linguistiche.
                             </ab>
                             <ab xml:id="it_91Aaaa094" corresp="#pericope_91Aaaa094" xml:lang="IT">
@@ -456,7 +456,7 @@
                                 <lb/>of the language itself 
                                 <lb/>that causes its transmission to cease.
                             </ab>        
-                            <ab xml:id="en_91Aaaa089" coresp="#pericope_91Aaaa089" xml:lang="EN">
+                            <ab xml:id="en_91Aaaa089" corresp="#pericope_91Aaaa089" xml:lang="EN">
                                 Near the beginning of his work 
                                 <lb/>on linguistics, M. Hovelacque 
                                 <lb/>says: 'A language is born, grows, weakens and dies like any organic being'.

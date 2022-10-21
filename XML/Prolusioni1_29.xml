@@ -350,30 +350,30 @@
                                 <add place="margin left" instant="false" hand="#FdS" unit="word" quantity="7" rend="side column">il se fait <subst><del rend="overstrike" unit="char" quantity="2" instant="false" seq="1">un</del><add place="supralinear" seq="2">de</add></subst> <choice><abbr>sing<am>.</am></abbr><expan cert="high">singulières</expan></choice> <subst><del rend="overstrike" unit="word" quantity="1" instant="false" seq="1"></del> <add place="below" seq="2">confusions</add></subst> du mot</add> 
                                 <hi rend="underline">vieux</hi> en parlant des  <choice><abbr>lges</abbr><expan cert="high">langues</expan></choice>.
                             </ab>                            
-                            <ab xml:id="pericope_91Aaaa0105" n="105" xml:lang="FR" corresp="#it_91Aaaa0105 #en_91Aaaa0105" facs="#facs_pericope_91Aaaa0105" part="i">                                
+                            <ab xml:id="pericope_91Aaaa0105" n="105" xml:lang="FR" corresp="#it_91Aaaa0105 #en_91Aaaa0105" facs="#facs_pericope_91Aaaa0105" part="I">                                
                                 Il y a <choice><abbr><am>3</am></abbr><expan cert="high">trois</expan></choice> manières pour 
                                 <lb xml:id="lb16_p29" n="16" facs="#facs_p29_lb16"/> 
                                 <choice><abbr><am>1</am></abbr><expan cert="high">un</expan></choice> <choice><abbr>ho<am rend="overline">m</am>e</abbr><expan cert="high">homme</expan></choice> d'être <choice><abbr><am>+</am></abbr><expan cert="high">plus</expan></choice> <hi rend="underline">vieux</hi> ou <choice><abbr><am>+</am></abbr><expan cert="high">plus</expan></choice>  <term ref="#nota2"><hi rend="underline">anci<ex cert="high">en</ex></hi></term> qu'un autre. 
                                 <lb xml:id="lb17_p29" n="17" facs="#facs_p29_lb17"/> 
                             </ab> 
-                            <ab xml:id="pericope_91Aaaa0106" n="106" xml:lang="FR" corresp="#it_91Aaaa0106 #en_91Aaaa0106" facs="#facs_pericope_91Aaaa0106" part="i">                                
+                            <ab xml:id="pericope_91Aaaa0106" n="106" xml:lang="FR" corresp="#it_91Aaaa0106 #en_91Aaaa0106" facs="#facs_pericope_91Aaaa0106" part="I">                                
                                 La <choice><abbr><am>1</am><c rend="sup">e</c></abbr><expan cert="high">première</expan></choice>, qui n'est pas <choice><abbr>tj<am>.</am></abbr><expan cert="high">toujours</expan></choice> agréable, est d'être né 
                                 <lb xml:id="lb18_p29" n="18" facs="#facs_p29_lb18"/> 
                                 <choice><abbr>avt</abbr><expan cert="high">avant</expan></choice> lui.
                             </ab>                            
-                            <ab xml:id="pericope_91Aaaa0107" n="107" xml:lang="FR" corresp="#it_91Aaaa0107 #en_91Aaaa0107" facs="#facs_pericope_91Aaaa0107" part="i">                                
+                            <ab xml:id="pericope_91Aaaa0107" n="107" xml:lang="FR" corresp="#it_91Aaaa0107 #en_91Aaaa0107" facs="#facs_pericope_91Aaaa0107" part="I">                                
                                 La <choice><abbr><am>2</am><w rend="sup">de</w></abbr><expan cert="high">seconde</expan></choice>, qui l'est encore moins, est d'être 
                                 <lb xml:id="lb19_p29" n="19" facs="#facs_p29_lb19"/> 
                                 mort <choice><abbr>avt</abbr><expan cert="high">avant</expan></choice> lui: on  <term ref="#glossa-mancante">parle</term> des vieux <add place="above">anci<ex cert="high">ens</ex></add> camarades qui 
                                 <lb xml:id="lb20_p29" n="20" facs="#facs_p29_lb20"/> 
                                 ne sont plus.
                             </ab> 
-                            <ab xml:id="pericope_91Aaaa0108" n="108" xml:lang="FR" corresp="#it_91Aaaa0108 #en_91Aaaa0108" facs="#facs_pericope_91Aaaa0108" part="i">                                
+                            <ab xml:id="pericope_91Aaaa0108" n="108" xml:lang="FR" corresp="#it_91Aaaa0108 #en_91Aaaa0108" facs="#facs_pericope_91Aaaa0108" part="I">                                
                                 La <choice><abbr><am>3</am><c rend="sup">e</c></abbr><expan cert="high">troisième</expan></choice>, qui est la pire, est d'être <choice><abbr>co<am rend="overline">m</am>e</abbr><expan cert="high">comme</expan></choice> 
                                 <lb xml:id="lb21_p29" n="21" facs="#facs_p29_lb21"/> 
                                 <choice><abbr>ns</abbr><expan cert="high">nous</expan></choice> disons <choice><abbr>famil<am>.</am></abbr><expan cert="high">familièrement</expan></choice> <hi rend="underline">moins bien c<ex cert="high">on</ex>servé</hi> que lui.
                             </ab>                            
-                            <ab xml:id="pericope_91Aaaa0109" n="109" xml:lang="FR" corresp="#it_91Aaaa0109 #en_91Aaaa0109" facs="#facs_pericope_91Aaaa0109" part="i">                                
+                            <ab xml:id="pericope_91Aaaa0109" n="109" xml:lang="FR" corresp="#it_91Aaaa0109 #en_91Aaaa0109" facs="#facs_pericope_91Aaaa0109" part="I">                                
                                 Eh bien, 
                                 <lb xml:id="lb22_p29" n="22" facs="#facs_p29_lb22"/> 
                                 de ces <choice><abbr><am>3</am> man<am>.</am></abbr><expan cert="high">trois manières</expan></choice>, la <choice><abbr><am>1</am><c rend="sup">e</c></abbr><expan cert="high">première</expan></choice> n'existe pas <choice><abbr>pr</abbr><expan cert="high">pour</expan></choice> les  <term ref="#langue1">langues</term>.
@@ -384,7 +384,7 @@
                                 <lb xml:id="lb25_p29" n="25" facs="#facs_p29_lb25"/> 
                                 passé égal.
                             </ab>                            
-                            <ab xml:id="pericope_91Aaaa0110" n="110" xml:lang="FR" corresp="#it_91Aaaa0110 #en_91Aaaa0110" facs="#facs_pericope_91Aaaa0110" part="i">                                
+                            <ab xml:id="pericope_91Aaaa0110" n="110" xml:lang="FR" corresp="#it_91Aaaa0110 #en_91Aaaa0110" facs="#facs_pericope_91Aaaa0110" part="I">                                
                                 Il n'est pas nécessaire de déterminer la 
                                 <lb xml:id="lb26_p29" n="26" facs="#facs_p29_lb26"/> 
                                 long<ex cert="high">ueu</ex>r de ce passé. Si l'on veut, c'est l'<choice><abbr>orig<am>.</am></abbr><expan cert="high">origine</expan></choice> Du  <term ref="#langage-N">langage</term>, 
@@ -400,7 +400,7 @@
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p29_it" hand="#h1" type="box_testo_it">
-                            <ab xml:id="it_91Aaaa099" corresp="#pericope_91Aaaa099" xml:lang="IT" part="f">
+                            <ab xml:id="it_91Aaaa099" corresp="#pericope_91Aaaa099" xml:lang="IT" part="F">
                                 <lb/>Rispondo che in questo caso invece si gioca su un’altra 
                                 <lb/>parola, che è la parola lingua;
                             </ab>
@@ -484,7 +484,7 @@
                                 <lb/>languge is not an entity defined 
                                 <lb/>and delimited in time; 
                             </ab>        
-                            <ab xml:id="en_91Aaaa101" coresp="#pericope_91Aaaa101" xml:lang="EN">
+                            <ab xml:id="en_91Aaaa101" corresp="#pericope_91Aaaa101" xml:lang="EN">
                                 <lb/>the French language 
                                 <lb/>and the Latin language can be distinguished, 
                                 <lb/>modern German and the Germanic of Arminius, 
@@ -511,7 +511,7 @@
                                 There are three ways 
                                 <lb/>a person can be older than another.
                             </ab>        
-                            <ab xml:id="en_91Aaaa106" coresp="#pericope_91Aaaa106" xml:lang="EN">
+                            <ab xml:id="en_91Aaaa106" corresp="#pericope_91Aaaa106" xml:lang="EN">
                                 <lb/>The first, which is not always pleasant, is to 
                                 <lb/>be born first.
                             </ab>    

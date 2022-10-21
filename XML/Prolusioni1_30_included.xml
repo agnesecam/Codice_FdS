@@ -374,7 +374,7 @@
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p30_it" hand="#h1" type="box_testo_it">
-                            <ab xml:id="it_91Aaaa111" corresp="#pericope_91Aaaa111" xml:lang="IT" part="f">
+                            <ab xml:id="it_91Aaaa111" corresp="#pericope_91Aaaa111" xml:lang="IT" part="F">
                                 <lb/>fermandosi al periodo accessibile, è 
                                 <lb/>chiaro che ogni lingua indoeuropea parlata attualmente 
                                 <lb/>ha esattamente la stessa età in rapporto 
@@ -424,7 +424,7 @@
                                 <lb/>has exactly the same age compared to 
                                 <lb/>the time when early Indo-European was spoken.
                             </ab>        
-                            <ab xml:id="en_91Aaaa112" coresp="#pericope_91Aaaa112" xml:lang="EN">
+                            <ab xml:id="en_91Aaaa112" corresp="#pericope_91Aaaa112" xml:lang="EN">
                                 <lb/>The second way 
                                 <lb/>in which a language may be older than another 
                                 <lb/>will not delay me, for it is 

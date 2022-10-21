@@ -303,7 +303,7 @@
                         <ab>
                             <fw type="pageNum" xml:id="HandPageNumber-12" rend="align(left)" facs="#facs_HandPageNumber-12"> 12 </fw>
                         </ab>
-                        <div xml:id="div_p12_fr" hand="#h1" type="box_testo" part="f">
+                        <div xml:id="div_p12_fr" hand="#h1" type="box_testo" part="F">
                             <ab xml:id="pericope_91Aaaa030" n="30" xml:lang="FR" corresp="#it_91Aaaa030 #en_91Aaaa030" facs="#facs_pericope_91Aaaa030"> 
                                 <lb xml:id="lb1_p12" n="1" facs="#facs_p12_lb1"/>
                                 =lement du russe et du slave, comme <persName ref="#NBC">M.  N. Baudouin
@@ -350,7 +350,7 @@
                                 <lb xml:id="lb19_p12" n="19" facs="#facs_p12_lb19"/>
                                 <term ref="#parler_humain">parler humain</term>.
                             </ab>       
-                            <ab xml:id="pericope_91Aaaa033" n="33" xml:lang="FR" corresp="#it_91Aaaa033 #en_91Aaaa033" facs="#facs_pericope_91Aaaa033" part="i">                                         
+                            <ab xml:id="pericope_91Aaaa033" n="33" xml:lang="FR" corresp="#it_91Aaaa033 #en_91Aaaa033" facs="#facs_pericope_91Aaaa033" part="I">                                         
                                 Il est presque inutile de dire 
                                 <lb xml:id="lb20_p12" n="20" facs="#facs_p12_lb20"/>
                                 que cet enseignement, <date xml:id="date1" from="15 ans">donnè depuis quinze ans</date>, avec 

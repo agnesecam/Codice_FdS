@@ -302,7 +302,7 @@
                             <fw type="pageNum" xml:id="HandPageNumber-13" rend="align(left)" facs="#facs_HandPageNumber-13"> 13 </fw>
                         </ab>
                         <div xml:id="div_p13_fr" hand="#h1" type="box_testo" >
-                            <ab xml:id="pericope_91Aaaa033" n="33" xml:lang="FR" corresp="#it_91Aaaa033 #en_91Aaaa033" facs="#facs_pericope_91Aaaa033" part="f"> 
+                            <ab xml:id="pericope_91Aaaa033" n="33" xml:lang="FR" corresp="#it_91Aaaa033 #en_91Aaaa033" facs="#facs_pericope_91Aaaa033" part="F"> 
                                 <lb xml:id="lb1_p13" n="1" facs="#facs_p13_lb1"/>
                                 romanes, ou aux langues germaniques, ou aux
                                 <lb xml:id="lb2_p13" n="2" facs="#facs_p13_lb2"/>
@@ -416,7 +416,7 @@
                                 <lb/>to Romance languages, or Germanic, 
                                 <lb/>Indo-European, or Semitic languages, etc.                                
                             </ab>             
-                            <ab xml:id="en_91Aaaa034" coresp="#pericope_91Aaaa034" xml:lang="EN">
+                            <ab xml:id="en_91Aaaa034" corresp="#pericope_91Aaaa034" xml:lang="EN">
                                 <lb/>On the contrary, it has attracted these
                                 <lb/> specific fields, and the most authoritative proof
                                 <lb/>of this, as well as the most pleasant, that

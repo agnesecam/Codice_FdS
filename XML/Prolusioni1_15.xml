@@ -346,7 +346,7 @@
                                 <lb xml:id="lb19_p15" n="19" facs="#facs_p15_lb19"/>
                                 <term ref="#loi" rend="underline">lois</term>, que <choice><abbr>tt</abbr><expan>tout</expan></choice> ce qui semble <term ref="#organique" rend="underline">organique</term> <choice><abbr>d</abbr><expan>dans</expan></choice> le <term ref="#langage1">langage</term>
                                 <lb xml:id="lb20_p15" n="20" facs="#facs_p15_lb20"/>
-                                est en réalité <w rend="underline"><term ref="#contingent">contingent</term></w> et complètement <term ref="#accidentel">accidentel</term>.
+                                est en réalité <term ref="#contingent">contingent</term> et complètement <term ref="#accidentel">accidentel</term>.
                             </ab> 
                             <ab xml:id="pericope_91Aaaa043" n="43" xml:lang="FR" corresp="#it_91Aaaa043 #en_91Aaaa043" facs="#facs_pericope_91Aaaa043">
                                 <lb xml:id="lb21_p15" n="21" facs="#facs_p15_lb21"/>
@@ -416,7 +416,7 @@
                                 <lb/>various aspects of linguistic study in Arts                                 
                                 <lb/>Faculty.                        
                             </ab>             
-                            <ab xml:id="en_91Aaaa041" coresp="#pericope_91Aaaa041" xml:lang="EN">
+                            <ab xml:id="en_91Aaaa041" corresp="#pericope_91Aaaa041" xml:lang="EN">
                                 As the notion of history
                                 <lb/>is also stressed in the title of this course - 
                                 <lb/>although other names such as Comparative grammar 
