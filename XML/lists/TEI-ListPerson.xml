@@ -454,7 +454,7 @@
                 </person>
 
                 <!--Entità mancante-->
-                <person xml:id="entità-mancante">
+                <person xml:id="entità-mancante-pers">
                     <persName><forename>Entità</forename><surname>mancante</surname></persName>
                     <note>
                         l'entrata relativa a questa entità è in fase di completamento.

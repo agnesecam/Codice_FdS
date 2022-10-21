@@ -320,7 +320,7 @@
                                 <lb xml:id="lb5_p29" n="5" facs="#facs_p29_lb5"/> 
                                 française et la  <term ref="#langue1">langue</term> latine, <del rend="overstrike" unit="word" quantity="3" instant="true"><gap reason="cancelled" unit="word" quantity="3"/></del> 
                                 <lb xml:id="lb6_p29" n="6" facs="#facs_p29_lb6"/> 
-                                l'allemand moderne et le germain d'<persName type="person" ref="#entità-mancante">Arminius</persName> 
+                                l'allemand moderne et le germain d'<persName type="person" ref="#entità-mancante-pers">Arminius</persName> 
                                 <lb xml:id="lb7_p29" n="7" facs="#facs_p29_lb7"/> 
                                 comme on <term ref="#glossa-mancante">distingue</term> <gap reason="missing" extent="rest of the line"/> <add place="margin left" instant="false" hand="#FdS" unit="word" quantity="17" rend="side column">et alors on <del rend="overstrike" unit="word" quantity="2" instant="true"><gap reason="cancelled" unit="word" quantity="2"/></del> admet que l'un <choice><abbr>co<am rend="overline">m</am>ence</abbr><expan cert="high">commence</expan></choice> et que l'autre finit <choice><abbr>qqe</abbr><expan cert="high">quelque</expan></choice> part ce qui est <choice><abbr>arbitr<am>.</am></abbr><expan cert="high">arbitraire</expan></choice></add>
                             </ab>

@@ -110,7 +110,7 @@
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote xml:id="h1">Il corpo principale del manoscritto è interamente scritto da <persName ref="#FdS">Ferdinand de Saussure</persName></handNote>.
+                            <handNote xml:id="h1">Il corpo principale del manoscritto è interamente scritto da <persName ref="#FdS">Ferdinand de Saussure</persName>.</handNote>
                         </handDesc>
                     </physDesc>
                     <history>
@@ -537,22 +537,24 @@
                 <div type="list"><xi:include href="glossario_Prolusioni.xml"/></div>
 
                 <!-- NOTE -->
-                <list type="notes">
-                    <!--1-->
-                    <item n="1" xml:id="pag1_note1" resp="#AC">
-                        <p>
-                            Scilicet “Université de Genève”, it. “Università di Ginevra”
-                        </p>
-                    </item>
-                    <!--2-->
-                    <item n="2" xml:id="pag1_note2" resp="#AC">
-                        <p>
-                            Alessandro Chidichimo propone la data di ciascuna lezione nel suo articolo sui Cahiers Ferdinand de Saussure.
-                            Fornisce con certezza alta le date delle prime due lezioni, confrontandole con le informazioni presenti nel Journal de Genève e nel Le Genevois.
-                            Per quanto riguarda la terza lezione, avanza due ipotesi: venerdì 13 novembre oppure martedì 17.
-                        </p>
-                    </item>
-                </list> 
+                <div>
+                    <list type="notes">
+                        <!--1-->
+                        <item n="1" xml:id="pag1_note1" resp="#AC">
+                            <p>
+                                Scilicet “Université de Genève”, it. “Università di Ginevra”
+                            </p>
+                        </item>
+                        <!--2-->
+                        <item n="2" xml:id="pag1_note2" resp="#AC">
+                            <p>
+                                Alessandro Chidichimo propone la data di ciascuna lezione nel suo articolo sui Cahiers Ferdinand de Saussure.
+                                Fornisce con certezza alta le date delle prime due lezioni, confrontandole con le informazioni presenti nel Journal de Genève e nel Le Genevois.
+                                Per quanto riguarda la terza lezione, avanza due ipotesi: venerdì 13 novembre oppure martedì 17.
+                            </p>
+                        </item>
+                    </list>
+                </div>
             </div>
         </back>
     </text>

@@ -52,7 +52,7 @@
                     </org>
 
                     <!--Entità mancante-->
-                    <org xml:id="entità-mancante">
+                    <org xml:id="entità-mancante-org">
                         <orgName>Entità mancante</orgName>
                         <desc>
                             L'entrata relativa a questa entità è in fase di completamento.

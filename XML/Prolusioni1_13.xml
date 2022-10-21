@@ -324,9 +324,9 @@
                                 <lb xml:id="lb9_p13" n="9" facs="#facs_p13_lb9"/>
                                 <orgName ref="#DepIstr">de l’Instruction Publique</orgName> l’a été en pleine confor-
                                 <lb xml:id="lb10_p13" n="10" facs="#facs_p13_lb10"/>
-                                -mité de vues avec <persName ref="#entità-mancante">l’éminent titulaire de</persName>
+                                -mité de vues avec <persName ref="#entità-mancante-pers">l’éminent titulaire de</persName>
                                 <lb xml:id="lb11_p13" n="11" facs="#facs_p13_lb11"/>
-                                <persName ref="#entità-mancante">la chaire de linguistique</persName>.
+                                <persName ref="#entità-mancante-pers">la chaire de linguistique</persName>.
                             </ab>
                             <ab xml:id="pericope_91Aaaa035" n="35" xml:lang="FR" corresp="#it_91Aaaa035 #en_91Aaaa035" facs="#facs_pericope_91Aaaa035">
                                 <lb xml:id="lb12_p13" n="12" facs="#facs_p13_lb12"/>
