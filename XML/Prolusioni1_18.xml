@@ -473,7 +473,7 @@
         </back>
     </text>
 
-    <!--ListBibl-->
+    <!--Liste e glossario-->
     <xi:include href="lists/TEI-ListBibl.xml"/>
     <xi:include href="lists/TEI-ListPerson.xml"/>
     <xi:include href="lists/TEI-ListOrg.xml"/>
