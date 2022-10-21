@@ -108,7 +108,7 @@
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote xml:id="h1">Il corpo principale del manoscritto è interamente scritto da <persName ref="#FdS">Ferdinand de Saussure</persName></handNote>.
+                            <handNote xml:id="h1">Il corpo principale del manoscritto è interamente scritto da <persName ref="#FdS">Ferdinand de Saussure</persName>.</handNote>
                         </handDesc>
                     </physDesc>
                     <history>
@@ -6491,7 +6491,7 @@
                 <item><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/01.%20Area%20terminologica%20A%20altri%20saperi%20specialistici.pdf#page=17">Minéralogiste</ref></item>  
                 <item><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/01.%20Area%20terminologica%20A%20altri%20saperi%20specialistici.pdf#page=18">Principe</ref></item>  
                 <item><ref target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/01.%20Area%20terminologica%20A%20altri%20saperi%20specialistici.pdf#page=27">Zoologiste</ref></item>             
-            </list>
+            </list></div>
 
             <list type="gloss">
                 <head>Termini appartenenti all’<ref type="see" target="https://www.cercleferdinanddesaussure.org/Cosenza_Terminologie/02.%20Area%20terminologica%20B%20linguistica%20Storico-comparativa%20grammatica%20classica.pdf">area B</ref> presenti nelle Prolusioni</head>
@@ -6508,7 +6508,7 @@
 </TEI>
 
                 <!-- NOTE -->
-                <list type="notes">
+                <div><list type="notes">
                     <!--1-->
                     <item n="1" xml:id="pag1_note1" resp="#AC">
                         <p>
@@ -6521,7 +6521,7 @@
                             Alessandro Chidichimo's provided each lessons date in his article appearing in Cahiers Ferdinand de Saussure. He provides the dates of the three FdS conferences at the University of Geneva: the certainty of the first two is high, comparing them with the information in the "Journal de Genève" and in "Le Genevois". Chidichimo puts forward two hypotheses for the third conference: Friday 13 November or Tuesday 17.
                         </p>
                     </item>
-                </list> 
+                </list></div> 
 
                 <!--Il glossario è glossario_Prolusioni.xml-->
             </div>

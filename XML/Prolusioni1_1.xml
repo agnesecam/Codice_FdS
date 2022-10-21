@@ -538,7 +538,7 @@
 
                 <!-- NOTE -->
                 <div>
-                    <list type="notes">
+                    <div><list type="notes">
                         <!--1-->
                         <item n="1" xml:id="pag1_note1" resp="#AC">
                             <p>

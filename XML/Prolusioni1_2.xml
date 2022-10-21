@@ -110,7 +110,7 @@
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote xml:id="h1">Il corpo principale del manoscritto è interamente scritto da <persName ref="#FdS">Ferdinand de Saussure</persName></handNote>.
+                            <handNote xml:id="h1">Il corpo principale del manoscritto è interamente scritto da <persName ref="#FdS">Ferdinand de Saussure</persName>.</handNote>
                         </handDesc>
                     </physDesc>
                     <history>
@@ -340,7 +340,7 @@
                                 <lb xml:id="lb5_p2" n="5" facs="#p2_lb5"/>
                                 <gap extent = "1 word" reason="deleted"/></add></metamark>                                
                                 <lb xml:id="lb6_p2" n="6" facs="#p2_lb6"/>
-                                <del rend = "overstrike">et</del><choice> <abbr resp = "#FdS">pr</abbr><expan>pour</expan></choice> notre patrie, d'<persName ref = "#AdPic">Adolphe Pictet</persName>, d' <add place="above"><choice><abbr>A<em>.</em>P<em>.</em></abbr><expan>A<ex>dolphe</ex> P<ex>ictet</ex></expan></choice></add> qui
+                                <del rend = "overstrike">et</del><choice> <abbr resp = "#FdS">pr</abbr><expan>pour</expan></choice> notre patrie, d'<persName ref = "#AdPic">Adolphe Pictet</persName>, d' <add place="above"><choice><abbr>A<am>.</am>P<am>.</am></abbr><expan>A<ex>dolphe</ex> P<ex>ictet</ex></expan></choice></add> qui
                                 <lb xml:id="lb7_p2" n="7" facs="#p2_lb7"/>
                                 <gap extent = "3 words" reason="illegible"/>                                
                                 <lb xml:id="lb8_p2" n="8" facs="#p2_lb8"/>
@@ -393,11 +393,11 @@
                                 <lb xml:id="lb30_p2" n="30" facs="#p2_lb30"/>
                                 par une série ininterrompue de savants
                                 <lb xml:id="lb31_p2" n="31" facs="#p2_lb31"/>
-                                – <persPronouns value = "je">j</persPronouns>’insisterais après cela sur la portée
+                                – j’insisterais après cela sur la portée
                                 <lb xml:id="lb32_p2" n="32" facs="#p2_lb32"/>
                                 <choice><abbr>singulière</abbr><expan>singulièrement</expan></choice> précise qu’a prise pour <w>l’ethno – 
                                 <lb xml:id="lb33_p2" n="33" facs="#p2_lb33" break="no" rend="stroke"/>
-                                graphie</w><gap reason="omitted" quantity="1" unit="word"><space dim = "horizontal" /></gap>, tellement que la
+                                graphie</w><gap reason="omitted" quantity="1" unit="word"/>, tellement que la
                                 <lb xml:id="lb34_p2" n="34" facs="#p2_lb34"/>
                                 donnée <term ref="#linguistique-A1">linguistique</term> est toujours jusqu’à
                                 <lb xml:id="lb35_p2" n="35" facs="#p2_lb35"/>
@@ -558,8 +558,6 @@
         <!--Note, bibliografia, listPerson, listPlace, glossario, listOrganizations-->
         <back>
             <div type="addList">
-            <!--Metti una div per le entità nominate, una per la bibl, e una per la terminologia-->
-
                 <!--ListBibl-->
                 <xi:include href="lists/TEI-ListBibl.xml"/>
                 <xi:include href="lists/TEI-ListPerson.xml"/>
@@ -568,20 +566,22 @@
                 <xi:include href="glossario_Prolusioni.xml"/>
 
                 <!-- NOTE -->
-                <list type="notes">
-                    <!--1-->
-                    <item n="1" xml:id="pag1_note1" resp="#AC">
-                        <p>
-                            Scilicet “Université de Genève”, it. “Università di Ginevra”
-                        </p>
-                    </item>
-                    <!--2-->
-                    <item n="2" xml:id="pag1_note2" resp="#AC">
-                        <p>
-                            Alessandro Chidichimo's provided each lessons date in his article appearing in Cahiers Ferdinand de Saussure. He provides the dates of the three FdS conferences at the University of Geneva: the certainty of the first two is high, comparing them with the information in the "Journal de Genève" and in "Le Genevois". Chidichimo puts forward two hypotheses for the third conference: Friday 13 November or Tuesday 17.
-                        </p>
-                    </item>
-                </list> 
+                <div>
+                    <list type="notes">
+                        <!--1-->
+                        <item n="1" xml:id="pag1_note1" resp="#AC">
+                            <p>
+                                Scilicet “Université de Genève”, it. “Università di Ginevra”
+                            </p>
+                        </item>
+                        <!--2-->
+                        <item n="2" xml:id="pag1_note2" resp="#AC">
+                            <p>
+                                Alessandro Chidichimo's provided each lessons date in his article appearing in Cahiers Ferdinand de Saussure. He provides the dates of the three FdS conferences at the University of Geneva: the certainty of the first two is high, comparing them with the information in the "Journal de Genève" and in "Le Genevois". Chidichimo puts forward two hypotheses for the third conference: Friday 13 November or Tuesday 17.
+                            </p>
+                        </item>
+                    </list>
+                </div>
 
                 <!--Il glossario è glossario_Prolusioni.xml-->
             </div>

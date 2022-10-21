@@ -110,7 +110,7 @@
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote xml:id="h1">Il corpo principale del manoscritto è interamente scritto da <persName ref="#FdS">Ferdinand de Saussure</persName></handNote>.
+                            <handNote xml:id="h1">Il corpo principale del manoscritto è interamente scritto da <persName ref="#FdS">Ferdinand de Saussure</persName>.</handNote>
                         </handDesc>
                     </physDesc>
                     <history>
@@ -491,7 +491,7 @@
                 <xi:include href="glossario_Prolusioni.xml"/>
 
                 <!-- NOTE -->
-                <list type="notes">
+                <div><list type="notes">
                     <!--1-->
                     <item n="1" xml:id="pag1_note1" resp="#AC">
                         <p>
@@ -504,7 +504,7 @@
                             Alessandro Chidichimo's provided each lessons date in his article appearing in Cahiers Ferdinand de Saussure. He provides the dates of the three FdS conferences at the University of Geneva: the certainty of the first two is high, comparing them with the information in the "Journal de Genève" and in "Le Genevois". Chidichimo puts forward two hypotheses for the third conference: Friday 13 November or Tuesday 17.
                         </p>
                     </item>
-                </list> 
+                </list></div> 
 
                 <!--Il glossario è glossario_Prolusioni.xml-->
             </div>

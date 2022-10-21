@@ -108,7 +108,7 @@
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote xml:id="h1">Il corpo principale del manoscritto è interamente scritto da <persName ref="#FdS">Ferdinand de Saussure</persName></handNote>.
+                            <handNote xml:id="h1">Il corpo principale del manoscritto è interamente scritto da <persName ref="#FdS">Ferdinand de Saussure</persName>.</handNote>
                         </handDesc>
                     </physDesc>
                     <history>
@@ -6522,7 +6522,7 @@
 </TEI>
 
                 <!-- NOTE -->
-                <list type="notes">
+                <div><list type="notes">
                     <!--1-->
                     <item n="1" xml:id="pag1_note1" resp="#AC">
                         <p>

@@ -108,7 +108,7 @@
                             </supportDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <handNote xml:id="h1">Il corpo principale del manoscritto è interamente scritto da <persName ref="#FdS">Ferdinand de Saussure</persName></handNote>.
+                            <handNote xml:id="h1">Il corpo principale del manoscritto è interamente scritto da <persName ref="#FdS">Ferdinand de Saussure</persName>.</handNote>
                         </handDesc>
                     </physDesc>
                     <history>
@@ -338,7 +338,7 @@
                                 <lb xml:id="lb5_p2" n="5" facs="#p2_lb5"/>
                                 <gap extent="1 word" reason="deleted"/></add></metamark>                                
                                 <lb xml:id="lb6_p2" n="6" facs="#p2_lb6"/>
-                                <del rend="overstrike">et</del><choice> <abbr resp="#FdS">pr</abbr><expan>pour</expan></choice> notre patrie, d'<persName ref="#AdPic">Adolphe Pictet</persName>, d' <add place="above"><choice><abbr>A<em>.</em>P<em>.</em></abbr><expan>A<ex>dolphe</ex> P<ex>ictet</ex></expan></choice></add> qui
+                                <del rend="overstrike">et</del><choice> <abbr resp="#FdS">pr</abbr><expan>pour</expan></choice> notre patrie, d'<persName ref="#AdPic">Adolphe Pictet</persName>, d' <add place="above"><choice><abbr>A<am>.</am>P<am>.</am></abbr><expan>A<ex>dolphe</ex> P<ex>ictet</ex></expan></choice></add> qui
                                 <lb xml:id="lb7_p2" n="7" facs="#p2_lb7"/>
                                 <gap extent="3 words" reason="illegible"/>                                
                                 <lb xml:id="lb8_p2" n="8" facs="#p2_lb8"/>
@@ -6614,7 +6614,7 @@
 </TEI>
 
                 <!-- NOTE -->
-                <list type="notes">
+                <div><list type="notes">
                     <!--1-->
                     <item n="1" xml:id="pag1_note1" resp="#AC">
                         <p>
