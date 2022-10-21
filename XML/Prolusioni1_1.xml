@@ -2,7 +2,7 @@
 
 <!DOCTYPE TEI SYSTEM "tei-all.dtd">
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" >
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -529,13 +529,6 @@
         <!--Note, bibliografia, listPerson, listPlace, glossario, listOrganizations-->
         <back>
             <div type="addList">
-                <!--ListBibl-->
-                <div type="list"><xi:include href="lists/TEI-ListBibl.xml"/></div>
-                <div type="list"><xi:include href="lists/TEI-ListPerson.xml"/></div>
-                <div type="list"><xi:include href="lists/TEI-ListOrg.xml"/></div>
-                <div type="list"><xi:include href="lists/TEI-ListPlace.xml"/></div>
-                <div type="list"><xi:include href="glossario_Prolusioni.xml"/></div>
-
                 <!-- NOTE -->
                 <div>
                     <list type="notes">
@@ -558,4 +551,13 @@
             </div>
         </back>
     </text>
+
+    <!--ListBibl-->
+    <xi:include href="lists/TEI-ListBibl.xml"/>
+    <xi:include href="lists/TEI-ListPerson.xml"/>
+    <xi:include href="lists/TEI-ListOrg.xml"/>
+    <xi:include href="lists/TEI-ListPlace.xml"/>
+    <xi:include href="glossario_Prolusioni.xml"/>
+    
 </TEI>
+

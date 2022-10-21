@@ -1604,6 +1604,7 @@ ns %teidata.namespace;  "http://www.tei-c.org/ns/1.0" '>
 <!--doc:(TEI document) contains a single TEI-conformant document, combining a single TEI header with one or more members of the model.resource class. Multiple TEI elements may be combined within a TEI (or teiCorpus) element. [4. Default Text Structure 15.1. Varieties of Composite Text] -->
 <!ELEMENT TEI ((teiHeader,(((%model.resource;)+,(TEI)*)|(TEI)+)))>
 <!ATTLIST TEI xmlns CDATA "http://www.tei-c.org/ns/1.0">
+<!ATTLIST TEI xmlns:xi CDATA "http://www.w3.org/2001/XInclude">
 <!ATTLIST TEI
  %att.global.attributes;
  %att.typed.attributes;
@@ -4216,6 +4217,7 @@ scope %teidata.enumerated;  #IMPLIED >
  %att.declaring.attributes;
  %att.fragmentable.attributes;
  %att.written.attributes; >
+ <!ATTLIST p class CDATA #IMPLIED >
 <!--doc:(pronunciation reference) in a dictionary example, indicates a reference to the pronunciation(s) of the headword. [9.4. Headword and Pronunciation References] -->
 <!ELEMENT pRef (#PCDATA|%model.gLike;|pRef)*>
 <!ATTLIST pRef xmlns CDATA "http://www.tei-c.org/ns/1.0">
@@ -5302,6 +5304,7 @@ perf CDATA  #IMPLIED >
 <!--doc:contains the whole of a TEI encoded corpus, comprising a single corpus header and one or more TEI elements, each containing a single text header and a text. [4. Default Text Structure 15.1. Varieties of Composite Text] -->
 <!ELEMENT teiCorpus ((teiHeader,(%model.resource;)*,(%model.describedResource;)+))>
 <!ATTLIST teiCorpus xmlns CDATA "http://www.tei-c.org/ns/1.0">
+<!ATTLIST teiCorpus xmlns:xi CDATA "http://www.w3.org/2001/XInclude">
 <!ATTLIST teiCorpus
  %att.global.attributes;
  %att.typed.attributes;
@@ -5748,4 +5751,10 @@ type %teidata.enumerated;  #IMPLIED >
  %att.typed.attributes;
  %att.written.attributes;
 rotate %teidata.count;  "0"  >
+
+<!ELEMENT xi:include EMPTY>
+<!ATTLIST xi:include 
+  href CDATA #IMPLIED
+  xmlns:xi CDATA #FIXED "http://www.w3.org/2001/XInclude">
+
 <!-- end elements -->
