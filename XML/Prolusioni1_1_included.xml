@@ -527,8 +527,31 @@
         <!--Note, bibliografia, listPerson, listPlace, glossario, listOrganizations-->
         <back>
             <div type="addList">
-                <!--ListBibl-->
-                <div type="list"><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="lists/TEI-ListBibl.xml">
+                <!-- NOTE -->
+                <div>
+                    <list type="notes">
+                        <!--1-->
+                        <item n="1" xml:id="pag1_note1" resp="#AC">
+                            <p>
+                                Scilicet “Université de Genève”, it. “Università di Ginevra”
+                            </p>
+                        </item>
+                        <!--2-->
+                        <item n="2" xml:id="pag1_note2" resp="#AC">
+                            <p>
+                                Alessandro Chidichimo propone la data di ciascuna lezione nel suo articolo sui Cahiers Ferdinand de Saussure.
+                                Fornisce con certezza alta le date delle prime due lezioni, confrontandole con le informazioni presenti nel Journal de Genève e nel Le Genevois.
+                                Per quanto riguarda la terza lezione, avanza due ipotesi: venerdì 13 novembre oppure martedì 17.
+                            </p>
+                        </item>
+                    </list>
+                </div>
+            </div>
+        </back>
+    </text>
+
+    <!--ListBibl-->
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="lists/TEI-ListBibl.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -730,8 +753,8 @@
             </div>
         </back>
     </text>
-</TEI></div>
-                <div type="list"><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="lists/TEI-ListPerson.xml">
+</TEI>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="lists/TEI-ListPerson.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -1204,8 +1227,8 @@
             <p>This is a template for a minimal TEI header with the mandatory components</p>
         </body>
     </text>
-</TEI></div>
-                <div type="list"><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="lists/TEI-ListOrg.xml">
+</TEI>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="lists/TEI-ListOrg.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -1273,8 +1296,8 @@
             <p>This is a template for a minimal TEI header with the mandatory components:</p>
         </body>
     </text>
-</TEI></div>
-                <div type="list"><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="lists/TEI-ListPlace.xml">
+</TEI>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="lists/TEI-ListPlace.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -1388,8 +1411,8 @@
             <p>This is a template for a minimal TEI header with the mandatory components:</p>
         </body>
     </text>
-</TEI></div>
-                <div type="list"><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="glossario">
+</TEI>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="glossario">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -6580,28 +6603,6 @@
             </list>
         </back>
     </text>
-</TEI></div>
-
-                <!-- NOTE -->
-                <div>
-                    <list type="notes">
-                        <!--1-->
-                        <item n="1" xml:id="pag1_note1" resp="#AC">
-                            <p>
-                                Scilicet “Université de Genève”, it. “Università di Ginevra”
-                            </p>
-                        </item>
-                        <!--2-->
-                        <item n="2" xml:id="pag1_note2" resp="#AC">
-                            <p>
-                                Alessandro Chidichimo propone la data di ciascuna lezione nel suo articolo sui Cahiers Ferdinand de Saussure.
-                                Fornisce con certezza alta le date delle prime due lezioni, confrontandole con le informazioni presenti nel Journal de Genève e nel Le Genevois.
-                                Per quanto riguarda la terza lezione, avanza due ipotesi: venerdì 13 novembre oppure martedì 17.
-                            </p>
-                        </item>
-                    </list>
-                </div>
-            </div>
-        </back>
-    </text>
+</TEI>
+    
 </TEI>

@@ -375,15 +375,6 @@
         <!--Note, bibliografia, listPerson, listPlace, glossario, listOrganizations-->
         <back>
             <div type="addList">
-            <!--Metti una div per le entità nominate, una per la bibl, e una per la terminologia-->
-
-                <!--ListBibl-->
-                <xi:include href="lists/TEI-ListBibl.xml"/>
-                <xi:include href="lists/TEI-ListPerson.xml"/>
-                <xi:include href="lists/TEI-ListOrg.xml"/>
-                <xi:include href="lists/TEI-ListPlace.xml"/>
-                <xi:include href="glossario_Prolusioni.xml"/>
-
                 <!-- NOTE -->
                 <div><list type="notes">
                     <!--1-->
@@ -404,4 +395,12 @@
             </div>
         </back>
     </text>
+
+    <!--ListBibl-->
+    <xi:include href="lists/TEI-ListBibl.xml"/>
+    <xi:include href="lists/TEI-ListPerson.xml"/>
+    <xi:include href="lists/TEI-ListOrg.xml"/>
+    <xi:include href="lists/TEI-ListPlace.xml"/>
+    <xi:include href="glossario_Prolusioni.xml"/>
+
 </TEI>

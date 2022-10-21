@@ -545,10 +545,30 @@
         <!--Note, bibliografia, listPerson, listPlace, glossario, listOrganizations-->
         <back>
             <div type="addList">
-            <!--Metti una div per le entità nominate, una per la bibl, e una per la terminologia-->
+            
+                <!-- NOTE -->
+                <div><list type="notes">
+                    <!--1-->
+                    <item n="1" xml:id="pag1_note1" resp="#AC">
+                        <p>
+                            Scilicet “Université de Genève”, it. “Università di Ginevra”
+                        </p>
+                    </item>
+                    <!--2-->
+                    <item n="2" xml:id="pag1_note2" resp="#AC">
+                        <p>
+                            Alessandro Chidichimo's provided each lessons date in his article appearing in Cahiers Ferdinand de Saussure. He provides the dates of the three FdS conferences at the University of Geneva: the certainty of the first two is high, comparing them with the information in the "Journal de Genève" and in "Le Genevois". Chidichimo puts forward two hypotheses for the third conference: Friday 13 November or Tuesday 17.
+                        </p>
+                    </item>
+                </list></div> 
 
-                <!--ListBibl-->
-                <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="lists/TEI-ListBibl.xml">
+                <!--Il glossario è glossario_Prolusioni.xml-->
+            </div>
+        </back>
+    </text>
+
+    <!--ListBibl-->
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="lists/TEI-ListBibl.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -751,7 +771,7 @@
         </back>
     </text>
 </TEI>
-                <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="lists/TEI-ListPerson.xml">
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="lists/TEI-ListPerson.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -1225,7 +1245,7 @@
         </body>
     </text>
 </TEI>
-                <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="lists/TEI-ListOrg.xml">
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="lists/TEI-ListOrg.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -1294,7 +1314,7 @@
         </body>
     </text>
 </TEI>
-                <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="lists/TEI-ListPlace.xml">
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:base="lists/TEI-ListPlace.xml">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -1409,7 +1429,7 @@
         </body>
     </text>
 </TEI>
-                <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="glossario">
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:id="glossario">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -6602,24 +6622,4 @@
     </text>
 </TEI>
 
-                <!-- NOTE -->
-                <div><list type="notes">
-                    <!--1-->
-                    <item n="1" xml:id="pag1_note1" resp="#AC">
-                        <p>
-                            Scilicet “Université de Genève”, it. “Università di Ginevra”
-                        </p>
-                    </item>
-                    <!--2-->
-                    <item n="2" xml:id="pag1_note2" resp="#AC">
-                        <p>
-                            Alessandro Chidichimo's provided each lessons date in his article appearing in Cahiers Ferdinand de Saussure. He provides the dates of the three FdS conferences at the University of Geneva: the certainty of the first two is high, comparing them with the information in the "Journal de Genève" and in "Le Genevois". Chidichimo puts forward two hypotheses for the third conference: Friday 13 November or Tuesday 17.
-                        </p>
-                    </item>
-                </list></div> 
-
-                <!--Il glossario è glossario_Prolusioni.xml-->
-            </div>
-        </back>
-    </text>
 </TEI>
