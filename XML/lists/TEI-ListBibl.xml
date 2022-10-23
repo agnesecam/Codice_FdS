@@ -118,17 +118,6 @@
                         <pubPlace>Great Clarendon Street, Oxford, OX2 6DP</pubPlace>
                         <idno type="ISBN">978-0-19-926144-4</idno>
                         <citedRange unit="page" from="X" to="X">X-X</citedRange>
-                        <!--Fonte trascrizione francese-->
-                        <!--<relatedItem type="translatedFrom">
-                            <bibl>
-                                <author>Simon Bouquet</author>
-                                <author>Rudolf Engler</author>
-                                <author>Antoinette Weil</author>
-                                <title>Écrits de linguistique générale</title>.
-                                <publisher>Gallimard</publisher>
-                                <date>2002</date>
-                            </bibl>
-                        </relatedItem>-->
                         <note>
                             Traduzione inglese del manoscritto.
                         </note>
