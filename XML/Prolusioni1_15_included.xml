@@ -406,7 +406,7 @@
 
             <group xml:id="en_Prolusioni" xml:lang="EN"> <!--TRADUZIONI INGLESE DELLE 3 PROLUSIONI-->
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
-                    <body resp="#AC"xml:id="body-inglese" source="#WGL">
+                    <body resp="#AC" xml:id="body-inglese" source="#WGL">
                         <div xml:id="div_p15_en" hand="#h1" type="box_testo_en">
                             <ab xml:id="en_91Aaaa040" corresp="#pericope_91Aaaa040" xml:lang="EN">
                                 <lb/>It is this characteristic of being a historical science 

@@ -475,7 +475,7 @@
 
             <group xml:id="en_Prolusioni" xml:lang="EN"> <!--TRADUZIONI INGLESE DELLE 3 PROLUSIONI-->
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
-                    <body resp="#AC"xml:id="body-inglese" source="#WGL">
+                    <body resp="#AC" xml:id="body-inglese" source="#WGL">
                         <div xml:id="div_p1_en" hand="#h1" type="box_testo_en">
                             <ab xml:id="en_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="EN">
                                 <lb/>If the chair which it is now my honour to inaugurate 
@@ -668,17 +668,6 @@
                         <pubPlace>Great Clarendon Street, Oxford, OX2 6DP</pubPlace>
                         <idno type="ISBN">978-0-19-926144-4</idno>
                         <citedRange unit="page" from="X" to="X">X-X</citedRange>
-                        <!--Fonte trascrizione francese-->
-                        <!--<relatedItem type="translatedFrom">
-                            <bibl>
-                                <author>Simon Bouquet</author>
-                                <author>Rudolf Engler</author>
-                                <author>Antoinette Weil</author>
-                                <title>Écrits de linguistique générale</title>.
-                                <publisher>Gallimard</publisher>
-                                <date>2002</date>
-                            </bibl>
-                        </relatedItem>-->
                         <note>
                             Traduzione inglese del manoscritto.
                         </note>
