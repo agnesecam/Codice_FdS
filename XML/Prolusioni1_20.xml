@@ -255,37 +255,20 @@
     
     <facsimile>
         <!--TRENTESIMA PAGINA-->
-        <surface n="15" xml:id="scan_p30">
-            <graphic url='ms_fr_03951_01_1_p030-resized.jpg' width='600px' height='900px'/> 
+        <surface n="15" xml:id="scan_p20">
+            <graphic url='ms_fr_03951_01_1_p020-resized.jpg' width='600px' height='900px'/> 
             <!--Righe-->
-            <zone points = '160,88,530,88,533,111,154,125' rendition="line" xml:id="facs_p30_lb1"/>                       
-            <zone points = ' 154,123,544,120,552,148,151,143' rendition="line" xml:id="facs_p30_lb2"/>  
-            <zone points = '158,145,537,148,537,174,149,182' rendition="line" xml:id="facs_p30_lb3"/>  
-            <zone points = ' 157,189,530,179,530,208,154,213'  rendition="line" xml:id="facs_p30_lb4"/>            
-            <zone points = ' 226,212,529,213,537,238,218,247'  rendition="line" xml:id="facs_p30_lb5"/>
-            <zone points = ' 161,250,534,245,534,275,157,277' rendition="line" xml:id="facs_p30_lb6"/>
-            <zone points = '156,282,543,275,543,296,150,301'   rendition="line" xml:id="facs_p30_lb7"/>
-            <zone points = ' 518,304,518,333,147,340,154,309' rendition="line" xml:id="facs_p30_lb8"/>
-            <zone points = ' 149,342,550,333,550,365,145,374'  rendition="line" xml:id="facs_p30_lb9"/>
-            <zone points = '156,374,526,366,532,391,155,405'  rendition="line" xml:id="facs_p30_lb10"/>
-            <zone points = '159,405,367,396,366,421,155,426' rendition="line" xml:id="facs_p30_lb11"/>
-            <zone points = ' 208,425,546,415,545,443,204,454' rendition="line" xml:id="facs_p30_lb12"/>
-            <zone points = '  158,463,529,442,526,471,159,490' rendition="line" xml:id="facs_p30_lb13"/>    
-            <zone points = '154,493,525,470,525,495,148,519'  rendition="line" xml:id="facs_p30_lb14"/>    
-            <zone points = '160,519,542,489,545,521,164,545'  rendition="line" xml:id="facs_p30_lb15"/>    
-            <zone points = ' 177,547,549,532,549,557,181,570' rendition="line" xml:id="facs_p30_lb16"/>    
-            <zone points = ' 174,576,526,556,526,578,173,602' rendition="line" xml:id="facs_p30_lb17"/>    
-            <zone points = '169,600,536,577,541,601,169,620' rendition="line" xml:id="facs_p30_lb18"/>    
-            <zone points = ' 161,630,532,607,535,630,168,654' rendition="line" xml:id="facs_p30_lb19"/>    
-            <zone points = ' 165,658,528,633,531,657,161,677' rendition="line" xml:id="facs_p30_lb20"/>    
-            <zone points = ' 1173,678,526,656,530,678,173,706' rendition="line" xml:id="facs_p30_lb21"/>    
-            <zone points = ' 178,706,430,700,443,717,178,732' rendition="line" xml:id="facs_p30_lb22"/>    
-            <zone points = ' 218,735,509,725,520,749,216,773' rendition="line" xml:id="facs_p30_lb23"/>    
-            <zone points = ' 205,812,206,820,185,839,176,810' rendition="line" xml:id="facs_p30_lb24"/>        
-            <zone points = ' 238,831,311,823,311,850,241,843' rendition="line" xml:id="facs_p30_lb25"/>                
-
+            <zone points = '135,80, 381,86, 381,61, 499,59, 530,92, 530,105, 132,104' rendition="line" xml:id="facs_p20_lb1"/>                       
+            <zone points = ' 139,112 ,535,102, 535,130 ,135,133' rendition="line" xml:id="facs_p20_lb2"/>  
+            <zone points = '137,139, 536,137, 537,163, 138,168 ' rendition="line" xml:id="facs_p20_lb3"/>  
+            <zone points = '  136,176 ,529,166 ,529,189 ,133,201'  rendition="line" xml:id="facs_p20_lb4"/>            
+            <zone points = ' 140,205, 510,194, 520,218, 138,232 '  rendition="line" xml:id="facs_p20_lb5"/>
+            <zone points = ' 142,237 ,514,223 ,524,242, 146,252 ' rendition="line" xml:id="facs_p20_lb6"/>
+            <zone points = '48,270 ,149,255 ,510,251 ,522,278, 148,284 ,60,307'   rendition="line" xml:id="facs_p20_lb7"/>
+            <zone points = ' 152,293, 520,285, 520,307, 155,314 ' rendition="line" xml:id="facs_p20_lb8"/>
+            <zone points = '150,321 ,364,311 ,372,327 ,151,344'  rendition="line" xml:id="facs_p20_lb9"/>
     
-            <zone points = '38,122 ,144,57, 62,57'  rendition="line" xml:id="facs_HandPageNumber-30"/>     <!--Numero 30 cerchiato in alto a sx-->           
+            <zone points = '59,103, 59,60, 108,60, 98,100'  rendition="line" xml:id="facs_HandPageNumber-20"/>     <!--Numero 30 cerchiato in alto a sx-->           
 
         </surface>
     </facsimile>
@@ -297,76 +280,115 @@
                 <text xml:id="fr_Prolusione-1"> <!--FR 1 PROLUSIONE-->
                     <body xml:lang="fr" source="#Bouquet-Engler2002" xml:id="body-francese">
                         <!--Trentesima pagina-->
-                        <pb n="f1r" xml:id="body_p30" facs="#scan_p30"/>
+                        <pb n="f1r" xml:id="body_p20" facs="#scan_p20"/>
                         <!--Numeri impaginazione a stampa e a mano-->
                         <ab>
-                            <fw type="pageNum" xml:id="HandPageNumber-30" rend="align(left)" facs="#facs_HandPageNumber-30"> 30 </fw>
+                            <fw type="pageNum" xml:id="HandPageNumber-20" rend="align(left)" facs="#facs_HandPageNumber-20"> 20 </fw>
                         </ab>
-                        <div xml:id="div_p30_fr" hand="#h1" type="box_testo" >
-                            <ab xml:id="pericope_91Aaaa111" n="111" xml:lang="FR" corresp="#it_91Aaaa111 #en_91Aaaa111" facs="#facs_pericope_91Aaaa111" >
-                                <lb xml:id="lb1_p30" n="1" facs="#facs_p30_lb1"/> 
-                                <del rend="overstrike" unit="char" quantity="3" instant="true"><gap reason="cancelled" unit="char" quantity="3"/></del> en s'arrêt<ex cert="high">an</ex>t à la période accessible, il est 
-                                <lb xml:id="lb2_p30" n="2" facs="#facs_p30_lb2"/>
-                                clair que chaque <term ref="#langue1">langue</term> <choice><abbr>indo-eur<am>.</am></abbr><expan cert="high">indo-européenne</expan></choice> actuelle<ex cert="high">me</ex>nt 
-                                <lb xml:id="lb3_p30" n="3" facs="#facs_p30_lb3"/>
-                                <term ref="#glossa-mancante">parlée</term> a exacte<ex cert="high">me</ex>nt le mêm<ex cert="high">e</ex> âge par rapport 
-                                <lb xml:id="lb4_p30" n="4" facs="#facs_p30_lb4"/>
-                                au temps où se <term ref="#glossa-mancante">parlait</term> l'<choice><abbr>indo-eur<am>.</am></abbr><expan cert="high">indo-européen</expan></choice> primitif.
+                        <div xml:id="div_p20_fr" hand="#h1" type="box_testo" >
+                            <ab xml:id="pericope_91Aaaa066" n="66" xml:lang="FR" corresp="#it_91Aaaa066 #en_91Aaaa066" facs="#facs_pericope_91Aaaa066" >
+                                <lb xml:id="lb1_p20" n="1" facs="#facs_p20_lb1"/> 
+                                <w>Puis</w>
+                                <pc force="weak">,</pc>
+                                <seg>de même</seg>
+                                <pc force="weak">,</pc>
+                                <seg>nous considérerons </seg>
+                                <del rend="overstrike" hand="author">le</del>
+                                <add hand="author" place="supralinear">
+                                    <unclear reason="eccentric ductus">ce qu'on peut dire du </unclear>
+                                </add>
+                                <term ref="#glossa-mancante">principe</term>
+
+                                <lb xml:id="lb2_p20" n="2" facs="#facs_p20_lb2"/> 
+                                <seg> de la</seg>
+                                <term ref="#continuité2">
+                                    continuité
+                                </term>
+                                <choice>
+                                    <abbr type="contraction">ds</abbr>
+                                    <expan>d<ex>an</ex>s</expan>
+                                </choice>
+                                <seg>l'<term ref="#espace"> espace</term> et</seg>
+                                <add hand="author" place="supralinear">
+                                    <unclear reason="eccentric ductus">de</unclear>
+                                </add>
+                                <unclear reason= "faded">celui </unclear>
+                                <choice>
+                                    <sic>d</sic>
+                                    <corr>de</corr>
+                                </choice>
+                                <unclear reason="faded">la</unclear>
+                                <del rend="overstrike" hand="author">trans<pc force="inter">-</pc>
+                                </del>
+
+                                <lb xml:id="lb3_p20" n="3" facs="#facs_p20_lb3"/> 
+                                <del rend="overstike" hand="author">=formation selon l'espace</del>
+                                <term ref="#divergence">
+                                    <emph>
+                                        <hi rend="underline">divergence</hi>
+                                    </emph>
+                                </term>
+                                <choice>
+                                    <abbr type="contraction">ds</abbr>
+                                    <expan>d<ex>an</ex>s</expan>
+                                </choice>
+                                <seg>l'<term ref="#espace">espace</term>
+                                </seg>
+                                <pc force="strong">.</pc>
                             </ab>                           
-                            <ab xml:id="pericope_91Aaaa112" n="112" xml:lang="FR" corresp="#it_91Aaaa112 #en_91Aaaa112" facs="#facs_pericope_91Aaaa112">                                                 
-                                <lb xml:id="lb5_p30" n="5" facs="#facs_p30_lb5"/>                                
-                                <del><gap/></del>
-                                <lb xml:id="lb6_p30" n="6" facs="#facs_p30_lb6"/>
-                                <del rend="overstrike" unit="word" atLeast="9" instant="true"><gap reason="cancelled" unit="word" atLeast="8"/>
-                                <gap reason="cancelled" unit="word" quantity="1"/></del> Je ne m'arrête pas <del rend="overstrike" unit="word" quantity="2" instant="true">à la</del> au <choice><abbr><am>2</am><c rend="sup">d</c></abbr><expan cert="high">second</expan></choice> sens 
-                                <lb xml:id="lb7_p30" n="7" facs="#facs_p30_lb7"/>
-                                où <choice><abbr><am>1</am></abbr><expan cert="high">une</expan></choice> <term ref="#langue1">l<ex cert="high">an</ex>gue</term> serait <choice><abbr><am>+</am></abbr><expan cert="high">plus</expan></choice> <choice><sic>veille</sic><corr cert="high">vieille</corr></choice> qu'une autre, <del rend="overstrike" unit="char" quantity="2" instant="true">en</del> 
-                                <lb xml:id="lb8_p30" n="8" facs="#facs_p30_lb8"/>
-                                <del rend="overtyped" unit="char" atLeast="1" instant="true">ce</del> et qui n'a pas <choice><abbr>g<am rend="place(sup) highlighting(underline)">de</am></abbr><expan cert="high">grande</expan></choice> importance ; il y a des 
-                                <lb xml:id="lb9_p30" n="9" facs="#facs_p30_lb9"/> 
-                                <term ref="#langue1">langues</term> mortes et par <choice><abbr>conseqt</abbr><expan cert="high">conséquent</expan></choice> qu'on peut appeler 
-                                <lb xml:id="lb10_p30" n="10" facs="#facs_p30_lb10"/> 
-                                <choice><abbr><hi rend="underline">anci</hi>e<am rend="overline">n</am></abbr><expan cert="high">anciennes</expan></choice>, par <choice><abbr>ex<am>.</am></abbr><expan cert="high">exemple</expan></choice> le gaulois, le phénicien, 
-                                <lb xml:id="lb11_p30" n="11" facs="#facs_p30_lb11"/>
-                                <choice><abbr>etc<am>.</am></abbr><expan cert="high">et cetera</expan></choice> qui ont été extirpés.
-                            </ab>
-                            <ab xml:id="pericope_91Aaaa113" n="113" xml:lang="FR" corresp="#it_91Aaaa113 #en_91Aaaa113" facs="#facs_pericope_91Aaaa113">
-                                <lb xml:id="lb12_p30" n="12" facs="#facs_p30_lb12"/> 
-                                Enfin <del rend="overstrike" unit="char" atLeast="2" instant="true">les</del> il est à remarquer que <choice><abbr>d<am rend="sup">s</am></abbr><expan cert="high">dans</expan></choice> le <choice><abbr><am>3</am><c rend="sup">e</c></abbr><expan cert="high">troisième</expan></choice> 
-                                <lb xml:id="lb13_p30" n="13" facs="#facs_p30_lb13"/> 
-                                sens on peut dire qu'<choice><abbr><am>1</am></abbr><expan cert="high">une</expan></choice> <term ref="#langue1">l<ex cert="high">an</ex>gue</term> est <choice><abbr><am>+</am></abbr><expan cert="high">plus</expan></choice> vieille 
-                                <lb xml:id="lb14_p30" n="14" facs="#facs_p30_lb14"/> 
-                                qu'une autre, <del rend="overstrike" unit="word" atLeast="3" instant="true"><gap reason="cancelled" unit="word" atLeast="3"/></del> mais chose as<ex cert="high">s</ex>ez 
-                                <lb xml:id="lb15_p30" n="15" facs="#facs_p30_lb15"/> 
-                                bizarre, <choice><abbr>pr</abbr><expan cert="high">pour</expan></choice> les <term ref="#langue1">langues</term> c'est le contraire <add place="supralinear">de ce qui se passe</add>, c'est-à-
-                                <lb xml:id="lb16_p30" n="16" facs="#facs_p30_lb16"/>
-                                dire que ce sont les <term ref="#langue1">l<ex cert="high">an</ex>gues</term> les mieux conservées 
-                                <lb xml:id="lb17_p30" n="17" facs="#facs_p30_lb17"/>
-                                qu'on appelle vieilles.
-                            </ab>
-                            <ab xml:id="pericope_91Aaaa114" n="114" xml:lang="FR" corresp="#it_91Aaaa114 #en_91Aaaa114" facs="#facs_pericope_91Aaaa114">
-                                <choice><abbr>D<am rend="sup">s</am></abbr><expan cert="high">Dans</expan></choice> ce <term ref="#g12">sens</term>, par <choice><abbr>ex<am>.</am></abbr><expan cert="high">exemple</expan></choice>, <del rend="overstrike" unit="word" atLeast="6" instant="true"><gap reason="cancelled" unit="word" quantity="1"/></del>
-                                <lb xml:id="lb18_p30" n="18" facs="#facs_p30_lb18"/> 
-                                <del><gap reason="cancelled" unit="word" atLeast="5"/></del> le grec est 
-                                <lb xml:id="lb19_p30" n="19" facs="#facs_p30_lb19"/>
-                                une langue <choice><abbr><am>+</am></abbr><expan cert="high">plus</expan></choice> vieille que le latin pris à la 
-                                <lb xml:id="lb20_p30" n="20" facs="#facs_p30_lb20"/> 
-                                même <choice><abbr>époq<am>.</am></abbr><expan cert="high">époque</expan></choice> - elle s'est moins éloignée du type 
-                                <lb xml:id="lb21_p30" n="21" facs="#facs_p30_lb21"/> 
-                                primitif <choice><abbr>indo-eur<am>.</am></abbr><expan>indo-eur<ex>opéen</ex></expan></choice>. Le sanscrit est <choice><abbr><am>+</am></abbr><expan cert="high">plus</expan></choice> vieux, 
-                                <lb xml:id="lb22_p30" n="22" facs="#facs_p30_lb22"/> 
-                                mieux préservé, que cert<ex cert="high">ai</ex><hi rend="underline">nes</hi> au<ex cert="high">tres</ex>.
-                            </ab>                            
-                            <ab xml:id="pericope_91Aaaa115" n="115" xml:lang="FR" corresp="#it_91Aaaa115 #en_91Aaaa115" facs="#facs_pericope_91Aaaa115">
-                                <lb xml:id="lb23_p30" n="23" facs="#facs_p30_lb23"/> 
-                                En opposant <choice><abbr>d<am rend="sup">s</am></abbr><expan cert="high">dans</expan></choice> notre prochaine séance 
-                                <lb xml:id="lb24_p30" n="24" facs="#facs_p30_lb24"/> 
-                                le principe de <term ref="#mouvement">mouvement</term> au principe d'<term ref="#glossa-mancante">inertie</term> 
-                                <lb xml:id="lb25_p30" n="25" facs="#facs_p30_lb25"/> 
-                                que <gap reason="missing" extent="rest of the line"/> 
-                                <lb xml:id="lb26_p30" n="26" facs="#facs_p30_lb26"/> 
-                                <choice><abbr>ns</abbr><expan cert="high">nous</expan></choice> aurons <gap reason="missing" extent="rest of the line"/>
-                            </ab>  
+                            <ab xml:id="pericope_91Aaaa067" n="67" xml:lang="FR" corresp="#it_91Aaaa067 #en_91Aaaa067" facs="#facs_pericope_91Aaaa067">                                                 
+                                <lb xml:id="lb4_p20" n="4" facs="#facs_p20_lb4"/> 
+                                <seg>Après cet exposé qui aura l'avantage de nous</seg>
+                                <lb xml:id="lb5_p20" n="5" facs="#facs_p20_lb5"/> 
+                                <seg>placer sur</seg>
+                                <choice>
+                                    <abbr type="brevigraph">1</abbr>
+                                    <expan>un</expan>
+                                </choice>
+                                <w>terrain</w>
+                                <choice>
+                                    <sic>parftt</sic>
+                                    <corr>parfaitement</corr>
+                                </choice>
+                                <del rend="unreadable" hand= "author">
+                                    <gap reason="cancelled" extent="chars"></gap>
+                                </del>
+                                <seg> net pour</seg>
+                                <lb xml:id="lb6_p20" n="6" facs="#facs_p20_lb6"/> 
+                                <seg>l'étude</seg>
+                                <unclear reason="eccentric ductus">des</unclear>
+                                <seg>des <term ref="#fait">faits particuliers</term>
+                                    <pc force="weak">,</pc>nous aborderons</seg>
+                                <del rend="overstrike" hand="author">le</del>
+                                <lb xml:id="lb7_p20" n="7" facs="#facs_p20_lb7"/> 
+                                <add place= "left">avec</add>
+                                <choice>
+                                    <abbr type="brevigraph">+</abbr>
+                                    <expan>plus</expan>
+                                </choice>
+                                <w>de</w>
+                                <unclear reason="eccentric ductus"> sûreté</unclear>
+                                <w> sujet</w>
+                                <unclear reason="faded">spécial de la </unclear>
+                                <choice>
+                                    <abbr type="abbreviation">phonétiq<am>.</am>
+                                    </abbr>
+                                    <expan>
+                                        <term ref="#phonetique">phonétiq<ex>ue</ex>
+                                        </term>
+                                    </expan>
+                                </choice>
+                                <seg> du grec <unclear reason= "eccentric ductus">et</unclear>du latin</seg>
+                                <lb xml:id="lb8_p20" n="8" facs="#facs_p20_lb8"/> 
+                                <seg>où les occasions d'appliquer </seg>
+                                <unclear reason="eccentric ductus">ces</unclear>
+                                <term ref= "#glossa-mancante">principes généraux</term>
+                                <lb xml:id="lb9_p20" n="9" facs="#facs_p20_lb9"/> 
+                                <seg>se présentent</seg>
+                                <del rend="overstrike" hand="author">en foul</del>
+                                <seg>sans cesse</seg>
+                                <pc force="strong">.</pc>
+                            </ab> 
                         </div>
                     </body> 
                 </text>
@@ -375,42 +397,19 @@
             <group xml:id="it_Prolusioni" xml:lang="IT"> <!--TRADUZIONI ITALIANO DELLE 3 PROLUSIONI-->
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
-                        <div xml:id="div_p30_it" hand="#h1" type="box_testo_it">
-                            <ab xml:id="it_91Aaaa111" corresp="#pericope_91Aaaa111" xml:lang="IT" part="F">
-                                <lb/>fermandosi al periodo accessibile, è 
-                                <lb/>chiaro che ogni lingua indoeuropea parlata attualmente 
-                                <lb/>ha esattamente la stessa età in rapporto 
-                                <lb/>al tempo in cui si parlava l’indoeuropeo.
+                        <div xml:id="div_p20_it" hand="#h1" type="box_testo_it">
+                            <ab xml:id="it_91Aaaa066" corresp="#pericope_91Aaaa066" xml:lang="IT" part="F">
+                                <lb/>Poi, allo stesso modo, considereremo ciò che si può dire del principio
+                                <lb/>della continuità nello spazio e quello della divergenza nello spazio.
                             </ab>
-                            <ab xml:id="it_91Aaaa112" corresp="#pericope_91Aaaa112" xml:lang="IT">                            
-                                <lb/>Non mi soffermo sul secondo senso 
-                                <lb/>in cui una lingua sarebbe più vecchia di un’altra, 
-                                <lb/>che non ha grande importanza; vi sono 
-                                <lb/>lingue morte e che di conseguenza si possono chiamare 
-                                <lb/>antiche, per esempio il gallo, il fenicio, 
-                                <lb/>ecc., che sono state estirpate.
-                            </ab>
-                            <ab xml:id="it_91Aaaa113" corresp="#pericope_91Aaaa113" xml:lang="IT">
-                                <lb/>Infine bisogna notare che nel terzo 
-                                <lb/>senso si può dire che una lingua è più vecchia 
-                                <lb/>di un’altra ma, cosa assai 
-                                <lb/>bizzarra, per le lingue accade il contrario: 
-                                <lb/>sono le lingue meglio conservate 
-                                <lb/>che vengono chiamate vecchie.
-                            </ab>
-                            <ab xml:id="it_91Aaaa114" corresp="#pericope_91Aaaa114" xml:lang="IT">
-                                In questo senso, per esempio, 
-                                <lb/>il greco è 
-                                <lb/>una lingua più vecchia del latino preso alla 
-                                <lb/>stessa epoca, si è allontanata meno dal tipo 
-                                <lb/>primitivo dell’indoeuropeo. Il sanscrito è più vecchio, 
-                                <lb/>meglio preservato, di certe altre lingue.
-                            </ab>                                  
-                            <ab xml:id="it_91Aaaa115" corresp="#pericope_91Aaaa115" xml:lang="IT">
-                                <lb/>Nella nostra prossima seduta, 
-                                <lb/>opponendo il principio di movimento al principio di inerzia 
-                                <lb/>che [ ] avremo [ ].
-                            </ab>
+                            <ab xml:id="it_91Aaaa067" corresp="#pericope_91Aaaa067" xml:lang="IT">                            
+                                <lb/>Dopo tale esposizione che avrà il vantaggio 
+                                <lb/>di porci su un terreno perfettamente 
+                                <lb/>sgombro per lo studio dei fatti particolari, abborderemo
+                                <lb/>con più sicurezza l’argomento speciale della fonetica del greco e del latino, 
+                                <lb/>in cui le occasioni di applicare tali principi generali 
+                                <lb/>si presentano di continuo.
+                            </ab>                            
                         </div>                            
                     </body>
                 </text>          
@@ -419,42 +418,18 @@
             <group xml:id="en_Prolusioni" xml:lang="EN" > <!--TRADUZIONI INGLESE DELLE 3 PROLUSIONI-->
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
                     <body resp="#AC" xml:id="body-inglese" source="#WGL">
-                        <div xml:id="div_p30_en" hand="#h1" type="box_testo_en">
-                            <ab xml:id="en_91Aaaa111" corresp="#pericope_91Aaaa111" xml:lang="EN">
-                                <lb/>If we stop at the period which remains accessible, 
-                                <lb/>it is clear that each Indo-European language currently spoken 
-                                <lb/>has exactly the same age compared to 
-                                <lb/>the time when early Indo-European was spoken.
-                            </ab>        
-                            <ab xml:id="en_91Aaaa112" corresp="#pericope_91Aaaa112" xml:lang="EN">
-                                <lb/>The second way 
-                                <lb/>in which a language may be older than another 
-                                <lb/>will not delay me, for it is 
-                                <lb/>of little importance; there exist 
-                                <lb/>dead languages which may therefore be called 
-                                <lb/>'old' languages, such as Gaulish, Phoenician, 
-                                <lb/>etc., languages which have been wiped out.
-                            </ab>    
-                            <ab xml:id="en_91Aaaa113" corresp="#pericope_91Aaaa113" xml:lang="EN">                                
-                                <lb/>Finally, one should note that fot third definition, 
-                                <lb/>a language may be said to be older than 
-                                <lb/>another, but, 
-                                <lb/>strangely, for languages the defition is inverted, 
-                                <lb/>i.e. the best-preserved languages are called out.
-                            </ab>                            
-                            <ab xml:id="en_91Aaaa114" corresp="#pericope_91Aaaa114" xml:lang="EN">                                
-                                With this definition, for example, 
-                                <lb/>Greek is 
-                                <lb/>an older language than the Latin of 
-                                <lb/>the same period, as it has distanced itself less from 
-                                <lb/>early Indo-European. Sanskrit is older, 
-                                <lb/>and better preserved, than some others.
-                            </ab>                            
-                            <ab xml:id="en_91Aaaa115" corresp="#pericope_91Aaaa115" xml:lang="EN">                                
-                            <lb/>By comparing in our next lecture 
-                                <lb/>the principle of movement with the principle on inertia 
-                                <lb/>which ..., we shall have ...
-                            </ab>  
+                        <div xml:id="div_p20_en" hand="#h1" type="box_testo_en">
+                            <ab xml:id="en_91Aaaa066" corresp="#pericope_91Aaaa066" xml:lang="EN">
+                                <lb/>Thereafter, we shall move on similarly to look at what can be said about the principle                             
+                                <lb/>of continuity in space and that of divergence in space. 
+                            </ab>
+                            <ab xml:id="en_91Aaaa067" corresp="#pericope_91Aaaa067" xml:lang="EN">
+                                <lb/>These lectures will give us a perfect grounding                           
+                                <lb/>for the study of individual facts, allowing us to approach                            
+                                <lb/>with greater assurance the special subject of Greek and Latin phonetics,                             
+                                <lb/>where opportunities to apply                             
+                                <lb/>these general principles abound.
+                            </ab>   
                         </div>   
                     </body>
                 </text>       
