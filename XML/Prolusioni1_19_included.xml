@@ -82,8 +82,8 @@
                             <title xml:lang="fr">Trois premières conférences à l'Université</title>
                             <title type="sub">Troisième conférence</title>
                             <note>                            
-                                <date notAfter="1891-11-13" confidence="" evidence="external" source="#Journal_de_Genève #Le_Genevois">13/11/1891</date>
-                                <date notAfter="1891-11-17" confidence="" evidence="external" source="#Journal_de_Genève #Le_Genevois">17/11/1891</date>
+                                <date notAfter="1891-11-13" confidence="0.7" evidence="external" source="#Journal_de_Genève #Le_Genevois">13/11/1891</date>
+                                <date notAfter="1891-11-17" confidence="0.8" evidence="external" source="#Journal_de_Genève #Le_Genevois">17/11/1891</date>
                             </note>
                             <textLang mainLang="fr">Francese</textLang>
                         </msItem>                        
