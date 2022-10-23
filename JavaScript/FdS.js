@@ -65,12 +65,24 @@ function select_pages(){
                 break;   
             case '18':
                 add_p = "18";
+                break;            
+            case '19':
+                add_p = "19";
+                break;           
+            case '20':
+                add_p = "20";
                 break;
             case '21':
                 add_p = "21";
                 break;
             case '22':
                 add_p = "22";
+                break;
+            case '25':
+                add_p = "25";
+                break;
+            case '26':
+                add_p = "26";
                 break;
             case '27':
                 add_p = "27";

@@ -254,7 +254,7 @@
     <facsimile>
         <!--PRIMA PAGINA-->
         <surface n="1" xml:id="scan_p19">
-            <graphic url='ms_fr_03951_01_1_p019.jpg' width='600px' height='900px'/> 
+            <graphic url='ms_fr_03951_01_1_p019-resized.jpg' width='600px' height='900px'/> 
 
             <!--Righe-->
             <zone points = ' 147,99,143,121,513,121,511,99 ' rendition="line" xml:id="facs_p19_lb1"/>                                <!--1a riga-->
@@ -362,10 +362,10 @@
                                 <seg>dans l'</seg>
                                 <term ref="#tempsEspace">espace</term><pc force="strong">.</pc>
                             </ab>
-                            <ab xml:id="pericope_91Aaaa003" n="3" xml:lang="FR" corresp="#it_91Aaaa003 #en_91Aaaa03" facs="#facs_Pericope3" part="I"> 
-                                <lb xml:id="lb7_p19" n="7" facs="#facs_p19_lb7"/> 
+                            <ab xml:id="pericope_91Aaaa063" n="63" xml:lang="FR" corresp="#it_91Aaaa063 #en_91Aaaa063" facs="#facs_pericope_91Aaaa063"> 
+                                <lb xml:id="lb9_p19" n="9" facs="#facs_p19_lb9"/> 
                                 <seg>Une <term ref="#langue">langue</term> prise à </seg>                                        
-                                <lb xml:id="lb8_p19" n="8" facs="#facs_p19_lb8"/> 
+                                <lb xml:id="lb10_p19" n="10" facs="#facs_p19_lb10"/> 
                                 <choice><abbr type="brevigraph">2 </abbr><expan> deux </expan></choice>
                                 <w> dates </w>
                                 <choice><abbr>diff<am>.</am></abbr><expan>diff<ex>érentes</ex></expan></choice>
@@ -375,13 +375,13 @@
                                 <choice><sic>mêm</sic><corr>même</corr></choice>
                                 <pc force="strong">.</pc>
                                 <seg>Prise sur</seg>                                            
-                                <lb xml:id="lb9_p19" n="9" facs="#facs_p19_lb9"/>
+                                <lb xml:id="lb11_p19" n="11" facs="#facs_p19_lb11"/>
                                 <choice><abbr type="brevigraph">2 </abbr><expan>deux </expan></choice>
                                 <w>points</w>
                                 <choice><abbr type="brevigraph">±</abbr><expan> plus ou moins</expan></choice>
                                 <unclear reason="faded">distants de son </unclear>
                                 <w>territoire</w><pc force= "weak">,</pc><w>elle</w>                                    
-                                <lb xml:id="lb10_p19" n="10" facs="#facs_p19_lb10"/>
+                                <lb xml:id="lb12_p19" n="12" facs="#facs_p19_lb12"/>
                                 <seg>n'est pas non</seg>
                                 <choice><abbr type="brevigraph">+</abbr><expan> plus</expan></choice>
                                 <choice><abbr type="abbreviation">identiq<am>.</am></abbr><expan>identiqu<ex>ue</ex></expan></choice>
@@ -391,7 +391,7 @@
                                 <supplied reason= "omitted_in_original" resp= "editor"><pc force = "weak">,</pc></supplied>
                                 <subst>
                                 <del rend="overstrike" hand="author">pour</del>
-                                <lb xml:id="lb11_p19" n="11" facs="#facs_p19_lb11"/>
+                                <lb xml:id="lb13_p19" n="13" facs="#facs_p19_lb13"/>
                                 <add place= "margin_left">lorsqu'on</add>
                                 <add place="supralinear"><unclear reason="eccentric ductus">veut</unclear></add>
                                 </subst>
@@ -399,30 +399,30 @@
                                 <unclear reason="faded">des événements</unclear>
                                 <supplied reason="omitted_in_original" resp= "editor"><pc force = "weak">,</pc></supplied>
                                 <del rend="overstrike" hand="author">ne pouvent jamais</del>                                        
-                                <lb xml:id="lb12_p19" n="12" facs="#facs_p19_lb12"/>
+                                <lb xml:id="lb14_p19" n="14" facs="#facs_p19_lb14"/>
                                 <del rend="overstrike" hand="author">être sèparés<pc force="weak">,</pc> mais</del>
                                 <seg>doivent toujours être considé </seg><pc force= "inter">=</pc>
-                                <lb xml:id="lb13_p19" n="13" facs="#facs_p19_lb13"/>
+                                <lb xml:id="lb15_p19" n="15" facs="#facs_p19_lb15"/>
                                 <pc force= "weak">=</pc><seg>rées à la fois</seg>
                                 <unclear reason="eccentric ductus">et</unclear> 
                                 <seg>de front</seg><pc force="strong">.</pc>
                                 <seg>Mais nous sommes </seg>
                                 <add place= "supralinear"><unclear reason= "faded">bien</unclear></add>
                                 <w>ob</w><pc force="inter">=</pc>                                            
-                                <lb xml:id="lb14_p19" n="14" facs="#facs_p19_lb14"/>
+                                <lb xml:id="lb16_p19" n="16" facs="#facs_p19_lb16"/>
                                 <pc force= "weak">=</pc><seg>ligés de les séparer</seg>
                                 <add place= "supralinear"><unclear reason= "eccentric_ductus">en théorie </unclear></add> 
                                 <unclear reason= "faded">pour </unclear>
                                 <seg>procéder avec ordre</seg> <pc force="strong">.</pc>
                             </ab>
 
-                            <ab xml:id="pericope_91Aaaa004" n="4" xml:lang="FR" corresp="#it_91Aaaa004 #en_91Aaaa04" facs="#facs_Pericope4" part="I"> 
-                                <lb xml:id="lb15_p19" n="15" facs="#facs_p19_lb15"/>
+                            <ab xml:id="pericope_91Aaaa064" n="64" xml:lang="FR" corresp="#it_91Aaaa064 #en_91Aaaa064" facs="#facs_pericope_91Aaaa064"> 
+                                <lb xml:id="lb17_p19" n="17" facs="#facs_p19_lb17"/>
                                 <seg>Je considérerai donc</seg>
                                 <unclear reason="eccentric_ductus">uniquement</unclear>
                                 <del rend="overstrike" hand="author">auj</del>
                                 <seg>pour <date when="10-11-1891">aujourd'hui</date></seg>                    
-                                <lb xml:id="lb16_p19" n="16" facs="#facs_p19_lb16"/>
+                                <lb xml:id="lb18_p19" n="18" facs="#facs_p19_lb18"/>
                                 <seg>la marche</seg>
                                 <del rend="unreadable" hand="author"><gap reason="cancelled" quantity="2" extent="words"></gap> </del>
                                 <del rend="overstrike" hand="author">du langage</del>
@@ -430,37 +430,37 @@
                                     <add place= "supralinear">de la <term ref="#lague">langue</term> </add>
                                 </subst>
                                 <seg>dans le</seg> <term ref="#tempsEspace">temps</term><pc force="weak">,</pc>
-                                <lb xml:id="lb17_p19" n="17" facs="#facs_p19_lb17"/>
+                                <lb xml:id="lb19_p19" n="19" facs="#facs_p19_lb19"/>
                                 <unclear reason="faded">en supposant que nous n'ayons</unclear>
                                 <choice><abbr type="contraction">nullmt</abbr><expan>null<ex>e</ex>m<ex>en</ex>t</expan></choice>
                                 <seg>à nous </seg>                            
-                                <lb xml:id="lb18_p19" n="18" facs="#facs_p19_lb18"/>
+                                <lb xml:id="lb18_p20" n="20" facs="#facs_p19_lb20"/>
                                 <seg>préoccuper du facteur de</seg>
                                 <del rend="unreadable" hand="author"><gap reason="cancelled" quantity="4" extent="words"></gap></del>            
-                                <lb xml:id="lb19_p19" n="19" facs="#facs_p19_lb19"/>
+                                <lb xml:id="lb19_p21" n="21" facs="#facs_p19_lb21"/>
                                 <del rend="unreadable" hand="author"><gap reason="cancelled" quantity="3" extent="words"></gap></del>
                                 <term ref="#distance"><unclear reason="faded">la distance</unclear>
                                 <choice><abbr type="abbreviation">géogr<am>.</am></abbr><expan>géogr<ex>aphique</ex></expan></choice></term>
                                 <pc force="strong">.</pc>
                             </ab>
 
-                            <ab xml:id="pericope_91Aaaa005" n="5" xml:lang="FR" corresp="#it_91Aaaa005 #en_91Aaaa05" facs="#facs_Pericope5" part="I"> 
-                                <lb xml:id="lb19_p19" n="19" facs="#facs_p19_lb19"/>
+                            <ab xml:id="pericope_91Aaaa065" n="65" xml:lang="FR" corresp="#it_91Aaaa065 #en_91Aaaa065" facs="#facs_pericope_91Aaaa065"> 
+                                <lb xml:id="lb22_p19" n="22" facs="#facs_p19_lb22"/>
                                 <seg>Même il ne me sera possible</seg>
                                 <del rend="overstrike" hand="author">de po</del>
                                 <seg>d'aborder</seg>                                                        
-                                <lb xml:id="lb20_p19" n="20" facs="#facs_p20_lb20"/>
+                                <lb xml:id="lb23_p19" n="23" facs="#facs_p20_lb23"/>
                                 <choice><abbr type="contraction">ds</abbr><expan>d<ex>an</ex>s</expan> </choice>
                                 <seg>cette <date when="10-11-1891">séance</date> que le premier point principal à</seg>                                                
-                                <lb xml:id="lb21_p19" n="21" facs="#facs_p19_lb21"/>
+                                <lb xml:id="lb24_p19" n="24" facs="#facs_p19_lb24"/>
                                 <seg>poser</seg><pc force="strong">;</pc>
                                 <delSpan rend="overstrike" spanTo="#riga25"/>
                                 <del> Nous étudierons dans notre prochain séance </del>
-                                <lb xml:id="lb22_p19" n="22" facs="#facs_p19_lb22"/>
+                                <lb xml:id="lb25_p19" n="25" facs="#facs_p19_lb25"/>
                                 <del> le fait de la transformation. Le point que nous</del>
-                                <lb xml:id="lb23_p19" n="23" facs="#facs_p23_lb23"/>
+                                <lb xml:id="lb26_p19" n="26" facs="#facs_p19_lb26"/>
                                 <del> étudions auj est le point fai de la continuité </del>
-                                <lb xml:id="lb24_p19" n="24" facs="#facs_p19_lb24"/>
+                                <lb xml:id="lb27_p19" n="27" facs="#facs_p19_lb27"/>
                                 <del>et que</del>
                                 <add hand="author" place="supralinear">c<pc force="inter">'</pc></add>
                                 <seg>est le <term ref="#principe">principe</term> de la</seg>
@@ -468,13 +468,13 @@
                                 <choice><abbr type="contraction">ds</abbr><expan>d<ex>an</ex>s</expan></choice>
                                 <w>le</w> 
                                 <term ref="#tempsEspace">temps</term><pc>;</pc>                                                                
-                                <lb xml:id="lb25_p19" n="25" facs="#facs_p19_lb25"/>
+                                <lb xml:id="lb28_p19" n="28" facs="#facs_p19_lb28"/>
                                 <seg>dans notre</seg>
                                 <del rend="overstrike" hand="author">prochain</del>
                                 <date when="13-10-1891"><w> séance</w>
                                 <add hand="author" place="supralinear">de mardi</add></date>
                                 <seg>nous aurons à examiner </seg>                                                                    
-                                <lb xml:id="lb26_p19" n="26" facs="#facs_p19_lb26"/>
+                                <lb xml:id="lb29_p19" n="29" facs="#facs_p19_lb29"/>
                                 <seg>le principe qui </seg>
                                 <unclear reason="faded">en est la</unclear>
                                 <choice><sic>contre<pc force= "inter">-</pc>partie</sic><corr>contrepartie</corr></choice>
@@ -493,21 +493,21 @@
                 <text xml:id="it_Prolusione-1">                              <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p19_it" hand="#h1" type="box_testo_it">
-                            <ab xml:id="it_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="IT">
+                            <ab xml:id="it_91Aaaa061" corresp="#pericope_91Aaaa061" xml:lang="IT">
                                 <lb/>Stringiamo ora un po’ più 
                                 <lb/>vicino, Signori, ciò che è contenuto in questa parola e in questa 
                                 <lb/>visione della Storia applicata alla lingua. Quasi subito si presenterà la necessità di classificare le nostre idee sotto due polarità.
                             </ab>
-                            <ab xml:id="it_91Aaaa002" corresp="#pericope_91Aaaa002" xml:lang="IT">
+                            <ab xml:id="it_91Aaaa062" corresp="#pericope_91Aaaa062" xml:lang="IT">
                                 <lb/>La lingua si differenzia nel tempo, e allo stesso tempo si differenzia o si diversifica nello spazio.
                             </ab>                            
-                            <ab xml:id="it_91Aaaa003" corresp="#pericope_91Aaaa003" xml:lang="IT">
+                            <ab xml:id="it_91Aaaa063" corresp="#pericope_91Aaaa063" xml:lang="IT">
                                 <lb/>Una lingua presa in due date differenti non è identica a se stessa. Presa in due punti più o meno distanti del suo territorio, nemmeno in tal caso è identica a se stessa. Le due cose, se si voglia avere una visione esatta dei fatti, vanno considerate insieme e frontalmente. Ma noi siamo obbligati a separarle nella teoria per procedere con ordine.
                             </ab>                            
-                            <ab xml:id="it_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="IT">
+                            <ab xml:id="it_91Aaaa064" corresp="#pericope_91Aaaa064" xml:lang="IT">
                                 <lb/>Dunque, per oggi, considererò unicamente il cammino della lingua nel tempo, supponendo che non abbiamo da preoccuparci in nessun modo del fattore della distanza geografica.
                             </ab>
-                            <ab xml:id="it_91Aaaa002" corresp="#pericope_91Aaaa002" xml:lang="IT">
+                            <ab xml:id="it_91Aaaa065" corresp="#pericope_91Aaaa065" xml:lang="IT">
                                 <lb/>Anzi, non mi sarà possibile abbordare in questa seduta che il primo punto principale da porre; è il principio della continuità nel tempo; nella nostra seduta di martedì dovremo esaminare il principio che ne è la contropartita, quello della trasformazione nel tempo.
                             </ab>                            
                         </div>                            
@@ -519,7 +519,7 @@
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
                     <body resp="#AC" xml:id="body-inglese">
                         <div xml:id="div_p19_en" hand="#h1" type="box_testo_en">
-                            <ab xml:id="en_91Aaaa001" corresp="#pericope_91Aaaa001" xml:lang="EN">
+                            <ab xml:id="en_91Aaaa061" corresp="#pericope_91Aaaa061" xml:lang="EN">
                                 <lb/>If the chair which it is now my honour to inaugurate 
                                 <lb/>represented 
                                 <lb/>a new discipline in our University,
@@ -547,7 +547,7 @@
                                 <lb/>complain 
                                 <lb/>of neglect.
                             </ab>
-                            <ab xml:id="en_91Aaaa002" corresp="#pericope_91Aaaa002" xml:lang="EN">
+                            <ab xml:id="en_91Aaaa062" corresp="#pericope_91Aaaa062" xml:lang="EN">
                                 <lb/>Without wishing to
                                 <lb/>overstate 
                                 <lb/>the merits of linguistics, 
