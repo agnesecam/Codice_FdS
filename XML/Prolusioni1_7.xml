@@ -295,11 +295,11 @@
                             <!--Pagina 7-->
                             <ab xml:id="pericope_91Aaaa016" n="16" xml:lang="FR" corresp="#it_91Aaaa016 #en_91Aaaa0016" facs="#facs_pericope_91Aaaa016"> 
                                 <lb xml:id="lb1_p7" n="1" facs="#facs_p7_lb1"/> 
-                                serait peut-être l’<hi rend="underlined">homme</hi>, mais 
+                                serait peut-être l’<hi rend="underline">homme</hi>, mais 
                                 <lb xml:id="lb2_p7" n="2" facs="#facs_p7_lb2"/>
-                                qu’il ne serait pas <add place="top" facs="#add1TOP_p7">un être se rapprochant même approximativement</add> <add place="above">de</add> l’homme <del rend="strikethrough"> <add place="above"> que nous</add><gap reason="cancelled" rend="underlined" extent="2 words"/></del>                                
+                                qu’il ne serait pas <add place="top" facs="#add1TOP_p7">un être se rapprochant même approximativement</add> <add place="above">de</add> l’homme <del rend="strikethrough"> <add place="above"> que nous</add><gap reason="cancelled" rend="underline" extent="2 words"/></del>                                
                                 <lb xml:id="lb3_p7" n="3" facs="#facs_p7_lb3"/>
-                                <del rend="strikethrough"><add place="left">connaissons</add></del><del rend="underlined">et</del><del rend="strikethrough"><gap reason="cancelled" extent="7 words"/></del><add place="above"><unclear reason="illegible">que nous sommes,</unclear></add>
+                                <del rend="strikethrough"><add place="left">connaissons</add></del><del rend="underline">et</del><del rend="strikethrough"><gap reason="cancelled" extent="7 words"/></del><add place="above"><unclear reason="illegible">que nous sommes,</unclear></add>
                                 <lb xml:id="lb4_p7" n="4" facs="#facs_p7_lb4"/>
                                 <del rend="strikethrough"><gap reason="cancelled" extent="3 words"/></del>parce que le <term ref="#langage1">langage</term>
                                 <lb xml:id="lb5_p7" n="5" facs="#facs_p7_lb5"/>

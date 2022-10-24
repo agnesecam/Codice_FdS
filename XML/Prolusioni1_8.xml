@@ -334,7 +334,7 @@
                                 <lb xml:id="lb12_p8" n="12" facs="#facs_p8_lb12"/>
                                 <term ref="#linguistique-N">du langage</term><add place="above"> comme fait </add> humain est tout entier ou
                                 <lb xml:id="lb13_p8" n="13" facs="#facs_p8_lb13"/>                        
-                                presque <choice><abbr type="brevigraph" n="abbr3">tt</abbr><expan n="exp3"> tout </expan></choice> entier contenu dans l’étude <hi rend="underlined">des langues</hi>.
+                                presque <choice><abbr type="brevigraph" n="abbr3">tt</abbr><expan n="exp3"> tout </expan></choice> entier contenu dans l’étude <hi rend="underline">des langues</hi>.
                             </ab>
                             <!--Fine pericope 2 p8-->
                             <!--Inizio pericope 3 p8-->
@@ -358,7 +358,7 @@
                                 <lb xml:id="lb22_p8" n="22" facs="#facs_p8_lb22"/>
                                 e recourt en <choice><abbr type="brevigraph" n="abbr4">1°</abbr><expan n="exp4"> première </expan></choice> et dernière instance à l’<term ref="#linguistique-N">étude
                                 <lb xml:id="lb23_p8" n="23" facs="#facs_p8_lb23"/>
-                                <hi rend="underlined">des langues</hi></term><ptr target="#n3"/>. 
+                                <hi rend="underline">des langues</hi></term><ptr target="#n3"/>. 
                             </ab>
                             <!--Fine pericope 3 p8-->
                             <!--Inizio pericope 4 p8-->
