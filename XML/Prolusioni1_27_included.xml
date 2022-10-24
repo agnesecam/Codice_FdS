@@ -305,7 +305,7 @@
                         <div xml:id="div_p27_fr" hand="#h1" type="box_testo">
                             <ab xml:id="pericope_91Aaaa087" n="87" xml:lang="FR" corresp="#it_91Aaaa087 #en_91Aaaa087" facs="#facs_pericope_91Aaaa087" part="F">
                                 <lb xml:id="lb1_p27" n="1" facs="#facs_p27_lb1"/>
-                                ce ne sont pas lé des causes<hi rend="italics"> <term ref="#linguistique-A1">linguistiques</term></emph>.
+                                ce ne sont pas lé des causes<hi rend="italics"> <term ref="#linguistique-A1">linguistiques</term></hi>.
                             </ab>                           
                             <ab xml:id="pericope_91Aaaa088" n="88" xml:lang="FR" corresp="#it_91Aaaa088 #en_91Aaaa088" facs="#facs_pericope_91Aaaa088">                                 
                                 Il n'<w>ar<pc force="weak">=</pc>
@@ -326,7 +326,7 @@
                             </ab>
                             <ab xml:id="pericope_91Aaaa089" n="89" xml:lang="FR" corresp="#it_91Aaaa089 #en_91Aaaa089" facs="#facs_pericope_91Aaaa089">
                                 <lb xml:id="lb9_p27" n="9" facs="#facs_p27_lb9"/>
-                                On lit presque <subst><del rend="overstrike"><gap reason="illegible" unit="word" quantity="2"/></del><add place="above">é la <choice><abbr>p°</abbr><expan>premère</expan></choice> page</add></subst> d'un <bibl ref="#LL-Hovelacque">ouvrage</bibl>
+                                On lit presque <subst><del rend="overstrike"><gap reason="illegible" unit="word" quantity="2"/></del><add place="above">é la <choice><abbr>p°</abbr><expan>premère</expan></choice> page</add></subst> d'un ouvrage
                                 <lb xml:id="lb10_p27" n="10" facs="#facs_p27_lb10"/>       
                                 de <persName ref="#Hovelacque">M. Hovelacque</persName> sur la <term ref="#linguistique-N">linguistique</term>: <del rend="overstrike"><gap reason="illegible" unit="word" quantity="2"/></del>
                                 <lb xml:id="lb11_p27" n="11" facs="#facs_p27_lb11"/>

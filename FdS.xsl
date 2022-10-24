@@ -577,7 +577,7 @@
         <i><xsl:apply-templates /></i>
     </xsl:template>
 
-    <!--HI-->
+    <!--BOLD-->
     <xsl:template match="//tei:hi[@rend = 'bold']">
         <strong><xsl:apply-templates /></strong>
     </xsl:template>
@@ -585,6 +585,11 @@
     <!--UNDERLINE-->
     <xsl:template match="//tei:hi[@rend = 'underline']">
         <u><xsl:apply-templates /></u>
+    </xsl:template>
+
+    <!--ITALICS-->
+    <xsl:template match="//tei:hi[@rend = 'italics']">
+        <i><xsl:apply-templates /></i>
     </xsl:template>
 
     <!--Voglio ottenere: <span class="hovertext" data-hover="Hello, this is the tooltip">-->
