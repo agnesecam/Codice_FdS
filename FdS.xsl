@@ -54,11 +54,11 @@
                         <div id="box_icone_formattazione">
                             <input id="icona_abbr_expan" type="button" alt="Clicca per sciogliere o contrarre le abbreviazioni" onclick="gestoreAbbr()" value="Sciogli le abbreviazioni"/>
                             <br/>
-                            <input id="icona_gap" type="button" class="" alt="Clicca per nascondere i gap nel testo" onclick="gestoreMostraGap()" value="Nascondi gap"/>
+                            <input id="icona_sic_corr" type="button" class="" alt="Clicca per visualizzare o omettere le correzioni" onclick="gestoreSicCorr()" value="Mostra le correzioni"/>
                             <br/>
                             <input id="icona_del" type="button" class="" alt="Clicca per nascondere i del nel testo" onclick="gestoreMostraDel()" value="Nascondi del"/>
                             <br/>
-                            <input id="icona_sic_corr" type="button" class="" alt="Clicca per visualizzare o omettere le correzioni" onclick="gestoreSicCorr()" value="Mostra le correzioni"/>
+                            <input id="icona_gap" type="button" class="" alt="Clicca per nascondere i gap nel testo" onclick="gestoreMostraGap()" value="Nascondi gap"/>
                         </div>                    
                     </div>
             </div>
