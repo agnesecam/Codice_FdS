@@ -309,7 +309,7 @@
                     <xsl:text>immagini_scan</xsl:text>
                 </xsl:attribute>
     
-                <xsl:element name="map">    <!-- <map name="map1"> <area class="scan_p1_class" id="facs_Pericope1" shape="poly" coords=".." href="#ID#facs_Pericope1" onclick="gestoreEvidenziaLinea("ID#facs_Pericope1") ... aree ... -->
+                <xsl:element name="map">    <!-- <map name="map1"> <area class="scan_p1_class" id="facs_Pericope1" shape="poly" coords=".." href="#ID#facs_Pericope1" onclick="gestoreEvidenziaRiga("ID#facs_Pericope1") ... aree ... -->
                     <xsl:attribute name="name">
                         <xsl:value-of select="concat('map',$position)"/>
                     </xsl:attribute>
@@ -332,7 +332,7 @@
                                 <xsl:value-of select="concat('#',(substring-after(@xml:id, 'facs_')))"/>    <!-- href="facs_HandpageNumber-1" -->    
                             </xsl:attribute>                                                            
                             <xsl:attribute name="onclick">
-                                <xsl:value-of select="'gestoreEvidenziaLinea(id)'"/>     <!-- gestoreEvidenziaLinea("facs_HandpageNumber-1") - passo come parametro l'id della zona cliccata-->
+                                <xsl:value-of select="'gestoreEvidenziaRiga(id)'"/>     <!-- gestoreEvidenziaRiga("facs_HandpageNumber-1") - passo come parametro l'id della zona cliccata-->
                             </xsl:attribute>
                         </xsl:element>
                     </xsl:for-each>
