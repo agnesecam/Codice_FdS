@@ -258,35 +258,32 @@
         <surface n="15" xml:id="scan_p25">
             <graphic url='ms_fr_03951_01_1_p025-resized.jpg' width='600px' height='900px'/> 
             <!--Righe-->
-            <zone points = ' 151,98,151,119,500,120,494,93 ' rendition="line" xml:id="facs_p25_lb1"/>                       
-            <zone points = ' 150,126,485,125,485,143,156,143' rendition="line" xml:id="facs_p25_lb2"/>  
-            <zone points = ' 160,156,160,175,529,176,524,156' rendition="line" xml:id="facs_p25_lb3"/>  
-            <zone points = ' 151,179,518,177,518,200,144,212 '  rendition="line" xml:id="facs_p25_lb4"/>            
-            <zone points = ' 146,216,502,210,502,226,152,232'  rendition="line" xml:id="facs_p25_lb5"/>
-            <zone points = ' 144,239,504,231,504,252,145,265' rendition="line" xml:id="facs_p25_lb6"/>
-            <zone points = '153,272,510,258,510,277,155,293 '   rendition="line" xml:id="facs_p25_lb7"/>
-            <zone points = ' 154,300,504,285,502,310,144,320' rendition="line" xml:id="facs_p25_lb8"/>
-            <zone points = ' 153,331,150,352,514,339,514,319 '  rendition="line" xml:id="facs_p25_lb9"/>
-            <zone points = ' 157,358,499,342,498,370,153,378 '  rendition="line" xml:id="facs_p25_lb10"/>
-            <zone points = ' 100,379,509,370,509,392,100,413' rendition="line" xml:id="facs_p25_lb11"/>
-            <zone points = '146,413,510,394,510,419,147,438' rendition="line" xml:id="facs_p25_lb12"/>
-            <zone points = '  66,466,186,439,529,425,523,453,184,472,112,564,61,575' rendition="line" xml:id="facs_p25_lb13"/>    
-            <zone points = ' 178,485,499,469,499,498,166,504 '  rendition="line" xml:id="facs_p25_lb14"/>    
-            <zone points = ' 168,513,507,502,512,523,164,532'  rendition="line" xml:id="facs_p25_lb15"/>    
-            <zone points = '  154,540,514,526,520,547,162,570' rendition="line" xml:id="facs_p25_lb16"/>    
-            <zone points = ' 81,593,116,562,166,574,531,559,531,588' rendition="line" xml:id="facs_p25_lb17"/>    
-            <zone points = ' 158,600,515,590,518,618,155,625 ' rendition="line" xml:id="facs_p25_lb18"/>    
-            <zone points = ' 162,631,540,619,549,645,159,657' rendition="line" xml:id="facs_p25_lb19"/>    
-            <zone points = ' 92,660,92,693,542,671,536,644' rendition="line" xml:id="facs_p25_lb20"/>    
-            <zone points = ' 160,690,158,709,502,695,502,676' rendition="line" xml:id="facs_p25_lb21"/>    
-            <zone points = ' 158,714,539,708,541,727,159,747' rendition="line" xml:id="facs_p25_lb22"/>    
-            <zone points = ' 164,764,164,743,535,737,524,758' rendition="line" xml:id="facs_p25_lb23"/>    
-            <zone points = ' 172,775,529,760,529,781,173,796' rendition="line" xml:id="facs_p25_lb24"/>           
-            <zone points = ' 168,803,520,790,531,816,169,832' rendition="line" xml:id="facs_p25_lb25"/>        
-            <zone points = ' 171,833,524,817,524,843,172,858' rendition="line" xml:id="facs_p25_lb26"/>                
-        
+            <zone points = '153,91, 346,67, 515,95, 521,108, 144,115 ' rendition="line" xml:id="facs_p25_lb1"/>                       
+            <zone points = ' 111,128, 521,116, 528,134, 112,150' rendition="line" xml:id="facs_p25_lb2"/>  
+            <zone points = ' 124,152, 509,135, 531,170, 125,178' rendition="line" xml:id="facs_p25_lb3"/>  
+            <zone points = ' 129,183, 512,175, 512,206, 130,211 '  rendition="line" xml:id="facs_p25_lb4"/>            
+            <zone points = ' 122,207, 523,208, 532,232, 128,240'  rendition="line" xml:id="facs_p25_lb5"/>
+            <zone points = '130,242, 470,223, 526,236, 527,259, 121,267' rendition="line" xml:id="facs_p25_lb6"/>
+            <zone points = '135,277 ,534,271, 532,294, 125,306 '   rendition="line" xml:id="facs_p25_lb7"/>
+            <zone points = ' 129,308 ,527,299, 527,324 ,138,337' rendition="line" xml:id="facs_p25_lb8"/>
+            <zone points = ' 132,345, 522,328, 522,358, 133,368'  rendition="line" xml:id="facs_p25_lb9"/>
+            <zone points = ' 133,373, 507,363, 509,390, 137,399 '  rendition="line" xml:id="facs_p25_lb10"/>
+            <zone points = ' 137,402, 512,397, 516,417, 129,432' rendition="line" xml:id="facs_p25_lb11"/>
+            <zone points = '145,436, 522,418, 530,442, 145,464' rendition="line" xml:id="facs_p25_lb12"/>
+            <zone points = '  154,470, 505,454, 522,483, 155,500 ' rendition="line" xml:id="facs_p25_lb13"/>  
+            <zone points = ' 156,510, 517,488, 526,522, 156,531 '  rendition="line" xml:id="facs_p25_lb14"/>    
+            <zone points = ' 154,538, 154,538, 520,523, 526,551, 155,563'  rendition="line" xml:id="facs_p25_lb15"/>    
+            <zone points = '  156,567, 519,553 ,527,581, 158,598' rendition="line" xml:id="facs_p25_lb16"/>    
+            <zone points = ' 149,599, 515,590 ,516,615, 143,630 ' rendition="line" xml:id="facs_p25_lb17"/>    
+            <zone points = ' 153,636, 512,622 ,517,653 ,152,663 ' rendition="line" xml:id="facs_p25_lb18"/>    
+            <zone points = ' 155,668, 508,662 ,512,681 ,160,686' rendition="line" xml:id="facs_p25_lb19"/>    
+            <zone points = ' 156,694, 325,683 ,514,685, 518,710 ,155,720' rendition="line" xml:id="facs_p25_lb20"/>    
+            <zone points = ' 160,724, 491,713, 502,743, 148,744' rendition="line" xml:id="facs_p25_lb21"/>    
+            <zone points = ' 157,751 ,340,753, 340,778 ,157,770' rendition="line" xml:id="facs_p25_lb22"/>
+            <zone points = ' 155,808, 483,812, 481,835, 148,840' rendition="line" xml:id="facs_p25_lb24"/>
+            <zone points = '  190,779, 489,770, 499,807 ,173,808 ' rendition="line" xml:id="facs_p25_lb23"/>
 
-            <zone points = '67,63,110,63,96,101,70,110,57,93'  rendition="line" xml:id="facs_HandPageNumber-25"/>     <!--Numero 25 cerchiato in alto a sx-->           
+            <zone points = '71,113, 98,113, 118,93, 114,65, 60,64'  rendition="line" xml:id="facs_HandPageNumber-25"/>     <!--Numero 25 cerchiato in alto a sx-->           
 
         </surface>
     </facsimile>
@@ -301,19 +298,18 @@
                         <pb n="f1r" xml:id="body_p25" facs="#scan_p25"/>
                         <!--Numeri impaginazione a stampa e a mano-->
                         <ab>
-                            <fw type="pageNum" xml:id="HandPageNumber-22" rend="align(left)" facs="#facs_HandPageNumber-25"> 25 </fw>
+                            <fw type="pageNum" xml:id="HandPageNumber-25" rend="align(left)" facs="#facs_HandPageNumber-25"> 25 </fw>
                         </ab>
                         <div xml:id="div_p25_fr" hand="#h1" type="box_testo" >
-                            <ab xml:id="pericope_91Aaaa071" n="71" xml:lang="FR" corresp="#it_91Aaaa071 #en_91Aaaa071" facs="#facs_pericope_91Aaaa071" part="F" >
+                            <ab xml:id="pericope_91Aaaa081" n="81" xml:lang="FR" corresp="#it_91Aaaa081 #en_91Aaaa081" facs="#facs_pericope_91Aaaa081" >
                                 <lb xml:id="lb1_p25" n="1" facs="#facs_p25_lb1"/>
-                                Et l'autre locution <add xml:id="d1" place="above"> figurée </add> que nous
-                                allons 
+                                Et l'autre locution <add place="above"> figurée </add> que nous allons 
                                 <lb xml:id="lb2_p25" n="2" facs="#facs_p25_lb2"/>
                                 exécuter avec <persName ref="#MGParis">M. Gaston Paris</persName> c'est celle 
                                 <lb xml:id="lb3_p25" n="3" facs="#facs_p25_lb3"/>
-                                <del rend="overstrike"> la langu </del> <hi rend="underline"> du français, langue fille du </hi>
+                                <del rend="overstrike">la langu</del> <hi rend="underline">du français, langue fille du</hi>
                                 <lb xml:id="lb4_p25" n="4" facs="#facs_p25_lb4"/>
-                                <hi>latin,</hi> <c type="#CDATA"> - </c> ou du <hi rend="underline">latin</hi>, <term xml:id="t1" source="Riedlinger Cahier I, 1908-1909, Komatsu, 1997"> <link target="#langue1"/>langue</term> <hi rend="underline">mère </hi> des 
+                                <hi>latin,</hi> - ou du <hi rend="underline">latin</hi>, <term ref="#langue1">langue</term> <hi rend="underline">mère</hi> des 
                                 <lb xml:id="lb5_p25" n="5" facs="#facs_p25_lb5"/>
                                 langues romanes. Il n'y a pas de langues 
                                 <lb xml:id="lb6_p25" n="6" facs="#facs_p25_lb6"/>
@@ -325,62 +321,39 @@
                                 <lb xml:id="lb9_p25" n="9" facs="#facs_p25_lb9"/>
                                 eu.
                             </ab>                           
-                            <ab xml:id="pericope_91Aaaa072" n="72" xml:lang="FR" corresp="#it_91Aaaa072 #en_91Aaaa072" facs="#facs_pericope_91Aaaa072"> 
-                                Nous nous 
-                                <lb xml:id="lb83_p25" n="8" facs="#facs_p25_lb8"/>
-                                figurons alors assez volontiers qu'il
-                                <lb xml:id="lb93_p25" n="9" facs="#facs_p25_lb9"/>
-                                y a deux choses, dont l'une a pris
+                            <ab xml:id="pericope_91Aaaa082" n="82" xml:lang="FR" corresp="#it_91Aaaa082 #en_91Aaaa082" facs="#facs_pericope_91Aaaa082"> 
+                                Il y a <del><unclear rend="overstrike">certains etàts de langue</unclear></del> 
                                 <lb xml:id="lb10_p25" n="10" facs="#facs_p25_lb10"/>
-                                la <term ref="#succession">succession</term> de l'autre.
-                            </ab>
-                            <ab xml:id="pericope_91Aaaa073" n="73" xml:lang="FR" corresp="#it_91Aaaa073 #en_91Aaaa073" facs="#facs_pericope_91Aaaa073">
-                                <add place="above" resp="#FdS">Or</add> qu'il y ait                                 
+                                Y dans chaque région du globe un état de 
                                 <lb xml:id="lb11_p25" n="11" facs="#facs_p25_lb11"/>
-                                <del rend="overstrike" resp="#FdS">une</del> <hi rend="underline"><term ref="#succession">succession</term></hi>, c'est là ce qui  est <add place="above" resp="#FdS"><gap atLeast="1" atMost="2" unit="words" reason="illegible" /> </add>indubitable et évident,
-                                <lb xml:id="lb12_p25" n="12" facs="#facs_p25_lb12"/>
-                                mais qu'il y ait deux choses <add place="above" resp="#FdS"> dans cette <term ref="#succession">succession</term>,</add> c'est ce qui
+                                langue que <gap reason="deletion" extent="1 word"/><add place="above">qui</add> se transforme lentement,
+                                <lb xml:id="lb12_p25" n="12" facs="#facs_p25_lb12"/> 
+                                de semaine en semaine, <del><unclear rend="overstrike">ou se le</unclear></del>
                                 <lb xml:id="lb13_p25" n="13" facs="#facs_p25_lb13"/>
-                                est <subst><del rend="overstrike" resp="#FdS"><gap extent="3 words" reason="deleted" /></del> <add place="above" resp="#FdS">faux,</add></subst>
-                                <subst><del rend="overstrike" resp="#FdS"><gap extent="1 word" reason="deleted" /></del> <add place="above" resp="#FdS">radicalement</add></subst> 
-                                <add place="below" resp="#FdS"><gap extent="1 word" reason="deleted" /></add>
-                                faux, et <add place="left" resp="#FdS">dangereusement faux, du <term ref="#point-de-vue">point de vue</term> de toutes les conceptions qui s'ensuivent.</add>                                
-                            </ab>
-                            <ab xml:id="pericope_91Aaaa074" n="74" xml:lang="FR" corresp="#it_91Aaaa074 #en_91Aaaa074" facs="#facs_pericope_91Aaaa074">
+                                <del><unclear rend="overstrike">d'annee en annee</unclear></del> <add place="above">de mois en mois, d'année en année et</add> de siècle en 
                                 <lb xml:id="lb14_p25" n="14" facs="#facs_p25_lb14"/>
-                                Il suffit <gap extent="2 words" reason="deleted" /> d'y réfléchir un
-                                <lb xml:id="lb15_p25" n="15" facs="#facs_p25_lb15"/>
-                                instant, <gap extent="8 words" reason="deleted" />
+                                siècle, comme nous le verrons tout à l'heure; 
+                                <lb xml:id="lb15_p25" n="15" facs="#facs_p25_lb15"/> 
+                                mais il n'<del><unclear rend="overstrike">en</unclear></del> y a jamais eu nulle 
                                 <lb xml:id="lb16_p25" n="16" facs="#facs_p25_lb16"/>
-                                <gap extent="1 line" reason="deleted" />
-                                <lb xml:id="lb17_p25" n="17" facs="#facs_p25_lb17"/>
-                                <add place="left" resp="#FdS"><subst><del rend="overstrike" resp="#FdS"><gap extent="1 word" reason="deleted" /></del> <add place="above" resp="#FdS">puisque</add></subst></add>
-                                <gap extent="5 words" reason="deleted" /> tout est contenu                                
+                                part parturition <add place="above">ou procréation</add> d'un <del rend="overstrike">nouvelle</del> 
+                                <lb xml:id="lb17_p25" n="17" facs="#facs_p25_lb17"/> 
+                                idiome <add place="above">nouveau</add> par un <term ref="#glossa-mancante">idiome </term> antérieur, 
                                 <lb xml:id="lb18_p25" n="18" facs="#facs_p25_lb18"/>
-                                dans cette simple observation: chaque
+                                cela est en dehors de tout ce que nous 
                                 <lb xml:id="lb19_p25" n="19" facs="#facs_p25_lb19"/>
-                                individu <subst><del rend="overstrike" resp="#FdS"><gap extent="1 word" reason="deleted" /></del><add place="above"> emploie </add></subst> le lendemain le même
+                                voyons<del rend="overstrike">en fuit</del>, comme de tout ce que nous 
                                 <lb xml:id="lb20_p25" n="20" facs="#facs_p25_lb20"/>
-                                <subst><del rend="overstrike" resp="#FdS"><gap extent="1 word" reason="deleted" /></del> <add place="left"><term ref="#glossa-mancante">idiome</term></add></subst> qu'il parlait la veille <add place="above" resp="#FdS">et cela s'est toujours vu</add>.
-                            </ab>                             
-                            <ab xml:id="pericope_91Aaaa075" n="75" xml:lang="FR" corresp="#it_91Aaaa075 #en_91Aaaa075" facs="#facs_pericope_91Aaaa075">
-                                l n'y 
+                                pouvons nous représenter <add place="above"> en idée,</add> étant <add place="above">simplement</add> données les 
                                 <lb xml:id="lb21_p25" n="21" facs="#facs_p25_lb21"/>
-                                a <add place="above" resp="#FdS">donc</add> eu aucun jour où on ait pu
+                                conditions où nous parlons<del><unclear rend="overstrike">notre</unclear></del> chacun 
                                 <lb xml:id="lb22_p25" n="22" facs="#facs_p25_lb22"/>
-                                dresser l'acte de décès de la <term ref="#langue1">langue</term> latine,
+                                notre langue maternelle.
                                 <lb xml:id="lb23_p25" n="23" facs="#facs_p25_lb23"/>
-                                et il n'y a eu <gap extent="1 word" reason="deleted" /> également aucun jour
-                                <lb xml:id="lb24_p25" n="24" facs="#facs_p25_lb24"/>
-                                où on ait pu enregistrer la naissance
-                                <lb xml:id="lb25_p25" n="25" facs="#facs_p25_lb25"/>
-                                de la <term ref="#langue1">langue</term> française.
-                            </ab>                             
-                            <ab xml:id="pericope_91Aaaa076" n="76" xml:lang="FR" corresp="#it_91Aaaa076 #en_91Aaaa076" facs="#facs_pericope_91Aaaa076">                                
-                                Il n'est jamais 
-                                <lb xml:id="lb26_p25" n="26" facs="#facs_p25_lb26"/>
-                                arrivé que les <gap extent="3 words" reason="deleted" />
-                            </ab> 
+                                <del><unclear rend="overstrike">toute espìce le scission dans la </unclear></del>
+                                <lb xml:id="lb24_p25" n="24" facs="#facs_p25_lb24"/> 
+                                <del><unclear rend="overstrike">tradition de la langue à travers les</unclear></del>
+                            </ab>
                         </div>
                     </body> 
                 </text>
@@ -390,48 +363,26 @@
                 <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p25_it" hand="#h1" type="box_testo_it">
-                            <ab xml:id="it_91Aaaa071" corresp="#pericope_91Aaaa071" xml:lang="IT" part="F">
-                                <lb/>=piti in un primo momento dalla grande 
-                                <lb/>distanza che li separa, 
-                                <lb/>e siamo, mi affretto ad aggiungerlo, 
-                                <lb/>colpiti ancora di più dalla denominazione 
-                                <lb/>differente che si è convenuto 
-                                <lb/>di dargli, chiamando questo 
-                                <lb/>latino e quello francese.
+                            <ab xml:id="it_91Aaaa081" corresp="#pericope_91Aaaa081" xml:lang="IT">
+                                <lb/>E l’altra locuzione figurata di cui, con Gaston
+                                <lb/>Paris, faremo giustizia, è quella del francese, lingua
+                                <lb/>figlia del latino - o del latino, lingua madre delle
+                                <lb/>lingue romanze. Non ci sono lingue figlie né lingue
+                                <lb/>madri, non ce n’è da nessuna parte, non ce ne sono
                             </ab>
-                            <ab xml:id="it_91Aaaa072" corresp="#pericope_91Aaaa072" xml:lang="IT">
-                                Allora ci figuriamo 
-                                <lb/>abbastanza volentieri 
-                                <lb/>che vi sono due cose, 
-                                <lb/>di cui l’una ha assunto 
-                                <lb/>la successione dell’altra.
-                            </ab>
-                            <ab xml:id="it_91Aaaa073" corresp="#pericope_91Aaaa073" xml:lang="IT">
-                                Ora, che ci sia 
-                                <lb/>successione, questo è indubitabile ed evidente, 
-                                <lb/>ma che ci siano due cose in questa successione, ecco ciò 
-                                <lb/>che è falso, radicalmente falso, e pericolosamente falso, dal punto di vista di tutte le concezioni che ne seguono.
-                            </ab>
-                            <ab xml:id="it_91Aaaa074" corresp="#pericope_91Aaaa074" xml:lang="IT">
-                                <lb/>Basta rifletterci un 
-                                <lb/>istante, 
-                                <lb/>perché tutto è contenuto 
-                                <lb/>nella seguente, semplice osservazione: ogni 
-                                <lb/>individuo usa l’indomani la stessa 
-                                <lb/>lingua che parlava il giorno prima, e questo è 
-                                <lb/>ciò che abbiamo sempre visto.
-                            </ab>            
-                            <ab xml:id="it_91Aaaa075" corresp="#pericope_91Aaaa075" xml:lang="IT">
-                                Non è 
-                                <lb/>mai capitato che le genti di Francia si siano svegliate, 
-                                <lb/>dicendosi buongiorno in francese, 
-                                <lb/>dopo essersi addormentati il giorno 
-                                <lb/>prima dicendosi buonanotte in latino.
-                            </ab>
-                            <ab xml:id="it_91Aaaa076" corresp="#pericope_91Aaaa076" xml:lang="IT">
-                                <lb/>Non c’è nessun 
-                                <lb/>oggetto che sia davvero 
-                            </ab>                                                                                                    
+                            <ab xml:id="it_91Aaaa082" corresp="#pericope_91Aaaa082" xml:lang="IT">
+                                <lb/>mai state. Vi è in ogni regione del globo uno stato
+                                <lb/>di lingua che si trasforma lentamente, di settimana
+                                <lb/>in settimana, di mese in mese, di anno in anno e di
+                                <lb/>secolo in secolo, come vedremo tra pochissimo, ma
+                                <lb/>non c’è mai stato da nessuna parte il parto o la
+                                <lb/>procreazione di un idioma nuovo da parte di un
+                                <lb/>idioma anteriore, questo è al di fuori di tutto ciò che
+                                <lb/>si vede, come anche di tutto ciò che possiamo
+                                <lb/>rappresentarci in idea, essendo date semplicemente
+                                <lb/>le condizioni in cui ognuno di noi parla la sua lingua
+                                <lb/>materna. 
+                            </ab>                                                                                                                            
                         </div>                            
                     </body>
                 </text>          
@@ -441,51 +392,27 @@
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
                     <body resp="#AC" xml:id="body-inglese" source="#WGL">
                         <div xml:id="div_p25_en" hand="#h1" type="box_testo_en">
-                            <ab xml:id="en_91Aaaa071" corresp="#pericope_91Aaaa071" xml:lang="EN">
-                                <lb/>struck by the great 
-                                <lb/>distance which separates them, 
-                                <lb/>and we are - and I emphasize this point 
-                                <lb/>- even more struck by the different names 
-                                <lb/>which have been settled on 
-                                <lb/>to refer to them, 
-                                <lb/>one being 
-                                <lb/>Latin and the other French.
+                            <ab xml:id="en_91Aaaa081" corresp="#pericope_91Aaaa081" xml:lang="EN">
+                                <lb/>The second figurative expression that we are going 
+                                <lb/>to join Mr Gaston Paris in disposing of if that which 
+                                <lb/>makes French the daughter of 
+                                <lb/>Latin - or Latin the mother of 
+                                <lb/>Romance languages. Languages have neither 
+                                <lb/>daughters not mothers; and they never have had.
                             </ab>
-                            <ab xml:id="en_91Aaaa06972" corresp="#pericope_91Aaaa072" xml:lang="EN">
-                                From this we 
-                                <lb/>happily conclude 
-                                <lb/>the existence of two things, 
-                                <lb/>one of which succeeded 
-                                <lb/>the other. 
+                            <ab xml:id="en_91Aaaa082" corresp="#pericope_91Aaaa082" xml:lang="EN">
+                                <lb/>In every region of the globe an état de 
+                                <lb/>langue is changing gradually, 
+                                <lb/>from week to week, 
+                                <lb/>month to month, year to year, and century to 
+                                <lb/>century, as we shall see shortly, 
+                                <lb/>but never has there been 
+                                <lb/>procreation and birth of a new 
+                                <lb/>idiom from a previous idiom; such an event 
+                                <lb/>falls outside all we can observe or conceptualize,
+                                <lb/>given the simple precondition 
+                                <lb/>that we all speak our mother tongue.
                             </ab>        
-                            <ab xml:id="en_91Aaaa073" corresp="#pericope_91Aaaa073" xml:lang="EN">
-                                The idea of succession 
-                                <lb/>is unquestionable and self-evident, but
-                                <lb/>the idea of there being two things in this succession 
-                                <lb/>in wrong, radically wrong, and perni-ciously wrong, because of all the misapprehensions which follow. 
-                            </ab>    
-                            <ab xml:id="en_91Aaaa074" corresp="#pericope_91Aaaa074" xml:lang="EN">                                
-                                <lb/>One has only to pause 
-                                <lb/>a moment to consider 
-                                <lb/>this simple observation: everybody 
-                                <lb/>uses the same idiom the following day that
-                                <lb/>they employed on the previous day, 
-                                <lb/>and this has always been true.
-                            </ab>                            
-                            <ab xml:id="en_91Aaaa075" corresp="#pericope_91Aaaa075" xml:lang="EN">                                
-                                <lb/>It follows that on no given day could 
-                                <lb/>one have drawn up the death certificate 
-                                <lb/>of the Latin language, and similarly 
-                                <lb/>on no day could one have registered 
-                                <lb/>the birth of the French language.
-                            </ab>                            
-                            <ab xml:id="en_91Aaaa076" corresp="#pericope_91Aaaa076" xml:lang="EN">                                
-                                The people of France
-                                <lb/>have never woken up
-                                <lb/>and said bonjour in French, 
-                                <lb/>where they went to bed the previous evening 
-                                <lb/>saying "good night" in Latin.
-                            </ab>
                         </div>   
                     </body>
                 </text>       
