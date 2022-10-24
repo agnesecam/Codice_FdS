@@ -306,7 +306,7 @@ function gestoreMostraTraduzioneEN() {
 }
 
 //Evidenizia zona testo corrispondente al facs
-function gestoreEvidenzia(name){  
+function gestoreEvidenziaLinea(name){  
     //ricevo l'ID della zona cliccata come parametro
     try {
         //Se non c'è nessun numero evidenziato, e se non c'è nemmeno nessuna riga evidenziata
@@ -373,6 +373,6 @@ function gestoreEvidenzia(name){
         }       
 
     }catch(e) {
-        alert("gestoreEvidenzia()"+e);   
+        alert("gestoreEvidenziaLinea()"+e);   
     }                                     
 }
