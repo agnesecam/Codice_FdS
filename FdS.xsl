@@ -659,6 +659,25 @@
             </xsl:attribute>
             <xsl:value-of select="current()" />
         </xsl:element>
+    </xsl:template>    
+    
+    <!--bibl-->
+    <xsl:template match="//tei:bibl">
+        <xsl:element name="span"> 
+            <xsl:variable name="testo-hover">
+                <xsl:variable name="ref">
+                    <xsl:value-of select="substring-after(current()/@ref, '#')"/>
+                </xsl:variable>
+                <xsl:copy-of select="concat(//tei:listBibl/tei:bibl[@xml:id=$ref]/tei:author/tei:persName//tei:forename, ' ')"/>
+                <xsl:copy-of select="concat(//tei:listBibl/tei:bibl[@xml:id=$ref]/tei:author/tei:persName//tei:surname, ',')"/>
+                <xsl:copy-of select="concat(//tei:listBibl/tei:bibl[@xml:id=$ref]/tei:title, ' ')"/>
+            </xsl:variable>        
+            <xsl:attribute name="class">hovertext</xsl:attribute>
+            <xsl:attribute name="data-hover">
+                <xsl:value-of select="$testo-hover"/>
+            </xsl:attribute>
+            <xsl:value-of select="current()" />
+        </xsl:element>
     </xsl:template>
 
     <!--glossario-->
