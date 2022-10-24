@@ -1,5 +1,5 @@
 /*ONLOAD*/
-window.onload = function testOne(){
+window.onload = function avviaTrasformata(){
     SaxonJS.transform({
         stylesheetLocation: "../FdS.sef.json",
         sourceLocation: "XML/Prolusioni1_1_included.xml"
