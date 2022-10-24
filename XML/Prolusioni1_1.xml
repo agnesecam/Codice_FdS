@@ -337,9 +337,9 @@
                                 <add change="#CHG-4" place="left margin" facs="#facs_p1_leftblock1">
                                     <lb xml:id="lb7_p1" n="7" facs="#facs_p1_lb7"/>
                                     que la <term subtype="linguistics-term" ref="#linguistique-N" facs="#facs_scdulang-p1r7">science du
-                                    langage</term> est <choice facs="#facs_occ-p1r8"><abbr>occ.</abbr> <expan>occ<ex>upée</ex></expan></choice> 
+                                    langage</term> est <choice facs="#facs_occ-p1r8"><abbr>occ<am>.</am></abbr><expan>occ<ex>upée</ex></expan></choice> 
                                     <lb xml:id="lb9_p1" n="9" facs="#facs_p1_lb9"/> 
-                                    à <choice facs="#facs_constr-p1r9"><abbr>constr.</abbr> <expan>constr<ex>uire</ex></expan></choice> depuis 
+                                    à <choice facs="#facs_constr-p1r9"><abbr>constr<am>.</am></abbr> <expan>constr<ex>uire</ex></expan></choice> depuis 
                                     <lb xml:id="lb10_p1" n="10" facs="#facs_p1_lb10"/>
                                     <gap atLeast="3l" atMost="5" unit="chars" reason="illegible" facs="#facs_illegible-p1r10"/> <date notBefore="1821" notAfter="1891"> <num type="cardinal" value="70" facs="#">soixante-dix</num> ans <precision match="@notBefore" precision="low"/> <precision match="@notAfter" precision="high"/> </date>,
                                     <lb xml:id="lb11_p1" n="11" facs="#facs_p1_lb11"/>
@@ -371,7 +371,7 @@
                                     <lb xml:id="lb24_p1" n="24" facs="#facs_p1_lb24"/>
                                     occupe dans le 
                                     <lb xml:id="lb25_p1" n="25" facs="#facs_p1_lb25"/>
-                                    cercle des <choice facs="#facs_conn-p1r25"><abbr>conn.</abbr> <expan>conn<ex>aissances</ex></expan></choice>
+                                    cercle des <choice facs="#facs_conn-p1r25"><abbr>conn<am>.</am></abbr> <expan>conn<ex>aissances</ex></expan></choice>
                                     <lb xml:id="lb26_p1" n="26" facs="#facs_p1_lb26"/>
                                     humaines et les 
                                     <lb xml:id="lb27_p1" n="27" facs="#facs_p1_lb27"/>
@@ -382,7 +382,7 @@
                                 <lb xml:id="lb29_p1" n="29" facs="#facs_p1_lb29"/>
                                 <orgName ref="#FacLettres">Faculté des lettres</orgName>, <delSpan change="#CHG-2" spanTo="delSpan1" rend="overstrike" facs="#facs_del1-p1r29"/><gap reason="illegible" extent="3" unit="lines"/><anchor xml:id="delSpan1"/> <add place="above" facs="#facs_add1-p1r29">je craindrais de ne pas remplir très</add> 
                                 <lb xml:id="lb30_p1" n="30" facs="#facs_p1_lb30"/>
-                                <add change="#CHG-3" place="above" facs="#facs_del1-p1r30">dignement ma tâche, mais <choice facs="#facs_certain-p1r30"><abbr>certain.</abbr> <expan>certain<ex>ement</ex></expan></choice></add> 
+                                <add change="#CHG-3" place="above" facs="#facs_del1-p1r30">dignement ma tâche, mais <choice facs="#facs_certain-p1r30"><abbr>certain<am>.</am></abbr> <expan>certain<ex>ement</ex></expan></choice></add> 
                                 <lb xml:id="lb31_p1" n="31" facs="#facs_del1-p1r31"/>
                                 <add change="#chg-3" place="above" facs="#facs_add2-p1r31">je ne pourrais me plaindre ici de l’abandon.</add>
                             </ab>
@@ -399,7 +399,7 @@
                                     <lb xml:id="lb35_p1" n="35" facs="#facs_p1_lb35"/>
                                     quel est le </add> 
                                 <lb xml:id="lb36_p1" n="36" facs="#facs_p1_lb36"/>
-                                profit <del rend="overstrike" facs="#facs_del1-p1r36">de cette é</del> par <choice facs="#facs_ex-p1r36"><abbr>ex.</abbr> <expan>ex<ex>emple</ex></expan></choice> de cette 
+                                profit <del rend="overstrike" facs="#facs_del1-p1r36">de cette é</del> par <choice facs="#facs_ex-p1r36"><abbr>ex<am>.</am></abbr> <expan>ex<ex>emple</ex></expan></choice> de cette 
                                 <lb xml:id="lb37_p1" n="37" facs="#facs_p1_lb37"/>
                                 étude l’érudition classique, la connaissance 
                                 <lb xml:id="lb38_p1" n="38" facs="#facs_p1_lb38"/>
