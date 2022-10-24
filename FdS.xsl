@@ -295,7 +295,7 @@
         <xsl:for-each select="tei:surface/tei:graphic"> 
             <xsl:variable name="position" select="position()"/>
 
-            <xsl:element name="img">    <!-- Voglio ottenere: <img usemap="#map1" id="img-scan1" src="immagini/ms_fr_03951_01_1_p001.jpg" class="immagini_scan"> -->
+            <xsl:element name="img">    <!-- <img usemap="#map1" id="img-scan1" src="immagini/ms_fr_03951_01_1_p001.jpg" class="immagini_scan"> -->
                 <xsl:attribute name="usemap">
                     <xsl:value-of select="concat('#map',$position)"/>   <!-- usemap="#map1" -->
                 </xsl:attribute>
@@ -329,7 +329,7 @@
                                 <xsl:value-of select="@points"/>
                             </xsl:attribute>
                             <xsl:attribute name="href"> 
-                                <xsl:value-of select="concat('#',(substring-after(@xml:id, 'facs_')))"/>    <!-- href="facs_HandpageNumber-1" -->    <!--VOGLIO CHE HREF SIA solo HandpageNumber-1-->
+                                <xsl:value-of select="concat('#',(substring-after(@xml:id, 'facs_')))"/>    <!-- href="facs_HandpageNumber-1" -->    
                             </xsl:attribute>                                                            
                             <xsl:attribute name="onclick">
                                 <xsl:value-of select="'gestoreEvidenzia(id)'"/>     <!-- gestoreEvidenzia("facs_HandpageNumber-1") - passo come parametro l'id della zona cliccata-->
