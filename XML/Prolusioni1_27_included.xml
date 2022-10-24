@@ -305,7 +305,7 @@
                         <div xml:id="div_p27_fr" hand="#h1" type="box_testo">
                             <ab xml:id="pericope_91Aaaa087" n="87" xml:lang="FR" corresp="#it_91Aaaa087 #en_91Aaaa087" facs="#facs_pericope_91Aaaa087" part="F">
                                 <lb xml:id="lb1_p27" n="1" facs="#facs_p27_lb1"/>
-                                ce ne sont pas lé des causes<emph rend="italics"> <term ref="#linguistique-A1">linguistiques</term></emph>.
+                                ce ne sont pas lé des causes<hi rend="italics"> <term ref="#linguistique-A1">linguistiques</term></emph>.
                             </ab>                           
                             <ab xml:id="pericope_91Aaaa088" n="88" xml:lang="FR" corresp="#it_91Aaaa088 #en_91Aaaa088" facs="#facs_pericope_91Aaaa088">                                 
                                 Il n'<w>ar<pc force="weak">=</pc>

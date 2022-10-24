@@ -329,7 +329,7 @@
                                 <lb xml:id="lb8_p28" n="8" facs="#facs_p28_lb8"/>
                                 volapük. J'allais en <term ref="#glossa-mancante">parler</term>. Car précisément 
                                 <lb xml:id="lb9_p28" n="9" facs="#facs_p28_lb9"/>
-                                le volapük <subst><del unit="word" quantity="1" rend="overstrike">est</del> <add place="above"> et  <emph rend="italics">les autres <choice><abbr><gap reason="illegible" unit="word" quantity="1"/></abbr><expan><term ref="#langue1">langues </term></expan></choice></emph></add></subst><emph rend="italics"><add place="inline" hand="#SB"> [artificielles]</add></emph> sont un exemple excellent pour
+                                le volapük <subst><del unit="word" quantity="1" rend="overstrike">est</del> <add place="above"> et  <hi rend="italics">les autres <choice><abbr><gap reason="illegible" unit="word" quantity="1"/></abbr><expan><term ref="#langue1">langues </term></expan></choice></emph></add></subst><hi rend="italics"><add place="inline" hand="#SB"> [artificielles]</add></emph> sont un exemple excellent pour
                                 <lb xml:id="lb10_p28" n="10" facs="#facs_p28_lb10"/>
                                 se rendre compte de ce qui empêche qu'il ne
                                 <lb xml:id="lb11_p28" n="11" facs="#facs_p28_lb11"/>                                
@@ -372,7 +372,7 @@
                                 <lb xml:id="lb23_p28" n="23" facs="#facs_p28_lb23"/>
                                 On dira que nier <add place="above"><choice><abbr><gap reason="illegible" unit="letter" quantity="1"/></abbr><expan>dans</expan></choice> ce sens</add> qu'aucune <term ref="#langue1">langue </term>
                                 <lb xml:id="lb24_p28" n="24" facs="#facs_p28_lb24"/>
-                                <del rend="overstrike">ne</del> soit <emph rend="underline">née</emph>, c'est <del rend="overstrike"><gap reason="deleted" unit="word" quantity="1" /></del> jouer sur les <term ref="#mot">mots</term>,
+                                <del rend="overstrike">ne</del> soit <hi rend="underline">née</emph>, c'est <del rend="overstrike"><gap reason="deleted" unit="word" quantity="1" /></del> jouer sur les <term ref="#mot">mots</term>,
                                 <lb xml:id="lb25_p28" n="25" facs="#facs_p28_lb25"/>
                                 <add place="left">et qu'</add><del rend="overstrike"><gap reason="illegible" unit="word" quantity="4" /></del><subst><del rend="overstrike"><gap reason="illegible" unit="word" quantity="9" /></del><add place="above">il suffit de définir ce qu'on entend par</add></subst> la naissance
                                 <lb xml:id="lb26_p28" n="26" facs="#facs_p28_lb26"/>
