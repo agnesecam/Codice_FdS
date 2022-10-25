@@ -12,7 +12,7 @@
 
             <editionStmt>
                 <edition n="DigitalEdition">Digital edition
-                    <date when="2022-07">July 2022</date>
+                    <date when="2022-11">November 2022</date>
                 </edition>
                 <respStmt>
                     <resp>Edizione digitale a cura di:</resp>
@@ -27,8 +27,7 @@
                 <publisher> CNR Pisa - Unical </publisher>
                 <date when="2022">2022</date>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY SA 4.0 </licence>
-                    
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY SA 4.0 </licence>                    
                 </availability>
             </publicationStmt>
 
