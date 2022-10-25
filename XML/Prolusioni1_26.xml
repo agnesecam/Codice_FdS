@@ -254,36 +254,39 @@
 
     
     <facsimile>
-        <!--VENTICINQUESIMA PAGINA-->
+        <!--VENTISEIESIMA PAGINA-->
         <surface n="15" xml:id="scan_p26">
             <graphic url='ms_fr_03951_01_1_p026-resized.jpg' width='600px' height='900px'/> 
             <!--Righe-->
-            <zone points = '153,91, 346,67, 515,95, 521,108, 144,115 ' rendition="line" xml:id="facs_p26_lb1"/>                       
-            <zone points = ' 111,128, 521,116, 528,134, 112,150' rendition="line" xml:id="facs_p26_lb2"/>  
-            <zone points = ' 124,152, 509,135, 531,170, 125,178' rendition="line" xml:id="facs_p26_lb3"/>  
-            <zone points = ' 129,183, 512,175, 512,206, 130,211 '  rendition="line" xml:id="facs_p26_lb4"/>            
-            <zone points = ' 122,207, 523,208, 532,232, 128,240'  rendition="line" xml:id="facs_p26_lb5"/>
-            <zone points = '130,242, 470,223, 526,236, 527,259, 121,267' rendition="line" xml:id="facs_p26_lb6"/>
-            <zone points = '135,277 ,534,271, 532,294, 125,306 '   rendition="line" xml:id="facs_p26_lb7"/>
-            <zone points = ' 129,308 ,527,299, 527,324 ,138,337' rendition="line" xml:id="facs_p26_lb8"/>
-            <zone points = ' 132,345, 522,328, 522,358, 133,368'  rendition="line" xml:id="facs_p26_lb9"/>
-            <zone points = ' 133,373, 507,363, 509,390, 137,399 '  rendition="line" xml:id="facs_p26_lb10"/>
-            <zone points = ' 137,402, 512,397, 516,417, 129,432' rendition="line" xml:id="facs_p26_lb11"/>
-            <zone points = '145,436, 522,418, 530,442, 145,464' rendition="line" xml:id="facs_p26_lb12"/>
-            <zone points = '  154,470, 505,454, 522,483, 155,500 ' rendition="line" xml:id="facs_p26_lb13"/>  
-            <zone points = ' 156,510, 517,488, 526,522, 156,531 '  rendition="line" xml:id="facs_p26_lb14"/>    
-            <zone points = ' 154,538, 154,538, 520,523, 526,551, 155,563'  rendition="line" xml:id="facs_p26_lb15"/>    
-            <zone points = '  156,567, 519,553 ,527,581, 158,598' rendition="line" xml:id="facs_p26_lb16"/>    
-            <zone points = ' 149,599, 515,590 ,516,615, 143,630 ' rendition="line" xml:id="facs_p26_lb17"/>    
-            <zone points = ' 153,636, 512,622 ,517,653 ,152,663 ' rendition="line" xml:id="facs_p26_lb18"/>    
-            <zone points = ' 155,668, 508,662 ,512,681 ,160,686' rendition="line" xml:id="facs_p26_lb19"/>    
-            <zone points = ' 156,694, 325,683 ,514,685, 518,710 ,155,720' rendition="line" xml:id="facs_p26_lb20"/>    
-            <zone points = ' 160,724, 491,713, 502,743, 148,744' rendition="line" xml:id="facs_p26_lb21"/>    
-            <zone points = ' 157,751 ,340,753, 340,778 ,157,770' rendition="line" xml:id="facs_p26_lb22"/>
-            <zone points = ' 155,808, 483,812, 481,835, 148,840' rendition="line" xml:id="facs_p26_lb24"/>
-            <zone points = '  190,779, 489,770, 499,807 ,173,808 ' rendition="line" xml:id="facs_p26_lb23"/>
+            <zone points = '142, 89, 518, 96, 518,123, 141,108' rendition="line" xml:id="facs_p26_lb1"/>                       
+            <zone points = ' 143,125, 532,137, 541,159, 145,146 ' rendition="line" xml:id="facs_p26_lb2"/>  
+            <zone points = ' 148,159, 502,158, 502,175, 145,180 ' rendition="line" xml:id="facs_p26_lb3"/>  
+            <zone points = ' 146,187, 310,185, 304,201, 152,202 '  rendition="line" xml:id="facs_p26_lb4"/>            
+            <zone points = ' 190,212, 407,215, 407,240, 188,235 '  rendition="line" xml:id="facs_p26_lb5"/>
+            <zone points = '188,242, 536,238, 535,266, 184,266 ' rendition="line" xml:id="facs_p26_lb6"/>
+            <zone points = '145,267, 536,265, 544,296, 149,295 '   rendition="line" xml:id="facs_p26_lb7"/>
+            <zone points = ' 144,298, 540,298, 540,319, 153,323 ' rendition="line" xml:id="facs_p26_lb8"/>
+            <zone points = ' 144,326, 534,323, 534,346, 154,349 '  rendition="line" xml:id="facs_p26_lb9"/>
+            <zone points = ' 152,349, 535,344, 535,368, 154,382 '  rendition="line" xml:id="facs_p26_lb10"/>
+            <zone points = ' 150,382, 527,372, 527,396, 153,404 ' rendition="line" xml:id="facs_p26_lb11"/>
+            <zone points = '162,410, 540,403, 544,430, 153,439 ' rendition="line" xml:id="facs_p26_lb12"/>
+            <zone points = '  153,436, 541,433, 533,452, 160,459 ' rendition="line" xml:id="facs_p26_lb13"/>  
+            <zone points = ' 163,468 ,541,453, 549,485, 159,493  '  rendition="line" xml:id="facs_p26_lb14"/>    
+            <zone points = ' 154,496, 549,487, 549,508,154,525 '  rendition="line" xml:id="facs_p26_lb15"/>    
+            <zone points = '  153,529, 540,507, 530,533 ,159,545 ' rendition="line" xml:id="facs_p26_lb16"/>    
+            <zone points = ' 157,554, 545,533, 545,559 ,157,576  ' rendition="line" xml:id="facs_p26_lb17"/>    
+            <zone points = ' 159,580, 549,559, 542,591, 159,604  ' rendition="line" xml:id="facs_p26_lb18"/>    
+            <zone points = ' 55,840, 107,852, 143,841, 147,760 ,124,721 ,130,676 ,161,633, 544,623, 545,588, 56,615 ' rendition="line" xml:id="facs_p26_lb19"/>    
+            <zone points = ' 159,636, 537,611, 547,636 ,159,650 ' rendition="line" xml:id="facs_p26_lb20"/>    
+            <zone points = ' 162,656, 515,638, 523,657, 157,677 ' rendition="line" xml:id="facs_p26_lb21"/>    
+            <zone points = ' 161,681, 528,659, 554,678, 558,693 ,505,684 ,156,714 ' rendition="line" xml:id="facs_p26_lb22"/>
+            <zone points = ' 154,714, 515,685, 530,712 ,164,737 ' rendition="line" xml:id="facs_p26_lb24"/>
+            <zone points = '  167,738, 519,715, 519,742 ,165,760 ' rendition="line" xml:id="facs_p26_lb25"/>
+            <zone points = '  162,761, 520,740 ,526,766, 162,790 ' rendition="line" xml:id="facs_p26_lb26"/>
+            <zone points = '  163,794, 512,775, 524,793, 169,820 ' rendition="line" xml:id="facs_p26_lb27"/>
+            <zone points = '  168,826, 542,794 ,542,824, 180,847 ' rendition="line" xml:id="facs_p26_lb28"/>
 
-            <zone points = '71,113, 98,113, 118,93, 114,65, 60,64'  rendition="line" xml:id="facs_HandPageNumber-26"/>     <!--Numero 25 cerchiato in alto a sx-->           
+            <zone points = '64,58, 64, 133, 127,73'  rendition="line" xml:id="facs_HandPageNumber-26"/>     <!--Numero 26 cerchiato in alto a sx-->           
 
         </surface>
     </facsimile>
@@ -303,23 +306,15 @@
                         <div xml:id="div_p26_fr" hand="#h1" type="box_testo" >
                             <ab xml:id="pericope_91Aaaa081" n="81" xml:lang="FR" corresp="#it_91Aaaa081 #en_91Aaaa081" facs="#facs_pericope_91Aaaa081" >
                                 <lb xml:id="lb1_p26" n="1" facs="#facs_p26_lb1"/>
-                                Et l'autre locution <add place="above"> figurée </add> que nous allons 
-                                <lb xml:id="lb2_p26" n="2" facs="#facs_p26_lb2"/>
-                                exécuter avec <persName ref="#MGParis">M. Gaston Paris</persName> c'est celle 
-                                <lb xml:id="lb3_p26" n="3" facs="#facs_p26_lb3"/>
-                                <del rend="overstrike">la langu</del> <hi rend="underline">du français, langue fille du</hi>
-                                <lb xml:id="lb4_p26" n="4" facs="#facs_p26_lb4"/>
-                                <hi>latin,</hi> - ou du <hi rend="underline">latin</hi>, <term ref="#langue1">langue</term> <hi rend="underline">mère</hi> des 
-                                <lb xml:id="lb5_p26" n="5" facs="#facs_p26_lb5"/>
-                                langues romanes. Il n'y a pas de langues 
-                                <lb xml:id="lb6_p26" n="6" facs="#facs_p26_lb6"/>
-                                filles ni de langues mères, <add xml:id="d2" place="above"> il n'y en a nulle part, </add> <del><unclear rend="overstrike"> Nous somme </unclear></del>
-                                <lb xml:id="lb7_p26" n="7" facs="#facs_p26_lb7"/>
-                                <del><unclear rend="overstrike">toujour devant cette meme idee</unclear></del>
-                                <lb xml:id="lb8_p26" n="8" facs="#facs_p26_lb8"/>
-                                <del><unclear rend="overstrike">dexustreuse en des effets</unclear></del>il n'y en a jamais 
-                                <lb xml:id="lb9_p26" n="9" facs="#facs_p26_lb9"/>
-                                eu.
+                                Que peut-on dire, d'après ce qui vient d'être
+                                <lb xml:id="lb1_p26" n="1" facs="#facs_p26_lb1"/>
+                                posé, de la <hi rend="underline">naissance</emph> et de la <hi rend="underline">mort</emph> des langues
+                                <lb xml:id="lb1_p26" n="1" facs="#facs_p26_lb1"/>
+                                qui jouent un grand rôle dans ce que l'on dit
+                                <lb xml:id="lb1_p26" n="1" facs="#facs_p26_lb1"/>
+                                d'elles dans ce monde?
+                                <lb xml:id="lb1_p26" n="1" facs="#facs_p26_lb1"/>
+                                Commençons par la mort.
                             </ab>                           
                             <ab xml:id="pericope_91Aaaa082" n="82" xml:lang="FR" corresp="#it_91Aaaa082 #en_91Aaaa082" facs="#facs_pericope_91Aaaa082"> 
                                 Il y a <del><unclear rend="overstrike">certains etàts de langue</unclear></del> 
