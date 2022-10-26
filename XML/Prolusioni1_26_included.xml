@@ -302,88 +302,74 @@
                             <fw type="pageNum" xml:id="HandPageNumber-26" rend="align(left)" facs="#facs_HandPageNumber-26"> 26 </fw>
                         </ab>
                         <div xml:id="div_p26_fr" hand="#h1" type="box_testo">
-                            <ab xml:id="pericope_91Aaaa081" n="81" xml:lang="FR" corresp="#it_91Aaaa081 #en_91Aaaa081" facs="#facs_pericope_91Aaaa081">
+                            <ab xml:id="pericope_91Aaaa083" n="83" xml:lang="FR" corresp="#it_91Aaaa083 #en_91Aaaa083" facs="#facs_pericope_91Aaaa083">
                                 <lb xml:id="lb1_p26" n="1" facs="#facs_p26_lb1"/>
-                                Et l'autre locution <add place="above"> figurée </add> que nous allons 
+                                Que peut-on dire, d'après ce qui vient d'être
                                 <lb xml:id="lb2_p26" n="2" facs="#facs_p26_lb2"/>
-                                exécuter avec <persName ref="#MGParis">M. Gaston Paris</persName> c'est celle 
+                                posé, de la <hi rend="underline">naissance</hi> et de la <hi rend="underline">mort</hi> des langues
                                 <lb xml:id="lb3_p26" n="3" facs="#facs_p26_lb3"/>
-                                <del rend="overstrike">la langu</del> <hi rend="underline">du français, langue fille du</hi>
+                                qui jouent un grand rôle dans ce que l'on dit
                                 <lb xml:id="lb4_p26" n="4" facs="#facs_p26_lb4"/>
-                                <hi>latin,</hi> - ou du <hi rend="underline">latin</hi>, <term ref="#langue1">langue</term> <hi rend="underline">mère</hi> des 
+                                d'elles dans ce monde?
                                 <lb xml:id="lb5_p26" n="5" facs="#facs_p26_lb5"/>
-                                langues romanes. Il n'y a pas de langues 
+                                Commençons par la mort.
+                            </ab>
+                            <ab xml:id="pericope_91Aaaa084" n="84" xml:lang="FR" corresp="#it_91Aaaa084 #en_91Aaaa084" facs="#facs_pericope_91Aaaa084"> 
                                 <lb xml:id="lb6_p26" n="6" facs="#facs_p26_lb6"/>
-                                filles ni de langues mères, <add xml:id="d2" place="above"> il n'y en a nulle part, </add> <del><unclear rend="overstrike"> Nous somme </unclear></del>
+                                Une langue ne peut pas mourir naturellement
                                 <lb xml:id="lb7_p26" n="7" facs="#facs_p26_lb7"/>
-                                <del><unclear rend="overstrike">toujour devant cette meme idee</unclear></del>
+                                et de sa belle mort. Elle ne peut mourir
                                 <lb xml:id="lb8_p26" n="8" facs="#facs_p26_lb8"/>
-                                <del><unclear rend="overstrike">dexustreuse en des effets</unclear></del>il n'y en a jamais 
+                                que <del rend="overstrike">par accident</del> <add place="above">de mort violente</add>. Le seul moyen qu'elle
                                 <lb xml:id="lb9_p26" n="9" facs="#facs_p26_lb9"/>
-                                eu.
-                            </ab>                           
-                            <ab xml:id="pericope_91Aaaa082" n="82" xml:lang="FR" corresp="#it_91Aaaa082 #en_91Aaaa082" facs="#facs_pericope_91Aaaa082"> 
-                                Il y a <del><unclear rend="overstrike">certains etàts de langue</unclear></del> 
+                                ait de cesser, c'est de se voir supprimée
                                 <lb xml:id="lb10_p26" n="10" facs="#facs_p26_lb10"/>
-                                Y dans chaque région du globe un état de 
+                                par force, par<del rend="overstrike">cause</del> une cause tout à fait
                                 <lb xml:id="lb11_p26" n="11" facs="#facs_p26_lb11"/>
-                                langue que <gap reason="deletion" extent="1 word"/><add place="above">qui</add> se transforme lentement,
-                                <lb xml:id="lb12_p26" n="12" facs="#facs_p26_lb12"/> 
-                                de semaine en semaine, <del><unclear rend="overstrike">ou se le</unclear></del>
+                                extérieure aux faits du langage. C'est-à-dire
+                                <lb xml:id="lb12_p26" n="12" facs="#facs_p26_lb12"/>
+                                par exemple par l'extermination totale du peuple
                                 <lb xml:id="lb13_p26" n="13" facs="#facs_p26_lb13"/>
-                                <del><unclear rend="overstrike">d'annee en annee</unclear></del> <add place="above">de mois en mois, d'année en année et</add> de siècle en 
+                                qui la parle, comme il arrivera prochainement pour
                                 <lb xml:id="lb14_p26" n="14" facs="#facs_p26_lb14"/>
-                                siècle, comme nous le verrons tout à l'heure; 
-                                <lb xml:id="lb15_p26" n="15" facs="#facs_p26_lb15"/> 
-                                mais il n'<del><unclear rend="overstrike">en</unclear></del> y a jamais eu nulle 
+                                les idiomes des Peaux-Rouges d'Amérique du Nord 
+                            </ab> 
+                            <ab xml:id="pericope_91Aaaa085" n="85" xml:lang="FR" corresp="#it_91Aaaa085 #en_91Aaaa085" facs="#facs_pericope_91Aaaa085"> 
+                                Ou bien
+                                <lb xml:id="lb15_p26" n="15" facs="#facs_p26_lb15"/>
+                                par imposition d'un nouvel idiome<del><unclear rend="overstrike">apportè</unclear></del>
                                 <lb xml:id="lb16_p26" n="16" facs="#facs_p26_lb16"/>
-                                part parturition <add place="above">ou procréation</add> d'un <del rend="overstrike">nouvelle</del> 
-                                <lb xml:id="lb17_p26" n="17" facs="#facs_p26_lb17"/> 
-                                idiome <add place="above">nouveau</add> par un <term ref="#glossa-mancante">idiome </term> antérieur, 
+                                <del><unclear rend="overstrike">par une race plus forte à la fuis supèrieure et</unclear></del>
+                                <lb xml:id="lb17_p26" n="17" facs="#facs_p26_lb17"/>
+                                <del><unclear rend="overstrike">politiquement</unclear></del> appartenant à une race plus forte;
                                 <lb xml:id="lb18_p26" n="18" facs="#facs_p26_lb18"/>
-                                cela est en dehors de tout ce que nous 
+                                il faut généralement non seulement une domination
                                 <lb xml:id="lb19_p26" n="19" facs="#facs_p26_lb19"/>
-                                voyons<del rend="overstrike">en fuit</del>, comme de tout ce que nous 
+                                politique, mais aussi une supériorité de civilisation,
                                 <lb xml:id="lb20_p26" n="20" facs="#facs_p26_lb20"/>
-                                pouvons nous représenter <add place="above"> en idée,</add> étant <add place="above">simplement</add> données les 
+                                <add rend="align(left)"> et souvent </add><add rend="align(left)">il faut la présence d'une langue <hi rend="underline">écrite</hi>
+                                qu'on impose par l'<mentioned>École</mentioned>, par l'<mentioned>Église</mentioned>, par
+                                l'administration... et par toutes les avenues de la vie
+                                publique et privée.</add> 
+                            </ab>
+                            <ab xml:id="pericope_91Aaaa086" n="86" xml:lang="FR" corresp="#it_91Aaaa086 #en_91Aaaa086" facs="#facs_pericope_91Aaaa086"> 
                                 <lb xml:id="lb21_p26" n="21" facs="#facs_p26_lb21"/>
-                                conditions où nous parlons<del><unclear rend="overstrike">notre</unclear></del> chacun 
+                                C'est le cas qui s'est cent fois répété clans l'<term ref="#histoire">histoire</term>:
                                 <lb xml:id="lb22_p26" n="22" facs="#facs_p26_lb22"/>
-                                notre langue maternelle.
+                                le cas du gaulois de <placeName ref="#Gaule">Gaule</placeName> supplanté par le
                                 <lb xml:id="lb23_p26" n="23" facs="#facs_p26_lb23"/>
-                                <del><unclear rend="overstrike">toute espìce le scission dans la </unclear></del>
-                                <lb xml:id="lb24_p26" n="24" facs="#facs_p26_lb24"/> 
-                                <del><unclear rend="overstrike">tradition de la langue à travers les</unclear></del>
-                            </ab>
-                        </div>
-                    </body> 
-                </text>
-            </group>  
-            
-            <group xml:id="it_Prolusioni" xml:lang="IT"> <!--TRADUZIONI ITALIANO DELLE 3 PROLUSIONI-->
-                <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
-                    <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
-                        <div xml:id="div_p26_it" hand="#h1" type="box_testo_it">
-                            <ab xml:id="it_91Aaaa081" corresp="#pericope_91Aaaa081" xml:lang="IT">
-                                <lb/>E l’altra locuzione figurata di cui, con Gaston
-                                <lb/>Paris, faremo giustizia, è quella del francese, lingua
-                                <lb/>figlia del latino - o del latino, lingua madre delle
-                                <lb/>lingue romanze. Non ci sono lingue figlie né lingue
-                                <lb/>madri, non ce n’è da nessuna parte, non ce ne sono
-                            </ab>
-                            <ab xml:id="it_91Aaaa082" corresp="#pericope_91Aaaa082" xml:lang="IT">
-                                <lb/>mai state. Vi è in ogni regione del globo uno stato
-                                <lb/>di lingua che si trasforma lentamente, di settimana
-                                <lb/>in settimana, di mese in mese, di anno in anno e di
-                                <lb/>secolo in secolo, come vedremo tra pochissimo, ma
-                                <lb/>non c’è mai stato da nessuna parte il parto o la
-                                <lb/>procreazione di un idioma nuovo da parte di un
-                                <lb/>idioma anteriore, questo è al di fuori di tutto ciò che
-                                <lb/>si vede, come anche di tutto ciò che possiamo
-                                <lb/>rappresentarci in idea, essendo date semplicemente
-                                <lb/>le condizioni in cui ognuno di noi parla la sua lingua
-                                <lb/>materna. 
-                            </ab>                                                                                                                            
+                                latin, le cas des nègres d'<placeName ref="#Haiti">Haïti</placeName> qui parlent français,
+                                <lb xml:id="lb24_p26" n="24" facs="#facs_p26_lb24"/>
+                                du fellah égyptien qui parle arabe; <del rend="overstrike">souvent</del>
+                                <lb xml:id="lb25_p26" n="25" facs="#facs_p26_lb25"/>
+                                <del rend="overstrike">le fait n'en qu'apparent: par example</del>
+                                <lb xml:id="lb26_p26" n="26" facs="#facs_p26_lb26"/>
+                                le cas de l'habitant de <placeName ref="#GE">Genève</placeName> qui parle le
+                                <lb xml:id="lb27_p26" n="27" facs="#facs_p26_lb27"/>
+                                <term ref="#dialecte">dialecte</term> de l'<placeName ref="#ile-de-fr">Île-de-France</placeName> et non la langue
+                                <lb xml:id="lb28_p26" n="28" facs="#facs_p26_lb28"/>
+                                autochtone qu'il parlait <date>il y a quelques siècles</date>. Mais
+                            </ab>                                                                                                            
                         </div>                            
                     </body>
                 </text>          
@@ -393,27 +379,40 @@
                 <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
                     <body resp="#AC" xml:id="body-inglese" source="#WGL">
                         <div xml:id="div_p26_en" hand="#h1" type="box_testo_en">
-                            <ab xml:id="en_91Aaaa081" corresp="#pericope_91Aaaa081" xml:lang="EN">
-                                <lb/>The second figurative expression that we are going 
-                                <lb/>to join Mr Gaston Paris in disposing of if that which 
-                                <lb/>makes French the daughter of 
-                                <lb/>Latin - or Latin the mother of 
-                                <lb/>Romance languages. Languages have neither 
-                                <lb/>daughters not mothers; and they never have had.
+                            <ab xml:id="en_91Aaaa083" corresp="#pericope_91Aaaa083" xml:lang="EN">
+                                Che si può dire, in base a ciò che si è sostenuto,
+                                <lb/>della nascita e della morte delle lingue, che
+                                <lb/>rivestono un ruolo importante in ciò che di esse si
+                                <lb/>dice a questo mondo?
+                                <lb/>Cominciamo dalla morte.
                             </ab>
-                            <ab xml:id="en_91Aaaa082" corresp="#pericope_91Aaaa082" xml:lang="EN">
-                                <lb/>In every region of the globe an état de 
-                                <lb/>langue is changing gradually, 
-                                <lb/>from week to week, 
-                                <lb/>month to month, year to year, and century to 
-                                <lb/>century, as we shall see shortly, 
-                                <lb/>but never has there been 
-                                <lb/>procreation and birth of a new 
-                                <lb/>idiom from a previous idiom; such an event 
-                                <lb/>falls outside all we can observe or conceptualize,
-                                <lb/>given the simple precondition 
-                                <lb/>that we all speak our mother tongue.
-                            </ab>        
+                            <ab xml:id="en_91Aaaa084" corresp="#pericope_91Aaaa084" xml:lang="EN">
+                                <lb/>Una lingua non può morire di morte naturale.
+                                <lb/>Non può morire che di morte violenta. Il solo modo
+                                <lb/>che abbia di cessare, è di vedersi soppressa per
+                                <lb/>forza, per una causa del tutto esterna ai fatti di
+                                <lb/>linguaggio. Cioè ad esempio per lo sterminio totale
+                                <lb/>del popolo che la parla, come succederà
+                                <lb/>prossimamente per gli idiomi dei Pellirossa
+                                <lb/>dell’America del Nord. 
+                            </ab>
+                            <ab xml:id="en_91Aaaa085" corresp="#pericope_91Aaaa085" xml:lang="EN">
+                                Oppure per imposizione
+                                <lb/>di un nuovo idioma appartenente a una razza più
+                                <lb/>forte; generalmente ci vuole non soltanto una
+                                <lb/>dominazione politica, ma anche una superiorità di
+                                <lb/>civilizzazione, e spesso ci vuole la presenza di una
+                                <lb/>lingua scritta che viene imposta dalla Scuola, dalla
+                                <lb/>Chiesa, dall’amministrazione… e attraverso tutti i
+                                <lb/>canali della vita pubblica e privata. È un caso che
+                                <lb/>si è ripetuto cento volte nella storia: il caso del gallo
+                                <lb/>di Gallia soppiantato dal latino, il caso dei neri di
+                                <lb/>Haiti che parlano francese, del fellah egiziano che
+                                <lb/>parla arabo; il caso dell’abitante di Ginevra che
+                                <lb/>parla il dialetto dell’Île-de-France e non la lingua
+                                <lb/>autoctona che parlava qualche secolo fa. Ma queste
+                                <lb/>non sono cause linguistiche.
+                            </ab>    
                         </div>   
                     </body>
                 </text>       
@@ -1252,7 +1251,7 @@
 
                     <!--Gaule-->
                     <place xml:id="Gaule">
-                        <placeName notAfter="451">Gallia</placeName>
+                        <placeName>Gallia</placeName>
                         <location>
                             <country key="FR"/>
                             <bloc>EU</bloc>
@@ -1274,6 +1273,24 @@
                             Uno stato principalmente situato nell'Europa occidentale, ma che
                             possiede ugualmente territori disseminati su più oceani e altri
                             continenti.
+                        </note>
+                    </place>
+
+                    <!--Ile-de-France-->
+                    <place xml:id="ile-de-fr">
+                        <placeName>Île-de-France</placeName>
+                        <country key="FR">France</country>
+                    </place>
+
+                    <!--Haiti-->
+                    <place xml:id="Haiti">
+                        <placeName>Haiti</placeName>
+                        <location>
+                            <country key="USA"/>
+                            <bloc>USA</bloc>
+                        </location>
+                        <note>
+                            L'isola di Hispaniola, di cui Haiti occupa la porzione più occidentale, era in origine abitata dagli indigeni taino e arauachi. Il 4 dicembre 1492 la Santa Maria, comandata da Cristoforo Colombo, sbarcò dove oggi sorge Môle-Saint-Nicolas: l'intera isola fu subito rivendicata a favore della Spagna.
                         </note>
                     </place>
 
