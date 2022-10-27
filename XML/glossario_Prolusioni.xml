@@ -662,7 +662,7 @@
                                 </bibl>
                             </cit>
                             <lbl type="syn">Sin.</lbl><xr type="synonym">analogie;<ref target="#analogie"/>;</xr>
-                            duale <xr type="duale">changement phonétique<ref target="#changement_analogique"/>;</xr>
+                            <lbl type="duale">duale</lbl><xr type="duale">changement phonétique<ref target="#changement_analogique"/>;</xr>
                             <lbl type="cf">Cfr.</lbl> <xr type="cf">création<ref target="#création"/>,</xr>
                             <lbl type="cf">Cfr.</lbl> <xr type="cf">transformation<ref target="#transformation"/></xr>.
                         </sense>
@@ -796,7 +796,7 @@
                         <lbl type="opp">Opp.</lbl><xr type="opposite">fixité<ref target="#fixité"/>;</xr>
                         <lbl type="syn">Sin.</lbl> <xr type="synonym">ininterruption forcée<ref target="#ininterruption_forcée"/>;</xr>
                         <lbl type="alm-syn">quasi-sin.</lbl> <xr type="almost-synonym">tradition de la langue<ref target="#tradition_de_la_langue"/>;</xr>
-                        duale <xr type="duale">mutabilité<ref target="#tradition_de_la_langue"/>,</xr>
+                        <lbl type="duale">duale</lbl> <xr type="duale">mutabilité<ref target="#tradition_de_la_langue"/>,</xr>
                         <xr type="duale">transformation<ref target="#transformation"/>;</xr>
                         <lbl type="cf">Cfr.</lbl> <xr type="cf">état de langue<ref target="#état_de_langue"/>,</xr>
                         <xr type="cf">succession<ref target="#succession"/>,</xr>
@@ -825,7 +825,7 @@
                                 (<citedRange unit="page">p. 171</citedRange>)
                             </bibl>
                         </cit>
-                        Ant. <xr type="antonym">divergence<ref target="#divergence"/>;</xr>
+                        <lbl type="ant">Ant. </lbl><xr type="antonym">divergence<ref target="#divergence"/>;</xr>
                         <lbl type="cf">Cfr.</lbl> <xr type="cf">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/>;</xr>
                         <xr type="cf">caractère dialectal<ref target="#caractère_dialectal"/>;</xr>
                         <xr type="cf">dialecte<ref target="#dialecte"/>;</xr>
@@ -3390,7 +3390,7 @@
                             (<citedRange unit="page">p. 157</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="cf">Cfr. </lbl><xr type="cf">continuité<ref target="continuité"/>,</xr>
+                    <lbl type="cf">Cfr. </lbl><xr type="cf">continuité<ref target="#continuité"/>,</xr>
                     <xr type="cf">mutabilité<ref target="mutabilité"/>,</xr>
                     <xr type="cf">transformation<ref target="transformation"/></xr>.
                 </sense>  
@@ -3429,8 +3429,8 @@
                             (<citedRange unit="page">p. 157</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="opp">Opp. </lbl><xr type="opposite">immobilité<ref target="immobilité"/>;</xr>
-                    <lbl type="opp">Cfr. </lbl><xr type="opposite">continuité<ref target="continuité"/>;</xr>
+                    <lbl type="opp">Opp. </lbl><xr type="opposite">immobilité<ref target="#immobilité"/>;</xr>
+                    <lbl type="opp">Cfr. </lbl><xr type="opposite">continuité<ref target="#continuité"/>;</xr>
                     <xr type="opp">mouvement<ref target="mouvement"/>,</xr>
                     <xr type="opp">transformation<ref target="transformation"/></xr>.
                 </sense>     
@@ -3472,9 +3472,9 @@
                     </cit>
                     <lbl type="cf">Cfr. </lbl><xr type="cf">ancien<ref target="ancien"/>;</xr>
                     <xr type="cf">mort<ref target="mort"/>,</xr>
-                    <xr type="cf">organique<ref target="organique"/>,</xr>
-                    <xr type="cf">continuité<ref target="continuité"/>,</xr>
-                    <xr type="cf">vie de la langue<ref target="vie de la langue"/></xr>.
+                    <xr type="cf">organique<ref target="#organique"/>,</xr>
+                    <xr type="cf">continuité<ref target="#continuité"/>,</xr>
+                    <xr type="cf">vie de la langue<ref target="#vie de la langue"/></xr>.
                 </sense>
                 <xr type="other_dictionaries">
                     {<listRef>
