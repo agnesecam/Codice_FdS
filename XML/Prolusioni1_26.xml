@@ -377,18 +377,18 @@
                 </text>          
             </group>
 
-            <group xml:id="en_Prolusioni" xml:lang="EN" > <!--TRADUZIONI INGLESE DELLE 3 PROLUSIONI-->
-                <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
-                    <body resp="#AC" xml:id="body-inglese" source="#WGL">
-                        <div xml:id="div_p26_en" hand="#h1" type="box_testo_en">
-                            <ab xml:id="en_91Aaaa083" corresp="#pericope_91Aaaa083" xml:lang="EN">
+            <group xml:id="it_Prolusioni" xml:lang="IT"> <!--TRADUZIONI ITALIANO DELLE 3 PROLUSIONI-->
+                <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
+                    <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
+                        <div xml:id="div_p25_it" hand="#h1" type="box_testo_it">
+                            <ab xml:id="it_91Aaaa083" corresp="#pericope_91Aaaa083" xml:lang="IT">
                                 Che si può dire, in base a ciò che si è sostenuto,
                                 <lb/>della nascita e della morte delle lingue, che
                                 <lb/>rivestono un ruolo importante in ciò che di esse si
                                 <lb/>dice a questo mondo?
                                 <lb/>Cominciamo dalla morte.
                             </ab>
-                            <ab xml:id="en_91Aaaa084" corresp="#pericope_91Aaaa084" xml:lang="EN">
+                            <ab xml:id="it_91Aaaa084" corresp="#pericope_91Aaaa084" xml:lang="IT">
                                 <lb/>Una lingua non può morire di morte naturale.
                                 <lb/>Non può morire che di morte violenta. Il solo modo
                                 <lb/>che abbia di cessare, è di vedersi soppressa per
@@ -397,8 +397,8 @@
                                 <lb/>del popolo che la parla, come succederà
                                 <lb/>prossimamente per gli idiomi dei Pellirossa
                                 <lb/>dell’America del Nord. 
-                            </ab>
-                            <ab xml:id="en_91Aaaa085" corresp="#pericope_91Aaaa085" xml:lang="EN">
+                            </ab>         
+                            <ab xml:id="it_91aaa084" corresp="#pericope_91aaa084" xml:lang="IT">
                                 Oppure per imposizione
                                 <lb/>di un nuovo idioma appartenente a una razza più
                                 <lb/>forte; generalmente ci vuole non soltanto una
@@ -413,7 +413,51 @@
                                 <lb/>parla arabo; il caso dell’abitante di Ginevra che
                                 <lb/>parla il dialetto dell’Île-de-France e non la lingua
                                 <lb/>autoctona che parlava qualche secolo fa. Ma queste
-                                <lb/>non sono cause linguistiche.
+                                <lb/>non sono cause linguistiche.                     
+                            </ab>                                                                                              
+                        </div>                            
+                    </body>
+                </text>          
+            </group>
+
+            <group xml:id="en_Prolusioni" xml:lang="EN" > <!--TRADUZIONI INGLESE DELLE 3 PROLUSIONI-->
+                <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
+                    <body resp="#AC" xml:id="body-inglese" source="#WGL">
+                        <div xml:id="div_p26_en" hand="#h1" type="box_testo_en">
+                            <ab xml:id="en_91Aaaa083" corresp="#pericope_91Aaaa083" xml:lang="EN">
+                                <lb/>What can be said, on the basis of this,
+                                <lb/>about the birth and death of languages, 
+                                <lb/>which hs such a central role in what people 
+                                <lb/>say about languages? 
+                                <lb/>Let us begin with death.
+                            </ab>
+                            <ab xml:id="en_91Aaaa084" corresp="#pericope_91Aaaa084" xml:lang="EN">
+                                <lb/>A language cannot die naturally, or die peacefully. 
+                                <lb/>It can only die violently. The only way in which 
+                                <lb/>it can cease to exist is to be annihilated by force, 
+                                <lb/>by a cause wholly external to 
+                                <lb/>language itself. This may, for instance, be the total extermination
+                                <lb/>of the people that speaks it, 
+                                <lb/>as will soon happen to the idioms of the Red Indians 
+                                <lb/>of North America.                                
+                            </ab>
+                            <ab xml:id="en_91Aaaa085" corresp="#pericope_91Aaaa085" xml:lang="EN">
+                                Otherwise the conditions that are generally needed are that a new language is imposed 
+                                <lb/>that belongs to a stronger race; 
+                                <lb/>there may be political domination, but also a superior 
+                                <lb/>civilization, and often the presence of a 
+                                <lb/>written language imposed through education, 
+                                <lb/>the Church, administration and all other
+                                <lb/> aspects of public and private life.
+                                The situation has
+                                <lb/> occurred hundreds of times in history: Gaulish in
+                                <lb/>Gaul replaced by Latin, the black population 
+                                <lb/>of Haiti that speaks French, the Egyptian Fellah 
+                                <lb/>who speaks Arabic; the inhabitant of Geneva who 
+                                <lb/>speaks the dialect of Ile-de-France 
+                                <lb/>and not the indigenous language
+                                <lb/>that his forbears spoke a few centuries before. But these 
+                                <lb/>are not linguistic outcomes.                
                             </ab>    
                         </div>   
                     </body>

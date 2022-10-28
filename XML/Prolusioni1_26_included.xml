@@ -375,18 +375,18 @@
                 </text>          
             </group>
 
-            <group xml:id="en_Prolusioni" xml:lang="EN"> <!--TRADUZIONI INGLESE DELLE 3 PROLUSIONI-->
-                <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
-                    <body resp="#AC" xml:id="body-inglese" source="#WGL">
-                        <div xml:id="div_p26_en" hand="#h1" type="box_testo_en">
-                            <ab xml:id="en_91Aaaa083" corresp="#pericope_91Aaaa083" xml:lang="EN">
+            <group xml:id="it_Prolusioni" xml:lang="IT"> <!--TRADUZIONI ITALIANO DELLE 3 PROLUSIONI-->
+                <text xml:id="it_Prolusione-1"> <!--ITA 1 PROLUSIONE-->
+                    <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
+                        <div xml:id="div_p25_it" hand="#h1" type="box_testo_it">
+                            <ab xml:id="it_91Aaaa083" corresp="#pericope_91Aaaa083" xml:lang="IT">
                                 Che si può dire, in base a ciò che si è sostenuto,
                                 <lb/>della nascita e della morte delle lingue, che
                                 <lb/>rivestono un ruolo importante in ciò che di esse si
                                 <lb/>dice a questo mondo?
                                 <lb/>Cominciamo dalla morte.
                             </ab>
-                            <ab xml:id="en_91Aaaa084" corresp="#pericope_91Aaaa084" xml:lang="EN">
+                            <ab xml:id="it_91Aaaa084" corresp="#pericope_91Aaaa084" xml:lang="IT">
                                 <lb/>Una lingua non può morire di morte naturale.
                                 <lb/>Non può morire che di morte violenta. Il solo modo
                                 <lb/>che abbia di cessare, è di vedersi soppressa per
@@ -395,8 +395,8 @@
                                 <lb/>del popolo che la parla, come succederà
                                 <lb/>prossimamente per gli idiomi dei Pellirossa
                                 <lb/>dell’America del Nord. 
-                            </ab>
-                            <ab xml:id="en_91Aaaa085" corresp="#pericope_91Aaaa085" xml:lang="EN">
+                            </ab>         
+                            <ab xml:id="it_91aaa084" corresp="#pericope_91aaa084" xml:lang="IT">
                                 Oppure per imposizione
                                 <lb/>di un nuovo idioma appartenente a una razza più
                                 <lb/>forte; generalmente ci vuole non soltanto una
@@ -411,7 +411,51 @@
                                 <lb/>parla arabo; il caso dell’abitante di Ginevra che
                                 <lb/>parla il dialetto dell’Île-de-France e non la lingua
                                 <lb/>autoctona che parlava qualche secolo fa. Ma queste
-                                <lb/>non sono cause linguistiche.
+                                <lb/>non sono cause linguistiche.                     
+                            </ab>                                                                                              
+                        </div>                            
+                    </body>
+                </text>          
+            </group>
+
+            <group xml:id="en_Prolusioni" xml:lang="EN"> <!--TRADUZIONI INGLESE DELLE 3 PROLUSIONI-->
+                <text xml:id="en_Prolusione-1"> <!--EN 1 PROLUSIONE-->
+                    <body resp="#AC" xml:id="body-inglese" source="#WGL">
+                        <div xml:id="div_p26_en" hand="#h1" type="box_testo_en">
+                            <ab xml:id="en_91Aaaa083" corresp="#pericope_91Aaaa083" xml:lang="EN">
+                                <lb/>What can be said, on the basis of this,
+                                <lb/>about the birth and death of languages, 
+                                <lb/>which hs such a central role in what people 
+                                <lb/>say about languages? 
+                                <lb/>Let us begin with death.
+                            </ab>
+                            <ab xml:id="en_91Aaaa084" corresp="#pericope_91Aaaa084" xml:lang="EN">
+                                <lb/>A language cannot die naturally, or die peacefully. 
+                                <lb/>It can only die violently. The only way in which 
+                                <lb/>it can cease to exist is to be annihilated by force, 
+                                <lb/>by a cause wholly external to 
+                                <lb/>language itself. This may, for instance, be the total extermination
+                                <lb/>of the people that speaks it, 
+                                <lb/>as will soon happen to the idioms of the Red Indians 
+                                <lb/>of North America.                                
+                            </ab>
+                            <ab xml:id="en_91Aaaa085" corresp="#pericope_91Aaaa085" xml:lang="EN">
+                                Otherwise the conditions that are generally needed are that a new language is imposed 
+                                <lb/>that belongs to a stronger race; 
+                                <lb/>there may be political domination, but also a superior 
+                                <lb/>civilization, and often the presence of a 
+                                <lb/>written language imposed through education, 
+                                <lb/>the Church, administration and all other
+                                <lb/> aspects of public and private life.
+                                The situation has
+                                <lb/> occurred hundreds of times in history: Gaulish in
+                                <lb/>Gaul replaced by Latin, the black population 
+                                <lb/>of Haiti that speaks French, the Egyptian Fellah 
+                                <lb/>who speaks Arabic; the inhabitant of Geneva who 
+                                <lb/>speaks the dialect of Ile-de-France 
+                                <lb/>and not the indigenous language
+                                <lb/>that his forbears spoke a few centuries before. But these 
+                                <lb/>are not linguistic outcomes.                
                             </ab>    
                         </div>   
                     </body>
@@ -1975,7 +2019,7 @@
                                 </bibl>
                             </cit>
                             <lbl type="syn">Sin.</lbl><xr type="synonym">analogie;<ref target="#analogie"/>;</xr>
-                            duale <xr type="duale">changement phonétique<ref target="#changement_analogique"/>;</xr>
+                            <lbl type="duale">duale</lbl><xr type="duale">changement phonétique<ref target="#changement_analogique"/>;</xr>
                             <lbl type="cf">Cfr.</lbl> <xr type="cf">création<ref target="#création"/>,</xr>
                             <lbl type="cf">Cfr.</lbl> <xr type="cf">transformation<ref target="#transformation"/></xr>.
                         </sense>
@@ -2020,7 +2064,7 @@
                             (<citedRange unit="page">p. 159</citedRange>)
                         </bibl>
                     </cit>
-                    Ant. <xr type="antonym">inconscience<ref target="#inconscience"/>;</xr>
+                    <lbl type="ant">Ant.</lbl> <xr type="antonym">inconscience<ref target="#inconscience"/>;</xr>
                     <lbl type="cf">Cfr.</lbl> <xr type="cf">intelligence<ref target="#intelligence"/>;</xr>
                     <xr type="cf">volonté<ref target="#volonté"/>,</xr>
                     Usato anche come aggettivo conscient
@@ -2063,7 +2107,7 @@
                             (<citedRange unit="page">p. 149</citedRange>)
                         </bibl>
                     </cit>
-                    Ant. <xr type="antonym">accidentel<ref target="#accidentel"/>;</xr>
+                    <lbl type="ant">Ant.</lbl> <xr type="antonym">accidentel<ref target="#accidentel"/>;</xr>
                     <lbl type="cf">Cfr.</lbl> <xr type="cf">langue<ref target="#langue"/>;</xr>
                 </sense>
             </entry>
@@ -2109,7 +2153,7 @@
                         <lbl type="opp">Opp.</lbl><xr type="opposite">fixité<ref target="#fixité"/>;</xr>
                         <lbl type="syn">Sin.</lbl> <xr type="synonym">ininterruption forcée<ref target="#ininterruption_forcée"/>;</xr>
                         <lbl type="alm-syn">quasi-sin.</lbl> <xr type="almost-synonym">tradition de la langue<ref target="#tradition_de_la_langue"/>;</xr>
-                        duale <xr type="duale">mutabilité<ref target="#tradition_de_la_langue"/>,</xr>
+                        <lbl type="duale">duale</lbl> <xr type="duale">mutabilité<ref target="#tradition_de_la_langue"/>,</xr>
                         <xr type="duale">transformation<ref target="#transformation"/>;</xr>
                         <lbl type="cf">Cfr.</lbl> <xr type="cf">état de langue<ref target="#état_de_langue"/>,</xr>
                         <xr type="cf">succession<ref target="#succession"/>,</xr>
@@ -2138,7 +2182,7 @@
                                 (<citedRange unit="page">p. 171</citedRange>)
                             </bibl>
                         </cit>
-                        Ant. <xr type="antonym">divergence<ref target="#divergence"/>;</xr>
+                        <lbl type="ant">Ant. </lbl><xr type="antonym">divergence<ref target="#divergence"/>;</xr>
                         <lbl type="cf">Cfr.</lbl> <xr type="cf">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/>;</xr>
                         <xr type="cf">caractère dialectal<ref target="#caractère_dialectal"/>;</xr>
                         <xr type="cf">dialecte<ref target="#dialecte"/>;</xr>
@@ -4137,7 +4181,7 @@
                             (<citedRange unit="page">p. 149</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="duale">Duale </lbl><xr type="duale">histoire de la langue<ref target="histoire_de_la_langue"/>;</xr>
+                    <lbl type="duale">Duale </lbl><xr type="duale">histoire de la langue<ref target="#histoire_de_la_langue"/>;</xr>
                 </sense>
             </entry>
 
@@ -4206,7 +4250,7 @@
                             (<citedRange unit="page">p. 160</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="duale">Duale </lbl><xr type="duale">histoire de la langue<ref target="histoire_de_la_langue #linguiste"/>;</xr>
+                    <lbl type="duale">Duale </lbl><xr type="duale">histoire de la langue<ref target="#histoire_de_la_langue #linguiste"/>;</xr>
                 </sense>
             </entry>
 
@@ -4407,7 +4451,7 @@
                                 (<citedRange unit="page">p. 148</citedRange>)
                             </bibl>
                         </cit>
-                        <lbl type="opp">opp. </lbl><xr type="opp">fait<ref target="#fait"/></xr>
+                        <lbl type="opp">Opp. </lbl><xr type="opp">fait<ref target="#fait"/></xr>
                     </sense>
                     <sense n="b" xml:id="loi2">2. 
                         [<def>
@@ -4625,11 +4669,11 @@
                             (<citedRange unit="page">p. 154</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="cf">Cfr. </lbl><xr type="cf">ancien<ref target="ancien"/>,</xr>
-                    <xr type="cf">naissance de la langue<ref target="naissance de la langue"/>,</xr>
-                    <xr type="cf">organique<ref target="organique"/>,</xr>
-                    <xr type="cf">vieux<ref target="vieux"/>,</xr>
-                    <xr type="cf">vie de la langue<ref target="vie de la langue"/></xr>.
+                    <lbl type="cf">Cfr. </lbl><xr type="cf">ancien<ref target="#ancien"/>,</xr>
+                    <xr type="cf">naissance de la langue<ref target="#naissance de la langue"/>,</xr>
+                    <xr type="cf">organique<ref target="#organique"/>,</xr>
+                    <xr type="cf">vieux<ref target="#vieux"/>,</xr>
+                    <xr type="cf">vie de la langue<ref target="#vie de la langue"/></xr>.
                 </sense>     
             </entry>
 
@@ -4703,9 +4747,9 @@
                             (<citedRange unit="page">p. 157</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="cf">Cfr. </lbl><xr type="cf">continuité<ref target="continuité"/>,</xr>
-                    <xr type="cf">mutabilité<ref target="mutabilité"/>,</xr>
-                    <xr type="cf">transformation<ref target="transformation"/></xr>.
+                    <lbl type="cf">Cfr. </lbl><xr type="cf">continuité<ref target="#continuité"/>,</xr>
+                    <xr type="cf">mutabilité<ref target="#mutabilité"/>,</xr>
+                    <xr type="cf">transformation<ref target="#transformation"/></xr>.
                 </sense>  
                 <xr type="other_dictionaries">   
                     {<listRef>
@@ -4742,10 +4786,10 @@
                             (<citedRange unit="page">p. 157</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="opp">Opp. </lbl><xr type="opposite">immobilité<ref target="immobilité"/>;</xr>
-                    <lbl type="opp">Cfr. </lbl><xr type="opposite">continuité<ref target="continuité"/>;</xr>
-                    <xr type="opp">mouvement<ref target="mouvement"/>,</xr>
-                    <xr type="opp">transformation<ref target="transformation"/></xr>.
+                    <lbl type="opp">Opp. </lbl><xr type="opposite">immobilité<ref target="#immobilité"/>;</xr>
+                    <lbl type="opp">Cfr. </lbl><xr type="opposite">continuité<ref target="#continuité"/>;</xr>
+                    <xr type="opp">mouvement<ref target="#mouvement"/>,</xr>
+                    <xr type="opp">transformation<ref target="#transformation"/></xr>.
                 </sense>     
                 <xr type="other_dictionaries">
                     {<listRef>
@@ -4783,11 +4827,11 @@
                             (<citedRange unit="page">p. 152</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="cf">Cfr. </lbl><xr type="cf">ancien<ref target="ancien"/>;</xr>
-                    <xr type="cf">mort<ref target="mort"/>,</xr>
-                    <xr type="cf">organique<ref target="organique"/>,</xr>
-                    <xr type="cf">continuité<ref target="continuité"/>,</xr>
-                    <xr type="cf">vie de la langue<ref target="vie de la langue"/></xr>.
+                    <lbl type="cf">Cfr. </lbl><xr type="cf">ancien<ref target="#ancien"/>;</xr>
+                    <xr type="cf">mort<ref target="#mort"/>,</xr>
+                    <xr type="cf">organique<ref target="#organique"/>,</xr>
+                    <xr type="cf">continuité<ref target="#continuité"/>,</xr>
+                    <xr type="cf">vie de la langue<ref target="#vie de la langue"/></xr>.
                 </sense>
                 <xr type="other_dictionaries">
                     {<listRef>
@@ -6370,7 +6414,7 @@
                     <xr type="cf">succession<ref target="#succession"/>,</xr>
                     <xr type="cf">transition<ref target="#transition"/>,</xr>
                     <xr type="cf">vieux<ref target="#vieux"/>;</xr>
-                    occorre anche come <term xml:id="vie_du_langage">vie du langage</term><!--Come lo rendo?-->
+                    occorre anche come <term xml:id="vie_du_langage">vie du langage</term>
                 </sense>     
                 <xr type="other_dictionaries">
                     {<listRef>
