@@ -590,17 +590,6 @@
                         <pubPlace>Great Clarendon Street, Oxford, OX2 6DP</pubPlace>
                         <idno type="ISBN">978-0-19-926144-4</idno>
                         <citedRange unit="page" from="X" to="X">X-X</citedRange>
-                        <!--Fonte trascrizione francese-->
-                        <!--<relatedItem type="translatedFrom">
-                            <bibl>
-                                <author>Simon Bouquet</author>
-                                <author>Rudolf Engler</author>
-                                <author>Antoinette Weil</author>
-                                <title>Écrits de linguistique générale</title>.
-                                <publisher>Gallimard</publisher>
-                                <date>2002</date>
-                            </bibl>
-                        </relatedItem>-->
                         <note>
                             Traduzione inglese del manoscritto.
                         </note>
@@ -1289,7 +1278,7 @@
 
                     <!--Gaule-->
                     <place xml:id="Gaule">
-                        <placeName notAfter="451">Gallia</placeName>
+                        <placeName>Gallia</placeName>
                         <location>
                             <country key="FR"/>
                             <bloc>EU</bloc>
@@ -1311,6 +1300,24 @@
                             Uno stato principalmente situato nell'Europa occidentale, ma che
                             possiede ugualmente territori disseminati su più oceani e altri
                             continenti.
+                        </note>
+                    </place>
+
+                    <!--Ile-de-France-->
+                    <place xml:id="ile-de-fr">
+                        <placeName>Île-de-France</placeName>
+                        <country key="FR">France</country>
+                    </place>
+
+                    <!--Haiti-->
+                    <place xml:id="Haiti">
+                        <placeName>Haiti</placeName>
+                        <location>
+                            <country key="USA"/>
+                            <bloc>USA</bloc>
+                        </location>
+                        <note>
+                            L'isola di Hispaniola, di cui Haiti occupa la porzione più occidentale, era in origine abitata dagli indigeni taino e arauachi. Il 4 dicembre 1492 la Santa Maria, comandata da Cristoforo Colombo, sbarcò dove oggi sorge Môle-Saint-Nicolas: l'intera isola fu subito rivendicata a favore della Spagna.
                         </note>
                     </place>
 
@@ -1345,7 +1352,7 @@
 
             <editionStmt>
                 <edition n="DigitalEdition">Digital edition
-                    <date when="2022-07">July 2022</date>
+                    <date when="2022-11">November 2022</date>
                 </edition>
                 <respStmt>
                     <resp>Edizione digitale a cura di:</resp>
@@ -1360,8 +1367,7 @@
                 <publisher> CNR Pisa - Unical </publisher>
                 <date when="2022">2022</date>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY SA 4.0 </licence>
-                    
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY SA 4.0 </licence>                    
                 </availability>
             </publicationStmt>
 
@@ -1996,7 +2002,7 @@
                                 </bibl>
                             </cit>
                             <lbl type="syn">Sin.</lbl><xr type="synonym">analogie;<ref target="#analogie"/>;</xr>
-                            duale <xr type="duale">changement phonétique<ref target="#changement_analogique"/>;</xr>
+                            <lbl type="duale">duale</lbl><xr type="duale">changement phonétique<ref target="#changement_analogique"/>;</xr>
                             <lbl type="cf">Cfr.</lbl> <xr type="cf">création<ref target="#création"/>,</xr>
                             <lbl type="cf">Cfr.</lbl> <xr type="cf">transformation<ref target="#transformation"/></xr>.
                         </sense>
@@ -2041,7 +2047,7 @@
                             (<citedRange unit="page">p. 159</citedRange>)
                         </bibl>
                     </cit>
-                    Ant. <xr type="antonym">inconscience<ref target="#inconscience"/>;</xr>
+                    <lbl type="ant">Ant.</lbl> <xr type="antonym">inconscience<ref target="#inconscience"/>;</xr>
                     <lbl type="cf">Cfr.</lbl> <xr type="cf">intelligence<ref target="#intelligence"/>;</xr>
                     <xr type="cf">volonté<ref target="#volonté"/>,</xr>
                     Usato anche come aggettivo conscient
@@ -2084,7 +2090,7 @@
                             (<citedRange unit="page">p. 149</citedRange>)
                         </bibl>
                     </cit>
-                    Ant. <xr type="antonym">accidentel<ref target="#accidentel"/>;</xr>
+                    <lbl type="ant">Ant.</lbl> <xr type="antonym">accidentel<ref target="#accidentel"/>;</xr>
                     <lbl type="cf">Cfr.</lbl> <xr type="cf">langue<ref target="#langue"/>;</xr>
                 </sense>
             </entry>
@@ -2130,7 +2136,7 @@
                         <lbl type="opp">Opp.</lbl><xr type="opposite">fixité<ref target="#fixité"/>;</xr>
                         <lbl type="syn">Sin.</lbl> <xr type="synonym">ininterruption forcée<ref target="#ininterruption_forcée"/>;</xr>
                         <lbl type="alm-syn">quasi-sin.</lbl> <xr type="almost-synonym">tradition de la langue<ref target="#tradition_de_la_langue"/>;</xr>
-                        duale <xr type="duale">mutabilité<ref target="#tradition_de_la_langue"/>,</xr>
+                        <lbl type="duale">duale</lbl> <xr type="duale">mutabilité<ref target="#tradition_de_la_langue"/>,</xr>
                         <xr type="duale">transformation<ref target="#transformation"/>;</xr>
                         <lbl type="cf">Cfr.</lbl> <xr type="cf">état de langue<ref target="#état_de_langue"/>,</xr>
                         <xr type="cf">succession<ref target="#succession"/>,</xr>
@@ -2159,7 +2165,7 @@
                                 (<citedRange unit="page">p. 171</citedRange>)
                             </bibl>
                         </cit>
-                        Ant. <xr type="antonym">divergence<ref target="#divergence"/>;</xr>
+                        <lbl type="ant">Ant. </lbl><xr type="antonym">divergence<ref target="#divergence"/>;</xr>
                         <lbl type="cf">Cfr.</lbl> <xr type="cf">aire des faits linguistique<ref target="#aire_des_faits_linguistique"/>;</xr>
                         <xr type="cf">caractère dialectal<ref target="#caractère_dialectal"/>;</xr>
                         <xr type="cf">dialecte<ref target="#dialecte"/>;</xr>
@@ -4158,7 +4164,7 @@
                             (<citedRange unit="page">p. 149</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="duale">Duale </lbl><xr type="duale">histoire de la langue<ref target="histoire_de_la_langue"/>;</xr>
+                    <lbl type="duale">Duale </lbl><xr type="duale">histoire de la langue<ref target="#histoire_de_la_langue"/>;</xr>
                 </sense>
             </entry>
 
@@ -4227,7 +4233,7 @@
                             (<citedRange unit="page">p. 160</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="duale">Duale </lbl><xr type="duale">histoire de la langue<ref target="histoire_de_la_langue #linguiste"/>;</xr>
+                    <lbl type="duale">Duale </lbl><xr type="duale">histoire de la langue<ref target="#histoire_de_la_langue #linguiste"/>;</xr>
                 </sense>
             </entry>
 
@@ -4428,7 +4434,7 @@
                                 (<citedRange unit="page">p. 148</citedRange>)
                             </bibl>
                         </cit>
-                        <lbl type="opp">opp. </lbl><xr type="opp">fait<ref target="#fait"/></xr>
+                        <lbl type="opp">Opp. </lbl><xr type="opp">fait<ref target="#fait"/></xr>
                     </sense>
                     <sense n="b" xml:id="loi2">2. 
                         [<def>
@@ -4646,11 +4652,11 @@
                             (<citedRange unit="page">p. 154</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="cf">Cfr. </lbl><xr type="cf">ancien<ref target="ancien"/>,</xr>
-                    <xr type="cf">naissance de la langue<ref target="naissance de la langue"/>,</xr>
-                    <xr type="cf">organique<ref target="organique"/>,</xr>
-                    <xr type="cf">vieux<ref target="vieux"/>,</xr>
-                    <xr type="cf">vie de la langue<ref target="vie de la langue"/></xr>.
+                    <lbl type="cf">Cfr. </lbl><xr type="cf">ancien<ref target="#ancien"/>,</xr>
+                    <xr type="cf">naissance de la langue<ref target="#naissance de la langue"/>,</xr>
+                    <xr type="cf">organique<ref target="#organique"/>,</xr>
+                    <xr type="cf">vieux<ref target="#vieux"/>,</xr>
+                    <xr type="cf">vie de la langue<ref target="#vie de la langue"/></xr>.
                 </sense>     
             </entry>
 
@@ -4724,9 +4730,9 @@
                             (<citedRange unit="page">p. 157</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="cf">Cfr. </lbl><xr type="cf">continuité<ref target="continuité"/>,</xr>
-                    <xr type="cf">mutabilité<ref target="mutabilité"/>,</xr>
-                    <xr type="cf">transformation<ref target="transformation"/></xr>.
+                    <lbl type="cf">Cfr. </lbl><xr type="cf">continuité<ref target="#continuité"/>,</xr>
+                    <xr type="cf">mutabilité<ref target="#mutabilité"/>,</xr>
+                    <xr type="cf">transformation<ref target="#transformation"/></xr>.
                 </sense>  
                 <xr type="other_dictionaries">   
                     {<listRef>
@@ -4763,10 +4769,10 @@
                             (<citedRange unit="page">p. 157</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="opp">Opp. </lbl><xr type="opposite">immobilité<ref target="immobilité"/>;</xr>
-                    <lbl type="opp">Cfr. </lbl><xr type="opposite">continuité<ref target="continuité"/>;</xr>
-                    <xr type="opp">mouvement<ref target="mouvement"/>,</xr>
-                    <xr type="opp">transformation<ref target="transformation"/></xr>.
+                    <lbl type="opp">Opp. </lbl><xr type="opposite">immobilité<ref target="#immobilité"/>;</xr>
+                    <lbl type="opp">Cfr. </lbl><xr type="opposite">continuité<ref target="#continuité"/>;</xr>
+                    <xr type="opp">mouvement<ref target="#mouvement"/>,</xr>
+                    <xr type="opp">transformation<ref target="#transformation"/></xr>.
                 </sense>     
                 <xr type="other_dictionaries">
                     {<listRef>
@@ -4804,11 +4810,11 @@
                             (<citedRange unit="page">p. 152</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="cf">Cfr. </lbl><xr type="cf">ancien<ref target="ancien"/>;</xr>
-                    <xr type="cf">mort<ref target="mort"/>,</xr>
-                    <xr type="cf">organique<ref target="organique"/>,</xr>
-                    <xr type="cf">continuité<ref target="continuité"/>,</xr>
-                    <xr type="cf">vie de la langue<ref target="vie de la langue"/></xr>.
+                    <lbl type="cf">Cfr. </lbl><xr type="cf">ancien<ref target="#ancien"/>;</xr>
+                    <xr type="cf">mort<ref target="#mort"/>,</xr>
+                    <xr type="cf">organique<ref target="#organique"/>,</xr>
+                    <xr type="cf">continuité<ref target="#continuité"/>,</xr>
+                    <xr type="cf">vie de la langue<ref target="#vie de la langue"/></xr>.
                 </sense>
                 <xr type="other_dictionaries">
                     {<listRef>
@@ -6391,7 +6397,7 @@
                     <xr type="cf">succession<ref target="#succession"/>,</xr>
                     <xr type="cf">transition<ref target="#transition"/>,</xr>
                     <xr type="cf">vieux<ref target="#vieux"/>;</xr>
-                    occorre anche come <term xml:id="vie_du_langage">vie du langage</term><!--Come lo rendo?-->
+                    occorre anche come <term xml:id="vie_du_langage">vie du langage</term>
                 </sense>     
                 <xr type="other_dictionaries">
                     {<listRef>
