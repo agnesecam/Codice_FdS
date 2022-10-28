@@ -2824,7 +2824,7 @@
                             (<citedRange unit="page">p. 149</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="duale">Duale </lbl><xr type="duale">histoire de la langue<ref target="histoire_de_la_langue"/>;</xr>
+                    <lbl type="duale">Duale </lbl><xr type="duale">histoire de la langue<ref target="#histoire_de_la_langue"/>;</xr>
                 </sense>
             </entry>
 
@@ -2893,7 +2893,7 @@
                             (<citedRange unit="page">p. 160</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="duale">Duale </lbl><xr type="duale">histoire de la langue<ref target="histoire_de_la_langue #linguiste"/>;</xr>
+                    <lbl type="duale">Duale </lbl><xr type="duale">histoire de la langue<ref target="#histoire_de_la_langue #linguiste"/>;</xr>
                 </sense>
             </entry>
 
@@ -3312,11 +3312,11 @@
                             (<citedRange unit="page">p. 154</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="cf">Cfr. </lbl><xr type="cf">ancien<ref target="ancien"/>,</xr>
-                    <xr type="cf">naissance de la langue<ref target="naissance de la langue"/>,</xr>
-                    <xr type="cf">organique<ref target="organique"/>,</xr>
-                    <xr type="cf">vieux<ref target="vieux"/>,</xr>
-                    <xr type="cf">vie de la langue<ref target="vie de la langue"/></xr>.
+                    <lbl type="cf">Cfr. </lbl><xr type="cf">ancien<ref target="#ancien"/>,</xr>
+                    <xr type="cf">naissance de la langue<ref target="#naissance de la langue"/>,</xr>
+                    <xr type="cf">organique<ref target="#organique"/>,</xr>
+                    <xr type="cf">vieux<ref target="#vieux"/>,</xr>
+                    <xr type="cf">vie de la langue<ref target="#vie de la langue"/></xr>.
                 </sense>     
             </entry>
 
@@ -3391,8 +3391,8 @@
                         </bibl>
                     </cit>
                     <lbl type="cf">Cfr. </lbl><xr type="cf">continuité<ref target="#continuité"/>,</xr>
-                    <xr type="cf">mutabilité<ref target="mutabilité"/>,</xr>
-                    <xr type="cf">transformation<ref target="transformation"/></xr>.
+                    <xr type="cf">mutabilité<ref target="#mutabilité"/>,</xr>
+                    <xr type="cf">transformation<ref target="#transformation"/></xr>.
                 </sense>  
                 <xr type="other_dictionaries">   
                     {<listRef>
@@ -3431,8 +3431,8 @@
                     </cit>
                     <lbl type="opp">Opp. </lbl><xr type="opposite">immobilité<ref target="#immobilité"/>;</xr>
                     <lbl type="opp">Cfr. </lbl><xr type="opposite">continuité<ref target="#continuité"/>;</xr>
-                    <xr type="opp">mouvement<ref target="mouvement"/>,</xr>
-                    <xr type="opp">transformation<ref target="transformation"/></xr>.
+                    <xr type="opp">mouvement<ref target="#mouvement"/>,</xr>
+                    <xr type="opp">transformation<ref target="#transformation"/></xr>.
                 </sense>     
                 <xr type="other_dictionaries">
                     {<listRef>
@@ -3470,8 +3470,8 @@
                             (<citedRange unit="page">p. 152</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="cf">Cfr. </lbl><xr type="cf">ancien<ref target="ancien"/>;</xr>
-                    <xr type="cf">mort<ref target="mort"/>,</xr>
+                    <lbl type="cf">Cfr. </lbl><xr type="cf">ancien<ref target="#ancien"/>;</xr>
+                    <xr type="cf">mort<ref target="#mort"/>,</xr>
                     <xr type="cf">organique<ref target="#organique"/>,</xr>
                     <xr type="cf">continuité<ref target="#continuité"/>,</xr>
                     <xr type="cf">vie de la langue<ref target="#vie de la langue"/></xr>.
