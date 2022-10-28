@@ -301,7 +301,7 @@
                         <pb n="f1r" xml:id="body_p26" facs="#scan_p26"/>
                         <!--Numeri impaginazione a stampa e a mano-->
                         <ab>
-                            <fw type="pageNum" xml:id="HandPageNumber-26" rend="align(left)" facs="#facs_HandPageNumber-26"> 26 </fw>
+                            <fw type="pageNum" xml:id="HandPageNumber-26" rend="align(left)" facs="#facs_HandPageNumber-26"> 26. </fw>
                         </ab>
                         <div xml:id="div_p26_fr" hand="#h1" type="box_testo" >
                             <ab xml:id="pericope_91Aaaa083" n="83" xml:lang="FR" corresp="#it_91Aaaa083 #en_91Aaaa083" facs="#facs_pericope_91Aaaa083" >
@@ -382,7 +382,7 @@
                     <body source="#Fadda2006" resp="#EF" xml:id="body-italiano">
                         <div xml:id="div_p25_it" hand="#h1" type="box_testo_it">
                             <ab xml:id="it_91Aaaa083" corresp="#pericope_91Aaaa083" xml:lang="IT">
-                                Che si può dire, in base a ciò che si è sostenuto,
+                                <lb/>Che si può dire, in base a ciò che si è sostenuto,
                                 <lb/>della nascita e della morte delle lingue, che
                                 <lb/>rivestono un ruolo importante in ciò che di esse si
                                 <lb/>dice a questo mondo?
