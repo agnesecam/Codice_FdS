@@ -707,7 +707,7 @@
                             (<citedRange unit="page">p. 159</citedRange>)
                         </bibl>
                     </cit>
-                    Ant. <xr type="antonym">inconscience<ref target="#inconscience"/>;</xr>
+                    <lbl type="ant">Ant.</lbl> <xr type="antonym">inconscience<ref target="#inconscience"/>;</xr>
                     <lbl type="cf">Cfr.</lbl> <xr type="cf">intelligence<ref target="#intelligence"/>;</xr>
                     <xr type="cf">volonté<ref target="#volonté"/>,</xr>
                     Usato anche come aggettivo conscient
@@ -750,7 +750,7 @@
                             (<citedRange unit="page">p. 149</citedRange>)
                         </bibl>
                     </cit>
-                    Ant. <xr type="antonym">accidentel<ref target="#accidentel"/>;</xr>
+                    <lbl type="ant">Ant.</lbl> <xr type="antonym">accidentel<ref target="#accidentel"/>;</xr>
                     <lbl type="cf">Cfr.</lbl> <xr type="cf">langue<ref target="#langue"/>;</xr>
                 </sense>
             </entry>
@@ -3094,7 +3094,7 @@
                                 (<citedRange unit="page">p. 148</citedRange>)
                             </bibl>
                         </cit>
-                        <lbl type="opp">opp. </lbl><xr type="opp">fait<ref target="#fait"/></xr>
+                        <lbl type="opp">Opp. </lbl><xr type="opp">fait<ref target="#fait"/></xr>
                     </sense>
                     <sense n="b" xml:id="loi2">2. 
                         [<def>
@@ -5057,7 +5057,7 @@
                     <xr type="cf">succession<ref target="#succession"/>,</xr>
                     <xr type="cf">transition<ref target="#transition"/>,</xr>
                     <xr type="cf">vieux<ref target="#vieux"/>;</xr>
-                    occorre anche come <term xml:id="vie_du_langage">vie du langage</term><!--Come lo rendo?-->
+                    occorre anche come <term xml:id="vie_du_langage">vie du langage</term>
                 </sense>     
                 <xr type="other_dictionaries">
                     {<listRef>
