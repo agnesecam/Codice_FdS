@@ -23,19 +23,12 @@
                     <date when="2022">2022</date>
                 </edition>
                 <respStmt>
-                    <resp>Edizione digitale coordinata da:</resp> 
-                    <name ref="#AMDG">Angelo Mario Del Grosso</name>
+                    <resp>Codifica a cura di:</resp> 
                     <name ref="#AC">Agnese Camici</name>
-                    <name ref="#SP">Silvia Piccini</name>
-                    <name ref="#EF">Emanuele Fadda</name>
-                    <name ref="#DG">Daniele Gambarara</name>
-                    <name ref="#GC">Giuseppe Cosenza</name>
-                    <name ref="#GD">Giuseppe D'Ottavi</name>
                 </respStmt>
                 <respStmt>
-                    <resp>Responsabilità della codifica:</resp>
+                    <resp>Supervisione della codifica:</resp>
                     <name ref="#AMDG">Angelo Mario Del Grosso</name>
-                    <name ref="#AC">Agnese Camici</name>
                     <name ref="#SP">Silvia Piccini</name>
                     <name ref="#GC">Giuseppe Cosenza</name>
                 </respStmt>        
