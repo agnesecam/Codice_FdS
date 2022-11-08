@@ -3,7 +3,7 @@
 <!DOCTYPE TEI SYSTEM "tei-all.dtd">
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <teiHeader>
+        <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title type="main">Trois premières conférences à l'Université</title> 
@@ -37,8 +37,7 @@
             <publicationStmt> 
 				<publisher> CNR Pisa - Unical </publisher>
 				<availability>
-					<licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY SA 4.0 </licence>
-                    
+					<licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY SA 4.0 </licence>                    
 				</availability>
                 <date when="2022">2022</date>
 			</publicationStmt>
@@ -108,9 +107,7 @@
                     </physDesc>
                     <history>
                         <origin ana="#pag1_note2">
-                            Première conférence <origDate when="1891-11-06" cert="high">06/11/1891</origDate>
-                            Deuxième conférence <origDate when="1891-11-10" cert="high">10/11/1891</origDate>
-                            Troisième conférence <origDate when="1891-11-13" cert="low" source="#Bouquet-Engler2002">13/11/1891</origDate>
+                            <origDate notfter="1891-11-06" notBefore="1891-06" cert="high">giugno-novembre 1891</origDate>
                             <origPlace>Ginevra</origPlace>
                         </origin>
                     </history>

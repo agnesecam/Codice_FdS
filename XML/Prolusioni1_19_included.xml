@@ -35,8 +35,7 @@
             <publicationStmt> 
 				<publisher> CNR Pisa - Unical </publisher>
 				<availability>
-					<licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY SA 4.0 </licence>
-                    
+					<licence target="https://creativecommons.org/licenses/by/4.0/"> CC-BY SA 4.0 </licence>                    
 				</availability>
                 <date when="2022">2022</date>
 			</publicationStmt>
@@ -75,7 +74,7 @@
                             <title xml:lang="fr">Trois premières conférences à l'Université</title>
                             <title type="sub">Troisième conférence</title>
                             <note>                            
-                                <date notAfter="1891-11-13" confidence="0.7" evidence="external" source="#Journal_de_Genève #Le_Genevois">13/11/1891</date>
+                                <date notAfter="1891-11-13" confidence="0.8" evidence="external" source="#Journal_de_Genève #Le_Genevois">13/11/1891</date>
                                 <date notAfter="1891-11-17" confidence="0.8" evidence="external" source="#Journal_de_Genève #Le_Genevois">17/11/1891</date>
                             </note>
                             <textLang mainLang="fr">Francese</textLang>
@@ -106,15 +105,14 @@
                     </physDesc>
                     <history>
                         <origin ana="#pag1_note2">
-                            Première conférence <origDate when="1891-11-06" cert="high">06/11/1891</origDate>
-                            Deuxième conférence <origDate when="1891-11-10" cert="high">10/11/1891</origDate>
-                            Troisième conférence <origDate when="1891-11-13" cert="low" source="#Bouquet-Engler2002">13/11/1891</origDate>
+                            <origDate notfter="1891-11-06" notBefore="1891-06" cert="high">giugno-novembre 1891</origDate>
                             <origPlace>Ginevra</origPlace>
                         </origin>
                     </history>
                     <additional>
                         <surrogates>
-                            <ptr target="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef"/>                            
+                            <ptr target="https://archives.bge-geneve.ch/ark:/17786/vtae78f994bf3242bef"/>
+                            
                         </surrogates>
                     </additional>                    
                 </msDesc>

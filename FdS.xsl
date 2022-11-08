@@ -358,9 +358,8 @@
         <div id="date_di_composizione">
             <b>COMPOSIZIONE</b><br/>
             <b>Date di composizione </b>            
-            <xsl:apply-templates select="//tei:origin/tei:origDate[1]" /> Première conférence - 
-            <xsl:apply-templates select="//tei:origin/tei:origDate[2]" /> Deuxième conférence - 
-            <xsl:apply-templates select="//tei:origin/tei:origDate[3]" /> Troisième conférence<br/>
+            Approssimativamente <xsl:apply-templates select="//tei:origin/tei:origDate" />
+            <br/>
             <b>Luogo </b><xsl:apply-templates select="//tei:origin//tei:origPlace" /><br/>
         </div><br/>
     </xsl:template>
