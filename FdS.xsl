@@ -254,26 +254,26 @@
                             type: "xml"
                         }).then(doc => {
 
-                        const publisher = SaxonJS.XPath.evaluate(
-                            "//*[local-name()='TEI']/*[local-name()='teiHeader']/*[local-name()='fileDesc']/*[local-name()='publicationStmt']/*[local-name()='publisher']/text()",
-                            doc,                                
-                        );
-                        const output1 = SaxonJS.serialize(publisher, {method: "xml", indent: true, "omit-xml-declaration":true});
-                        document.getElementById("publisher").innerHTML = output1;
+                            const publisher = SaxonJS.XPath.evaluate(
+                                "//*[local-name()='TEI']/*[local-name()='teiHeader']/*[local-name()='fileDesc']/*[local-name()='publicationStmt']/*[local-name()='publisher']/text()",
+                                doc,                                
+                            );
+                            const output1 = SaxonJS.serialize(publisher, {method: "xml", indent: true, "omit-xml-declaration":true});
+                            document.getElementById("publisher").innerHTML = output1;
 
-                        const licence = SaxonJS.XPath.evaluate(
-                            "//*[local-name()='TEI']/*[local-name()='teiHeader']/*[local-name()='fileDesc']/*[local-name()='publicationStmt']/*[local-name()='availability']/*[local-name()='licence']/text()",
-                            doc,                                
-                        );
-                        const output2 = SaxonJS.serialize(licence, {method: "xml", indent: true, "omit-xml-declaration":true});
-                        document.getElementById("licence").innerHTML = output2;
+                            const licence = SaxonJS.XPath.evaluate(
+                                "//*[local-name()='TEI']/*[local-name()='teiHeader']/*[local-name()='fileDesc']/*[local-name()='publicationStmt']/*[local-name()='availability']/*[local-name()='licence']/text()",
+                                doc,                                
+                            );
+                            const output2 = SaxonJS.serialize(licence, {method: "xml", indent: true, "omit-xml-declaration":true});
+                            document.getElementById("licence").innerHTML = output2;
 
-                        const date = SaxonJS.XPath.evaluate(
-                            "//*[local-name()='TEI']/*[local-name()='teiHeader']/*[local-name()='fileDesc']/*[local-name()='publicationStmt']/*[local-name()='date']/text()",
-                            doc,                                
-                        );
-                        const output3 = SaxonJS.serialize(date, {method: "xml", indent: true, "omit-xml-declaration":true});
-                        document.getElementById("date").innerHTML = output3;                            
+                            const date = SaxonJS.XPath.evaluate(
+                                "//*[local-name()='TEI']/*[local-name()='teiHeader']/*[local-name()='fileDesc']/*[local-name()='publicationStmt']/*[local-name()='date']/text()",
+                                doc,                                
+                            );
+                            const output3 = SaxonJS.serialize(date, {method: "xml", indent: true, "omit-xml-declaration":true});
+                            document.getElementById("date").innerHTML = output3;                            
                         
                         })
                     </script>
