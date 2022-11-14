@@ -517,6 +517,22 @@
             <div type="biblCompleta">
                 <listBibl>
                 
+                    <!--Dalle parole ai termini-->
+                    <bibl xml:id="Prolusioni_Ginevrine">
+                        <title type="main">Dalle parole ai termini</title>
+                        <title type="sub">I percorsi di pensiero di F. de Saussure</title>
+                        <author role="author">
+                            <persName ref="#GC">
+                                <forename>Giuseppe</forename>
+                                <surname>Cosenza</surname>
+                            </persName>
+                        </author>
+                        <date when="2016-12">2016</date>
+                        <publisher>Edizioni dell'Orso</publisher>
+                        <pubPlace>Alessandria</pubPlace>
+                        <idno type="ISBN">978-88-6274-728-8</idno>
+                    </bibl>
+
                     <!--Bouquet-Engler2002-->
                     <bibl xml:id="Bouquet-Engler2002"> 
                         <title>Écrits de linguistique générale</title>
@@ -549,29 +565,26 @@
                         <pubPlace>Paris</pubPlace>
                         <idno type="ISSN">0302-5160</idno>
                         <citedRange unit="page" from="143" to="172">143-172</citedRange>
-                        <note>
-                            Trascrizione del manoscritto.
-                        </note>
                     </bibl>
 
-                    <!--E.Fadda 2006-->
-                    <bibl xml:id="Fadda2006">
-                        <title type="main">Lingua e mente sociale</title>
-                        <title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
-                        <author>
-                            <persName ref="#EF">
-                                <forename>Emanuele</forename>
-                                <surname>Fadda</surname>
+                    <!--Cours de linguistique générale édition critique par R. Engler-->
+                    <bibl xml:id="CdLG_ECPRE">
+                        <title type="main">Cours de Linguistique Générale, édition critique par Rudolph Engler</title>
+                        <author role="author">
+                            <persName ref="#FdS">
+                                <forename>Ferdinand</forename>
+                                <surname>De Saussure</surname>
                             </persName>
-                        </author>  
-                        <date when="2006">2006</date>
-                        <publisher>Bonanno Editore</publisher>
-                        <pubPlace>Acireale - Roma</pubPlace>
-                        <citedRange unit="page" from="85" to="121">85-121</citedRange>                        
-                        <idno type="ISBN">887796276-3</idno>
-                        <note>
-                            Traduzione italiana del manoscritto.
-                        </note>
+                        </author>                        
+                        <author role="author">
+                            <persName ref="#RE">
+                                <forename>Rudolf</forename>
+                                <surname>Engler</surname>
+                            </persName>
+                        </author>
+                        <date from="1968" to="1974">1968-1974</date>
+                        <publisher>Otto Harrassowitz</publisher>
+                        <pubPlace>Wiesbaden</pubPlace>
                     </bibl>
 
                     <!--Writings in General Linguistics-->
@@ -609,7 +622,55 @@
                         <note>
                             Traduzione inglese del manoscritto.
                         </note>
+                    </bibl>                    
+
+                    <!--E.Fadda 2006-->
+                    <bibl xml:id="Fadda2006">
+                        <title type="main">Lingua e mente sociale</title>
+                        <title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
+                        <author>
+                            <persName ref="#EF">
+                                <forename>Emanuele</forename>
+                                <surname>Fadda</surname>
+                            </persName>
+                        </author>  
+                        <date when="2006">2006</date>
+                        <publisher>Bonanno Editore</publisher>
+                        <pubPlace>Acireale - Roma</pubPlace>
+                        <citedRange unit="page" from="85" to="121">85-121</citedRange>                        
+                        <idno type="ISBN">887796276-3</idno>
+                        <note>
+                            Traduzione italiana del manoscritto.
+                        </note>
                     </bibl>
+
+                    <!--La linguistique - Hovelacque, Abel-->
+                    <bibl xml:id="LL-Hovelacque">
+                        <title type="main">La linguistique</title>
+                        <author role="author">
+                            <persName>
+                                <forename>Abel</forename>
+                                <surname>Hovelacque</surname>
+                            </persName>
+                        </author>
+                        <date when="1911">1911</date>
+                        <publisher>Schleicher</publisher>
+                        <pubPlace>Paris</pubPlace>
+                        <idno type="OCLC">797026595</idno>
+                    </bibl>       
+
+                    <!--Le Genevois-->
+                    <bibl xml:id="Le_Genevois">
+                        <title type="main">Le Genevois</title>
+                        <date when="1891">1981</date>
+                        <pubPlace>Genève</pubPlace>
+                        <note>
+                            Fonte utilizzata da Chidichimo nel suo articolo all'interno dei Cahiers Ferdinand de Saussure.
+                        </note>
+                        <note>
+                            Archivio storico, consultabile presso la Salle des périodiques della Bibliothèque de Genève.
+                        </note>
+                    </bibl> 
 
                     <!--Journal de Genève-->
                     <bibl xml:id="Journal_de_Genève">
@@ -632,50 +693,6 @@
                             Disponibile online al link <ptr target="https://www.letempsarchives.ch/page/JDG_1931_05_07/1"/> https://www.letempsarchives.ch/page/JDG_1931_05_07/1
                         </note>
                     </bibl>
-
-                    <!--Le Genevois-->
-                    <bibl xml:id="Le_Genevois">
-                        <title type="main">Le Genevois</title>
-                        <date when="1891">1981</date>
-                        <pubPlace>Genève</pubPlace>
-                        <note>
-                            Fonte utilizzata da Chidichimo nel suo articolo all'interno dei Cahiers Ferdinand de Saussure.
-                        </note>
-                        <note>
-                            Archivio storico, consultabile presso la Salle des périodiques della Bibliothèque de Genève.
-                        </note>
-                    </bibl>
-
-                    <!--Dalle parole ai termini-->
-                    <bibl xml:id="Prolusioni_Ginevrine">
-                        <title type="main">Dalle parole ai termini</title>
-                        <title type="sub">I percorsi di pensiero di F. de Saussure</title>
-                        <author ref="#GC" role="author">
-                            <persName>
-                                <forename>Giuseppe</forename>
-                                <surname>Cosenza</surname>
-                            </persName>
-                        </author>
-                        <date when="2016-12">2016</date>
-                        <publisher>Edizioni dell'Orso</publisher>
-                        <pubPlace>Alessandria</pubPlace>
-                        <idno type="ISBN">978-88-6274-728-8</idno>
-                    </bibl>
-
-                    <!--La linguistique - Hovelacque, Abel-->
-                    <bibl xml:id="LL-Hovelacque">
-                        <title type="main">La linguistique</title>
-                        <author role="author">
-                            <persName>
-                                <forename>Abel</forename>
-                                <surname>Hovelacque</surname>
-                            </persName>
-                        </author>
-                        <date when="1911">1911</date>
-                        <publisher>Schleicher</publisher>
-                        <pubPlace>Paris</pubPlace>
-                        <idno type="OCLC">797026595</idno>
-                    </bibl>                    
                 </listBibl>
             </div>
         </back>
