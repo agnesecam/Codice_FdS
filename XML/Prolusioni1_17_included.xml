@@ -2188,7 +2188,7 @@
                         </cit>
                         <lbl type="opp">Opp.</lbl><xr type="opposite">fixité<ref target="#fixité"/>;</xr>
                         <lbl type="syn">Sin.</lbl> <xr type="synonym">ininterruption forcée<ref target="#ininterruption_forcée"/>;</xr>
-                        <lbl type="alm-syn">quasi-sin.</lbl> <xr type="almost-synonym">tradition de la langue<ref target="#tradition_de_la_langue"/>;</xr>
+                        <lbl type="near-syn">quasi-sin.</lbl> <xr type="near-synonym">tradition de la langue<ref target="#tradition_de_la_langue"/>;</xr>
                         <lbl type="duale">duale</lbl> <xr type="duale">mutabilité<ref target="#tradition_de_la_langue"/>,</xr>
                         <xr type="duale">transformation<ref target="#transformation"/>;</xr>
                         <lbl type="cf">Cfr.</lbl> <xr type="cf">état de langue<ref target="#état_de_langue"/>,</xr>
@@ -2370,7 +2370,7 @@
                         </bibl>
                     </cit>
                     Syn. <xr type="synonym">innovation<ref target="#innovation"/>;</xr>
-                    quasi- sin. <xr type="almost-synonym">transformation;</xr>
+                    quasi- sin. <xr type="near-synonym">transformation;</xr>
                     <lbl type="cf">Cfr.</lbl> <xr type="cf">analogie<ref target="#analogie"/>,</xr>
                     <xr type="cf">changement analogique<ref target="#changement analogique"/></xr>
                 </sense>
@@ -2592,7 +2592,7 @@
                             (<citedRange unit="page">p. 169</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="alm-syn">Quasi-sin.</lbl> <xr type="almost-synonym">isolation linguistique<ref target="#isolation_linguistique"/>,</xr>
+                    <lbl type="near-syn">Quasi-sin.</lbl> <xr type="near-synonym">isolation linguistique<ref target="#isolation_linguistique"/>,</xr>
                 </sense>
                 <xr type="other_dictionaries">
                     {<listRef>
@@ -2847,7 +2847,7 @@
                             (<citedRange unit="page">p. 160</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="alm-syn">Quasi-sin.</lbl> <xr type="almost-synonym">terme2<ref target="#terme2"/></xr>.             
+                    <lbl type="near-syn">Quasi-sin.</lbl> <xr type="near-synonym">terme2<ref target="#terme2"/></xr>.             
                 </sense>
                 <xr type="other_dictionaries">
                     {<listRef>
@@ -2969,7 +2969,7 @@
                             (<citedRange unit="page">p. 151</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="alm-syn">Quasi-sin.</lbl> <xr type="almost-synonym">distance géographique<ref target="#distance_géographique"/></xr>.
+                    <lbl type="near-syn">Quasi-sin.</lbl> <xr type="near-synonym">distance géographique<ref target="#distance_géographique"/></xr>.
                 </sense>
                 <xr type="other_dictionaries">
                     {<listRef>
@@ -3942,7 +3942,7 @@
                             (<citedRange unit="page">p. 169</citedRange>);
                         </bibl>
                     </cit>
-                    <lbl type="alm-syn">Quasi-sin. </lbl><xr type="almost-synonim">discontinuité<ref target="#discontinuité"/>;</xr>
+                    <lbl type="near-syn">Quasi-sin. </lbl><xr type="near-synonim">discontinuité<ref target="#discontinuité"/>;</xr>
                 </sense>
             </entry>
 
@@ -5992,7 +5992,7 @@
                             (<citedRange unit="page">p. 152</citedRange>)
                         </bibl>
                     </cit> 
-                    <lbl type="alm-syn">Quasi-sin.</lbl> <xr type="almost-synonym">transition<ref target="#transition"/>,</xr>
+                    <lbl type="near-syn">Quasi-sin.</lbl> <xr type="near-synonym">transition<ref target="#transition"/>,</xr>
                     <lbl type="opp">Opp.</lbl><xr type="opposite">saut<ref target="#saut"/>,</xr>
                     <lbl type="opp">Cfr.</lbl> <xr type="cf">continuité<ref target="#continuité"/>,</xr>
                     <xr type="cf">état de langue<ref target="#état_de_langue"/>,</xr>
@@ -6129,7 +6129,7 @@
                             </bibl>
                         </cit> 
                     </sense>
-                    <lbl type="alm-syn">Quasi sin. </lbl><xr type="almost-synonym">élément<ref target="#élément"/>;</xr>                          
+                    <lbl type="near-syn">Quasi sin. </lbl><xr type="near-synonym">élément<ref target="#élément"/>;</xr>                          
                 </sense>
                 <xr type="other_dictionaries">  
                     {<listRef>
@@ -6215,7 +6215,7 @@
                         </bibl>
                     </cit>
                 </sense>   
-                <lbl type="alm-syn">Quasi-sin. </lbl><xr type="almost-synonym">continuité1<ref target="#continuité1"/>.</xr>  
+                <lbl type="near-syn">Quasi-sin. </lbl><xr type="near-synonym">continuité1<ref target="#continuité1"/>.</xr>  
             </entry>
 
             <entry xml:id="transformation">
@@ -6303,8 +6303,8 @@
                             (<citedRange unit="page">p. 160</citedRange>)
                         </bibl>
                     </cit>
-                    <lbl type="alm-syn">Quasi-sin. di</lbl><xr type="almost-synonym">création<ref target="#création"/>,</xr>
-                    <xr type="almost-synonym">changement analogique<ref target="#changement_analogique"/>;</xr>
+                    <lbl type="near-syn">Quasi-sin. di</lbl><xr type="near-synonym">création<ref target="#création"/>,</xr>
+                    <xr type="near-synonym">changement analogique<ref target="#changement_analogique"/>;</xr>
                     <lbl type="cf">Cfr. </lbl><xr type="cf">analogie<ref target="#analogie"/></xr>
                 </sense>     
             </entry>
@@ -6335,7 +6335,7 @@
                         </bibl>
                     </cit>
                     <lbl type="opp">Opp.</lbl><xr type="opposite">saut<ref target="#saut"/>;</xr>
-                    <lbl type="alm-syn">quasi-sin. di </lbl><xr type="almost-synonym">succession<ref target="#succession"/>;</xr>
+                    <lbl type="near-syn">quasi-sin. di </lbl><xr type="near-synonym">succession<ref target="#succession"/>;</xr>
                     <lbl type="cf">Cfr. </lbl><xr type="cf">continuité<ref target="#continuité"/>,</xr>
                     <xr type="cf">état de langue<ref target="#état_de_langue"/>,</xr>
                     <xr type="cf">vie de la langue<ref target="#vie_de_la_langue"/></xr>.
